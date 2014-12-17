@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 16:44+0100\n"
+"PO-Revision-Date: 2014-12-17 22:11+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -79,10 +79,6 @@ msgstr ""
 ">; Enregistrer) pour enregistrer le document sans titre qui occupe l'espace "
 "de travail. Qucs vous demandera de baptiser ce nouveau fichier. Saisissez « "
 "premierschema » puis cliquez sur « Ok »."
-
-#: ../../source/start.rst:37
-msgid "|image0|"
-msgstr ""
 
 #: ../../source/start.rst:39
 msgid "Figure 1 - Qucs main window"
@@ -186,3 +182,7 @@ msgstr ""
 "Divide ». Double-cliquez dessus, il se copie dans la partie droite. Validez "
 "avec « OK ». Maintenant, devant vos yeux ébahis, vous lisez : 0,6666667 V. "
 "Quelle puissance !"
+
+#: ../../source/start.rst:37
+msgid "|image0_EN|"
+msgstr "|image0_FR|"

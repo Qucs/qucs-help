@@ -152,3 +152,8 @@ commands are shown in the following list:
 .. |image1_ES| image:: _static/es/wire.png
 .. |image2_ES| image:: _static/es/paste.png
 .. |image3_ES| image:: _static/es/contab.png
+
+.. |image0_FR| image:: _static/fr/select.png
+.. |image1_FR| image:: _static/fr/wire.png
+.. |image2_FR| image:: _static/fr/paste.png
+.. |image3_FR| image:: _static/fr/contab.png

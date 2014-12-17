@@ -97,3 +97,5 @@ equations would be like this:
 .. |image0_CS| image:: _static/cs/subcircuit.png
 
 .. |image0_ES| image:: _static/es/subcircuit.png
+
+.. |image0_FR| image:: _static/fr/subcircuit.png

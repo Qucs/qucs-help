@@ -1,14 +1,17 @@
 #
 msgid ""
-msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr ""
+"Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-12-17 22:13+0100\n"
+"Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.6.7\n"
 
 #: ../../source/short.rst:3
 msgid "Short Description of Actions"
@@ -27,8 +30,9 @@ msgid "mouse wheel"
 msgstr ""
 
 #: ../../source/short.rst:11
-msgid "Scrolls vertically the drawing area. You can also scroll outside the current"
-" size."
+msgid ""
+"Scrolls vertically the drawing area. You can also scroll outside the current "
+"size."
 msgstr ""
 
 #: ../../source/short.rst:13
@@ -36,7 +40,8 @@ msgid "mouse wheel + Shift Button"
 msgstr "roulette + Shift T"
 
 #: ../../source/short.rst:13
-msgid "Scrolls horizontally the drawing area. You can also scroll outside the "
+msgid ""
+"Scrolls horizontally the drawing area. You can also scroll outside the "
 "current size."
 msgstr ""
 
@@ -60,10 +65,6 @@ msgstr ""
 msgid "\"Select\"-Mode"
 msgstr "bouton gauche S"
 
-#: ../../source/short.rst:25
-msgid "|image0|"
-msgstr ""
-
 #: ../../source/short.rst:27
 msgid "(Menu: Edit->Select)"
 msgstr ""
@@ -74,19 +75,20 @@ msgid "left mouse button"
 msgstr "clic droit P"
 
 #: ../../source/short.rst:30
-msgid "Selects the element below the mouse cursor. If several components are placed"
-" there, you can clicking several times in order to select the wanted one. "
-"Keeping the mouse button pressed, you can move the component below the mouse"
-" cursor and all selected ones. If you want to fine position the components, "
-"press the CTRL key during moving and the grid is disabled. Keeping the mouse"
-" button pressed without any element below it opens a rectangle. After "
-"releasing the mouse button, all elements within this rectangle are selected."
-" A selected diagram or painting can be resized by pressing the left mouse "
+msgid ""
+"Selects the element below the mouse cursor. If several components are placed "
+"there, you can clicking several times in order to select the wanted one. "
+"Keeping the mouse button pressed, you can move the component below the mouse "
+"cursor and all selected ones. If you want to fine position the components, "
+"press the CTRL key during moving and the grid is disabled. Keeping the mouse "
+"button pressed without any element below it opens a rectangle. After "
+"releasing the mouse button, all elements within this rectangle are selected. "
+"A selected diagram or painting can be resized by pressing the left mouse "
 "button over one of its corners and moving by keeping the button pressed. "
-"After clicking on a component text, it can be edited directly. The enter key"
-" jumps to the next property. If the property is a selection list, it can "
-"only be changed with the cursor up/down keys. Clicking on a circuit node "
-"enters the \"wire mode\"."
+"After clicking on a component text, it can be edited directly. The enter key "
+"jumps to the next property. If the property is a selection list, it can only "
+"be changed with the cursor up/down keys. Clicking on a circuit node enters "
+"the \"wire mode\"."
 msgstr ""
 
 #: ../../source/short.rst:37
@@ -94,7 +96,8 @@ msgid "left mouse button + Ctrl Button"
 msgstr ""
 
 #: ../../source/short.rst:37
-msgid "Allows more than one element to be selected, i.e. selecting an element does "
+msgid ""
+"Allows more than one element to be selected, i.e. selecting an element does "
 "not deselect the others. Clicking on a selected element deselects it. This "
 "mode is also valid for selecting by opening a rectangle (see item before)."
 msgstr ""
@@ -105,9 +108,11 @@ msgid "right mouse button"
 msgstr "double-clic droit T"
 
 #: ../../source/short.rst:39
-msgid "Clicking on a wire selects a single straight line instead of the complete "
+msgid ""
+"Clicking on a wire selects a single straight line instead of the complete "
 "line."
-msgstr "uvre une boîte pour modifier les caractéristiques d'un objet (nom, valeur "
+msgstr ""
+"uvre une boîte pour modifier les caractéristiques d'un objet (nom, valeur "
 "des paramètres...)"
 
 #: ../../source/short.rst:41 ../../source/short.rst:69
@@ -115,7 +120,8 @@ msgid "double-click right mouse button"
 msgstr ""
 
 #: ../../source/short.rst:41
-msgid "Opens a dialog to edit the element properties (The labels of wires, the "
+msgid ""
+"Opens a dialog to edit the element properties (The labels of wires, the "
 "parameters of components, etc.)."
 msgstr ""
 
@@ -139,10 +145,6 @@ msgstr "(Menu: Insérer -> Équipotentielle)"
 msgid "\"Wire\"-Mode"
 msgstr "clic gauche I"
 
-#: ../../source/short.rst:60
-msgid "|image1|"
-msgstr ""
-
 #: ../../source/short.rst:62
 msgid "(Menu: Insert->Wire)"
 msgstr ""
@@ -152,8 +154,8 @@ msgid "Sets the starting/ending point of the wire."
 msgstr "nverse la direction d'un angle du fil"
 
 #: ../../source/short.rst:67
-msgid "Changes the direction of the wire corner (first left/right or first "
-"up/down)."
+msgid ""
+"Changes the direction of the wire corner (first left/right or first up/down)."
 msgstr ""
 
 #: ../../source/short.rst:69
@@ -163,10 +165,6 @@ msgstr ""
 #: ../../source/short.rst:74
 msgid "\"Paste\"-Mode"
 msgstr "clic gauche C"
-
-#: ../../source/short.rst:76
-msgid "|image2|"
-msgstr ""
 
 #: ../../source/short.rst:78
 msgid "(Menu: Edit->Paste)"
@@ -183,10 +181,6 @@ msgstr ""
 #: ../../source/short.rst:88
 msgid "Mouse in \"Content\" Tab"
 msgstr "électionne le fichier"
-
-#: ../../source/short.rst:90
-msgid "|image3|"
-msgstr ""
 
 #: ../../source/short.rst:94
 msgid "left click"
@@ -241,7 +235,8 @@ msgid "\"delete group"
 msgstr ""
 
 #: ../../source/short.rst:106
-msgid "delete selected file and its relatives (schematic, data display, dataset)"
+msgid ""
+"delete selected file and its relatives (schematic, data display, dataset)"
 msgstr ""
 
 #: ../../source/short.rst:112
@@ -249,8 +244,9 @@ msgid "Keyboard"
 msgstr ""
 
 #: ../../source/short.rst:114
-msgid "Many actions can be activated/done by the keyboard strokes. This can be seen"
-" in the main menu right beside the command. Some further key commands are "
+msgid ""
+"Many actions can be activated/done by the keyboard strokes. This can be seen "
+"in the main menu right beside the command. Some further key commands are "
 "shown in the following list:"
 msgstr ""
 
@@ -259,7 +255,8 @@ msgid "\"Delete\" or \"Backspace\""
 msgstr "Flèche gauche ou droite C"
 
 #: ../../source/short.rst:119
-msgid "Deletes the selected elements or enters the delete mode if no element is "
+msgid ""
+"Deletes the selected elements or enters the delete mode if no element is "
 "selected."
 msgstr ""
 
@@ -268,10 +265,12 @@ msgid "Cursor left/right"
 msgstr ""
 
 #: ../../source/short.rst:121
-msgid "Changes the position of selected markers on their graphs. If no marker is "
-"selected, move selected elements. If no element is selected, scroll document"
-" area."
-msgstr "hange la position des inspecteurs dans des diagrammes multi-variables Si "
+msgid ""
+"Changes the position of selected markers on their graphs. If no marker is "
+"selected, move selected elements. If no element is selected, scroll document "
+"area."
+msgstr ""
+"hange la position des inspecteurs dans des diagrammes multi-variables Si "
 "aucun inspecteur n'est sélectionné, translate la courbe sélectionnée Si rien "
 "n'est sélectionné, sert d'ascenseur"
 
@@ -280,7 +279,8 @@ msgid "Cursor up/down"
 msgstr "Tabulation"
 
 #: ../../source/short.rst:125
-msgid "Changes the position of selected markers on more-dimensional graphs. If no "
+msgid ""
+"Changes the position of selected markers on more-dimensional graphs. If no "
 "marker is selected, move selected elements. If no element is selected, "
 "scroll document area."
 msgstr ""
@@ -293,3 +293,18 @@ msgstr ""
 msgid "Changes to the next open document (according to the TabBar above)."
 msgstr ""
 
+#: ../../source/short.rst:25
+msgid "|image0_EN|"
+msgstr "|image0_FR|"
+
+#: ../../source/short.rst:60
+msgid "|image1_EN|"
+msgstr "|image1_FR|"
+
+#: ../../source/short.rst:76
+msgid "|image2_EN|"
+msgstr "|image2_FR|"
+
+#: ../../source/short.rst:90
+msgid "|image3_EN|"
+msgstr "|image3_FR|"
