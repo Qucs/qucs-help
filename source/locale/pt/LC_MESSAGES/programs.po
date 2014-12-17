@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 15:09+0100\n"
+"PO-Revision-Date: 2014-12-17 23:40+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -31,41 +31,41 @@ msgstr ""
 
 #: ../../source/programs.rst:10
 msgid "``/usr/local/bin/qucs`` - the GUI"
-msgstr "/usr/local/bin/qucs     - a interface gráfica (GUI)"
+msgstr "``/usr/local/bin/qucs`` - a interface gráfica (GUI)"
 
 #: ../../source/programs.rst:12
 msgid "``/usr/local/bin/qucsator`` - the simulator (console application)"
-msgstr "/usr/local/bin/qucsator - o simulador (aplicação de console)"
+msgstr "``/usr/local/bin/qucsator`` - o simulador (aplicação de console)"
 
 #: ../../source/programs.rst:14
 msgid "``/usr/local/bin/qucsedit`` - a simple text editor"
-msgstr "/usr/local/bin/qucsedit - um edito de textos simples"
+msgstr "``/usr/local/bin/qucsedit`` - um edito de textos simples"
 
 #: ../../source/programs.rst:16
 msgid ""
 "``/usr/local/bin/qucshelp`` - a small program displaying the help system"
 msgstr ""
-"/usr/local/bin/qucshelp - um pequeno programa exibindo o sistema de ajuda"
+"``/usr/local/bin/qucshelp`` - um pequeno programa exibindo o sistema de ajuda"
 
 #: ../../source/programs.rst:18
 msgid ""
 "``/usr/local/bin/qucstrans`` - a program for calculation transmission line "
 "parameters"
 msgstr ""
-"/usr/local/bin/qucstrans - um programa para calcular parâmetros de linhas de "
-"transmissão"
+"``/usr/local/bin/qucstrans`` - um programa para calcular parâmetros de "
+"linhas de transmissão"
 
 #: ../../source/programs.rst:20
 msgid "``/usr/local/bin/qucsfilter`` - a program synthesizing filter circuits"
 msgstr ""
-"/usr/local/bin/qucsfilter - um programa que sintetiza circuitos de filtro"
+"``/usr/local/bin/qucsfilter`` - um programa que sintetiza circuitos de filtro"
 
 #: ../../source/programs.rst:22
 msgid ""
 "``/usr/local/bin/qucsconv`` - a file format converter (console application)"
 msgstr ""
-"/usr/local/bin/qucsconv - um conversor de formato de arquivo (aplicação de "
-"console)"
+"``/usr/local/bin/qucsconv`` - um conversor de formato de arquivo (aplicação "
+"de console)"
 
 #: ../../source/programs.rst:25
 msgid ""
@@ -130,19 +130,19 @@ msgstr "Argumentos de linha de comando"
 
 #: ../../source/programs.rst:52
 msgid "``qucs [file1 [file2 ...]]``"
-msgstr ""
+msgstr "``qucs [arquivo1 [arquivo2 ...]]``"
 
 #: ../../source/programs.rst:54
 msgid "``qucsator [-b] -i netlist -o dataset`` (b = progress bar)"
-msgstr "qucsator [-b] -i netlist -o dataset (b = barra de progresso)"
+msgstr "``qucsator [-b] -i netlist -o dataset`` (b = barra de progresso)"
 
 #: ../../source/programs.rst:56
 msgid "``qucsedit [-r] [file]`` (r = read-only)"
-msgstr "qucsedit [-r] [file] (r = somente leitura)"
+msgstr "``qucsedit [-r] [file]`` (r = somente leitura)"
 
 #: ../../source/programs.rst:58
 msgid "``qucshelp`` (no arguments)"
-msgstr "qucshelp (sem argumentos)"
+msgstr "``qucshelp`` (sem argumentos)"
 
 #: ../../source/programs.rst:60
 msgid "``qucsconv -if spice -of qucs -i netlist.inp -o netlist.net``"
