@@ -34,7 +34,7 @@ name of your new document. Enter "firstSchematic" and press the "Ok"
 button.
 
 
-|image0|
+|image0_EN|
 
 Figure 1 - Qucs main window
 
@@ -91,4 +91,5 @@ Wonderful, give yourself a clap on the shoulder!
 
    `back to the top <#top>`__
 
-.. |image0| image:: _static/en/qucsmain.png
+.. |image0_EN| image:: _static/en/qucsmain.png
+.. |image0_DE| image:: _static/de/qucshaupt.png

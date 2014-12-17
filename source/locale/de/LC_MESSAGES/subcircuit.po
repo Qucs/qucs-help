@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 16:16+0100\n"
+"PO-Revision-Date: 2014-12-17 21:47+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -58,10 +58,6 @@ msgstr ""
 "Komponente in die Schaltung eingefügt werden. Anschließend kann eine "
 "Simulation durchgeführt werden. Das Ergebnis ist wie erwartet das gleiche, "
 "als würde man die Komponenten direkt im Hauptarbeitsfenster plazieren."
-
-#: ../../source/subcircuit.rst:25
-msgid "|image0|"
-msgstr ""
 
 #: ../../source/subcircuit.rst:27
 msgid "Figure 1 - Accesing a subcircuit"
@@ -128,3 +124,7 @@ msgid ""
 "A minimalistic example using subcircuits with parameters and equations would "
 "be like this:"
 msgstr ""
+
+#: ../../source/subcircuit.rst:25
+msgid "|image0_EN|"
+msgstr "|image0_DE|"

@@ -22,7 +22,7 @@ can now perform a simulation. The result is the same as if all the
 components of the subcircuit are placed into the circuit directly.
 
 
-|image0|
+|image0_EN|
 
 Figure 1 - Accesing a subcircuit
 
@@ -90,4 +90,6 @@ equations would be like this:
 
    `back to the top <#top>`__
 
-.. |image0| image:: _static/en/subcircuit.png
+.. |image0_EN| image:: _static/en/subcircuit.png
+
+.. |image0_DE| image:: _static/de/unterschaltung.png

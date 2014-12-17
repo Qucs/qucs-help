@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 16:04+0100\n"
+"PO-Revision-Date: 2014-12-17 21:26+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -86,10 +86,6 @@ msgstr ""
 "speichern, welches im Hauptfenster angezeigt wird (6). Im nachfolgenden "
 "Dialog wird der Name für das Dokument festgelegt. Als Beispielname wird "
 "\"ersteSchaltung\" eingegeben und der Kopf \"Speichern\" betätigt."
-
-#: ../../source/start.rst:37
-msgid "|image0|"
-msgstr ""
 
 #: ../../source/start.rst:39
 msgid "Figure 1 - Qucs main window"
@@ -208,3 +204,7 @@ msgstr ""
 "Knopfes verlassen. Nun kann man das Simulationsergebnis begutachten: "
 "0,666667 Volt. Wunderbar, die erste Simulations ist vollbracht. Man darf "
 "sich nun selber beglückwünschen."
+
+#: ../../source/start.rst:37
+msgid "|image0_EN|"
+msgstr "|image0_DE|"

@@ -21,12 +21,12 @@ component block. Take the schematic from Figure 1 and change it until
 you have the resulting schematic given in Figure 2.
 
 
-|image0|
+|image0_EN|
 
 Figure 1 - Initial schematic.
 
 
-|image1|
+|image1_EN|
 
 Figure 2 - Prepared schematic.
 
@@ -38,7 +38,7 @@ Over- or underestimation can lead to a premature convergence of the
 optimizer to a local minimum or, a very long optimization time.
 
 
-|image2|
+|image2_EN|
 
 Figure 3 - Optimization dialog, algorithm options.
 
@@ -49,7 +49,7 @@ correspond to the identifiers placed into properties of components and
 **not** the components' names.
 
 
-|image3|
+|image3_EN|
 
 Figure 4 - Optimization dialog, variables options.
 
@@ -59,7 +59,7 @@ automatically combines them into a single cost function, that is then
 minimized.
 
 
-|image4|
+|image4_EN|
 
 Figure 5 - Optimization dialog, goals options.
 
@@ -69,7 +69,7 @@ elements are to be optimized. The resulting schematic is show in Figure
 6.
 
 
-|image5|
+|image5_EN|
 
 Figure 6 - New Qucs main window.
 
@@ -79,7 +79,7 @@ computer, the best simulation results is shown in the graphical waveform
 viewer.
 
 
-|image6|
+|image6_EN|
 
 Figure 7 - Qucs results window.
 
@@ -89,7 +89,7 @@ in the Variables tab. They are now the initial values for each one of
 introduced variables (Figure 8).
 
 
-|image7|
+|image7_EN|
 
 Figure 8 - The best found circuit sizes.
 
@@ -98,11 +98,20 @@ Figure 8 - The best found circuit sizes.
 
    `back to the top <#top>`__
 
-.. |image0| image:: _static/en/optimization1.png
-.. |image1| image:: _static/en/optimization2.png
-.. |image2| image:: _static/en/optimization3.png
-.. |image3| image:: _static/en/optimization4.png
-.. |image4| image:: _static/en/optimization5.png
-.. |image5| image:: _static/en/optimization6.png
-.. |image6| image:: _static/en/optimization7.png
-.. |image7| image:: _static/en/optimization8.png
+.. |image0_EN| image:: _static/en/optimization1.png
+.. |image1_EN| image:: _static/en/optimization2.png
+.. |image2_EN| image:: _static/en/optimization3.png
+.. |image3_EN| image:: _static/en/optimization4.png
+.. |image4_EN| image:: _static/en/optimization5.png
+.. |image5_EN| image:: _static/en/optimization6.png
+.. |image6_EN| image:: _static/en/optimization7.png
+.. |image7_EN| image:: _static/en/optimization8.png
+
+.. |image0_DE| image:: _static/de/optimization1.png
+.. |image1_DE| image:: _static/de/optimization2.png
+.. |image2_DE| image:: _static/de/optimization3.png
+.. |image3_DE| image:: _static/de/optimization4.png
+.. |image4_DE| image:: _static/de/optimization5.png
+.. |image5_DE| image:: _static/de/optimization6.png
+.. |image6_DE| image:: _static/de/optimization7.png
+.. |image7_DE| image:: _static/de/optimization8.png

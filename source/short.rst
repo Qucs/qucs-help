@@ -22,7 +22,7 @@ General Actions
 "Select"-Mode
 ~~~~~~~~~~~~~
 
-|image0|
+|image0_EN|
 
 (Menu: Edit->Select)
 
@@ -57,7 +57,7 @@ General Actions
 "Wire"-Mode
 ~~~~~~~~~~~
 
-|image1|
+|image1_EN|
 
 (Menu: Insert->Wire)
 
@@ -73,7 +73,7 @@ General Actions
 "Paste"-Mode
 ~~~~~~~~~~~~
 
-|image2|
+|image2_EN|
 
 (Menu: Edit->Paste)
 
@@ -87,7 +87,7 @@ General Actions
 Mouse in "Content" Tab
 ~~~~~~~~~~~~~~~~~~~~~~
 
-|image3|
+|image3_EN|
 
 
 +--------------------+---------------------+----------------------------------------------+
@@ -133,7 +133,12 @@ commands are shown in the following list:
 
    `back to the top <#top>`__
 
-.. |image0| image:: _static/en/select.png
-.. |image1| image:: _static/en/wire.png
-.. |image2| image:: _static/en/paste.png
-.. |image3| image:: _static/en/contab.png
+.. |image0_EN| image:: _static/en/select.png
+.. |image1_EN| image:: _static/en/wire.png
+.. |image2_EN| image:: _static/en/paste.png
+.. |image3_EN| image:: _static/en/contab.png
+
+.. |image0_DE| image:: _static/de/select.png
+.. |image1_DE| image:: _static/de/wire.png
+.. |image2_DE| image:: _static/de/paste.png
+.. |image3_DE| image:: _static/de/inhalttab.png

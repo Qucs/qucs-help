@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 16:14+0100\n"
+"PO-Revision-Date: 2014-12-17 21:44+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -68,10 +68,6 @@ msgstr "(Menüeintrag: Bearbeiten->Auswählen (Esc))"
 #: ../../source/short.rst:23
 msgid "\"Select\"-Mode"
 msgstr "linke Maustaste"
-
-#: ../../source/short.rst:25
-msgid "|image0|"
-msgstr ""
 
 #: ../../source/short.rst:27
 msgid "(Menu: Edit->Select)"
@@ -179,10 +175,6 @@ msgstr "(Menüeintrag: Einfügen->Draht (STRG-E))"
 msgid "\"Wire\"-Mode"
 msgstr "linke Maustaste"
 
-#: ../../source/short.rst:60
-msgid "|image1|"
-msgstr ""
-
 #: ../../source/short.rst:62
 msgid "(Menu: Insert->Wire)"
 msgstr "(Menüeintrag: Einfügen->Draht (STRG-E))"
@@ -204,10 +196,6 @@ msgstr "(Menüeintrag: Bearbeiten->Einfügen (STRG-V))"
 msgid "\"Paste\"-Mode"
 msgstr "linke Maustaste"
 
-#: ../../source/short.rst:76
-msgid "|image2|"
-msgstr ""
-
 #: ../../source/short.rst:78
 msgid "(Menu: Edit->Paste)"
 msgstr "(Menüeintrag: Bearbeiten->Einfügen (STRG-V))"
@@ -224,10 +212,6 @@ msgstr "Dreht das Element."
 #: ../../source/short.rst:88
 msgid "Mouse in \"Content\" Tab"
 msgstr "Wählt eine Datei aus."
-
-#: ../../source/short.rst:90
-msgid "|image3|"
-msgstr ""
 
 #: ../../source/short.rst:94
 msgid "left click"
@@ -353,3 +337,19 @@ msgid "Changes to the next open document (according to the TabBar above)."
 msgstr ""
 "Geht zum nächsten geöffneten Dokument (bezogen auf die oben vorhandenen "
 "Tabulator-Reiter)."
+
+#: ../../source/short.rst:25
+msgid "|image0_EN|"
+msgstr "|image0_DE|"
+
+#: ../../source/short.rst:60
+msgid "|image1_EN|"
+msgstr "|image1_DE|"
+
+#: ../../source/short.rst:76
+msgid "|image2_EN|"
+msgstr "|image2_DE|"
+
+#: ../../source/short.rst:90
+msgid "|image3_EN|"
+msgstr "|image3_DE|"

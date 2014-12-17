@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 16:06+0100\n"
+"PO-Revision-Date: 2014-12-17 21:44+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -71,10 +71,6 @@ msgstr ""
 "die Logiktabelle eines UNDs mit zwei Eingängen angezeigt. Gratulation, die "
 "erste Digitalsimulation ist fertig!"
 
-#: ../../source/start_digi.rst:30
-msgid "|image0|"
-msgstr ""
-
 #: ../../source/start_digi.rst:32
 msgid "Figure 1 - Qucs main window"
 msgstr "Abbildung 1 - Qucs Hauptfenster"
@@ -140,3 +136,7 @@ msgid ""
 "already given to subcircuits. (After a simulation, the complete source code "
 "can be seen by pressing F6. Use it to get a feeling for this procedure.)"
 msgstr ""
+
+#: ../../source/start_digi.rst:30
+msgid "|image0_EN|"
+msgstr "|image0_DE|"
