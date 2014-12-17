@@ -41,16 +41,8 @@ msgid ""
 "schematic given in Figure 2."
 msgstr ""
 
-#: ../../source/start_opt.rst:24
-msgid "|image0|"
-msgstr ""
-
 #: ../../source/start_opt.rst:26
 msgid "Figure 1 - Initial schematic."
-msgstr ""
-
-#: ../../source/start_opt.rst:29
-msgid "|image1|"
 msgstr ""
 
 #: ../../source/start_opt.rst:31
@@ -66,10 +58,6 @@ msgid ""
 "local minimum or, a very long optimization time."
 msgstr ""
 
-#: ../../source/start_opt.rst:41
-msgid "|image2|"
-msgstr ""
-
 #: ../../source/start_opt.rst:43
 msgid "Figure 3 - Optimization dialog, algorithm options."
 msgstr ""
@@ -80,10 +68,6 @@ msgid ""
 "the allowed range, as shown in Figure 4. The variable names correspond to "
 "the identifiers placed into properties of components and **not** the "
 "components' names."
-msgstr ""
-
-#: ../../source/start_opt.rst:52
-msgid "|image3|"
 msgstr ""
 
 #: ../../source/start_opt.rst:54
@@ -97,10 +81,6 @@ msgid ""
 "combines them into a single cost function, that is then minimized."
 msgstr ""
 
-#: ../../source/start_opt.rst:62
-msgid "|image4|"
-msgstr ""
-
 #: ../../source/start_opt.rst:64
 msgid "Figure 5 - Optimization dialog, goals options."
 msgstr ""
@@ -109,10 +89,6 @@ msgstr ""
 msgid ""
 "The next step is to change the schematic, and define which circuit elements "
 "are to be optimized. The resulting schematic is show in Figure 6."
-msgstr ""
-
-#: ../../source/start_opt.rst:72
-msgid "|image5|"
 msgstr ""
 
 #: ../../source/start_opt.rst:74
@@ -126,10 +102,6 @@ msgid ""
 "simulation results is shown in the graphical waveform viewer."
 msgstr ""
 
-#: ../../source/start_opt.rst:82
-msgid "|image6|"
-msgstr ""
-
 #: ../../source/start_opt.rst:84
 msgid "Figure 7 - Qucs results window."
 msgstr ""
@@ -141,10 +113,62 @@ msgid ""
 "variables (Figure 8)."
 msgstr ""
 
-#: ../../source/start_opt.rst:92
-msgid "|image7|"
-msgstr ""
-
 #: ../../source/start_opt.rst:94
 msgid "Figure 8 - The best found circuit sizes."
 msgstr ""
+
+#: ../../source/start_opt.rst:24
+msgid "|image0_EN|"
+msgstr ""
+
+#: ../../source/start_opt.rst:29
+msgid "|image1_EN|"
+msgstr ""
+
+#: ../../source/start_opt.rst:41
+msgid "|image2_EN|"
+msgstr ""
+
+#: ../../source/start_opt.rst:52
+msgid "|image3_EN|"
+msgstr ""
+
+#: ../../source/start_opt.rst:62
+msgid "|image4_EN|"
+msgstr ""
+
+#: ../../source/start_opt.rst:72
+msgid "|image5_EN|"
+msgstr ""
+
+#: ../../source/start_opt.rst:82
+msgid "|image6_EN|"
+msgstr ""
+
+#: ../../source/start_opt.rst:92
+msgid "|image7_EN|"
+msgstr ""
+
+#~ msgid "|image0|"
+#~ msgstr ""
+
+#~ msgid "|image1|"
+#~ msgstr ""
+
+#~ msgid "|image2|"
+#~ msgstr ""
+
+#~ msgid "|image3|"
+#~ msgstr ""
+
+#~ msgid "|image4|"
+#~ msgstr ""
+
+#~ msgid "|image5|"
+#~ msgstr ""
+
+#~ msgid "|image6|"
+#~ msgstr ""
+
+#~ msgid "|image7|"
+#~ msgstr ""

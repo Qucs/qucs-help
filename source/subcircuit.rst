@@ -95,3 +95,5 @@ equations would be like this:
 .. |image0_DE| image:: _static/de/unterschaltung.png
 
 .. |image0_CS| image:: _static/cs/subcircuit.png
+
+.. |image0_ES| image:: _static/es/subcircuit.png

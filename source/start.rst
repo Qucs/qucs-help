@@ -96,3 +96,5 @@ Wonderful, give yourself a clap on the shoulder!
 .. |image0_DE| image:: _static/de/qucshaupt.png
 
 .. |image0_CS| image:: _static/cs/qucsmain.png
+
+.. |image0_ES| image:: _static/es/qucsmain.png

@@ -49,10 +49,6 @@ msgid ""
 "Congratulation, the first digital simulation is done!"
 msgstr ""
 
-#: ../../source/start_digi.rst:30
-msgid "|image0|"
-msgstr ""
-
 #: ../../source/start_digi.rst:32
 msgid "Figure 1 - Qucs main window"
 msgstr ""
@@ -103,3 +99,10 @@ msgid ""
 "already given to subcircuits. (After a simulation, the complete source code "
 "can be seen by pressing F6. Use it to get a feeling for this procedure.)"
 msgstr ""
+
+#: ../../source/start_digi.rst:30
+msgid "|image0_EN|"
+msgstr ""
+
+#~ msgid "|image0|"
+#~ msgstr ""
