@@ -1,7 +1,6 @@
-# 
+#
 msgid ""
-msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -13,7 +12,7 @@ msgstr ""
 
 #: ../../source/index.rst:8
 msgid "Welcome to Qucs Help's documentation!"
-msgstr "Bem vindo"
+msgstr ""
 
 #: ../../source/index.rst:10
 msgid "Contents:"
@@ -29,7 +28,7 @@ msgstr ""
 
 #: ../../source/index.rst:32
 msgid "Example schematics"
-msgstr "Examplos"
+msgstr ""
 
 #: ../../source/index.rst:34
 msgid "Available online at http://qucs.sourceforge.net/download.html#example"
@@ -46,3 +45,4 @@ msgstr ""
 #: ../../source/index.rst:41
 msgid ":ref:`search`"
 msgstr ""
+

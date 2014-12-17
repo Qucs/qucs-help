@@ -1,7 +1,6 @@
-# 
+#
 msgid ""
-msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -13,11 +12,10 @@ msgstr ""
 
 #: ../../source/programs.rst:3
 msgid "Installed Files"
-msgstr ""
+msgstr "Archivos instalados"
 
 #: ../../source/programs.rst:5
-msgid ""
-"The Qucs system needs several programs. These are installed during the "
+msgid "The Qucs system needs several programs. These are installed during the "
 "installation process. The path of Qucs is determined during the installation"
 " (``configure`` script). The following explanations assume the default path "
 "(``/usr/local/``)."
@@ -36,13 +34,11 @@ msgid "``/usr/local/bin/qucsedit`` - a simple text editor"
 msgstr ""
 
 #: ../../source/programs.rst:16
-msgid ""
-"``/usr/local/bin/qucshelp`` - a small program displaying the help system"
+msgid "``/usr/local/bin/qucshelp`` - a small program displaying the help system"
 msgstr ""
 
 #: ../../source/programs.rst:18
-msgid ""
-"``/usr/local/bin/qucstrans`` - a program for calculation transmission line "
+msgid "``/usr/local/bin/qucstrans`` - a program for calculation transmission line "
 "parameters"
 msgstr ""
 
@@ -51,13 +47,11 @@ msgid "``/usr/local/bin/qucsfilter`` - a program synthesizing filter circuits"
 msgstr ""
 
 #: ../../source/programs.rst:22
-msgid ""
-"``/usr/local/bin/qucsconv`` - a file format converter (console application)"
+msgid "``/usr/local/bin/qucsconv`` - a file format converter (console application)"
 msgstr ""
 
 #: ../../source/programs.rst:25
-msgid ""
-"All programs are stand-alone applications and can be started independently. "
+msgid "All programs are stand-alone applications and can be started independently. "
 "The main program (GUI)"
 msgstr ""
 
@@ -82,14 +76,12 @@ msgid "calls ``qucsfilter`` when calling this program from menu \"Tools\","
 msgstr ""
 
 #: ../../source/programs.rst:38
-msgid ""
-"calls ``qucsconv`` when placing the SPICE component and when performing a "
+msgid "calls ``qucsconv`` when placing the SPICE component and when performing a "
 "simulation with the SPICE component."
 msgstr ""
 
 #: ../../source/programs.rst:40
-msgid ""
-"Furthermore, the following directories are created during installation:"
+msgid "Furthermore, the following directories are created during installation:"
 msgstr ""
 
 #: ../../source/programs.rst:43
@@ -97,8 +89,7 @@ msgid "``/usr/local/share/qucs/bitmaps`` - contains all bitmaps (icons etc.)"
 msgstr ""
 
 #: ../../source/programs.rst:45
-msgid ""
-"``/usr/local/share/qucs/docs`` - contains HTML documents for the help system"
+msgid "``/usr/local/share/qucs/docs`` - contains HTML documents for the help system"
 msgstr ""
 
 #: ../../source/programs.rst:47
@@ -128,3 +119,4 @@ msgstr ""
 #: ../../source/programs.rst:60
 msgid "``qucsconv -if spice -of qucs -i netlist.inp -o netlist.net``"
 msgstr ""
+

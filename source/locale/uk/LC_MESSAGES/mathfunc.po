@@ -1,7 +1,6 @@
-# 
+#
 msgid ""
-msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -16,8 +15,7 @@ msgid "Short Description of Mathematical Functions"
 msgstr ""
 
 #: ../../source/mathfunc.rst:6
-msgid ""
-"The following operations and functions can be applied in Qucs equations. For"
+msgid "The following operations and functions can be applied in Qucs equations. For"
 " detailed description please refer to the \"Measurement Expressions "
 "Reference Manual\". Parameters in brackets \"[]\" are optional."
 msgstr ""
@@ -68,7 +66,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:25
 msgid "Multiplication"
-msgstr ""
+msgstr "множення"
 
 #: ../../source/mathfunc.rst:27
 msgid "``x/y``"
@@ -84,7 +82,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:29
 msgid "Modulo (remainder of division)"
-msgstr ""
+msgstr "залишок від ділення"
 
 #: ../../source/mathfunc.rst:31
 msgid "``x^y``"
@@ -112,7 +110,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:40
 msgid "And"
-msgstr ""
+msgstr "І"
 
 #: ../../source/mathfunc.rst:42
 msgid "``x||y``"
@@ -160,7 +158,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:52
 msgid "Less than"
-msgstr ""
+msgstr "Менше"
 
 #: ../../source/mathfunc.rst:54
 msgid "``x<=y``"
@@ -168,7 +166,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:54
 msgid "Less than or equal"
-msgstr ""
+msgstr "Менше рівно"
 
 #: ../../source/mathfunc.rst:56
 msgid "``x>y``"
@@ -176,7 +174,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:56
 msgid "Larger than"
-msgstr ""
+msgstr "Більше"
 
 #: ../../source/mathfunc.rst:58
 msgid "``x>=y``"
@@ -184,15 +182,14 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:58
 msgid "Larger than or equal"
-msgstr ""
+msgstr "Більше рівно"
 
 #: ../../source/mathfunc.rst:62
 msgid "Alphabetical List of Functions"
 msgstr ""
 
 #: ../../source/mathfunc.rst:64
-msgid ""
-"`abs <#abs>`__\\ ``  `` `adjoint <#adjoint>`__\\ ``  `` `angle <#angle>`__\\"
+msgid "`abs <#abs>`__\\ ``  `` `adjoint <#adjoint>`__\\ ``  `` `angle <#angle>`__\\"
 " ``  `` `arccos <#arccos>`__\\ ``  `` `arccosec <#arccosec>`__\\ ``  `` "
 "`arccot <#arccot>`__\\ ``  `` `arcosech <#arcosech>`__\\ ``  `` `arcosh "
 "<#arcosh>`__\\ ``  `` `arcoth <#arcoth>`__\\ ``  `` `arcsec <#arcsec>`__\\ "
@@ -272,8 +269,7 @@ msgid "``linspace(from,to,n)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:136
-msgid ""
-"Creates a real vector with ``n`` linearly spaced components between ``from``"
+msgid "Creates a real vector with ``n`` linearly spaced components between ``from``"
 " and ``to``, both inclusively"
 msgstr ""
 
@@ -282,8 +278,7 @@ msgid "``logspace(from,to,n)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:138
-msgid ""
-"Creates a real vector with ``n`` logarithmically spaced components between "
+msgid "Creates a real vector with ``n`` logarithmically spaced components between "
 "``from`` and ``to``, both inclusively"
 msgstr ""
 
@@ -325,7 +320,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:155
 msgid "Elementary Mathematical Functions: Basic Real and Complex Functions"
-msgstr ""
+msgstr "абсолютне значення, модуль комплексного числа"
 
 #: ../../source/mathfunc.rst:158
 msgid "``abs(x)``"
@@ -349,7 +344,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:162
 msgid "Phase angle in radians of a complex number"
-msgstr ""
+msgstr "спряжене комплексне число"
 
 #: ../../source/mathfunc.rst:164
 msgid "``conj(x)``"
@@ -365,7 +360,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:166
 msgid "Converts phase from degrees into radians"
-msgstr ""
+msgstr "Функція Евклідової відстані"
 
 #: ../../source/mathfunc.rst:168
 msgid "``hypot(x,y)``"
@@ -381,7 +376,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:170
 msgid "Imaginary part of a complex number"
-msgstr ""
+msgstr "те саме, що і abs(x)"
 
 #: ../../source/mathfunc.rst:172
 msgid "``mag(x)``"
@@ -389,7 +384,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:172
 msgid "Magnitude of a complex number"
-msgstr ""
+msgstr "квадрат mag(x)"
 
 #: ../../source/mathfunc.rst:174
 msgid "``norm(x)``"
@@ -397,7 +392,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:174
 msgid "Square of the absolute value of a vector"
-msgstr ""
+msgstr "фаза в градусах"
 
 #: ../../source/mathfunc.rst:176
 msgid "``phase(x)``"
@@ -412,8 +407,7 @@ msgid "``polar(m,p)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:178
-msgid ""
-"Transform from polar coordinates (magnitude ``m``, phase ``p``) into complex"
+msgid "Transform from polar coordinates (magnitude ``m``, phase ``p``) into complex"
 " number"
 msgstr ""
 
@@ -447,7 +441,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:186
 msgid "Square (power of two) of a number"
-msgstr ""
+msgstr "квадратний корінь"
 
 #: ../../source/mathfunc.rst:188
 msgid "``sqrt(x)``"
@@ -462,15 +456,13 @@ msgid "``unwrap(p[,tol[,step]])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:190
-msgid ""
-"Unwraps the angle ``p`` (in radians -- default ``step`` is 2\\*pi) using the"
+msgid "Unwraps the angle ``p`` (in radians -- default ``step`` is 2\\*pi) using the"
 " optional tolerance value ``tol`` (default is pi)"
 msgstr ""
 
 #: ../../source/mathfunc.rst:194
-msgid ""
-"Elementary Mathematical Functions: Exponential and Logarithmic Functions"
-msgstr ""
+msgid "Elementary Mathematical Functions: Exponential and Logarithmic Functions"
+msgstr "експоненціальна функція з основою e"
 
 #: ../../source/mathfunc.rst:197
 msgid "``exp(x)``"
@@ -522,7 +514,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:212
 msgid "Cosine function"
-msgstr ""
+msgstr "косеканс"
 
 #: ../../source/mathfunc.rst:214
 msgid "``cosec(x)``"
@@ -554,7 +546,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:220
 msgid "Sine function"
-msgstr ""
+msgstr "тангенс"
 
 #: ../../source/mathfunc.rst:222
 msgid "``tan(x)``"
@@ -618,7 +610,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:243
 msgid "Elementary Mathematical Functions: Hyperbolic Functions"
-msgstr ""
+msgstr "косинус гіперболічний"
 
 #: ../../source/mathfunc.rst:246
 msgid "``cosh(x)``"
@@ -670,7 +662,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:260
 msgid "Elementary Mathematical Functions: Inverse Hyperbolic Functions"
-msgstr ""
+msgstr "арккосинус гіперболічний"
 
 #: ../../source/mathfunc.rst:263
 msgid "``arcosh(x)``"
@@ -830,7 +822,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:309
 msgid "Step function"
-msgstr ""
+msgstr "avg(x[,range])"
 
 #: ../../source/mathfunc.rst:313
 msgid "Data Analysis: Basic Statistics"
@@ -841,8 +833,7 @@ msgid "``avg(x[,range])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:316
-msgid ""
-"Arithmetic average of vector elements; if a range is given then ``x`` must "
+msgid "Arithmetic average of vector elements; if a range is given then ``x`` must "
 "have a single data dependency"
 msgstr ""
 
@@ -867,8 +858,7 @@ msgid "``max(x[,range])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:322
-msgid ""
-"Maximum value in vector; if a range is given then ``x`` must have a single "
+msgid "Maximum value in vector; if a range is given then ``x`` must have a single "
 "data dependency"
 msgstr ""
 
@@ -885,8 +875,7 @@ msgid "``min(x[,range])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:326
-msgid ""
-"Minimum value in vector; if a range is given then ``x`` must have a single "
+msgid "Minimum value in vector; if a range is given then ``x`` must have a single "
 "data dependency"
 msgstr ""
 
@@ -912,7 +901,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:332
 msgid "Standard deviation of vector elements"
-msgstr ""
+msgstr "видає випадкове число"
 
 #: ../../source/mathfunc.rst:334
 msgid "``variance(x)``"
@@ -963,8 +952,7 @@ msgid "``interpolate(f,x[,n])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:349
-msgid ""
-"Equidistant spline interpolation of real function vector ``f(x)`` using "
+msgid "Equidistant spline interpolation of real function vector ``f(x)`` using "
 "``n`` equidistant datapoints; the latter can be omitted and defaults to a "
 "reasonable value"
 msgstr ""
@@ -990,8 +978,7 @@ msgid "``xvalue(f,yval)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:355
-msgid ""
-"Returns the x-value which is associated with the y-value nearest to a "
+msgid "Returns the x-value which is associated with the y-value nearest to a "
 "specified y-value ``yval`` in a given vector ``f``; therefore the vector "
 "``f`` must have a single data dependency"
 msgstr ""
@@ -1001,8 +988,7 @@ msgid "``yvalue(f,xval)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:357
-msgid ""
-"Returns the y-value of the given vector ``f`` which is located nearest to "
+msgid "Returns the y-value of the given vector ``f`` which is located nearest to "
 "the x-value ``xval``; therefore the vector ``f`` must have a single data "
 "dependency"
 msgstr ""
@@ -1016,8 +1002,7 @@ msgid "``ddx(expr,var)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:364
-msgid ""
-"Derives mathematical expression ``expr`` with respect to the variable "
+msgid "Derives mathematical expression ``expr`` with respect to the variable "
 "``var``"
 msgstr ""
 
@@ -1026,8 +1011,7 @@ msgid "``diff(y,x[,n])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:366
-msgid ""
-"Differentiate vector ``y`` with respect to vector ``x`` ``n`` times. If "
+msgid "Differentiate vector ``y`` with respect to vector ``x`` ``n`` times. If "
 "``n`` is omitted it defaults to ``n`` = 1"
 msgstr ""
 
@@ -1064,8 +1048,7 @@ msgid "``fftshift(x)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:379
-msgid ""
-"Shuffles the FFT values of vector ``x`` in order to move the frequency 0 to "
+msgid "Shuffles the FFT values of vector ``x`` in order to move the frequency 0 to "
 "the center of the vector"
 msgstr ""
 
@@ -1074,8 +1057,7 @@ msgid "``Freq2Time(V,f)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:381
-msgid ""
-"Inverse Discrete Fourier Transform of function ``V(f)`` interpreting it "
+msgid "Inverse Discrete Fourier Transform of function ``V(f)`` interpreting it "
 "physically"
 msgstr ""
 
@@ -1101,15 +1083,14 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:387
 msgid "Kaiser-Bessel derived window"
-msgstr ""
+msgstr "децибели напруги"
 
 #: ../../source/mathfunc.rst:389
 msgid "``Time2Freq(v,t)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:389
-msgid ""
-"Discrete Fourier Transform of function ``v(t)`` interpreting it physically"
+msgid "Discrete Fourier Transform of function ``v(t)`` interpreting it physically"
 msgstr ""
 
 #: ../../source/mathfunc.rst:393
@@ -1177,8 +1158,7 @@ msgid "``rtoy(x[,zref])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:416
-msgid ""
-"Converts reflection coefficient to admittance; by default reference ``zref``"
+msgid "Converts reflection coefficient to admittance; by default reference ``zref``"
 " is 50 ohms"
 msgstr ""
 
@@ -1187,8 +1167,7 @@ msgid "``rtoz(x[,zref])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:418
-msgid ""
-"Converts reflection coefficient to impedance; by default reference ``zref`` "
+msgid "Converts reflection coefficient to impedance; by default reference ``zref`` "
 "is 50 ohms"
 msgstr ""
 
@@ -1197,8 +1176,7 @@ msgid "``ytor(x[,zref])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:420
-msgid ""
-"Converts admittance to reflection coefficient; by default reference ``zref``"
+msgid "Converts admittance to reflection coefficient; by default reference ``zref``"
 " is 50 ohms"
 msgstr ""
 
@@ -1207,8 +1185,7 @@ msgid "``ztor(x[,zref])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:422
-msgid ""
-"Converts impedance to reflection coefficient; by default reference ``zref`` "
+msgid "Converts impedance to reflection coefficient; by default reference ``zref`` "
 "is 50 ohms"
 msgstr ""
 
@@ -1221,8 +1198,7 @@ msgid "``stos(s,zref[,z0])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:429
-msgid ""
-"Converts S-parameter matrix to S-parameter matrix with different reference "
+msgid "Converts S-parameter matrix to S-parameter matrix with different reference "
 "impedance(s)"
 msgstr ""
 
@@ -1247,8 +1223,7 @@ msgid "``twoport(m,from,to)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:435
-msgid ""
-"Converts a two-port matrix from one representation into another, possible "
+msgid "Converts a two-port matrix from one representation into another, possible "
 "values for ``from`` and ``to`` are 'Y', 'Z', 'H', 'G', 'A', 'S' and 'T'."
 msgstr ""
 
@@ -1293,8 +1268,7 @@ msgid "``GaCircle(s,Ga[,arcs])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:450
-msgid ""
-"Circle(s) with constant available power gain ``Ga`` in the source plane"
+msgid "Circle(s) with constant available power gain ``Ga`` in the source plane"
 msgstr ""
 
 #: ../../source/mathfunc.rst:452
@@ -1326,8 +1300,7 @@ msgid "``NoiseCircle(Sopt,             Fmin,Rn,F[,Arcs])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:458
-msgid ""
-"Generates circle(s) with constant Noise Figure(s) ``F``. ``Arcs`` specifies "
+msgid "Generates circle(s) with constant Noise Figure(s) ``F``. ``Arcs`` specifies "
 "the angles in degrees created by e.g. ``linspace(0,360,100)``. If Arcs is a "
 "number it specifies the number of equally spaced circle segments, if it is "
 "omitted this number defaults to a reasonable value"
@@ -1338,8 +1311,7 @@ msgid "``PlotVs(data,dep)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:460
-msgid ""
-"Returns a data item based upon vector or matrix vector ``data`` with "
+msgid "Returns a data item based upon vector or matrix vector ``data`` with "
 "dependency on a given vector ``dep``, e.g. ``PlotVs(Gain,frequency/1e9)``"
 msgstr ""
 
@@ -1372,8 +1344,7 @@ msgid "``StabFactor(s)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:468
-msgid ""
-"Stability factor of a two-port S-parameter matrix. Synonym for ``Rollet()``"
+msgid "Stability factor of a two-port S-parameter matrix. Synonym for ``Rollet()``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:470
@@ -1661,8 +1632,7 @@ msgid "Transient current through component *name*"
 msgstr ""
 
 #: ../../source/mathfunc.rst:565
-msgid ""
-"Note: All voltages and currents are peak values. Note: Noise voltages are "
+msgid "Note: All voltages and currents are peak values. Note: Noise voltages are "
 "RMS values at 1 Hz bandwidth."
 msgstr ""
 
@@ -1709,3 +1679,4 @@ msgstr ""
 #: ../../source/mathfunc.rst:580
 msgid "Elementary charge = 1.6021765e-19 C"
 msgstr ""
+

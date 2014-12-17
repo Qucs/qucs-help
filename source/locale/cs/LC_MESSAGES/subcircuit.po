@@ -1,7 +1,6 @@
-# 
+#
 msgid ""
-msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -13,18 +12,16 @@ msgstr ""
 
 #: ../../source/subcircuit.rst:3
 msgid "Working with Subcircuits"
-msgstr ""
+msgstr "Práce s vnořenými obvody"
 
 #: ../../source/subcircuit.rst:6
-msgid ""
-"Subcircuits are used to bring more clarity into a schematic. This is very "
+msgid "Subcircuits are used to bring more clarity into a schematic. This is very "
 "useful in large circuits or in circuits, in which a component block appears "
 "several times."
 msgstr ""
 
 #: ../../source/subcircuit.rst:10
-msgid ""
-"In Qucs, each schematic containing a subcircuit port is a subcircuit. You "
+msgid "In Qucs, each schematic containing a subcircuit port is a subcircuit. You "
 "can get a subcircuit port by using the toolbar, the components listview (in "
 "lumped components) or the menu (Insert->Insert port). After placing all "
 "subcircuit ports (two for example) you need to save the schematic (e.g. "
@@ -45,40 +42,49 @@ msgstr ""
 
 #: ../../source/subcircuit.rst:27
 msgid "Figure 1 - Accesing a subcircuit"
-msgstr ""
+msgstr "Obrázek 1 - Obvod s vnořeným obvodem"
 
 #: ../../source/subcircuit.rst:30
-msgid ""
-"If you select a subcircuit component (click on its symbol in the schematic) "
+msgid "If you select a subcircuit component (click on its symbol in the schematic) "
 "you can step into the subcircuit schematic by pressing CTRL-I (of course, "
 "this function is also reachable via toolbar and via menu). You can step back"
 " by pressing CTRL-H."
 msgstr ""
 
 #: ../../source/subcircuit.rst:35
-msgid ""
-"If you do not like the component symbol of a subcircuit, you can draw your "
+msgid "If you do not like the component symbol of a subcircuit, you can draw your "
 "own symbol and put the component text at your favourite position. Just make "
 "the subcircuit schematic the current and go to the menu: File->Edit Circuit "
 "Symbol. If you have not yet drawn a symbol for this circuit. A simple symbol"
 " is created automatically. You now can edit this symbol by painting lines "
 "and arcs. After finished, save it. Now place it on another schematic, and "
 "you have a new symbol."
-msgstr ""
+msgstr "Pokud se vám nelíbí symbol komponenty pro vnořený obvod, můžete si nakreslit "
+"svůj vlastní symbol a vložit vlastní popisky komponenty na vaše oblíbené "
+"místo. Pouze vytvořte vnořený obvod a v menu kliněte na Soubor->Upravit "
+"symbol komponenty. Pokud ještě nemáte nakreslený symbol pro tento obvod, "
+"jednoduchý symbol je vytvořen automaticky. Nyní můžete upravovat symbol "
+"kreslením čar a vlastně čímkoliv, co najdete na levé straně programu. Nyní "
+"máte místo schématu nový symbol."
 
 #: ../../source/subcircuit.rst:43
-msgid ""
-"Just like all other components, subcircuits can have parameters. To create "
+msgid "Just like all other components, subcircuits can have parameters. To create "
 "your own parameters, go back to the editor where you edited the subcircuit "
 "symbol and double-click on the subcircuit parameter text (SUB1 in the Figure"
 " 1). A dialog apperas and you now can fill in parameterswith default values "
 "and descriptions. When you are ready, close the dialog and save the "
 "subcircuit. In every schematic where the subcircuit is placed, it owns the "
 "new parameters which can be edited as in all other components."
-msgstr ""
+msgstr "Jako všschny ostatní komponenty, má i komponenta \"Podobvod\" nějaké "
+"parametry. Pro definování vlastních parametrů se vraťte do schématu, kde je "
+"vlažena komponenta \"Podobvod\" a dvakrát na ni klikněte. Objeví se okno, ve "
+"kterém můžete vyplnit parametry a popisy. Až bedete připraveni, zavřete okno "
+"a uložte vnořený obvod. V každém schématu, kde je vnořený obvod umístěn, "
+"bude vlastnit nové parametry, které lze měnit jako ostatní komponenty."
 
 #: ../../source/subcircuit.rst:52
 msgid ""
 "A minimalistic example using subcircuits with parameters and equations would"
 " be like this:"
 msgstr ""
+

@@ -1,7 +1,6 @@
-# 
+#
 msgid ""
-msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -13,18 +12,18 @@ msgstr ""
 
 #: ../../source/characters.rst:3
 msgid "List of Special Characters"
-msgstr ""
+msgstr "Seznam speciálních symbolů"
 
 #: ../../source/characters.rst:6
-msgid ""
-"It is possible to use special characters in the text painting and in the "
+msgid "It is possible to use special characters in the text painting and in the "
 "text of the diagram axis labels. This is done by using LaTeX tags. The "
 "following table contains a list of currently available characters."
-msgstr ""
+msgstr "<strong>Poznámka:</strong> Zda se vám správně zobrazí daný symbol, či ne "
+"závisí na typu písma, které používá Qucs! Proto si prosím volte takový typ "
+"písma, který dokáže zobrazit dané znaky."
 
 #: ../../source/characters.rst:10
-msgid ""
-"**Note:** Which of those characters are correctly displayed depends on the "
+msgid "**Note:** Which of those characters are correctly displayed depends on the "
 "font used by Qucs!"
 msgstr ""
 
@@ -35,12 +34,12 @@ msgstr ""
 #: ../../source/characters.rst:16 ../../source/characters.rst:75
 #: ../../source/characters.rst:104
 msgid "LaTeX tag"
-msgstr ""
+msgstr "Unicode"
 
 #: ../../source/characters.rst:16 ../../source/characters.rst:75
 #: ../../source/characters.rst:104
 msgid "Unicode"
-msgstr ""
+msgstr "Popis"
 
 #: ../../source/characters.rst:16 ../../source/characters.rst:75
 #: ../../source/characters.rst:104
@@ -734,3 +733,4 @@ msgstr ""
 #: ../../source/characters.rst:146
 msgid "unit for resistance (capital Greek omega)"
 msgstr ""
+

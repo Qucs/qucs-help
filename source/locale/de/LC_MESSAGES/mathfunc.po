@@ -1,7 +1,6 @@
-# 
+#
 msgid ""
-msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -13,22 +12,24 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:3
 msgid "Short Description of Mathematical Functions"
-msgstr ""
+msgstr "Kurze Beschreibung der mathematischen Funktionen"
 
 #: ../../source/mathfunc.rst:6
-msgid ""
-"The following operations and functions can be applied in Qucs equations. For"
+msgid "The following operations and functions can be applied in Qucs equations. For"
 " detailed description please refer to the \"Measurement Expressions "
 "Reference Manual\". Parameters in brackets \"[]\" are optional."
-msgstr ""
+msgstr "Die folgenden Operationen und Funktionen können in Gleichungen von Qucs "
+"benutzt werden. Eine detaillierte Beschreibung entnehmen Sie bitte dem \""
+"Measurement Expressions Reference Manual\". Parameter in rechteckigen "
+"Klammern \"[]\" sind optional."
 
 #: ../../source/mathfunc.rst:11
 msgid "Operators"
-msgstr ""
+msgstr "Operatoren"
 
 #: ../../source/mathfunc.rst:14
 msgid "Arithmetic Operators"
-msgstr ""
+msgstr "Arithmetische Operatoren"
 
 #: ../../source/mathfunc.rst:17
 msgid "``+x``"
@@ -36,7 +37,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:17
 msgid "Unary plus"
-msgstr ""
+msgstr "Unär Plus"
 
 #: ../../source/mathfunc.rst:19
 msgid "``-x``"
@@ -44,7 +45,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:19
 msgid "Unary minus"
-msgstr ""
+msgstr "Unär Minus"
 
 #: ../../source/mathfunc.rst:21
 msgid "``x+y``"
@@ -52,7 +53,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:21
 msgid "Addition"
-msgstr ""
+msgstr "Addition"
 
 #: ../../source/mathfunc.rst:23
 msgid "``x-y``"
@@ -60,7 +61,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:23
 msgid "Subtraction"
-msgstr ""
+msgstr "Subtraktion"
 
 #: ../../source/mathfunc.rst:25
 msgid "``x*y``"
@@ -68,7 +69,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:25
 msgid "Multiplication"
-msgstr ""
+msgstr "Multiplikation"
 
 #: ../../source/mathfunc.rst:27
 msgid "``x/y``"
@@ -76,7 +77,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:27
 msgid "Division"
-msgstr ""
+msgstr "Division"
 
 #: ../../source/mathfunc.rst:29
 msgid "``x%y``"
@@ -92,11 +93,11 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:31
 msgid "Power"
-msgstr ""
+msgstr "Potenz"
 
 #: ../../source/mathfunc.rst:35
 msgid "Logical Operators"
-msgstr ""
+msgstr "Logische Operatoren"
 
 #: ../../source/mathfunc.rst:38
 msgid "``!x``"
@@ -104,7 +105,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:38
 msgid "Negation"
-msgstr ""
+msgstr "Negation"
 
 #: ../../source/mathfunc.rst:40
 msgid "``x&&y``"
@@ -112,7 +113,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:40
 msgid "And"
-msgstr ""
+msgstr "Und"
 
 #: ../../source/mathfunc.rst:42
 msgid "``x||y``"
@@ -128,7 +129,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:44
 msgid "Exclusive or"
-msgstr ""
+msgstr "Exklusiv-Oder"
 
 #: ../../source/mathfunc.rst:46
 msgid "``x?y:z``"
@@ -144,7 +145,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:48
 msgid "Equal"
-msgstr ""
+msgstr "Gleich"
 
 #: ../../source/mathfunc.rst:50
 msgid "``x!=y``"
@@ -152,7 +153,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:50
 msgid "Not equal"
-msgstr ""
+msgstr "Ungleich"
 
 #: ../../source/mathfunc.rst:52
 msgid "``x<y``"
@@ -160,7 +161,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:52
 msgid "Less than"
-msgstr ""
+msgstr "Kleiner als"
 
 #: ../../source/mathfunc.rst:54
 msgid "``x<=y``"
@@ -168,7 +169,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:54
 msgid "Less than or equal"
-msgstr ""
+msgstr "Kleiner als oder gleich"
 
 #: ../../source/mathfunc.rst:56
 msgid "``x>y``"
@@ -176,7 +177,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:56
 msgid "Larger than"
-msgstr ""
+msgstr "Größer als"
 
 #: ../../source/mathfunc.rst:58
 msgid "``x>=y``"
@@ -184,15 +185,14 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:58
 msgid "Larger than or equal"
-msgstr ""
+msgstr "Größer als oder gleich"
 
 #: ../../source/mathfunc.rst:62
 msgid "Alphabetical List of Functions"
-msgstr ""
+msgstr "Alphabetische Liste der Funktionen"
 
 #: ../../source/mathfunc.rst:64
-msgid ""
-"`abs <#abs>`__\\ ``  `` `adjoint <#adjoint>`__\\ ``  `` `angle <#angle>`__\\"
+msgid "`abs <#abs>`__\\ ``  `` `adjoint <#adjoint>`__\\ ``  `` `angle <#angle>`__\\"
 " ``  `` `arccos <#arccos>`__\\ ``  `` `arccosec <#arccosec>`__\\ ``  `` "
 "`arccot <#arccot>`__\\ ``  `` `arcosech <#arcosech>`__\\ ``  `` `arcosh "
 "<#arcosh>`__\\ ``  `` `arcoth <#arcoth>`__\\ ``  `` `arcsec <#arcsec>`__\\ "
@@ -249,7 +249,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:129
 msgid "Vectors and Matrices: Creation"
-msgstr ""
+msgstr "Vektoren und Matrizen: Generierung"
 
 #: ../../source/mathfunc.rst:132
 msgid "``eye(n)``"
@@ -265,15 +265,14 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:134
 msgid "Returns the length of the given vector"
-msgstr ""
+msgstr "Liefert die Länge des gegebenen Vektors"
 
 #: ../../source/mathfunc.rst:136
 msgid "``linspace(from,to,n)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:136
-msgid ""
-"Creates a real vector with ``n`` linearly spaced components between ``from``"
+msgid "Creates a real vector with ``n`` linearly spaced components between ``from``"
 " and ``to``, both inclusively"
 msgstr ""
 
@@ -282,14 +281,13 @@ msgid "``logspace(from,to,n)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:138
-msgid ""
-"Creates a real vector with ``n`` logarithmically spaced components between "
+msgid "Creates a real vector with ``n`` logarithmically spaced components between "
 "``from`` and ``to``, both inclusively"
 msgstr ""
 
 #: ../../source/mathfunc.rst:142
 msgid "Vectors and Matrices: Basic Matrix Functions"
-msgstr ""
+msgstr "Vektoren und Matrizen: Grundlegende Matrix-Funktionen"
 
 #: ../../source/mathfunc.rst:145
 msgid "``adjoint(x)``"
@@ -325,7 +323,8 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:155
 msgid "Elementary Mathematical Functions: Basic Real and Complex Functions"
-msgstr ""
+msgstr "Elementare mathematische Funktionen: Grundlegende reelle und komplexe "
+"Funktionen"
 
 #: ../../source/mathfunc.rst:158
 msgid "``abs(x)``"
@@ -333,7 +332,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:158
 msgid "Absolute value, magnitude of complex number"
-msgstr ""
+msgstr "Absoluter Wert, Betrag einer komplexen Zahl"
 
 #: ../../source/mathfunc.rst:160
 msgid "``angle(x)``"
@@ -349,7 +348,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:162
 msgid "Phase angle in radians of a complex number"
-msgstr ""
+msgstr "Gleicher Ausdruck wie <code>angle(x)</code>"
 
 #: ../../source/mathfunc.rst:164
 msgid "``conj(x)``"
@@ -365,7 +364,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:166
 msgid "Converts phase from degrees into radians"
-msgstr ""
+msgstr "Umrechnung von Grad nach Bogenmaß"
 
 #: ../../source/mathfunc.rst:168
 msgid "``hypot(x,y)``"
@@ -373,7 +372,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:168
 msgid "Euclidean distance function"
-msgstr ""
+msgstr "Euklidische Distanzfunktion"
 
 #: ../../source/mathfunc.rst:170
 msgid "``imag(x)``"
@@ -381,7 +380,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:170
 msgid "Imaginary part of a complex number"
-msgstr ""
+msgstr "Imaginärteil einer komplexen Zahl"
 
 #: ../../source/mathfunc.rst:172
 msgid "``mag(x)``"
@@ -397,7 +396,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:174
 msgid "Square of the absolute value of a vector"
-msgstr ""
+msgstr "Quadrat von <code>mag(x)</code>"
 
 #: ../../source/mathfunc.rst:176
 msgid "``phase(x)``"
@@ -405,15 +404,14 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:176
 msgid "Phase angle in degrees of a complex number"
-msgstr ""
+msgstr "Phase einer komplexen Zahl in Grad"
 
 #: ../../source/mathfunc.rst:178
 msgid "``polar(m,p)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:178
-msgid ""
-"Transform from polar coordinates (magnitude ``m``, phase ``p``) into complex"
+msgid "Transform from polar coordinates (magnitude ``m``, phase ``p``) into complex"
 " number"
 msgstr ""
 
@@ -423,7 +421,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:180
 msgid "Converts phase from radians into degrees"
-msgstr ""
+msgstr "Umrechnung von Bogenmaß nach Grad"
 
 #: ../../source/mathfunc.rst:182
 msgid "``real(x)``"
@@ -431,7 +429,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:182
 msgid "Real part of a complex number"
-msgstr ""
+msgstr "Realteil einer komplexen Zahl"
 
 #: ../../source/mathfunc.rst:184
 msgid "``sign(x)``"
@@ -447,7 +445,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:186
 msgid "Square (power of two) of a number"
-msgstr ""
+msgstr "Quadrat (<code>x</code> zur Potenz zwei)"
 
 #: ../../source/mathfunc.rst:188
 msgid "``sqrt(x)``"
@@ -455,22 +453,20 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:188
 msgid "Square root"
-msgstr ""
+msgstr "Quadratwurzel"
 
 #: ../../source/mathfunc.rst:190
 msgid "``unwrap(p[,tol[,step]])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:190
-msgid ""
-"Unwraps the angle ``p`` (in radians -- default ``step`` is 2\\*pi) using the"
+msgid "Unwraps the angle ``p`` (in radians -- default ``step`` is 2\\*pi) using the"
 " optional tolerance value ``tol`` (default is pi)"
 msgstr ""
 
 #: ../../source/mathfunc.rst:194
-msgid ""
-"Elementary Mathematical Functions: Exponential and Logarithmic Functions"
-msgstr ""
+msgid "Elementary Mathematical Functions: Exponential and Logarithmic Functions"
+msgstr "Elementare mathematische Funktionen: Exponential- und Logarithmus-Funktionen"
 
 #: ../../source/mathfunc.rst:197
 msgid "``exp(x)``"
@@ -478,7 +474,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:197
 msgid "Exponential function to basis e"
-msgstr ""
+msgstr "Exponentialfunktion zur Basis e"
 
 #: ../../source/mathfunc.rst:199
 msgid "``limexp(x)``"
@@ -486,7 +482,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:199
 msgid "Limited exponential function"
-msgstr ""
+msgstr "Begrenzte Exponentialfunktion"
 
 #: ../../source/mathfunc.rst:201
 msgid "``log10(x)``"
@@ -502,7 +498,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:203
 msgid "Binary logarithm"
-msgstr ""
+msgstr "Binärer Logarithmus"
 
 #: ../../source/mathfunc.rst:205
 msgid "``ln(x)``"
@@ -510,11 +506,11 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:205
 msgid "Natural logarithm (base e )"
-msgstr ""
+msgstr "Natürlicher Logarithmus"
 
 #: ../../source/mathfunc.rst:209
 msgid "Elementary Mathematical Functions: Trigonometry"
-msgstr ""
+msgstr "Elementare mathematische Funktionen: Trigonometrie"
 
 #: ../../source/mathfunc.rst:212
 msgid "``cos(x)``"
@@ -530,7 +526,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:214
 msgid "Cosecant"
-msgstr ""
+msgstr "Kosekans"
 
 #: ../../source/mathfunc.rst:216
 msgid "``cot(x)``"
@@ -546,7 +542,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:218
 msgid "Secant"
-msgstr ""
+msgstr "Sekans"
 
 #: ../../source/mathfunc.rst:220
 msgid "``sin(x)``"
@@ -566,7 +562,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:226
 msgid "Elementary Mathematical Functions: Inverse Trigonometric Functions"
-msgstr ""
+msgstr "Elementare mathematische Funktionen: Inverse trigonometrische Funktionen"
 
 #: ../../source/mathfunc.rst:229
 msgid "``arccos(x)``"
@@ -582,7 +578,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:231
 msgid "Arc cosecant"
-msgstr ""
+msgstr "Arkuskosekans"
 
 #: ../../source/mathfunc.rst:233
 msgid "``arccot(x)``"
@@ -590,7 +586,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:233
 msgid "Arc cotangent"
-msgstr ""
+msgstr "Arkuskotangens"
 
 #: ../../source/mathfunc.rst:235
 msgid "``arcsec(x)``"
@@ -598,7 +594,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:235
 msgid "Arc secant"
-msgstr ""
+msgstr "Arkussekans"
 
 #: ../../source/mathfunc.rst:237
 msgid "``arcsin(x)``"
@@ -618,7 +614,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:243
 msgid "Elementary Mathematical Functions: Hyperbolic Functions"
-msgstr ""
+msgstr "Elementare mathematische Funktionen: Hyperbolische Funktionen"
 
 #: ../../source/mathfunc.rst:246
 msgid "``cosh(x)``"
@@ -626,7 +622,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:246
 msgid "Hyperbolic cosine"
-msgstr ""
+msgstr "Kosinus hyperbolicus"
 
 #: ../../source/mathfunc.rst:248
 msgid "``cosech(x)``"
@@ -634,7 +630,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:248
 msgid "Hyperbolic cosecant"
-msgstr ""
+msgstr "Kosekans hyperbolicus"
 
 #: ../../source/mathfunc.rst:250
 msgid "``coth(x)``"
@@ -642,7 +638,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:250
 msgid "Hyperbolic cotangent"
-msgstr ""
+msgstr "Kotangens hyperbolicus"
 
 #: ../../source/mathfunc.rst:252
 msgid "``sech(x)``"
@@ -650,7 +646,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:252
 msgid "Hyperbolic secant"
-msgstr ""
+msgstr "Sekans hyperbolicus"
 
 #: ../../source/mathfunc.rst:254
 msgid "``sinh(x)``"
@@ -658,7 +654,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:254
 msgid "Hyperbolic sine"
-msgstr ""
+msgstr "Sinus hyperbolicus"
 
 #: ../../source/mathfunc.rst:256
 msgid "``tanh(x)``"
@@ -666,11 +662,11 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:256
 msgid "Hyperbolic tangent"
-msgstr ""
+msgstr "Tangens hyperbolicus"
 
 #: ../../source/mathfunc.rst:260
 msgid "Elementary Mathematical Functions: Inverse Hyperbolic Functions"
-msgstr ""
+msgstr "Elementare mathematische Funktionen: Inverse hyperbolische Funktionen"
 
 #: ../../source/mathfunc.rst:263
 msgid "``arcosh(x)``"
@@ -678,7 +674,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:263
 msgid "Hyperbolic area cosine"
-msgstr ""
+msgstr "Area Kosinus hyperbolicus"
 
 #: ../../source/mathfunc.rst:265
 msgid "``arcosech(x)``"
@@ -686,7 +682,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:265
 msgid "Hyperbolic area cosecant"
-msgstr ""
+msgstr "Area Kosekans hyperbolicus"
 
 #: ../../source/mathfunc.rst:267
 msgid "``arcoth(x)``"
@@ -694,7 +690,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:267
 msgid "Hyperbolic area cotangent"
-msgstr ""
+msgstr "Area Kotangens hyperbolicus"
 
 #: ../../source/mathfunc.rst:269
 msgid "``arsech(x)``"
@@ -702,7 +698,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:269
 msgid "Hyperbolic area secant"
-msgstr ""
+msgstr "Area Sekans hyperbolicus"
 
 #: ../../source/mathfunc.rst:271
 msgid "``arsinh(x)``"
@@ -710,7 +706,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:271
 msgid "Hyperbolic area sine"
-msgstr ""
+msgstr "Area Sinus hyperbolicus"
 
 #: ../../source/mathfunc.rst:273
 msgid "``artanh(x)``"
@@ -718,11 +714,11 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:273
 msgid "Hyperbolic area tangent"
-msgstr ""
+msgstr "Area Tangens hyperbolicus"
 
 #: ../../source/mathfunc.rst:277
 msgid "Elementary Mathematical Functions: Rounding"
-msgstr ""
+msgstr "Elementare mathematische Funktionen: Runden"
 
 #: ../../source/mathfunc.rst:280
 msgid "``ceil(x)``"
@@ -730,7 +726,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:280
 msgid "Round to the next higher integer"
-msgstr ""
+msgstr "Rundet zur nächstgrößeren Ganzzahl"
 
 #: ../../source/mathfunc.rst:282
 msgid "``fix(x)``"
@@ -738,7 +734,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:282
 msgid "Truncate decimal places from real number"
-msgstr ""
+msgstr "Schneidet Nachkommastellen von reellen Zahlen ab"
 
 #: ../../source/mathfunc.rst:284
 msgid "``floor(x)``"
@@ -746,7 +742,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:284
 msgid "Round to the next lower integer"
-msgstr ""
+msgstr "Rundet zur nächstkleineren Ganzzahl"
 
 #: ../../source/mathfunc.rst:286
 msgid "``round(x)``"
@@ -754,11 +750,11 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:286
 msgid "Round to nearest integer"
-msgstr ""
+msgstr "Rundet zur nächsten Ganzzahl"
 
 #: ../../source/mathfunc.rst:290
 msgid "Elementary Mathematical Functions: Special Mathematical Functions"
-msgstr ""
+msgstr "Elementare mathematische Funktionen: Spezielle Funktionen"
 
 #: ../../source/mathfunc.rst:293
 msgid "``besseli0(x)``"
@@ -766,7 +762,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:293
 msgid "Modified Bessel function of order zero"
-msgstr ""
+msgstr "Modifizierte Besselfunktion nullter Ordnung"
 
 #: ../../source/mathfunc.rst:295
 msgid "``besselj(n,x)``"
@@ -790,7 +786,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:299
 msgid "Error function"
-msgstr ""
+msgstr "Fehlerfunktion"
 
 #: ../../source/mathfunc.rst:301
 msgid "``erfc(x)``"
@@ -798,7 +794,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:301
 msgid "Complementary error function"
-msgstr ""
+msgstr "Komplementäre Fehlerfunktion"
 
 #: ../../source/mathfunc.rst:303
 msgid "``erfinv(x)``"
@@ -806,7 +802,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:303
 msgid "Inverse error function"
-msgstr ""
+msgstr "Inverse Fehlerfunktion"
 
 #: ../../source/mathfunc.rst:305
 msgid "``erfcinv(x)``"
@@ -814,7 +810,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:305
 msgid "Inverse complementary error function"
-msgstr ""
+msgstr "Inverse komplementäre Fehlerfunktion"
 
 #: ../../source/mathfunc.rst:307
 msgid "``sinc(x)``"
@@ -830,7 +826,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:309
 msgid "Step function"
-msgstr ""
+msgstr "Sprungfunktion"
 
 #: ../../source/mathfunc.rst:313
 msgid "Data Analysis: Basic Statistics"
@@ -841,8 +837,7 @@ msgid "``avg(x[,range])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:316
-msgid ""
-"Arithmetic average of vector elements; if a range is given then ``x`` must "
+msgid "Arithmetic average of vector elements; if a range is given then ``x`` must "
 "have a single data dependency"
 msgstr ""
 
@@ -852,7 +847,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:318
 msgid "Cumulative average of vector elements"
-msgstr ""
+msgstr "Kumulativer Mittelwert der Werte eines Vektors"
 
 #: ../../source/mathfunc.rst:320
 msgid "``max(x,y)``"
@@ -867,8 +862,7 @@ msgid "``max(x[,range])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:322
-msgid ""
-"Maximum value in vector; if a range is given then ``x`` must have a single "
+msgid "Maximum value in vector; if a range is given then ``x`` must have a single "
 "data dependency"
 msgstr ""
 
@@ -885,8 +879,7 @@ msgid "``min(x[,range])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:326
-msgid ""
-"Minimum value in vector; if a range is given then ``x`` must have a single "
+msgid "Minimum value in vector; if a range is given then ``x`` must have a single "
 "data dependency"
 msgstr ""
 
@@ -896,7 +889,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:328
 msgid "Root Mean Square of vector elements"
-msgstr ""
+msgstr "Effektivwert aus den Werten eines Vektors"
 
 #: ../../source/mathfunc.rst:330
 msgid "``runavg(x)``"
@@ -912,7 +905,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:332
 msgid "Standard deviation of vector elements"
-msgstr ""
+msgstr "Standardabweichung der Werte eines Vektors"
 
 #: ../../source/mathfunc.rst:334
 msgid "``variance(x)``"
@@ -920,7 +913,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:334
 msgid "Variance of vector elements"
-msgstr ""
+msgstr "Varianz der Werte eines Vektors"
 
 #: ../../source/mathfunc.rst:336
 msgid "``random()``"
@@ -928,7 +921,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:336
 msgid "Random number between 0.0 and 1.0"
-msgstr ""
+msgstr "Zufallszahl zwischen 0.0 und 1.0"
 
 #: ../../source/mathfunc.rst:338
 msgid "``srandom(x)``"
@@ -940,7 +933,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:342
 msgid "Data Analysis: Basic Operation"
-msgstr ""
+msgstr "Datenanalyse: Grundlegende Operationen"
 
 #: ../../source/mathfunc.rst:345
 msgid "``cumprod(x)``"
@@ -948,7 +941,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:345
 msgid "Cumulative product of vector elements"
-msgstr ""
+msgstr "Kumulatives Produkt der Werte in einem Vektor"
 
 #: ../../source/mathfunc.rst:347
 msgid "``cumsum(x)``"
@@ -956,15 +949,14 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:347
 msgid "Cumulative sum of vector elements"
-msgstr ""
+msgstr "Kumulative Summe der Werte in einem Vektor"
 
 #: ../../source/mathfunc.rst:349
 msgid "``interpolate(f,x[,n])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:349
-msgid ""
-"Equidistant spline interpolation of real function vector ``f(x)`` using "
+msgid "Equidistant spline interpolation of real function vector ``f(x)`` using "
 "``n`` equidistant datapoints; the latter can be omitted and defaults to a "
 "reasonable value"
 msgstr ""
@@ -975,7 +967,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:351
 msgid "Product of vector elements"
-msgstr ""
+msgstr "Produkt der Werte in einem Vektor"
 
 #: ../../source/mathfunc.rst:353
 msgid "``sum(x)``"
@@ -990,8 +982,7 @@ msgid "``xvalue(f,yval)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:355
-msgid ""
-"Returns the x-value which is associated with the y-value nearest to a "
+msgid "Returns the x-value which is associated with the y-value nearest to a "
 "specified y-value ``yval`` in a given vector ``f``; therefore the vector "
 "``f`` must have a single data dependency"
 msgstr ""
@@ -1001,23 +992,21 @@ msgid "``yvalue(f,xval)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:357
-msgid ""
-"Returns the y-value of the given vector ``f`` which is located nearest to "
+msgid "Returns the y-value of the given vector ``f`` which is located nearest to "
 "the x-value ``xval``; therefore the vector ``f`` must have a single data "
 "dependency"
 msgstr ""
 
 #: ../../source/mathfunc.rst:361
 msgid "Data Analysis: Differentiation and Integration"
-msgstr ""
+msgstr "Datenanalyse: Differentiation und Integration"
 
 #: ../../source/mathfunc.rst:364
 msgid "``ddx(expr,var)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:364
-msgid ""
-"Derives mathematical expression ``expr`` with respect to the variable "
+msgid "Derives mathematical expression ``expr`` with respect to the variable "
 "``var``"
 msgstr ""
 
@@ -1026,8 +1015,7 @@ msgid "``diff(y,x[,n])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:366
-msgid ""
-"Differentiate vector ``y`` with respect to vector ``x`` ``n`` times. If "
+msgid "Differentiate vector ``y`` with respect to vector ``x`` ``n`` times. If "
 "``n`` is omitted it defaults to ``n`` = 1"
 msgstr ""
 
@@ -1041,7 +1029,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:372
 msgid "Data Analysis: Signal Processing"
-msgstr ""
+msgstr "Datenanalyse: Signalverarbeitung"
 
 #: ../../source/mathfunc.rst:375
 msgid "``dft(x)``"
@@ -1064,8 +1052,7 @@ msgid "``fftshift(x)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:379
-msgid ""
-"Shuffles the FFT values of vector ``x`` in order to move the frequency 0 to "
+msgid "Shuffles the FFT values of vector ``x`` in order to move the frequency 0 to "
 "the center of the vector"
 msgstr ""
 
@@ -1074,8 +1061,7 @@ msgid "``Freq2Time(V,f)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:381
-msgid ""
-"Inverse Discrete Fourier Transform of function ``V(f)`` interpreting it "
+msgid "Inverse Discrete Fourier Transform of function ``V(f)`` interpreting it "
 "physically"
 msgstr ""
 
@@ -1101,15 +1087,14 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:387
 msgid "Kaiser-Bessel derived window"
-msgstr ""
+msgstr "Kaiser-Bessel Fensterfunktion"
 
 #: ../../source/mathfunc.rst:389
 msgid "``Time2Freq(v,t)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:389
-msgid ""
-"Discrete Fourier Transform of function ``v(t)`` interpreting it physically"
+msgid "Discrete Fourier Transform of function ``v(t)`` interpreting it physically"
 msgstr ""
 
 #: ../../source/mathfunc.rst:393
@@ -1134,7 +1119,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:401
 msgid "Convert voltage to power in dBm"
-msgstr ""
+msgstr "Wandelt Spannung in Leistung in dBm um"
 
 #: ../../source/mathfunc.rst:403
 msgid "``dbm2w(x)``"
@@ -1142,7 +1127,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:403
 msgid "Convert power in dBm to power in Watts"
-msgstr ""
+msgstr "Wandelt Leistung in dBm in Leistung in Watt um"
 
 #: ../../source/mathfunc.rst:405
 msgid "``w2dbm(x)``"
@@ -1150,7 +1135,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:405
 msgid "Convert power in Watts to power in dBm"
-msgstr ""
+msgstr "Wandelt Leistung in Watt in Leistung in dBm um"
 
 #: ../../source/mathfunc.rst:407
 msgid "``vt(t)``"
@@ -1170,15 +1155,14 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:414
 msgid "Converts reflection coefficient to voltage standing wave ratio (VSWR)"
-msgstr ""
+msgstr "Konvertiert einen Reflexionsfaktor in das (Spannungs-)Stehwellenverhältnis"
 
 #: ../../source/mathfunc.rst:416
 msgid "``rtoy(x[,zref])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:416
-msgid ""
-"Converts reflection coefficient to admittance; by default reference ``zref``"
+msgid "Converts reflection coefficient to admittance; by default reference ``zref``"
 " is 50 ohms"
 msgstr ""
 
@@ -1187,8 +1171,7 @@ msgid "``rtoz(x[,zref])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:418
-msgid ""
-"Converts reflection coefficient to impedance; by default reference ``zref`` "
+msgid "Converts reflection coefficient to impedance; by default reference ``zref`` "
 "is 50 ohms"
 msgstr ""
 
@@ -1197,8 +1180,7 @@ msgid "``ytor(x[,zref])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:420
-msgid ""
-"Converts admittance to reflection coefficient; by default reference ``zref``"
+msgid "Converts admittance to reflection coefficient; by default reference ``zref``"
 " is 50 ohms"
 msgstr ""
 
@@ -1207,24 +1189,23 @@ msgid "``ztor(x[,zref])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:422
-msgid ""
-"Converts impedance to reflection coefficient; by default reference ``zref`` "
+msgid "Converts impedance to reflection coefficient; by default reference ``zref`` "
 "is 50 ohms"
 msgstr ""
 
 #: ../../source/mathfunc.rst:426
 msgid "N-Port Matrix Conversions"
-msgstr ""
+msgstr "Transformation von N-Tor-Matrizen"
 
 #: ../../source/mathfunc.rst:429
 msgid "``stos(s,zref[,z0])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:429
-msgid ""
-"Converts S-parameter matrix to S-parameter matrix with different reference "
+msgid "Converts S-parameter matrix to S-parameter matrix with different reference "
 "impedance(s)"
-msgstr ""
+msgstr "Konvertiert die S-Parameter-Matrix in eine S-Parameter-Matrix mit "
+"unterschiedliche(r/n) Referenzimpedanz(en)"
 
 #: ../../source/mathfunc.rst:431
 msgid "``stoy(s[,zref])``"
@@ -1232,7 +1213,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:431
 msgid "Converts S-parameter matrix to Y-parameter matrix"
-msgstr ""
+msgstr "Konvertiert die S-Parameter-Matrix in die Y-Parameter-Matrix"
 
 #: ../../source/mathfunc.rst:433
 msgid "``stoz(s[,zref])``"
@@ -1240,15 +1221,14 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:433
 msgid "Converts S-parameter matrix to Z-parameter matrix"
-msgstr ""
+msgstr "Konvertiert die S-Parameter-Matrix in die Z-Parameter-Matrix"
 
 #: ../../source/mathfunc.rst:435
 msgid "``twoport(m,from,to)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:435
-msgid ""
-"Converts a two-port matrix from one representation into another, possible "
+msgid "Converts a two-port matrix from one representation into another, possible "
 "values for ``from`` and ``to`` are 'Y', 'Z', 'H', 'G', 'A', 'S' and 'T'."
 msgstr ""
 
@@ -1258,7 +1238,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:437
 msgid "Converts Y-parameter matrix to S-parameter matrix"
-msgstr ""
+msgstr "Konvertiert die Y-Parameter-Matrix in die S-Parameter-Matrix"
 
 #: ../../source/mathfunc.rst:439
 msgid "``ytoz(y)``"
@@ -1266,7 +1246,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:439
 msgid "Converts Y-parameter matrix to Z-parameter matrix"
-msgstr ""
+msgstr "Konvertiert die Y-Parameter-Matrix in die Z-Parameter-Matrix"
 
 #: ../../source/mathfunc.rst:441
 msgid "``ztos(z[,z0])``"
@@ -1274,7 +1254,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:441
 msgid "Converts Z-parameter matrix to S-parameter matrix"
-msgstr ""
+msgstr "Konvertiert die Z-Parameter-Matrix in die S-Parameter-Matrix"
 
 #: ../../source/mathfunc.rst:443
 msgid "``ztoy(z)``"
@@ -1282,19 +1262,18 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:443
 msgid "Converts Z-parameter matrix to Y-parameter matrix"
-msgstr ""
+msgstr "Konvertiert die Z-Parameter-Matrix in die Y-Parameter-Matrix"
 
 #: ../../source/mathfunc.rst:447
 msgid "Amplifiers"
-msgstr ""
+msgstr "Verstärker"
 
 #: ../../source/mathfunc.rst:450
 msgid "``GaCircle(s,Ga[,arcs])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:450
-msgid ""
-"Circle(s) with constant available power gain ``Ga`` in the source plane"
+msgid "Circle(s) with constant available power gain ``Ga`` in the source plane"
 msgstr ""
 
 #: ../../source/mathfunc.rst:452
@@ -1311,7 +1290,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:454
 msgid "Mu stability factor of a two-port S-parameter matrix"
-msgstr ""
+msgstr "Mu Stabilitätsfaktor der Zweitor-S-Parameter-Matrix <code>s</code>"
 
 #: ../../source/mathfunc.rst:456
 msgid "``Mu2(s)``"
@@ -1319,15 +1298,14 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:456
 msgid "Mu' stability factor of a two-port S-parameter matrix"
-msgstr ""
+msgstr "Mu' Stabilitätsfaktor der Zweitor-S-Parameter-Matrix <code>s</code>"
 
 #: ../../source/mathfunc.rst:458
 msgid "``NoiseCircle(Sopt,             Fmin,Rn,F[,Arcs])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:458
-msgid ""
-"Generates circle(s) with constant Noise Figure(s) ``F``. ``Arcs`` specifies "
+msgid "Generates circle(s) with constant Noise Figure(s) ``F``. ``Arcs`` specifies "
 "the angles in degrees created by e.g. ``linspace(0,360,100)``. If Arcs is a "
 "number it specifies the number of equally spaced circle segments, if it is "
 "omitted this number defaults to a reasonable value"
@@ -1338,8 +1316,7 @@ msgid "``PlotVs(data,dep)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:460
-msgid ""
-"Returns a data item based upon vector or matrix vector ``data`` with "
+msgid "Returns a data item based upon vector or matrix vector ``data`` with "
 "dependency on a given vector ``dep``, e.g. ``PlotVs(Gain,frequency/1e9)``"
 msgstr ""
 
@@ -1349,7 +1326,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:462
 msgid "Rollet stability factor of a two-port S-parameter matrix"
-msgstr ""
+msgstr "Rollet Stabilitätsfaktor der Zweitor-S-Parameter-Matrix <code>s</code>"
 
 #: ../../source/mathfunc.rst:464
 msgid "``StabCircleL(s[,arcs])``"
@@ -1357,7 +1334,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:464
 msgid "Stability circle in the load plane"
-msgstr ""
+msgstr "Stabilitätskreise in der Lastebene"
 
 #: ../../source/mathfunc.rst:466
 msgid "``StabCircleS(s[,arcs])``"
@@ -1365,15 +1342,14 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:466
 msgid "Stability circle in the source plane"
-msgstr ""
+msgstr "Stabilitätskreise in der Quellebene"
 
 #: ../../source/mathfunc.rst:468
 msgid "``StabFactor(s)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:468
-msgid ""
-"Stability factor of a two-port S-parameter matrix. Synonym for ``Rollet()``"
+msgid "Stability factor of a two-port S-parameter matrix. Synonym for ``Rollet()``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:470
@@ -1382,11 +1358,11 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:470
 msgid "Stability measure B1 of a two-port S-parameter matrix"
-msgstr ""
+msgstr "Stabilitätsmaß B1 einer Zweitor-S-Parameter-Matrix"
 
 #: ../../source/mathfunc.rst:474
 msgid "Nomenclature"
-msgstr ""
+msgstr "Schreibweisen"
 
 #: ../../source/mathfunc.rst:477
 msgid "Ranges"
@@ -1422,11 +1398,11 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:486
 msgid "No range limitations"
-msgstr ""
+msgstr "Keine Intervallgrenzen"
 
 #: ../../source/mathfunc.rst:490
 msgid "Matrices and Matrix Elements"
-msgstr ""
+msgstr "Matrizen und ihre Elemente"
 
 #: ../../source/mathfunc.rst:493 ../../source/mathfunc.rst:525
 msgid "``M``"
@@ -1462,7 +1438,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:504
 msgid "Real number"
-msgstr ""
+msgstr "Reelle Zahl"
 
 #: ../../source/mathfunc.rst:506
 msgid "``1.4+j5.1``"
@@ -1470,7 +1446,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:506
 msgid "Complex number"
-msgstr ""
+msgstr "Komplexe Zahl"
 
 #: ../../source/mathfunc.rst:508
 msgid "``[1,3,5,7]``"
@@ -1478,7 +1454,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:508
 msgid "Vector"
-msgstr ""
+msgstr "Vektor"
 
 #: ../../source/mathfunc.rst:510
 msgid "``[11,12;21,22]``"
@@ -1486,11 +1462,11 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:510
 msgid "Matrix"
-msgstr ""
+msgstr "Matrix"
 
 #: ../../source/mathfunc.rst:514
 msgid "Number suffixes"
-msgstr ""
+msgstr "Zahlenendungen"
 
 #: ../../source/mathfunc.rst:517
 msgid "``E``"
@@ -1586,7 +1562,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:543
 msgid "Name of Values"
-msgstr ""
+msgstr "Wertenamen"
 
 #: ../../source/mathfunc.rst:546
 msgid "``S[1,1]``"
@@ -1594,7 +1570,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:546
 msgid "S-parameter value"
-msgstr ""
+msgstr "S-Parameterwert"
 
 #: ../../source/mathfunc.rst:548
 msgid "*nodename*.\\ ``V``"
@@ -1602,7 +1578,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:548
 msgid "DC voltage at node *nodename*"
-msgstr ""
+msgstr "DC-Spannung am Knoten *knotenname*"
 
 #: ../../source/mathfunc.rst:550
 msgid "*name*.\\ ``I``"
@@ -1610,7 +1586,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:550
 msgid "DC current through component *name*"
-msgstr ""
+msgstr "DC-Strom durch die Komponente *name*"
 
 #: ../../source/mathfunc.rst:552
 msgid "*nodename*.\\ ``v``"
@@ -1618,7 +1594,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:552
 msgid "AC voltage at node *nodename*"
-msgstr ""
+msgstr "AC-Spannung am Knoten *knotenname*"
 
 #: ../../source/mathfunc.rst:554
 msgid "*name*.\\ ``i``"
@@ -1626,7 +1602,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:554
 msgid "AC current through component *name*"
-msgstr ""
+msgstr "AC-Strom durch die Komponente *name*"
 
 #: ../../source/mathfunc.rst:556
 msgid "*nodename*.\\ ``vn``"
@@ -1634,7 +1610,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:556
 msgid "AC noise voltage at node *nodename*"
-msgstr ""
+msgstr "AC-Rauschspannung am Knoten *knotenname*"
 
 #: ../../source/mathfunc.rst:558
 msgid "*name*.\\ ``in``"
@@ -1642,7 +1618,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:558
 msgid "AC noise current through component *name*"
-msgstr ""
+msgstr "AC-Rauschstrom durch die Komponente *name*"
 
 #: ../../source/mathfunc.rst:560
 msgid "*nodename*.\\ ``Vt``"
@@ -1650,7 +1626,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:560
 msgid "Transient voltage at node *nodename*"
-msgstr ""
+msgstr "Transientenspannung am Knoten *knotenname*"
 
 #: ../../source/mathfunc.rst:562
 msgid "*name*.\\ ``It``"
@@ -1658,17 +1634,17 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:562
 msgid "Transient current through component *name*"
-msgstr ""
+msgstr "Transientenstrom durch die Komponente *name*"
 
 #: ../../source/mathfunc.rst:565
-msgid ""
-"Note: All voltages and currents are peak values. Note: Noise voltages are "
+msgid "Note: All voltages and currents are peak values. Note: Noise voltages are "
 "RMS values at 1 Hz bandwidth."
-msgstr ""
+msgstr "Bitte beachten: Alle Spannungen und Ströme sind Spitzenwerte. "
+"Rauschspannungen sind Effektivwerte in 1 Hz Bandbreite."
 
 #: ../../source/mathfunc.rst:569
 msgid "Constants"
-msgstr ""
+msgstr "Konstanten"
 
 #: ../../source/mathfunc.rst:572
 msgid "``i, j``"
@@ -1676,7 +1652,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:572
 msgid "Imaginary unit (\"square root of -1\")"
-msgstr ""
+msgstr "Imaginäre Einheit (\"Quadratwurzel von -1\")"
 
 #: ../../source/mathfunc.rst:574
 msgid "``pi``"
@@ -1692,7 +1668,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:576
 msgid "Euler = 2.71828..."
-msgstr ""
+msgstr "Eulerzahl = 2.71828..."
 
 #: ../../source/mathfunc.rst:578
 msgid "``kB``"
@@ -1700,7 +1676,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:578
 msgid "Boltzmann constant = 1.38065e-23 J/K"
-msgstr ""
+msgstr "Boltzmann-Konstante = 1.38065e-23 J/K"
 
 #: ../../source/mathfunc.rst:580
 msgid "``q``"
@@ -1708,4 +1684,5 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:580
 msgid "Elementary charge = 1.6021765e-19 C"
-msgstr ""
+msgstr "Elementarladung = 1.6021765e-19 C"
+

@@ -1,7 +1,6 @@
-# 
+#
 msgid ""
-msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -16,20 +15,17 @@ msgid "Matching Circuits"
 msgstr ""
 
 #: ../../source/matching.rst:6
-msgid ""
-"Creating matching circuits is an often needed task in microwave technology. "
+msgid "Creating matching circuits is an often needed task in microwave technology. "
 "Qucs can do this automatically. These are the neccessary steps:"
 msgstr ""
 
 #: ../../source/matching.rst:10
-msgid ""
-"Perform an S-parameter simulation in order to calculate the reflexion "
+msgid "Perform an S-parameter simulation in order to calculate the reflexion "
 "coefficient."
 msgstr ""
 
 #: ../../source/matching.rst:13
-msgid ""
-"Place a diagram and display the reflexion coefficient (i.e. S[1,1] for port "
+msgid "Place a diagram and display the reflexion coefficient (i.e. S[1,1] for port "
 "1, S[2,2] for port 2 etc.)"
 msgstr ""
 
@@ -38,32 +34,27 @@ msgid "Set a marker on the graph and step to the desired frequency."
 msgstr ""
 
 #: ../../source/matching.rst:18
-msgid ""
-"Click with the right mouse button on the marker and select \"power "
+msgid "Click with the right mouse button on the marker and select \"power "
 "matching\" in the appearing menu."
 msgstr ""
 
 #: ../../source/matching.rst:21
-msgid ""
-"A dialog appears where the values can be adjusted, for example the reference"
+msgid "A dialog appears where the values can be adjusted, for example the reference"
 " impedance can be chosen different from 50 ohms."
 msgstr ""
 
 #: ../../source/matching.rst:24
-msgid ""
-"After clicking \"create\" the page switches back to the schematic and by "
+msgid "After clicking \"create\" the page switches back to the schematic and by "
 "moving the mouse cursor the matching circuit can be placed."
 msgstr ""
 
 #: ../../source/matching.rst:30
-msgid ""
-"The left-hand side of the matching circuit is the input and the right-hand "
+msgid "The left-hand side of the matching circuit is the input and the right-hand "
 "side must be connected to the circuit."
 msgstr ""
 
 #: ../../source/matching.rst:33
-msgid ""
-"If the marker points to a variable called \"Sopt\", the menu shows the "
+msgid "If the marker points to a variable called \"Sopt\", the menu shows the "
 "option \"noise matching\". Note that the only different to \"power "
 "matching\" is the fact that the conjugate complex reflexion coefficient is "
 "taken. So if the variable has another name, noise matching can be chosen by "
@@ -71,8 +62,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/matching.rst:39
-msgid ""
-"The matching dialog can also be called by menu (Tools->matching circuit) or "
+msgid "The matching dialog can also be called by menu (Tools->matching circuit) or "
 "by short-cut (<CTRL-5>). But then all values has to be entered manually."
 msgstr ""
 
@@ -89,3 +79,4 @@ msgid ""
 " is for connectiong port 2 and the two node in the middle are for connecting"
 " the two-port circuit."
 msgstr ""
+

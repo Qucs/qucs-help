@@ -1,7 +1,6 @@
-# 
+#
 msgid ""
-msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -16,16 +15,14 @@ msgid "Getting Started with Analog Simulations"
 msgstr ""
 
 #: ../../source/start.rst:6
-msgid ""
-"Qucs (speak: kju:ks) is a circuit simulator with graphical user interface. "
+msgid "Qucs (speak: kju:ks) is a circuit simulator with graphical user interface. "
 "It is able to perform many different kinds of simulation (e.g. DC, s "
 "parameter). This document should give you a short description on how to use "
 "Qucs."
 msgstr ""
 
 #: ../../source/start.rst:11
-msgid ""
-"When you start Qucs the first time, it creates the directory \".qucs\" "
+msgid "When you start Qucs the first time, it creates the directory \".qucs\" "
 "within your home directory. Every file is saved into this directory or into "
 "one of its subdirectories. After Qucs has been loaded, one sees the main "
 "window looking simular like the one in figure 1. On the right side, there is"
@@ -59,8 +56,7 @@ msgid "Figure 1 - Qucs main window"
 msgstr ""
 
 #: ../../source/start.rst:44
-msgid ""
-"Now we want to make a simple DC simulation, i.e. we want to analyse the "
+msgid "Now we want to make a simple DC simulation, i.e. we want to analyse the "
 "circuit in figure (1). Activate the \"Components\" tab ( (4) in figure 1). "
 "There, you see a combo box where you can choose a component group and, "
 "below, the components of the chosen component group. Choose \"lumped "
@@ -78,19 +74,22 @@ msgid ""
 msgstr ""
 
 #: ../../source/start.rst:61
-msgid ""
-"To connect the components, press the wire toolbar button (or use the main "
+msgid "To connect the components, press the wire toolbar button (or use the main "
 "menu: Insert->Wire). Move the cursor onto an open port (marked by the small "
 "red circles). Clicking on it starts the wire. Now move to the end point and "
 "click again. The components are now connected. If you want to change the "
 "corner direction of the wire, click on the right mouse button before setting"
 " the end point. You can also end a wire without pressing on an open port or "
 "on a wire: Just double-click the left mouse button."
-msgstr ""
+msgstr "Enfin, vous devez nommer l'équipotentielle dont vous voulez calculer la "
+"tension. Cliquez sur le bouton « Nommer » de la barre d'outils (ou, par le "
+"menu : Insérer -> Nom d'équipotentielle), puis sur le fil voulu. Une "
+"boîte apparaît où vous pouvez saisir le nom. Saisissez « divide » et cliquez "
+"sur « Ok ». Votre circuit devrait ressembler plus ou moins à celui de la "
+"figure 1 (sauf pour les intitulés en français !)."
 
 #: ../../source/start.rst:70
-msgid ""
-"Last but not least, you must label the node where you want Qucs to caculate "
+msgid "Last but not least, you must label the node where you want Qucs to caculate "
 "the voltage. Press on the label toolbar button (or use the menu: "
 "Insert->Wire Label). Now click on the chosen wire. A dialog opens and you "
 "can enter the node name. Type \"divide\" and click the \"Ok\" button. Now "
@@ -112,3 +111,4 @@ msgid ""
 " Leave the dialog by clicking the \"Ok\" button. Now you see the simulation "
 "result: 0.666667 volts. Wonderful, give yourself a clap on the shoulder!"
 msgstr ""
+

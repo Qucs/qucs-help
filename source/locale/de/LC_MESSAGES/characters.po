@@ -1,7 +1,6 @@
-# 
+#
 msgid ""
-msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -16,15 +15,16 @@ msgid "List of Special Characters"
 msgstr ""
 
 #: ../../source/characters.rst:6
-msgid ""
-"It is possible to use special characters in the text painting and in the "
+msgid "It is possible to use special characters in the text painting and in the "
 "text of the diagram axis labels. This is done by using LaTeX tags. The "
 "following table contains a list of currently available characters."
-msgstr ""
+msgstr "In der Textkomponente und in den Achsenbeschriftungen der Diagramme können "
+"besondere Zeichen verwendet werden. Das wird mit LaTeX-Befehlen "
+"bewerkstelligt. Die folgende Tabelle beinhaltet die derzeit verfügbaren "
+"Zeichen."
 
 #: ../../source/characters.rst:10
-msgid ""
-"**Note:** Which of those characters are correctly displayed depends on the "
+msgid "**Note:** Which of those characters are correctly displayed depends on the "
 "font used by Qucs!"
 msgstr ""
 
@@ -35,17 +35,17 @@ msgstr ""
 #: ../../source/characters.rst:16 ../../source/characters.rst:75
 #: ../../source/characters.rst:104
 msgid "LaTeX tag"
-msgstr ""
+msgstr "LaTeX-Befehl"
 
 #: ../../source/characters.rst:16 ../../source/characters.rst:75
 #: ../../source/characters.rst:104
 msgid "Unicode"
-msgstr ""
+msgstr "Unicode"
 
 #: ../../source/characters.rst:16 ../../source/characters.rst:75
 #: ../../source/characters.rst:104
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: ../../source/characters.rst:18
 msgid "``\\alpha``"
@@ -129,7 +129,7 @@ msgstr ""
 
 #: ../../source/characters.rst:30
 msgid "eta"
-msgstr ""
+msgstr "eta"
 
 #: ../../source/characters.rst:32
 msgid "``\\theta``"
@@ -734,3 +734,4 @@ msgstr ""
 #: ../../source/characters.rst:146
 msgid "unit for resistance (capital Greek omega)"
 msgstr ""
+
