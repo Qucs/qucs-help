@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 16:20+0100\n"
+"PO-Revision-Date: 2014-12-17 22:45+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -130,20 +130,20 @@ msgstr "Kommandozeilen Argumente"
 
 #: ../../source/programs.rst:52
 msgid "``qucs [file1 [file2 ...]]``"
-msgstr "``qucs [Datei1 [Datei2 ...]]`"
+msgstr "``qucs [Datei1 [Datei2 ...]]``"
 
 #: ../../source/programs.rst:54
 msgid "``qucsator [-b] -i netlist -o dataset`` (b = progress bar)"
-msgstr "``qucsator [-b] -i Netzliste -o Datensatz (b = Fortschrittsanzeige)`"
+msgstr "``qucsator [-b] -i Netzliste -o Datensatz`` (b = Fortschrittsanzeige)"
 
 #: ../../source/programs.rst:56
 msgid "``qucsedit [-r] [file]`` (r = read-only)"
-msgstr "``qucsedit [-r] [Datei] (r = nur-lesen)`"
+msgstr "``qucsedit [-r] [Datei]`` (r = nur-lesen)"
 
 #: ../../source/programs.rst:58
 msgid "``qucshelp`` (no arguments)"
-msgstr "`qucshelp (keine Argumente)``"
+msgstr "``qucshelp (keine Argumente)``"
 
 #: ../../source/programs.rst:60
 msgid "``qucsconv -if spice -of qucs -i netlist.inp -o netlist.net``"
-msgstr "``qucsconv -if spice -of qucs -i Netzliste.inp -o Netzliste.net`"
+msgstr "``qucsconv -if spice -of qucs -i Netzliste.inp -o Netzliste.net``"

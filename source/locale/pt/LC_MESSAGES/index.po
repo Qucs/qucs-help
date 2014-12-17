@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 15:20+0100\n"
+"PO-Revision-Date: 2014-12-17 22:43+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "Índices e tabelas"
 
 #: ../../source/index.rst:40
 msgid ":ref:`genindex`"
-msgstr "Bem vindo a documentação de ajuda de Qucs"
+msgstr ""
 
 #: ../../source/index.rst:41
 msgid ":ref:`search`"
