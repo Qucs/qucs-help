@@ -1,0 +1,736 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Qucs Help 0.0.19\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-16 15:55+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/characters.rst:3
+msgid "List of Special Characters"
+msgstr ""
+
+#: ../../source/characters.rst:6
+msgid ""
+"It is possible to use special characters in the text painting and in the "
+"text of the diagram axis labels. This is done by using LaTeX tags. The "
+"following table contains a list of currently available characters."
+msgstr ""
+
+#: ../../source/characters.rst:10
+msgid ""
+"**Note:** Which of those characters are correctly displayed depends on the "
+"font used by Qucs!"
+msgstr ""
+
+#: ../../source/characters.rst:13
+msgid "**Small Greek letters**"
+msgstr ""
+
+#: ../../source/characters.rst:16 ../../source/characters.rst:75
+#: ../../source/characters.rst:104
+msgid "LaTeX tag"
+msgstr ""
+
+#: ../../source/characters.rst:16 ../../source/characters.rst:75
+#: ../../source/characters.rst:104
+msgid "Unicode"
+msgstr ""
+
+#: ../../source/characters.rst:16 ../../source/characters.rst:75
+#: ../../source/characters.rst:104
+msgid "Description"
+msgstr ""
+
+#: ../../source/characters.rst:18
+msgid "``\\alpha``"
+msgstr ""
+
+#: ../../source/characters.rst:18
+msgid "0x03B1"
+msgstr ""
+
+#: ../../source/characters.rst:18
+msgid "alpha"
+msgstr ""
+
+#: ../../source/characters.rst:20
+msgid "``\\beta``"
+msgstr ""
+
+#: ../../source/characters.rst:20
+msgid "0x03B2"
+msgstr ""
+
+#: ../../source/characters.rst:20
+msgid "beta"
+msgstr ""
+
+#: ../../source/characters.rst:22
+msgid "``\\gamma``"
+msgstr ""
+
+#: ../../source/characters.rst:22
+msgid "0x03B3"
+msgstr ""
+
+#: ../../source/characters.rst:22
+msgid "gamma"
+msgstr ""
+
+#: ../../source/characters.rst:24
+msgid "``\\delta``"
+msgstr ""
+
+#: ../../source/characters.rst:24
+msgid "0x03B4"
+msgstr ""
+
+#: ../../source/characters.rst:24
+msgid "delta"
+msgstr ""
+
+#: ../../source/characters.rst:26
+msgid "``\\epsilon``"
+msgstr ""
+
+#: ../../source/characters.rst:26
+msgid "0x03B5"
+msgstr ""
+
+#: ../../source/characters.rst:26
+msgid "epsilon"
+msgstr ""
+
+#: ../../source/characters.rst:28
+msgid "``\\zeta``"
+msgstr ""
+
+#: ../../source/characters.rst:28
+msgid "0x03B6"
+msgstr ""
+
+#: ../../source/characters.rst:28
+msgid "zeta"
+msgstr ""
+
+#: ../../source/characters.rst:30
+msgid "``\\eta``"
+msgstr ""
+
+#: ../../source/characters.rst:30
+msgid "0x03B7"
+msgstr ""
+
+#: ../../source/characters.rst:30
+msgid "eta"
+msgstr ""
+
+#: ../../source/characters.rst:32
+msgid "``\\theta``"
+msgstr ""
+
+#: ../../source/characters.rst:32
+msgid "0x03B8"
+msgstr ""
+
+#: ../../source/characters.rst:32
+msgid "theta"
+msgstr ""
+
+#: ../../source/characters.rst:34
+msgid "``\\iota``"
+msgstr ""
+
+#: ../../source/characters.rst:34
+msgid "0x03B9"
+msgstr ""
+
+#: ../../source/characters.rst:34
+msgid "iota"
+msgstr ""
+
+#: ../../source/characters.rst:36
+msgid "``\\kappa``"
+msgstr ""
+
+#: ../../source/characters.rst:36
+msgid "0x03BA"
+msgstr ""
+
+#: ../../source/characters.rst:36
+msgid "kappa"
+msgstr ""
+
+#: ../../source/characters.rst:38
+msgid "``\\lambda``"
+msgstr ""
+
+#: ../../source/characters.rst:38
+msgid "0x03BB"
+msgstr ""
+
+#: ../../source/characters.rst:38
+msgid "lambda"
+msgstr ""
+
+#: ../../source/characters.rst:40
+msgid "``\\mu``"
+msgstr ""
+
+#: ../../source/characters.rst:40
+msgid "0x03BC"
+msgstr ""
+
+#: ../../source/characters.rst:40 ../../source/characters.rst:42
+msgid "mu"
+msgstr ""
+
+#: ../../source/characters.rst:42
+msgid "``\\textmu``"
+msgstr ""
+
+#: ../../source/characters.rst:42
+msgid "0x00B5"
+msgstr ""
+
+#: ../../source/characters.rst:44
+msgid "``\\nu``"
+msgstr ""
+
+#: ../../source/characters.rst:44
+msgid "0x03BD"
+msgstr ""
+
+#: ../../source/characters.rst:44
+msgid "nu"
+msgstr ""
+
+#: ../../source/characters.rst:46
+msgid "``\\xi``"
+msgstr ""
+
+#: ../../source/characters.rst:46
+msgid "0x03BE"
+msgstr ""
+
+#: ../../source/characters.rst:46
+msgid "xi"
+msgstr ""
+
+#: ../../source/characters.rst:48
+msgid "``\\pi``"
+msgstr ""
+
+#: ../../source/characters.rst:48
+msgid "0x03C0"
+msgstr ""
+
+#: ../../source/characters.rst:48 ../../source/characters.rst:50
+msgid "pi"
+msgstr ""
+
+#: ../../source/characters.rst:50
+msgid "``\\varpi``"
+msgstr ""
+
+#: ../../source/characters.rst:50
+msgid "0x03D6"
+msgstr ""
+
+#: ../../source/characters.rst:52
+msgid "``\\rho``"
+msgstr ""
+
+#: ../../source/characters.rst:52
+msgid "0x03C1"
+msgstr ""
+
+#: ../../source/characters.rst:52 ../../source/characters.rst:54
+msgid "rho"
+msgstr ""
+
+#: ../../source/characters.rst:54
+msgid "``\\varrho``"
+msgstr ""
+
+#: ../../source/characters.rst:54
+msgid "0x03F1"
+msgstr ""
+
+#: ../../source/characters.rst:56
+msgid "``\\sigma``"
+msgstr ""
+
+#: ../../source/characters.rst:56
+msgid "0x03C3"
+msgstr ""
+
+#: ../../source/characters.rst:56
+msgid "sigma"
+msgstr ""
+
+#: ../../source/characters.rst:58
+msgid "``\\tau``"
+msgstr ""
+
+#: ../../source/characters.rst:58
+msgid "0x03C4"
+msgstr ""
+
+#: ../../source/characters.rst:58
+msgid "tau"
+msgstr ""
+
+#: ../../source/characters.rst:60
+msgid "``\\upsilon``"
+msgstr ""
+
+#: ../../source/characters.rst:60
+msgid "0x03C5"
+msgstr ""
+
+#: ../../source/characters.rst:60
+msgid "upsilon"
+msgstr ""
+
+#: ../../source/characters.rst:62
+msgid "``\\phi``"
+msgstr ""
+
+#: ../../source/characters.rst:62
+msgid "0x03C6"
+msgstr ""
+
+#: ../../source/characters.rst:62
+msgid "phi"
+msgstr ""
+
+#: ../../source/characters.rst:64
+msgid "``\\chi``"
+msgstr ""
+
+#: ../../source/characters.rst:64
+msgid "0x03C7"
+msgstr ""
+
+#: ../../source/characters.rst:64
+msgid "chi"
+msgstr ""
+
+#: ../../source/characters.rst:66
+msgid "``\\psi``"
+msgstr ""
+
+#: ../../source/characters.rst:66
+msgid "0x03C8"
+msgstr ""
+
+#: ../../source/characters.rst:66
+msgid "psi"
+msgstr ""
+
+#: ../../source/characters.rst:68
+msgid "``\\omega``"
+msgstr ""
+
+#: ../../source/characters.rst:68
+msgid "0x03C9"
+msgstr ""
+
+#: ../../source/characters.rst:68
+msgid "omega"
+msgstr ""
+
+#: ../../source/characters.rst:72
+msgid "**Capital Greek letters**"
+msgstr ""
+
+#: ../../source/characters.rst:77
+msgid "``\\Gamma``"
+msgstr ""
+
+#: ../../source/characters.rst:77
+msgid "0x0393"
+msgstr ""
+
+#: ../../source/characters.rst:77
+msgid "Gamma"
+msgstr ""
+
+#: ../../source/characters.rst:79
+msgid "``\\Delta``"
+msgstr ""
+
+#: ../../source/characters.rst:79
+msgid "0x0394"
+msgstr ""
+
+#: ../../source/characters.rst:79
+msgid "Delta"
+msgstr ""
+
+#: ../../source/characters.rst:81
+msgid "``\\Theta``"
+msgstr ""
+
+#: ../../source/characters.rst:81
+msgid "0x0398"
+msgstr ""
+
+#: ../../source/characters.rst:81
+msgid "Theta"
+msgstr ""
+
+#: ../../source/characters.rst:83
+msgid "``\\Lambda``"
+msgstr ""
+
+#: ../../source/characters.rst:83
+msgid "0x039B"
+msgstr ""
+
+#: ../../source/characters.rst:83
+msgid "Lambda"
+msgstr ""
+
+#: ../../source/characters.rst:85
+msgid "``\\Xi``"
+msgstr ""
+
+#: ../../source/characters.rst:85
+msgid "0x039E"
+msgstr ""
+
+#: ../../source/characters.rst:85
+msgid "Xi"
+msgstr ""
+
+#: ../../source/characters.rst:87
+msgid "``\\Pi``"
+msgstr ""
+
+#: ../../source/characters.rst:87
+msgid "0x03A0"
+msgstr ""
+
+#: ../../source/characters.rst:87
+msgid "Pi"
+msgstr ""
+
+#: ../../source/characters.rst:89
+msgid "``\\Sigma``"
+msgstr ""
+
+#: ../../source/characters.rst:89
+msgid "0x03A3"
+msgstr ""
+
+#: ../../source/characters.rst:89
+msgid "Sigma"
+msgstr ""
+
+#: ../../source/characters.rst:91
+msgid "``\\Upsilon``"
+msgstr ""
+
+#: ../../source/characters.rst:91
+msgid "0x03A5"
+msgstr ""
+
+#: ../../source/characters.rst:91
+msgid "Upsilon"
+msgstr ""
+
+#: ../../source/characters.rst:93
+msgid "``\\Phi``"
+msgstr ""
+
+#: ../../source/characters.rst:93
+msgid "0x03A6"
+msgstr ""
+
+#: ../../source/characters.rst:93
+msgid "Phi"
+msgstr ""
+
+#: ../../source/characters.rst:95
+msgid "``\\Psi``"
+msgstr ""
+
+#: ../../source/characters.rst:95
+msgid "0x03A8"
+msgstr ""
+
+#: ../../source/characters.rst:95
+msgid "Psi"
+msgstr ""
+
+#: ../../source/characters.rst:97
+msgid "``\\Omega``"
+msgstr ""
+
+#: ../../source/characters.rst:97 ../../source/characters.rst:146
+msgid "0x03A9"
+msgstr ""
+
+#: ../../source/characters.rst:97
+msgid "Omega"
+msgstr ""
+
+#: ../../source/characters.rst:101
+msgid "**Mathematical symbols**"
+msgstr ""
+
+#: ../../source/characters.rst:106
+msgid "``\\cdot``"
+msgstr ""
+
+#: ../../source/characters.rst:106
+msgid "0x00B7"
+msgstr ""
+
+#: ../../source/characters.rst:106
+msgid "multiplication dot (centered dot)"
+msgstr ""
+
+#: ../../source/characters.rst:108
+msgid "``\\times``"
+msgstr ""
+
+#: ../../source/characters.rst:108
+msgid "0x00D7"
+msgstr ""
+
+#: ../../source/characters.rst:108
+msgid "multiplication cross"
+msgstr ""
+
+#: ../../source/characters.rst:110
+msgid "``\\pm``"
+msgstr ""
+
+#: ../../source/characters.rst:110
+msgid "0x00B1"
+msgstr ""
+
+#: ../../source/characters.rst:110
+msgid "plus minus sign"
+msgstr ""
+
+#: ../../source/characters.rst:112
+msgid "``\\mp``"
+msgstr ""
+
+#: ../../source/characters.rst:112
+msgid "0x2213"
+msgstr ""
+
+#: ../../source/characters.rst:112
+msgid "minus plus sign"
+msgstr ""
+
+#: ../../source/characters.rst:114
+msgid "``\\partial``"
+msgstr ""
+
+#: ../../source/characters.rst:114
+msgid "0x2202"
+msgstr ""
+
+#: ../../source/characters.rst:114
+msgid "partial differentiation symbol"
+msgstr ""
+
+#: ../../source/characters.rst:116
+msgid "``\\nabla``"
+msgstr ""
+
+#: ../../source/characters.rst:116
+msgid "0x2207"
+msgstr ""
+
+#: ../../source/characters.rst:116
+msgid "nabla operator"
+msgstr ""
+
+#: ../../source/characters.rst:118
+msgid "``\\infty``"
+msgstr ""
+
+#: ../../source/characters.rst:118
+msgid "0x221E"
+msgstr ""
+
+#: ../../source/characters.rst:118
+msgid "infinity symbol"
+msgstr ""
+
+#: ../../source/characters.rst:120
+msgid "``\\int``"
+msgstr ""
+
+#: ../../source/characters.rst:120
+msgid "0x222B"
+msgstr ""
+
+#: ../../source/characters.rst:120
+msgid "integral symbol"
+msgstr ""
+
+#: ../../source/characters.rst:122
+msgid "``\\approx``"
+msgstr ""
+
+#: ../../source/characters.rst:122
+msgid "0x2248"
+msgstr ""
+
+#: ../../source/characters.rst:122
+msgid "approximation symbol (waved equal sign)"
+msgstr ""
+
+#: ../../source/characters.rst:124
+msgid "``\\neq``"
+msgstr ""
+
+#: ../../source/characters.rst:124
+msgid "0x2260"
+msgstr ""
+
+#: ../../source/characters.rst:124
+msgid "not equal sign"
+msgstr ""
+
+#: ../../source/characters.rst:126
+msgid "``\\in``"
+msgstr ""
+
+#: ../../source/characters.rst:126
+msgid "0x220A"
+msgstr ""
+
+#: ../../source/characters.rst:126
+msgid "\"contained in\" symbol"
+msgstr ""
+
+#: ../../source/characters.rst:128
+msgid "``\\leq``"
+msgstr ""
+
+#: ../../source/characters.rst:128
+msgid "0x2264"
+msgstr ""
+
+#: ../../source/characters.rst:128
+msgid "less-equal sign"
+msgstr ""
+
+#: ../../source/characters.rst:130
+msgid "``\\geq``"
+msgstr ""
+
+#: ../../source/characters.rst:130
+msgid "0x2265"
+msgstr ""
+
+#: ../../source/characters.rst:130
+msgid "greater-equal sign"
+msgstr ""
+
+#: ../../source/characters.rst:132
+msgid "``\\sim``"
+msgstr ""
+
+#: ../../source/characters.rst:132
+msgid "0x223C"
+msgstr ""
+
+#: ../../source/characters.rst:132
+msgid "(central european) proportional sign"
+msgstr ""
+
+#: ../../source/characters.rst:134
+msgid "``\\propto``"
+msgstr ""
+
+#: ../../source/characters.rst:134
+msgid "0x221D"
+msgstr ""
+
+#: ../../source/characters.rst:134
+msgid "(american) proportional sign"
+msgstr ""
+
+#: ../../source/characters.rst:136
+msgid "``\\diameter``"
+msgstr ""
+
+#: ../../source/characters.rst:136
+msgid "0x00F8"
+msgstr ""
+
+#: ../../source/characters.rst:136
+msgid "diameter sign (also sign for average)"
+msgstr ""
+
+#: ../../source/characters.rst:138
+msgid "``\\onehalf``"
+msgstr ""
+
+#: ../../source/characters.rst:138
+msgid "0x00BD"
+msgstr ""
+
+#: ../../source/characters.rst:138
+msgid "one half"
+msgstr ""
+
+#: ../../source/characters.rst:140
+msgid "``\\onequarter``"
+msgstr ""
+
+#: ../../source/characters.rst:140
+msgid "0x00BC"
+msgstr ""
+
+#: ../../source/characters.rst:140
+msgid "one quarter"
+msgstr ""
+
+#: ../../source/characters.rst:142
+msgid "``\\twosuperior``"
+msgstr ""
+
+#: ../../source/characters.rst:142
+msgid "0x00B2"
+msgstr ""
+
+#: ../../source/characters.rst:142
+msgid "square (power of two)"
+msgstr ""
+
+#: ../../source/characters.rst:144
+msgid "``\\threesuperior``"
+msgstr ""
+
+#: ../../source/characters.rst:144
+msgid "0x00B3"
+msgstr ""
+
+#: ../../source/characters.rst:144
+msgid "power of three"
+msgstr ""
+
+#: ../../source/characters.rst:146
+msgid "``\\ohm``"
+msgstr ""
+
+#: ../../source/characters.rst:146
+msgid "unit for resistance (capital Greek omega)"
+msgstr ""
