@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 18:05+0100\n"
+"PO-Revision-Date: 2014-12-17 22:33+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -68,10 +68,6 @@ msgstr "Намагається відкрити файл як схему Qucs ч
 #: ../../source/short.rst:23
 msgid "\"Select\"-Mode"
 msgstr "Режим \"Виділення\""
-
-#: ../../source/short.rst:25
-msgid "|image0|"
-msgstr ""
 
 #: ../../source/short.rst:27
 msgid "(Menu: Edit->Select)"
@@ -174,10 +170,6 @@ msgstr "Крутити компонент. (Не діє на діаграмах)
 msgid "\"Wire\"-Mode"
 msgstr "Режим \"Провідник\""
 
-#: ../../source/short.rst:60
-msgid "|image1|"
-msgstr ""
-
 #: ../../source/short.rst:62
 msgid "(Menu: Insert->Wire)"
 msgstr "(Меню: Вставка->Провідник)"
@@ -201,10 +193,6 @@ msgstr "Закінчує провідник, не перебуваючи на п
 msgid "\"Paste\"-Mode"
 msgstr "Режим \"Вставка\""
 
-#: ../../source/short.rst:76
-msgid "|image2|"
-msgstr ""
-
 #: ../../source/short.rst:78
 msgid "(Menu: Edit->Paste)"
 msgstr "(Меню: Правка->Вставити)"
@@ -220,10 +208,6 @@ msgstr "Крутити елементи."
 #: ../../source/short.rst:88
 msgid "Mouse in \"Content\" Tab"
 msgstr "Миша у вкладці \"Зміст\""
-
-#: ../../source/short.rst:90
-msgid "|image3|"
-msgstr ""
 
 #: ../../source/short.rst:94
 msgid "left click"
@@ -347,3 +331,19 @@ msgstr "Клавіша Tab"
 msgid "Changes to the next open document (according to the TabBar above)."
 msgstr ""
 "Переходить до наступного відкритого документу (у відповідності до вкладків)."
+
+#: ../../source/short.rst:25
+msgid "|image0_EN|"
+msgstr "|image0_UK|"
+
+#: ../../source/short.rst:60
+msgid "|image1_EN|"
+msgstr "|image1_UK|"
+
+#: ../../source/short.rst:76
+msgid "|image2_EN|"
+msgstr "|image2_UK|"
+
+#: ../../source/short.rst:90
+msgid "|image3_EN|"
+msgstr "|image3_UK|"

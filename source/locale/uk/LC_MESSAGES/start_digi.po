@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 17:56+0100\n"
+"PO-Revision-Date: 2014-12-17 22:33+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -67,10 +67,6 @@ msgstr ""
 "Помістіть на неї діаграму Таблиця істинності і вставте зміну Output. Тепер "
 "показується таблиця істинності дво-вхідного елемента І. Поздоровлення, перше "
 "цифрове моделювання зроблено!"
-
-#: ../../source/start_digi.rst:30
-msgid "|image0|"
-msgstr ""
 
 #: ../../source/start_digi.rst:32
 msgid "Figure 1 - Qucs main window"
@@ -149,3 +145,7 @@ msgstr ""
 "об'єктів у VHDL-файлі мають відрізнятись від іменам, вже даних підсхемам. "
 "(Після моделювання повний вихідний код можна переглянути, натиснувши F6. "
 "Користуйтеся цим, щоб відчути процес.)"
+
+#: ../../source/start_digi.rst:30
+msgid "|image0_EN|"
+msgstr "|image0_UK|"

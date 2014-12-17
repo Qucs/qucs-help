@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 17:58+0100\n"
+"PO-Revision-Date: 2014-12-17 22:34+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -55,17 +55,9 @@ msgstr ""
 "завдання оптимізації як поєднання функцій, що в цьому разі веде до "
 "визначення показника добротності."
 
-#: ../../source/start_opt.rst:24
-msgid "|image0|"
-msgstr ""
-
 #: ../../source/start_opt.rst:26
 msgid "Figure 1 - Initial schematic."
 msgstr "Мал. 1 - Вхідна схема."
-
-#: ../../source/start_opt.rst:29
-msgid "|image1|"
-msgstr ""
 
 #: ../../source/start_opt.rst:31
 msgid "Figure 2 - Prepared schematic."
@@ -85,10 +77,6 @@ msgstr ""
 "можуть призвести до передчасної збіжності оптимізатора до локального "
 "мінімуму або до дуже тривалого часу оптимізації."
 
-#: ../../source/start_opt.rst:41
-msgid "|image2|"
-msgstr ""
-
 #: ../../source/start_opt.rst:43
 msgid "Figure 3 - Optimization dialog, algorithm options."
 msgstr "Мал. 3 - Діалог оптимізації, параметри алгоритму."
@@ -105,10 +93,6 @@ msgstr ""
 "ідентифікаторам, поміщеним у властивості компонентів, а не іменам "
 "компонентів."
 
-#: ../../source/start_opt.rst:52
-msgid "|image3|"
-msgstr ""
-
 #: ../../source/start_opt.rst:54
 msgid "Figure 4 - Optimization dialog, variables options."
 msgstr "Мал. 4 - Діалог оптимізації, параметри змінних."
@@ -124,10 +108,6 @@ msgstr ""
 "Потім ASCO автоматично об'єднує всіх їх в одну функцію вартості, мінімум "
 "якої і шукається."
 
-#: ../../source/start_opt.rst:62
-msgid "|image4|"
-msgstr ""
-
 #: ../../source/start_opt.rst:64
 msgid "Figure 5 - Optimization dialog, goals options."
 msgstr "Мал. 5 - Діалог оптимізації, параметри цілей."
@@ -139,10 +119,6 @@ msgid ""
 msgstr ""
 "Наступний крок полягає у зміні схеми й визначенні, які елементи потрібно "
 "оптимізувати. Отримана внаслідок схема зображено на мал. 6."
-
-#: ../../source/start_opt.rst:72
-msgid "|image5|"
-msgstr ""
 
 #: ../../source/start_opt.rst:74
 msgid "Figure 6 - New Qucs main window."
@@ -158,10 +134,6 @@ msgstr ""
 "F2. Після завершення роботи, на яку на сучасному комп'ютері піде лише кілька "
 "секунд, найкращі результати моделювання постануть в графічному вигляді."
 
-#: ../../source/start_opt.rst:82
-msgid "|image6|"
-msgstr ""
-
 #: ../../source/start_opt.rst:84
 msgid "Figure 7 - Qucs results window."
 msgstr "Мал. 7 - Вікно Qucs з результатами."
@@ -176,10 +148,38 @@ msgstr ""
 "на вкладці \"Змінні\". Тепер вони є початковими значеннями кожної з "
 "представлених змінних (мал. 8)."
 
-#: ../../source/start_opt.rst:92
-msgid "|image7|"
-msgstr ""
-
 #: ../../source/start_opt.rst:94
 msgid "Figure 8 - The best found circuit sizes."
 msgstr "Мал. 8 - Найкращі знайдені параметри електричного кола."
+
+#: ../../source/start_opt.rst:24
+msgid "|image0_EN|"
+msgstr "|image0_UK|"
+
+#: ../../source/start_opt.rst:29
+msgid "|image1_EN|"
+msgstr "|image1_UK|"
+
+#: ../../source/start_opt.rst:41
+msgid "|image2_EN|"
+msgstr "|image2_UK|"
+
+#: ../../source/start_opt.rst:52
+msgid "|image3_EN|"
+msgstr "|image3_UK|"
+
+#: ../../source/start_opt.rst:62
+msgid "|image4_EN|"
+msgstr "|image4_UK|"
+
+#: ../../source/start_opt.rst:72
+msgid "|image5_EN|"
+msgstr "|image5_UK|"
+
+#: ../../source/start_opt.rst:82
+msgid "|image6_EN|"
+msgstr "|image6_UK|"
+
+#: ../../source/start_opt.rst:92
+msgid "|image7_EN|"
+msgstr "|image7_UK|"

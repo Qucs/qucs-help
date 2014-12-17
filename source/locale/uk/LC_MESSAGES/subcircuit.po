@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 18:06+0100\n"
+"PO-Revision-Date: 2014-12-17 22:34+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -54,10 +54,6 @@ msgstr ""
 "бачите, що зараз можна помістити підсхему в головну схему. Зробіть так і "
 "закінчіть схему. Тепер можна виконати моделювання. Результат буде таким же, "
 "коли б всі компоненти підсхем були розміщені безпосередньо на схемі."
-
-#: ../../source/subcircuit.rst:25
-msgid "|image0|"
-msgstr ""
 
 #: ../../source/subcircuit.rst:27
 msgid "Figure 1 - Accesing a subcircuit"
@@ -116,3 +112,7 @@ msgid ""
 "A minimalistic example using subcircuits with parameters and equations would "
 "be like this:"
 msgstr ""
+
+#: ../../source/subcircuit.rst:25
+msgid "|image0_EN|"
+msgstr "|image0_UK|"

@@ -162,3 +162,8 @@ commands are shown in the following list:
 .. |image1_RU| image:: _static/ru/wire.png
 .. |image2_RU| image:: _static/ru/paste.png
 .. |image3_RU| image:: _static/ru/contab.png
+
+.. |image0_UK| image:: _static/uk/select.png
+.. |image1_UK| image:: _static/uk/wire.png
+.. |image2_UK| image:: _static/uk/paste.png
+.. |image3_UK| image:: _static/uk/contab.png

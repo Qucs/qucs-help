@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 17:54+0100\n"
+"PO-Revision-Date: 2014-12-17 22:35+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -77,10 +77,6 @@ msgstr ""
 "документ без назви, який заповнює робочу область (6). Після цього з'явиться "
 "діалогове вікно для введення імені нового документа. Введіть \"firstSchematic"
 "\" і натисніть кнопку \"Зберегти\"."
-
-#: ../../source/start.rst:37
-msgid "|image0|"
-msgstr ""
 
 #: ../../source/start.rst:39
 msgid "Figure 1 - Qucs main window"
@@ -185,3 +181,7 @@ msgstr ""
 "перенесеться у праву область. Вийдіть з діалогу натисканням кнопки \"Так\". "
 "Тепер видно результат моделювання: 0.667 вольта. Чудово, можете поплескати "
 "себе по плечу!"
+
+#: ../../source/start.rst:37
+msgid "|image0_EN|"
+msgstr "|image0_UK|"

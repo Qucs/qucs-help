@@ -101,3 +101,5 @@ equations would be like this:
 .. |image0_FR| image:: _static/fr/subcircuit.png
 
 .. |image0_RU| image:: _static/ru/subcircuit.png
+
+.. |image0_UK| image:: _static/uk/subcircuit.png

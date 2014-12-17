@@ -84,3 +84,5 @@ to get a feeling for this procedure.)
 .. |image0_CS| image:: _static/cs/qucsdigi.png
 
 .. |image0_RU| image:: _static/ru/qucsdigi.png
+
+.. |image0_UK| image:: _static/uk/qucsdigi.png
