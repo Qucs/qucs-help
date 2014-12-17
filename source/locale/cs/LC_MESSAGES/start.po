@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 15:29+0100\n"
+"PO-Revision-Date: 2014-12-17 21:54+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -76,10 +76,6 @@ msgstr ""
 "tlačítko \"Uložit\" na panelu nástrojů (nebo použijte hlavní menu: Soubor-"
 ">Uložit). Budete dotázáni na jméno nového dokumentu. Zadejte například "
 "\"prvni_schema\" a stiskněte tlačítko \"Hotovo\"."
-
-#: ../../source/start.rst:37
-msgid "|image0|"
-msgstr ""
 
 #: ../../source/start.rst:39
 msgid "Figure 1 - Qucs main window"
@@ -181,3 +177,7 @@ msgstr ""
 "zdroj napětí. Pro zobrazení Ux dvakrát klikněte na \"Ux.V\". Tím se přidá "
 "proměnná do diagramu. Dále klikněte na \"Hotovo\". Nyní můžete vidět "
 "výsledky simulace: 0.666667 voltů. Nádhera, můžete se poplácat na ramenu ;-)"
+
+#: ../../source/start.rst:37
+msgid "|image0_EN|"
+msgstr "|image0_CS|"

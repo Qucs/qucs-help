@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 15:44+0100\n"
+"PO-Revision-Date: 2014-12-17 21:55+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -57,10 +57,6 @@ msgstr ""
 "další součástky. Vzorový příklad můžete vidět na obrázku 1. Nyní můžete "
 "obvod odsimulovat. Výsledky jsou naprosto shodné, jako kdyby součástky ze "
 "vnořeného obvodu byli připojené přímo."
-
-#: ../../source/subcircuit.rst:25
-msgid "|image0|"
-msgstr ""
 
 #: ../../source/subcircuit.rst:27
 msgid "Figure 1 - Accesing a subcircuit"
@@ -119,3 +115,7 @@ msgid ""
 "A minimalistic example using subcircuits with parameters and equations would "
 "be like this:"
 msgstr ""
+
+#: ../../source/subcircuit.rst:25
+msgid "|image0_EN|"
+msgstr "|image0_CS|"

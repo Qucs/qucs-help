@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 15:32+0100\n"
+"PO-Revision-Date: 2014-12-17 21:55+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -68,10 +68,6 @@ msgstr ""
 "simulace. Umístěte diagram Logická tabulka (Pradivostní tabulka). Vyberte "
 "proměnnout Output. Nyní se nám zobrazí pravdivostní tabulka dvou-vstupového "
 "hradla AND. Gratuluji, první digitální simulace je hotová!"
-
-#: ../../source/start_digi.rst:30
-msgid "|image0|"
-msgstr ""
 
 #: ../../source/start_digi.rst:32
 msgid "Figure 1 - Qucs main window"
@@ -151,3 +147,7 @@ msgstr ""
 "být různé než jsou názvy vnořených obvodů. Po simulaci můžete zobrazit "
 "kompletní zdrojový kód stisknutím klávesy F6. Zobrazte si jej pokud se "
 "chcete o této proceduře dozvědět více."
+
+#: ../../source/start_digi.rst:30
+msgid "|image0_EN|"
+msgstr "|image0_CS|"

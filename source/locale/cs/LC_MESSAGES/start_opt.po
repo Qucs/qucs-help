@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 15:35+0100\n"
+"PO-Revision-Date: 2014-12-17 21:57+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -56,17 +56,9 @@ msgstr ""
 "Qucs, dikud vaše schéma nebude vypadat jako na obrázku 2 ;-) . Dejte si "
 "pozor na znaménko minus u S11_In_Band!"
 
-#: ../../source/start_opt.rst:24
-msgid "|image0|"
-msgstr ""
-
 #: ../../source/start_opt.rst:26
 msgid "Figure 1 - Initial schematic."
 msgstr "Obrázek 1 - Počáteční schéma"
-
-#: ../../source/start_opt.rst:29
-msgid "|image1|"
-msgstr ""
 
 #: ../../source/start_opt.rst:31
 msgid "Figure 2 - Prepared schematic."
@@ -85,10 +77,6 @@ msgstr ""
 "\" , \"Konstanta F\" a \"Přechod přes faktor\". Někdy může optimalizace "
 "trvat jen chvilinku, ale někdy i celkem dlouho."
 
-#: ../../source/start_opt.rst:41
-msgid "|image2|"
-msgstr ""
-
 #: ../../source/start_opt.rst:43
 msgid "Figure 3 - Optimization dialog, algorithm options."
 msgstr "Obrázek 3 - Optimalizace - dialog, možnosti algoritmu."
@@ -105,10 +93,6 @@ msgstr ""
 "jejich identifikátory umístěných ve vlastnostech komponent a **NE** jmen "
 "konponent."
 
-#: ../../source/start_opt.rst:52
-msgid "|image3|"
-msgstr ""
-
 #: ../../source/start_opt.rst:54
 msgid "Figure 4 - Optimization dialog, variables options."
 msgstr "Obrázek 4 - Optimalizace - dialoh, možnosti proměnných."
@@ -123,10 +107,6 @@ msgstr ""
 "minimalizace) a omezení (menší, větší, rovno) jsou definovány. Poté ASCO je "
 "automaticky zkombinuje do jediné funkce a to je minimalizace."
 
-#: ../../source/start_opt.rst:62
-msgid "|image4|"
-msgstr ""
-
 #: ../../source/start_opt.rst:64
 msgid "Figure 5 - Optimization dialog, goals options."
 msgstr "Obrázek 5 - Optimalizace - dialog, cílové možnosti."
@@ -138,10 +118,6 @@ msgid ""
 msgstr ""
 "Dalším krokem je změna schématu a definice které součásti obvodu budou "
 "optimalizovány. Výsledné schéma se zobrazeno na obrázku 6."
-
-#: ../../source/start_opt.rst:72
-msgid "|image5|"
-msgstr ""
 
 #: ../../source/start_opt.rst:74
 msgid "Figure 6 - New Qucs main window."
@@ -159,10 +135,6 @@ msgstr ""
 "Přidejte do něj S[2,1] a S[1,1]. Už jen nastavit barvy a tloušťku grafu (čím "
 "větší číslo, tím tlustější)."
 
-#: ../../source/start_opt.rst:82
-msgid "|image6|"
-msgstr ""
-
 #: ../../source/start_opt.rst:84
 msgid "Figure 7 - Qucs results window."
 msgstr "Obrázek 7 - Qucs - okno s výsledky."
@@ -176,10 +148,38 @@ msgstr ""
 "Nejlepší nalezené obvody můžete najít v optimalizačním dialogu v záložce "
 "Proměnné. Zde jsou hodnoty pro každý z uvedených prvků (Obrázek 8)."
 
-#: ../../source/start_opt.rst:92
-msgid "|image7|"
-msgstr ""
-
 #: ../../source/start_opt.rst:94
 msgid "Figure 8 - The best found circuit sizes."
 msgstr "Obrázek 8 - Nejlepší nalezené obvody."
+
+#: ../../source/start_opt.rst:24
+msgid "|image0_EN|"
+msgstr "|image0_CS|"
+
+#: ../../source/start_opt.rst:29
+msgid "|image1_EN|"
+msgstr "|image1_CS|"
+
+#: ../../source/start_opt.rst:41
+msgid "|image2_EN|"
+msgstr "|image2_CS|"
+
+#: ../../source/start_opt.rst:52
+msgid "|image3_EN|"
+msgstr "|image3_CS|"
+
+#: ../../source/start_opt.rst:62
+msgid "|image4_EN|"
+msgstr "|image4_CS|"
+
+#: ../../source/start_opt.rst:72
+msgid "|image5_EN|"
+msgstr "|image5_CS|"
+
+#: ../../source/start_opt.rst:82
+msgid "|image6_EN|"
+msgstr "|image6_CS|"
+
+#: ../../source/start_opt.rst:92
+msgid "|image7_EN|"
+msgstr "|image7_CS|"

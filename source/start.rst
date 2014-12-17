@@ -92,4 +92,7 @@ Wonderful, give yourself a clap on the shoulder!
    `back to the top <#top>`__
 
 .. |image0_EN| image:: _static/en/qucsmain.png
+
 .. |image0_DE| image:: _static/de/qucshaupt.png
+
+.. |image0_CS| image:: _static/cs/qucsmain.png

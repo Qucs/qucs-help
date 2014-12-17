@@ -115,3 +115,12 @@ Figure 8 - The best found circuit sizes.
 .. |image5_DE| image:: _static/de/optimization6.png
 .. |image6_DE| image:: _static/de/optimization7.png
 .. |image7_DE| image:: _static/de/optimization8.png
+
+.. |image0_CS| image:: _static/cs/optimization1.png
+.. |image1_CS| image:: _static/cs/optimization2.png
+.. |image2_CS| image:: _static/cs/optimization3.png
+.. |image3_CS| image:: _static/cs/optimization4.png
+.. |image4_CS| image:: _static/cs/optimization5.png
+.. |image5_CS| image:: _static/cs/optimization6.png
+.. |image6_CS| image:: _static/cs/optimization7.png
+.. |image7_CS| image:: _static/cs/optimization8.png
