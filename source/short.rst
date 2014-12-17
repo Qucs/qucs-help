@@ -157,3 +157,8 @@ commands are shown in the following list:
 .. |image1_FR| image:: _static/fr/wire.png
 .. |image2_FR| image:: _static/fr/paste.png
 .. |image3_FR| image:: _static/fr/contab.png
+
+.. |image0_RU| image:: _static/ru/select.png
+.. |image1_RU| image:: _static/ru/wire.png
+.. |image2_RU| image:: _static/ru/paste.png
+.. |image3_RU| image:: _static/ru/contab.png

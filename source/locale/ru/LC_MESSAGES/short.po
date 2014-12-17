@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 17:30+0100\n"
+"PO-Revision-Date: 2014-12-17 22:22+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -68,10 +68,6 @@ msgstr "Пытается открыть файл как схему Qucs или �
 #: ../../source/short.rst:23
 msgid "\"Select\"-Mode"
 msgstr "Режим \"Выделения\""
-
-#: ../../source/short.rst:25
-msgid "|image0|"
-msgstr ""
 
 #: ../../source/short.rst:27
 msgid "(Menu: Edit->Select)"
@@ -173,10 +169,6 @@ msgstr "Вращать компонент. (Не действует на диа�
 msgid "\"Wire\"-Mode"
 msgstr "Режим \"Проводник\""
 
-#: ../../source/short.rst:60
-msgid "|image1|"
-msgstr ""
-
 #: ../../source/short.rst:62
 msgid "(Menu: Insert->Wire)"
 msgstr "(Меню: Вставка->Проводник)"
@@ -200,10 +192,6 @@ msgstr "Заканчивает проводник, не находясь на п
 msgid "\"Paste\"-Mode"
 msgstr "Режим \"Вставка\""
 
-#: ../../source/short.rst:76
-msgid "|image2|"
-msgstr ""
-
 #: ../../source/short.rst:78
 msgid "(Menu: Edit->Paste)"
 msgstr "(Меню: Правка->Вставить)"
@@ -219,10 +207,6 @@ msgstr "Вращать элементы."
 #: ../../source/short.rst:88
 msgid "Mouse in \"Content\" Tab"
 msgstr "Мышь во вкладке \"Содержание\""
-
-#: ../../source/short.rst:90
-msgid "|image3|"
-msgstr ""
 
 #: ../../source/short.rst:94
 msgid "left click"
@@ -346,3 +330,19 @@ msgstr "Клавиша Tab"
 msgid "Changes to the next open document (according to the TabBar above)."
 msgstr ""
 "Переходит к следующему открытому документы (в соответствие со вкладками)."
+
+#: ../../source/short.rst:25
+msgid "|image0_EN|"
+msgstr "|image0_RU|"
+
+#: ../../source/short.rst:60
+msgid "|image1_EN|"
+msgstr "|image1_RU|"
+
+#: ../../source/short.rst:76
+msgid "|image2_EN|"
+msgstr "|image2_RU|"
+
+#: ../../source/short.rst:90
+msgid "|image3_EN|"
+msgstr "|image3_RU|"

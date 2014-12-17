@@ -100,3 +100,5 @@ Wonderful, give yourself a clap on the shoulder!
 .. |image0_ES| image:: _static/es/qucsmain.png
 
 .. |image0_FR| image:: _static/fr/qucsmain.png
+
+.. |image0_RU| image:: _static/ru/qucsmain.png

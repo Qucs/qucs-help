@@ -99,3 +99,5 @@ equations would be like this:
 .. |image0_ES| image:: _static/es/subcircuit.png
 
 .. |image0_FR| image:: _static/fr/subcircuit.png
+
+.. |image0_RU| image:: _static/ru/subcircuit.png

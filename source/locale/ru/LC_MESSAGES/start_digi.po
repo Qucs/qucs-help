@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 17:20+0100\n"
+"PO-Revision-Date: 2014-12-17 22:22+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -67,10 +67,6 @@ msgstr ""
 "данных. Поместите на нее диаграмму Таблица истинности и вставьте переменную "
 "Output. Теперь показывается таблица истинности двух-входового элемента И. "
 "Поздравления, первое цифровое моделирование сделано!"
-
-#: ../../source/start_digi.rst:30
-msgid "|image0|"
-msgstr ""
 
 #: ../../source/start_digi.rst:32
 msgid "Figure 1 - Qucs main window"
@@ -149,3 +145,7 @@ msgstr ""
 "ограничениям. Например, имена объектов в VHDL-файле должны отличаться от "
 "имен, уже данных подсхемам. (После моделирования полный исходный код можно "
 "увидеть, нажав F6. Пользуйтесь этим, чтобы прочувствовать процедуру.)"
+
+#: ../../source/start_digi.rst:30
+msgid "|image0_EN|"
+msgstr "|image0_RU|"

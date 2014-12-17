@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 17:24+0100\n"
+"PO-Revision-Date: 2014-12-17 22:23+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -55,17 +55,9 @@ msgstr ""
 "оптимизации. Возьмите схему из рис. 1 и внесите в нее изменения так, чтобы "
 "получить в результате схему на рис. 2."
 
-#: ../../source/start_opt.rst:24
-msgid "|image0|"
-msgstr ""
-
 #: ../../source/start_opt.rst:26
 msgid "Figure 1 - Initial schematic."
 msgstr "Рис. 1 - Исходная схема."
-
-#: ../../source/start_opt.rst:29
-msgid "|image1|"
-msgstr ""
 
 #: ../../source/start_opt.rst:31
 msgid "Figure 2 - Prepared schematic."
@@ -78,10 +70,6 @@ msgid ""
 "of iterations', 'Constant F' and 'Crossing over factor'. Over- or "
 "underestimation can lead to a premature convergence of the optimizer to a "
 "local minimum or, a very long optimization time."
-msgstr ""
-
-#: ../../source/start_opt.rst:41
-msgid "|image2|"
 msgstr ""
 
 #: ../../source/start_opt.rst:43
@@ -99,10 +87,6 @@ msgstr ""
 "диапазоны их допустимых значений (рис. 4). Имена переменных соответствуют "
 "идентификаторам, помещенным в свойствах компонентов, а не именам компонентов."
 
-#: ../../source/start_opt.rst:52
-msgid "|image3|"
-msgstr ""
-
 #: ../../source/start_opt.rst:54
 msgid "Figure 4 - Optimization dialog, variables options."
 msgstr "Рис. 4 - Диалог оптимизации, параметры переменных."
@@ -118,10 +102,6 @@ msgstr ""
 "Затем ASCO автоматически объединяет их в одну функцию стоимости, которая "
 "делается минимальной."
 
-#: ../../source/start_opt.rst:62
-msgid "|image4|"
-msgstr ""
-
 #: ../../source/start_opt.rst:64
 msgid "Figure 5 - Optimization dialog, goals options."
 msgstr "Рис. 5 - Диалог оптимизации, параметры целей."
@@ -133,10 +113,6 @@ msgid ""
 msgstr ""
 "Следующий шаг состоит в изменении схемы и определении, какие элементы "
 "требуется оптимизировать. Полученная в результате схема изображена на рис. 6."
-
-#: ../../source/start_opt.rst:72
-msgid "|image5|"
-msgstr ""
 
 #: ../../source/start_opt.rst:74
 msgid "Figure 6 - New Qucs main window."
@@ -153,10 +129,6 @@ msgstr ""
 "несколько секунд, наилучшие результаты моделирования будут показаны в "
 "графическом виде."
 
-#: ../../source/start_opt.rst:82
-msgid "|image6|"
-msgstr ""
-
 #: ../../source/start_opt.rst:84
 msgid "Figure 7 - Qucs results window."
 msgstr "Рис. 7 - Окно Qucs с результатами."
@@ -171,10 +143,38 @@ msgstr ""
 "вкладке \"Переменные\". Теперь они являются начальными значениями каждой из "
 "представленных переменных (рис. 8)."
 
-#: ../../source/start_opt.rst:92
-msgid "|image7|"
-msgstr ""
-
 #: ../../source/start_opt.rst:94
 msgid "Figure 8 - The best found circuit sizes."
 msgstr "Рис. 8 - Лучшие найденные параметры цепи."
+
+#: ../../source/start_opt.rst:24
+msgid "|image0_EN|"
+msgstr "|image0_RU|"
+
+#: ../../source/start_opt.rst:29
+msgid "|image1_EN|"
+msgstr "|image1_RU|"
+
+#: ../../source/start_opt.rst:41
+msgid "|image2_EN|"
+msgstr "|image2_RU|"
+
+#: ../../source/start_opt.rst:52
+msgid "|image3_EN|"
+msgstr "|image3_RU|"
+
+#: ../../source/start_opt.rst:62
+msgid "|image4_EN|"
+msgstr "|image4_RU|"
+
+#: ../../source/start_opt.rst:72
+msgid "|image5_EN|"
+msgstr "|image5_RU|"
+
+#: ../../source/start_opt.rst:82
+msgid "|image6_EN|"
+msgstr "|image6_RU|"
+
+#: ../../source/start_opt.rst:92
+msgid "|image7_EN|"
+msgstr "|image7_RU|"
