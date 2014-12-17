@@ -1,41 +1,59 @@
 #
 msgid ""
-msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr ""
+"Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-12-17 17:24+0100\n"
+"Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"X-Generator: Poedit 1.6.7\n"
 
 #: ../../source/start_opt.rst:3
 msgid "Getting Started with Optimization"
-msgstr ""
+msgstr "Быстрый старт в оптимизации"
 
 #: ../../source/start_opt.rst:6
-msgid "For circuit optimization, Qucs uses the ASCO tool "
-"(`http://asco.sourceforge.net/ <http://asco.sourceforge.net/>`__). A brief "
-"description on how to prepare your schematic, execute and interprete the "
-"results is given below. Before using this functionality, ASCO must be "
-"installed on the computer."
+msgid ""
+"For circuit optimization, Qucs uses the ASCO tool (`http://asco.sourceforge."
+"net/ <http://asco.sourceforge.net/>`__). A brief description on how to "
+"prepare your schematic, execute and interprete the results is given below. "
+"Before using this functionality, ASCO must be installed on the computer."
 msgstr ""
+"Для оптимизации цепей в Qucs используется утилита ASCO (http://asco."
+"sourceforge.net/). Ниже дается краткое описание того, как подготовить схему, "
+"выполнить утилиту и интерпретировать результат. Перед этим в системе должна "
+"быть установлена ASCO."
 
 #: ../../source/start_opt.rst:12
-msgid "Optimization of a circuit is nothing more than the minimization of a cost "
+msgid ""
+"Optimization of a circuit is nothing more than the minimization of a cost "
 "function. It can either be the delay or the rise time of a digital circuit, "
 "or the power or gain of an analog circuit. Another possibility is defining "
-"the optimization problem as a composition of functions, leading in this case"
-" to the definition of a figure-of-merit."
+"the optimization problem as a composition of functions, leading in this case "
+"to the definition of a figure-of-merit."
 msgstr ""
+"Оптимизация цепи - это ничто иное, как минимизация функции стоимости. Это "
+"может быть время задержки или нарастания цифровой цепи, либо мощность или "
+"усиление аналоговой цепи. Еще одна возможность - определить задачу "
+"оптимизации как сочетание функций, что в этом случае ведет к определению "
+"показателя добротности."
 
 #: ../../source/start_opt.rst:18
-msgid "To setup a netlist for optimization two things must be added to the already "
+msgid ""
+"To setup a netlist for optimization two things must be added to the already "
 "existing netlist: insert equation(s) and the optimization component block. "
 "Take the schematic from Figure 1 and change it until you have the resulting "
 "schematic given in Figure 2."
 msgstr ""
+"Для подготовки списка связей к оптимизации две вещи должны быть добавлены к "
+"уже существующей схеме: нужно вставить уравнение(я) и блок компонента "
+"оптимизации. Возьмите схему из рис. 1 и внесите в нее изменения так, чтобы "
+"получить в результате схему на рис. 2."
 
 #: ../../source/start_opt.rst:24
 msgid "|image0|"
@@ -43,7 +61,7 @@ msgstr ""
 
 #: ../../source/start_opt.rst:26
 msgid "Figure 1 - Initial schematic."
-msgstr ""
+msgstr "Рис. 1 - Исходная схема."
 
 #: ../../source/start_opt.rst:29
 msgid "|image1|"
@@ -51,12 +69,13 @@ msgstr ""
 
 #: ../../source/start_opt.rst:31
 msgid "Figure 2 - Prepared schematic."
-msgstr ""
+msgstr "Рис. 2 - Подготовленная схема."
 
 #: ../../source/start_opt.rst:34
-msgid "Now, open the optimization component and select the optimization tab. From "
-"the existing parameters, special attention should be paid to 'Maximum number"
-" of iterations', 'Constant F' and 'Crossing over factor'. Over- or "
+msgid ""
+"Now, open the optimization component and select the optimization tab. From "
+"the existing parameters, special attention should be paid to 'Maximum number "
+"of iterations', 'Constant F' and 'Crossing over factor'. Over- or "
 "underestimation can lead to a premature convergence of the optimizer to a "
 "local minimum or, a very long optimization time."
 msgstr ""
@@ -67,14 +86,18 @@ msgstr ""
 
 #: ../../source/start_opt.rst:43
 msgid "Figure 3 - Optimization dialog, algorithm options."
-msgstr ""
+msgstr "Рис. 3 - Диалог оптимизации, параметры алгоритма."
 
 #: ../../source/start_opt.rst:46
-msgid "In the Variables tab, defining which circuit elements will be chosen from "
+msgid ""
+"In the Variables tab, defining which circuit elements will be chosen from "
 "the allowed range, as shown in Figure 4. The variable names correspond to "
 "the identifiers placed into properties of components and **not** the "
 "components' names."
 msgstr ""
+"На вкладке \"Переменные\" определяется, какие элементы цепи будут выбраны и "
+"диапазоны их допустимых значений (рис. 4). Имена переменных соответствуют "
+"идентификаторам, помещенным в свойствах компонентов, а не именам компонентов."
 
 #: ../../source/start_opt.rst:52
 msgid "|image3|"
@@ -82,13 +105,18 @@ msgstr ""
 
 #: ../../source/start_opt.rst:54
 msgid "Figure 4 - Optimization dialog, variables options."
-msgstr ""
+msgstr "Рис. 4 - Диалог оптимизации, параметры переменных."
 
 #: ../../source/start_opt.rst:56
-msgid "Finally, go to Goals where the optimization objective (maximize, minimize) "
+msgid ""
+"Finally, go to Goals where the optimization objective (maximize, minimize) "
 "and constraints (less, greater, equal) are defined. ASCO then automatically "
 "combines them into a single cost function, that is then minimized."
 msgstr ""
+"Наконец, переходите к \"Целям\", где задаются цели оптимизации (сделать "
+"максимальным, сделать минимальным) и ограничения (меньше, больше, равно). "
+"Затем ASCO автоматически объединяет их в одну функцию стоимости, которая "
+"делается минимальной."
 
 #: ../../source/start_opt.rst:62
 msgid "|image4|"
@@ -96,12 +124,15 @@ msgstr ""
 
 #: ../../source/start_opt.rst:64
 msgid "Figure 5 - Optimization dialog, goals options."
-msgstr ""
+msgstr "Рис. 5 - Диалог оптимизации, параметры целей."
 
 #: ../../source/start_opt.rst:67
-msgid "The next step is to change the schematic, and define which circuit elements "
+msgid ""
+"The next step is to change the schematic, and define which circuit elements "
 "are to be optimized. The resulting schematic is show in Figure 6."
 msgstr ""
+"Следующий шаг состоит в изменении схемы и определении, какие элементы "
+"требуется оптимизировать. Полученная в результате схема изображена на рис. 6."
 
 #: ../../source/start_opt.rst:72
 msgid "|image5|"
@@ -109,13 +140,18 @@ msgstr ""
 
 #: ../../source/start_opt.rst:74
 msgid "Figure 6 - New Qucs main window."
-msgstr ""
+msgstr "Рис. 6 - Новое главное окно Qucs."
 
 #: ../../source/start_opt.rst:76
-msgid "The last step is to run the optimization, i.e. the simulation by pressing "
+msgid ""
+"The last step is to run the optimization, i.e. the simulation by pressing "
 "F2. Once finished, which takes a few seconds on a modern computer, the best "
 "simulation results is shown in the graphical waveform viewer."
 msgstr ""
+"Последний шаг - запуск оптимизации, то есть моделирования, нажатием клавиши "
+"F2. По кончании работы, на которую на современном компьютере уйдет всего "
+"несколько секунд, наилучшие результаты моделирования будут показаны в "
+"графическом виде."
 
 #: ../../source/start_opt.rst:82
 msgid "|image6|"
@@ -123,13 +159,17 @@ msgstr ""
 
 #: ../../source/start_opt.rst:84
 msgid "Figure 7 - Qucs results window."
-msgstr ""
+msgstr "Рис. 7 - Окно Qucs с результатами."
 
 #: ../../source/start_opt.rst:87
-msgid "The best found circuit sizes can be found in the optimization dialog, in the"
-" Variables tab. They are now the initial values for each one of introduced "
+msgid ""
+"The best found circuit sizes can be found in the optimization dialog, in the "
+"Variables tab. They are now the initial values for each one of introduced "
 "variables (Figure 8)."
 msgstr ""
+"Оптимальные параметры цепи могут быть найдены в диалоге оптимизации, на "
+"вкладке \"Переменные\". Теперь они являются начальными значениями каждой из "
+"представленных переменных (рис. 8)."
 
 #: ../../source/start_opt.rst:92
 msgid "|image7|"
@@ -137,5 +177,4 @@ msgstr ""
 
 #: ../../source/start_opt.rst:94
 msgid "Figure 8 - The best found circuit sizes."
-msgstr ""
-
+msgstr "Рис. 8 - Лучшие найденные параметры цепи."

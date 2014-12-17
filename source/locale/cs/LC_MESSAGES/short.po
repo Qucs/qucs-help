@@ -1,14 +1,17 @@
 #
 msgid ""
-msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr ""
+"Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-12-17 15:41+0100\n"
+"Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"X-Generator: Poedit 1.6.7\n"
 
 #: ../../source/short.rst:3
 msgid "Short Description of Actions"
@@ -20,25 +23,27 @@ msgstr "Hlavní ovládání"
 
 #: ../../source/short.rst:8
 msgid "(valid in all modes)"
-msgstr ""
+msgstr "(platné pro všechny módy)"
 
 #: ../../source/short.rst:11
 msgid "mouse wheel"
 msgstr "kolečko myši"
 
 #: ../../source/short.rst:11
-msgid "Scrolls vertically the drawing area. You can also scroll outside the current"
-" size."
-msgstr ""
+msgid ""
+"Scrolls vertically the drawing area. You can also scroll outside the current "
+"size."
+msgstr "Posouvá vertikálně pracovní oblast."
 
 #: ../../source/short.rst:13
 msgid "mouse wheel + Shift Button"
 msgstr "kolečko myši + klávesa Shift"
 
 #: ../../source/short.rst:13
-msgid "Scrolls horizontally the drawing area. You can also scroll outside the "
+msgid ""
+"Scrolls horizontally the drawing area. You can also scroll outside the "
 "current size."
-msgstr ""
+msgstr "Posunuje horizontálně pracovní oblsat."
 
 #: ../../source/short.rst:15
 msgid "mouse wheel + Ctrl Button"
@@ -51,10 +56,14 @@ msgstr "Přiblíží, nebo oddálí pracovní oblast."
 #: ../../source/short.rst:17
 msgid "drag'n'drop file into document area"
 msgstr ""
+"\"přetáhnout\" soubor do oblasti s dokumenty (viz Začínáme - Analogové "
+"obvody obrázek 1 (5) )"
 
 #: ../../source/short.rst:17
 msgid "Tries to open file as Qucs schematic or data display."
 msgstr ""
+"Qucs se pokusí otevřít soubor jako schéma, nebo jako soubor s výstupními "
+"daty."
 
 #: ../../source/short.rst:23
 msgid "\"Select\"-Mode"
@@ -74,20 +83,22 @@ msgid "left mouse button"
 msgstr "levé tlačítko myši"
 
 #: ../../source/short.rst:30
-msgid "Selects the element below the mouse cursor. If several components are placed"
-" there, you can clicking several times in order to select the wanted one. "
-"Keeping the mouse button pressed, you can move the component below the mouse"
-" cursor and all selected ones. If you want to fine position the components, "
-"press the CTRL key during moving and the grid is disabled. Keeping the mouse"
-" button pressed without any element below it opens a rectangle. After "
-"releasing the mouse button, all elements within this rectangle are selected."
-" A selected diagram or painting can be resized by pressing the left mouse "
+msgid ""
+"Selects the element below the mouse cursor. If several components are placed "
+"there, you can clicking several times in order to select the wanted one. "
+"Keeping the mouse button pressed, you can move the component below the mouse "
+"cursor and all selected ones. If you want to fine position the components, "
+"press the CTRL key during moving and the grid is disabled. Keeping the mouse "
+"button pressed without any element below it opens a rectangle. After "
+"releasing the mouse button, all elements within this rectangle are selected. "
+"A selected diagram or painting can be resized by pressing the left mouse "
 "button over one of its corners and moving by keeping the button pressed. "
-"After clicking on a component text, it can be edited directly. The enter key"
-" jumps to the next property. If the property is a selection list, it can "
-"only be changed with the cursor up/down keys. Clicking on a circuit node "
-"enters the \"wire mode\"."
-msgstr "Vybere komponentu pod kurzorem. Pokud je zde několik komponent, můžete "
+"After clicking on a component text, it can be edited directly. The enter key "
+"jumps to the next property. If the property is a selection list, it can only "
+"be changed with the cursor up/down keys. Clicking on a circuit node enters "
+"the \"wire mode\"."
+msgstr ""
+"Vybere komponentu pod kurzorem. Pokud je zde několik komponent, můžete "
 "klikat tak dlouho, dokud nebude vybrána taková komponenta, kterou chcete. "
 "Pokud necháte tlačítko myši stisklé, můžete komponenty pod kurzorem "
 "přesouvat. Pokud chcete nastavit přesně pozici komponent, držte klávesu CTRL "
@@ -107,10 +118,15 @@ msgid "left mouse button + Ctrl Button"
 msgstr "Levé tlačítko myši + klávesa Ctrl"
 
 #: ../../source/short.rst:37
-msgid "Allows more than one element to be selected, i.e. selecting an element does "
+msgid ""
+"Allows more than one element to be selected, i.e. selecting an element does "
 "not deselect the others. Clicking on a selected element deselects it. This "
 "mode is also valid for selecting by opening a rectangle (see item before)."
 msgstr ""
+"Povolí vybrat více jak jednu komponentu. Například vyberete několik "
+"komponent, ale z tohoto výběru pořebujete mít dvě nevybrané. Kliknutím na "
+"vybranou komponentu ji odeberete z výběru. Tento mód je také platný pro "
+"výběr pomocí obdélníku (podívejte se o odstavec výše)."
 
 #: ../../source/short.rst:39 ../../source/short.rst:53
 #: ../../source/short.rst:67 ../../source/short.rst:83
@@ -118,7 +134,8 @@ msgid "right mouse button"
 msgstr "pravé tlačíko myši"
 
 #: ../../source/short.rst:39
-msgid "Clicking on a wire selects a single straight line instead of the complete "
+msgid ""
+"Clicking on a wire selects a single straight line instead of the complete "
 "line."
 msgstr "Kliknutím na vodič vyberete pouze číst vodiče namísto celého vodiče."
 
@@ -127,9 +144,11 @@ msgid "double-click right mouse button"
 msgstr "Dojklik levým tlačítkem myši"
 
 #: ../../source/short.rst:41
-msgid "Opens a dialog to edit the element properties (The labels of wires, the "
+msgid ""
+"Opens a dialog to edit the element properties (The labels of wires, the "
 "parameters of components, etc.)."
-msgstr "Otevře se okno, ve kterém můžeme měnit vlastnost (značky vodičů, parametry "
+msgstr ""
+"Otevře se okno, ve kterém můžeme měnit vlastnost (značky vodičů, parametry "
 "komponent, atd.)"
 
 #: ../../source/short.rst:46
@@ -142,7 +161,7 @@ msgstr "(Kliknout na komponentu/diagram v levé oblasti)"
 
 #: ../../source/short.rst:51
 msgid "Place a new instance of the component onto the schematic."
-msgstr ""
+msgstr "Umístí novou komponentu do schématu."
 
 #: ../../source/short.rst:53
 msgid "Rotate the component. (Has no effect on diagrams.)"
@@ -165,9 +184,10 @@ msgid "Sets the starting/ending point of the wire."
 msgstr "Nastaví začítek/konec vodiče."
 
 #: ../../source/short.rst:67
-msgid "Changes the direction of the wire corner (first left/right or first "
-"up/down)."
-msgstr "Změní směr vodiče v rohách (první doleva/dopravas, nebo první nahoru/dolů)."
+msgid ""
+"Changes the direction of the wire corner (first left/right or first up/down)."
+msgstr ""
+"Změní směr vodiče v rohách (první doleva/dopravas, nebo první nahoru/dolů)."
 
 #: ../../source/short.rst:69
 msgid "Ends a wire without being on a wire or a port."
@@ -175,7 +195,7 @@ msgstr ""
 
 #: ../../source/short.rst:74
 msgid "\"Paste\"-Mode"
-msgstr ""
+msgstr "\"Vložit\"-Mód"
 
 #: ../../source/short.rst:76
 msgid "|image2|"
@@ -183,11 +203,11 @@ msgstr ""
 
 #: ../../source/short.rst:78
 msgid "(Menu: Edit->Paste)"
-msgstr ""
+msgstr "(Menu: Upravit->Vložit)"
 
 #: ../../source/short.rst:81
 msgid "Place the elements onto the schematic (from the clipboard)."
-msgstr ""
+msgstr "Umístí komponentu do schématu (ze schránky)."
 
 #: ../../source/short.rst:83
 msgid "Rotate the elements."
@@ -195,7 +215,7 @@ msgstr "klik levým tlačítkem"
 
 #: ../../source/short.rst:88
 msgid "Mouse in \"Content\" Tab"
-msgstr ""
+msgstr "Myš v záložce \"Obsah\""
 
 #: ../../source/short.rst:90
 msgid "|image3|"
@@ -211,11 +231,11 @@ msgstr "Otevře soubor."
 
 #: ../../source/short.rst:96
 msgid "double-click"
-msgstr ""
+msgstr "dvojklik"
 
 #: ../../source/short.rst:96
 msgid "Opens file."
-msgstr ""
+msgstr "Otevře soubor."
 
 #: ../../source/short.rst:98
 msgid "right click"
@@ -223,78 +243,96 @@ msgstr "Klávesnice"
 
 #: ../../source/short.rst:98
 msgid "Displays menu with:"
-msgstr ""
+msgstr "Zobrazí se menu:"
 
 #: ../../source/short.rst:100
 msgid "\"open\""
-msgstr ""
+msgstr "\"Otevřít\""
 
 #: ../../source/short.rst:100
 msgid "open selected file"
-msgstr ""
+msgstr "otevře vybraný soubor"
 
 #: ../../source/short.rst:102
 msgid "\"rename\""
-msgstr ""
+msgstr "Přejmenovat"
 
 #: ../../source/short.rst:102
 msgid "change name of selected file"
-msgstr ""
+msgstr "změní jméno vybraného souboru"
 
 #: ../../source/short.rst:104
 msgid "\"delete\""
-msgstr ""
+msgstr "\"Smazat\""
 
 #: ../../source/short.rst:104
 msgid "delete selected file"
-msgstr ""
+msgstr "Smaže vybraný soubor"
 
 #: ../../source/short.rst:106
 msgid "\"delete group"
-msgstr ""
+msgstr "\"Smazat skupinu\""
 
 #: ../../source/short.rst:106
-msgid "delete selected file and its relatives (schematic, data display, dataset)"
+msgid ""
+"delete selected file and its relatives (schematic, data display, dataset)"
 msgstr ""
+"smaže vybraný soubor i data s tím spojená (schémata, výstupy dat, nastavení)"
 
 #: ../../source/short.rst:112
 msgid "Keyboard"
-msgstr ""
+msgstr "Klávesnice"
 
 #: ../../source/short.rst:114
-msgid "Many actions can be activated/done by the keyboard strokes. This can be seen"
-" in the main menu right beside the command. Some further key commands are "
+msgid ""
+"Many actions can be activated/done by the keyboard strokes. This can be seen "
+"in the main menu right beside the command. Some further key commands are "
 "shown in the following list:"
 msgstr ""
+"Mnoho akcí můžeme aktivovat/potrvrdit pomocí klávesnice. Tyto klávesové "
+"zkratky můžete najít v hlavním menu. Další klávesové zkratky najdete v tomto "
+"seznamu:"
 
 #: ../../source/short.rst:119
 msgid "\"Delete\" or \"Backspace\""
 msgstr "Šipky doleva/doprava"
 
 #: ../../source/short.rst:119
-msgid "Deletes the selected elements or enters the delete mode if no element is "
+msgid ""
+"Deletes the selected elements or enters the delete mode if no element is "
 "selected."
 msgstr ""
+"Smaže vybrané komponenty, nebo se zapne mazací mód, pokud není nic vybráno."
 
 #: ../../source/short.rst:121
 msgid "Cursor left/right"
 msgstr "Šipky nahoru/dolů"
 
 #: ../../source/short.rst:121
-msgid "Changes the position of selected markers on their graphs. If no marker is "
-"selected, move selected elements. If no element is selected, scroll document"
-" area."
+msgid ""
+"Changes the position of selected markers on their graphs. If no marker is "
+"selected, move selected elements. If no element is selected, scroll document "
+"area."
 msgstr ""
+"Změní pozici vybraných popisovačů v jejich grafech. Pokud není žádny "
+"popisovač vybrán, posune vybrané objekty. Pokud není žádná komponenta "
+"vybrána, bude se rolovat mezi záložkami dokumentů."
 
 #: ../../source/short.rst:125
 msgid "Cursor up/down"
 msgstr "Tabulátor"
 
 #: ../../source/short.rst:125
-msgid "Changes the position of selected markers on more-dimensional graphs. If no "
+msgid ""
+"Changes the position of selected markers on more-dimensional graphs. If no "
 "marker is selected, move selected elements. If no element is selected, "
 "scroll document area."
 msgstr ""
+"Změní pozici vybraných popisovačů ve více rozměrných grafech.Pokud není "
+"žádný popisovač vybrán, po Changes the position of selected markers on more-"
+"dimensional graphs.Pokud není žádny popisovač vybrán, posune vybrané "
+"objekty. Pokud není žádná komponenta vybrána, bude se rolovat mezi záložkami "
+"dokumentů."
 
 #: ../../source/short.rst:129
 msgid "Tabulator"
@@ -302,5 +340,4 @@ msgstr "Nahoru"
 
 #: ../../source/short.rst:129
 msgid "Changes to the next open document (according to the TabBar above)."
-msgstr ""
-
+msgstr "Skočí na další otevřený dokument. (souhlasně s další záložkou)."

@@ -1,104 +1,132 @@
 #
 msgid ""
-msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr ""
+"Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-12-17 15:09+0100\n"
+"Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"X-Generator: Poedit 1.6.7\n"
 
 #: ../../source/programs.rst:3
 msgid "Installed Files"
-msgstr ""
+msgstr "Arquivos Instalados"
 
 #: ../../source/programs.rst:5
-msgid "The Qucs system needs several programs. These are installed during the "
-"installation process. The path of Qucs is determined during the installation"
-" (``configure`` script). The following explanations assume the default path "
+msgid ""
+"The Qucs system needs several programs. These are installed during the "
+"installation process. The path of Qucs is determined during the installation "
+"(``configure`` script). The following explanations assume the default path "
 "(``/usr/local/``)."
 msgstr ""
+"O sistema Qucs precisa de vários programas. Eles são instalados durante o "
+"processo de instalação. O diretório de instalação do Qucs é determinada "
+"durante a instalação (script configure). As seguintes explicações assumem o "
+"diretório padrão (/usr/local/)."
 
 #: ../../source/programs.rst:10
 msgid "``/usr/local/bin/qucs`` - the GUI"
-msgstr ""
+msgstr "/usr/local/bin/qucs     - a interface gráfica (GUI)"
 
 #: ../../source/programs.rst:12
 msgid "``/usr/local/bin/qucsator`` - the simulator (console application)"
-msgstr ""
+msgstr "/usr/local/bin/qucsator - o simulador (aplicação de console)"
 
 #: ../../source/programs.rst:14
 msgid "``/usr/local/bin/qucsedit`` - a simple text editor"
-msgstr ""
+msgstr "/usr/local/bin/qucsedit - um edito de textos simples"
 
 #: ../../source/programs.rst:16
-msgid "``/usr/local/bin/qucshelp`` - a small program displaying the help system"
+msgid ""
+"``/usr/local/bin/qucshelp`` - a small program displaying the help system"
 msgstr ""
+"/usr/local/bin/qucshelp - um pequeno programa exibindo o sistema de ajuda"
 
 #: ../../source/programs.rst:18
-msgid "``/usr/local/bin/qucstrans`` - a program for calculation transmission line "
+msgid ""
+"``/usr/local/bin/qucstrans`` - a program for calculation transmission line "
 "parameters"
 msgstr ""
+"/usr/local/bin/qucstrans - um programa para calcular parâmetros de linhas de "
+"transmissão"
 
 #: ../../source/programs.rst:20
 msgid "``/usr/local/bin/qucsfilter`` - a program synthesizing filter circuits"
 msgstr ""
+"/usr/local/bin/qucsfilter - um programa que sintetiza circuitos de filtro"
 
 #: ../../source/programs.rst:22
-msgid "``/usr/local/bin/qucsconv`` - a file format converter (console application)"
+msgid ""
+"``/usr/local/bin/qucsconv`` - a file format converter (console application)"
 msgstr ""
+"/usr/local/bin/qucsconv - um conversor de formato de arquivo (aplicação de "
+"console)"
 
 #: ../../source/programs.rst:25
-msgid "All programs are stand-alone applications and can be started independently. "
+msgid ""
+"All programs are stand-alone applications and can be started independently. "
 "The main program (GUI)"
 msgstr ""
+"Todos os programas são aplicações separadas e podem ser iniciados de forma "
+"independente. O programa principal (GUI)"
 
 #: ../../source/programs.rst:28
 msgid "calls ``qucsator`` when performing a simulation,"
-msgstr ""
+msgstr "chama qucsator quando executa uma simulação,"
 
 #: ../../source/programs.rst:30
 msgid "calls ``qucsedit`` when showing text files,"
-msgstr ""
+msgstr "chama qucsedit quando mostra arquivos de texto,"
 
 #: ../../source/programs.rst:32
 msgid "calls ``qucshelp`` when showing the help system,"
-msgstr ""
+msgstr "chama qucshelp quando exibe o sistema de ajuda,"
 
 #: ../../source/programs.rst:34
 msgid "calls ``qucstrans`` when calling this program from menu \"Tools\","
 msgstr ""
+"chama qucstrans quando este programa é chamado do Menu \"Ferramentas\","
 
 #: ../../source/programs.rst:36
 msgid "calls ``qucsfilter`` when calling this program from menu \"Tools\","
 msgstr ""
+"chama qucsfilter quando este programa é chamado do Menu \"Ferramentas\","
 
 #: ../../source/programs.rst:38
-msgid "calls ``qucsconv`` when placing the SPICE component and when performing a "
+msgid ""
+"calls ``qucsconv`` when placing the SPICE component and when performing a "
 "simulation with the SPICE component."
 msgstr ""
+"chama qucsconv quando é colocado um componente SPICE e é feita uma simulação "
+"com ele."
 
 #: ../../source/programs.rst:40
 msgid "Furthermore, the following directories are created during installation:"
-msgstr ""
+msgstr "Além disso, os seguintes diretórios são criados durante a instalação:"
 
 #: ../../source/programs.rst:43
 msgid "``/usr/local/share/qucs/bitmaps`` - contains all bitmaps (icons etc.)"
-msgstr ""
+msgstr "/usr/local/share/qucs/bitmaps - contém todas os bitmaps (ícones, etc.)"
 
 #: ../../source/programs.rst:45
-msgid "``/usr/local/share/qucs/docs`` - contains HTML documents for the help system"
+msgid ""
+"``/usr/local/share/qucs/docs`` - contains HTML documents for the help system"
 msgstr ""
+"/usr/local/share/qucs/docs    - contém documentos HTML para o sistema de "
+"ajuda"
 
 #: ../../source/programs.rst:47
 msgid "``/usr/local/share/qucs/lang`` - contains the translation files"
-msgstr ""
+msgstr "/usr/local/share/qucs/lang    - contém os arquivos de tradução"
 
 #: ../../source/programs.rst:50
 msgid "Command line arguments"
-msgstr ""
+msgstr "Argumentos de linha de comando"
 
 #: ../../source/programs.rst:52
 msgid "``qucs [file1 [file2 ...]]``"
@@ -106,17 +134,16 @@ msgstr ""
 
 #: ../../source/programs.rst:54
 msgid "``qucsator [-b] -i netlist -o dataset`` (b = progress bar)"
-msgstr ""
+msgstr "qucsator [-b] -i netlist -o dataset (b = barra de progresso)"
 
 #: ../../source/programs.rst:56
 msgid "``qucsedit [-r] [file]`` (r = read-only)"
-msgstr ""
+msgstr "qucsedit [-r] [file] (r = somente leitura)"
 
 #: ../../source/programs.rst:58
 msgid "``qucshelp`` (no arguments)"
-msgstr ""
+msgstr "qucshelp (sem argumentos)"
 
 #: ../../source/programs.rst:60
 msgid "``qucsconv -if spice -of qucs -i netlist.inp -o netlist.net``"
 msgstr ""
-

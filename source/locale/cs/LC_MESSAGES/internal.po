@@ -1,206 +1,266 @@
 #
 msgid ""
-msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr ""
+"Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-12-17 15:56+0100\n"
+"Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"X-Generator: Poedit 1.6.7\n"
 
 #: ../../source/internal.rst:3
 msgid "Schematic File Format"
 msgstr "Popis k formátu souborů"
 
 #: ../../source/internal.rst:6
-msgid "This document describes the schematic file format of Qucs. This format is "
+msgid ""
+"This document describes the schematic file format of Qucs. This format is "
 "used for schematics (usually with suffix \".sch\") and for data displays "
 "(usually with suffix \".dpl\"). The following text shows a short example of "
 "a schematic file."
-msgstr "Tento dokument popisuje formát souborů. Tento formát je používán pro "
+msgstr ""
+"Tento dokument popisuje formát souborů. Tento formát je používán pro "
 "schémata (obvykle s příponou \".sch\") a pro soubory, které zobrazují "
 "výstupní data (obvykle s příponou \".dpl\"). Následující text názorně "
 "ukazuje příklad souboru se sechématem."
 
 #: ../../source/internal.rst:38
-msgid "The file contains several section. Each of it is explained below. Every line"
-" consists of not more than one information block that starts with a less-"
-"sign \"<\" and ends with a greater-sign \">\"."
-msgstr "Každý řádek obsahuje mnoho sekcí. Každá je vysvětlena níže. Každá řádka "
-"neobsahuje více jak jeden blok informací které začínají znakem \"<\" a "
-"končí znakem \">\"."
+msgid ""
+"The file contains several section. Each of it is explained below. Every line "
+"consists of not more than one information block that starts with a less-sign "
+"\"<\" and ends with a greater-sign \">\"."
+msgstr ""
+"Každý řádek obsahuje mnoho sekcí. Každá je vysvětlena níže. Každá řádka "
+"neobsahuje více jak jeden blok informací které začínají znakem \"<\" a končí "
+"znakem \">\"."
 
 #: ../../source/internal.rst:43
 msgid "Properties"
-msgstr ""
+msgstr "Vlastnosti (Properties)"
 
 #: ../../source/internal.rst:46
-msgid "The first section starts with \"<Properties>\" and ends with "
-"\"</Properties>\". It contains the document properties of the file. Each "
-"line is optional. The following properties are supported:"
-msgstr "První část začíná s \"<Properties>\" a končí \"</Properties>\". "
-"Tento blok obsahuje vlastnosti souboru dokumentu. Každá řádka je volitelná ("
-"neí třeba vše definovat). Následující vlastnosti jsou podoprovány:"
+msgid ""
+"The first section starts with \"<Properties>\" and ends with \"</Properties>"
+"\". It contains the document properties of the file. Each line is optional. "
+"The following properties are supported:"
+msgstr ""
+"První část začíná s \"<Properties>\" a končí \"</Properties>\". Tento blok "
+"obsahuje vlastnosti souboru dokumentu. Každá řádka je volitelná (neí třeba "
+"vše definovat). Následující vlastnosti jsou podoprovány:"
 
 #: ../../source/internal.rst:50
-msgid "*<View=x1,y1,x2,y2,scale,xpos,ypos>* contains pixel position of the "
+msgid ""
+"*<View=x1,y1,x2,y2,scale,xpos,ypos>* contains pixel position of the "
 "schematic window in the first four numbers, its current scale and the "
 "current position of the upper left corner (last two numbers)."
-msgstr "*<View=x1,y1,x2,y2,scale,xpos,ypos>* první čtyři čísla udávají "
-"pozici okna se shématem. Je to současná velikost tohoto okna a pozice levého "
-"horního rohu (poslední dvě čísla)."
+msgstr ""
+"*<View=x1,y1,x2,y2,scale,xpos,ypos>* první čtyři čísla udávají pozici okna "
+"se shématem. Je to současná velikost tohoto okna a pozice levého horního "
+"rohu (poslední dvě čísla)."
 
 #: ../../source/internal.rst:53
-msgid "*<Grid=x,y,on>* contains the distance of the grid in pixel (first two "
+msgid ""
+"*<Grid=x,y,on>* contains the distance of the grid in pixel (first two "
 "numbers) and whether grid is on (last number 1) or off (last number 0)."
-msgstr "*<Grid=x,y,on>* udává rozestup v mřížce v pixelech (první dvě "
-"čísla) a jestli je zapnut (poslední číslo je 1), nebo vypnut (poslední číslo "
-"je 0)."
+msgstr ""
+"*<Grid=x,y,on>* udává rozestup v mřížce v pixelech (první dvě čísla) a "
+"jestli je zapnut (poslední číslo je 1), nebo vypnut (poslední číslo je 0)."
 
 #: ../../source/internal.rst:56
-msgid "*<DataSet=name.dat>* contains the file name of the data set associated with "
+msgid ""
+"*<DataSet=name.dat>* contains the file name of the data set associated with "
 "this schematic."
-msgstr "*<DataSet=name.dat>* Do tohoto souboru se ukládají výsledky ze "
-"simulace."
+msgstr ""
+"*<DataSet=name.dat>* Do tohoto souboru se ukládají výsledky ze simulace."
 
 #: ../../source/internal.rst:58
-msgid "*<DataDisplay=name.dpl>* contains the file name of the data display page "
+msgid ""
+"*<DataDisplay=name.dpl>* contains the file name of the data display page "
 "associated with this schematic (or the file name of the schematic if this "
 "document is a data display)."
 msgstr ""
+"*<DataDisplay=name.dpl>* Do tohoto souboru se ukládají další informace o "
+"simulaci."
 
 #: ../../source/internal.rst:61
-msgid "*<OpenDisplay=yes>* contains 1 if the data display page opens automatically "
+msgid ""
+"*<OpenDisplay=yes>* contains 1 if the data display page opens automatically "
 "after simulation, otherwise contains 0."
-msgstr "*<OpenDisplay=yes>* obsahuje 1 pokud se stránka \"DataDisplay\" "
-"má automaticky otevří po simulaci. V opačném případě obsahuje 0."
+msgstr ""
+"*<OpenDisplay=yes>* obsahuje 1 pokud se stránka \"DataDisplay\" má "
+"automaticky otevří po simulaci. V opačném případě obsahuje 0."
 
 #: ../../source/internal.rst:68
 msgid "Symbol"
 msgstr "Symbol"
 
 #: ../../source/internal.rst:71
-msgid "This section starts with \"<Symbol>\" and ends with \"</Symbol>\". It "
-"contains painting elements creating a schematic symbol for the file. This is"
-" usually only used for schematic files that meant to be a subcircuit."
-msgstr "Začíná znaky \"<Symbol>\" a končí \"</Symbol>\". Obsahuje "
-"grafické součásti, které tvoří schématický symbor pro soubor. Toto je často "
-"používáno pro soubory schémat, které bývají později použity jako vnořené "
-"obvody."
+msgid ""
+"This section starts with \"<Symbol>\" and ends with \"</Symbol>\". It "
+"contains painting elements creating a schematic symbol for the file. This is "
+"usually only used for schematic files that meant to be a subcircuit."
+msgstr ""
+"Začíná znaky \"<Symbol>\" a končí \"</Symbol>\". Obsahuje grafické součásti, "
+"které tvoří schématický symbor pro soubor. Toto je často používáno pro "
+"soubory schémat, které bývají později použity jako vnořené obvody."
 
 #: ../../source/internal.rst:77
 msgid "Components"
-msgstr ""
+msgstr "Components (Komponenty)"
 
 #: ../../source/internal.rst:80
-msgid "This section starts with \"<Components>\" and ends with \"</Components>\". "
+msgid ""
+"This section starts with \"<Components>\" and ends with \"</Components>\". "
 "It contains the circuit components of the schematic. The line format is as "
 "follows:"
 msgstr ""
+"Začíná znaky \"<Components>\" a končí \"</Components>\". Obsahuje komponenty "
+"obvodů ve schématech. Formát je následující:"
 
 #: ../../source/internal.rst:88
-msgid "The type identifies the component, e.g. \"R\" for a resistor, \"C\" for a "
+msgid ""
+"The type identifies the component, e.g. \"R\" for a resistor, \"C\" for a "
 "capacitor."
-msgstr "\"type\" - identifikuje komponenty. Např.: \"R\" jako rezistor, \"C\" jako "
+msgstr ""
+"\"type\" - identifikuje komponenty. Např.: \"R\" jako rezistor, \"C\" jako "
 "kapacitu."
 
 #: ../../source/internal.rst:90
-msgid "The name is the unique component identifier of the schematic, e.g. \"R1\" "
+msgid ""
+"The name is the unique component identifier of the schematic, e.g. \"R1\" "
 "for the first resistor."
-msgstr "\"name\" - toto je zcela jedinečný identifikátor ve schématu. Např.: \"R1\" "
+msgstr ""
+"\"name\" - toto je zcela jedinečný identifikátor ve schématu. Např.: \"R1\" "
 "pro první rezistor."
 
 #: ../../source/internal.rst:92
-msgid "A \"1\" in the active field shows that the component is active, i.e it is "
+msgid ""
+"A \"1\" in the active field shows that the component is active, i.e it is "
 "used in the simulation. A \"0\" shows it is inactive."
-msgstr "\"active\" - pokud je zde \"1\", znamená to, že komponenta je aktivní. "
+msgstr ""
+"\"active\" - pokud je zde \"1\", znamená to, že komponenta je aktivní. "
 "Například je použita v simulaci. Pokud je zde \"0\", je neaktivní."
 
 #: ../../source/internal.rst:94
-msgid "The next two numbers are the x and y coordinates of the component center."
+msgid ""
+"The next two numbers are the x and y coordinates of the component center."
 msgstr ""
+"\"x y\" - Tyto dvě čísla určují, polohu komponenty (resp. kde se bude "
+"nacházet její střed)."
 
 #: ../../source/internal.rst:96
-msgid "The next two numbers are the x and y coordinates of the upper left corner of"
-" the component text. They are relative to the component center."
+msgid ""
+"The next two numbers are the x and y coordinates of the upper left corner of "
+"the component text. They are relative to the component center."
 msgstr ""
+"\"xtext ytext\" - Tato čísla určují polohu textu, který slouží jako popisek "
+"pro určitou komponentu (resp. určuje, kde se bude nacházet horní levý roh "
+"popisku). Tyto údaje udávají vzdálenost od středu komponenty."
 
 #: ../../source/internal.rst:99
-msgid "The next two numbers indicate the mirroring about the x axis (\"1\" for "
+msgid ""
+"The next two numbers indicate the mirroring about the x axis (\"1\" for "
 "mirrored, \"0\" for not mirrored) and the counter-clockwise rotation "
 "(multiple of 90 degree, i.e. 0...3)."
-msgstr "\"mirrorX rotate\" - Následující dvě čísla definují zrcadlení podle osy x (\""
-"1\" pro zrcadlení, \"0\" nezrcadlí se) a rotaci ve stupních (proti směru "
+msgstr ""
+"\"mirrorX rotate\" - Následující dvě čísla definují zrcadlení podle osy x "
+"(\"1\" pro zrcadlení, \"0\" nezrcadlí se) a rotaci ve stupních (proti směru "
 "hodinových ručiček)."
 
 #: ../../source/internal.rst:102
-msgid "The next entries are the values of the component properties (in quotation "
+msgid ""
+"The next entries are the values of the component properties (in quotation "
 "marks) followed by an 1 if the property is visible on the schematic "
 "(otherwise 0)."
-msgstr "\"\"Value1\" visible\" - Zde se udává hodnota komponenty (v uvozovkách) . "
-"Pokud je za ní \"1\", pak bude ve schématu zobrazena. Pokud bude hodnota \""
-"0\", pak nebude ve schématu zobrazena."
+msgstr ""
+"\"\"Value1\" visible\" - Zde se udává hodnota komponenty (v uvozovkách) . "
+"Pokud je za ní \"1\", pak bude ve schématu zobrazena. Pokud bude hodnota "
+"\"0\", pak nebude ve schématu zobrazena."
 
 #: ../../source/internal.rst:110
 msgid "Wires"
 msgstr "Vedení"
 
 #: ../../source/internal.rst:113
-msgid "This section starts with \"<Wires>\" and ends with \"</Wires>\". It contains"
-" the wires (electrical connection between circuit components) and their "
+msgid ""
+"This section starts with \"<Wires>\" and ends with \"</Wires>\". It contains "
+"the wires (electrical connection between circuit components) and their "
 "labels and node sets. The line format is as follows:"
 msgstr ""
+"Začíná \"<Wires>\" a končí \"</Wires>\". Obsahuje informace o vedení, které "
+"spojuje jednotlivé komponenty (co spojuje, název, atd.). Formát je "
+"následující:"
 
 #: ../../source/internal.rst:117
 msgid "*<x1 y1 x2 y2 \"label\" xlabel ylabel dlabel \"node set\">*"
 msgstr ""
 
 #: ../../source/internal.rst:119
-msgid "The first four numbers are the coordinates of the wire in pixels: x "
+msgid ""
+"The first four numbers are the coordinates of the wire in pixels: x "
 "coordinate of starting point, y coordinate of starting point, x coordinate "
 "of end point and y coordinate of end point. All wires must be either "
-"horizontal (both x coordinates equal) or vertical (both y coordinates "
-"equal)."
-msgstr "\"x1 y1 x2 y2\" - Tyto čtyři čísla určují počátek (x1, y1) a konec (x2, x2) "
+"horizontal (both x coordinates equal) or vertical (both y coordinates equal)."
+msgstr ""
+"\"x1 y1 x2 y2\" - Tyto čtyři čísla určují počátek (x1, y1) a konec (x2, x2) "
 "vodiče. Veškeré vodiče musí být ve vodorovné, nebo horizontální poloze (tzn. "
 "že budou obě xové, nebo obě ypsylonové souřadnice stejné)."
 
 #: ../../source/internal.rst:124
-msgid "The first string in quotation marks is the label name. It is empty if the "
+msgid ""
+"The first string in quotation marks is the label name. It is empty if the "
 "user has not set a label on this wire."
-msgstr "\"\"label\"\" - Tato proměnná nastavuje popisek. Pokud je prázdná, znamená "
+msgstr ""
+"\"\"label\"\" - Tato proměnná nastavuje popisek. Pokud je prázdná, znamená "
 "to, že vodiči nedal uživatel žádný název."
 
 #: ../../source/internal.rst:126
-msgid "The next two numbers are the x and y coordinates of the label or zero if no "
+msgid ""
+"The next two numbers are the x and y coordinates of the label or zero if no "
 "label exists."
 msgstr ""
+"\"xlabel ylabel\" - Další dvě čísla jsou xové a ypsylonové souřadnice "
+"popisku. Pokud jsou zde nuly, znamená to, že popisek neexistuje."
 
 #: ../../source/internal.rst:128
-msgid "The next number is the distance between the wire starting point and and the "
+msgid ""
+"The next number is the distance between the wire starting point and and the "
 "point where the label is set on the wire."
-msgstr "\"dlabel\" - Číslo určuje vzdálenost mezi počátečním bodem vodiče a popiskou "
+msgstr ""
+"\"dlabel\" - Číslo určuje vzdálenost mezi počátečním bodem vodiče a popiskou "
 "vodiče."
 
 #: ../../source/internal.rst:130
-msgid "The last string in quotation marks is the node set of the wire, i.e. the "
+msgid ""
+"The last string in quotation marks is the node set of the wire, i.e. the "
 "initial voltage at this node used by the simulation engine to find the "
 "solution. This is empty if the user has not set a node set for this wire."
 msgstr ""
+"\"\"node set\"\" - Text v uvozovkách udává jméno uzlu vodiče. Např.: "
+"počáteční napětí na tomto uzlu je právě jméno uzlu tohoto vodiče, pak se "
+"engine pokusí najít řešení. Pokud je tato položka prázdná, znamená to, že "
+"uživatel nenastavil jméno uzlu pro daný vodič."
 
 #: ../../source/internal.rst:139
 msgid "Diagrams"
 msgstr "Diagramy"
 
 #: ../../source/internal.rst:142
-msgid "This section starts with \"<Diagrams>\" and ends with \"</Diagrams>\". It "
+msgid ""
+"This section starts with \"<Diagrams>\" and ends with \"</Diagrams>\". It "
 "contains the diagrams with their graphs and their markers."
 msgstr ""
+"Začíná \"<Diagrams>\" a končí \"</Diagrams>\". Obsahuje diagramy s jejich "
+"grafy a značkami."
 
 #: ../../source/internal.rst:145
-msgid "*<x y width height grid gridcolor gridstyle log xAutoscale xmin xstep xmax "
+msgid ""
+"*<x y width height grid gridcolor gridstyle log xAutoscale xmin xstep xmax "
 "yAutoscale ymin ystep ymax zAutoscale zmin zstep zmax xrotate yrotate "
 "zrotate \"xlabel\" \"ylabel\" \"zlabel\">*"
 msgstr ""
@@ -216,10 +276,15 @@ msgstr "\"width height\" - Následující čísla udávají šířku a výšku d
 #: ../../source/internal.rst:151
 msgid "The fifth number is 1 if grid is on and 0 if grid is off."
 msgstr ""
+"\"grid\" - Pokud je zde 1, pak bude zobrazena mřížka. Pokud zde bude 0, pak "
+"mřížka nebude zobrazena."
 
 #: ../../source/internal.rst:152
-msgid "The next is grid color in 24 bit hexadecimal RGB value, e.g. #FF0000 is red."
+msgid ""
+"The next is grid color in 24 bit hexadecimal RGB value, e.g. #FF0000 is red."
 msgstr ""
+"\"gridcolor\" - Zde je udána 24. bitová barva v hexadecimální RGB hodnotě. "
+"Např.: #FF0000 je červená."
 
 #: ../../source/internal.rst:154
 msgid "The next number determines the style of the grid."
@@ -237,6 +302,6 @@ msgstr "Obrazce"
 msgid ""
 "This section starts with \"<Paintings>\" and ends with \"</Paintings>\". It "
 "contains the paintings that are within the schematic."
-msgstr "Začíná znaky \"<Paintings>\" a končí \"</Paintings>\". Obsahuje "
-"obrazce, které jsou ve schématu."
-
+msgstr ""
+"Začíná znaky \"<Paintings>\" a končí \"</Paintings>\". Obsahuje obrazce, "
+"které jsou ve schématu."

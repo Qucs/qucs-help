@@ -1,24 +1,30 @@
 #
 msgid ""
-msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr ""
+"Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-12-17 15:47+0100\n"
+"Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"X-Generator: Poedit 1.6.7\n"
 
 #: ../../source/mathfunc.rst:3
 msgid "Short Description of Mathematical Functions"
 msgstr "Krátký popis matematických funkcí"
 
 #: ../../source/mathfunc.rst:6
-msgid "The following operations and functions can be applied in Qucs equations. For"
-" detailed description please refer to the \"Measurement Expressions "
-"Reference Manual\". Parameters in brackets \"[]\" are optional."
+msgid ""
+"The following operations and functions can be applied in Qucs equations. For "
+"detailed description please refer to the \"Measurement Expressions Reference "
+"Manual\". Parameters in brackets \"[]\" are optional."
 msgstr ""
+"Následující operace a funkce mohou být aplikovány v Qucs rovnicích. "
+"Parametry v závorkách \"[ ]\" jsou volitelné."
 
 #: ../../source/mathfunc.rst:11
 msgid "Operators"
@@ -133,7 +139,8 @@ msgid "``x?y:z``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:46
-msgid "Abbreviation for conditional expression \"if ``x`` then ``y`` else ``z``\""
+msgid ""
+"Abbreviation for conditional expression \"if ``x`` then ``y`` else ``z``\""
 msgstr ""
 
 #: ../../source/mathfunc.rst:48
@@ -189,8 +196,9 @@ msgid "Alphabetical List of Functions"
 msgstr ""
 
 #: ../../source/mathfunc.rst:64
-msgid "`abs <#abs>`__\\ ``  `` `adjoint <#adjoint>`__\\ ``  `` `angle <#angle>`__\\"
-" ``  `` `arccos <#arccos>`__\\ ``  `` `arccosec <#arccosec>`__\\ ``  `` "
+msgid ""
+"`abs <#abs>`__\\ ``  `` `adjoint <#adjoint>`__\\ ``  `` `angle <#angle>`__\\ "
+"``  `` `arccos <#arccos>`__\\ ``  `` `arccosec <#arccosec>`__\\ ``  `` "
 "`arccot <#arccot>`__\\ ``  `` `arcosech <#arcosech>`__\\ ``  `` `arcosh "
 "<#arcosh>`__\\ ``  `` `arcoth <#arcoth>`__\\ ``  `` `arcsec <#arcsec>`__\\ "
 "``  `` `arcsin <#arcsin>`__\\ ``  `` `arctan <#arctan>`__\\ ``  `` `arg "
@@ -200,44 +208,43 @@ msgid "`abs <#abs>`__\\ ``  `` `adjoint <#adjoint>`__\\ ``  `` `angle <#angle>`_
 "<#bessely>`__\\ ``  `` `ceil <#ceil>`__\\ ``  `` `conj <#conj>`__\\ ``  `` "
 "`cos <#cos>`__\\ ``  `` `cosec <#cosec>`__\\ ``  `` `cosech <#cosech>`__\\ "
 "``  `` `cosh <#cosh>`__\\ ``  `` `cot <#cot>`__\\ ``  `` `coth <#coth>`__\\ "
-"``  `` `cumavg <#cumavg>`__\\ ``  `` `cumprod <#cumprod>`__\\ ``  `` `cumsum"
-" <#cumsum>`__\\ ``  `` `dB <#dB>`__\\ ``  `` `dbm <#dbm>`__\\ ``  `` `dbm2w "
-"<#dbm2w>`__\\ ``  `` `ddx <#ddx>`__\\ ``  `` `deg2rad <#deg2rad>`__\\ ``  ``"
-" `det <#det>`__\\ ``  `` `dft <#dft>`__\\ ``  `` `diff <#diff>`__\\ ``  `` "
+"``  `` `cumavg <#cumavg>`__\\ ``  `` `cumprod <#cumprod>`__\\ ``  `` `cumsum "
+"<#cumsum>`__\\ ``  `` `dB <#dB>`__\\ ``  `` `dbm <#dbm>`__\\ ``  `` `dbm2w "
+"<#dbm2w>`__\\ ``  `` `ddx <#ddx>`__\\ ``  `` `deg2rad <#deg2rad>`__\\ ``  `` "
+"`det <#det>`__\\ ``  `` `dft <#dft>`__\\ ``  `` `diff <#diff>`__\\ ``  `` "
 "`erf <#erf>`__\\ ``  `` `erfc <#erfc>`__\\ ``  `` `erfcinv <#erfcinv>`__\\ "
-"``  `` `erfinv <#erfinv>`__\\ ``  `` `exp <#exp>`__\\ ``  `` `eye "
-"<#eye>`__\\ ``  `` `fft <#fft>`__\\ ``  `` `fftshift <#fftshift>`__\\ ``  ``"
-" `fix <#fix>`__\\ ``  `` `floor <#floor>`__\\ ``  `` `Freq2Time "
-"<#Freq2Time>`__\\ ``  `` `GaCircle <#GaCircle>`__\\ ``  `` `GpCircle "
-"<#GpCircle>`__\\ ``  `` `hypot <#hypot>`__\\ ``  `` `idft <#idft>`__\\ ``  "
-"`` `ifft <#ifft>`__\\ ``  `` `imag <#imag>`__\\ ``  `` `integrate "
-"<#integrate>`__\\ ``  `` `interpolate <#interpolate>`__\\ ``  `` `inverse "
-"<#inverse>`__\\ ``  `` `kbd <#kbd>`__\\ ``  `` `length <#length>`__\\ ``  ``"
-" `limexp <#limexp>`__\\ ``  `` `linspace <#linspace>`__\\ ``  `` `ln "
-"<#ln>`__\\ ``  `` `log10 <#log10>`__\\ ``  `` `log2 <#log2>`__\\ ``  `` "
-"`logspace <#logspace>`__\\ ``  `` `mag <#mag>`__\\ ``  `` `max <#max>`__\\ "
-"``  `` `min <#min>`__\\ ``  `` `Mu <#Mu>`__\\ ``  `` `Mu2 <#Mu2>`__\\ ``  ``"
-" `NoiseCircle <#NoiseCircle>`__\\ ``  `` `norm <#norm>`__\\ ``  `` `phase "
-"<#phase>`__\\ ``  `` `PlotVs <#PlotVs>`__\\ ``  `` `polar <#polar>`__\\ ``  "
-"`` `prod <#prod>`__\\ ``  `` `rad2deg <#rad2deg>`__\\ ``  `` `random "
-"<#random>`__\\ ``  `` `real <#real>`__\\ ``  `` `rms <#rms>`__\\ ``  `` "
-"`Rollet <#Rollet>`__\\ ``  `` `round <#round>`__\\ ``  `` `rtoswr "
-"<#rtoswr>`__\\ ``  `` `rtoy <#rtoy>`__\\ ``  `` `rtoz <#rtoz>`__\\ ``  `` "
-"`runavg <#runavg>`__\\ ``  `` `sec <#sec>`__\\ ``  `` `sech <#sech>`__\\ ``"
-"  `` `sign <#sign>`__\\ ``  `` `sin <#sin>`__\\ ``  `` `sinc <#sinc>`__\\ ``"
-"  `` `sinh <#sinh>`__\\ ``  `` `sqr <#sqr>`__\\ ``  `` `sqrt <#sqrt>`__\\ ``"
-"  `` `srandom <#srandom>`__\\ ``  `` `StabCircleL <#StabCircleL>`__\\ ``  ``"
-" `StabCircleS <#StabCircleS>`__\\ ``  `` `StabFactor <#StabFactor>`__\\ ``  "
-"`` `StabMeasure <#StabMeasure>`__\\ ``  `` `stddev <#stddev>`__\\ ``  `` "
-"`step <#step>`__\\ ``  `` `stos <#stos>`__\\ ``  `` `stoy <#stoy>`__\\ ``  "
-"`` `stoz <#stoz>`__\\ ``  `` `sum <#sum>`__\\ ``  `` `tan <#tan>`__\\ ``  ``"
-" `tanh <#tanh>`__\\ ``  `` `Time2Freq <#Time2Freq>`__\\ ``  `` `transpose "
-"<#transpose>`__\\ ``  `` `twoport <#twoport>`__\\ ``  `` `unwrap "
-"<#unwrap>`__\\ ``  `` `variance <#variance>`__\\ ``  `` `vt <#vt>`__\\ ``  "
-"`` `w2dbm <#w2dbm>`__\\ ``  `` `xvalue <#xvalue>`__\\ ``  `` `ytor "
-"<#ytor>`__\\ ``  `` `ytos <#ytos>`__\\ ``  `` `ytoz <#ytoz>`__\\ ``  `` "
-"`yvalue <#yvalue>`__\\ ``  `` `ztor <#ztor>`__\\ ``  `` `ztos <#ztos>`__\\ "
-"``  `` `ztoy <#ztoy>`__\\ ``  ``"
+"``  `` `erfinv <#erfinv>`__\\ ``  `` `exp <#exp>`__\\ ``  `` `eye <#eye>`__"
+"\\ ``  `` `fft <#fft>`__\\ ``  `` `fftshift <#fftshift>`__\\ ``  `` `fix "
+"<#fix>`__\\ ``  `` `floor <#floor>`__\\ ``  `` `Freq2Time <#Freq2Time>`__\\ "
+"``  `` `GaCircle <#GaCircle>`__\\ ``  `` `GpCircle <#GpCircle>`__\\ ``  `` "
+"`hypot <#hypot>`__\\ ``  `` `idft <#idft>`__\\ ``  `` `ifft <#ifft>`__\\ ``  "
+"`` `imag <#imag>`__\\ ``  `` `integrate <#integrate>`__\\ ``  `` "
+"`interpolate <#interpolate>`__\\ ``  `` `inverse <#inverse>`__\\ ``  `` `kbd "
+"<#kbd>`__\\ ``  `` `length <#length>`__\\ ``  `` `limexp <#limexp>`__\\ ``  "
+"`` `linspace <#linspace>`__\\ ``  `` `ln <#ln>`__\\ ``  `` `log10 <#log10>`__"
+"\\ ``  `` `log2 <#log2>`__\\ ``  `` `logspace <#logspace>`__\\ ``  `` `mag "
+"<#mag>`__\\ ``  `` `max <#max>`__\\ ``  `` `min <#min>`__\\ ``  `` `Mu "
+"<#Mu>`__\\ ``  `` `Mu2 <#Mu2>`__\\ ``  `` `NoiseCircle <#NoiseCircle>`__\\ "
+"``  `` `norm <#norm>`__\\ ``  `` `phase <#phase>`__\\ ``  `` `PlotVs "
+"<#PlotVs>`__\\ ``  `` `polar <#polar>`__\\ ``  `` `prod <#prod>`__\\ ``  `` "
+"`rad2deg <#rad2deg>`__\\ ``  `` `random <#random>`__\\ ``  `` `real "
+"<#real>`__\\ ``  `` `rms <#rms>`__\\ ``  `` `Rollet <#Rollet>`__\\ ``  `` "
+"`round <#round>`__\\ ``  `` `rtoswr <#rtoswr>`__\\ ``  `` `rtoy <#rtoy>`__\\ "
+"``  `` `rtoz <#rtoz>`__\\ ``  `` `runavg <#runavg>`__\\ ``  `` `sec <#sec>`__"
+"\\ ``  `` `sech <#sech>`__\\ ``  `` `sign <#sign>`__\\ ``  `` `sin <#sin>`__"
+"\\ ``  `` `sinc <#sinc>`__\\ ``  `` `sinh <#sinh>`__\\ ``  `` `sqr <#sqr>`__"
+"\\ ``  `` `sqrt <#sqrt>`__\\ ``  `` `srandom <#srandom>`__\\ ``  `` "
+"`StabCircleL <#StabCircleL>`__\\ ``  `` `StabCircleS <#StabCircleS>`__\\ ``  "
+"`` `StabFactor <#StabFactor>`__\\ ``  `` `StabMeasure <#StabMeasure>`__\\ "
+"``  `` `stddev <#stddev>`__\\ ``  `` `step <#step>`__\\ ``  `` `stos "
+"<#stos>`__\\ ``  `` `stoy <#stoy>`__\\ ``  `` `stoz <#stoz>`__\\ ``  `` `sum "
+"<#sum>`__\\ ``  `` `tan <#tan>`__\\ ``  `` `tanh <#tanh>`__\\ ``  `` "
+"`Time2Freq <#Time2Freq>`__\\ ``  `` `transpose <#transpose>`__\\ ``  `` "
+"`twoport <#twoport>`__\\ ``  `` `unwrap <#unwrap>`__\\ ``  `` `variance "
+"<#variance>`__\\ ``  `` `vt <#vt>`__\\ ``  `` `w2dbm <#w2dbm>`__\\ ``  `` "
+"`xvalue <#xvalue>`__\\ ``  `` `ytor <#ytor>`__\\ ``  `` `ytos <#ytos>`__\\ "
+"``  `` `ytoz <#ytoz>`__\\ ``  `` `yvalue <#yvalue>`__\\ ``  `` `ztor "
+"<#ztor>`__\\ ``  `` `ztos <#ztos>`__\\ ``  `` `ztoy <#ztoy>`__\\ ``  ``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:126
@@ -269,8 +276,9 @@ msgid "``linspace(from,to,n)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:136
-msgid "Creates a real vector with ``n`` linearly spaced components between ``from``"
-" and ``to``, both inclusively"
+msgid ""
+"Creates a real vector with ``n`` linearly spaced components between ``from`` "
+"and ``to``, both inclusively"
 msgstr ""
 
 #: ../../source/mathfunc.rst:138
@@ -278,7 +286,8 @@ msgid "``logspace(from,to,n)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:138
-msgid "Creates a real vector with ``n`` logarithmically spaced components between "
+msgid ""
+"Creates a real vector with ``n`` logarithmically spaced components between "
 "``from`` and ``to``, both inclusively"
 msgstr ""
 
@@ -407,8 +416,9 @@ msgid "``polar(m,p)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:178
-msgid "Transform from polar coordinates (magnitude ``m``, phase ``p``) into complex"
-" number"
+msgid ""
+"Transform from polar coordinates (magnitude ``m``, phase ``p``) into complex "
+"number"
 msgstr ""
 
 #: ../../source/mathfunc.rst:180
@@ -456,12 +466,14 @@ msgid "``unwrap(p[,tol[,step]])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:190
-msgid "Unwraps the angle ``p`` (in radians -- default ``step`` is 2\\*pi) using the"
-" optional tolerance value ``tol`` (default is pi)"
+msgid ""
+"Unwraps the angle ``p`` (in radians -- default ``step`` is 2\\*pi) using the "
+"optional tolerance value ``tol`` (default is pi)"
 msgstr ""
 
 #: ../../source/mathfunc.rst:194
-msgid "Elementary Mathematical Functions: Exponential and Logarithmic Functions"
+msgid ""
+"Elementary Mathematical Functions: Exponential and Logarithmic Functions"
 msgstr ""
 
 #: ../../source/mathfunc.rst:197
@@ -833,7 +845,8 @@ msgid "``avg(x[,range])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:316
-msgid "Arithmetic average of vector elements; if a range is given then ``x`` must "
+msgid ""
+"Arithmetic average of vector elements; if a range is given then ``x`` must "
 "have a single data dependency"
 msgstr ""
 
@@ -858,7 +871,8 @@ msgid "``max(x[,range])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:322
-msgid "Maximum value in vector; if a range is given then ``x`` must have a single "
+msgid ""
+"Maximum value in vector; if a range is given then ``x`` must have a single "
 "data dependency"
 msgstr ""
 
@@ -875,7 +889,8 @@ msgid "``min(x[,range])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:326
-msgid "Minimum value in vector; if a range is given then ``x`` must have a single "
+msgid ""
+"Minimum value in vector; if a range is given then ``x`` must have a single "
 "data dependency"
 msgstr ""
 
@@ -952,7 +967,8 @@ msgid "``interpolate(f,x[,n])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:349
-msgid "Equidistant spline interpolation of real function vector ``f(x)`` using "
+msgid ""
+"Equidistant spline interpolation of real function vector ``f(x)`` using "
 "``n`` equidistant datapoints; the latter can be omitted and defaults to a "
 "reasonable value"
 msgstr ""
@@ -978,7 +994,8 @@ msgid "``xvalue(f,yval)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:355
-msgid "Returns the x-value which is associated with the y-value nearest to a "
+msgid ""
+"Returns the x-value which is associated with the y-value nearest to a "
 "specified y-value ``yval`` in a given vector ``f``; therefore the vector "
 "``f`` must have a single data dependency"
 msgstr ""
@@ -988,7 +1005,8 @@ msgid "``yvalue(f,xval)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:357
-msgid "Returns the y-value of the given vector ``f`` which is located nearest to "
+msgid ""
+"Returns the y-value of the given vector ``f`` which is located nearest to "
 "the x-value ``xval``; therefore the vector ``f`` must have a single data "
 "dependency"
 msgstr ""
@@ -1002,8 +1020,8 @@ msgid "``ddx(expr,var)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:364
-msgid "Derives mathematical expression ``expr`` with respect to the variable "
-"``var``"
+msgid ""
+"Derives mathematical expression ``expr`` with respect to the variable ``var``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:366
@@ -1011,7 +1029,8 @@ msgid "``diff(y,x[,n])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:366
-msgid "Differentiate vector ``y`` with respect to vector ``x`` ``n`` times. If "
+msgid ""
+"Differentiate vector ``y`` with respect to vector ``x`` ``n`` times. If "
 "``n`` is omitted it defaults to ``n`` = 1"
 msgstr ""
 
@@ -1048,7 +1067,8 @@ msgid "``fftshift(x)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:379
-msgid "Shuffles the FFT values of vector ``x`` in order to move the frequency 0 to "
+msgid ""
+"Shuffles the FFT values of vector ``x`` in order to move the frequency 0 to "
 "the center of the vector"
 msgstr ""
 
@@ -1057,7 +1077,8 @@ msgid "``Freq2Time(V,f)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:381
-msgid "Inverse Discrete Fourier Transform of function ``V(f)`` interpreting it "
+msgid ""
+"Inverse Discrete Fourier Transform of function ``V(f)`` interpreting it "
 "physically"
 msgstr ""
 
@@ -1090,7 +1111,8 @@ msgid "``Time2Freq(v,t)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:389
-msgid "Discrete Fourier Transform of function ``v(t)`` interpreting it physically"
+msgid ""
+"Discrete Fourier Transform of function ``v(t)`` interpreting it physically"
 msgstr ""
 
 #: ../../source/mathfunc.rst:393
@@ -1158,8 +1180,9 @@ msgid "``rtoy(x[,zref])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:416
-msgid "Converts reflection coefficient to admittance; by default reference ``zref``"
-" is 50 ohms"
+msgid ""
+"Converts reflection coefficient to admittance; by default reference ``zref`` "
+"is 50 ohms"
 msgstr ""
 
 #: ../../source/mathfunc.rst:418
@@ -1167,7 +1190,8 @@ msgid "``rtoz(x[,zref])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:418
-msgid "Converts reflection coefficient to impedance; by default reference ``zref`` "
+msgid ""
+"Converts reflection coefficient to impedance; by default reference ``zref`` "
 "is 50 ohms"
 msgstr ""
 
@@ -1176,8 +1200,9 @@ msgid "``ytor(x[,zref])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:420
-msgid "Converts admittance to reflection coefficient; by default reference ``zref``"
-" is 50 ohms"
+msgid ""
+"Converts admittance to reflection coefficient; by default reference ``zref`` "
+"is 50 ohms"
 msgstr ""
 
 #: ../../source/mathfunc.rst:422
@@ -1185,7 +1210,8 @@ msgid "``ztor(x[,zref])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:422
-msgid "Converts impedance to reflection coefficient; by default reference ``zref`` "
+msgid ""
+"Converts impedance to reflection coefficient; by default reference ``zref`` "
 "is 50 ohms"
 msgstr ""
 
@@ -1198,7 +1224,8 @@ msgid "``stos(s,zref[,z0])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:429
-msgid "Converts S-parameter matrix to S-parameter matrix with different reference "
+msgid ""
+"Converts S-parameter matrix to S-parameter matrix with different reference "
 "impedance(s)"
 msgstr ""
 
@@ -1223,7 +1250,8 @@ msgid "``twoport(m,from,to)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:435
-msgid "Converts a two-port matrix from one representation into another, possible "
+msgid ""
+"Converts a two-port matrix from one representation into another, possible "
 "values for ``from`` and ``to`` are 'Y', 'Z', 'H', 'G', 'A', 'S' and 'T'."
 msgstr ""
 
@@ -1300,7 +1328,8 @@ msgid "``NoiseCircle(Sopt,             Fmin,Rn,F[,Arcs])``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:458
-msgid "Generates circle(s) with constant Noise Figure(s) ``F``. ``Arcs`` specifies "
+msgid ""
+"Generates circle(s) with constant Noise Figure(s) ``F``. ``Arcs`` specifies "
 "the angles in degrees created by e.g. ``linspace(0,360,100)``. If Arcs is a "
 "number it specifies the number of equally spaced circle segments, if it is "
 "omitted this number defaults to a reasonable value"
@@ -1311,7 +1340,8 @@ msgid "``PlotVs(data,dep)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:460
-msgid "Returns a data item based upon vector or matrix vector ``data`` with "
+msgid ""
+"Returns a data item based upon vector or matrix vector ``data`` with "
 "dependency on a given vector ``dep``, e.g. ``PlotVs(Gain,frequency/1e9)``"
 msgstr ""
 
@@ -1344,7 +1374,8 @@ msgid "``StabFactor(s)``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:468
-msgid "Stability factor of a two-port S-parameter matrix. Synonym for ``Rollet()``"
+msgid ""
+"Stability factor of a two-port S-parameter matrix. Synonym for ``Rollet()``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:470
@@ -1632,7 +1663,8 @@ msgid "Transient current through component *name*"
 msgstr ""
 
 #: ../../source/mathfunc.rst:565
-msgid "Note: All voltages and currents are peak values. Note: Noise voltages are "
+msgid ""
+"Note: All voltages and currents are peak values. Note: Noise voltages are "
 "RMS values at 1 Hz bandwidth."
 msgstr ""
 
@@ -1679,4 +1711,3 @@ msgstr ""
 #: ../../source/mathfunc.rst:580
 msgid "Elementary charge = 1.6021765e-19 C"
 msgstr ""
-

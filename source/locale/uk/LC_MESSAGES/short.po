@@ -1,14 +1,17 @@
 #
 msgid ""
-msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr ""
+"Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-12-17 18:05+0100\n"
+"Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"X-Generator: Poedit 1.6.7\n"
 
 #: ../../source/short.rst:3
 msgid "Short Description of Actions"
@@ -16,7 +19,7 @@ msgstr "Короткий опис дій"
 
 #: ../../source/short.rst:6
 msgid "General Actions"
-msgstr ""
+msgstr "Дії загального призначення"
 
 #: ../../source/short.rst:8
 msgid "(valid in all modes)"
@@ -24,41 +27,47 @@ msgstr "колесо миші"
 
 #: ../../source/short.rst:11
 msgid "mouse wheel"
-msgstr ""
+msgstr "колесо миші"
 
 #: ../../source/short.rst:11
-msgid "Scrolls vertically the drawing area. You can also scroll outside the current"
-" size."
+msgid ""
+"Scrolls vertically the drawing area. You can also scroll outside the current "
+"size."
 msgstr ""
+"Прокручує область малювання по вертикалі. Можна прокручувати за межі "
+"поточного розміру."
 
 #: ../../source/short.rst:13
 msgid "mouse wheel + Shift Button"
-msgstr ""
+msgstr "колесо миші + клавіша Shift"
 
 #: ../../source/short.rst:13
-msgid "Scrolls horizontally the drawing area. You can also scroll outside the "
+msgid ""
+"Scrolls horizontally the drawing area. You can also scroll outside the "
 "current size."
 msgstr ""
+"Прокручує область малювання по горизонталі. Можна прокручувати за межі "
+"поточного розміру."
 
 #: ../../source/short.rst:15
 msgid "mouse wheel + Ctrl Button"
-msgstr ""
+msgstr "колесо миші + клавіша Ctrl"
 
 #: ../../source/short.rst:15
 msgid "Zooms into or outof the drawing area."
-msgstr ""
+msgstr "Збільшує чи зменшує масштаб області малювання."
 
 #: ../../source/short.rst:17
 msgid "drag'n'drop file into document area"
-msgstr ""
+msgstr "перетягування файлу в документну область"
 
 #: ../../source/short.rst:17
 msgid "Tries to open file as Qucs schematic or data display."
-msgstr ""
+msgstr "Намагається відкрити файл як схему Qucs чи як документ показу даних."
 
 #: ../../source/short.rst:23
 msgid "\"Select\"-Mode"
-msgstr ""
+msgstr "Режим \"Виділення\""
 
 #: ../../source/short.rst:25
 msgid "|image0|"
@@ -66,77 +75,104 @@ msgstr ""
 
 #: ../../source/short.rst:27
 msgid "(Menu: Edit->Select)"
-msgstr ""
+msgstr "(Меню: Правка->Виділити)"
 
 #: ../../source/short.rst:30 ../../source/short.rst:51
 #: ../../source/short.rst:65 ../../source/short.rst:81
 msgid "left mouse button"
-msgstr ""
+msgstr "ліва кнопка миші"
 
 #: ../../source/short.rst:30
-msgid "Selects the element below the mouse cursor. If several components are placed"
-" there, you can clicking several times in order to select the wanted one. "
-"Keeping the mouse button pressed, you can move the component below the mouse"
-" cursor and all selected ones. If you want to fine position the components, "
-"press the CTRL key during moving and the grid is disabled. Keeping the mouse"
-" button pressed without any element below it opens a rectangle. After "
-"releasing the mouse button, all elements within this rectangle are selected."
-" A selected diagram or painting can be resized by pressing the left mouse "
+msgid ""
+"Selects the element below the mouse cursor. If several components are placed "
+"there, you can clicking several times in order to select the wanted one. "
+"Keeping the mouse button pressed, you can move the component below the mouse "
+"cursor and all selected ones. If you want to fine position the components, "
+"press the CTRL key during moving and the grid is disabled. Keeping the mouse "
+"button pressed without any element below it opens a rectangle. After "
+"releasing the mouse button, all elements within this rectangle are selected. "
+"A selected diagram or painting can be resized by pressing the left mouse "
 "button over one of its corners and moving by keeping the button pressed. "
-"After clicking on a component text, it can be edited directly. The enter key"
-" jumps to the next property. If the property is a selection list, it can "
-"only be changed with the cursor up/down keys. Clicking on a circuit node "
-"enters the \"wire mode\"."
+"After clicking on a component text, it can be edited directly. The enter key "
+"jumps to the next property. If the property is a selection list, it can only "
+"be changed with the cursor up/down keys. Clicking on a circuit node enters "
+"the \"wire mode\"."
 msgstr ""
+"Виділяє елемент, під курсором миші. Якщо міститься кілька компонентів, можна "
+"натискати на кнопку кілька разів, аби вибрати потрібний.Тримаючи цю кнопку "
+"миші натиснутою, можна переміщати компонент, під курсором миші, і всі "
+"виділені компоненти. Якщо потрібно точно розмістити компоненти, натиснімо "
+"під час руху клавішу CTRL, і сітка буде відключена.Якщо тримати кнопку миші "
+"натиснутої без будь-яких елементів під курсором, вийде прямокутник. Після "
+"відпускання кнопки миші всі елементи, що містяться всередині цього "
+"прямокутника, виділяться.Розміри виділеної діаграми чи малюнка можуть бути "
+"змінені, якщо натиснути ліву кнопку миші над одним з кутів і рухати курсор, "
+"тримаючи кнопку натиснутою.Якщо натиснути кнопку миші на тексті компоненту, "
+"його можна безпосередньо редагувати. Натискання клавіші Enter переводить до "
+"наступної властивості. Якщо ця властивість є списком вибору, то її можна "
+"змінити лише за допомогою клавіші управління курсором (стрілки вверх/вниз)."
+"Якщо натиснути кнопку миші на вузлі електричного кола, відбудеться вхід в "
+"\"режим провідника\"."
 
 #: ../../source/short.rst:37
 msgid "left mouse button + Ctrl Button"
-msgstr ""
+msgstr "ліва кнопка миші + клавіша Ctrl"
 
 #: ../../source/short.rst:37
-msgid "Allows more than one element to be selected, i.e. selecting an element does "
+msgid ""
+"Allows more than one element to be selected, i.e. selecting an element does "
 "not deselect the others. Clicking on a selected element deselects it. This "
 "mode is also valid for selecting by opening a rectangle (see item before)."
 msgstr ""
+"Дозволяє виділяти більше елементів, тобто, виділення одного елемента не "
+"знімає виділення з інших. Натискання кнопки на виділеному елементі "
+"призводить до зняття його виділення. Цей режим також доречний під час "
+"виділення з допомогою прямокутника (див. попередній пункт)."
 
 #: ../../source/short.rst:39 ../../source/short.rst:53
 #: ../../source/short.rst:67 ../../source/short.rst:83
 msgid "right mouse button"
-msgstr ""
+msgstr "права кнопка миші"
 
 #: ../../source/short.rst:39
-msgid "Clicking on a wire selects a single straight line instead of the complete "
+msgid ""
+"Clicking on a wire selects a single straight line instead of the complete "
 "line."
 msgstr ""
+"Натискання кнопки на провіднику виділяє одну пряму лінію, а не весь "
+"провідник."
 
 #: ../../source/short.rst:41 ../../source/short.rst:69
 msgid "double-click right mouse button"
-msgstr ""
+msgstr "подвійне натискання правої кнопки миші"
 
 #: ../../source/short.rst:41
-msgid "Opens a dialog to edit the element properties (The labels of wires, the "
+msgid ""
+"Opens a dialog to edit the element properties (The labels of wires, the "
 "parameters of components, etc.)."
 msgstr ""
+"Відкриває діалог редагування властивостей елемента (мітки провідників, "
+"параметри компонентів тощо)."
 
 #: ../../source/short.rst:46
 msgid "\"Insert Component\"-Mode"
-msgstr ""
+msgstr "Режим \"Вставка компонента\""
 
 #: ../../source/short.rst:48
 msgid "(Click on a component/diagram in the left area)"
-msgstr ""
+msgstr "(Натиснімо на компонент/діаграму у лівій області)"
 
 #: ../../source/short.rst:51
 msgid "Place a new instance of the component onto the schematic."
-msgstr ""
+msgstr "Помістити новий примірник компонента на схему."
 
 #: ../../source/short.rst:53
 msgid "Rotate the component. (Has no effect on diagrams.)"
-msgstr ""
+msgstr "Крутити компонент. (Не діє на діаграмах)."
 
 #: ../../source/short.rst:58
 msgid "\"Wire\"-Mode"
-msgstr ""
+msgstr "Режим \"Провідник\""
 
 #: ../../source/short.rst:60
 msgid "|image1|"
@@ -144,24 +180,26 @@ msgstr ""
 
 #: ../../source/short.rst:62
 msgid "(Menu: Insert->Wire)"
-msgstr ""
+msgstr "(Меню: Вставка->Провідник)"
 
 #: ../../source/short.rst:65
 msgid "Sets the starting/ending point of the wire."
 msgstr "ліва кнопка миші"
 
 #: ../../source/short.rst:67
-msgid "Changes the direction of the wire corner (first left/right or first "
-"up/down)."
+msgid ""
+"Changes the direction of the wire corner (first left/right or first up/down)."
 msgstr ""
+"Змінює напрям вигину провідника (спочатку наліво/направо чи спочатку вверх/"
+"вниз)."
 
 #: ../../source/short.rst:69
 msgid "Ends a wire without being on a wire or a port."
-msgstr ""
+msgstr "Закінчує провідник, не перебуваючи на провіднику чи виводі."
 
 #: ../../source/short.rst:74
 msgid "\"Paste\"-Mode"
-msgstr ""
+msgstr "Режим \"Вставка\""
 
 #: ../../source/short.rst:76
 msgid "|image2|"
@@ -169,7 +207,7 @@ msgstr ""
 
 #: ../../source/short.rst:78
 msgid "(Menu: Edit->Paste)"
-msgstr ""
+msgstr "(Меню: Правка->Вставити)"
 
 #: ../../source/short.rst:81
 msgid "Place the elements onto the schematic (from the clipboard)."
@@ -177,11 +215,11 @@ msgstr "(Меню: Правка->Вставити)"
 
 #: ../../source/short.rst:83
 msgid "Rotate the elements."
-msgstr ""
+msgstr "Крутити елементи."
 
 #: ../../source/short.rst:88
 msgid "Mouse in \"Content\" Tab"
-msgstr ""
+msgstr "Миша у вкладці \"Зміст\""
 
 #: ../../source/short.rst:90
 msgid "|image3|"
@@ -189,11 +227,11 @@ msgstr ""
 
 #: ../../source/short.rst:94
 msgid "left click"
-msgstr ""
+msgstr "натискання лівої кнопки"
 
 #: ../../source/short.rst:94
 msgid "Selects file."
-msgstr ""
+msgstr "Виділяє файл."
 
 #: ../../source/short.rst:96
 msgid "double-click"
@@ -201,92 +239,111 @@ msgstr "[ image ]"
 
 #: ../../source/short.rst:96
 msgid "Opens file."
-msgstr ""
+msgstr "Відкриває файл."
 
 #: ../../source/short.rst:98
 msgid "right click"
-msgstr ""
+msgstr "натискання правої кнопки"
 
 #: ../../source/short.rst:98
 msgid "Displays menu with:"
-msgstr ""
+msgstr "Відображає меню з:"
 
 #: ../../source/short.rst:100
 msgid "\"open\""
-msgstr ""
+msgstr "\"відкрити\""
 
 #: ../../source/short.rst:100
 msgid "open selected file"
-msgstr ""
+msgstr "відкрити виділений файл"
 
 #: ../../source/short.rst:102
 msgid "\"rename\""
-msgstr ""
+msgstr "\"перейменувати\""
 
 #: ../../source/short.rst:102
 msgid "change name of selected file"
-msgstr ""
+msgstr "змінити ім'я виділеного файлу"
 
 #: ../../source/short.rst:104
 msgid "\"delete\""
-msgstr ""
+msgstr "\"видалити\""
 
 #: ../../source/short.rst:104
 msgid "delete selected file"
-msgstr ""
+msgstr "видалити виділений файл"
 
 #: ../../source/short.rst:106
 msgid "\"delete group"
-msgstr ""
+msgstr "\"видалити групу\""
 
 #: ../../source/short.rst:106
-msgid "delete selected file and its relatives (schematic, data display, dataset)"
+msgid ""
+"delete selected file and its relatives (schematic, data display, dataset)"
 msgstr ""
+"видалити виділений файл і те, що з ним пов'язане (схему, показ даних, набір "
+"даних)"
 
 #: ../../source/short.rst:112
 msgid "Keyboard"
-msgstr ""
+msgstr "Клавіатура"
 
 #: ../../source/short.rst:114
-msgid "Many actions can be activated/done by the keyboard strokes. This can be seen"
-" in the main menu right beside the command. Some further key commands are "
+msgid ""
+"Many actions can be activated/done by the keyboard strokes. This can be seen "
+"in the main menu right beside the command. Some further key commands are "
 "shown in the following list:"
 msgstr ""
+"Багато дій може бути викликано/зроблено з допомогою клавіш клавіатури. Дії "
+"що виконуються пояснюються в рядку статусу при виборі команди із меню. Деякі "
+"додаткові команди, що виконуються з допомогою клавіш, наводяться в "
+"наступному списку:"
 
 #: ../../source/short.rst:119
 msgid "\"Delete\" or \"Backspace\""
-msgstr ""
+msgstr "\"Delete\" чи \"Backspace\""
 
 #: ../../source/short.rst:119
-msgid "Deletes the selected elements or enters the delete mode if no element is "
+msgid ""
+"Deletes the selected elements or enters the delete mode if no element is "
 "selected."
 msgstr ""
+"Видаляє виділені елементи чи входить у режим видалення, якщо жоден елемент "
+"не виділено."
 
 #: ../../source/short.rst:121
 msgid "Cursor left/right"
-msgstr ""
+msgstr "Клавіші зі стрілками вліво/вправо"
 
 #: ../../source/short.rst:121
-msgid "Changes the position of selected markers on their graphs. If no marker is "
-"selected, move selected elements. If no element is selected, scroll document"
-" area."
+msgid ""
+"Changes the position of selected markers on their graphs. If no marker is "
+"selected, move selected elements. If no element is selected, scroll document "
+"area."
 msgstr ""
+"Змінюють розташування виділених маркерів на графіках.Якщо жоден маркер не "
+"виділено, переміщають виділені елементи.Якщо жоден елемент не виділено, "
+"прокручують область документа."
 
 #: ../../source/short.rst:125
 msgid "Cursor up/down"
-msgstr ""
+msgstr "Клавіші зі стрілками вверх/вниз"
 
 #: ../../source/short.rst:125
-msgid "Changes the position of selected markers on more-dimensional graphs. If no "
+msgid ""
+"Changes the position of selected markers on more-dimensional graphs. If no "
 "marker is selected, move selected elements. If no element is selected, "
 "scroll document area."
 msgstr ""
+"Змінюють розташування виділених маркерів на багатомірних графіках.Якщо жоден "
+"маркер не виділено, переміщають виділені елементи.Якщо жоден елемент не "
+"виділено, прокручують область документа."
 
 #: ../../source/short.rst:129
 msgid "Tabulator"
-msgstr ""
+msgstr "Клавіша Tab"
 
 #: ../../source/short.rst:129
 msgid "Changes to the next open document (according to the TabBar above)."
-msgstr "Клавіші зі стрілками вверх/вниз"
-
+msgstr ""
+"Переходить до наступного відкритого документу (у відповідності до вкладків)."

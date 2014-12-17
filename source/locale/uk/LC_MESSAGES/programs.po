@@ -1,122 +1,145 @@
 #
 msgid ""
-msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr ""
+"Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-12-17 18:16+0100\n"
+"Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"X-Generator: Poedit 1.6.7\n"
 
 #: ../../source/programs.rst:3
 msgid "Installed Files"
-msgstr ""
+msgstr "Встановлені файли"
 
 #: ../../source/programs.rst:5
-msgid "The Qucs system needs several programs. These are installed during the "
-"installation process. The path of Qucs is determined during the installation"
-" (``configure`` script). The following explanations assume the default path "
+msgid ""
+"The Qucs system needs several programs. These are installed during the "
+"installation process. The path of Qucs is determined during the installation "
+"(``configure`` script). The following explanations assume the default path "
 "(``/usr/local/``)."
 msgstr ""
+"До складу Qucs входять кілька програм. Їх встановлюють під час процесу "
+"інсталяції. Шлях, куди встановлюється Qucs, визначається при встановленні "
+"(скриптом configure). У наступних поясненнях приймається шлях за "
+"замовчуванням (/usr/local/)."
 
 #: ../../source/programs.rst:10
 msgid "``/usr/local/bin/qucs`` - the GUI"
-msgstr ""
+msgstr "/usr/local/bin/qucs - графічний інтерфейс"
 
 #: ../../source/programs.rst:12
 msgid "``/usr/local/bin/qucsator`` - the simulator (console application)"
-msgstr ""
+msgstr "/usr/local/bin/qucsator - симулятор (консольна програма)"
 
 #: ../../source/programs.rst:14
 msgid "``/usr/local/bin/qucsedit`` - a simple text editor"
-msgstr ""
+msgstr "/usr/local/bin/qucsedit - простий текстовий редактор"
 
 #: ../../source/programs.rst:16
-msgid "``/usr/local/bin/qucshelp`` - a small program displaying the help system"
+msgid ""
+"``/usr/local/bin/qucshelp`` - a small program displaying the help system"
 msgstr ""
+"/usr/local/bin/qucshelp - невеличка програма для перегляду довідкової "
+"інформації"
 
 #: ../../source/programs.rst:18
-msgid "``/usr/local/bin/qucstrans`` - a program for calculation transmission line "
+msgid ""
+"``/usr/local/bin/qucstrans`` - a program for calculation transmission line "
 "parameters"
 msgstr ""
+"/usr/local/bin/qucstrans - програма для розрахунку параметрів ліній передач"
 
 #: ../../source/programs.rst:20
 msgid "``/usr/local/bin/qucsfilter`` - a program synthesizing filter circuits"
-msgstr ""
+msgstr "/usr/local/bin/qucsfilter - програма синтезу фільтрів"
 
 #: ../../source/programs.rst:22
-msgid "``/usr/local/bin/qucsconv`` - a file format converter (console application)"
+msgid ""
+"``/usr/local/bin/qucsconv`` - a file format converter (console application)"
 msgstr ""
+"/usr/local/bin/qucsconv - перетворювач форматів файлів (консольна програма)"
 
 #: ../../source/programs.rst:25
-msgid "All programs are stand-alone applications and can be started independently. "
+msgid ""
+"All programs are stand-alone applications and can be started independently. "
 "The main program (GUI)"
 msgstr ""
+"Усі програми є самостійними додатками і можуть працювати незалежно один від "
+"одного. Головна програма (графічний інтерфейс)"
 
 #: ../../source/programs.rst:28
 msgid "calls ``qucsator`` when performing a simulation,"
-msgstr ""
+msgstr "викликає qucsator при виконанні моделювання,"
 
 #: ../../source/programs.rst:30
 msgid "calls ``qucsedit`` when showing text files,"
-msgstr ""
+msgstr "викликає qucsedit, коли демонструються текстові файли,"
 
 #: ../../source/programs.rst:32
 msgid "calls ``qucshelp`` when showing the help system,"
-msgstr ""
+msgstr "викликає qucshelp, коли показується довідкова система,"
 
 #: ../../source/programs.rst:34
 msgid "calls ``qucstrans`` when calling this program from menu \"Tools\","
-msgstr ""
+msgstr "викликає qucstrans при виклику цієї програми з меню \"Інструменти\","
 
 #: ../../source/programs.rst:36
 msgid "calls ``qucsfilter`` when calling this program from menu \"Tools\","
-msgstr ""
+msgstr "викликає qucsfilter при виклику цієї програми з меню \"Інструменти\","
 
 #: ../../source/programs.rst:38
-msgid "calls ``qucsconv`` when placing the SPICE component and when performing a "
+msgid ""
+"calls ``qucsconv`` when placing the SPICE component and when performing a "
 "simulation with the SPICE component."
 msgstr ""
+"викликає qucsconv, коли вставляється компонент SPICE і коли виконується "
+"моделювання з допомогою компонента SPICE."
 
 #: ../../source/programs.rst:40
 msgid "Furthermore, the following directories are created during installation:"
-msgstr ""
+msgstr "Крім цього, за умови встановлення створюються такі папки:"
 
 #: ../../source/programs.rst:43
 msgid "``/usr/local/share/qucs/bitmaps`` - contains all bitmaps (icons etc.)"
 msgstr ""
+"/usr/local/share/qucs/bitmaps - містить всі растрові зображення (значки "
+"тощо.)"
 
 #: ../../source/programs.rst:45
-msgid "``/usr/local/share/qucs/docs`` - contains HTML documents for the help system"
-msgstr ""
+msgid ""
+"``/usr/local/share/qucs/docs`` - contains HTML documents for the help system"
+msgstr "/usr/local/share/qucs/docs - містить HTML-документи довідкової системи"
 
 #: ../../source/programs.rst:47
 msgid "``/usr/local/share/qucs/lang`` - contains the translation files"
-msgstr ""
+msgstr "/usr/local/share/qucs/lang - містить файли перекладів"
 
 #: ../../source/programs.rst:50
 msgid "Command line arguments"
-msgstr ""
+msgstr "Аргументи командного рядку"
 
 #: ../../source/programs.rst:52
 msgid "``qucs [file1 [file2 ...]]``"
-msgstr ""
+msgstr "qucs [файл1 [файл2 ...]]"
 
 #: ../../source/programs.rst:54
 msgid "``qucsator [-b] -i netlist -o dataset`` (b = progress bar)"
-msgstr ""
+msgstr "qucsator [-b] -і список_кіл -o набір_даних (b = смуга прогресу)"
 
 #: ../../source/programs.rst:56
 msgid "``qucsedit [-r] [file]`` (r = read-only)"
-msgstr ""
+msgstr "qucsedit [-r] [файл] (r = лише читання)"
 
 #: ../../source/programs.rst:58
 msgid "``qucshelp`` (no arguments)"
-msgstr ""
+msgstr "qucshelp (без аргументів)"
 
 #: ../../source/programs.rst:60
 msgid "``qucsconv -if spice -of qucs -i netlist.inp -o netlist.net``"
-msgstr ""
-
+msgstr "qucsconv -if spice -of qucs -і netlist.inp -o netlist.net"
