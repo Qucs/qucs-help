@@ -58,69 +58,7 @@ Logical Operators
 | ``x>=y``    | Larger than or equal                                                       |
 +-------------+----------------------------------------------------------------------------+
 
-Alphabetical List of Functions
-------------------------------
 
-`abs <#abs>`__\ ``  `` `adjoint <#adjoint>`__\ ``  ``
-`angle <#angle>`__\ ``  `` `arccos <#arccos>`__\ ``  ``
-`arccosec <#arccosec>`__\ ``  `` `arccot <#arccot>`__\ ``  ``
-`arcosech <#arcosech>`__\ ``  `` `arcosh <#arcosh>`__\ ``  ``
-`arcoth <#arcoth>`__\ ``  `` `arcsec <#arcsec>`__\ ``  ``
-`arcsin <#arcsin>`__\ ``  `` `arctan <#arctan>`__\ ``  ``
-`arg <#arg>`__\ ``  `` `arsech <#arsech>`__\ ``  ``
-`arsinh <#arsinh>`__\ ``  `` `artanh <#artanh>`__\ ``  ``
-`avg <#avg>`__\ ``  `` `besseli0 <#besseli0>`__\ ``  ``
-`besselj <#besselj>`__\ ``  `` `bessely <#bessely>`__\ ``  ``
-`ceil <#ceil>`__\ ``  `` `conj <#conj>`__\ ``  `` `cos <#cos>`__\ ``  ``
-`cosec <#cosec>`__\ ``  `` `cosech <#cosech>`__\ ``  ``
-`cosh <#cosh>`__\ ``  `` `cot <#cot>`__\ ``  `` `coth <#coth>`__\ ``  ``
-`cumavg <#cumavg>`__\ ``  `` `cumprod <#cumprod>`__\ ``  ``
-`cumsum <#cumsum>`__\ ``  `` `dB <#dB>`__\ ``  `` `dbm <#dbm>`__\ ``  ``
-`dbm2w <#dbm2w>`__\ ``  `` `ddx <#ddx>`__\ ``  ``
-`deg2rad <#deg2rad>`__\ ``  `` `det <#det>`__\ ``  ``
-`dft <#dft>`__\ ``  `` `diff <#diff>`__\ ``  `` `erf <#erf>`__\ ``  ``
-`erfc <#erfc>`__\ ``  `` `erfcinv <#erfcinv>`__\ ``  ``
-`erfinv <#erfinv>`__\ ``  `` `exp <#exp>`__\ ``  ``
-`eye <#eye>`__\ ``  `` `fft <#fft>`__\ ``  ``
-`fftshift <#fftshift>`__\ ``  `` `fix <#fix>`__\ ``  ``
-`floor <#floor>`__\ ``  `` `Freq2Time <#Freq2Time>`__\ ``  ``
-`GaCircle <#GaCircle>`__\ ``  `` `GpCircle <#GpCircle>`__\ ``  ``
-`hypot <#hypot>`__\ ``  `` `idft <#idft>`__\ ``  ``
-`ifft <#ifft>`__\ ``  `` `imag <#imag>`__\ ``  ``
-`integrate <#integrate>`__\ ``  ``
-`interpolate <#interpolate>`__\ ``  `` `inverse <#inverse>`__\ ``  ``
-`kbd <#kbd>`__\ ``  `` `length <#length>`__\ ``  ``
-`limexp <#limexp>`__\ ``  `` `linspace <#linspace>`__\ ``  ``
-`ln <#ln>`__\ ``  `` `log10 <#log10>`__\ ``  `` `log2 <#log2>`__\ ``  ``
-`logspace <#logspace>`__\ ``  `` `mag <#mag>`__\ ``  ``
-`max <#max>`__\ ``  `` `min <#min>`__\ ``  `` `Mu <#Mu>`__\ ``  ``
-`Mu2 <#Mu2>`__\ ``  `` `NoiseCircle <#NoiseCircle>`__\ ``  ``
-`norm <#norm>`__\ ``  `` `phase <#phase>`__\ ``  ``
-`PlotVs <#PlotVs>`__\ ``  `` `polar <#polar>`__\ ``  ``
-`prod <#prod>`__\ ``  `` `rad2deg <#rad2deg>`__\ ``  ``
-`random <#random>`__\ ``  `` `real <#real>`__\ ``  ``
-`rms <#rms>`__\ ``  `` `Rollet <#Rollet>`__\ ``  ``
-`round <#round>`__\ ``  `` `rtoswr <#rtoswr>`__\ ``  ``
-`rtoy <#rtoy>`__\ ``  `` `rtoz <#rtoz>`__\ ``  ``
-`runavg <#runavg>`__\ ``  `` `sec <#sec>`__\ ``  ``
-`sech <#sech>`__\ ``  `` `sign <#sign>`__\ ``  `` `sin <#sin>`__\ ``  ``
-`sinc <#sinc>`__\ ``  `` `sinh <#sinh>`__\ ``  `` `sqr <#sqr>`__\ ``  ``
-`sqrt <#sqrt>`__\ ``  `` `srandom <#srandom>`__\ ``  ``
-`StabCircleL <#StabCircleL>`__\ ``  ``
-`StabCircleS <#StabCircleS>`__\ ``  ``
-`StabFactor <#StabFactor>`__\ ``  ``
-`StabMeasure <#StabMeasure>`__\ ``  `` `stddev <#stddev>`__\ ``  ``
-`step <#step>`__\ ``  `` `stos <#stos>`__\ ``  ``
-`stoy <#stoy>`__\ ``  `` `stoz <#stoz>`__\ ``  `` `sum <#sum>`__\ ``  ``
-`tan <#tan>`__\ ``  `` `tanh <#tanh>`__\ ``  ``
-`Time2Freq <#Time2Freq>`__\ ``  `` `transpose <#transpose>`__\ ``  ``
-`twoport <#twoport>`__\ ``  `` `unwrap <#unwrap>`__\ ``  ``
-`variance <#variance>`__\ ``  `` `vt <#vt>`__\ ``  ``
-`w2dbm <#w2dbm>`__\ ``  `` `xvalue <#xvalue>`__\ ``  ``
-`ytor <#ytor>`__\ ``  `` `ytos <#ytos>`__\ ``  ``
-`ytoz <#ytoz>`__\ ``  `` `yvalue <#yvalue>`__\ ``  ``
-`ztor <#ztor>`__\ ``  `` `ztos <#ztos>`__\ ``  ``
-`ztoy <#ztoy>`__\ ``  ``
 
 Math Functions
 --------------
