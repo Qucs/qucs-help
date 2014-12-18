@@ -1,15 +1,17 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-12-18 18:11+0100\n"
+"Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.7.1\n"
 
 #: ../../source/characters.rst:3
 msgid "List of Special Characters"
@@ -49,303 +51,303 @@ msgstr ""
 
 #: ../../source/characters.rst:18
 msgid "``\\alpha``"
-msgstr ""
+msgstr "``\\alpha``"
 
 #: ../../source/characters.rst:18
 msgid "0x03B1"
-msgstr ""
+msgstr "0x03B1"
 
 #: ../../source/characters.rst:18
 msgid "alpha"
-msgstr ""
+msgstr "alpha"
 
 #: ../../source/characters.rst:20
 msgid "``\\beta``"
-msgstr ""
+msgstr "``\\beta``"
 
 #: ../../source/characters.rst:20
 msgid "0x03B2"
-msgstr ""
+msgstr "0x03B2"
 
 #: ../../source/characters.rst:20
 msgid "beta"
-msgstr ""
+msgstr "beta"
 
 #: ../../source/characters.rst:22
 msgid "``\\gamma``"
-msgstr ""
+msgstr "``\\gamma``"
 
 #: ../../source/characters.rst:22
 msgid "0x03B3"
-msgstr ""
+msgstr "0x03B3"
 
 #: ../../source/characters.rst:22
 msgid "gamma"
-msgstr ""
+msgstr "gamma"
 
 #: ../../source/characters.rst:24
 msgid "``\\delta``"
-msgstr ""
+msgstr "``\\delta``"
 
 #: ../../source/characters.rst:24
 msgid "0x03B4"
-msgstr ""
+msgstr "0x03B4"
 
 #: ../../source/characters.rst:24
 msgid "delta"
-msgstr ""
+msgstr "delta"
 
 #: ../../source/characters.rst:26
 msgid "``\\epsilon``"
-msgstr ""
+msgstr "``\\epsilon``"
 
 #: ../../source/characters.rst:26
 msgid "0x03B5"
-msgstr ""
+msgstr "0x03B5"
 
 #: ../../source/characters.rst:26
 msgid "epsilon"
-msgstr ""
+msgstr "epsilon"
 
 #: ../../source/characters.rst:28
 msgid "``\\zeta``"
-msgstr ""
+msgstr "``\\zeta``"
 
 #: ../../source/characters.rst:28
 msgid "0x03B6"
-msgstr ""
+msgstr "0x03B6"
 
 #: ../../source/characters.rst:28
 msgid "zeta"
-msgstr ""
+msgstr "zeta"
 
 #: ../../source/characters.rst:30
 msgid "``\\eta``"
-msgstr ""
+msgstr "``\\eta``"
 
 #: ../../source/characters.rst:30
 msgid "0x03B7"
-msgstr ""
+msgstr "0x03B7"
 
 #: ../../source/characters.rst:30
 msgid "eta"
-msgstr ""
+msgstr "eta"
 
 #: ../../source/characters.rst:32
 msgid "``\\theta``"
-msgstr ""
+msgstr "``\\theta``"
 
 #: ../../source/characters.rst:32
 msgid "0x03B8"
-msgstr ""
+msgstr "0x03B8"
 
 #: ../../source/characters.rst:32
 msgid "theta"
-msgstr ""
+msgstr "theta"
 
 #: ../../source/characters.rst:34
 msgid "``\\iota``"
-msgstr ""
+msgstr "``\\iota``"
 
 #: ../../source/characters.rst:34
 msgid "0x03B9"
-msgstr ""
+msgstr "0x03B9"
 
 #: ../../source/characters.rst:34
 msgid "iota"
-msgstr ""
+msgstr "iota"
 
 #: ../../source/characters.rst:36
 msgid "``\\kappa``"
-msgstr ""
+msgstr "``\\kappa``"
 
 #: ../../source/characters.rst:36
 msgid "0x03BA"
-msgstr ""
+msgstr "0x03BA"
 
 #: ../../source/characters.rst:36
 msgid "kappa"
-msgstr ""
+msgstr "kappa"
 
 #: ../../source/characters.rst:38
 msgid "``\\lambda``"
-msgstr ""
+msgstr "``\\lambda``"
 
 #: ../../source/characters.rst:38
 msgid "0x03BB"
-msgstr ""
+msgstr "0x03BB"
 
 #: ../../source/characters.rst:38
 msgid "lambda"
-msgstr ""
+msgstr "lambda"
 
 #: ../../source/characters.rst:40
 msgid "``\\mu``"
-msgstr ""
+msgstr "``\\mu``"
 
 #: ../../source/characters.rst:40
 msgid "0x03BC"
-msgstr ""
+msgstr "0x03BC"
 
 #: ../../source/characters.rst:40 ../../source/characters.rst:42
 msgid "mu"
-msgstr ""
+msgstr "mu"
 
 #: ../../source/characters.rst:42
 msgid "``\\textmu``"
-msgstr ""
+msgstr "``\\textmu``"
 
 #: ../../source/characters.rst:42
 msgid "0x00B5"
-msgstr ""
+msgstr "0x00B5"
 
 #: ../../source/characters.rst:44
 msgid "``\\nu``"
-msgstr ""
+msgstr "``\\nu``"
 
 #: ../../source/characters.rst:44
 msgid "0x03BD"
-msgstr ""
+msgstr "0x03BD"
 
 #: ../../source/characters.rst:44
 msgid "nu"
-msgstr ""
+msgstr "nu"
 
 #: ../../source/characters.rst:46
 msgid "``\\xi``"
-msgstr ""
+msgstr "``\\xi``"
 
 #: ../../source/characters.rst:46
 msgid "0x03BE"
-msgstr ""
+msgstr "0x03BE"
 
 #: ../../source/characters.rst:46
 msgid "xi"
-msgstr ""
+msgstr "xi"
 
 #: ../../source/characters.rst:48
 msgid "``\\pi``"
-msgstr ""
+msgstr "``\\pi``"
 
 #: ../../source/characters.rst:48
 msgid "0x03C0"
-msgstr ""
+msgstr "0x03C0"
 
 #: ../../source/characters.rst:48 ../../source/characters.rst:50
 msgid "pi"
-msgstr ""
+msgstr "pi"
 
 #: ../../source/characters.rst:50
 msgid "``\\varpi``"
-msgstr ""
+msgstr "``\\varpi``"
 
 #: ../../source/characters.rst:50
 msgid "0x03D6"
-msgstr ""
+msgstr "0x03D6"
 
 #: ../../source/characters.rst:52
 msgid "``\\rho``"
-msgstr ""
+msgstr "``\\rho``"
 
 #: ../../source/characters.rst:52
 msgid "0x03C1"
-msgstr ""
+msgstr "0x03C1"
 
 #: ../../source/characters.rst:52 ../../source/characters.rst:54
 msgid "rho"
-msgstr ""
+msgstr "rho"
 
 #: ../../source/characters.rst:54
 msgid "``\\varrho``"
-msgstr ""
+msgstr "``\\varrho``"
 
 #: ../../source/characters.rst:54
 msgid "0x03F1"
-msgstr ""
+msgstr "0x03F1"
 
 #: ../../source/characters.rst:56
 msgid "``\\sigma``"
-msgstr ""
+msgstr "``\\sigma``"
 
 #: ../../source/characters.rst:56
 msgid "0x03C3"
-msgstr ""
+msgstr "0x03C3"
 
 #: ../../source/characters.rst:56
 msgid "sigma"
-msgstr ""
+msgstr "sigma"
 
 #: ../../source/characters.rst:58
 msgid "``\\tau``"
-msgstr ""
+msgstr "``\\tau``"
 
 #: ../../source/characters.rst:58
 msgid "0x03C4"
-msgstr ""
+msgstr "0x03C4"
 
 #: ../../source/characters.rst:58
 msgid "tau"
-msgstr ""
+msgstr "tau"
 
 #: ../../source/characters.rst:60
 msgid "``\\upsilon``"
-msgstr ""
+msgstr "``\\upsilon``"
 
 #: ../../source/characters.rst:60
 msgid "0x03C5"
-msgstr ""
+msgstr "0x03C5"
 
 #: ../../source/characters.rst:60
 msgid "upsilon"
-msgstr ""
+msgstr "upsilon"
 
 #: ../../source/characters.rst:62
 msgid "``\\phi``"
-msgstr ""
+msgstr "``\\phi``"
 
 #: ../../source/characters.rst:62
 msgid "0x03C6"
-msgstr ""
+msgstr "0x03C6"
 
 #: ../../source/characters.rst:62
 msgid "phi"
-msgstr ""
+msgstr "phi"
 
 #: ../../source/characters.rst:64
 msgid "``\\chi``"
-msgstr ""
+msgstr "``\\chi``"
 
 #: ../../source/characters.rst:64
 msgid "0x03C7"
-msgstr ""
+msgstr "0x03C7"
 
 #: ../../source/characters.rst:64
 msgid "chi"
-msgstr ""
+msgstr "chi"
 
 #: ../../source/characters.rst:66
 msgid "``\\psi``"
-msgstr ""
+msgstr "``\\psi``"
 
 #: ../../source/characters.rst:66
 msgid "0x03C8"
-msgstr ""
+msgstr "0x03C8"
 
 #: ../../source/characters.rst:66
 msgid "psi"
-msgstr ""
+msgstr "psi"
 
 #: ../../source/characters.rst:68
 msgid "``\\omega``"
-msgstr ""
+msgstr "``\\omega``"
 
 #: ../../source/characters.rst:68
 msgid "0x03C9"
-msgstr ""
+msgstr "0x03C9"
 
 #: ../../source/characters.rst:68
 msgid "omega"
-msgstr ""
+msgstr "omega"
 
 #: ../../source/characters.rst:72
 msgid "**Capital Greek letters**"
@@ -353,135 +355,135 @@ msgstr ""
 
 #: ../../source/characters.rst:77
 msgid "``\\Gamma``"
-msgstr ""
+msgstr "``\\Gamma``"
 
 #: ../../source/characters.rst:77
 msgid "0x0393"
-msgstr ""
+msgstr "0x0393"
 
 #: ../../source/characters.rst:77
 msgid "Gamma"
-msgstr ""
+msgstr "Gamma"
 
 #: ../../source/characters.rst:79
 msgid "``\\Delta``"
-msgstr ""
+msgstr "``\\Delta``"
 
 #: ../../source/characters.rst:79
 msgid "0x0394"
-msgstr ""
+msgstr "0x0394"
 
 #: ../../source/characters.rst:79
 msgid "Delta"
-msgstr ""
+msgstr "Delta"
 
 #: ../../source/characters.rst:81
 msgid "``\\Theta``"
-msgstr ""
+msgstr "``\\Theta``"
 
 #: ../../source/characters.rst:81
 msgid "0x0398"
-msgstr ""
+msgstr "0x0398"
 
 #: ../../source/characters.rst:81
 msgid "Theta"
-msgstr ""
+msgstr "Theta"
 
 #: ../../source/characters.rst:83
 msgid "``\\Lambda``"
-msgstr ""
+msgstr "``\\Lambda``"
 
 #: ../../source/characters.rst:83
 msgid "0x039B"
-msgstr ""
+msgstr "0x039B"
 
 #: ../../source/characters.rst:83
 msgid "Lambda"
-msgstr ""
+msgstr "Lambda"
 
 #: ../../source/characters.rst:85
 msgid "``\\Xi``"
-msgstr ""
+msgstr "``\\Xi``"
 
 #: ../../source/characters.rst:85
 msgid "0x039E"
-msgstr ""
+msgstr "0x039E"
 
 #: ../../source/characters.rst:85
 msgid "Xi"
-msgstr ""
+msgstr "Xi"
 
 #: ../../source/characters.rst:87
 msgid "``\\Pi``"
-msgstr ""
+msgstr "``\\Pi``"
 
 #: ../../source/characters.rst:87
 msgid "0x03A0"
-msgstr ""
+msgstr "0x03A0"
 
 #: ../../source/characters.rst:87
 msgid "Pi"
-msgstr ""
+msgstr "Pi"
 
 #: ../../source/characters.rst:89
 msgid "``\\Sigma``"
-msgstr ""
+msgstr "``\\Sigma``"
 
 #: ../../source/characters.rst:89
 msgid "0x03A3"
-msgstr ""
+msgstr "0x03A3"
 
 #: ../../source/characters.rst:89
 msgid "Sigma"
-msgstr ""
+msgstr "Sigma"
 
 #: ../../source/characters.rst:91
 msgid "``\\Upsilon``"
-msgstr ""
+msgstr "``\\Upsilon``"
 
 #: ../../source/characters.rst:91
 msgid "0x03A5"
-msgstr ""
+msgstr "0x03A5"
 
 #: ../../source/characters.rst:91
 msgid "Upsilon"
-msgstr ""
+msgstr "Upsilon"
 
 #: ../../source/characters.rst:93
 msgid "``\\Phi``"
-msgstr ""
+msgstr "``\\Phi``"
 
 #: ../../source/characters.rst:93
 msgid "0x03A6"
-msgstr ""
+msgstr "0x03A6"
 
 #: ../../source/characters.rst:93
 msgid "Phi"
-msgstr ""
+msgstr "Phi"
 
 #: ../../source/characters.rst:95
 msgid "``\\Psi``"
-msgstr ""
+msgstr "``\\Psi``"
 
 #: ../../source/characters.rst:95
 msgid "0x03A8"
-msgstr ""
+msgstr "0x03A8"
 
 #: ../../source/characters.rst:95
 msgid "Psi"
-msgstr ""
+msgstr "Psi"
 
 #: ../../source/characters.rst:97
 msgid "``\\Omega``"
-msgstr ""
+msgstr "``\\Omega``"
 
 #: ../../source/characters.rst:97 ../../source/characters.rst:146
 msgid "0x03A9"
-msgstr ""
+msgstr "0x03A9"
 
 #: ../../source/characters.rst:97
 msgid "Omega"
-msgstr ""
+msgstr "Omega"
 
 #: ../../source/characters.rst:101
 msgid "**Mathematical symbols**"

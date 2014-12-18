@@ -4,14 +4,14 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-18 12:00+0100\n"
+"PO-Revision-Date: 2014-12-18 18:13+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"X-Generator: Poedit 1.6.7\n"
+"X-Generator: Poedit 1.7.1\n"
 
 #: ../../source/characters.rst:3
 msgid "List of Special Characters"
@@ -48,7 +48,7 @@ msgstr "LaTeX tag"
 #: ../../source/characters.rst:16 ../../source/characters.rst:75
 #: ../../source/characters.rst:104
 msgid "Unicode"
-msgstr ""
+msgstr "Unicode"
 
 #: ../../source/characters.rst:16 ../../source/characters.rst:75
 #: ../../source/characters.rst:104
@@ -57,303 +57,303 @@ msgstr "Popis"
 
 #: ../../source/characters.rst:18
 msgid "``\\alpha``"
-msgstr ""
+msgstr "``\\alpha``"
 
 #: ../../source/characters.rst:18
 msgid "0x03B1"
-msgstr ""
+msgstr "0x03B1"
 
 #: ../../source/characters.rst:18
 msgid "alpha"
-msgstr ""
+msgstr "alpha"
 
 #: ../../source/characters.rst:20
 msgid "``\\beta``"
-msgstr ""
+msgstr "``\\beta``"
 
 #: ../../source/characters.rst:20
 msgid "0x03B2"
-msgstr ""
+msgstr "0x03B2"
 
 #: ../../source/characters.rst:20
 msgid "beta"
-msgstr ""
+msgstr "beta"
 
 #: ../../source/characters.rst:22
 msgid "``\\gamma``"
-msgstr ""
+msgstr "``\\gamma``"
 
 #: ../../source/characters.rst:22
 msgid "0x03B3"
-msgstr ""
+msgstr "0x03B3"
 
 #: ../../source/characters.rst:22
 msgid "gamma"
-msgstr ""
+msgstr "gamma"
 
 #: ../../source/characters.rst:24
 msgid "``\\delta``"
-msgstr ""
+msgstr "``\\delta``"
 
 #: ../../source/characters.rst:24
 msgid "0x03B4"
-msgstr ""
+msgstr "0x03B4"
 
 #: ../../source/characters.rst:24
 msgid "delta"
-msgstr ""
+msgstr "delta"
 
 #: ../../source/characters.rst:26
 msgid "``\\epsilon``"
-msgstr ""
+msgstr "``\\epsilon``"
 
 #: ../../source/characters.rst:26
 msgid "0x03B5"
-msgstr ""
+msgstr "0x03B5"
 
 #: ../../source/characters.rst:26
 msgid "epsilon"
-msgstr ""
+msgstr "epsilon"
 
 #: ../../source/characters.rst:28
 msgid "``\\zeta``"
-msgstr ""
+msgstr "``\\zeta``"
 
 #: ../../source/characters.rst:28
 msgid "0x03B6"
-msgstr ""
+msgstr "0x03B6"
 
 #: ../../source/characters.rst:28
 msgid "zeta"
-msgstr ""
+msgstr "zeta"
 
 #: ../../source/characters.rst:30
 msgid "``\\eta``"
-msgstr ""
+msgstr "``\\eta``"
 
 #: ../../source/characters.rst:30
 msgid "0x03B7"
-msgstr ""
+msgstr "0x03B7"
 
 #: ../../source/characters.rst:30
 msgid "eta"
-msgstr ""
+msgstr "eta"
 
 #: ../../source/characters.rst:32
 msgid "``\\theta``"
-msgstr ""
+msgstr "``\\theta``"
 
 #: ../../source/characters.rst:32
 msgid "0x03B8"
-msgstr ""
+msgstr "0x03B8"
 
 #: ../../source/characters.rst:32
 msgid "theta"
-msgstr ""
+msgstr "theta"
 
 #: ../../source/characters.rst:34
 msgid "``\\iota``"
-msgstr ""
+msgstr "``\\iota``"
 
 #: ../../source/characters.rst:34
 msgid "0x03B9"
-msgstr ""
+msgstr "0x03B9"
 
 #: ../../source/characters.rst:34
 msgid "iota"
-msgstr ""
+msgstr "iota"
 
 #: ../../source/characters.rst:36
 msgid "``\\kappa``"
-msgstr ""
+msgstr "``\\kappa``"
 
 #: ../../source/characters.rst:36
 msgid "0x03BA"
-msgstr ""
+msgstr "0x03BA"
 
 #: ../../source/characters.rst:36
 msgid "kappa"
-msgstr ""
+msgstr "kappa"
 
 #: ../../source/characters.rst:38
 msgid "``\\lambda``"
-msgstr ""
+msgstr "``\\lambda``"
 
 #: ../../source/characters.rst:38
 msgid "0x03BB"
-msgstr ""
+msgstr "0x03BB"
 
 #: ../../source/characters.rst:38
 msgid "lambda"
-msgstr ""
+msgstr "lambda"
 
 #: ../../source/characters.rst:40
 msgid "``\\mu``"
-msgstr ""
+msgstr "``\\mu``"
 
 #: ../../source/characters.rst:40
 msgid "0x03BC"
-msgstr ""
+msgstr "0x03BC"
 
 #: ../../source/characters.rst:40 ../../source/characters.rst:42
 msgid "mu"
-msgstr ""
+msgstr "mu"
 
 #: ../../source/characters.rst:42
 msgid "``\\textmu``"
-msgstr ""
+msgstr "``\\textmu``"
 
 #: ../../source/characters.rst:42
 msgid "0x00B5"
-msgstr ""
+msgstr "0x00B5"
 
 #: ../../source/characters.rst:44
 msgid "``\\nu``"
-msgstr ""
+msgstr "``\\nu``"
 
 #: ../../source/characters.rst:44
 msgid "0x03BD"
-msgstr ""
+msgstr "0x03BD"
 
 #: ../../source/characters.rst:44
 msgid "nu"
-msgstr ""
+msgstr "nu"
 
 #: ../../source/characters.rst:46
 msgid "``\\xi``"
-msgstr ""
+msgstr "``\\xi``"
 
 #: ../../source/characters.rst:46
 msgid "0x03BE"
-msgstr ""
+msgstr "0x03BE"
 
 #: ../../source/characters.rst:46
 msgid "xi"
-msgstr ""
+msgstr "xi"
 
 #: ../../source/characters.rst:48
 msgid "``\\pi``"
-msgstr ""
+msgstr "``\\pi``"
 
 #: ../../source/characters.rst:48
 msgid "0x03C0"
-msgstr ""
+msgstr "0x03C0"
 
 #: ../../source/characters.rst:48 ../../source/characters.rst:50
 msgid "pi"
-msgstr ""
+msgstr "pi"
 
 #: ../../source/characters.rst:50
 msgid "``\\varpi``"
-msgstr ""
+msgstr "``\\varpi``"
 
 #: ../../source/characters.rst:50
 msgid "0x03D6"
-msgstr ""
+msgstr "0x03D6"
 
 #: ../../source/characters.rst:52
 msgid "``\\rho``"
-msgstr ""
+msgstr "``\\rho``"
 
 #: ../../source/characters.rst:52
 msgid "0x03C1"
-msgstr ""
+msgstr "0x03C1"
 
 #: ../../source/characters.rst:52 ../../source/characters.rst:54
 msgid "rho"
-msgstr ""
+msgstr "rho"
 
 #: ../../source/characters.rst:54
 msgid "``\\varrho``"
-msgstr ""
+msgstr "``\\varrho``"
 
 #: ../../source/characters.rst:54
 msgid "0x03F1"
-msgstr ""
+msgstr "0x03F1"
 
 #: ../../source/characters.rst:56
 msgid "``\\sigma``"
-msgstr ""
+msgstr "``\\sigma``"
 
 #: ../../source/characters.rst:56
 msgid "0x03C3"
-msgstr ""
+msgstr "0x03C3"
 
 #: ../../source/characters.rst:56
 msgid "sigma"
-msgstr ""
+msgstr "sigma"
 
 #: ../../source/characters.rst:58
 msgid "``\\tau``"
-msgstr ""
+msgstr "``\\tau``"
 
 #: ../../source/characters.rst:58
 msgid "0x03C4"
-msgstr ""
+msgstr "0x03C4"
 
 #: ../../source/characters.rst:58
 msgid "tau"
-msgstr ""
+msgstr "tau"
 
 #: ../../source/characters.rst:60
 msgid "``\\upsilon``"
-msgstr ""
+msgstr "``\\upsilon``"
 
 #: ../../source/characters.rst:60
 msgid "0x03C5"
-msgstr ""
+msgstr "0x03C5"
 
 #: ../../source/characters.rst:60
 msgid "upsilon"
-msgstr ""
+msgstr "upsilon"
 
 #: ../../source/characters.rst:62
 msgid "``\\phi``"
-msgstr ""
+msgstr "``\\phi``"
 
 #: ../../source/characters.rst:62
 msgid "0x03C6"
-msgstr ""
+msgstr "0x03C6"
 
 #: ../../source/characters.rst:62
 msgid "phi"
-msgstr ""
+msgstr "phi"
 
 #: ../../source/characters.rst:64
 msgid "``\\chi``"
-msgstr ""
+msgstr "``\\chi``"
 
 #: ../../source/characters.rst:64
 msgid "0x03C7"
-msgstr ""
+msgstr "0x03C7"
 
 #: ../../source/characters.rst:64
 msgid "chi"
-msgstr ""
+msgstr "chi"
 
 #: ../../source/characters.rst:66
 msgid "``\\psi``"
-msgstr ""
+msgstr "``\\psi``"
 
 #: ../../source/characters.rst:66
 msgid "0x03C8"
-msgstr ""
+msgstr "0x03C8"
 
 #: ../../source/characters.rst:66
 msgid "psi"
-msgstr ""
+msgstr "psi"
 
 #: ../../source/characters.rst:68
 msgid "``\\omega``"
-msgstr ""
+msgstr "``\\omega``"
 
 #: ../../source/characters.rst:68
 msgid "0x03C9"
-msgstr ""
+msgstr "0x03C9"
 
 #: ../../source/characters.rst:68
 msgid "omega"
-msgstr ""
+msgstr "omega"
 
 #: ../../source/characters.rst:72
 msgid "**Capital Greek letters**"
@@ -361,135 +361,135 @@ msgstr "**Velká řecká písmena**"
 
 #: ../../source/characters.rst:77
 msgid "``\\Gamma``"
-msgstr ""
+msgstr "``\\Gamma``"
 
 #: ../../source/characters.rst:77
 msgid "0x0393"
-msgstr ""
+msgstr "0x0393"
 
 #: ../../source/characters.rst:77
 msgid "Gamma"
-msgstr ""
+msgstr "Gamma"
 
 #: ../../source/characters.rst:79
 msgid "``\\Delta``"
-msgstr ""
+msgstr "``\\Delta``"
 
 #: ../../source/characters.rst:79
 msgid "0x0394"
-msgstr ""
+msgstr "0x0394"
 
 #: ../../source/characters.rst:79
 msgid "Delta"
-msgstr ""
+msgstr "Delta"
 
 #: ../../source/characters.rst:81
 msgid "``\\Theta``"
-msgstr ""
+msgstr "``\\Theta``"
 
 #: ../../source/characters.rst:81
 msgid "0x0398"
-msgstr ""
+msgstr "0x0398"
 
 #: ../../source/characters.rst:81
 msgid "Theta"
-msgstr ""
+msgstr "Theta"
 
 #: ../../source/characters.rst:83
 msgid "``\\Lambda``"
-msgstr ""
+msgstr "``\\Lambda``"
 
 #: ../../source/characters.rst:83
 msgid "0x039B"
-msgstr ""
+msgstr "0x039B"
 
 #: ../../source/characters.rst:83
 msgid "Lambda"
-msgstr ""
+msgstr "Lambda"
 
 #: ../../source/characters.rst:85
 msgid "``\\Xi``"
-msgstr ""
+msgstr "``\\Xi``"
 
 #: ../../source/characters.rst:85
 msgid "0x039E"
-msgstr ""
+msgstr "0x039E"
 
 #: ../../source/characters.rst:85
 msgid "Xi"
-msgstr ""
+msgstr "Xi"
 
 #: ../../source/characters.rst:87
 msgid "``\\Pi``"
-msgstr ""
+msgstr "``\\Pi``"
 
 #: ../../source/characters.rst:87
 msgid "0x03A0"
-msgstr ""
+msgstr "0x03A0"
 
 #: ../../source/characters.rst:87
 msgid "Pi"
-msgstr ""
+msgstr "Pi"
 
 #: ../../source/characters.rst:89
 msgid "``\\Sigma``"
-msgstr ""
+msgstr "``\\Sigma``"
 
 #: ../../source/characters.rst:89
 msgid "0x03A3"
-msgstr ""
+msgstr "0x03A3"
 
 #: ../../source/characters.rst:89
 msgid "Sigma"
-msgstr ""
+msgstr "Sigma"
 
 #: ../../source/characters.rst:91
 msgid "``\\Upsilon``"
-msgstr ""
+msgstr "``\\Upsilon``"
 
 #: ../../source/characters.rst:91
 msgid "0x03A5"
-msgstr ""
+msgstr "0x03A5"
 
 #: ../../source/characters.rst:91
 msgid "Upsilon"
-msgstr ""
+msgstr "Upsilon"
 
 #: ../../source/characters.rst:93
 msgid "``\\Phi``"
-msgstr ""
+msgstr "``\\Phi``"
 
 #: ../../source/characters.rst:93
 msgid "0x03A6"
-msgstr ""
+msgstr "0x03A6"
 
 #: ../../source/characters.rst:93
 msgid "Phi"
-msgstr ""
+msgstr "Phi"
 
 #: ../../source/characters.rst:95
 msgid "``\\Psi``"
-msgstr ""
+msgstr "``\\Psi``"
 
 #: ../../source/characters.rst:95
 msgid "0x03A8"
-msgstr ""
+msgstr "0x03A8"
 
 #: ../../source/characters.rst:95
 msgid "Psi"
-msgstr ""
+msgstr "Psi"
 
 #: ../../source/characters.rst:97
 msgid "``\\Omega``"
-msgstr ""
+msgstr "``\\Omega``"
 
 #: ../../source/characters.rst:97 ../../source/characters.rst:146
 msgid "0x03A9"
-msgstr ""
+msgstr "0x03A9"
 
 #: ../../source/characters.rst:97
 msgid "Omega"
-msgstr ""
+msgstr "Omega"
 
 #: ../../source/characters.rst:101
 msgid "**Mathematical symbols**"
@@ -497,11 +497,11 @@ msgstr "**Matematické symboly**"
 
 #: ../../source/characters.rst:106
 msgid "``\\cdot``"
-msgstr ""
+msgstr "``\\cdot``"
 
 #: ../../source/characters.rst:106
 msgid "0x00B7"
-msgstr ""
+msgstr "0x00B7"
 
 #: ../../source/characters.rst:106
 msgid "multiplication dot (centered dot)"
@@ -509,11 +509,11 @@ msgstr "Mnohonásobné body (střed bodu)"
 
 #: ../../source/characters.rst:108
 msgid "``\\times``"
-msgstr ""
+msgstr "``\\times``"
 
 #: ../../source/characters.rst:108
 msgid "0x00D7"
-msgstr ""
+msgstr "0x00D7"
 
 #: ../../source/characters.rst:108
 msgid "multiplication cross"
@@ -521,11 +521,11 @@ msgstr "Mnohonásobný křížek"
 
 #: ../../source/characters.rst:110
 msgid "``\\pm``"
-msgstr ""
+msgstr "``\\pm``"
 
 #: ../../source/characters.rst:110
 msgid "0x00B1"
-msgstr ""
+msgstr "0x00B1"
 
 #: ../../source/characters.rst:110
 msgid "plus minus sign"
@@ -533,11 +533,11 @@ msgstr "Znak plus mínus"
 
 #: ../../source/characters.rst:112
 msgid "``\\mp``"
-msgstr ""
+msgstr "``\\mp``"
 
 #: ../../source/characters.rst:112
 msgid "0x2213"
-msgstr ""
+msgstr "0x2213"
 
 #: ../../source/characters.rst:112
 msgid "minus plus sign"
@@ -545,11 +545,11 @@ msgstr "Znak mínus plus"
 
 #: ../../source/characters.rst:114
 msgid "``\\partial``"
-msgstr ""
+msgstr "``\\partial``"
 
 #: ../../source/characters.rst:114
 msgid "0x2202"
-msgstr ""
+msgstr "0x2202"
 
 #: ../../source/characters.rst:114
 msgid "partial differentiation symbol"
@@ -557,11 +557,11 @@ msgstr "Symbol pro částečné derivování"
 
 #: ../../source/characters.rst:116
 msgid "``\\nabla``"
-msgstr ""
+msgstr "``\\nabla``"
 
 #: ../../source/characters.rst:116
 msgid "0x2207"
-msgstr ""
+msgstr "0x2207"
 
 #: ../../source/characters.rst:116
 msgid "nabla operator"
@@ -569,11 +569,11 @@ msgstr "Operátor nabla"
 
 #: ../../source/characters.rst:118
 msgid "``\\infty``"
-msgstr ""
+msgstr "``\\infty``"
 
 #: ../../source/characters.rst:118
 msgid "0x221E"
-msgstr ""
+msgstr "0x221E"
 
 #: ../../source/characters.rst:118
 msgid "infinity symbol"
@@ -581,11 +581,11 @@ msgstr "Symbol nekonečno"
 
 #: ../../source/characters.rst:120
 msgid "``\\int``"
-msgstr ""
+msgstr "``\\int``"
 
 #: ../../source/characters.rst:120
 msgid "0x222B"
-msgstr ""
+msgstr "0x222B"
 
 #: ../../source/characters.rst:120
 msgid "integral symbol"
@@ -593,11 +593,11 @@ msgstr "Symbol integrátu"
 
 #: ../../source/characters.rst:122
 msgid "``\\approx``"
-msgstr ""
+msgstr "``\\approx``"
 
 #: ../../source/characters.rst:122
 msgid "0x2248"
-msgstr ""
+msgstr "0x2248"
 
 #: ../../source/characters.rst:122
 msgid "approximation symbol (waved equal sign)"
@@ -605,11 +605,11 @@ msgstr "Symbol pro approximaci"
 
 #: ../../source/characters.rst:124
 msgid "``\\neq``"
-msgstr ""
+msgstr "``\\neq``"
 
 #: ../../source/characters.rst:124
 msgid "0x2260"
-msgstr ""
+msgstr "0x2260"
 
 #: ../../source/characters.rst:124
 msgid "not equal sign"
@@ -617,11 +617,11 @@ msgstr "Znaménko nerovnosti"
 
 #: ../../source/characters.rst:126
 msgid "``\\in``"
-msgstr ""
+msgstr "``\\in``"
 
 #: ../../source/characters.rst:126
 msgid "0x220A"
-msgstr ""
+msgstr "0x220A"
 
 #: ../../source/characters.rst:126
 msgid "\"contained in\" symbol"
@@ -629,11 +629,11 @@ msgstr "Symbol \"obsaženo v\""
 
 #: ../../source/characters.rst:128
 msgid "``\\leq``"
-msgstr ""
+msgstr "``\\leq``"
 
 #: ../../source/characters.rst:128
 msgid "0x2264"
-msgstr ""
+msgstr "0x2264"
 
 #: ../../source/characters.rst:128
 msgid "less-equal sign"
@@ -641,11 +641,11 @@ msgstr "Znaménko menší, nebo rovno"
 
 #: ../../source/characters.rst:130
 msgid "``\\geq``"
-msgstr ""
+msgstr "``\\geq``"
 
 #: ../../source/characters.rst:130
 msgid "0x2265"
-msgstr ""
+msgstr "0x2265"
 
 #: ../../source/characters.rst:130
 msgid "greater-equal sign"
@@ -653,11 +653,11 @@ msgstr "Znaménko větší než"
 
 #: ../../source/characters.rst:132
 msgid "``\\sim``"
-msgstr ""
+msgstr "``\\sim``"
 
 #: ../../source/characters.rst:132
 msgid "0x223C"
-msgstr ""
+msgstr "0x223C"
 
 #: ../../source/characters.rst:132
 msgid "(central european) proportional sign"
@@ -665,11 +665,11 @@ msgstr "Znaménko pro přímou úměru (střední Evropa)"
 
 #: ../../source/characters.rst:134
 msgid "``\\propto``"
-msgstr ""
+msgstr "``\\propto``"
 
 #: ../../source/characters.rst:134
 msgid "0x221D"
-msgstr ""
+msgstr "0x221D"
 
 #: ../../source/characters.rst:134
 msgid "(american) proportional sign"
@@ -677,11 +677,11 @@ msgstr "Znaménko pro přímou úměru (Amerika)"
 
 #: ../../source/characters.rst:136
 msgid "``\\diameter``"
-msgstr ""
+msgstr "``\\diameter``"
 
 #: ../../source/characters.rst:136
 msgid "0x00F8"
-msgstr ""
+msgstr "0x00F8"
 
 #: ../../source/characters.rst:136
 msgid "diameter sign (also sign for average)"
@@ -689,11 +689,11 @@ msgstr "Znaménko pro průměr kružnice (také znaménko pro aritmetický prům
 
 #: ../../source/characters.rst:138
 msgid "``\\onehalf``"
-msgstr ""
+msgstr "``\\onehalf``"
 
 #: ../../source/characters.rst:138
 msgid "0x00BD"
-msgstr ""
+msgstr "0x00BD"
 
 #: ../../source/characters.rst:138
 msgid "one half"
@@ -701,11 +701,11 @@ msgstr "Jedna polovina"
 
 #: ../../source/characters.rst:140
 msgid "``\\onequarter``"
-msgstr ""
+msgstr "``\\onequarter``"
 
 #: ../../source/characters.rst:140
 msgid "0x00BC"
-msgstr ""
+msgstr "0x00BC"
 
 #: ../../source/characters.rst:140
 msgid "one quarter"
@@ -713,11 +713,11 @@ msgstr "První mocnina"
 
 #: ../../source/characters.rst:142
 msgid "``\\twosuperior``"
-msgstr ""
+msgstr "``\\twosuperior``"
 
 #: ../../source/characters.rst:142
 msgid "0x00B2"
-msgstr ""
+msgstr "0x00B2"
 
 #: ../../source/characters.rst:142
 msgid "square (power of two)"
@@ -725,11 +725,11 @@ msgstr "Druhá mocnina"
 
 #: ../../source/characters.rst:144
 msgid "``\\threesuperior``"
-msgstr ""
+msgstr "``\\threesuperior``"
 
 #: ../../source/characters.rst:144
 msgid "0x00B3"
-msgstr ""
+msgstr "0x00B3"
 
 #: ../../source/characters.rst:144
 msgid "power of three"
@@ -737,7 +737,7 @@ msgstr "Třetí mocnina"
 
 #: ../../source/characters.rst:146
 msgid "``\\ohm``"
-msgstr ""
+msgstr "``\\ohm``"
 
 #: ../../source/characters.rst:146
 msgid "unit for resistance (capital Greek omega)"
