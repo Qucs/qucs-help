@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 15:52+0100\n"
+"PO-Revision-Date: 2014-12-18 12:01+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -123,20 +123,20 @@ msgstr "Příkazová řádka - argumenty"
 
 #: ../../source/programs.rst:52
 msgid "``qucs [file1 [file2 ...]]``"
-msgstr "qucs [soubor1 [soubor2 ...]]"
+msgstr "``qucs [soubor1 [soubor2 ...]]``"
 
 #: ../../source/programs.rst:54
 msgid "``qucsator [-b] -i netlist -o dataset`` (b = progress bar)"
 msgstr ""
-"qucsator [-b] -i netlist -o dataset (b = ukazatel stavu - progress bar)"
+"``qucsator [-b] -i netlist -o dataset`` (b = ukazatel stavu - progress bar)"
 
 #: ../../source/programs.rst:56
 msgid "``qucsedit [-r] [file]`` (r = read-only)"
-msgstr "qucsedit [-r] [soubor] (r = pouze pro čtení)"
+msgstr "``qucsedit [-r] [soubor]`` (r = pouze pro čtení)"
 
 #: ../../source/programs.rst:58
 msgid "``qucshelp`` (no arguments)"
-msgstr "qucshelp (bez argumentů)"
+msgstr "``qucshelp`` (bez argumentů)"
 
 #: ../../source/programs.rst:60
 msgid "``qucsconv -if spice -of qucs -i netlist.inp -o netlist.net``"

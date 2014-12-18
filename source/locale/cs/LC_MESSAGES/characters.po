@@ -1,50 +1,59 @@
 #
 msgid ""
-msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr ""
+"Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-12-18 12:00+0100\n"
+"Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"X-Generator: Poedit 1.6.7\n"
 
 #: ../../source/characters.rst:3
 msgid "List of Special Characters"
 msgstr "Seznam speciálních symbolů"
 
 #: ../../source/characters.rst:6
-msgid "It is possible to use special characters in the text painting and in the "
+msgid ""
+"It is possible to use special characters in the text painting and in the "
 "text of the diagram axis labels. This is done by using LaTeX tags. The "
 "following table contains a list of currently available characters."
-msgstr "<strong>Poznámka:</strong> Zda se vám správně zobrazí daný symbol, či ne "
+msgstr ""
+"<strong>Poznámka:</strong> Zda se vám správně zobrazí daný symbol, či ne "
 "závisí na typu písma, které používá Qucs! Proto si prosím volte takový typ "
 "písma, který dokáže zobrazit dané znaky."
 
 #: ../../source/characters.rst:10
-msgid "**Note:** Which of those characters are correctly displayed depends on the "
+msgid ""
+"**Note:** Which of those characters are correctly displayed depends on the "
 "font used by Qucs!"
 msgstr ""
+"**Poznámka:** Zda se vám správně zobrazí daný symbol, či ne závisí na typu "
+"písma, které používá Qucs! Proto si prosím volte takový typ písma, který "
+"dokáže zobrazit dané znaky."
 
 #: ../../source/characters.rst:13
 msgid "**Small Greek letters**"
-msgstr ""
+msgstr "**Malá řecká písmena**"
 
 #: ../../source/characters.rst:16 ../../source/characters.rst:75
 #: ../../source/characters.rst:104
 msgid "LaTeX tag"
-msgstr "Unicode"
+msgstr "LaTeX tag"
 
 #: ../../source/characters.rst:16 ../../source/characters.rst:75
 #: ../../source/characters.rst:104
 msgid "Unicode"
-msgstr "Popis"
+msgstr ""
 
 #: ../../source/characters.rst:16 ../../source/characters.rst:75
 #: ../../source/characters.rst:104
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #: ../../source/characters.rst:18
 msgid "``\\alpha``"
@@ -348,7 +357,7 @@ msgstr ""
 
 #: ../../source/characters.rst:72
 msgid "**Capital Greek letters**"
-msgstr ""
+msgstr "**Velká řecká písmena**"
 
 #: ../../source/characters.rst:77
 msgid "``\\Gamma``"
@@ -484,7 +493,7 @@ msgstr ""
 
 #: ../../source/characters.rst:101
 msgid "**Mathematical symbols**"
-msgstr ""
+msgstr "**Matematické symboly**"
 
 #: ../../source/characters.rst:106
 msgid "``\\cdot``"
@@ -496,7 +505,7 @@ msgstr ""
 
 #: ../../source/characters.rst:106
 msgid "multiplication dot (centered dot)"
-msgstr ""
+msgstr "Mnohonásobné body (střed bodu)"
 
 #: ../../source/characters.rst:108
 msgid "``\\times``"
@@ -508,7 +517,7 @@ msgstr ""
 
 #: ../../source/characters.rst:108
 msgid "multiplication cross"
-msgstr ""
+msgstr "Mnohonásobný křížek"
 
 #: ../../source/characters.rst:110
 msgid "``\\pm``"
@@ -520,7 +529,7 @@ msgstr ""
 
 #: ../../source/characters.rst:110
 msgid "plus minus sign"
-msgstr ""
+msgstr "Znak plus mínus"
 
 #: ../../source/characters.rst:112
 msgid "``\\mp``"
@@ -532,7 +541,7 @@ msgstr ""
 
 #: ../../source/characters.rst:112
 msgid "minus plus sign"
-msgstr ""
+msgstr "Znak mínus plus"
 
 #: ../../source/characters.rst:114
 msgid "``\\partial``"
@@ -544,7 +553,7 @@ msgstr ""
 
 #: ../../source/characters.rst:114
 msgid "partial differentiation symbol"
-msgstr ""
+msgstr "Symbol pro částečné derivování"
 
 #: ../../source/characters.rst:116
 msgid "``\\nabla``"
@@ -556,7 +565,7 @@ msgstr ""
 
 #: ../../source/characters.rst:116
 msgid "nabla operator"
-msgstr ""
+msgstr "Operátor nabla"
 
 #: ../../source/characters.rst:118
 msgid "``\\infty``"
@@ -568,7 +577,7 @@ msgstr ""
 
 #: ../../source/characters.rst:118
 msgid "infinity symbol"
-msgstr ""
+msgstr "Symbol nekonečno"
 
 #: ../../source/characters.rst:120
 msgid "``\\int``"
@@ -580,7 +589,7 @@ msgstr ""
 
 #: ../../source/characters.rst:120
 msgid "integral symbol"
-msgstr ""
+msgstr "Symbol integrátu"
 
 #: ../../source/characters.rst:122
 msgid "``\\approx``"
@@ -592,7 +601,7 @@ msgstr ""
 
 #: ../../source/characters.rst:122
 msgid "approximation symbol (waved equal sign)"
-msgstr ""
+msgstr "Symbol pro approximaci"
 
 #: ../../source/characters.rst:124
 msgid "``\\neq``"
@@ -604,7 +613,7 @@ msgstr ""
 
 #: ../../source/characters.rst:124
 msgid "not equal sign"
-msgstr ""
+msgstr "Znaménko nerovnosti"
 
 #: ../../source/characters.rst:126
 msgid "``\\in``"
@@ -616,7 +625,7 @@ msgstr ""
 
 #: ../../source/characters.rst:126
 msgid "\"contained in\" symbol"
-msgstr ""
+msgstr "Symbol \"obsaženo v\""
 
 #: ../../source/characters.rst:128
 msgid "``\\leq``"
@@ -628,7 +637,7 @@ msgstr ""
 
 #: ../../source/characters.rst:128
 msgid "less-equal sign"
-msgstr ""
+msgstr "Znaménko menší, nebo rovno"
 
 #: ../../source/characters.rst:130
 msgid "``\\geq``"
@@ -640,7 +649,7 @@ msgstr ""
 
 #: ../../source/characters.rst:130
 msgid "greater-equal sign"
-msgstr ""
+msgstr "Znaménko větší než"
 
 #: ../../source/characters.rst:132
 msgid "``\\sim``"
@@ -652,7 +661,7 @@ msgstr ""
 
 #: ../../source/characters.rst:132
 msgid "(central european) proportional sign"
-msgstr ""
+msgstr "Znaménko pro přímou úměru (střední Evropa)"
 
 #: ../../source/characters.rst:134
 msgid "``\\propto``"
@@ -664,7 +673,7 @@ msgstr ""
 
 #: ../../source/characters.rst:134
 msgid "(american) proportional sign"
-msgstr ""
+msgstr "Znaménko pro přímou úměru (Amerika)"
 
 #: ../../source/characters.rst:136
 msgid "``\\diameter``"
@@ -676,7 +685,7 @@ msgstr ""
 
 #: ../../source/characters.rst:136
 msgid "diameter sign (also sign for average)"
-msgstr ""
+msgstr "Znaménko pro průměr kružnice (také znaménko pro aritmetický průměr)"
 
 #: ../../source/characters.rst:138
 msgid "``\\onehalf``"
@@ -688,7 +697,7 @@ msgstr ""
 
 #: ../../source/characters.rst:138
 msgid "one half"
-msgstr ""
+msgstr "Jedna polovina"
 
 #: ../../source/characters.rst:140
 msgid "``\\onequarter``"
@@ -700,7 +709,7 @@ msgstr ""
 
 #: ../../source/characters.rst:140
 msgid "one quarter"
-msgstr ""
+msgstr "První mocnina"
 
 #: ../../source/characters.rst:142
 msgid "``\\twosuperior``"
@@ -712,7 +721,7 @@ msgstr ""
 
 #: ../../source/characters.rst:142
 msgid "square (power of two)"
-msgstr ""
+msgstr "Druhá mocnina"
 
 #: ../../source/characters.rst:144
 msgid "``\\threesuperior``"
@@ -724,7 +733,7 @@ msgstr ""
 
 #: ../../source/characters.rst:144
 msgid "power of three"
-msgstr ""
+msgstr "Třetí mocnina"
 
 #: ../../source/characters.rst:146
 msgid "``\\ohm``"
@@ -732,5 +741,4 @@ msgstr ""
 
 #: ../../source/characters.rst:146
 msgid "unit for resistance (capital Greek omega)"
-msgstr ""
-
+msgstr "jednotka pro rezistivitu (velké řecké písmeno Omega)"

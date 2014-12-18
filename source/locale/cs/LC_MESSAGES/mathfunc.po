@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 15:47+0100\n"
+"PO-Revision-Date: 2014-12-18 11:55+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:17
 msgid "Unary plus"
-msgstr ""
+msgstr "Jednočlenný plus"
 
 #: ../../source/mathfunc.rst:19
 msgid "``-x``"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:19
 msgid "Unary minus"
-msgstr ""
+msgstr "Jednočlenný mínus"
 
 #: ../../source/mathfunc.rst:21
 msgid "``x+y``"
@@ -64,7 +64,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:23
 msgid "Subtraction"
-msgstr ""
+msgstr "Rozdíl"
 
 #: ../../source/mathfunc.rst:25
 msgid "``x*y``"
@@ -116,7 +116,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:40
 msgid "And"
-msgstr ""
+msgstr "Logický součin"
 
 #: ../../source/mathfunc.rst:42
 msgid "``x||y``"
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:42
 msgid "Or"
-msgstr ""
+msgstr "Logický součet"
 
 #: ../../source/mathfunc.rst:44
 msgid "``x^^y``"
@@ -142,6 +142,8 @@ msgstr ""
 msgid ""
 "Abbreviation for conditional expression \"if ``x`` then ``y`` else ``z``\""
 msgstr ""
+"Zkratka pro podmíněné výrazy \"Když x tak y jinak z\" (\"if x then y else z"
+"\")"
 
 #: ../../source/mathfunc.rst:48
 msgid "``x==y``"
@@ -193,7 +195,7 @@ msgstr "Větší, nebo rovno"
 
 #: ../../source/mathfunc.rst:62
 msgid "Alphabetical List of Functions"
-msgstr ""
+msgstr "Seznam funkcí"
 
 #: ../../source/mathfunc.rst:64
 msgid ""
@@ -249,7 +251,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:126
 msgid "Math Functions"
-msgstr ""
+msgstr "Matematické funkce"
 
 #: ../../source/mathfunc.rst:129
 msgid "Vectors and Matrices: Creation"
@@ -261,7 +263,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:132
 msgid "Creates ``n`` x ``n`` identity matrix"
-msgstr ""
+msgstr "Vytvoří n x n identickou matici"
 
 #: ../../source/mathfunc.rst:134
 msgid "``length(y)``"
@@ -280,6 +282,8 @@ msgid ""
 "Creates a real vector with ``n`` linearly spaced components between ``from`` "
 "and ``to``, both inclusively"
 msgstr ""
+"Vytvoří reálný vektor s n lineárně rozloženou komponentou mezi od a do, "
+"zahrnující oboje"
 
 #: ../../source/mathfunc.rst:138
 msgid "``logspace(from,to,n)``"
@@ -290,10 +294,12 @@ msgid ""
 "Creates a real vector with ``n`` logarithmically spaced components between "
 "``from`` and ``to``, both inclusively"
 msgstr ""
+"Vytvoří reálný vektor s n logaritmicky rozloženou komponentou mezi od a do, "
+"zahrnující oboje"
 
 #: ../../source/mathfunc.rst:142
 msgid "Vectors and Matrices: Basic Matrix Functions"
-msgstr ""
+msgstr "Vektory a matice: Základní maticové funkce"
 
 #: ../../source/mathfunc.rst:145
 msgid "``adjoint(x)``"
@@ -301,7 +307,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:145
 msgid "Adjoint matrix of ``x`` (transposed and conjugate complex)"
-msgstr ""
+msgstr "Adjungovaná matice x (Přenesená a složená)"
 
 #: ../../source/mathfunc.rst:147
 msgid "``det(x)``"
@@ -309,7 +315,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:147
 msgid "Determinant of a matrix ``x``"
-msgstr ""
+msgstr "Determinant matice x"
 
 #: ../../source/mathfunc.rst:149
 msgid "``inverse(x)``"
@@ -317,7 +323,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:149
 msgid "Inverse matrix of ``x``"
-msgstr ""
+msgstr "Obrácená matice x"
 
 #: ../../source/mathfunc.rst:151
 msgid "``transpose(x)``"
@@ -325,7 +331,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:151
 msgid "Transposed matrix of ``x`` (rows and columns exchanged)"
-msgstr ""
+msgstr "Přenesená matice x (řady a sloupce jsou prohozeny)"
 
 #: ../../source/mathfunc.rst:155
 msgid "Elementary Mathematical Functions: Basic Real and Complex Functions"
@@ -337,7 +343,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:158
 msgid "Absolute value, magnitude of complex number"
-msgstr ""
+msgstr "Absolutní hodnota, důležité u komplexních čísel"
 
 #: ../../source/mathfunc.rst:160
 msgid "``angle(x)``"
@@ -345,7 +351,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:160
 msgid "Phase angle in radians of a complex number. Synonym for ``arg()``"
-msgstr ""
+msgstr "Fáze úhlu v radiánech komplexního čísla. Synonymum pro arg()"
 
 #: ../../source/mathfunc.rst:162
 msgid "``arg(x)``"
@@ -361,7 +367,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:164
 msgid "Conjugate of a complex number"
-msgstr ""
+msgstr "Komplexně sdružené číslo"
 
 #: ../../source/mathfunc.rst:166
 msgid "``deg2rad(x)``"
@@ -369,7 +375,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:166
 msgid "Converts phase from degrees into radians"
-msgstr ""
+msgstr "Převádí fázi ze stupňů na radiány"
 
 #: ../../source/mathfunc.rst:168
 msgid "``hypot(x,y)``"
@@ -377,7 +383,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:168
 msgid "Euclidean distance function"
-msgstr ""
+msgstr "Euklidova distantní funkce"
 
 #: ../../source/mathfunc.rst:170
 msgid "``imag(x)``"
@@ -409,7 +415,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:176
 msgid "Phase angle in degrees of a complex number"
-msgstr ""
+msgstr "Fázový úhel komplexního čísla (ve stupních)"
 
 #: ../../source/mathfunc.rst:178
 msgid "``polar(m,p)``"
@@ -419,7 +425,7 @@ msgstr ""
 msgid ""
 "Transform from polar coordinates (magnitude ``m``, phase ``p``) into complex "
 "number"
-msgstr ""
+msgstr "Mění protichůdné souřadnice (velikostm, fáze p) na komplexní číslo"
 
 #: ../../source/mathfunc.rst:180
 msgid "``rad2deg(x)``"
@@ -435,7 +441,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:182
 msgid "Real part of a complex number"
-msgstr ""
+msgstr "Reálná část komplexního čísla"
 
 #: ../../source/mathfunc.rst:184
 msgid "``sign(x)``"
@@ -443,15 +449,15 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:184
 msgid "Signum function"
-msgstr ""
+msgstr "Funkce signum"
 
 #: ../../source/mathfunc.rst:186
 msgid "``sqr(x)``"
-msgstr ""
+msgstr "Druhá mocnina čísla"
 
 #: ../../source/mathfunc.rst:186
 msgid "Square (power of two) of a number"
-msgstr ""
+msgstr "Druhá mocnina čísla"
 
 #: ../../source/mathfunc.rst:188
 msgid "``sqrt(x)``"
@@ -459,7 +465,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:188
 msgid "Square root"
-msgstr ""
+msgstr "Druhá odmocnina"
 
 #: ../../source/mathfunc.rst:190
 msgid "``unwrap(p[,tol[,step]])``"
@@ -470,11 +476,14 @@ msgid ""
 "Unwraps the angle ``p`` (in radians -- default ``step`` is 2\\*pi) using the "
 "optional tolerance value ``tol`` (default is pi)"
 msgstr ""
+"Unwraps the angle (opravdu netuším jak to přeložit) p (v radiánech -- "
+"základně ; step je 2*pi) s použitím volitelné hodnoty tolerance tol "
+"(zálkadně je pi)"
 
 #: ../../source/mathfunc.rst:194
 msgid ""
 "Elementary Mathematical Functions: Exponential and Logarithmic Functions"
-msgstr ""
+msgstr "Základní matematické funkce: Exponenciální a logaritmické funkce"
 
 #: ../../source/mathfunc.rst:197
 msgid "``exp(x)``"
@@ -506,7 +515,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:203
 msgid "Binary logarithm"
-msgstr ""
+msgstr "Binární logaritmus"
 
 #: ../../source/mathfunc.rst:205
 msgid "``ln(x)``"
@@ -514,11 +523,11 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:205
 msgid "Natural logarithm (base e )"
-msgstr ""
+msgstr "Přirozený logaritmus (základ e )"
 
 #: ../../source/mathfunc.rst:209
 msgid "Elementary Mathematical Functions: Trigonometry"
-msgstr ""
+msgstr "Základní matematické funkce: Trigonometrie"
 
 #: ../../source/mathfunc.rst:212
 msgid "``cos(x)``"
@@ -526,7 +535,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:212
 msgid "Cosine function"
-msgstr ""
+msgstr "Funkce cosinus"
 
 #: ../../source/mathfunc.rst:214
 msgid "``cosec(x)``"
@@ -534,7 +543,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:214
 msgid "Cosecant"
-msgstr ""
+msgstr "Kosekans"
 
 #: ../../source/mathfunc.rst:216
 msgid "``cot(x)``"
@@ -542,7 +551,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:216
 msgid "Cotangent function"
-msgstr ""
+msgstr "Funkce kotangens"
 
 #: ../../source/mathfunc.rst:218
 msgid "``sec(x)``"
@@ -550,7 +559,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:218
 msgid "Secant"
-msgstr ""
+msgstr "Sekans"
 
 #: ../../source/mathfunc.rst:220
 msgid "``sin(x)``"
@@ -566,11 +575,11 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:222
 msgid "Tangent function"
-msgstr ""
+msgstr "Funkce tangens"
 
 #: ../../source/mathfunc.rst:226
 msgid "Elementary Mathematical Functions: Inverse Trigonometric Functions"
-msgstr ""
+msgstr "Základní matematické funkce: Opačné trigonometrické funkce"
 
 #: ../../source/mathfunc.rst:229
 msgid "``arccos(x)``"
@@ -578,7 +587,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:229
 msgid "Arc cosine (also known as \"inverse cosine\")"
-msgstr ""
+msgstr "Arc cosinus"
 
 #: ../../source/mathfunc.rst:231
 msgid "``arccosec(x)``"
@@ -610,7 +619,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:237
 msgid "Arc sine (also known as \"inverse sine\")"
-msgstr ""
+msgstr "Arc sinus"
 
 #: ../../source/mathfunc.rst:239
 msgid "``arctan(x[,y])``"
@@ -618,11 +627,11 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:239
 msgid "Arc tangent (also known as \"inverse tangent\")"
-msgstr ""
+msgstr "Arc tangents"
 
 #: ../../source/mathfunc.rst:243
 msgid "Elementary Mathematical Functions: Hyperbolic Functions"
-msgstr ""
+msgstr "Základní matematické funkce: Hyperbolické funkce"
 
 #: ../../source/mathfunc.rst:246
 msgid "``cosh(x)``"
@@ -662,7 +671,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:254
 msgid "Hyperbolic sine"
-msgstr ""
+msgstr "Hyperbolický sinus"
 
 #: ../../source/mathfunc.rst:256
 msgid "``tanh(x)``"
@@ -670,11 +679,11 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:256
 msgid "Hyperbolic tangent"
-msgstr ""
+msgstr "Hyperbolický tangents"
 
 #: ../../source/mathfunc.rst:260
 msgid "Elementary Mathematical Functions: Inverse Hyperbolic Functions"
-msgstr ""
+msgstr "Základní matematické funkce: Opačné hyperbolické funkce"
 
 #: ../../source/mathfunc.rst:263
 msgid "``arcosh(x)``"
@@ -682,7 +691,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:263
 msgid "Hyperbolic area cosine"
-msgstr ""
+msgstr "Opačná funkce k hyperbolickému cosinu"
 
 #: ../../source/mathfunc.rst:265
 msgid "``arcosech(x)``"
@@ -690,7 +699,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:265
 msgid "Hyperbolic area cosecant"
-msgstr ""
+msgstr "Opačná funkce k hyperbolickému kosekanu"
 
 #: ../../source/mathfunc.rst:267
 msgid "``arcoth(x)``"
@@ -698,7 +707,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:267
 msgid "Hyperbolic area cotangent"
-msgstr ""
+msgstr "Opačná funkce k hyperbolickému cotangetu"
 
 #: ../../source/mathfunc.rst:269
 msgid "``arsech(x)``"
@@ -706,7 +715,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:269
 msgid "Hyperbolic area secant"
-msgstr ""
+msgstr "Opačná funkce k hyperbolickému sekanu"
 
 #: ../../source/mathfunc.rst:271
 msgid "``arsinh(x)``"
@@ -714,7 +723,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:271
 msgid "Hyperbolic area sine"
-msgstr ""
+msgstr "Opačná funkce k hyperbolickému sinu"
 
 #: ../../source/mathfunc.rst:273
 msgid "``artanh(x)``"
@@ -722,7 +731,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:273
 msgid "Hyperbolic area tangent"
-msgstr ""
+msgstr "Opačná funkce k hyperbolickému tangentu"
 
 #: ../../source/mathfunc.rst:277
 msgid "Elementary Mathematical Functions: Rounding"
@@ -734,7 +743,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:280
 msgid "Round to the next higher integer"
-msgstr ""
+msgstr "Zaokrouhlí na další vyšší celé číslo"
 
 #: ../../source/mathfunc.rst:282
 msgid "``fix(x)``"
@@ -750,7 +759,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:284
 msgid "Round to the next lower integer"
-msgstr ""
+msgstr "Zaokrouhlí na další nižší celé číslo"
 
 #: ../../source/mathfunc.rst:286
 msgid "``round(x)``"
@@ -758,11 +767,11 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:286
 msgid "Round to nearest integer"
-msgstr ""
+msgstr "Zaokrouhlí na nejbližší celé číslo"
 
 #: ../../source/mathfunc.rst:290
 msgid "Elementary Mathematical Functions: Special Mathematical Functions"
-msgstr ""
+msgstr "Základní matematické funkce: Speciální matematické funkce"
 
 #: ../../source/mathfunc.rst:293
 msgid "``besseli0(x)``"
@@ -770,7 +779,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:293
 msgid "Modified Bessel function of order zero"
-msgstr ""
+msgstr "Modifikovaná Besselova funkce"
 
 #: ../../source/mathfunc.rst:295
 msgid "``besselj(n,x)``"
@@ -778,7 +787,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:295
 msgid "Bessel function of first kind and ``n``-th order"
-msgstr ""
+msgstr "Modifikovaná Besselova funkce prvního druhu a n-tého druhu"
 
 #: ../../source/mathfunc.rst:297
 msgid "``bessely(n,x)``"
@@ -786,7 +795,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:297
 msgid "Bessel function of second kind and ``n``-th order"
-msgstr ""
+msgstr "Bessel function of second kind and n-th order"
 
 #: ../../source/mathfunc.rst:299
 msgid "``erf(x)``"
@@ -794,7 +803,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:299
 msgid "Error function"
-msgstr ""
+msgstr "Chybná funkce"
 
 #: ../../source/mathfunc.rst:301
 msgid "``erfc(x)``"
@@ -810,7 +819,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:303
 msgid "Inverse error function"
-msgstr ""
+msgstr "Invertovaná chybná funkce"
 
 #: ../../source/mathfunc.rst:305
 msgid "``erfcinv(x)``"
@@ -818,7 +827,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:305
 msgid "Inverse complementary error function"
-msgstr ""
+msgstr "Inverzní doplňková chybná funkce"
 
 #: ../../source/mathfunc.rst:307
 msgid "``sinc(x)``"
@@ -826,7 +835,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:307
 msgid "Sinc function (sin(``x``)/\\ ``x`` or 1 at ``x`` = 0)"
-msgstr ""
+msgstr "Synchronizační funkce (sin(x)/x nebo 1 na x = 0)"
 
 #: ../../source/mathfunc.rst:309
 msgid "``step(x)``"
@@ -838,7 +847,7 @@ msgstr "avg(x[,range])"
 
 #: ../../source/mathfunc.rst:313
 msgid "Data Analysis: Basic Statistics"
-msgstr ""
+msgstr "Rozbor dat: Základní statistiky"
 
 #: ../../source/mathfunc.rst:316
 msgid "``avg(x[,range])``"
@@ -849,6 +858,8 @@ msgid ""
 "Arithmetic average of vector elements; if a range is given then ``x`` must "
 "have a single data dependency"
 msgstr ""
+"Aritmetický průměr vektorových prvků; pokud je dán rozsah pak xmust have a "
+"single data dependency"
 
 #: ../../source/mathfunc.rst:318
 msgid "``cumavg(x)``"
@@ -856,7 +867,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:318
 msgid "Cumulative average of vector elements"
-msgstr ""
+msgstr "Souhrný průměr vektorových prvků"
 
 #: ../../source/mathfunc.rst:320
 msgid "``max(x,y)``"
@@ -864,7 +875,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:320
 msgid "Returns the greater of the values ``x`` and ``y``"
-msgstr ""
+msgstr "Vrátí větší číslo z x a y"
 
 #: ../../source/mathfunc.rst:322
 msgid "``max(x[,range])``"
@@ -875,6 +886,8 @@ msgid ""
 "Maximum value in vector; if a range is given then ``x`` must have a single "
 "data dependency"
 msgstr ""
+"Maximální hodnota ve vektoru. Pokud je dán rozsah, pak x must have a single "
+"data dependency"
 
 #: ../../source/mathfunc.rst:324
 msgid "``min(x,y)``"
@@ -882,7 +895,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:324
 msgid "Returns the lesser of the values ``x`` and ``y``"
-msgstr ""
+msgstr "Vrátí menší číslo z x a y"
 
 #: ../../source/mathfunc.rst:326
 msgid "``min(x[,range])``"
@@ -893,6 +906,8 @@ msgid ""
 "Minimum value in vector; if a range is given then ``x`` must have a single "
 "data dependency"
 msgstr ""
+"Minimální hodnota ve kektoru; Pokud je dán rozsah, pak x must have a single "
+"data dependency"
 
 #: ../../source/mathfunc.rst:328
 msgid "``rms(x)``"
@@ -932,7 +947,7 @@ msgstr ""
 
 #: ../../source/mathfunc.rst:336
 msgid "Random number between 0.0 and 1.0"
-msgstr ""
+msgstr "Náhodné číslo mezi 0.0 a 0.1"
 
 #: ../../source/mathfunc.rst:338
 msgid "``srandom(x)``"
