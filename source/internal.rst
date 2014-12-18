@@ -4,8 +4,8 @@ Schematic File Format
 
 
 This document describes the schematic file format of Qucs. This format
-is used for schematics (usually with suffix ".sch") and for data
-displays (usually with suffix ".dpl"). The following text shows a short
+is used for schematics (usually with suffix ``.sch``) and for data
+displays (usually with suffix ``.dpl``). The following text shows a short
 example of a schematic file.
 
 ::
@@ -37,28 +37,28 @@ example of a schematic file.
 
 The file contains several section. Each of it is explained below.
 Every line consists of not more than one information block that starts
-with a less-sign "<" and ends with a greater-sign ">".
+with a less-sign ``<`` and ends with a greater-sign ``>``.
 
 Properties
 ~~~~~~~~~~
 
 
-The first section starts with "<Properties>" and ends with
-"</Properties>". It contains the document properties of the file. Each
+The first section starts with ``<Properties>`` and ends with
+``</Properties>``. It contains the document properties of the file. Each
 line is optional. The following properties are supported:
 
--  *<View=x1,y1,x2,y2,scale,xpos,ypos>* contains pixel position of the
+-  ``<View=x1,y1,x2,y2,scale,xpos,ypos>`` contains pixel position of the
    schematic window in the first four numbers, its current scale and the
    current position of the upper left corner (last two numbers).
--  *<Grid=x,y,on>* contains the distance of the grid in pixel (first two
+-  ``<Grid=x,y,on>`` contains the distance of the grid in pixel (first two
    numbers) and whether grid is on (last number 1) or off (last number
    0).
--  *<DataSet=name.dat>* contains the file name of the data set
+-  ``<DataSet=name.dat>`` contains the file name of the data set
    associated with this schematic.
--  *<DataDisplay=name.dpl>* contains the file name of the data display
+-  ``<DataDisplay=name.dpl>`` contains the file name of the data display
    page associated with this schematic (or the file name of the
    schematic if this document is a data display).
--  *<OpenDisplay=yes>* contains 1 if the data display page opens
+-  ``<OpenDisplay=yes>`` contains 1 if the data display page opens
    automatically after simulation, otherwise contains 0.
 
 
@@ -68,7 +68,7 @@ Symbol
 ~~~~~~
 
 
-This section starts with "<Symbol>" and ends with "</Symbol>". It
+This section starts with ``<Symbol>`` and ends with ``</Symbol>``. It
 contains painting elements creating a schematic symbol for the file.
 This is usually only used for schematic files that meant to be a
 subcircuit.
@@ -77,31 +77,31 @@ Components
 ~~~~~~~~~~
 
 
-This section starts with "<Components>" and ends with "</Components>".
+This section starts with ``<Components>`` and ends with ``</Components>``.
 It contains the circuit components of the schematic. The line format is
 as follows:
 
 ::
 
-  *<type name active x y xtext ytext mirrorX rotate "Value1" visible "Value2" visible ...>*
+  <type name active x y xtext ytext mirrorX rotate "Value1" visible "Value2" visible ...>
 
--  The type identifies the component, e.g. "R" for a resistor, "C" for a
+-  The ``type`` identifies the component, e.g. ``R`` for a resistor, ``C`` for a
    capacitor.
--  The name is the unique component identifier of the schematic, e.g.
-   "R1" for the first resistor.
--  A "1" in the active field shows that the component is active, i.e it
-   is used in the simulation. A "0" shows it is inactive.
+-  The ``name`` is the unique component identifier of the schematic, e.g.
+   ``R1`` for the first resistor.
+-  A ``1`` in the ``active`` field shows that the component is active, i.e it
+   is used in the simulation. A ``0`` shows it is inactive.
 -  The next two numbers are the x and y coordinates of the component
    center.
 -  The next two numbers are the x and y coordinates of the upper left
    corner of the component text. They are relative to the component
    center.
--  The next two numbers indicate the mirroring about the x axis ("1" for
-   mirrored, "0" for not mirrored) and the counter-clockwise rotation
+-  The next two numbers indicate the mirroring about the x axis (``1`` for
+   mirrored, ``0`` for not mirrored) and the counter-clockwise rotation
    (multiple of 90 degree, i.e. 0...3).
 -  The next entries are the values of the component properties (in
-   quotation marks) followed by an 1 if the property is visible on the
-   schematic (otherwise 0).
+   quotation marks) followed by an ``1`` if the property is visible on the
+   schematic (otherwise ``0``).
 
 
 
@@ -110,11 +110,13 @@ Wires
 ~~~~~
 
 
-This section starts with "<Wires>" and ends with "</Wires>". It
+This section starts with ``<Wires>`` and ends with ``</Wires>``. It
 contains the wires (electrical connection between circuit components)
 and their labels and node sets. The line format is as follows:
 
-*<x1 y1 x2 y2 "label" xlabel ylabel dlabel "node set">*
+::
+
+  <x1 y1 x2 y2 "label" xlabel ylabel dlabel "node set">
 
 -  The first four numbers are the coordinates of the wire in pixels: x
    coordinate of starting point, y coordinate of starting point, x
@@ -139,12 +141,15 @@ Diagrams
 ~~~~~~~~
 
 
-This section starts with "<Diagrams>" and ends with "</Diagrams>". It
+This section starts with ``<Diagrams>`` and ends with ``</Diagrams>``. It
 contains the diagrams with their graphs and their markers.
+The line format is as follows (line break not allowed):
 
-*<x y width height grid gridcolor gridstyle log xAutoscale xmin xstep
-xmax yAutoscale ymin ystep ymax zAutoscale zmin zstep zmax xrotate
-yrotate zrotate "xlabel" "ylabel" "zlabel">*
+::
+
+  <x y width height grid gridcolor gridstyle log xAutoscale xmin xstep
+   xmax yAutoscale ymin ystep ymax zAutoscale zmin zstep zmax xrotate
+   yrotate zrotate "xlabel" "ylabel" "zlabel">
 
 -  The first two numbers are x and y coordinate of lower left corner.
 -  The next two numbers are width and height of diagram boundings.
@@ -161,7 +166,7 @@ Paintings
 ~~~~~~~~~
 
 
-This section starts with "<Paintings>" and ends with "</Paintings>".
+This section starts with ``<Paintings>`` and ends with ``</Paintings>``.
 It contains the paintings that are within the schematic.
 
 .. only:: html
