@@ -1,33 +1,43 @@
 #
 msgid ""
-msgstr "Project-Id-Version: Qucs Help 0.0.19\n"
+msgstr ""
+"Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-12-18 13:32+0100\n"
+"Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"X-Generator: Poedit 1.6.7\n"
 
 #: ../../source/characters.rst:3
 msgid "List of Special Characters"
-msgstr ""
+msgstr "Перечень специальных символов"
 
 #: ../../source/characters.rst:6
-msgid "It is possible to use special characters in the text painting and in the "
+msgid ""
+"It is possible to use special characters in the text painting and in the "
 "text of the diagram axis labels. This is done by using LaTeX tags. The "
 "following table contains a list of currently available characters."
 msgstr ""
+"В компоненте \"Текст\" и в тексте меток осей диаграмм можно использовать "
+"специальные символы. Это делается с помощью тэгов LaTeX. В следующей таблице "
+"приводится перечень символов, имеющихся в настоящее время."
 
 #: ../../source/characters.rst:10
-msgid "**Note:** Which of those characters are correctly displayed depends on the "
+msgid ""
+"**Note:** Which of those characters are correctly displayed depends on the "
 "font used by Qucs!"
 msgstr ""
+"**Примечание:** Правильное отображение этих символов зависит от шрифта, "
+"используемого Qucs!"
 
 #: ../../source/characters.rst:13
 msgid "**Small Greek letters**"
-msgstr ""
+msgstr "**Строчные греческие буквы**"
 
 #: ../../source/characters.rst:16 ../../source/characters.rst:75
 #: ../../source/characters.rst:104
@@ -37,12 +47,12 @@ msgstr "Тэг LaTeX"
 #: ../../source/characters.rst:16 ../../source/characters.rst:75
 #: ../../source/characters.rst:104
 msgid "Unicode"
-msgstr ""
+msgstr "Юникод"
 
 #: ../../source/characters.rst:16 ../../source/characters.rst:75
 #: ../../source/characters.rst:104
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #: ../../source/characters.rst:18
 msgid "``\\alpha``"
@@ -346,7 +356,7 @@ msgstr ""
 
 #: ../../source/characters.rst:72
 msgid "**Capital Greek letters**"
-msgstr ""
+msgstr "**Прописные греческие буквы**"
 
 #: ../../source/characters.rst:77
 msgid "``\\Gamma``"
@@ -482,7 +492,7 @@ msgstr ""
 
 #: ../../source/characters.rst:101
 msgid "**Mathematical symbols**"
-msgstr ""
+msgstr "**Математические символы**"
 
 #: ../../source/characters.rst:106
 msgid "``\\cdot``"
@@ -494,7 +504,7 @@ msgstr ""
 
 #: ../../source/characters.rst:106
 msgid "multiplication dot (centered dot)"
-msgstr ""
+msgstr "знак умножения - точка (центрированная точка)"
 
 #: ../../source/characters.rst:108
 msgid "``\\times``"
@@ -506,7 +516,7 @@ msgstr ""
 
 #: ../../source/characters.rst:108
 msgid "multiplication cross"
-msgstr ""
+msgstr "знак умножения - крестик"
 
 #: ../../source/characters.rst:110
 msgid "``\\pm``"
@@ -518,7 +528,7 @@ msgstr ""
 
 #: ../../source/characters.rst:110
 msgid "plus minus sign"
-msgstr ""
+msgstr "знак плюс минус"
 
 #: ../../source/characters.rst:112
 msgid "``\\mp``"
@@ -530,7 +540,7 @@ msgstr ""
 
 #: ../../source/characters.rst:112
 msgid "minus plus sign"
-msgstr ""
+msgstr "знак минус плюс"
 
 #: ../../source/characters.rst:114
 msgid "``\\partial``"
@@ -542,7 +552,7 @@ msgstr ""
 
 #: ../../source/characters.rst:114
 msgid "partial differentiation symbol"
-msgstr ""
+msgstr "знак частного дифференцирования"
 
 #: ../../source/characters.rst:116
 msgid "``\\nabla``"
@@ -554,7 +564,7 @@ msgstr ""
 
 #: ../../source/characters.rst:116
 msgid "nabla operator"
-msgstr ""
+msgstr "набла-оператор"
 
 #: ../../source/characters.rst:118
 msgid "``\\infty``"
@@ -566,7 +576,7 @@ msgstr ""
 
 #: ../../source/characters.rst:118
 msgid "infinity symbol"
-msgstr ""
+msgstr "знак бесконечности"
 
 #: ../../source/characters.rst:120
 msgid "``\\int``"
@@ -578,7 +588,7 @@ msgstr ""
 
 #: ../../source/characters.rst:120
 msgid "integral symbol"
-msgstr ""
+msgstr "знак интеграла"
 
 #: ../../source/characters.rst:122
 msgid "``\\approx``"
@@ -590,7 +600,7 @@ msgstr ""
 
 #: ../../source/characters.rst:122
 msgid "approximation symbol (waved equal sign)"
-msgstr ""
+msgstr "символ приближения (волнистый знак равенства)"
 
 #: ../../source/characters.rst:124
 msgid "``\\neq``"
@@ -602,7 +612,7 @@ msgstr ""
 
 #: ../../source/characters.rst:124
 msgid "not equal sign"
-msgstr ""
+msgstr "знак не равно"
 
 #: ../../source/characters.rst:126
 msgid "``\\in``"
@@ -614,7 +624,7 @@ msgstr ""
 
 #: ../../source/characters.rst:126
 msgid "\"contained in\" symbol"
-msgstr ""
+msgstr "символ \"содержится в\""
 
 #: ../../source/characters.rst:128
 msgid "``\\leq``"
@@ -626,7 +636,7 @@ msgstr ""
 
 #: ../../source/characters.rst:128
 msgid "less-equal sign"
-msgstr ""
+msgstr "знак меньше-равно"
 
 #: ../../source/characters.rst:130
 msgid "``\\geq``"
@@ -638,7 +648,7 @@ msgstr ""
 
 #: ../../source/characters.rst:130
 msgid "greater-equal sign"
-msgstr ""
+msgstr "знак больше-равно"
 
 #: ../../source/characters.rst:132
 msgid "``\\sim``"
@@ -650,7 +660,7 @@ msgstr ""
 
 #: ../../source/characters.rst:132
 msgid "(central european) proportional sign"
-msgstr ""
+msgstr "(центрально-европейский) знак пропорциональности"
 
 #: ../../source/characters.rst:134
 msgid "``\\propto``"
@@ -662,7 +672,7 @@ msgstr ""
 
 #: ../../source/characters.rst:134
 msgid "(american) proportional sign"
-msgstr ""
+msgstr "(американский) знак пропорциональности"
 
 #: ../../source/characters.rst:136
 msgid "``\\diameter``"
@@ -674,7 +684,7 @@ msgstr ""
 
 #: ../../source/characters.rst:136
 msgid "diameter sign (also sign for average)"
-msgstr ""
+msgstr "знак диаметра (также знак среднего)"
 
 #: ../../source/characters.rst:138
 msgid "``\\onehalf``"
@@ -686,7 +696,7 @@ msgstr ""
 
 #: ../../source/characters.rst:138
 msgid "one half"
-msgstr ""
+msgstr "половина"
 
 #: ../../source/characters.rst:140
 msgid "``\\onequarter``"
@@ -698,7 +708,7 @@ msgstr ""
 
 #: ../../source/characters.rst:140
 msgid "one quarter"
-msgstr ""
+msgstr "четверть"
 
 #: ../../source/characters.rst:142
 msgid "``\\twosuperior``"
@@ -710,7 +720,7 @@ msgstr ""
 
 #: ../../source/characters.rst:142
 msgid "square (power of two)"
-msgstr ""
+msgstr "квадрат (степень 2)"
 
 #: ../../source/characters.rst:144
 msgid "``\\threesuperior``"
@@ -722,7 +732,7 @@ msgstr ""
 
 #: ../../source/characters.rst:144
 msgid "power of three"
-msgstr ""
+msgstr "степень 3"
 
 #: ../../source/characters.rst:146
 msgid "``\\ohm``"
@@ -730,5 +740,4 @@ msgstr ""
 
 #: ../../source/characters.rst:146
 msgid "unit for resistance (capital Greek omega)"
-msgstr ""
-
+msgstr "единица для сопротивления (прописная греческая омега)"
