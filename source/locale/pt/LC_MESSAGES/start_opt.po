@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
@@ -19,24 +19,25 @@ msgstr "Começando com Otimizações"
 
 #: ../../source/start_opt.rst:6
 msgid ""
-"For circuit optimization, Qucs uses the ASCO tool (`http://asco.sourceforge."
-"net/ <http://asco.sourceforge.net/>`__). A brief description on how to "
-"prepare your schematic, execute and interprete the results is given below. "
-"Before using this functionality, ASCO must be installed on the computer."
+"For circuit optimization, Qucs uses the ASCO tool "
+"(`http://asco.sourceforge.net/ <http://asco.sourceforge.net/>`__). A brief "
+"description on how to prepare your schematic, execute and interprete the "
+"results is given below. Before using this functionality, ASCO must be "
+"installed on the computer."
 msgstr ""
-"Para otimizar circuitos, Qucs usa a ferramenta ASCO (`http://asco."
-"sourceforge.net/ <http://asco.sourceforge.net/>`__). Uma breve descrição de "
-"como preparar seu esquema elétrico, executar e interpretar os resultados são "
-"dados abaixo. Antes de usar esta funcionalidade, ASCO deve estar instalado "
-"no computador."
+"Para otimizar circuitos, Qucs usa a ferramenta ASCO "
+"(`http://asco.sourceforge.net/ <http://asco.sourceforge.net/>`__). Uma breve"
+" descrição de como preparar seu esquema elétrico, executar e interpretar os "
+"resultados são dados abaixo. Antes de usar esta funcionalidade, ASCO deve "
+"estar instalado no computador."
 
 #: ../../source/start_opt.rst:12
 msgid ""
 "Optimization of a circuit is nothing more than the minimization of a cost "
 "function. It can either be the delay or the rise time of a digital circuit, "
 "or the power or gain of an analog circuit. Another possibility is defining "
-"the optimization problem as a composition of functions, leading in this case "
-"to the definition of a figure-of-merit."
+"the optimization problem as a composition of functions, leading in this case"
+" to the definition of a figure-of-merit."
 msgstr ""
 "Otimização de um circuito não é nada mais do que a minimização da função "
 "custo. Ela poderia ser o atraso no tempo de subida de um circuito digital, "
@@ -56,17 +57,9 @@ msgstr ""
 "componente otimização. Tomando o esquema elétrico da Figura 1 e mudando ele "
 "até que que se obtenha o esquema elétrico exibido na Figura 2."
 
-#: ../../source/start_opt.rst:24
-msgid "|image0|"
-msgstr ""
-
 #: ../../source/start_opt.rst:26
 msgid "Figure 1 - Initial schematic."
 msgstr "Figura 1 - Esquema elétrico inicial."
-
-#: ../../source/start_opt.rst:29
-msgid "|image1|"
-msgstr ""
 
 #: ../../source/start_opt.rst:31
 msgid "Figure 2 - Prepared schematic."
@@ -75,8 +68,8 @@ msgstr "Figura 2 - Esquema elétrico preparado."
 #: ../../source/start_opt.rst:34
 msgid ""
 "Now, open the optimization component and select the optimization tab. From "
-"the existing parameters, special attention should be paid to 'Maximum number "
-"of iterations', 'Constant F' and 'Crossing over factor'. Over- or "
+"the existing parameters, special attention should be paid to 'Maximum number"
+" of iterations', 'Constant F' and 'Crossing over factor'. Over- or "
 "underestimation can lead to a premature convergence of the optimizer to a "
 "local minimum or, a very long optimization time."
 msgstr ""
@@ -85,10 +78,6 @@ msgstr ""
 "'Constante F' e 'Fator de cruzamento pelo valor'. Pelo valor- ou "
 "subestimação pode levar a uma convergência prematura do otimizador para um "
 "mínimo local ou, um tempo muito longo de otimização."
-
-#: ../../source/start_opt.rst:41
-msgid "|image2|"
-msgstr ""
 
 #: ../../source/start_opt.rst:43
 msgid "Figure 3 - Optimization dialog, algorithm options."
@@ -103,12 +92,8 @@ msgid ""
 msgstr ""
 "Na aba Variáveis, definimos quais elementos do circuito serão escolhidos e "
 "suas faixas de variação, como mostrado na Figura 4. Os nomes das variáveis "
-"correspondem aos local do identificadores nas propriedades e **não** ao nome "
-"dos componentes."
-
-#: ../../source/start_opt.rst:52
-msgid "|image3|"
-msgstr ""
+"correspondem aos local do identificadores nas propriedades e **não** ao nome"
+" dos componentes."
 
 #: ../../source/start_opt.rst:54
 msgid "Figure 4 - Optimization dialog, variables options."
@@ -124,10 +109,6 @@ msgstr ""
 "minimizar) e restrições (menor, maior, igual) são definidos. ASCO "
 "automaticamente os combinará em uma única função custo que será minimizada."
 
-#: ../../source/start_opt.rst:62
-msgid "|image4|"
-msgstr ""
-
 #: ../../source/start_opt.rst:64
 msgid "Figure 5 - Optimization dialog, goals options."
 msgstr "Figura 5 - Janela otimização, opção Metas."
@@ -140,10 +121,6 @@ msgstr ""
 "O próximo passo é mudar o esquema elétrico, e definir quais elementos do "
 "circuito serão otimizados. O esquema elétrico resultante é mostrado na "
 "Figura 6."
-
-#: ../../source/start_opt.rst:72
-msgid "|image5|"
-msgstr ""
 
 #: ../../source/start_opt.rst:74
 msgid "Figure 6 - New Qucs main window."
@@ -160,28 +137,76 @@ msgstr ""
 "computador moderno, os melhores resultados da simulação são exibidos em um "
 "visualizador de formas de onda gráfico."
 
-#: ../../source/start_opt.rst:82
-msgid "|image6|"
-msgstr ""
-
 #: ../../source/start_opt.rst:84
 msgid "Figure 7 - Qucs results window."
 msgstr "Figura 7 - Janela de resultados do Qucs."
 
 #: ../../source/start_opt.rst:87
 msgid ""
-"The best found circuit sizes can be found in the optimization dialog, in the "
-"Variables tab. They are now the initial values for each one of introduced "
+"The best found circuit sizes can be found in the optimization dialog, in the"
+" Variables tab. They are now the initial values for each one of introduced "
 "variables (Figure 8)."
 msgstr ""
 "Os melhores valores para o circuito encontrados podem ser encontrados na "
 "janela de otimização, na aba Variáveis. Agora eles são os valores iniciais "
 "para cada uma das variáveis introduzidas (Figura 8)."
 
-#: ../../source/start_opt.rst:92
-msgid "|image7|"
-msgstr ""
-
 #: ../../source/start_opt.rst:94
 msgid "Figure 8 - The best found circuit sizes."
 msgstr "Figura 8 - Os melhores valores encontrados para o circuito."
+
+#: ../../source/start_opt.rst:24
+msgid "|image0_EN|"
+msgstr ""
+
+#: ../../source/start_opt.rst:29
+msgid "|image1_EN|"
+msgstr ""
+
+#: ../../source/start_opt.rst:41
+msgid "|image2_EN|"
+msgstr ""
+
+#: ../../source/start_opt.rst:52
+msgid "|image3_EN|"
+msgstr ""
+
+#: ../../source/start_opt.rst:62
+msgid "|image4_EN|"
+msgstr ""
+
+#: ../../source/start_opt.rst:72
+msgid "|image5_EN|"
+msgstr ""
+
+#: ../../source/start_opt.rst:82
+msgid "|image6_EN|"
+msgstr ""
+
+#: ../../source/start_opt.rst:92
+msgid "|image7_EN|"
+msgstr ""
+
+#~ msgid "|image0|"
+#~ msgstr ""
+
+#~ msgid "|image1|"
+#~ msgstr ""
+
+#~ msgid "|image2|"
+#~ msgstr ""
+
+#~ msgid "|image3|"
+#~ msgstr ""
+
+#~ msgid "|image4|"
+#~ msgstr ""
+
+#~ msgid "|image5|"
+#~ msgstr ""
+
+#~ msgid "|image6|"
+#~ msgstr ""
+
+#~ msgid "|image7|"
+#~ msgstr ""

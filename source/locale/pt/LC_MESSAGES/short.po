@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
@@ -31,8 +31,8 @@ msgstr "roda do mouse"
 
 #: ../../source/short.rst:11
 msgid ""
-"Scrolls vertically the drawing area. You can also scroll outside the current "
-"size."
+"Scrolls vertically the drawing area. You can also scroll outside the current"
+" size."
 msgstr ""
 "Desloca verticalmente a área desenhada. Você pode também deslocar fora do "
 "tamanho atual."
@@ -64,15 +64,12 @@ msgstr "arastar e soltar um arquivo dentro da área do documento"
 #: ../../source/short.rst:17
 msgid "Tries to open file as Qucs schematic or data display."
 msgstr ""
-"Tenta abrir um arquivo como um esquema elétrico ou exibição de dados do Qucs."
+"Tenta abrir um arquivo como um esquema elétrico ou exibição de dados do "
+"Qucs."
 
 #: ../../source/short.rst:23
 msgid "\"Select\"-Mode"
 msgstr "Modo \"Selecionar\""
-
-#: ../../source/short.rst:25
-msgid "|image0|"
-msgstr ""
 
 #: ../../source/short.rst:27
 msgid "(Menu: Edit->Select)"
@@ -85,19 +82,19 @@ msgstr "botão esquerdo do mouse"
 
 #: ../../source/short.rst:30
 msgid ""
-"Selects the element below the mouse cursor. If several components are placed "
-"there, you can clicking several times in order to select the wanted one. "
-"Keeping the mouse button pressed, you can move the component below the mouse "
-"cursor and all selected ones. If you want to fine position the components, "
-"press the CTRL key during moving and the grid is disabled. Keeping the mouse "
-"button pressed without any element below it opens a rectangle. After "
-"releasing the mouse button, all elements within this rectangle are selected. "
-"A selected diagram or painting can be resized by pressing the left mouse "
+"Selects the element below the mouse cursor. If several components are placed"
+" there, you can clicking several times in order to select the wanted one. "
+"Keeping the mouse button pressed, you can move the component below the mouse"
+" cursor and all selected ones. If you want to fine position the components, "
+"press the CTRL key during moving and the grid is disabled. Keeping the mouse"
+" button pressed without any element below it opens a rectangle. After "
+"releasing the mouse button, all elements within this rectangle are selected."
+" A selected diagram or painting can be resized by pressing the left mouse "
 "button over one of its corners and moving by keeping the button pressed. "
-"After clicking on a component text, it can be edited directly. The enter key "
-"jumps to the next property. If the property is a selection list, it can only "
-"be changed with the cursor up/down keys. Clicking on a circuit node enters "
-"the \"wire mode\"."
+"After clicking on a component text, it can be edited directly. The enter key"
+" jumps to the next property. If the property is a selection list, it can "
+"only be changed with the cursor up/down keys. Clicking on a circuit node "
+"enters the \"wire mode\"."
 msgstr ""
 "Seleciona o elemento abaixo do cursor do mouse. Se vários componentes "
 "estiverem colocados lá, você pode clicar várias vezes para selecionar o "
@@ -107,8 +104,8 @@ msgstr ""
 "durante o movimento e a grade será desativada. Mantendo o botão do mouse "
 "pressionado sem nenhum elemento por baixo, com seu movimento, aparecerá um "
 "retângulo. Após soltar o botão do mouse, todos os elementos dentro deste "
-"rectângulo serão selecionados. Um diagrama selecionado ou desenhado pode ser "
-"redimensionado pressionando o botão esquerdo do mouse sobre uma de suas "
+"rectângulo serão selecionados. Um diagrama selecionado ou desenhado pode ser"
+" redimensionado pressionando o botão esquerdo do mouse sobre uma de suas "
 "bordas e movido mantendo o botão pressionado. Após clicar em um componente "
 "de texto, ele pode ser editado diretamente. A tecla ENTER pula para a "
 "próxima propriedade. Se a propriedade for uma lista selecionada, ela poderá "
@@ -127,8 +124,8 @@ msgid ""
 msgstr ""
 "Permite que mais de um elemento seja selecionado, isto é, selecionar um "
 "elemento não desativa a seleção dos outros. Clicando em um elemento "
-"selecionado, desativa a seleção dele. Este modo também é valido para seleção "
-"feita com retângulo (veja ítem anterior)."
+"selecionado, desativa a seleção dele. Este modo também é valido para seleção"
+" feita com retângulo (veja ítem anterior)."
 
 #: ../../source/short.rst:39 ../../source/short.rst:53
 #: ../../source/short.rst:67 ../../source/short.rst:83
@@ -175,10 +172,6 @@ msgstr "Rotaciona o componente. (Sem efeito em diagramas.)"
 msgid "\"Wire\"-Mode"
 msgstr "Modo \"fio\""
 
-#: ../../source/short.rst:60
-msgid "|image1|"
-msgstr ""
-
 #: ../../source/short.rst:62
 msgid "(Menu: Insert->Wire)"
 msgstr "(Menu: Inserir->Fio)"
@@ -189,10 +182,11 @@ msgstr "Define o ponto de início/fim do fio."
 
 #: ../../source/short.rst:67
 msgid ""
-"Changes the direction of the wire corner (first left/right or first up/down)."
+"Changes the direction of the wire corner (first left/right or first "
+"up/down)."
 msgstr ""
-"Muda a direção do canto do fio (primeiro esquerdo/direito ou primeiro cima/"
-"baixo)."
+"Muda a direção do canto do fio (primeiro esquerdo/direito ou primeiro "
+"cima/baixo)."
 
 #: ../../source/short.rst:69
 msgid "Ends a wire without being on a wire or a port."
@@ -201,10 +195,6 @@ msgstr "Termina um fio sem que seja feita uma conexão com outro fio ou porta."
 #: ../../source/short.rst:74
 msgid "\"Paste\"-Mode"
 msgstr "Modo \"Colar\""
-
-#: ../../source/short.rst:76
-msgid "|image2|"
-msgstr ""
 
 #: ../../source/short.rst:78
 msgid "(Menu: Edit->Paste)"
@@ -221,10 +211,6 @@ msgstr "Rotaciona os elementos."
 #: ../../source/short.rst:88
 msgid "Mouse in \"Content\" Tab"
 msgstr "Mouse na aba \"Conteúdo\""
-
-#: ../../source/short.rst:90
-msgid "|image3|"
-msgstr ""
 
 #: ../../source/short.rst:94
 msgid "left click"
@@ -291,13 +277,13 @@ msgstr "Teclado"
 
 #: ../../source/short.rst:114
 msgid ""
-"Many actions can be activated/done by the keyboard strokes. This can be seen "
-"in the main menu right beside the command. Some further key commands are "
+"Many actions can be activated/done by the keyboard strokes. This can be seen"
+" in the main menu right beside the command. Some further key commands are "
 "shown in the following list:"
 msgstr ""
-"Muitas ações podem ser ativadas/terminadas pelo teclado. This can be seen in "
-"the main menu right beside the command. Some further key commands are shown "
-"in the following list:"
+"Muitas ações podem ser ativadas/terminadas pelo teclado. This can be seen in"
+" the main menu right beside the command. Some further key commands are shown"
+" in the following list:"
 
 #: ../../source/short.rst:119
 msgid "\"Delete\" or \"Backspace\""
@@ -318,8 +304,8 @@ msgstr "Cursores esquerda/direita"
 #: ../../source/short.rst:121
 msgid ""
 "Changes the position of selected markers on their graphs. If no marker is "
-"selected, move selected elements. If no element is selected, scroll document "
-"area."
+"selected, move selected elements. If no element is selected, scroll document"
+" area."
 msgstr ""
 "Muda a posição dos marcadores selecionados em gráficos. Se nenhum marcador "
 "for selecionado, move o elemento selecionado. Se nenhum elemento for "
@@ -335,8 +321,8 @@ msgid ""
 "marker is selected, move selected elements. If no element is selected, "
 "scroll document area."
 msgstr ""
-"Muda a posição de marcadores selecionados em gráficos multi-dimensionais. Se "
-"nenhum marcador for selecionado, move o elemento selecionado. Se nenhum "
+"Muda a posição de marcadores selecionados em gráficos multi-dimensionais. Se"
+" nenhum marcador for selecionado, move o elemento selecionado. Se nenhum "
 "elemento for selecionado, Desloca a área do documento."
 
 #: ../../source/short.rst:129
@@ -348,3 +334,31 @@ msgid "Changes to the next open document (according to the TabBar above)."
 msgstr ""
 "Muda para o próximo documento aberto (de acordo com a barra de tabulação "
 "acima)."
+
+#: ../../source/short.rst:25
+msgid "|image0_EN|"
+msgstr ""
+
+#: ../../source/short.rst:60
+msgid "|image1_EN|"
+msgstr ""
+
+#: ../../source/short.rst:76
+msgid "|image2_EN|"
+msgstr ""
+
+#: ../../source/short.rst:90
+msgid "|image3_EN|"
+msgstr ""
+
+#~ msgid "|image0|"
+#~ msgstr ""
+
+#~ msgid "|image1|"
+#~ msgstr ""
+
+#~ msgid "|image2|"
+#~ msgstr ""
+
+#~ msgid "|image3|"
+#~ msgstr ""

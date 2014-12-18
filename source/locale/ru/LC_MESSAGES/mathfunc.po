@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
@@ -19,9 +19,9 @@ msgstr "Краткое описание математических функц�
 
 #: ../../source/mathfunc.rst:6
 msgid ""
-"The following operations and functions can be applied in Qucs equations. For "
-"detailed description please refer to the \"Measurement Expressions Reference "
-"Manual\". Parameters in brackets \"[]\" are optional."
+"The following operations and functions can be applied in Qucs equations. For"
+" detailed description please refer to the \"Measurement Expressions "
+"Reference Manual\". Parameters in brackets \"[]\" are optional."
 msgstr ""
 "В уравнениях Qucs могут применяться следующие операции и функции. Подробное "
 "описание смотрите в \"Справочном руководстве по выражениям\". Параметры в "
@@ -140,8 +140,7 @@ msgid "``x?y:z``"
 msgstr "``x?y:z``"
 
 #: ../../source/mathfunc.rst:46
-msgid ""
-"Abbreviation for conditional expression \"if ``x`` then ``y`` else ``z``\""
+msgid "Abbreviation for conditional expression \"if ``x`` then ``y`` else ``z``\""
 msgstr "Сокращение для условного выражения \"if x then y else z\""
 
 #: ../../source/mathfunc.rst:48
@@ -192,151 +191,47 @@ msgstr "``x>=y``"
 msgid "Larger than or equal"
 msgstr "Больше или равно"
 
-#: ../../source/mathfunc.rst:62
-msgid "Alphabetical List of Functions"
-msgstr "Алфавитный список функций"
-
 #: ../../source/mathfunc.rst:64
-msgid ""
-"`abs <#abs>`__\\ ``  `` `adjoint <#adjoint>`__\\ ``  `` `angle <#angle>`__\\ "
-"``  `` `arccos <#arccos>`__\\ ``  `` `arccosec <#arccosec>`__\\ ``  `` "
-"`arccot <#arccot>`__\\ ``  `` `arcosech <#arcosech>`__\\ ``  `` `arcosh "
-"<#arcosh>`__\\ ``  `` `arcoth <#arcoth>`__\\ ``  `` `arcsec <#arcsec>`__\\ "
-"``  `` `arcsin <#arcsin>`__\\ ``  `` `arctan <#arctan>`__\\ ``  `` `arg "
-"<#arg>`__\\ ``  `` `arsech <#arsech>`__\\ ``  `` `arsinh <#arsinh>`__\\ ``  "
-"`` `artanh <#artanh>`__\\ ``  `` `avg <#avg>`__\\ ``  `` `besseli0 "
-"<#besseli0>`__\\ ``  `` `besselj <#besselj>`__\\ ``  `` `bessely "
-"<#bessely>`__\\ ``  `` `ceil <#ceil>`__\\ ``  `` `conj <#conj>`__\\ ``  `` "
-"`cos <#cos>`__\\ ``  `` `cosec <#cosec>`__\\ ``  `` `cosech <#cosech>`__\\ "
-"``  `` `cosh <#cosh>`__\\ ``  `` `cot <#cot>`__\\ ``  `` `coth <#coth>`__\\ "
-"``  `` `cumavg <#cumavg>`__\\ ``  `` `cumprod <#cumprod>`__\\ ``  `` `cumsum "
-"<#cumsum>`__\\ ``  `` `dB <#dB>`__\\ ``  `` `dbm <#dbm>`__\\ ``  `` `dbm2w "
-"<#dbm2w>`__\\ ``  `` `ddx <#ddx>`__\\ ``  `` `deg2rad <#deg2rad>`__\\ ``  `` "
-"`det <#det>`__\\ ``  `` `dft <#dft>`__\\ ``  `` `diff <#diff>`__\\ ``  `` "
-"`erf <#erf>`__\\ ``  `` `erfc <#erfc>`__\\ ``  `` `erfcinv <#erfcinv>`__\\ "
-"``  `` `erfinv <#erfinv>`__\\ ``  `` `exp <#exp>`__\\ ``  `` `eye <#eye>`__"
-"\\ ``  `` `fft <#fft>`__\\ ``  `` `fftshift <#fftshift>`__\\ ``  `` `fix "
-"<#fix>`__\\ ``  `` `floor <#floor>`__\\ ``  `` `Freq2Time <#Freq2Time>`__\\ "
-"``  `` `GaCircle <#GaCircle>`__\\ ``  `` `GpCircle <#GpCircle>`__\\ ``  `` "
-"`hypot <#hypot>`__\\ ``  `` `idft <#idft>`__\\ ``  `` `ifft <#ifft>`__\\ ``  "
-"`` `imag <#imag>`__\\ ``  `` `integrate <#integrate>`__\\ ``  `` "
-"`interpolate <#interpolate>`__\\ ``  `` `inverse <#inverse>`__\\ ``  `` `kbd "
-"<#kbd>`__\\ ``  `` `length <#length>`__\\ ``  `` `limexp <#limexp>`__\\ ``  "
-"`` `linspace <#linspace>`__\\ ``  `` `ln <#ln>`__\\ ``  `` `log10 <#log10>`__"
-"\\ ``  `` `log2 <#log2>`__\\ ``  `` `logspace <#logspace>`__\\ ``  `` `mag "
-"<#mag>`__\\ ``  `` `max <#max>`__\\ ``  `` `min <#min>`__\\ ``  `` `Mu "
-"<#Mu>`__\\ ``  `` `Mu2 <#Mu2>`__\\ ``  `` `NoiseCircle <#NoiseCircle>`__\\ "
-"``  `` `norm <#norm>`__\\ ``  `` `phase <#phase>`__\\ ``  `` `PlotVs "
-"<#PlotVs>`__\\ ``  `` `polar <#polar>`__\\ ``  `` `prod <#prod>`__\\ ``  `` "
-"`rad2deg <#rad2deg>`__\\ ``  `` `random <#random>`__\\ ``  `` `real "
-"<#real>`__\\ ``  `` `rms <#rms>`__\\ ``  `` `Rollet <#Rollet>`__\\ ``  `` "
-"`round <#round>`__\\ ``  `` `rtoswr <#rtoswr>`__\\ ``  `` `rtoy <#rtoy>`__\\ "
-"``  `` `rtoz <#rtoz>`__\\ ``  `` `runavg <#runavg>`__\\ ``  `` `sec <#sec>`__"
-"\\ ``  `` `sech <#sech>`__\\ ``  `` `sign <#sign>`__\\ ``  `` `sin <#sin>`__"
-"\\ ``  `` `sinc <#sinc>`__\\ ``  `` `sinh <#sinh>`__\\ ``  `` `sqr <#sqr>`__"
-"\\ ``  `` `sqrt <#sqrt>`__\\ ``  `` `srandom <#srandom>`__\\ ``  `` "
-"`StabCircleL <#StabCircleL>`__\\ ``  `` `StabCircleS <#StabCircleS>`__\\ ``  "
-"`` `StabFactor <#StabFactor>`__\\ ``  `` `StabMeasure <#StabMeasure>`__\\ "
-"``  `` `stddev <#stddev>`__\\ ``  `` `step <#step>`__\\ ``  `` `stos "
-"<#stos>`__\\ ``  `` `stoy <#stoy>`__\\ ``  `` `stoz <#stoz>`__\\ ``  `` `sum "
-"<#sum>`__\\ ``  `` `tan <#tan>`__\\ ``  `` `tanh <#tanh>`__\\ ``  `` "
-"`Time2Freq <#Time2Freq>`__\\ ``  `` `transpose <#transpose>`__\\ ``  `` "
-"`twoport <#twoport>`__\\ ``  `` `unwrap <#unwrap>`__\\ ``  `` `variance "
-"<#variance>`__\\ ``  `` `vt <#vt>`__\\ ``  `` `w2dbm <#w2dbm>`__\\ ``  `` "
-"`xvalue <#xvalue>`__\\ ``  `` `ytor <#ytor>`__\\ ``  `` `ytos <#ytos>`__\\ "
-"``  `` `ytoz <#ytoz>`__\\ ``  `` `yvalue <#yvalue>`__\\ ``  `` `ztor "
-"<#ztor>`__\\ ``  `` `ztos <#ztos>`__\\ ``  `` `ztoy <#ztoy>`__\\ ``  ``"
-msgstr ""
-"`abs <#abs>`__\\ ``  `` `adjoint <#adjoint>`__\\ ``  `` `angle <#angle>`__\\ "
-"``  `` `arccos <#arccos>`__\\ ``  `` `arccosec <#arccosec>`__\\ ``  `` "
-"`arccot <#arccot>`__\\ ``  `` `arcosech <#arcosech>`__\\ ``  `` `arcosh "
-"<#arcosh>`__\\ ``  `` `arcoth <#arcoth>`__\\ ``  `` `arcsec <#arcsec>`__\\ "
-"``  `` `arcsin <#arcsin>`__\\ ``  `` `arctan <#arctan>`__\\ ``  `` `arg "
-"<#arg>`__\\ ``  `` `arsech <#arsech>`__\\ ``  `` `arsinh <#arsinh>`__\\ ``  "
-"`` `artanh <#artanh>`__\\ ``  `` `avg <#avg>`__\\ ``  `` `besseli0 "
-"<#besseli0>`__\\ ``  `` `besselj <#besselj>`__\\ ``  `` `bessely "
-"<#bessely>`__\\ ``  `` `ceil <#ceil>`__\\ ``  `` `conj <#conj>`__\\ ``  `` "
-"`cos <#cos>`__\\ ``  `` `cosec <#cosec>`__\\ ``  `` `cosech <#cosech>`__\\ "
-"``  `` `cosh <#cosh>`__\\ ``  `` `cot <#cot>`__\\ ``  `` `coth <#coth>`__\\ "
-"``  `` `cumavg <#cumavg>`__\\ ``  `` `cumprod <#cumprod>`__\\ ``  `` `cumsum "
-"<#cumsum>`__\\ ``  `` `dB <#dB>`__\\ ``  `` `dbm <#dbm>`__\\ ``  `` `dbm2w "
-"<#dbm2w>`__\\ ``  `` `ddx <#ddx>`__\\ ``  `` `deg2rad <#deg2rad>`__\\ ``  `` "
-"`det <#det>`__\\ ``  `` `dft <#dft>`__\\ ``  `` `diff <#diff>`__\\ ``  `` "
-"`erf <#erf>`__\\ ``  `` `erfc <#erfc>`__\\ ``  `` `erfcinv <#erfcinv>`__\\ "
-"``  `` `erfinv <#erfinv>`__\\ ``  `` `exp <#exp>`__\\ ``  `` `eye <#eye>`__"
-"\\ ``  `` `fft <#fft>`__\\ ``  `` `fftshift <#fftshift>`__\\ ``  `` `fix "
-"<#fix>`__\\ ``  `` `floor <#floor>`__\\ ``  `` `Freq2Time <#Freq2Time>`__\\ "
-"``  `` `GaCircle <#GaCircle>`__\\ ``  `` `GpCircle <#GpCircle>`__\\ ``  `` "
-"`hypot <#hypot>`__\\ ``  `` `idft <#idft>`__\\ ``  `` `ifft <#ifft>`__\\ ``  "
-"`` `imag <#imag>`__\\ ``  `` `integrate <#integrate>`__\\ ``  `` "
-"`interpolate <#interpolate>`__\\ ``  `` `inverse <#inverse>`__\\ ``  `` `kbd "
-"<#kbd>`__\\ ``  `` `length <#length>`__\\ ``  `` `limexp <#limexp>`__\\ ``  "
-"`` `linspace <#linspace>`__\\ ``  `` `ln <#ln>`__\\ ``  `` `log10 <#log10>`__"
-"\\ ``  `` `log2 <#log2>`__\\ ``  `` `logspace <#logspace>`__\\ ``  `` `mag "
-"<#mag>`__\\ ``  `` `max <#max>`__\\ ``  `` `min <#min>`__\\ ``  `` `Mu "
-"<#Mu>`__\\ ``  `` `Mu2 <#Mu2>`__\\ ``  `` `NoiseCircle <#NoiseCircle>`__\\ "
-"``  `` `norm <#norm>`__\\ ``  `` `phase <#phase>`__\\ ``  `` `PlotVs "
-"<#PlotVs>`__\\ ``  `` `polar <#polar>`__\\ ``  `` `prod <#prod>`__\\ ``  `` "
-"`rad2deg <#rad2deg>`__\\ ``  `` `random <#random>`__\\ ``  `` `real "
-"<#real>`__\\ ``  `` `rms <#rms>`__\\ ``  `` `Rollet <#Rollet>`__\\ ``  `` "
-"`round <#round>`__\\ ``  `` `rtoswr <#rtoswr>`__\\ ``  `` `rtoy <#rtoy>`__\\ "
-"``  `` `rtoz <#rtoz>`__\\ ``  `` `runavg <#runavg>`__\\ ``  `` `sec <#sec>`__"
-"\\ ``  `` `sech <#sech>`__\\ ``  `` `sign <#sign>`__\\ ``  `` `sin <#sin>`__"
-"\\ ``  `` `sinc <#sinc>`__\\ ``  `` `sinh <#sinh>`__\\ ``  `` `sqr <#sqr>`__"
-"\\ ``  `` `sqrt <#sqrt>`__\\ ``  `` `srandom <#srandom>`__\\ ``  `` "
-"`StabCircleL <#StabCircleL>`__\\ ``  `` `StabCircleS <#StabCircleS>`__\\ ``  "
-"`` `StabFactor <#StabFactor>`__\\ ``  `` `StabMeasure <#StabMeasure>`__\\ "
-"``  `` `stddev <#stddev>`__\\ ``  `` `step <#step>`__\\ ``  `` `stos "
-"<#stos>`__\\ ``  `` `stoy <#stoy>`__\\ ``  `` `stoz <#stoz>`__\\ ``  `` `sum "
-"<#sum>`__\\ ``  `` `tan <#tan>`__\\ ``  `` `tanh <#tanh>`__\\ ``  `` "
-"`Time2Freq <#Time2Freq>`__\\ ``  `` `transpose <#transpose>`__\\ ``  `` "
-"`twoport <#twoport>`__\\ ``  `` `unwrap <#unwrap>`__\\ ``  `` `variance "
-"<#variance>`__\\ ``  `` `vt <#vt>`__\\ ``  `` `w2dbm <#w2dbm>`__\\ ``  `` "
-"`xvalue <#xvalue>`__\\ ``  `` `ytor <#ytor>`__\\ ``  `` `ytos <#ytos>`__\\ "
-"``  `` `ytoz <#ytoz>`__\\ ``  `` `yvalue <#yvalue>`__\\ ``  `` `ztor "
-"<#ztor>`__\\ ``  `` `ztos <#ztos>`__\\ ``  `` `ztoy <#ztoy>`__\\ ``  ``"
-
-#: ../../source/mathfunc.rst:126
 msgid "Math Functions"
 msgstr "Математические функции"
 
-#: ../../source/mathfunc.rst:129
+#: ../../source/mathfunc.rst:67
 msgid "Vectors and Matrices: Creation"
 msgstr "Векторы и матрицы: создание"
 
-#: ../../source/mathfunc.rst:132
+#: ../../source/mathfunc.rst:70
 msgid "``eye(n)``"
 msgstr "``eye(n)``"
 
-#: ../../source/mathfunc.rst:132
+#: ../../source/mathfunc.rst:70
 msgid "Creates ``n`` x ``n`` identity matrix"
 msgstr "Создает единичную матрицу n x n"
 
-#: ../../source/mathfunc.rst:134
+#: ../../source/mathfunc.rst:72
 msgid "``length(y)``"
 msgstr "``length(y)``"
 
-#: ../../source/mathfunc.rst:134
+#: ../../source/mathfunc.rst:72
 msgid "Returns the length of the given vector"
 msgstr "Возвращает длину данного вектора"
 
-#: ../../source/mathfunc.rst:136
+#: ../../source/mathfunc.rst:74
 msgid "``linspace(from,to,n)``"
 msgstr "``linspace(from,to,n)``"
 
-#: ../../source/mathfunc.rst:136
+#: ../../source/mathfunc.rst:74
 msgid ""
-"Creates a real vector with ``n`` linearly spaced components between ``from`` "
-"and ``to``, both inclusively"
+"Creates a real vector with ``n`` linearly spaced components between ``from``"
+" and ``to``, both inclusively"
 msgstr ""
 "Создает вещественный вектор с n линейно расставленными компонентами между "
 "from и to, оба включительно"
 
-#: ../../source/mathfunc.rst:138
+#: ../../source/mathfunc.rst:76
 msgid "``logspace(from,to,n)``"
 msgstr "``logspace(from,to,n)``"
 
-#: ../../source/mathfunc.rst:138
+#: ../../source/mathfunc.rst:76
 msgid ""
 "Creates a real vector with ``n`` logarithmically spaced components between "
 "``from`` and ``to``, both inclusively"
@@ -344,617 +239,617 @@ msgstr ""
 "Создает вещественный вектор с n логарифмически расставленными компонентами "
 "между from и to, оба включительно"
 
-#: ../../source/mathfunc.rst:142
+#: ../../source/mathfunc.rst:80
 msgid "Vectors and Matrices: Basic Matrix Functions"
 msgstr "Векторы и матрицы: основные матричные функции"
 
-#: ../../source/mathfunc.rst:145
+#: ../../source/mathfunc.rst:83
 msgid "``adjoint(x)``"
 msgstr "``adjoint(x)``"
 
-#: ../../source/mathfunc.rst:145
+#: ../../source/mathfunc.rst:83
 msgid "Adjoint matrix of ``x`` (transposed and conjugate complex)"
 msgstr "Сопряженная с x матрица (транспонированная и комплексно-сопряженная)"
 
-#: ../../source/mathfunc.rst:147
+#: ../../source/mathfunc.rst:85
 msgid "``det(x)``"
 msgstr "``det(x)``"
 
-#: ../../source/mathfunc.rst:147
+#: ../../source/mathfunc.rst:85
 msgid "Determinant of a matrix ``x``"
 msgstr "Детерминант матрицы x"
 
-#: ../../source/mathfunc.rst:149
+#: ../../source/mathfunc.rst:87
 msgid "``inverse(x)``"
 msgstr "``inverse(x)``"
 
-#: ../../source/mathfunc.rst:149
+#: ../../source/mathfunc.rst:87
 msgid "Inverse matrix of ``x``"
 msgstr "Инверсия матрицы x"
 
-#: ../../source/mathfunc.rst:151
+#: ../../source/mathfunc.rst:89
 msgid "``transpose(x)``"
 msgstr "``transpose(x)``"
 
-#: ../../source/mathfunc.rst:151
+#: ../../source/mathfunc.rst:89
 msgid "Transposed matrix of ``x`` (rows and columns exchanged)"
 msgstr "Транспонированная матрица для x (столбцы и строки меняются местами)"
 
-#: ../../source/mathfunc.rst:155
+#: ../../source/mathfunc.rst:93
 msgid "Elementary Mathematical Functions: Basic Real and Complex Functions"
 msgstr ""
 "Элементарные математические функции: основные вещественные и комплексные "
 "функции"
 
-#: ../../source/mathfunc.rst:158
+#: ../../source/mathfunc.rst:96
 msgid "``abs(x)``"
 msgstr "``abs(x)``"
 
-#: ../../source/mathfunc.rst:158
+#: ../../source/mathfunc.rst:96
 msgid "Absolute value, magnitude of complex number"
 msgstr "Абсолютное значение, модуль комплексного числа"
 
-#: ../../source/mathfunc.rst:160
+#: ../../source/mathfunc.rst:98
 msgid "``angle(x)``"
 msgstr "``angle(x)``"
 
-#: ../../source/mathfunc.rst:160
+#: ../../source/mathfunc.rst:98
 msgid "Phase angle in radians of a complex number. Synonym for ``arg()``"
 msgstr "Фазовый угол (в радианах) комплексного числа. Синоним arg()"
 
-#: ../../source/mathfunc.rst:162
+#: ../../source/mathfunc.rst:100
 msgid "``arg(x)``"
 msgstr "``arg(x)``"
 
-#: ../../source/mathfunc.rst:162
+#: ../../source/mathfunc.rst:100
 msgid "Phase angle in radians of a complex number"
 msgstr "Фазовый угол (в радианах) комплексного числа"
 
-#: ../../source/mathfunc.rst:164
+#: ../../source/mathfunc.rst:102
 msgid "``conj(x)``"
 msgstr "``conj(x)``"
 
-#: ../../source/mathfunc.rst:164
+#: ../../source/mathfunc.rst:102
 msgid "Conjugate of a complex number"
 msgstr "Сопряжение комплексного числа"
 
-#: ../../source/mathfunc.rst:166
+#: ../../source/mathfunc.rst:104
 msgid "``deg2rad(x)``"
 msgstr "``deg2rad(x)``"
 
-#: ../../source/mathfunc.rst:166
+#: ../../source/mathfunc.rst:104
 msgid "Converts phase from degrees into radians"
 msgstr "Преобразует фазу из градусов в радианы"
 
-#: ../../source/mathfunc.rst:168
+#: ../../source/mathfunc.rst:106
 msgid "``hypot(x,y)``"
 msgstr "``hypot(x,y)``"
 
-#: ../../source/mathfunc.rst:168
+#: ../../source/mathfunc.rst:106
 msgid "Euclidean distance function"
 msgstr "Функция евклидового расстояния"
 
-#: ../../source/mathfunc.rst:170
+#: ../../source/mathfunc.rst:108
 msgid "``imag(x)``"
 msgstr "``imag(x)``"
 
-#: ../../source/mathfunc.rst:170
+#: ../../source/mathfunc.rst:108
 msgid "Imaginary part of a complex number"
 msgstr "Мнимая часть комплексного числа"
 
-#: ../../source/mathfunc.rst:172
+#: ../../source/mathfunc.rst:110
 msgid "``mag(x)``"
 msgstr "``mag(x)``"
 
-#: ../../source/mathfunc.rst:172
+#: ../../source/mathfunc.rst:110
 msgid "Magnitude of a complex number"
 msgstr "Модуль комплексного числа"
 
-#: ../../source/mathfunc.rst:174
+#: ../../source/mathfunc.rst:112
 msgid "``norm(x)``"
 msgstr "``norm(x)``"
 
-#: ../../source/mathfunc.rst:174
+#: ../../source/mathfunc.rst:112
 msgid "Square of the absolute value of a vector"
 msgstr "Квадрат абсолютного значения вектора"
 
-#: ../../source/mathfunc.rst:176
+#: ../../source/mathfunc.rst:114
 msgid "``phase(x)``"
 msgstr "``phase(x)``"
 
-#: ../../source/mathfunc.rst:176
+#: ../../source/mathfunc.rst:114
 msgid "Phase angle in degrees of a complex number"
 msgstr "Фазовый угол (в градусах) комплексного числа"
 
-#: ../../source/mathfunc.rst:178
+#: ../../source/mathfunc.rst:116
 msgid "``polar(m,p)``"
 msgstr "``polar(m,p)``"
 
-#: ../../source/mathfunc.rst:178
+#: ../../source/mathfunc.rst:116
 msgid ""
-"Transform from polar coordinates (magnitude ``m``, phase ``p``) into complex "
-"number"
+"Transform from polar coordinates (magnitude ``m``, phase ``p``) into complex"
+" number"
 msgstr ""
 "Преобразование из полярных координат (модуль m, фаза p) в комплексное число"
 
-#: ../../source/mathfunc.rst:180
+#: ../../source/mathfunc.rst:118
 msgid "``rad2deg(x)``"
 msgstr "``rad2deg(x)``"
 
-#: ../../source/mathfunc.rst:180
+#: ../../source/mathfunc.rst:118
 msgid "Converts phase from radians into degrees"
 msgstr "Преобразует фазу из радианов в градусы"
 
-#: ../../source/mathfunc.rst:182
+#: ../../source/mathfunc.rst:120
 msgid "``real(x)``"
 msgstr "``real(x)``"
 
-#: ../../source/mathfunc.rst:182
+#: ../../source/mathfunc.rst:120
 msgid "Real part of a complex number"
 msgstr "Вещественная часть комплексного числа"
 
-#: ../../source/mathfunc.rst:184
+#: ../../source/mathfunc.rst:122
 msgid "``sign(x)``"
 msgstr "``sign(x)``"
 
-#: ../../source/mathfunc.rst:184
+#: ../../source/mathfunc.rst:122
 msgid "Signum function"
 msgstr "Знаковая функция"
 
-#: ../../source/mathfunc.rst:186
+#: ../../source/mathfunc.rst:124
 msgid "``sqr(x)``"
 msgstr "``sqr(x)``"
 
-#: ../../source/mathfunc.rst:186
+#: ../../source/mathfunc.rst:124
 msgid "Square (power of two) of a number"
 msgstr "Квадрат (вторая степень) числа"
 
-#: ../../source/mathfunc.rst:188
+#: ../../source/mathfunc.rst:126
 msgid "``sqrt(x)``"
 msgstr "``sqrt(x)``"
 
-#: ../../source/mathfunc.rst:188
+#: ../../source/mathfunc.rst:126
 msgid "Square root"
 msgstr "Квадратный корень"
 
-#: ../../source/mathfunc.rst:190
+#: ../../source/mathfunc.rst:128
 msgid "``unwrap(p[,tol[,step]])``"
 msgstr "``unwrap(p[,tol[,step]])``"
 
-#: ../../source/mathfunc.rst:190
+#: ../../source/mathfunc.rst:128
 msgid ""
-"Unwraps the angle ``p`` (in radians -- default ``step`` is 2\\*pi) using the "
-"optional tolerance value ``tol`` (default is pi)"
+"Unwraps the angle ``p`` (in radians -- default ``step`` is 2\\*pi) using the"
+" optional tolerance value ``tol`` (default is pi)"
 msgstr ""
-"Разворачивает угол p (в радианах -- по умолчанию step равен 2*pi), используя "
-"необязательный допуск tol (по умолчанию равен pi)"
+"Разворачивает угол p (в радианах -- по умолчанию step равен 2*pi), используя"
+" необязательный допуск tol (по умолчанию равен pi)"
 
-#: ../../source/mathfunc.rst:194
+#: ../../source/mathfunc.rst:132
 msgid ""
 "Elementary Mathematical Functions: Exponential and Logarithmic Functions"
 msgstr ""
 "Элементарные математические функции: экспоненциальные и логарифмические "
 "функции"
 
-#: ../../source/mathfunc.rst:197
+#: ../../source/mathfunc.rst:135
 msgid "``exp(x)``"
 msgstr "``exp(x)``"
 
-#: ../../source/mathfunc.rst:197
+#: ../../source/mathfunc.rst:135
 msgid "Exponential function to basis e"
 msgstr "Экспоненциальная функция с основанием e"
 
-#: ../../source/mathfunc.rst:199
+#: ../../source/mathfunc.rst:137
 msgid "``limexp(x)``"
 msgstr "``limexp(x)``"
 
-#: ../../source/mathfunc.rst:199
+#: ../../source/mathfunc.rst:137
 msgid "Limited exponential function"
 msgstr "Ограниченная экспоненциальная функция"
 
-#: ../../source/mathfunc.rst:201
+#: ../../source/mathfunc.rst:139
 msgid "``log10(x)``"
 msgstr "``log10(x)``"
 
-#: ../../source/mathfunc.rst:201
+#: ../../source/mathfunc.rst:139
 msgid "Decimal logarithm"
 msgstr "Десятичный логарифм"
 
-#: ../../source/mathfunc.rst:203
+#: ../../source/mathfunc.rst:141
 msgid "``log2(x)``"
 msgstr "``log2(x)``"
 
-#: ../../source/mathfunc.rst:203
+#: ../../source/mathfunc.rst:141
 msgid "Binary logarithm"
 msgstr "Двоичный логарифм"
 
-#: ../../source/mathfunc.rst:205
+#: ../../source/mathfunc.rst:143
 msgid "``ln(x)``"
 msgstr "``ln(x)``"
 
-#: ../../source/mathfunc.rst:205
+#: ../../source/mathfunc.rst:143
 msgid "Natural logarithm (base e )"
 msgstr "Натуральный логарифм (основание e )"
 
-#: ../../source/mathfunc.rst:209
+#: ../../source/mathfunc.rst:147
 msgid "Elementary Mathematical Functions: Trigonometry"
 msgstr "Элементарные математические функции: тригонометрия"
 
-#: ../../source/mathfunc.rst:212
+#: ../../source/mathfunc.rst:150
 msgid "``cos(x)``"
 msgstr "``cos(x)``"
 
-#: ../../source/mathfunc.rst:212
+#: ../../source/mathfunc.rst:150
 msgid "Cosine function"
 msgstr "Косинус"
 
-#: ../../source/mathfunc.rst:214
+#: ../../source/mathfunc.rst:152
 msgid "``cosec(x)``"
 msgstr "``cosec(x)``"
 
-#: ../../source/mathfunc.rst:214
+#: ../../source/mathfunc.rst:152
 msgid "Cosecant"
 msgstr "Косеканс"
 
-#: ../../source/mathfunc.rst:216
+#: ../../source/mathfunc.rst:154
 msgid "``cot(x)``"
 msgstr "``cot(x)``"
 
-#: ../../source/mathfunc.rst:216
+#: ../../source/mathfunc.rst:154
 msgid "Cotangent function"
 msgstr "Котангенс"
 
-#: ../../source/mathfunc.rst:218
+#: ../../source/mathfunc.rst:156
 msgid "``sec(x)``"
 msgstr "``sec(x)``"
 
-#: ../../source/mathfunc.rst:218
+#: ../../source/mathfunc.rst:156
 msgid "Secant"
 msgstr "Секанс"
 
-#: ../../source/mathfunc.rst:220
+#: ../../source/mathfunc.rst:158
 msgid "``sin(x)``"
 msgstr "``sin(x)``"
 
-#: ../../source/mathfunc.rst:220
+#: ../../source/mathfunc.rst:158
 msgid "Sine function"
 msgstr "Синус"
 
-#: ../../source/mathfunc.rst:222
+#: ../../source/mathfunc.rst:160
 msgid "``tan(x)``"
 msgstr "``tan(x)``"
 
-#: ../../source/mathfunc.rst:222
+#: ../../source/mathfunc.rst:160
 msgid "Tangent function"
 msgstr "Тангенс"
 
-#: ../../source/mathfunc.rst:226
+#: ../../source/mathfunc.rst:164
 msgid "Elementary Mathematical Functions: Inverse Trigonometric Functions"
 msgstr ""
 "Элементарные математические функции: обратные тригонометрические функции"
 
-#: ../../source/mathfunc.rst:229
+#: ../../source/mathfunc.rst:167
 msgid "``arccos(x)``"
 msgstr "``arccos(x)``"
 
-#: ../../source/mathfunc.rst:229
+#: ../../source/mathfunc.rst:167
 msgid "Arc cosine (also known as \"inverse cosine\")"
 msgstr "Арккосинус (известный также как \"обратный косинус\")"
 
-#: ../../source/mathfunc.rst:231
+#: ../../source/mathfunc.rst:169
 msgid "``arccosec(x)``"
 msgstr "``arccosec(x)``"
 
-#: ../../source/mathfunc.rst:231
+#: ../../source/mathfunc.rst:169
 msgid "Arc cosecant"
 msgstr "Арккосеканс"
 
-#: ../../source/mathfunc.rst:233
+#: ../../source/mathfunc.rst:171
 msgid "``arccot(x)``"
 msgstr "``arccot(x)``"
 
-#: ../../source/mathfunc.rst:233
+#: ../../source/mathfunc.rst:171
 msgid "Arc cotangent"
 msgstr "Арккотангенс"
 
-#: ../../source/mathfunc.rst:235
+#: ../../source/mathfunc.rst:173
 msgid "``arcsec(x)``"
 msgstr "``arcsec(x)``"
 
-#: ../../source/mathfunc.rst:235
+#: ../../source/mathfunc.rst:173
 msgid "Arc secant"
 msgstr "Арксеканс"
 
-#: ../../source/mathfunc.rst:237
+#: ../../source/mathfunc.rst:175
 msgid "``arcsin(x)``"
 msgstr "``arcsin(x)``"
 
-#: ../../source/mathfunc.rst:237
+#: ../../source/mathfunc.rst:175
 msgid "Arc sine (also known as \"inverse sine\")"
 msgstr "Арксинус (известный также как \"обратный синус\")"
 
-#: ../../source/mathfunc.rst:239
+#: ../../source/mathfunc.rst:177
 msgid "``arctan(x[,y])``"
 msgstr "``arctan(x[,y])``"
 
-#: ../../source/mathfunc.rst:239
+#: ../../source/mathfunc.rst:177
 msgid "Arc tangent (also known as \"inverse tangent\")"
 msgstr "Арктангенс (известный также как \"обратный тангенс\")"
 
-#: ../../source/mathfunc.rst:243
+#: ../../source/mathfunc.rst:181
 msgid "Elementary Mathematical Functions: Hyperbolic Functions"
 msgstr "Элементарные математические функции: гиперболические функции"
 
-#: ../../source/mathfunc.rst:246
+#: ../../source/mathfunc.rst:184
 msgid "``cosh(x)``"
 msgstr "``cosh(x)``"
 
-#: ../../source/mathfunc.rst:246
+#: ../../source/mathfunc.rst:184
 msgid "Hyperbolic cosine"
 msgstr "Гиперболический косинус"
 
-#: ../../source/mathfunc.rst:248
+#: ../../source/mathfunc.rst:186
 msgid "``cosech(x)``"
 msgstr "``cosech(x)``"
 
-#: ../../source/mathfunc.rst:248
+#: ../../source/mathfunc.rst:186
 msgid "Hyperbolic cosecant"
 msgstr "Гиперболический косеканс"
 
-#: ../../source/mathfunc.rst:250
+#: ../../source/mathfunc.rst:188
 msgid "``coth(x)``"
 msgstr "``coth(x)``"
 
-#: ../../source/mathfunc.rst:250
+#: ../../source/mathfunc.rst:188
 msgid "Hyperbolic cotangent"
 msgstr "Гиберболический котангенс"
 
-#: ../../source/mathfunc.rst:252
+#: ../../source/mathfunc.rst:190
 msgid "``sech(x)``"
 msgstr "``sech(x)``"
 
-#: ../../source/mathfunc.rst:252
+#: ../../source/mathfunc.rst:190
 msgid "Hyperbolic secant"
 msgstr "Гиперболический секанс"
 
-#: ../../source/mathfunc.rst:254
+#: ../../source/mathfunc.rst:192
 msgid "``sinh(x)``"
 msgstr "``sinh(x)``"
 
-#: ../../source/mathfunc.rst:254
+#: ../../source/mathfunc.rst:192
 msgid "Hyperbolic sine"
 msgstr "Гиперболический синус"
 
-#: ../../source/mathfunc.rst:256
+#: ../../source/mathfunc.rst:194
 msgid "``tanh(x)``"
 msgstr "``tanh(x)``"
 
-#: ../../source/mathfunc.rst:256
+#: ../../source/mathfunc.rst:194
 msgid "Hyperbolic tangent"
 msgstr "Гиперболический тангенс"
 
-#: ../../source/mathfunc.rst:260
+#: ../../source/mathfunc.rst:198
 msgid "Elementary Mathematical Functions: Inverse Hyperbolic Functions"
 msgstr "Элементарные математические функции: обратные гиперболические функции"
 
-#: ../../source/mathfunc.rst:263
+#: ../../source/mathfunc.rst:201
 msgid "``arcosh(x)``"
 msgstr "``arcosh(x)``"
 
-#: ../../source/mathfunc.rst:263
+#: ../../source/mathfunc.rst:201
 msgid "Hyperbolic area cosine"
 msgstr "Гиперболический ареакосинус"
 
-#: ../../source/mathfunc.rst:265
+#: ../../source/mathfunc.rst:203
 msgid "``arcosech(x)``"
 msgstr "``arcosech(x)``"
 
-#: ../../source/mathfunc.rst:265
+#: ../../source/mathfunc.rst:203
 msgid "Hyperbolic area cosecant"
 msgstr "Гиперболический ареакосеканс"
 
-#: ../../source/mathfunc.rst:267
+#: ../../source/mathfunc.rst:205
 msgid "``arcoth(x)``"
 msgstr "``arcoth(x)``"
 
-#: ../../source/mathfunc.rst:267
+#: ../../source/mathfunc.rst:205
 msgid "Hyperbolic area cotangent"
 msgstr "Гиперболический ареакотангенс"
 
-#: ../../source/mathfunc.rst:269
+#: ../../source/mathfunc.rst:207
 msgid "``arsech(x)``"
 msgstr "``arsech(x)``"
 
-#: ../../source/mathfunc.rst:269
+#: ../../source/mathfunc.rst:207
 msgid "Hyperbolic area secant"
 msgstr "Гиперболический ареасеканс"
 
-#: ../../source/mathfunc.rst:271
+#: ../../source/mathfunc.rst:209
 msgid "``arsinh(x)``"
 msgstr "``arsinh(x)``"
 
-#: ../../source/mathfunc.rst:271
+#: ../../source/mathfunc.rst:209
 msgid "Hyperbolic area sine"
 msgstr "Гиперболический ареасинус"
 
-#: ../../source/mathfunc.rst:273
+#: ../../source/mathfunc.rst:211
 msgid "``artanh(x)``"
 msgstr "``artanh(x)``"
 
-#: ../../source/mathfunc.rst:273
+#: ../../source/mathfunc.rst:211
 msgid "Hyperbolic area tangent"
 msgstr "Гиперболический ареатангенс"
 
-#: ../../source/mathfunc.rst:277
+#: ../../source/mathfunc.rst:215
 msgid "Elementary Mathematical Functions: Rounding"
 msgstr "Элементарные математические функции: округление"
 
-#: ../../source/mathfunc.rst:280
+#: ../../source/mathfunc.rst:218
 msgid "``ceil(x)``"
 msgstr "``ceil(x)``"
 
-#: ../../source/mathfunc.rst:280
+#: ../../source/mathfunc.rst:218
 msgid "Round to the next higher integer"
 msgstr "Округление до ближайшего большего целого"
 
-#: ../../source/mathfunc.rst:282
+#: ../../source/mathfunc.rst:220
 msgid "``fix(x)``"
 msgstr "``fix(x)``"
 
-#: ../../source/mathfunc.rst:282
+#: ../../source/mathfunc.rst:220
 msgid "Truncate decimal places from real number"
 msgstr "Отбрасывание десятичных разрядов вещественного числа"
 
-#: ../../source/mathfunc.rst:284
+#: ../../source/mathfunc.rst:222
 msgid "``floor(x)``"
 msgstr "``floor(x)``"
 
-#: ../../source/mathfunc.rst:284
+#: ../../source/mathfunc.rst:222
 msgid "Round to the next lower integer"
 msgstr "Округление до ближайшего меньшего целого"
 
-#: ../../source/mathfunc.rst:286
+#: ../../source/mathfunc.rst:224
 msgid "``round(x)``"
 msgstr "``round(x)``"
 
-#: ../../source/mathfunc.rst:286
+#: ../../source/mathfunc.rst:224
 msgid "Round to nearest integer"
 msgstr "Округление до ближайшего целого"
 
-#: ../../source/mathfunc.rst:290
+#: ../../source/mathfunc.rst:228
 msgid "Elementary Mathematical Functions: Special Mathematical Functions"
 msgstr ""
 "Элементарные математические функции: специальные математические функции"
 
-#: ../../source/mathfunc.rst:293
+#: ../../source/mathfunc.rst:231
 msgid "``besseli0(x)``"
 msgstr "``besseli0(x)``"
 
-#: ../../source/mathfunc.rst:293
+#: ../../source/mathfunc.rst:231
 msgid "Modified Bessel function of order zero"
 msgstr "Модифицированная функция Бесселя нулевого порядка"
 
-#: ../../source/mathfunc.rst:295
+#: ../../source/mathfunc.rst:233
 msgid "``besselj(n,x)``"
 msgstr "``besselj(n,x)``"
 
-#: ../../source/mathfunc.rst:295
+#: ../../source/mathfunc.rst:233
 msgid "Bessel function of first kind and ``n``-th order"
 msgstr "Функция Бесселя первого рода и n-го порядка"
 
-#: ../../source/mathfunc.rst:297
+#: ../../source/mathfunc.rst:235
 msgid "``bessely(n,x)``"
 msgstr "``bessely(n,x)``"
 
-#: ../../source/mathfunc.rst:297
+#: ../../source/mathfunc.rst:235
 msgid "Bessel function of second kind and ``n``-th order"
 msgstr "Функция Бесселя второго рода и n-го порядка"
 
-#: ../../source/mathfunc.rst:299
+#: ../../source/mathfunc.rst:237
 msgid "``erf(x)``"
 msgstr "``erf(x)``"
 
-#: ../../source/mathfunc.rst:299
+#: ../../source/mathfunc.rst:237
 msgid "Error function"
 msgstr "Функция ошибки"
 
-#: ../../source/mathfunc.rst:301
+#: ../../source/mathfunc.rst:239
 msgid "``erfc(x)``"
 msgstr "``erfc(x)``"
 
-#: ../../source/mathfunc.rst:301
+#: ../../source/mathfunc.rst:239
 msgid "Complementary error function"
 msgstr "Комплиментарная функция ошибки"
 
-#: ../../source/mathfunc.rst:303
+#: ../../source/mathfunc.rst:241
 msgid "``erfinv(x)``"
 msgstr "``erfinv(x)``"
 
-#: ../../source/mathfunc.rst:303
+#: ../../source/mathfunc.rst:241
 msgid "Inverse error function"
 msgstr "Обратная функция ошибки"
 
-#: ../../source/mathfunc.rst:305
+#: ../../source/mathfunc.rst:243
 msgid "``erfcinv(x)``"
 msgstr "``erfcinv(x)``"
 
-#: ../../source/mathfunc.rst:305
+#: ../../source/mathfunc.rst:243
 msgid "Inverse complementary error function"
 msgstr "Обратная комплиментарная функции ошибки"
 
-#: ../../source/mathfunc.rst:307
+#: ../../source/mathfunc.rst:245
 msgid "``sinc(x)``"
 msgstr "``sinc(x)``"
 
-#: ../../source/mathfunc.rst:307
+#: ../../source/mathfunc.rst:245
 msgid "Sinc function (sin(``x``)/\\ ``x`` or 1 at ``x`` = 0)"
 msgstr "Sinc-функция (sin(x)/x или 1 при x = 0)"
 
-#: ../../source/mathfunc.rst:309
+#: ../../source/mathfunc.rst:247
 msgid "``step(x)``"
 msgstr "``step(x)``"
 
-#: ../../source/mathfunc.rst:309
+#: ../../source/mathfunc.rst:247
 msgid "Step function"
 msgstr "Шаговая функция"
 
-#: ../../source/mathfunc.rst:313
+#: ../../source/mathfunc.rst:251
 msgid "Data Analysis: Basic Statistics"
 msgstr "Анализ данных: основы статистики"
 
-#: ../../source/mathfunc.rst:316
+#: ../../source/mathfunc.rst:254
 msgid "``avg(x[,range])``"
 msgstr "``avg(x[,range])``"
 
-#: ../../source/mathfunc.rst:316
+#: ../../source/mathfunc.rst:254
 msgid ""
 "Arithmetic average of vector elements; if a range is given then ``x`` must "
 "have a single data dependency"
 msgstr ""
-"Арифметическое среднее вектора элементов; если задан диапазон range, тогда в "
-"x должна быть однозначная зависимость данных"
+"Арифметическое среднее вектора элементов; если задан диапазон range, тогда в"
+" x должна быть однозначная зависимость данных"
 
-#: ../../source/mathfunc.rst:318
+#: ../../source/mathfunc.rst:256
 msgid "``cumavg(x)``"
 msgstr "``cumavg(x)``"
 
-#: ../../source/mathfunc.rst:318
+#: ../../source/mathfunc.rst:256
 msgid "Cumulative average of vector elements"
 msgstr "Накопительное среднее элементов вектора"
 
-#: ../../source/mathfunc.rst:320
+#: ../../source/mathfunc.rst:258
 msgid "``max(x,y)``"
 msgstr "``max(x,y)``"
 
-#: ../../source/mathfunc.rst:320
+#: ../../source/mathfunc.rst:258
 msgid "Returns the greater of the values ``x`` and ``y``"
 msgstr "Возвращает большее из значений x и y"
 
-#: ../../source/mathfunc.rst:322
+#: ../../source/mathfunc.rst:260
 msgid "``max(x[,range])``"
 msgstr "``max(x[,range])``"
 
-#: ../../source/mathfunc.rst:322
+#: ../../source/mathfunc.rst:260
 msgid ""
 "Maximum value in vector; if a range is given then ``x`` must have a single "
 "data dependency"
 msgstr ""
-"Максимальное значение в векторе; если задан диапазон range, тогда в x должна "
-"быть однозначная зависимость данных"
+"Максимальное значение в векторе; если задан диапазон range, тогда в x должна"
+" быть однозначная зависимость данных"
 
-#: ../../source/mathfunc.rst:324
+#: ../../source/mathfunc.rst:262
 msgid "``min(x,y)``"
 msgstr "``min(x,y)``"
 
-#: ../../source/mathfunc.rst:324
+#: ../../source/mathfunc.rst:262
 msgid "Returns the lesser of the values ``x`` and ``y``"
 msgstr "Возвращает меньшее из значений x и y"
 
-#: ../../source/mathfunc.rst:326
+#: ../../source/mathfunc.rst:264
 msgid "``min(x[,range])``"
 msgstr "``min(x[,range])``"
 
-#: ../../source/mathfunc.rst:326
+#: ../../source/mathfunc.rst:264
 msgid ""
 "Minimum value in vector; if a range is given then ``x`` must have a single "
 "data dependency"
@@ -962,79 +857,79 @@ msgstr ""
 "Минимальное значение в векторе; если задан диапазон range, тогда в x должна "
 "быть однозначная зависимость данных"
 
-#: ../../source/mathfunc.rst:328
+#: ../../source/mathfunc.rst:266
 msgid "``rms(x)``"
 msgstr "``rms(x)``"
 
-#: ../../source/mathfunc.rst:328
+#: ../../source/mathfunc.rst:266
 msgid "Root Mean Square of vector elements"
 msgstr "Среднеквадратичное значение элементов вектора"
 
-#: ../../source/mathfunc.rst:330
+#: ../../source/mathfunc.rst:268
 msgid "``runavg(x)``"
 msgstr "``runavg(x)``"
 
-#: ../../source/mathfunc.rst:330
+#: ../../source/mathfunc.rst:268
 msgid "Running average of vector elements"
 msgstr "Скользящее среднее элементов вектора"
 
-#: ../../source/mathfunc.rst:332
+#: ../../source/mathfunc.rst:270
 msgid "``stddev(x)``"
 msgstr "``stddev(x)``"
 
-#: ../../source/mathfunc.rst:332
+#: ../../source/mathfunc.rst:270
 msgid "Standard deviation of vector elements"
 msgstr "Стандартное отклонение элементов вектора"
 
-#: ../../source/mathfunc.rst:334
+#: ../../source/mathfunc.rst:272
 msgid "``variance(x)``"
 msgstr "``variance(x)``"
 
-#: ../../source/mathfunc.rst:334
+#: ../../source/mathfunc.rst:272
 msgid "Variance of vector elements"
 msgstr "Дисперсия элементов вектора"
 
-#: ../../source/mathfunc.rst:336
+#: ../../source/mathfunc.rst:274
 msgid "``random()``"
 msgstr "``random()``"
 
-#: ../../source/mathfunc.rst:336
+#: ../../source/mathfunc.rst:274
 msgid "Random number between 0.0 and 1.0"
 msgstr "Случайное число между 0.0 и 1.0"
 
-#: ../../source/mathfunc.rst:338
+#: ../../source/mathfunc.rst:276
 msgid "``srandom(x)``"
 msgstr "``srandom(x)``"
 
-#: ../../source/mathfunc.rst:338
+#: ../../source/mathfunc.rst:276
 msgid "Give random seed"
 msgstr "Устанавливает начальное число для random"
 
-#: ../../source/mathfunc.rst:342
+#: ../../source/mathfunc.rst:280
 msgid "Data Analysis: Basic Operation"
 msgstr "Анализ данных: основные операции"
 
-#: ../../source/mathfunc.rst:345
+#: ../../source/mathfunc.rst:283
 msgid "``cumprod(x)``"
 msgstr "``cumprod(x)``"
 
-#: ../../source/mathfunc.rst:345
+#: ../../source/mathfunc.rst:283
 msgid "Cumulative product of vector elements"
 msgstr "Накопительное произведение элементов вектора"
 
-#: ../../source/mathfunc.rst:347
+#: ../../source/mathfunc.rst:285
 msgid "``cumsum(x)``"
 msgstr "``cumsum(x)``"
 
-#: ../../source/mathfunc.rst:347
+#: ../../source/mathfunc.rst:285
 msgid "Cumulative sum of vector elements"
 msgstr "Накопительная сумма элементов вектора"
 
-#: ../../source/mathfunc.rst:349
+#: ../../source/mathfunc.rst:287
 msgid "``interpolate(f,x[,n])``"
 msgstr "``interpolate(f,x[,n])``"
 
-#: ../../source/mathfunc.rst:349
+#: ../../source/mathfunc.rst:287
 msgid ""
 "Equidistant spline interpolation of real function vector ``f(x)`` using "
 "``n`` equidistant datapoints; the latter can be omitted and defaults to a "
@@ -1044,27 +939,27 @@ msgstr ""
 "использованием n равноудаленных отсчетов данных; последние можно опустить и "
 "использовать значения по умолчанию"
 
-#: ../../source/mathfunc.rst:351
+#: ../../source/mathfunc.rst:289
 msgid "``prod(x)``"
 msgstr "``prod(x)``"
 
-#: ../../source/mathfunc.rst:351
+#: ../../source/mathfunc.rst:289
 msgid "Product of vector elements"
 msgstr "Произведение элементов вектора"
 
-#: ../../source/mathfunc.rst:353
+#: ../../source/mathfunc.rst:291
 msgid "``sum(x)``"
 msgstr "``sum(x)``"
 
-#: ../../source/mathfunc.rst:353
+#: ../../source/mathfunc.rst:291
 msgid "Sum of vector elements"
 msgstr "Сумма элементов вектора"
 
-#: ../../source/mathfunc.rst:355
+#: ../../source/mathfunc.rst:293
 msgid "``xvalue(f,yval)``"
 msgstr "``xvalue(f,yval)``"
 
-#: ../../source/mathfunc.rst:355
+#: ../../source/mathfunc.rst:293
 msgid ""
 "Returns the x-value which is associated with the y-value nearest to a "
 "specified y-value ``yval`` in a given vector ``f``; therefore the vector "
@@ -1074,38 +969,39 @@ msgstr ""
 "заданному y-значению yval данного вектора f; следовательно, в векторе f "
 "должна быть однозначная зависимость данных"
 
-#: ../../source/mathfunc.rst:357
+#: ../../source/mathfunc.rst:295
 msgid "``yvalue(f,xval)``"
 msgstr "``yvalue(f,xval)``"
 
-#: ../../source/mathfunc.rst:357
+#: ../../source/mathfunc.rst:295
 msgid ""
 "Returns the y-value of the given vector ``f`` which is located nearest to "
 "the x-value ``xval``; therefore the vector ``f`` must have a single data "
 "dependency"
 msgstr ""
-"Возвращает y-значение данного вектора f, которое ближе всего соответствует x-"
-"значению xval; следовательно, в векторе f должна быть однозначная "
+"Возвращает y-значение данного вектора f, которое ближе всего соответствует "
+"x-значению xval; следовательно, в векторе f должна быть однозначная "
 "зависимость данных"
 
-#: ../../source/mathfunc.rst:361
+#: ../../source/mathfunc.rst:299
 msgid "Data Analysis: Differentiation and Integration"
 msgstr "Анализ данных: дифференцирование и интегрирование"
 
-#: ../../source/mathfunc.rst:364
+#: ../../source/mathfunc.rst:302
 msgid "``ddx(expr,var)``"
 msgstr "``ddx(expr,var)``"
 
-#: ../../source/mathfunc.rst:364
+#: ../../source/mathfunc.rst:302
 msgid ""
-"Derives mathematical expression ``expr`` with respect to the variable ``var``"
+"Derives mathematical expression ``expr`` with respect to the variable "
+"``var``"
 msgstr "Дифференцирует математическое выражение expr по переменной var"
 
-#: ../../source/mathfunc.rst:366
+#: ../../source/mathfunc.rst:304
 msgid "``diff(y,x[,n])``"
 msgstr "``diff(y,x[,n])``"
 
-#: ../../source/mathfunc.rst:366
+#: ../../source/mathfunc.rst:304
 msgid ""
 "Differentiate vector ``y`` with respect to vector ``x`` ``n`` times. If "
 "``n`` is omitted it defaults to ``n`` = 1"
@@ -1113,39 +1009,39 @@ msgstr ""
 "Дифференцировать вектор y по вектору x n раз. Если n опущено, то берется "
 "значение n = 1"
 
-#: ../../source/mathfunc.rst:368
+#: ../../source/mathfunc.rst:306
 msgid "``integrate(x,h)``"
 msgstr "``integrate(x,h)``"
 
-#: ../../source/mathfunc.rst:368
+#: ../../source/mathfunc.rst:306
 msgid "Integrate vector ``x`` numerically assuming a constant step-size ``h``"
 msgstr "Численно интегрировать вектор x, считая, что размер шага h постоянный"
 
-#: ../../source/mathfunc.rst:372
+#: ../../source/mathfunc.rst:310
 msgid "Data Analysis: Signal Processing"
 msgstr "Анализ данных: обработка сигналов"
 
-#: ../../source/mathfunc.rst:375
+#: ../../source/mathfunc.rst:313
 msgid "``dft(x)``"
 msgstr "``dft(x)``"
 
-#: ../../source/mathfunc.rst:375
+#: ../../source/mathfunc.rst:313
 msgid "Discrete Fourier Transform of vector ``x``"
 msgstr "Дискретное преобразование Фурье для вектора x"
 
-#: ../../source/mathfunc.rst:377
+#: ../../source/mathfunc.rst:315
 msgid "``fft(x)``"
 msgstr "``fft(x)``"
 
-#: ../../source/mathfunc.rst:377
+#: ../../source/mathfunc.rst:315
 msgid "Fast Fourier Transform of vector ``x``"
 msgstr "Быстрое преобразование Фурье для вектора x"
 
-#: ../../source/mathfunc.rst:379
+#: ../../source/mathfunc.rst:317
 msgid "``fftshift(x)``"
 msgstr "``fftshift(x)``"
 
-#: ../../source/mathfunc.rst:379
+#: ../../source/mathfunc.rst:317
 msgid ""
 "Shuffles the FFT values of vector ``x`` in order to move the frequency 0 to "
 "the center of the vector"
@@ -1153,11 +1049,11 @@ msgstr ""
 "Переставляет БПФ-значения вектора x для того, чтобы переместить частоту 0 в "
 "центр вектора"
 
-#: ../../source/mathfunc.rst:381
+#: ../../source/mathfunc.rst:319
 msgid "``Freq2Time(V,f)``"
 msgstr "``Freq2Time(V,f)``"
 
-#: ../../source/mathfunc.rst:381
+#: ../../source/mathfunc.rst:319
 msgid ""
 "Inverse Discrete Fourier Transform of function ``V(f)`` interpreting it "
 "physically"
@@ -1165,119 +1061,119 @@ msgstr ""
 "Обратное дискретное преобразование Фурье функции V(f) с физической "
 "интерпретацией"
 
-#: ../../source/mathfunc.rst:383
+#: ../../source/mathfunc.rst:321
 msgid "``idft(x)``"
 msgstr "``idft(x)``"
 
-#: ../../source/mathfunc.rst:383
+#: ../../source/mathfunc.rst:321
 msgid "Inverse Discrete Fourier Transform of vector ``x``"
 msgstr "Обратное дискретное преобразование Фурье для вектора x"
 
-#: ../../source/mathfunc.rst:385
+#: ../../source/mathfunc.rst:323
 msgid "``ifft(x)``"
 msgstr "``ifft(x)``"
 
-#: ../../source/mathfunc.rst:385
+#: ../../source/mathfunc.rst:323
 msgid "Inverse Fast Fourier Transform of vector ``x``"
 msgstr "Обратное быстрое преобразование Фурье для вектора x"
 
-#: ../../source/mathfunc.rst:387
+#: ../../source/mathfunc.rst:325
 msgid "``kbd(x[,n])``"
 msgstr "``kbd(x[,n])``"
 
-#: ../../source/mathfunc.rst:387
+#: ../../source/mathfunc.rst:325
 msgid "Kaiser-Bessel derived window"
 msgstr "Производное окно Кайзера-Бесселя"
 
-#: ../../source/mathfunc.rst:389
+#: ../../source/mathfunc.rst:327
 msgid "``Time2Freq(v,t)``"
 msgstr "``Time2Freq(v,t)``"
 
-#: ../../source/mathfunc.rst:389
+#: ../../source/mathfunc.rst:327
 msgid ""
 "Discrete Fourier Transform of function ``v(t)`` interpreting it physically"
 msgstr ""
 "Дискретное преобразование Фурье функции v(t) с физической интерпретацией"
 
-#: ../../source/mathfunc.rst:393
+#: ../../source/mathfunc.rst:331
 msgid "Electronics Functions"
 msgstr "Функции из электроники"
 
-#: ../../source/mathfunc.rst:396
+#: ../../source/mathfunc.rst:334
 msgid "Unit Conversion"
 msgstr "Преобразование единиц измерения"
 
-#: ../../source/mathfunc.rst:399
+#: ../../source/mathfunc.rst:337
 msgid "``dB(x)``"
 msgstr "``dB(x)``"
 
-#: ../../source/mathfunc.rst:399
+#: ../../source/mathfunc.rst:337
 msgid "dB value"
 msgstr "Значение в дБ"
 
-#: ../../source/mathfunc.rst:401
+#: ../../source/mathfunc.rst:339
 msgid "``dbm(x)``"
 msgstr "``dbm(x)``"
 
-#: ../../source/mathfunc.rst:401
+#: ../../source/mathfunc.rst:339
 msgid "Convert voltage to power in dBm"
 msgstr "Преобразовать напряжение в мощность в дБм"
 
-#: ../../source/mathfunc.rst:403
+#: ../../source/mathfunc.rst:341
 msgid "``dbm2w(x)``"
 msgstr "``dbm2w(x)``"
 
-#: ../../source/mathfunc.rst:403
+#: ../../source/mathfunc.rst:341
 msgid "Convert power in dBm to power in Watts"
 msgstr "Преобразовать мощность в дБм в мощность в ваттах"
 
-#: ../../source/mathfunc.rst:405
+#: ../../source/mathfunc.rst:343
 msgid "``w2dbm(x)``"
 msgstr "``w2dbm(x)``"
 
-#: ../../source/mathfunc.rst:405
+#: ../../source/mathfunc.rst:343
 msgid "Convert power in Watts to power in dBm"
 msgstr "Преобразовать мощность в ваттах в мощность в дБм"
 
-#: ../../source/mathfunc.rst:407
+#: ../../source/mathfunc.rst:345
 msgid "``vt(t)``"
 msgstr "``vt(t)``"
 
-#: ../../source/mathfunc.rst:407
+#: ../../source/mathfunc.rst:345
 msgid "Thermal voltage for a given temperature ``t`` in Kelvin"
 msgstr "Температурный потенциал для данной температуры t в градусах Кельвина"
 
-#: ../../source/mathfunc.rst:411
+#: ../../source/mathfunc.rst:349
 msgid "Reflection Coefficients and VSWR"
 msgstr "Коэффициенты отражения и КСВН"
 
-#: ../../source/mathfunc.rst:414
+#: ../../source/mathfunc.rst:352
 msgid "``rtoswr(x)``"
 msgstr "``rtoswr(x)``"
 
-#: ../../source/mathfunc.rst:414
+#: ../../source/mathfunc.rst:352
 msgid "Converts reflection coefficient to voltage standing wave ratio (VSWR)"
 msgstr ""
 "Преобразует коэффициент отражения в коэффициент стоячей волны по напряжению "
 "(КСВН)"
 
-#: ../../source/mathfunc.rst:416
+#: ../../source/mathfunc.rst:354
 msgid "``rtoy(x[,zref])``"
 msgstr "``rtoy(x[,zref])``"
 
-#: ../../source/mathfunc.rst:416
+#: ../../source/mathfunc.rst:354
 msgid ""
-"Converts reflection coefficient to admittance; by default reference ``zref`` "
-"is 50 ohms"
+"Converts reflection coefficient to admittance; by default reference ``zref``"
+" is 50 ohms"
 msgstr ""
 "Преобразует коэффициент отражения в полную проводимость; по умолчанию zref "
 "равно 50 Ом"
 
-#: ../../source/mathfunc.rst:418
+#: ../../source/mathfunc.rst:356
 msgid "``rtoz(x[,zref])``"
 msgstr "``rtoz(x[,zref])``"
 
-#: ../../source/mathfunc.rst:418
+#: ../../source/mathfunc.rst:356
 msgid ""
 "Converts reflection coefficient to impedance; by default reference ``zref`` "
 "is 50 ohms"
@@ -1285,23 +1181,23 @@ msgstr ""
 "Преобразует коэффициент отражения в полное сопротивление; по умолчанию zref "
 "равно 50 Ом"
 
-#: ../../source/mathfunc.rst:420
+#: ../../source/mathfunc.rst:358
 msgid "``ytor(x[,zref])``"
 msgstr "``ytor(x[,zref])``"
 
-#: ../../source/mathfunc.rst:420
+#: ../../source/mathfunc.rst:358
 msgid ""
-"Converts admittance to reflection coefficient; by default reference ``zref`` "
-"is 50 ohms"
+"Converts admittance to reflection coefficient; by default reference ``zref``"
+" is 50 ohms"
 msgstr ""
 "Преобразует полную проводимость в коэффициент отражения; по умолчанию zref "
 "равно 50 Ом"
 
-#: ../../source/mathfunc.rst:422
+#: ../../source/mathfunc.rst:360
 msgid "``ztor(x[,zref])``"
 msgstr "``ztor(x[,zref])``"
 
-#: ../../source/mathfunc.rst:422
+#: ../../source/mathfunc.rst:360
 msgid ""
 "Converts impedance to reflection coefficient; by default reference ``zref`` "
 "is 50 ohms"
@@ -1309,15 +1205,15 @@ msgstr ""
 "Преобразует полное сопротивление в коэффициент отражения; по умолчанию zref "
 "равно 50 Ом"
 
-#: ../../source/mathfunc.rst:426
+#: ../../source/mathfunc.rst:364
 msgid "N-Port Matrix Conversions"
 msgstr "N-портовые матричные преобразования"
 
-#: ../../source/mathfunc.rst:429
+#: ../../source/mathfunc.rst:367
 msgid "``stos(s,zref[,z0])``"
 msgstr "``stos(s,zref[,z0])``"
 
-#: ../../source/mathfunc.rst:429
+#: ../../source/mathfunc.rst:367
 msgid ""
 "Converts S-parameter matrix to S-parameter matrix with different reference "
 "impedance(s)"
@@ -1325,27 +1221,27 @@ msgstr ""
 "Преобразует матрицу S-параметров в матрицу S-параметров с другим эталонным "
 "полным сопротивлением(ями)"
 
-#: ../../source/mathfunc.rst:431
+#: ../../source/mathfunc.rst:369
 msgid "``stoy(s[,zref])``"
 msgstr "``stoy(s[,zref])``"
 
-#: ../../source/mathfunc.rst:431
+#: ../../source/mathfunc.rst:369
 msgid "Converts S-parameter matrix to Y-parameter matrix"
 msgstr "Преобразует матрицу S-параметров в матрицу Y-параметров"
 
-#: ../../source/mathfunc.rst:433
+#: ../../source/mathfunc.rst:371
 msgid "``stoz(s[,zref])``"
 msgstr "``stoz(s[,zref])``"
 
-#: ../../source/mathfunc.rst:433
+#: ../../source/mathfunc.rst:371
 msgid "Converts S-parameter matrix to Z-parameter matrix"
 msgstr "Преобразует матрицу S-параметров в матрицу Z-параметров"
 
-#: ../../source/mathfunc.rst:435
+#: ../../source/mathfunc.rst:373
 msgid "``twoport(m,from,to)``"
 msgstr "``twoport(m,from,to)``"
 
-#: ../../source/mathfunc.rst:435
+#: ../../source/mathfunc.rst:373
 msgid ""
 "Converts a two-port matrix from one representation into another, possible "
 "values for ``from`` and ``to`` are 'Y', 'Z', 'H', 'G', 'A', 'S' and 'T'."
@@ -1353,82 +1249,84 @@ msgstr ""
 "Преобразует двух-портовую матрицу из одного представления в другое, "
 "возможные значения для from и to равны 'Y', 'Z', 'H', 'G', 'A', 'S' и 'T'."
 
-#: ../../source/mathfunc.rst:437
+#: ../../source/mathfunc.rst:375
 msgid "``ytos(y[,z0])``"
 msgstr "``ytos(y[,z0])``"
 
-#: ../../source/mathfunc.rst:437
+#: ../../source/mathfunc.rst:375
 msgid "Converts Y-parameter matrix to S-parameter matrix"
 msgstr "Преобразует матрицу Y-параметров в матрицу S-параметров"
 
-#: ../../source/mathfunc.rst:439
+#: ../../source/mathfunc.rst:377
 msgid "``ytoz(y)``"
 msgstr "``ytoz(y)``"
 
-#: ../../source/mathfunc.rst:439
+#: ../../source/mathfunc.rst:377
 msgid "Converts Y-parameter matrix to Z-parameter matrix"
 msgstr "Преобразует матрицу Y-параметров в матрицу Z-параметров"
 
-#: ../../source/mathfunc.rst:441
+#: ../../source/mathfunc.rst:379
 msgid "``ztos(z[,z0])``"
 msgstr "``ztos(z[,z0])``"
 
-#: ../../source/mathfunc.rst:441
+#: ../../source/mathfunc.rst:379
 msgid "Converts Z-parameter matrix to S-parameter matrix"
 msgstr "Преобразует матрицу Z-параметров в матрицу S-параметров"
 
-#: ../../source/mathfunc.rst:443
+#: ../../source/mathfunc.rst:381
 msgid "``ztoy(z)``"
 msgstr "``ztoy(z)``"
 
-#: ../../source/mathfunc.rst:443
+#: ../../source/mathfunc.rst:381
 msgid "Converts Z-parameter matrix to Y-parameter matrix"
 msgstr "Преобразует матрицу Z-параметров в матрицу Y-параметров"
 
-#: ../../source/mathfunc.rst:447
+#: ../../source/mathfunc.rst:385
 msgid "Amplifiers"
 msgstr "Усилители"
 
-#: ../../source/mathfunc.rst:450
+#: ../../source/mathfunc.rst:388
 msgid "``GaCircle(s,Ga[,arcs])``"
 msgstr "``GaCircle(s,Ga[,arcs])``"
 
-#: ../../source/mathfunc.rst:450
-msgid "Circle(s) with constant available power gain ``Ga`` in the source plane"
+#: ../../source/mathfunc.rst:388
+msgid ""
+"Circle(s) with constant available power gain ``Ga`` in the source plane"
 msgstr ""
 "Окружность(и) с постоянным усилением располагаемой мощности Ga в плоскости "
 "источника"
 
-#: ../../source/mathfunc.rst:452
+#: ../../source/mathfunc.rst:390
 msgid "``GpCircle(s,Gp[,arcs])``"
 msgstr "``GpCircle(s,Gp[,arcs])``"
 
-#: ../../source/mathfunc.rst:452
+#: ../../source/mathfunc.rst:390
 msgid "Circle(s) with constant operating power gain ``Gp`` in the load plane"
 msgstr ""
-"Окружность(и) с постоянным усилением рабочей мощности Gp в плоскости нагрузки"
+"Окружность(и) с постоянным усилением рабочей мощности Gp в плоскости "
+"нагрузки"
 
-#: ../../source/mathfunc.rst:454
+#: ../../source/mathfunc.rst:392
 msgid "``Mu(s)``"
 msgstr "``Mu(s)``"
 
-#: ../../source/mathfunc.rst:454
+#: ../../source/mathfunc.rst:392
 msgid "Mu stability factor of a two-port S-parameter matrix"
 msgstr "Mu - фактор устойчивости двухпортовой матрицы S-параметров"
 
-#: ../../source/mathfunc.rst:456
+#: ../../source/mathfunc.rst:394
 msgid "``Mu2(s)``"
 msgstr "``Mu2(s)``"
 
-#: ../../source/mathfunc.rst:456
+#: ../../source/mathfunc.rst:394
 msgid "Mu' stability factor of a two-port S-parameter matrix"
 msgstr "Mu' - фактор устойчивости двухпортовой матрицы S-параметров"
 
-#: ../../source/mathfunc.rst:458
+#: ../../source/mathfunc.rst:396
 msgid "``NoiseCircle(Sopt,             Fmin,Rn,F[,Arcs])``"
 msgstr "``NoiseCircle(Sopt,             Fmin,Rn,F[,Arcs])``"
 
-#: ../../source/mathfunc.rst:458
+#: ../../source/mathfunc.rst:396
 msgid ""
 "Generates circle(s) with constant Noise Figure(s) ``F``. ``Arcs`` specifies "
 "the angles in degrees created by e.g. ``linspace(0,360,100)``. If Arcs is a "
@@ -1440,11 +1338,11 @@ msgstr ""
 "оно задает число равноудаленных круговых сегментов, если оно опущено, то "
 "берется значение по умолчанию"
 
-#: ../../source/mathfunc.rst:460
+#: ../../source/mathfunc.rst:398
 msgid "``PlotVs(data,dep)``"
 msgstr "``PlotVs(data,dep)``"
 
-#: ../../source/mathfunc.rst:460
+#: ../../source/mathfunc.rst:398
 msgid ""
 "Returns a data item based upon vector or matrix vector ``data`` with "
 "dependency on a given vector ``dep``, e.g. ``PlotVs(Gain,frequency/1e9)``"
@@ -1452,325 +1350,325 @@ msgstr ""
 "Возвращает элемент данных из вектора или вектора матрицы data, зависящий от "
 "данного вектора dep, например, PlotVs(Gain,frequency/1e9)"
 
-#: ../../source/mathfunc.rst:462
+#: ../../source/mathfunc.rst:400
 msgid "``Rollet(s)``"
 msgstr "``Rollet(s)``"
 
-#: ../../source/mathfunc.rst:462
+#: ../../source/mathfunc.rst:400
 msgid "Rollet stability factor of a two-port S-parameter matrix"
 msgstr "Фактор устойчивости Роллета для двухпортовой матрицы S-параметров"
 
-#: ../../source/mathfunc.rst:464
+#: ../../source/mathfunc.rst:402
 msgid "``StabCircleL(s[,arcs])``"
 msgstr "``StabCircleL(s[,arcs])``"
 
-#: ../../source/mathfunc.rst:464
+#: ../../source/mathfunc.rst:402
 msgid "Stability circle in the load plane"
 msgstr "Окружность устойчивости в плоскости нагрузки"
 
-#: ../../source/mathfunc.rst:466
+#: ../../source/mathfunc.rst:404
 msgid "``StabCircleS(s[,arcs])``"
 msgstr "``StabCircleS(s[,arcs])``"
 
-#: ../../source/mathfunc.rst:466
+#: ../../source/mathfunc.rst:404
 msgid "Stability circle in the source plane"
 msgstr "Окружность устойчивости в плоскости источника"
 
-#: ../../source/mathfunc.rst:468
+#: ../../source/mathfunc.rst:406
 msgid "``StabFactor(s)``"
 msgstr "``StabFactor(s)``"
 
-#: ../../source/mathfunc.rst:468
+#: ../../source/mathfunc.rst:406
 msgid ""
 "Stability factor of a two-port S-parameter matrix. Synonym for ``Rollet()``"
 msgstr ""
 "Фактор устойчивости двухпортовой матрицы S-параметров. Синоним Rollet()"
 
-#: ../../source/mathfunc.rst:470
+#: ../../source/mathfunc.rst:408
 msgid "``StabMeasure(s)``"
 msgstr "``StabMeasure(s)``"
 
-#: ../../source/mathfunc.rst:470
+#: ../../source/mathfunc.rst:408
 msgid "Stability measure B1 of a two-port S-parameter matrix"
 msgstr "Мера устойчивости B1 двухпортовой матрицы S-параметров"
 
-#: ../../source/mathfunc.rst:474
+#: ../../source/mathfunc.rst:412
 msgid "Nomenclature"
 msgstr "Номенклатура"
 
-#: ../../source/mathfunc.rst:477
+#: ../../source/mathfunc.rst:415
 msgid "Ranges"
 msgstr "Интервалы"
 
-#: ../../source/mathfunc.rst:480
+#: ../../source/mathfunc.rst:418
 msgid "``LO:HI``"
 msgstr "``LO:HI``"
 
-#: ../../source/mathfunc.rst:480
+#: ../../source/mathfunc.rst:418
 msgid "Range from ``LO`` to ``HI``"
 msgstr "Интервал от LO до HI"
 
-#: ../../source/mathfunc.rst:482
+#: ../../source/mathfunc.rst:420
 msgid "``:HI``"
 msgstr "``:HI``"
 
-#: ../../source/mathfunc.rst:482
+#: ../../source/mathfunc.rst:420
 msgid "Up to ``HI``"
 msgstr "Вплоть до HI"
 
-#: ../../source/mathfunc.rst:484
+#: ../../source/mathfunc.rst:422
 msgid "``LO:``"
 msgstr "``LO:``"
 
-#: ../../source/mathfunc.rst:484
+#: ../../source/mathfunc.rst:422
 msgid "From ``LO``"
 msgstr "От LO"
 
-#: ../../source/mathfunc.rst:486
+#: ../../source/mathfunc.rst:424
 msgid "``:``"
 msgstr "``:``"
 
-#: ../../source/mathfunc.rst:486
+#: ../../source/mathfunc.rst:424
 msgid "No range limitations"
 msgstr "Нет ограничений интервала"
 
-#: ../../source/mathfunc.rst:490
+#: ../../source/mathfunc.rst:428
 msgid "Matrices and Matrix Elements"
 msgstr "Матрицы и элементы матриц"
 
-#: ../../source/mathfunc.rst:493 ../../source/mathfunc.rst:525
+#: ../../source/mathfunc.rst:431 ../../source/mathfunc.rst:463
 msgid "``M``"
 msgstr "``M``"
 
-#: ../../source/mathfunc.rst:493
+#: ../../source/mathfunc.rst:431
 msgid "The whole matrix ``M``"
 msgstr "Вся матрица M"
 
-#: ../../source/mathfunc.rst:495
+#: ../../source/mathfunc.rst:433
 msgid "``M[2,3]``"
 msgstr "``M[2,3]``"
 
-#: ../../source/mathfunc.rst:495
+#: ../../source/mathfunc.rst:433
 msgid "Element being in 2nd row and 3rd column of matrix ``M``"
 msgstr "Элемент, находящийся во 2-м ряду и 3-м столбце матрицы M"
 
-#: ../../source/mathfunc.rst:497
+#: ../../source/mathfunc.rst:435
 msgid "``M[:,3]``"
 msgstr "``M[:,3]``"
 
-#: ../../source/mathfunc.rst:497
+#: ../../source/mathfunc.rst:435
 msgid "Vector consisting of 3rd column of matrix ``M``"
 msgstr "Вектор, состоящий из 3-го столбца матрицы M"
 
-#: ../../source/mathfunc.rst:501
+#: ../../source/mathfunc.rst:439
 msgid "Immediate"
 msgstr "Непосредственно"
 
-#: ../../source/mathfunc.rst:504
+#: ../../source/mathfunc.rst:442
 msgid "``2.5``"
 msgstr "``2.5``"
 
-#: ../../source/mathfunc.rst:504
+#: ../../source/mathfunc.rst:442
 msgid "Real number"
 msgstr "Вещественное число"
 
-#: ../../source/mathfunc.rst:506
+#: ../../source/mathfunc.rst:444
 msgid "``1.4+j5.1``"
 msgstr "``1.4+j5.1``"
 
-#: ../../source/mathfunc.rst:506
+#: ../../source/mathfunc.rst:444
 msgid "Complex number"
 msgstr "Комплексное число"
 
-#: ../../source/mathfunc.rst:508
+#: ../../source/mathfunc.rst:446
 msgid "``[1,3,5,7]``"
 msgstr "``[1,3,5,7]``"
 
-#: ../../source/mathfunc.rst:508
+#: ../../source/mathfunc.rst:446
 msgid "Vector"
 msgstr "Вектор"
 
-#: ../../source/mathfunc.rst:510
+#: ../../source/mathfunc.rst:448
 msgid "``[11,12;21,22]``"
 msgstr "``[11,12;21,22]``"
 
-#: ../../source/mathfunc.rst:510
+#: ../../source/mathfunc.rst:448
 msgid "Matrix"
 msgstr "Матрица"
 
-#: ../../source/mathfunc.rst:514
+#: ../../source/mathfunc.rst:452
 msgid "Number suffixes"
 msgstr "Приставки к единицам"
 
-#: ../../source/mathfunc.rst:517
+#: ../../source/mathfunc.rst:455
 msgid "``E``"
 msgstr "``E``"
 
-#: ../../source/mathfunc.rst:517
+#: ../../source/mathfunc.rst:455
 msgid "exa, \\* 1e+18"
 msgstr "экса, * 1e+18"
 
-#: ../../source/mathfunc.rst:519
+#: ../../source/mathfunc.rst:457
 msgid "``P``"
 msgstr "``P``"
 
-#: ../../source/mathfunc.rst:519
+#: ../../source/mathfunc.rst:457
 msgid "peta, \\* 1e+15"
 msgstr "пета, * 1e+15"
 
-#: ../../source/mathfunc.rst:521
+#: ../../source/mathfunc.rst:459
 msgid "``T``"
 msgstr "``T``"
 
-#: ../../source/mathfunc.rst:521
+#: ../../source/mathfunc.rst:459
 msgid "tera, \\* 1e+12"
 msgstr "тера, * 1e+12"
 
-#: ../../source/mathfunc.rst:523
+#: ../../source/mathfunc.rst:461
 msgid "``G``"
 msgstr "``G``"
 
-#: ../../source/mathfunc.rst:523
+#: ../../source/mathfunc.rst:461
 msgid "giga, \\* 1e+9"
 msgstr "гига, * 1e+9"
 
-#: ../../source/mathfunc.rst:525
+#: ../../source/mathfunc.rst:463
 msgid "mega, \\* 1e+6"
 msgstr "мега, * 1e+6"
 
-#: ../../source/mathfunc.rst:527
+#: ../../source/mathfunc.rst:465
 msgid "``k``"
 msgstr "``k``"
 
-#: ../../source/mathfunc.rst:527
+#: ../../source/mathfunc.rst:465
 msgid "kilo, \\* 1e+3"
 msgstr "кило, * 1e+3"
 
-#: ../../source/mathfunc.rst:529
+#: ../../source/mathfunc.rst:467
 msgid "``m``"
 msgstr "``m``"
 
-#: ../../source/mathfunc.rst:529
+#: ../../source/mathfunc.rst:467
 msgid "milli, \\* 1e-3"
 msgstr "милли, * 1e-3"
 
-#: ../../source/mathfunc.rst:531
+#: ../../source/mathfunc.rst:469
 msgid "``u``"
 msgstr "``u``"
 
-#: ../../source/mathfunc.rst:531
+#: ../../source/mathfunc.rst:469
 msgid "micro, \\* 1e-6"
 msgstr "микро, * 1e-6"
 
-#: ../../source/mathfunc.rst:533
+#: ../../source/mathfunc.rst:471
 msgid "``n``"
 msgstr "``n``"
 
-#: ../../source/mathfunc.rst:533
+#: ../../source/mathfunc.rst:471
 msgid "nano, \\* 1e-9"
 msgstr "нано, * 1e-9"
 
-#: ../../source/mathfunc.rst:535
+#: ../../source/mathfunc.rst:473
 msgid "``p``"
 msgstr "``p``"
 
-#: ../../source/mathfunc.rst:535
+#: ../../source/mathfunc.rst:473
 msgid "pico, \\* 1e-12"
 msgstr "пико, * 1e-12"
 
-#: ../../source/mathfunc.rst:537
+#: ../../source/mathfunc.rst:475
 msgid "``f``"
 msgstr "``f``"
 
-#: ../../source/mathfunc.rst:537
+#: ../../source/mathfunc.rst:475
 msgid "femto, \\* 1e-15"
 msgstr "фемто, * 1e-15"
 
-#: ../../source/mathfunc.rst:539
+#: ../../source/mathfunc.rst:477
 msgid "``a``"
 msgstr "``a``"
 
-#: ../../source/mathfunc.rst:539
+#: ../../source/mathfunc.rst:477
 msgid "atto, \\* 1e-18"
 msgstr "атто, * 1e-18"
 
-#: ../../source/mathfunc.rst:543
+#: ../../source/mathfunc.rst:481
 msgid "Name of Values"
 msgstr "Названия величин"
 
-#: ../../source/mathfunc.rst:546
+#: ../../source/mathfunc.rst:484
 msgid "``S[1,1]``"
 msgstr "``S[1,1]``"
 
-#: ../../source/mathfunc.rst:546
+#: ../../source/mathfunc.rst:484
 msgid "S-parameter value"
 msgstr "Значение S-параметра"
 
-#: ../../source/mathfunc.rst:548
+#: ../../source/mathfunc.rst:486
 msgid "*nodename*.\\ ``V``"
 msgstr ""
 
-#: ../../source/mathfunc.rst:548
+#: ../../source/mathfunc.rst:486
 msgid "DC voltage at node *nodename*"
 msgstr "Напряжение постоянного тока в узле nodename"
 
-#: ../../source/mathfunc.rst:550
+#: ../../source/mathfunc.rst:488
 msgid "*name*.\\ ``I``"
 msgstr ""
 
-#: ../../source/mathfunc.rst:550
+#: ../../source/mathfunc.rst:488
 msgid "DC current through component *name*"
 msgstr "Постоянный ток через компонент name"
 
-#: ../../source/mathfunc.rst:552
+#: ../../source/mathfunc.rst:490
 msgid "*nodename*.\\ ``v``"
 msgstr ""
 
-#: ../../source/mathfunc.rst:552
+#: ../../source/mathfunc.rst:490
 msgid "AC voltage at node *nodename*"
 msgstr "Переменное напряжение в узле nodename"
 
-#: ../../source/mathfunc.rst:554
+#: ../../source/mathfunc.rst:492
 msgid "*name*.\\ ``i``"
 msgstr ""
 
-#: ../../source/mathfunc.rst:554
+#: ../../source/mathfunc.rst:492
 msgid "AC current through component *name*"
 msgstr "Переменный ток через компонент name"
 
-#: ../../source/mathfunc.rst:556
+#: ../../source/mathfunc.rst:494
 msgid "*nodename*.\\ ``vn``"
 msgstr ""
 
-#: ../../source/mathfunc.rst:556
+#: ../../source/mathfunc.rst:494
 msgid "AC noise voltage at node *nodename*"
 msgstr "Шумовое напряжение переменного тока в узле nodename"
 
-#: ../../source/mathfunc.rst:558
+#: ../../source/mathfunc.rst:496
 msgid "*name*.\\ ``in``"
 msgstr ""
 
-#: ../../source/mathfunc.rst:558
+#: ../../source/mathfunc.rst:496
 msgid "AC noise current through component *name*"
 msgstr "Шумовой переменный ток через компонент name"
 
-#: ../../source/mathfunc.rst:560
+#: ../../source/mathfunc.rst:498
 msgid "*nodename*.\\ ``Vt``"
 msgstr ""
 
-#: ../../source/mathfunc.rst:560
+#: ../../source/mathfunc.rst:498
 msgid "Transient voltage at node *nodename*"
 msgstr "Переходное напряжение в узле nodename"
 
-#: ../../source/mathfunc.rst:562
+#: ../../source/mathfunc.rst:500
 msgid "*name*.\\ ``It``"
 msgstr ""
 
-#: ../../source/mathfunc.rst:562
+#: ../../source/mathfunc.rst:500
 msgid "Transient current through component *name*"
 msgstr "Переходной ток через компонент name"
 
-#: ../../source/mathfunc.rst:565
+#: ../../source/mathfunc.rst:503
 msgid ""
 "Note: All voltages and currents are peak values. Note: Noise voltages are "
 "RMS values at 1 Hz bandwidth."
@@ -1778,46 +1676,150 @@ msgstr ""
 "Примечание: Все напряжения и токи - пиковые значения.Примечание: Шумовые "
 "напряжения - СКЗ значения в полосе частот 1 Hz."
 
-#: ../../source/mathfunc.rst:569
+#: ../../source/mathfunc.rst:507
 msgid "Constants"
 msgstr "Константы"
 
-#: ../../source/mathfunc.rst:572
+#: ../../source/mathfunc.rst:510
 msgid "``i, j``"
 msgstr "``i, j``"
 
-#: ../../source/mathfunc.rst:572
+#: ../../source/mathfunc.rst:510
 msgid "Imaginary unit (\"square root of -1\")"
 msgstr "Мнимая единица (\"квадратный корень из -1\")"
 
-#: ../../source/mathfunc.rst:574
+#: ../../source/mathfunc.rst:512
 msgid "``pi``"
 msgstr "``pi``"
 
-#: ../../source/mathfunc.rst:574
+#: ../../source/mathfunc.rst:512
 msgid "4\\*arctan(1) = 3.14159..."
 msgstr ""
 
-#: ../../source/mathfunc.rst:576
+#: ../../source/mathfunc.rst:514
 msgid "``e``"
 msgstr "``e``"
 
-#: ../../source/mathfunc.rst:576
+#: ../../source/mathfunc.rst:514
 msgid "Euler = 2.71828..."
 msgstr "e = 2.71828..."
 
-#: ../../source/mathfunc.rst:578
+#: ../../source/mathfunc.rst:516
 msgid "``kB``"
 msgstr "``kB``"
 
-#: ../../source/mathfunc.rst:578
+#: ../../source/mathfunc.rst:516
 msgid "Boltzmann constant = 1.38065e-23 J/K"
 msgstr "Постоянная Больцмана = 1.38065e-23 Дж/K"
 
-#: ../../source/mathfunc.rst:580
+#: ../../source/mathfunc.rst:518
 msgid "``q``"
 msgstr "``q``"
 
-#: ../../source/mathfunc.rst:580
+#: ../../source/mathfunc.rst:518
 msgid "Elementary charge = 1.6021765e-19 C"
 msgstr "Элементарный заряд = 1.6021765e-19 Кл"
+
+#~ msgid "Alphabetical List of Functions"
+#~ msgstr "Алфавитный список функций"
+
+#~ msgid ""
+#~ "`abs <#abs>`__\\ ``  `` `adjoint <#adjoint>`__\\ ``  `` `angle <#angle>`__\\"
+#~ " ``  `` `arccos <#arccos>`__\\ ``  `` `arccosec <#arccosec>`__\\ ``  `` "
+#~ "`arccot <#arccot>`__\\ ``  `` `arcosech <#arcosech>`__\\ ``  `` `arcosh "
+#~ "<#arcosh>`__\\ ``  `` `arcoth <#arcoth>`__\\ ``  `` `arcsec <#arcsec>`__\\ "
+#~ "``  `` `arcsin <#arcsin>`__\\ ``  `` `arctan <#arctan>`__\\ ``  `` `arg "
+#~ "<#arg>`__\\ ``  `` `arsech <#arsech>`__\\ ``  `` `arsinh <#arsinh>`__\\ ``  "
+#~ "`` `artanh <#artanh>`__\\ ``  `` `avg <#avg>`__\\ ``  `` `besseli0 "
+#~ "<#besseli0>`__\\ ``  `` `besselj <#besselj>`__\\ ``  `` `bessely "
+#~ "<#bessely>`__\\ ``  `` `ceil <#ceil>`__\\ ``  `` `conj <#conj>`__\\ ``  `` "
+#~ "`cos <#cos>`__\\ ``  `` `cosec <#cosec>`__\\ ``  `` `cosech <#cosech>`__\\ "
+#~ "``  `` `cosh <#cosh>`__\\ ``  `` `cot <#cot>`__\\ ``  `` `coth <#coth>`__\\ "
+#~ "``  `` `cumavg <#cumavg>`__\\ ``  `` `cumprod <#cumprod>`__\\ ``  `` `cumsum"
+#~ " <#cumsum>`__\\ ``  `` `dB <#dB>`__\\ ``  `` `dbm <#dbm>`__\\ ``  `` `dbm2w "
+#~ "<#dbm2w>`__\\ ``  `` `ddx <#ddx>`__\\ ``  `` `deg2rad <#deg2rad>`__\\ ``  ``"
+#~ " `det <#det>`__\\ ``  `` `dft <#dft>`__\\ ``  `` `diff <#diff>`__\\ ``  `` "
+#~ "`erf <#erf>`__\\ ``  `` `erfc <#erfc>`__\\ ``  `` `erfcinv <#erfcinv>`__\\ "
+#~ "``  `` `erfinv <#erfinv>`__\\ ``  `` `exp <#exp>`__\\ ``  `` `eye "
+#~ "<#eye>`__\\ ``  `` `fft <#fft>`__\\ ``  `` `fftshift <#fftshift>`__\\ ``  ``"
+#~ " `fix <#fix>`__\\ ``  `` `floor <#floor>`__\\ ``  `` `Freq2Time "
+#~ "<#Freq2Time>`__\\ ``  `` `GaCircle <#GaCircle>`__\\ ``  `` `GpCircle "
+#~ "<#GpCircle>`__\\ ``  `` `hypot <#hypot>`__\\ ``  `` `idft <#idft>`__\\ ``  "
+#~ "`` `ifft <#ifft>`__\\ ``  `` `imag <#imag>`__\\ ``  `` `integrate "
+#~ "<#integrate>`__\\ ``  `` `interpolate <#interpolate>`__\\ ``  `` `inverse "
+#~ "<#inverse>`__\\ ``  `` `kbd <#kbd>`__\\ ``  `` `length <#length>`__\\ ``  ``"
+#~ " `limexp <#limexp>`__\\ ``  `` `linspace <#linspace>`__\\ ``  `` `ln "
+#~ "<#ln>`__\\ ``  `` `log10 <#log10>`__\\ ``  `` `log2 <#log2>`__\\ ``  `` "
+#~ "`logspace <#logspace>`__\\ ``  `` `mag <#mag>`__\\ ``  `` `max <#max>`__\\ "
+#~ "``  `` `min <#min>`__\\ ``  `` `Mu <#Mu>`__\\ ``  `` `Mu2 <#Mu2>`__\\ ``  ``"
+#~ " `NoiseCircle <#NoiseCircle>`__\\ ``  `` `norm <#norm>`__\\ ``  `` `phase "
+#~ "<#phase>`__\\ ``  `` `PlotVs <#PlotVs>`__\\ ``  `` `polar <#polar>`__\\ ``  "
+#~ "`` `prod <#prod>`__\\ ``  `` `rad2deg <#rad2deg>`__\\ ``  `` `random "
+#~ "<#random>`__\\ ``  `` `real <#real>`__\\ ``  `` `rms <#rms>`__\\ ``  `` "
+#~ "`Rollet <#Rollet>`__\\ ``  `` `round <#round>`__\\ ``  `` `rtoswr "
+#~ "<#rtoswr>`__\\ ``  `` `rtoy <#rtoy>`__\\ ``  `` `rtoz <#rtoz>`__\\ ``  `` "
+#~ "`runavg <#runavg>`__\\ ``  `` `sec <#sec>`__\\ ``  `` `sech <#sech>`__\\ ``"
+#~ "  `` `sign <#sign>`__\\ ``  `` `sin <#sin>`__\\ ``  `` `sinc <#sinc>`__\\ ``"
+#~ "  `` `sinh <#sinh>`__\\ ``  `` `sqr <#sqr>`__\\ ``  `` `sqrt <#sqrt>`__\\ ``"
+#~ "  `` `srandom <#srandom>`__\\ ``  `` `StabCircleL <#StabCircleL>`__\\ ``  ``"
+#~ " `StabCircleS <#StabCircleS>`__\\ ``  `` `StabFactor <#StabFactor>`__\\ ``  "
+#~ "`` `StabMeasure <#StabMeasure>`__\\ ``  `` `stddev <#stddev>`__\\ ``  `` "
+#~ "`step <#step>`__\\ ``  `` `stos <#stos>`__\\ ``  `` `stoy <#stoy>`__\\ ``  "
+#~ "`` `stoz <#stoz>`__\\ ``  `` `sum <#sum>`__\\ ``  `` `tan <#tan>`__\\ ``  ``"
+#~ " `tanh <#tanh>`__\\ ``  `` `Time2Freq <#Time2Freq>`__\\ ``  `` `transpose "
+#~ "<#transpose>`__\\ ``  `` `twoport <#twoport>`__\\ ``  `` `unwrap "
+#~ "<#unwrap>`__\\ ``  `` `variance <#variance>`__\\ ``  `` `vt <#vt>`__\\ ``  "
+#~ "`` `w2dbm <#w2dbm>`__\\ ``  `` `xvalue <#xvalue>`__\\ ``  `` `ytor "
+#~ "<#ytor>`__\\ ``  `` `ytos <#ytos>`__\\ ``  `` `ytoz <#ytoz>`__\\ ``  `` "
+#~ "`yvalue <#yvalue>`__\\ ``  `` `ztor <#ztor>`__\\ ``  `` `ztos <#ztos>`__\\ "
+#~ "``  `` `ztoy <#ztoy>`__\\ ``  ``"
+#~ msgstr ""
+#~ "`abs <#abs>`__\\ ``  `` `adjoint <#adjoint>`__\\ ``  `` `angle <#angle>`__\\"
+#~ " ``  `` `arccos <#arccos>`__\\ ``  `` `arccosec <#arccosec>`__\\ ``  `` "
+#~ "`arccot <#arccot>`__\\ ``  `` `arcosech <#arcosech>`__\\ ``  `` `arcosh "
+#~ "<#arcosh>`__\\ ``  `` `arcoth <#arcoth>`__\\ ``  `` `arcsec <#arcsec>`__\\ "
+#~ "``  `` `arcsin <#arcsin>`__\\ ``  `` `arctan <#arctan>`__\\ ``  `` `arg "
+#~ "<#arg>`__\\ ``  `` `arsech <#arsech>`__\\ ``  `` `arsinh <#arsinh>`__\\ ``  "
+#~ "`` `artanh <#artanh>`__\\ ``  `` `avg <#avg>`__\\ ``  `` `besseli0 "
+#~ "<#besseli0>`__\\ ``  `` `besselj <#besselj>`__\\ ``  `` `bessely "
+#~ "<#bessely>`__\\ ``  `` `ceil <#ceil>`__\\ ``  `` `conj <#conj>`__\\ ``  `` "
+#~ "`cos <#cos>`__\\ ``  `` `cosec <#cosec>`__\\ ``  `` `cosech <#cosech>`__\\ "
+#~ "``  `` `cosh <#cosh>`__\\ ``  `` `cot <#cot>`__\\ ``  `` `coth <#coth>`__\\ "
+#~ "``  `` `cumavg <#cumavg>`__\\ ``  `` `cumprod <#cumprod>`__\\ ``  `` `cumsum"
+#~ " <#cumsum>`__\\ ``  `` `dB <#dB>`__\\ ``  `` `dbm <#dbm>`__\\ ``  `` `dbm2w "
+#~ "<#dbm2w>`__\\ ``  `` `ddx <#ddx>`__\\ ``  `` `deg2rad <#deg2rad>`__\\ ``  ``"
+#~ " `det <#det>`__\\ ``  `` `dft <#dft>`__\\ ``  `` `diff <#diff>`__\\ ``  `` "
+#~ "`erf <#erf>`__\\ ``  `` `erfc <#erfc>`__\\ ``  `` `erfcinv <#erfcinv>`__\\ "
+#~ "``  `` `erfinv <#erfinv>`__\\ ``  `` `exp <#exp>`__\\ ``  `` `eye "
+#~ "<#eye>`__\\ ``  `` `fft <#fft>`__\\ ``  `` `fftshift <#fftshift>`__\\ ``  ``"
+#~ " `fix <#fix>`__\\ ``  `` `floor <#floor>`__\\ ``  `` `Freq2Time "
+#~ "<#Freq2Time>`__\\ ``  `` `GaCircle <#GaCircle>`__\\ ``  `` `GpCircle "
+#~ "<#GpCircle>`__\\ ``  `` `hypot <#hypot>`__\\ ``  `` `idft <#idft>`__\\ ``  "
+#~ "`` `ifft <#ifft>`__\\ ``  `` `imag <#imag>`__\\ ``  `` `integrate "
+#~ "<#integrate>`__\\ ``  `` `interpolate <#interpolate>`__\\ ``  `` `inverse "
+#~ "<#inverse>`__\\ ``  `` `kbd <#kbd>`__\\ ``  `` `length <#length>`__\\ ``  ``"
+#~ " `limexp <#limexp>`__\\ ``  `` `linspace <#linspace>`__\\ ``  `` `ln "
+#~ "<#ln>`__\\ ``  `` `log10 <#log10>`__\\ ``  `` `log2 <#log2>`__\\ ``  `` "
+#~ "`logspace <#logspace>`__\\ ``  `` `mag <#mag>`__\\ ``  `` `max <#max>`__\\ "
+#~ "``  `` `min <#min>`__\\ ``  `` `Mu <#Mu>`__\\ ``  `` `Mu2 <#Mu2>`__\\ ``  ``"
+#~ " `NoiseCircle <#NoiseCircle>`__\\ ``  `` `norm <#norm>`__\\ ``  `` `phase "
+#~ "<#phase>`__\\ ``  `` `PlotVs <#PlotVs>`__\\ ``  `` `polar <#polar>`__\\ ``  "
+#~ "`` `prod <#prod>`__\\ ``  `` `rad2deg <#rad2deg>`__\\ ``  `` `random "
+#~ "<#random>`__\\ ``  `` `real <#real>`__\\ ``  `` `rms <#rms>`__\\ ``  `` "
+#~ "`Rollet <#Rollet>`__\\ ``  `` `round <#round>`__\\ ``  `` `rtoswr "
+#~ "<#rtoswr>`__\\ ``  `` `rtoy <#rtoy>`__\\ ``  `` `rtoz <#rtoz>`__\\ ``  `` "
+#~ "`runavg <#runavg>`__\\ ``  `` `sec <#sec>`__\\ ``  `` `sech <#sech>`__\\ ``"
+#~ "  `` `sign <#sign>`__\\ ``  `` `sin <#sin>`__\\ ``  `` `sinc <#sinc>`__\\ ``"
+#~ "  `` `sinh <#sinh>`__\\ ``  `` `sqr <#sqr>`__\\ ``  `` `sqrt <#sqrt>`__\\ ``"
+#~ "  `` `srandom <#srandom>`__\\ ``  `` `StabCircleL <#StabCircleL>`__\\ ``  ``"
+#~ " `StabCircleS <#StabCircleS>`__\\ ``  `` `StabFactor <#StabFactor>`__\\ ``  "
+#~ "`` `StabMeasure <#StabMeasure>`__\\ ``  `` `stddev <#stddev>`__\\ ``  `` "
+#~ "`step <#step>`__\\ ``  `` `stos <#stos>`__\\ ``  `` `stoy <#stoy>`__\\ ``  "
+#~ "`` `stoz <#stoz>`__\\ ``  `` `sum <#sum>`__\\ ``  `` `tan <#tan>`__\\ ``  ``"
+#~ " `tanh <#tanh>`__\\ ``  `` `Time2Freq <#Time2Freq>`__\\ ``  `` `transpose "
+#~ "<#transpose>`__\\ ``  `` `twoport <#twoport>`__\\ ``  `` `unwrap "
+#~ "<#unwrap>`__\\ ``  `` `variance <#variance>`__\\ ``  `` `vt <#vt>`__\\ ``  "
+#~ "`` `w2dbm <#w2dbm>`__\\ ``  `` `xvalue <#xvalue>`__\\ ``  `` `ytor "
+#~ "<#ytor>`__\\ ``  `` `ytos <#ytos>`__\\ ``  `` `ytoz <#ytoz>`__\\ ``  `` "
+#~ "`yvalue <#yvalue>`__\\ ``  `` `ztor <#ztor>`__\\ ``  `` `ztos <#ztos>`__\\ "
+#~ "``  `` `ztoy <#ztoy>`__\\ ``  ``"

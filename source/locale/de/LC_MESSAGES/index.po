@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
@@ -17,35 +17,44 @@ msgstr ""
 msgid "Welcome to Qucs Help's documentation!"
 msgstr ""
 
-#: ../../source/index.rst:10
+#: ../../source/index.rst:15
 msgid "Contents:"
 msgstr ""
 
-#: ../../source/index.rst:28
+#: ../../source/index.rst:33
 msgid "Technical description concerning the simulator"
 msgstr "Technische Beschreibungen den Simulator betreffend"
 
-#: ../../source/index.rst:30
+#: ../../source/index.rst:35
 msgid "Available online at http://qucs.sourceforge.net/tech/technical.html"
 msgstr "sind erhältlich unter http://qucs.sourceforge.net/tech/technical.html"
 
-#: ../../source/index.rst:32
+#: ../../source/index.rst:37
 msgid "Example schematics"
 msgstr "Beispielschaltungen"
 
-#: ../../source/index.rst:34
+#: ../../source/index.rst:39
 msgid "Available online at http://qucs.sourceforge.net/download.html#example"
 msgstr ""
 "sind erhältlich unter http://qucs.sourceforge.net/download.html#example"
 
-#: ../../source/index.rst:38
+#: ../../source/index.rst:43
 msgid "Indices and tables"
 msgstr ""
 
-#: ../../source/index.rst:40
+#: ../../source/index.rst:45
 msgid ":ref:`genindex`"
 msgstr ""
 
-#: ../../source/index.rst:41
+#: ../../source/index.rst:46
 msgid ":ref:`search`"
 msgstr ""
+
+#: ../../source/index.rst:12
+msgid ""
+"|flab_cs| |flab_de| |flag_en| |flab_es| |flab_fr| |flab_pt| |flab_ru| "
+"|flab_uk|"
+msgstr ""
+
+#~ msgid "|image0| |image1|"
+#~ msgstr ""
