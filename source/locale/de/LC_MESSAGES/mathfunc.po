@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-19 20:07+0100\n"
+"PO-Revision-Date: 2014-12-19 21:23+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1643,7 +1643,7 @@ msgstr "Abkürzung für die Bedingung ``if x then y else z``"
 
 #: ../../source/mathfunc.rst:245
 msgid "Sinc function (sin(``x``)/``x`` or 1 at ``x`` = 0)"
-msgstr "Sinc-Funktion (sin(``x``)/``x`` und 1 bei ``x``=0)"
+msgstr "Sinc-Funktion (sin(``x``)/``x`` und 1 bei ``x`` =0)"
 
 #: ../../source/mathfunc.rst:396
 msgid "``NoiseCircle(Sopt,Fmin,Rn,F[,Arcs])``"
