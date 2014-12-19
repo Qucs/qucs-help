@@ -49,40 +49,49 @@ close the dialog and save the subcircuit. In every schematic where the
 subcircuit is placed, it owns the new parameters which can be edited as
 in all other components.
 
-A minimalistic example using subcircuits with parameters and
-equations would be like this:
 
-::
+Subcircuits with Parameters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-     * Create a new project
-     * New schematic (for subcircuit)
-     * Add a resistor, inductor, and capacitor,  wire them in series, add two ports
-     * Save the subcircuit as RLC.sch
-     * Give value of resistor as 'R1'
-     * Add equation 'ind = L1',
-     * Give value of inductor as 'ind'
-     * Give value of capacitor as 'C1'
-     * Save
-     * File > Edit Circuit Symbol
-     * Double click on the 'SUB File=name' tag under the rectangular box
-       * Add name = R1, default value = 1
-       * Add name = L1, default value = 1
-       * Add name = C1, default value = 1
-       * OK
+A simple example using subcircuits with parameters and
+equations is provided here.
 
-     * New schematic (for testbench)
-     * Save Test_RLC.sch
-     * Project Contents > pick and place the above RLC subcircuit
-     * Add AC voltage source (V1) and ground
-     * Add AC simulation, from 140Hz to 180Hz, 201 points
-     * Set on the subcircuit symbol
-       * R1=1
-       * L1=100e-3
-       * C1=10e-6
-     * Simulate
-     * Add a Cartesian diagram, plot V1.i
-     * The result should be the resonance of the RLC circuit.
-     * The parameters of the RLC subcircuit can be changed on the top schematic.
+Create a subcircuit:
+
+- Create a new project
+- New schematic (for subcircuit)
+- Add a resistor, inductor, and capacitor,  wire them in series, add two ports
+- Save the subcircuit as RLC.sch
+- Give value of resistor as 'R1'
+- Add equation 'ind = L1',
+- Give value of inductor as 'ind'
+- Give value of capacitor as 'C1'
+- Save
+- File > Edit Circuit Symbol
+- Double click on the 'SUB File=name' tag under the rectangular box
+
+  - Add name = R1, default value = 1
+  - Add name = L1, default value = 1
+  - Add name = C1, default value = 1
+  - OK
+
+Insert subcircuit and define parameters:
+
+- New schematic (for testbench)
+- Save Test_RLC.sch
+- Project Contents > pick and place the above RLC subcircuit
+- Add AC voltage source (V1) and ground
+- Add AC simulation, from 140Hz to 180Hz, 201 points
+- Set on the subcircuit symbol
+
+  - R1=1
+  - L1=100e-3
+  - C1=10e-6
+
+- Simulate
+- Add a Cartesian diagram, plot V1.i
+- The result should be the resonance of the RLC circuit.
+- The parameters of the RLC subcircuit can be changed on the top schematic.
 
 
 
