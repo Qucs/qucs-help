@@ -158,6 +158,11 @@ commands are shown in the following list:
 .. |image2_FR| image:: _static/fr/paste.png
 .. |image3_FR| image:: _static/fr/contab.png
 
+.. |image0_PT| image:: _static/pt/select.png
+.. |image1_PT| image:: _static/pt/wire.png
+.. |image2_PT| image:: _static/pt/paste.png
+.. |image3_PT| image:: _static/pt/contab.png
+
 .. |image0_RU| image:: _static/ru/select.png
 .. |image1_RU| image:: _static/ru/wire.png
 .. |image2_RU| image:: _static/ru/paste.png
