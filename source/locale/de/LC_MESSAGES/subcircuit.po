@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
@@ -32,29 +32,30 @@ msgid ""
 "In Qucs, each schematic containing a subcircuit port is a subcircuit. You "
 "can get a subcircuit port by using the toolbar, the components listview (in "
 "lumped components) or the menu (Insert->Insert port). After placing all "
-"subcircuit ports (two for example) you need to save the schematic (e.g. CTRL-"
-"S). By taking a look into the content listview (figure 1) you see that now "
-"there is a \"2-port\" right beside the schematic name (column \"Note\"). "
-"This note marks all documents which are subcircuits. Now change to a "
-"schematic where you want to use the subcircuit. Then press on the subcircuit "
-"name (content listview). By entering the document area again, you see that "
+"subcircuit ports (two for example) you need to save the schematic (e.g. "
+"CTRL-S). By taking a look into the content listview (figure 1) you see that "
+"now there is a \"2-port\" right beside the schematic name (column \"Note\")."
+" This note marks all documents which are subcircuits. Now change to a "
+"schematic where you want to use the subcircuit. Then press on the subcircuit"
+" name (content listview). By entering the document area again, you see that "
 "you now can place the subcirciut into the main circuit. Do so and complete "
 "the schematic. You can now perform a simulation. The result is the same as "
-"if all the components of the subcircuit are placed into the circuit directly."
+"if all the components of the subcircuit are placed into the circuit "
+"directly."
 msgstr ""
 "In Qucs wird jede Schaltung, die Ports enthält, als Unterschaltung "
-"betrachtet. Man erhält eine Unterschaltung, indem man den \"Anschluß einfügen"
-"\"-Knopf in der Knopfleiste betätigt, auf den Reiter \"Komponenten\" geht, "
-"dort den Blättertext \"diskrete Komponenten\" und darin die Komponente "
-"\"Schaltkreis-Anschluß\" auswählt. Alternativ kann auch aus dem Menü der "
-"Eintrag \"Einfügen->Anschluß\" benutzt werden. Nachdem an allen Ein- und "
-"Ausgängen der Schaltung Ports plaziert wurden, wird die Schaltung "
-"gespeichert, z.B. über \"CRTL-S\". Durch einen Blick in den \"Inhalts-Reiter"
-"\" (Abbildung 1) erkennt man, das hinter dem Dateinamen die \"Notiz\" \"2-"
-"Port\" hinzugefügt wurde. Diese \"Notiz\" markiert alle Schaltungen bei "
+"betrachtet. Man erhält eine Unterschaltung, indem man den \"Anschluß "
+"einfügen\"-Knopf in der Knopfleiste betätigt, auf den Reiter \"Komponenten\""
+" geht, dort den Blättertext \"diskrete Komponenten\" und darin die "
+"Komponente \"Schaltkreis-Anschluß\" auswählt. Alternativ kann auch aus dem "
+"Menü der Eintrag \"Einfügen->Anschluß\" benutzt werden. Nachdem an allen "
+"Ein- und Ausgängen der Schaltung Ports plaziert wurden, wird die Schaltung "
+"gespeichert, z.B. über \"CRTL-S\". Durch einen Blick in den \"Inhalts-"
+"Reiter\" (Abbildung 1) erkennt man, das hinter dem Dateinamen die \"Notiz\" "
+"\"2-Port\" hinzugefügt wurde. Diese \"Notiz\" markiert alle Schaltungen bei "
 "denen es sich um Unterschaltungen handelt. Jetzt wird ein Schaltungsdesign "
-"geöffnet, in dem die Unterschaltung verwendet werden soll. Durch einen Klick "
-"auf den Namen der Unterschaltung im \"Inhalt\"-Reiter kann eine neue "
+"geöffnet, in dem die Unterschaltung verwendet werden soll. Durch einen Klick"
+" auf den Namen der Unterschaltung im \"Inhalt\"-Reiter kann eine neue "
 "Komponente in die Schaltung eingefügt werden. Anschließend kann eine "
 "Simulation durchgeführt werden. Das Ergebnis ist wie erwartet das gleiche, "
 "als würde man die Komponenten direkt im Hauptarbeitsfenster plazieren."
@@ -67,8 +68,8 @@ msgstr "Abbildung 1 - Zugriff auf eine Unterschaltung"
 msgid ""
 "If you select a subcircuit component (click on its symbol in the schematic) "
 "you can step into the subcircuit schematic by pressing CTRL-I (of course, "
-"this function is also reachable via toolbar and via menu). You can step back "
-"by pressing CTRL-H."
+"this function is also reachable via toolbar and via menu). You can step back"
+" by pressing CTRL-H."
 msgstr ""
 "Wenn die Komponente markiert ist (durch das Anklicken der selbigen), die "
 "eine Unterschaltung darstellt, so kann deren Inhalt durch den Pfeil in der "
@@ -76,26 +77,26 @@ msgstr ""
 "betrachtet werden. Alternativ erfolgt der Aufruf der Funktion über die "
 "Menüauswahl \"Bearbeiten->Gehe in den Schaltkreis hinein (STRG-I)\". Das "
 "Verlassen der Unterschaltung erfolgt über die Betätigung des Knopfes "
-"\"Verlasse den Schaltkreis (STRG-H)\" bzw. über den Menüeintrag \"Bearbeiten-"
-">Verlasse den Schaltkreis (STRG-H)\"."
+"\"Verlasse den Schaltkreis (STRG-H)\" bzw. über den Menüeintrag "
+"\"Bearbeiten->Verlasse den Schaltkreis (STRG-H)\"."
 
 #: ../../source/subcircuit.rst:35
 msgid ""
 "If you do not like the component symbol of a subcircuit, you can draw your "
 "own symbol and put the component text at your favourite position. Just make "
 "the subcircuit schematic the current and go to the menu: File->Edit Circuit "
-"Symbol. If you have not yet drawn a symbol for this circuit. A simple symbol "
-"is created automatically. You now can edit this symbol by painting lines and "
-"arcs. After finished, save it. Now place it on another schematic, and you "
-"have a new symbol."
+"Symbol. If you have not yet drawn a symbol for this circuit. A simple symbol"
+" is created automatically. You now can edit this symbol by painting lines "
+"and arcs. After finished, save it. Now place it on another schematic, and "
+"you have a new symbol."
 msgstr ""
 "Wird nicht das vordefinierte Symbol für die Unterschaltung gewünscht, so "
 "kann ein eigenes Symbol gezeichnet werden und eigener Text hinzugefügt "
 "werden. Dazu geht man einfach in den Schaltungsentwurf mit der "
-"Unterschaltung hinein und wählt aus dem Menü den Eintrag \"Datei-"
-">Schaltkreissymbol bearbeiten\" aus. Wenn bis jetzt noch kein Symbol für die "
-"Schaltung gezeichnet wurde, so wird automatisch ein vordefiniertes Symbol "
-"erzeugt. Dieses Symbol kann durch das Zeichnen von Linien und Ecken "
+"Unterschaltung hinein und wählt aus dem Menü den Eintrag "
+"\"Datei->Schaltkreissymbol bearbeiten\" aus. Wenn bis jetzt noch kein Symbol"
+" für die Schaltung gezeichnet wurde, so wird automatisch ein vordefiniertes "
+"Symbol erzeugt. Dieses Symbol kann durch das Zeichnen von Linien und Ecken "
 "modifiziert werden. Nachdem das Zeichnen beendet ist, wird das Symbol "
 "gespeichert. Anschließend wird es in einem anderen Schaltungsdesign "
 "plaziert, und voila, nun hat man ein neues Unterschaltungs-Symbol generiert."
@@ -104,8 +105,8 @@ msgstr ""
 msgid ""
 "Just like all other components, subcircuits can have parameters. To create "
 "your own parameters, go back to the editor where you edited the subcircuit "
-"symbol and double-click on the subcircuit parameter text (SUB1 in the Figure "
-"1). A dialog apperas and you now can fill in parameterswith default values "
+"symbol and double-click on the subcircuit parameter text (SUB1 in the Figure"
+" 1). A dialog apperas and you now can fill in parameterswith default values "
 "and descriptions. When you are ready, close the dialog and save the "
 "subcircuit. In every schematic where the subcircuit is placed, it owns the "
 "new parameters which can be edited as in all other components."
@@ -116,15 +117,146 @@ msgstr ""
 "betrachtet werden. Alternativ erfolgt der Aufruf der Funktion über die "
 "Menüauswahl \"Bearbeiten->Gehe in den Schaltkreis hinein (STRG-I)\". Das "
 "Verlassen der Unterschaltung erfolgt über die Betätigung des Knopfes "
-"\"Verlasse den Schaltkreis (STRG-H)\" bzw. über den Menüeintrag \"Bearbeiten-"
-">Verlasse den Schaltkreis (STRG-H)\"."
-
-#: ../../source/subcircuit.rst:52
-msgid ""
-"A minimalistic example using subcircuits with parameters and equations would "
-"be like this:"
-msgstr ""
+"\"Verlasse den Schaltkreis (STRG-H)\" bzw. über den Menüeintrag "
+"\"Bearbeiten->Verlasse den Schaltkreis (STRG-H)\"."
 
 #: ../../source/subcircuit.rst:25
 msgid "|image0_EN|"
 msgstr "|image0_DE|"
+
+#: ../../source/subcircuit.rst:54
+msgid "Subcircuits with Parameters"
+msgstr ""
+
+#: ../../source/subcircuit.rst:56
+msgid ""
+"A simple example using subcircuits with parameters and equations is provided"
+" here."
+msgstr ""
+
+#: ../../source/subcircuit.rst:59
+msgid "Create a subcircuit:"
+msgstr ""
+
+#: ../../source/subcircuit.rst:61
+msgid "Create a new project"
+msgstr ""
+
+#: ../../source/subcircuit.rst:62
+msgid "New schematic (for subcircuit)"
+msgstr ""
+
+#: ../../source/subcircuit.rst:63
+msgid ""
+"Add a resistor, inductor, and capacitor,  wire them in series, add two ports"
+msgstr ""
+
+#: ../../source/subcircuit.rst:64
+msgid "Save the subcircuit as RLC.sch"
+msgstr ""
+
+#: ../../source/subcircuit.rst:65
+msgid "Give value of resistor as 'R1'"
+msgstr ""
+
+#: ../../source/subcircuit.rst:66
+msgid "Add equation 'ind = L1',"
+msgstr ""
+
+#: ../../source/subcircuit.rst:67
+msgid "Give value of inductor as 'ind'"
+msgstr ""
+
+#: ../../source/subcircuit.rst:68
+msgid "Give value of capacitor as 'C1'"
+msgstr ""
+
+#: ../../source/subcircuit.rst:69
+msgid "Save"
+msgstr ""
+
+#: ../../source/subcircuit.rst:70
+msgid "File > Edit Circuit Symbol"
+msgstr ""
+
+#: ../../source/subcircuit.rst:71
+msgid "Double click on the 'SUB File=name' tag under the rectangular box"
+msgstr ""
+
+#: ../../source/subcircuit.rst:73
+msgid "Add name = R1, default value = 1"
+msgstr ""
+
+#: ../../source/subcircuit.rst:74
+msgid "Add name = L1, default value = 1"
+msgstr ""
+
+#: ../../source/subcircuit.rst:75
+msgid "Add name = C1, default value = 1"
+msgstr ""
+
+#: ../../source/subcircuit.rst:76
+msgid "OK"
+msgstr ""
+
+#: ../../source/subcircuit.rst:78
+msgid "Insert subcircuit and define parameters:"
+msgstr ""
+
+#: ../../source/subcircuit.rst:80
+msgid "New schematic (for testbench)"
+msgstr ""
+
+#: ../../source/subcircuit.rst:81
+msgid "Save Test_RLC.sch"
+msgstr ""
+
+#: ../../source/subcircuit.rst:82
+msgid "Project Contents > pick and place the above RLC subcircuit"
+msgstr ""
+
+#: ../../source/subcircuit.rst:83
+msgid "Add AC voltage source (V1) and ground"
+msgstr ""
+
+#: ../../source/subcircuit.rst:84
+msgid "Add AC simulation, from 140Hz to 180Hz, 201 points"
+msgstr ""
+
+#: ../../source/subcircuit.rst:85
+msgid "Set on the subcircuit symbol"
+msgstr ""
+
+#: ../../source/subcircuit.rst:87
+msgid "R1=1"
+msgstr ""
+
+#: ../../source/subcircuit.rst:88
+msgid "L1=100e-3"
+msgstr ""
+
+#: ../../source/subcircuit.rst:89
+msgid "C1=10e-6"
+msgstr ""
+
+#: ../../source/subcircuit.rst:91
+msgid "Simulate"
+msgstr ""
+
+#: ../../source/subcircuit.rst:92
+msgid "Add a Cartesian diagram, plot V1.i"
+msgstr ""
+
+#: ../../source/subcircuit.rst:93
+msgid "The result should be the resonance of the RLC circuit."
+msgstr ""
+
+#: ../../source/subcircuit.rst:94
+msgid ""
+"The parameters of the RLC subcircuit can be changed on the top schematic."
+msgstr ""
+
+#~ msgid ""
+#~ "A minimalistic example using subcircuits with parameters and equations would"
+#~ " be like this:"
+#~ msgstr ""
