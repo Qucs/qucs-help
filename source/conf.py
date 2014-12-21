@@ -30,7 +30,12 @@ import os
 # ones.
 extensions = [
     'sphinx.ext.mathjax',
+    'sphinxtogithub',
 ]
+
+sphinx_to_github = True
+sphinx_to_github_verbose = True
+sphinx_to_github_encoding = "utf-8"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
