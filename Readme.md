@@ -38,6 +38,8 @@ New documents and corrections:
 
 - The latest documentation and corrections should go into the `master` branch. Pull Requests are prefered.
 
+- The `master` branch (only English) is updated automatically in [Qucs-Help master](http://qucs-help.readthedocs.org/en/master/)
+
 
 Relese cycle (draft):
 
