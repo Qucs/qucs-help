@@ -79,7 +79,7 @@ Relese cycle (draft):
 
 - Prodeed with Qucs package release
 
-The master branch is a long branch, merge qucs-x.y.z after
+- Switch back to `master` and start with new documentation and corrections.
 
 
 Setup
