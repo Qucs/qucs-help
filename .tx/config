@@ -1,0 +1,64 @@
+[main]
+host = https://www.transifex.com
+type = PO
+
+[qucs-help.characters]
+file_filter = source/locale/<lang>/LC_MESSAGES/characters.po
+source_file = build/locale/characters.pot
+source_lang = en
+
+[qucs-help.index]
+file_filter = source/locale/<lang>/LC_MESSAGES/index.po
+source_file = build/locale/index.pot
+source_lang = en
+
+[qucs-help.internal]
+file_filter = source/locale/<lang>/LC_MESSAGES/internal.po
+source_file = build/locale/internal.pot
+source_lang = en
+
+[qucs-help.matching]
+file_filter = source/locale/<lang>/LC_MESSAGES/matching.po
+source_file = build/locale/matching.pot
+source_lang = en
+
+[qucs-help.mathfunc]
+file_filter = source/locale/<lang>/LC_MESSAGES/mathfunc.po
+source_file = build/locale/mathfunc.pot
+source_lang = en
+
+[qucs-help.octave]
+file_filter = source/locale/<lang>/LC_MESSAGES/octave.po
+source_file = build/locale/octave.pot
+source_lang = en
+
+[qucs-help.programs]
+file_filter = source/locale/<lang>/LC_MESSAGES/programs.po
+source_file = build/locale/programs.pot
+source_lang = en
+
+[qucs-help.short]
+file_filter = source/locale/<lang>/LC_MESSAGES/short.po
+source_file = build/locale/short.pot
+source_lang = en
+
+[qucs-help.start]
+file_filter = source/locale/<lang>/LC_MESSAGES/start.po
+source_file = build/locale/start.pot
+source_lang = en
+
+[qucs-help.start_digi]
+file_filter = source/locale/<lang>/LC_MESSAGES/start_digi.po
+source_file = build/locale/start_digi.pot
+source_lang = en
+
+[qucs-help.start_opt]
+file_filter = source/locale/<lang>/LC_MESSAGES/start_opt.po
+source_file = build/locale/start_opt.pot
+source_lang = en
+
+[qucs-help.subcircuit]
+file_filter = source/locale/<lang>/LC_MESSAGES/subcircuit.po
+source_file = build/locale/subcircuit.pot
+source_lang = en
+
