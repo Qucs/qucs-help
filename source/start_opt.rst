@@ -125,14 +125,14 @@ Figure 8 - The best found circuit sizes.
 .. |image6_CS| image:: _static/cs/optimization7.png
 .. |image7_CS| image:: _static/cs/optimization8.png
 
-.. |image0_PT| image:: _static/pt/optimization1.png
-.. |image1_PT| image:: _static/pt/optimization2.png
-.. |image2_PT| image:: _static/pt/optimization3.png
-.. |image3_PT| image:: _static/pt/optimization4.png
-.. |image4_PT| image:: _static/pt/optimization5.png
-.. |image5_PT| image:: _static/pt/optimization6.png
-.. |image6_PT| image:: _static/pt/optimization7.png
-.. |image7_PT| image:: _static/pt/optimization8.png
+.. |image0_PT| image:: _static/pt_BR/optimization1.png
+.. |image1_PT| image:: _static/pt_BR/optimization2.png
+.. |image2_PT| image:: _static/pt_BR/optimization3.png
+.. |image3_PT| image:: _static/pt_BR/optimization4.png
+.. |image4_PT| image:: _static/pt_BR/optimization5.png
+.. |image5_PT| image:: _static/pt_BR/optimization6.png
+.. |image6_PT| image:: _static/pt_BR/optimization7.png
+.. |image7_PT| image:: _static/pt_BR/optimization8.png
 
 .. |image0_RU| image:: _static/ru/optimization1.png
 .. |image1_RU| image:: _static/ru/optimization2.png

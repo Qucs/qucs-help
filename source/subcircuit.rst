@@ -109,7 +109,7 @@ Insert subcircuit and define parameters:
 
 .. |image0_FR| image:: _static/fr/subcircuit.png
 
-.. |image0_PT| image:: _static/pt/subcircuit.png
+.. |image0_PT| image:: _static/pt_BR/subcircuit.png
 
 .. |image0_RU| image:: _static/ru/subcircuit.png
 
