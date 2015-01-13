@@ -17,43 +17,39 @@ msgstr ""
 msgid "Welcome to Qucs Help's documentation!"
 msgstr "Welcome to Qucs Help's documentation! Зміст"
 
-#: ../../source/index.rst:15
+#: ../../source/index.rst:10
 msgid "Contents:"
 msgstr ""
 
-#: ../../source/index.rst:33
+#: ../../source/index.rst:28
 msgid "Technical description concerning the simulator"
 msgstr "Технічні описи, що стосуються симулятора"
 
-#: ../../source/index.rst:35
+#: ../../source/index.rst:30
 msgid "Available online at http://qucs.sourceforge.net/tech/technical.html"
 msgstr "Є на http://qucs.sourceforge.net/tech/technical.html"
 
-#: ../../source/index.rst:37
+#: ../../source/index.rst:32
 msgid "Example schematics"
 msgstr "Приклади електричних схем"
 
-#: ../../source/index.rst:39
+#: ../../source/index.rst:34
 msgid "Available online at http://qucs.sourceforge.net/download.html#example"
 msgstr "Є на http://qucs.sourceforge.net/download.html#example"
 
-#: ../../source/index.rst:43
-msgid "Indices and tables"
-msgstr ""
+#~ msgid "Indices and tables"
+#~ msgstr ""
 
-#: ../../source/index.rst:45
-msgid ":ref:`genindex`"
-msgstr ""
+#~ msgid ":ref:`genindex`"
+#~ msgstr ""
 
-#: ../../source/index.rst:46
-msgid ":ref:`search`"
-msgstr ""
+#~ msgid ":ref:`search`"
+#~ msgstr ""
 
-#: ../../source/index.rst:12
-msgid ""
-"|flab_cs| |flab_de| |flag_en| |flab_es| |flab_fr| |flab_pt| |flab_ru| "
-"|flab_uk|"
-msgstr ""
+#~ msgid ""
+#~ "|flab_cs| |flab_de| |flag_en| |flab_es| |flab_fr| |flab_pt| |flab_ru| "
+#~ "|flab_uk|"
+#~ msgstr ""
 
 #~ msgid "|image0| |image1|"
 #~ msgstr ""

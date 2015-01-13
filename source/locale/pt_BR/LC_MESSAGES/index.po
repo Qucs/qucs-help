@@ -1,4 +1,4 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
@@ -17,42 +17,38 @@ msgstr ""
 msgid "Welcome to Qucs Help's documentation!"
 msgstr "Bem Vindo a documentação de ajuda do Qucs"
 
-#: ../../source/index.rst:15
+#: ../../source/index.rst:10
 msgid "Contents:"
 msgstr "Conteúdo:"
 
-#: ../../source/index.rst:33
+#: ../../source/index.rst:28
 msgid "Technical description concerning the simulator"
 msgstr "Descrição técnica a respeito do simulador"
 
-#: ../../source/index.rst:35
+#: ../../source/index.rst:30
 msgid "Available online at http://qucs.sourceforge.net/tech/technical.html"
 msgstr "Disponível em http://qucs.sourceforge.net/tech/technical.html"
 
-#: ../../source/index.rst:37
+#: ../../source/index.rst:32
 msgid "Example schematics"
 msgstr "Circuitos de Exemplo"
 
-#: ../../source/index.rst:39
+#: ../../source/index.rst:34
 msgid "Available online at http://qucs.sourceforge.net/download.html#example"
 msgstr "Disponíveis em http://qucs.sourceforge.net/download.html#example"
 
-#: ../../source/index.rst:43
-msgid "Indices and tables"
-msgstr "Índices e tabelas"
+#~ msgid "Indices and tables"
+#~ msgstr "Índices e tabelas"
 
-#: ../../source/index.rst:45
-msgid ":ref:`genindex`"
-msgstr ""
+#~ msgid ":ref:`genindex`"
+#~ msgstr ""
 
-#: ../../source/index.rst:46
-msgid ":ref:`search`"
-msgstr ""
+#~ msgid ":ref:`search`"
+#~ msgstr ""
 
-#: ../../source/index.rst:12
-msgid ""
-"|flab_cs| |flab_de| |flag_en| |flab_es| |flab_fr| |flab_pt| |flab_ru| |"
-"flab_uk|"
-msgstr ""
-"|flab_cs| |flab_de| |flag_en| |flab_es| |flab_fr| |flab_pt| |flab_ru| |"
-"flab_uk|"
+#~ msgid ""
+#~ "|flab_cs| |flab_de| |flag_en| |flab_es| |flab_fr| |flab_pt| |flab_ru| "
+#~ "|flab_uk|"
+#~ msgstr ""
+#~ "|flab_cs| |flab_de| |flag_en| |flab_es| |flab_fr| |flab_pt| |flab_ru| "
+#~ "|flab_uk|"
