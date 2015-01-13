@@ -3,7 +3,7 @@
 # Helper script to generate PDF documents
 
 # generate localized pdf documentation
-languages=(cs de en es fr pt ru uk)
+languages=(cs de en es fr pt_BR ru uk)
 
 for lang in ${languages[*]}
 do

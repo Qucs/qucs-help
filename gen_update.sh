@@ -19,7 +19,7 @@ make gettext
 # as Traslation Memory suggestions.
 
 # skip en
-languages=(cs de es fr pt ru uk)
+languages=(cs de es fr pt_BR ru uk)
 
 for lang in ${languages[*]}
 do
