@@ -1,22 +1,28 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014, Qucs Team (2014)
+# This file is distributed under the same license as the Qucs Help package.
 # 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+"Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 22:12+0100\n"
+"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"PO-Revision-Date: 2015-01-13 04:53+0000\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/qucs-help/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"X-Generator: Poedit 1.6.7\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+# 184b5977c72545bf927f73d1b7bb4585
 #: ../../source/subcircuit.rst:3
 msgid "Working with Subcircuits"
 msgstr "Utiliser les sous-circuits"
 
+# 09933a3efbeb4366996974bd1475cbdf
 #: ../../source/subcircuit.rst:6
 msgid ""
 "Subcircuits are used to bring more clarity into a schematic. This is very "
@@ -24,6 +30,7 @@ msgid ""
 "several times."
 msgstr ""
 
+# fdbaac6706b54db29b057ea2787afdb2
 #: ../../source/subcircuit.rst:10
 msgid ""
 "In Qucs, each schematic containing a subcircuit port is a subcircuit. You "
@@ -41,21 +48,26 @@ msgid ""
 "directly."
 msgstr ""
 
+# 15bc90bb315e4d6cbff1c24ca4d06f83
+#: ../../source/subcircuit.rst:25
+msgid "|image0_EN|"
+msgstr "|image0_FR|"
+
+# c3b76213aa494091a690d40ff71facb8
 #: ../../source/subcircuit.rst:27
 msgid "Figure 1 - Accesing a subcircuit"
 msgstr ""
 
+# bccb6c0624a142f083c522d6163281cd
 #: ../../source/subcircuit.rst:30
 msgid ""
 "If you select a subcircuit component (click on its symbol in the schematic) "
 "you can step into the subcircuit schematic by pressing CTRL-I (of course, "
 "this function is also reachable via toolbar and via menu). You can step back"
 " by pressing CTRL-H."
-msgstr ""
-"Lorsque vous sélectionnez le métasymbole d'un sous-circuit, vous pouvez en "
-"voir le contenu en tapant Ctrl-I (ou son équivalent dans la barre d'outil ou"
-" le menu). Pour revenir au schéma principal, tapez Ctrl-H."
+msgstr "Lorsque vous sélectionnez le métasymbole d'un sous-circuit, vous pouvez en voir le contenu en tapant Ctrl-I (ou son équivalent dans la barre d'outil ou le menu). Pour revenir au schéma principal, tapez Ctrl-H."
 
+# 8bf89d48a94e4d04bd98d1b6dd5a71fc
 #: ../../source/subcircuit.rst:35
 msgid ""
 "If you do not like the component symbol of a subcircuit, you can draw your "
@@ -67,6 +79,7 @@ msgid ""
 "you have a new symbol."
 msgstr ""
 
+# df248e3f38244d8881a7a8eaa804faf1
 #: ../../source/subcircuit.rst:43
 msgid ""
 "Just like all other components, subcircuits can have parameters. To create "
@@ -78,143 +91,166 @@ msgid ""
 "new parameters which can be edited as in all other components."
 msgstr ""
 
-#: ../../source/subcircuit.rst:25
-msgid "|image0_EN|"
-msgstr "|image0_FR|"
-
+# 38aa7255d92f4fedb19a9cdc41cf4811
 #: ../../source/subcircuit.rst:54
 msgid "Subcircuits with Parameters"
 msgstr ""
 
+# 202623edff634ad8a0cfd263f84bfd19
 #: ../../source/subcircuit.rst:56
 msgid ""
 "A simple example using subcircuits with parameters and equations is provided"
 " here."
 msgstr ""
 
+# 472fe979847d4d4fb8a5156ef4b486e4
 #: ../../source/subcircuit.rst:59
 msgid "Create a subcircuit:"
 msgstr ""
 
+# 45f32c33a515480aa3abd18cb09416e2
 #: ../../source/subcircuit.rst:61
 msgid "Create a new project"
 msgstr ""
 
+# 8cac5a72a96943c594fd673dff52b2dd
 #: ../../source/subcircuit.rst:62
 msgid "New schematic (for subcircuit)"
 msgstr ""
 
+# 559d7fdc64b14515b6fd9d039737abc9
 #: ../../source/subcircuit.rst:63
 msgid ""
 "Add a resistor, inductor, and capacitor,  wire them in series, add two ports"
 msgstr ""
 
+# ab25a66df1274f7ca037fdfbebc7452d
 #: ../../source/subcircuit.rst:64
 msgid "Save the subcircuit as RLC.sch"
 msgstr ""
 
+# a331c21624a240f89d9abc881eb64431
 #: ../../source/subcircuit.rst:65
 msgid "Give value of resistor as 'R1'"
 msgstr ""
 
+# 7dce37e207494f8e8fde4ad18446161b
 #: ../../source/subcircuit.rst:66
 msgid "Add equation 'ind = L1',"
 msgstr ""
 
+# a51a5f34ba3c4b50b09572ecddd5bd4c
 #: ../../source/subcircuit.rst:67
 msgid "Give value of inductor as 'ind'"
 msgstr ""
 
+# 126dab5bbd424727912f3a1ffdc90bb0
 #: ../../source/subcircuit.rst:68
 msgid "Give value of capacitor as 'C1'"
 msgstr ""
 
+# dfa76632acba49f7802198880d6e85d6
 #: ../../source/subcircuit.rst:69
 msgid "Save"
-msgstr ""
+msgstr "Enregistrer"
 
+# 786bdeba7c704cf79d8516f37d83f0d1
 #: ../../source/subcircuit.rst:70
 msgid "File > Edit Circuit Symbol"
 msgstr ""
 
+# 7dedefaca061445681603a03e2078986
 #: ../../source/subcircuit.rst:71
 msgid "Double click on the 'SUB File=name' tag under the rectangular box"
 msgstr ""
 
+# 0f3c0589399648dfbb5ad2d89c219934
 #: ../../source/subcircuit.rst:73
 msgid "Add name = R1, default value = 1"
 msgstr ""
 
+# d6ce1b7ed496405da74c6096f2489277
 #: ../../source/subcircuit.rst:74
 msgid "Add name = L1, default value = 1"
 msgstr ""
 
+# 475d9d822cb24aa2881fee11bc59766d
 #: ../../source/subcircuit.rst:75
 msgid "Add name = C1, default value = 1"
 msgstr ""
 
+# fdc2727b7e724867be81f11438f5484c
 #: ../../source/subcircuit.rst:76
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
+# 749b0a07ff284334b2f9b800445135a8
 #: ../../source/subcircuit.rst:78
 msgid "Insert subcircuit and define parameters:"
 msgstr ""
 
+# 9f1b3781ef0c4d2eb8e3af1f99c84e68
 #: ../../source/subcircuit.rst:80
 msgid "New schematic (for testbench)"
 msgstr ""
 
+# 2bba7b538177410aa7f7a983765def85
 #: ../../source/subcircuit.rst:81
 msgid "Save Test_RLC.sch"
 msgstr ""
 
+# 10cc05ee997d43128d221c670b99793a
 #: ../../source/subcircuit.rst:82
 msgid "Project Contents > pick and place the above RLC subcircuit"
 msgstr ""
 
+# e19dd2976a3e4c21b132527f23dde48f
 #: ../../source/subcircuit.rst:83
 msgid "Add AC voltage source (V1) and ground"
 msgstr ""
 
+# 8a7d74be5fe54fd8b0bfed0811ff0319
 #: ../../source/subcircuit.rst:84
 msgid "Add AC simulation, from 140Hz to 180Hz, 201 points"
 msgstr ""
 
+# a16c16b117c84667a97cb2825fe69261
 #: ../../source/subcircuit.rst:85
 msgid "Set on the subcircuit symbol"
 msgstr ""
 
+# 570c71c04c0c4a01a16e17901b4b3010
 #: ../../source/subcircuit.rst:87
 msgid "R1=1"
 msgstr ""
 
+# 1500ceff67014feca29547afc852d4e7
 #: ../../source/subcircuit.rst:88
 msgid "L1=100e-3"
 msgstr ""
 
+# 18368f2d177346beb06024a1c0eb0e52
 #: ../../source/subcircuit.rst:89
 msgid "C1=10e-6"
 msgstr ""
 
+# 9cb307763bfd46968006aa70c50fb9ef
 #: ../../source/subcircuit.rst:91
 msgid "Simulate"
-msgstr ""
+msgstr "Simuler"
 
+# f1b71e3726334878ab302caad69a55f4
 #: ../../source/subcircuit.rst:92
 msgid "Add a Cartesian diagram, plot V1.i"
 msgstr ""
 
+# d27a304f5eac4a88aa3cf9707406b685
 #: ../../source/subcircuit.rst:93
 msgid "The result should be the resonance of the RLC circuit."
 msgstr ""
 
+# bfde19e59c1241b18dcc3f011080aee9
 #: ../../source/subcircuit.rst:94
 msgid ""
 "The parameters of the RLC subcircuit can be changed on the top schematic."
 msgstr ""
-
-#~ msgid ""
-#~ "A minimalistic example using subcircuits with parameters and equations would"
-#~ " be like this:"
-#~ msgstr ""

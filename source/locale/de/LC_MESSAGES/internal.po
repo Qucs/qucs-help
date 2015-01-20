@@ -1,461 +1,274 @@
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014, Qucs Team (2014)
+# This file is distributed under the same license as the Qucs Help package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+"Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-19 19:40+0100\n"
+"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"PO-Revision-Date: 2015-01-13 04:51+0000\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/qucs-help/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
-"X-Generator: Poedit 1.7.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+# 8330d967253e49188138e4bdeaaf22d3
 #: ../../source/internal.rst:3
 msgid "Schematic File Format"
 msgstr "Dateiformat der Schaltpläne"
 
+# 269c391fe12745a0a149366a4f7aea81
+#: ../../source/internal.rst:6
+msgid ""
+"This document describes the schematic file format of Qucs. This format is "
+"used for schematics (usually with suffix ``.sch``) and for data displays "
+"(usually with suffix ``.dpl``). The following text shows a short example of "
+"a schematic file."
+msgstr "Dieses Dokument beschreibt kurz das Dateiformat der Schaltpläne von Qucs. Das Format wird für Schaltpläne (normalerweise mit der Dateiendung ``.sch``) und für Datenvisualisierungen (normalerweise mit der Dateiendung ``.dpl``) verwendet. Der folgende Text zeigt ein kurzes Beispiel für eine solche Datei."
+
+# 1623f8b881eb4cd69829da093239fa54
+#: ../../source/internal.rst:38
+msgid ""
+"The file contains several section. Each of it is explained below. Every line"
+" consists of not more than one information block that starts with a less-"
+"sign ``<`` and ends with a greater-sign ``>``."
+msgstr "Die Datei beinhaltet mehrere Abschnitte. Jeder dieser Abschnitte wird nachfolgend erklärt. Jede Zeile besteht aus einem einzigen Informationsblock, der mit dem Kleiner-Zeichen ``<`` beginnt und mit dem Größer-Zeichen ``>`` endet."
+
+# 2eb65b1f0ce347c0a3ac230d5ef76cde
 #: ../../source/internal.rst:43
 msgid "Properties"
 msgstr "Eigenschaften"
 
-#: ../../source/internal.rst:68
-msgid "Symbol"
-msgstr "Symbol"
-
-#: ../../source/internal.rst:77
-msgid "Components"
-msgstr "Komponenten"
-
-#: ../../source/internal.rst:94
-msgid "The next two numbers are the x and y coordinates of the component center."
-msgstr ""
-"Die nächsten beiden Zahlen sind die x- und y-Koordinaten des "
-"Komponentenzentrums."
-
-#: ../../source/internal.rst:96
-msgid ""
-"The next two numbers are the x and y coordinates of the upper left corner of "
-"the component text. They are relative to the component center."
-msgstr ""
-"Die folgenden beiden Zahlen sind die x- und y-Koordinaten der linken oberen "
-"Ecke des Komponententextes. Sie sind relativ zum Komponentenzentrum."
-
-#: ../../source/internal.rst:110
-msgid "Wires"
-msgstr "Verbindungen"
-
-#: ../../source/internal.rst:121
-msgid ""
-"The first four numbers are the coordinates of the wire in pixels: x coordinate "
-"of starting point, y coordinate of starting point, x coordinate of end point "
-"and y coordinate of end point. All wires must be either horizontal (both x "
-"coordinates equal) or vertical (both y coordinates equal)."
-msgstr ""
-"Die ersten vier Zahlen sind die Koordinaten des Drahtes in Pixel: x-Koordinate "
-"des Startpunktes, y-Koordinate des Startpunktes, x-Koordinate des Endpunktes "
-"und y-Koordinate des Endpunktes. Alle Drähte müssen entweder horizontal (beide "
-"x-Koordinaten gleich) oder vertikal (beide y-Koordinaten gleich) sein."
-
-#: ../../source/internal.rst:126
-msgid ""
-"The first string in quotation marks is the label name. It is empty if the user "
-"has not set a label on this wire."
-msgstr ""
-"Die erste Zeichenkette in Anführungszeichen ist der Name des Bezeichners. Er "
-"ist leer, wenn der Benutzer keine Drahtbezeichnung eingegeben hat."
-
-#: ../../source/internal.rst:128
-msgid ""
-"The next two numbers are the x and y coordinates of the label or zero if no "
-"label exists."
-msgstr ""
-"Die nächsten beiden Zahlen sind die x- und y-Koordinaten der Bezeichnung oder "
-"Null, falls es keine Bezeichnung gibt."
-
-#: ../../source/internal.rst:130
-msgid ""
-"The next number is the distance between the wire starting point and and the "
-"point where the label is set on the wire."
-msgstr ""
-"Die folgenden beiden Zahlen sind der Abstand zwischen dem Startpunkt des "
-"Drahtes und dem Punkt, an dem der Bezeichner des Drahtes angezeigt werden soll."
-
-#: ../../source/internal.rst:132
-msgid ""
-"The last string in quotation marks is the node set of the wire, i.e. the "
-"initial voltage at this node used by the simulation engine to find the "
-"solution. This is empty if the user has not set a node set for this wire."
-msgstr ""
-"Die letzte Zeichenkette in Anführungszeichen ist der Anfangswert für die "
-"Knotenspannung an diesem Draht. Sie ist leer, falls der Benutzer keine "
-"Knotenspannung für diesen Draht angegeben hat.."
-
-#: ../../source/internal.rst:141
-msgid "Diagrams"
-msgstr "Diagramme"
-
-#: ../../source/internal.rst:154
-msgid "The first two numbers are x and y coordinate of lower left corner."
-msgstr ""
-"Die ersten beiden Zahlen sind die x-und y-Koordinaten der linken unteren Ecke."
-
-#: ../../source/internal.rst:155
-msgid "The next two numbers are width and height of diagram boundings."
-msgstr "Die nächsten beiden Zahlen sind die Breite und Höhe der Diagrammgrenzen."
-
-#: ../../source/internal.rst:156
-msgid "The fifth number is 1 if grid is on and 0 if grid is off."
-msgstr ""
-"Die fünfte Zahl ist 1 falls das Gitternetz angezeigt werden soll und 0 falls "
-"nicht."
-
-#: ../../source/internal.rst:157
-msgid ""
-"The next is grid color in 24 bit hexadecimal RGB value, e.g. #FF0000 is red."
-msgstr ""
-"Das nächste ist die Farbe des Gitternetzes als hexadezimaler 24-Bit RGB-Wert, "
-"z.B. ist #FF0000 rot."
-
-#: ../../source/internal.rst:159
-msgid "The next number determines the style of the grid."
-msgstr "Die nächste Zahl legt den Stil des Gitternetzes fest."
-
-#: ../../source/internal.rst:160
-msgid "The next number determines which axes have logarithmical scale."
-msgstr ""
-"Die nächste Zahl legt fest, welche Achsen eine logarithmische Einteilung haben."
-
-#: ../../source/internal.rst:166
-msgid "Paintings"
-msgstr "Zeichnungen"
-
-#: ../../source/internal.rst:6
-msgid ""
-"This document describes the schematic file format of Qucs. This format is used "
-"for schematics (usually with suffix ``.sch``) and for data displays (usually "
-"with suffix ``.dpl``). The following text shows a short example of a schematic "
-"file."
-msgstr ""
-"Dieses Dokument beschreibt kurz das Dateiformat der Schaltpläne von Qucs. Das "
-"Format wird für Schaltpläne (normalerweise mit der Dateiendung ``.sch``) und "
-"für Datenvisualisierungen (normalerweise mit der Dateiendung ``.dpl``) "
-"verwendet. Der folgende Text zeigt ein kurzes Beispiel für eine solche Datei."
-
-#: ../../source/internal.rst:38
-msgid ""
-"The file contains several section. Each of it is explained below. Every line "
-"consists of not more than one information block that starts with a less-sign "
-"``<`` and ends with a greater-sign ``>``."
-msgstr ""
-"Die Datei beinhaltet mehrere Abschnitte. Jeder dieser Abschnitte wird "
-"nachfolgend erklärt. Jede Zeile besteht aus einem einzigen Informationsblock, "
-"der mit dem Kleiner-Zeichen ``<`` beginnt und mit dem Größer-Zeichen ``>`` "
-"endet."
-
+# d043347b8b13464cad8ec340585fd25a
 #: ../../source/internal.rst:46
 msgid ""
-"The first section starts with ``<Properties>`` and ends with ``</"
-"Properties>``. It contains the document properties of the file. Each line is "
-"optional. The following properties are supported:"
-msgstr ""
-"Der erste Abschnitt beginnt mit ``<Properties>`` und endet mit ``</"
-"Properties>``. Er beinhaltet die Dokumenteneigenschaften der Datei. Jede "
-"dieser Zeilen ist optional. Die folgenden Eigenschaften werden unterstützt."
+"The first section starts with ``<Properties>`` and ends with "
+"``</Properties>``. It contains the document properties of the file. Each "
+"line is optional. The following properties are supported:"
+msgstr "Der erste Abschnitt beginnt mit ``<Properties>`` und endet mit ``</Properties>``. Er beinhaltet die Dokumenteneigenschaften der Datei. Jede dieser Zeilen ist optional. Die folgenden Eigenschaften werden unterstützt."
 
+# 5eaeeea97fb74f4dbaa4f8161b52b4d3
 #: ../../source/internal.rst:50
 msgid ""
 "``<View=x1,y1,x2,y2,scale,xpos,ypos>`` contains pixel position of the "
-"schematic window in the first four numbers, its current scale and the current "
-"position of the upper left corner (last two numbers)."
-msgstr ""
-"``<View=x1,y1,x2,y2,scale,xpos,ypos>`` beinhaltet die Pixelposition des "
-"Schaltplanfensters in den ersten vier Zahlen, die aktuelle Skalierung und die "
-"aktuelle Position der linken oberen Ecke (die letzten beiden Zahlen)."
+"schematic window in the first four numbers, its current scale and the "
+"current position of the upper left corner (last two numbers)."
+msgstr "``<View=x1,y1,x2,y2,scale,xpos,ypos>`` beinhaltet die Pixelposition des Schaltplanfensters in den ersten vier Zahlen, die aktuelle Skalierung und die aktuelle Position der linken oberen Ecke (die letzten beiden Zahlen)."
 
+# 19b98af0199d458c96bb390ed625bdf8
 #: ../../source/internal.rst:53
 msgid ""
 "``<Grid=x,y,on>`` contains the distance of the grid in pixel (first two "
 "numbers) and whether grid is on (last number 1) or off (last number 0)."
-msgstr ""
-"``<Grid=x,y,on>`` beinhaltet den Gitternetzabstand in Pixeln (die ersten "
-"beiden Zahlen) und ob das Gitternetz sichtbar ist (letzte Zahl 1) oder nicht "
-"(letzte Zahl 0)."
+msgstr "``<Grid=x,y,on>`` beinhaltet den Gitternetzabstand in Pixeln (die ersten beiden Zahlen) und ob das Gitternetz sichtbar ist (letzte Zahl 1) oder nicht (letzte Zahl 0)."
 
+# 5d76449772f54611979a58006e922a1c
 #: ../../source/internal.rst:56
 msgid ""
-"``<DataSet=name.dat>`` contains the file name of the data set associated with "
-"this schematic."
-msgstr ""
-"``<DataSet=name.dat>`` beinhaltet den Dateinamen des Datensatzes, der mit "
-"diesem Schaltplan assoziiert wird."
+"``<DataSet=name.dat>`` contains the file name of the data set associated "
+"with this schematic."
+msgstr "``<DataSet=name.dat>`` beinhaltet den Dateinamen des Datensatzes, der mit diesem Schaltplan assoziiert wird."
 
+# 038275515f124e8b9638b432d8bee21b
 #: ../../source/internal.rst:58
 msgid ""
 "``<DataDisplay=name.dpl>`` contains the file name of the data display page "
 "associated with this schematic (or the file name of the schematic if this "
 "document is a data display)."
-msgstr ""
-"``<DataDisplay=name.dpl>`` beinhaltet den Dateinamen der Datenvisualisierung, "
-"die mit diesem Schaltplan assoziiert wird (bzw. den Dateinamen des Schaltplan, "
-"falls das Dokument eine Dateinvisualisierung ist)."
+msgstr "``<DataDisplay=name.dpl>`` beinhaltet den Dateinamen der Datenvisualisierung, die mit diesem Schaltplan assoziiert wird (bzw. den Dateinamen des Schaltplan, falls das Dokument eine Dateinvisualisierung ist)."
 
+# 7b49724dfbff44048aff62908f4d596c
 #: ../../source/internal.rst:61
 msgid ""
-"``<OpenDisplay=yes>`` contains 1 if the data display page opens automatically "
-"after simulation, otherwise contains 0."
-msgstr ""
-"``<OpenDisplay=yes>`` beinhaltet eine 1, falls die Datenvisualisierung "
-"automatisch nach der Simulation angezeigt werden soll, anderenfalls eine 0."
+"``<OpenDisplay=yes>`` contains 1 if the data display page opens "
+"automatically after simulation, otherwise contains 0."
+msgstr "``<OpenDisplay=yes>`` beinhaltet eine 1, falls die Datenvisualisierung automatisch nach der Simulation angezeigt werden soll, anderenfalls eine 0."
 
+# 12591e7a70a347a390226331121f8e0f
+#: ../../source/internal.rst:68
+msgid "Symbol"
+msgstr "Symbol"
+
+# 6f802ddfacc94be591d43b229e654ba9
 #: ../../source/internal.rst:71
 msgid ""
-"This section starts with ``<Symbol>`` and ends with ``</Symbol>``. It contains "
-"painting elements creating a schematic symbol for the file. This is usually "
-"only used for schematic files that meant to be a subcircuit."
-msgstr ""
-"Dieser Abschnitt beginnt mit ``<Symbol>`` und endet mit ``</Symbol>``. Er "
-"beinhaltet die Zeichnungselemente, die das Schaltplansymbol dieser Datei "
-"bilden. Das wird normalerweise nur bei Schaltplänen verwendet, die eine "
-"Unterschaltung darstellen."
+"This section starts with ``<Symbol>`` and ends with ``</Symbol>``. It "
+"contains painting elements creating a schematic symbol for the file. This is"
+" usually only used for schematic files that meant to be a subcircuit."
+msgstr "Dieser Abschnitt beginnt mit ``<Symbol>`` und endet mit ``</Symbol>``. Er beinhaltet die Zeichnungselemente, die das Schaltplansymbol dieser Datei bilden. Das wird normalerweise nur bei Schaltplänen verwendet, die eine Unterschaltung darstellen."
 
+# 80f8f0f361234eb89ff4ab355e24e2c1
+#: ../../source/internal.rst:77
+msgid "Components"
+msgstr "Komponenten"
+
+# d2511240d47f450185154b0e8abf8bdc
 #: ../../source/internal.rst:80
 msgid ""
-"This section starts with ``<Components>`` and ends with ``</Components>``. It "
-"contains the circuit components of the schematic. The line format is as "
+"This section starts with ``<Components>`` and ends with ``</Components>``. "
+"It contains the circuit components of the schematic. The line format is as "
 "follows:"
-msgstr ""
-"Dieser Abschnitt beginnt mit ``<Components>`` und endet mit ``</Components>``. "
-"Er beinhaltet die Schaltkreiskomponenten des Schaltplans. Das Zeilenformat ist "
-"wie folgt aufgebaut:"
+msgstr "Dieser Abschnitt beginnt mit ``<Components>`` und endet mit ``</Components>``. Er beinhaltet die Schaltkreiskomponenten des Schaltplans. Das Zeilenformat ist wie folgt aufgebaut:"
 
+# f557648aedf94ddfb02588d605c203e1
 #: ../../source/internal.rst:88
 msgid ""
-"The ``type`` identifies the component, e.g. ``R`` for a resistor, ``C`` for a "
-"capacitor."
-msgstr ""
-"Der ``type`` identifiziert die Komponente, z.B. steht ``R`` für einen "
-"Widerstand und ``C`` für einen Kondensator."
+"The ``type`` identifies the component, e.g. ``R`` for a resistor, ``C`` for "
+"a capacitor."
+msgstr "Der ``type`` identifiziert die Komponente, z.B. steht ``R`` für einen Widerstand und ``C`` für einen Kondensator."
 
+# b19af49446af4af1988344a4ce1d3462
 #: ../../source/internal.rst:90
 msgid ""
-"The ``name`` is the unique component identifier of the schematic, e.g. ``R1`` "
-"for the first resistor."
-msgstr ""
-"Der ``name`` ist der Komponentenidentifizierer in dem Schaltplan, z.B. steht "
-"``R1`` für den ersten Widerstand."
+"The ``name`` is the unique component identifier of the schematic, e.g. "
+"``R1`` for the first resistor."
+msgstr "Der ``name`` ist der Komponentenidentifizierer in dem Schaltplan, z.B. steht ``R1`` für den ersten Widerstand."
 
+# 61fe0af94afb4e5289b3de65fbce0009
 #: ../../source/internal.rst:92
 msgid ""
-"A ``1`` in the ``active`` field shows that the component is active, i.e it is "
-"used in the simulation. A ``0`` shows it is inactive."
-msgstr ""
-"Eine ``1`` in dem active Feld zeigt an, dass die Komponenten aktiv ist, d.h. "
-"dass sie während der Simulation verwendet wird. Eine ``0`` zeigt an, dass die "
-"Komponente nicht aktiv ist."
+"A ``1`` in the ``active`` field shows that the component is active, i.e it "
+"is used in the simulation. A ``0`` shows it is inactive."
+msgstr "Eine ``1`` in dem active Feld zeigt an, dass die Komponenten aktiv ist, d.h. dass sie während der Simulation verwendet wird. Eine ``0`` zeigt an, dass die Komponente nicht aktiv ist."
 
+# 4ff97d16903f4daf97295ac8f153a518
+#: ../../source/internal.rst:94
+msgid ""
+"The next two numbers are the x and y coordinates of the component center."
+msgstr "Die nächsten beiden Zahlen sind die x- und y-Koordinaten des Komponentenzentrums."
+
+# 3be8179ee0aa4a2fb88dd2d53abdbe8d
+#: ../../source/internal.rst:96
+msgid ""
+"The next two numbers are the x and y coordinates of the upper left corner of"
+" the component text. They are relative to the component center."
+msgstr "Die folgenden beiden Zahlen sind die x- und y-Koordinaten der linken oberen Ecke des Komponententextes. Sie sind relativ zum Komponentenzentrum."
+
+# 7e9603cc296a4a94acedc4481ea81128
 #: ../../source/internal.rst:99
 msgid ""
 "The next two numbers indicate the mirroring about the x axis (``1`` for "
-"mirrored, ``0`` for not mirrored) and the counter-clockwise rotation (multiple "
-"of 90 degree, i.e. 0...3)."
-msgstr ""
-"Die nächsten beiden Zahlen zeigen an, ob die Komponente an der x-Achse "
-"gespiegelt ist (``1`` für gespiegelt, ``0`` für nicht gespiegelt) ist und ob "
-"die Komponente entgegen des Uhrzeigersinns gedreht ist (Vielfache von 90 Grad, "
-"d.h. 0...3)."
+"mirrored, ``0`` for not mirrored) and the counter-clockwise rotation "
+"(multiple of 90 degree, i.e. 0...3)."
+msgstr "Die nächsten beiden Zahlen zeigen an, ob die Komponente an der x-Achse gespiegelt ist (``1`` für gespiegelt, ``0`` für nicht gespiegelt) ist und ob die Komponente entgegen des Uhrzeigersinns gedreht ist (Vielfache von 90 Grad, d.h. 0...3)."
 
+# c7ef1fee074045e8b1db55e9d1867867
 #: ../../source/internal.rst:102
 msgid ""
 "The next entries are the values of the component properties (in quotation "
 "marks) followed by an ``1`` if the property is visible on the schematic "
 "(otherwise ``0``)."
-msgstr ""
-"Die nächsten beiden Einträge sind die Werte der Komponenteneigenschaften (in "
-"Anführungszeichen) gefolgt von einer ``1``, falls die Eigenschaft in dem "
-"Schaltplan angezeigt wird (ansonsten eine ``0``)."
+msgstr "Die nächsten beiden Einträge sind die Werte der Komponenteneigenschaften (in Anführungszeichen) gefolgt von einer ``1``, falls die Eigenschaft in dem Schaltplan angezeigt wird (ansonsten eine ``0``)."
 
+# 3052cf7f63d3415d993e4418b1101bfb
+#: ../../source/internal.rst:110
+msgid "Wires"
+msgstr "Verbindungen"
+
+# 798178e6875546a0ab0ab16d04a0982d
 #: ../../source/internal.rst:113
 msgid ""
-"This section starts with ``<Wires>`` and ends with ``</Wires>``. It contains "
-"the wires (electrical connection between circuit components) and their labels "
-"and node sets. The line format is as follows:"
-msgstr ""
-"Der Abschnitt beginnt mit ``<Wires>`` und endet mit ``</Wires>``. Er "
-"beinhaltet die Drähte (elektrische Verbindungen zwischen den "
-"Schlatkreiskomponenten) und ihre Bezeichnungen bzw. zusätzlichen "
-"Eigenschaften. Das Zeilenformat sieht wie folgt aus:"
+"This section starts with ``<Wires>`` and ends with ``</Wires>``. It contains"
+" the wires (electrical connection between circuit components) and their "
+"labels and node sets. The line format is as follows:"
+msgstr "Der Abschnitt beginnt mit ``<Wires>`` und endet mit ``</Wires>``. Er beinhaltet die Drähte (elektrische Verbindungen zwischen den Schlatkreiskomponenten) und ihre Bezeichnungen bzw. zusätzlichen Eigenschaften. Das Zeilenformat sieht wie folgt aus:"
 
+# 6786295d0d3a4baa95ac0c8d7545b37f
+#: ../../source/internal.rst:121
+msgid ""
+"The first four numbers are the coordinates of the wire in pixels: x "
+"coordinate of starting point, y coordinate of starting point, x coordinate "
+"of end point and y coordinate of end point. All wires must be either "
+"horizontal (both x coordinates equal) or vertical (both y coordinates "
+"equal)."
+msgstr "Die ersten vier Zahlen sind die Koordinaten des Drahtes in Pixel: x-Koordinate des Startpunktes, y-Koordinate des Startpunktes, x-Koordinate des Endpunktes und y-Koordinate des Endpunktes. Alle Drähte müssen entweder horizontal (beide x-Koordinaten gleich) oder vertikal (beide y-Koordinaten gleich) sein."
+
+# 848e31b3580345e0b5cb2c8a8278f4b9
+#: ../../source/internal.rst:126
+msgid ""
+"The first string in quotation marks is the label name. It is empty if the "
+"user has not set a label on this wire."
+msgstr "Die erste Zeichenkette in Anführungszeichen ist der Name des Bezeichners. Er ist leer, wenn der Benutzer keine Drahtbezeichnung eingegeben hat."
+
+# 0ce266c8fc894a8ea450492329ffc1d2
+#: ../../source/internal.rst:128
+msgid ""
+"The next two numbers are the x and y coordinates of the label or zero if no "
+"label exists."
+msgstr "Die nächsten beiden Zahlen sind die x- und y-Koordinaten der Bezeichnung oder Null, falls es keine Bezeichnung gibt."
+
+# 19c386202c1e42fe9db96665aec16314
+#: ../../source/internal.rst:130
+msgid ""
+"The next number is the distance between the wire starting point and and the "
+"point where the label is set on the wire."
+msgstr "Die folgenden beiden Zahlen sind der Abstand zwischen dem Startpunkt des Drahtes und dem Punkt, an dem der Bezeichner des Drahtes angezeigt werden soll."
+
+# 8bf4cf7971ed433782491b36367eb514
+#: ../../source/internal.rst:132
+msgid ""
+"The last string in quotation marks is the node set of the wire, i.e. the "
+"initial voltage at this node used by the simulation engine to find the "
+"solution. This is empty if the user has not set a node set for this wire."
+msgstr "Die letzte Zeichenkette in Anführungszeichen ist der Anfangswert für die Knotenspannung an diesem Draht. Sie ist leer, falls der Benutzer keine Knotenspannung für diesen Draht angegeben hat.."
+
+# f28dac16e22744cbb4ea99e86d4c69eb
+#: ../../source/internal.rst:141
+msgid "Diagrams"
+msgstr "Diagramme"
+
+# 658aa4f0a20249e1a74e5dfa96705b4e
 #: ../../source/internal.rst:144
 msgid ""
 "This section starts with ``<Diagrams>`` and ends with ``</Diagrams>``. It "
-"contains the diagrams with their graphs and their markers. The line format is "
-"as follows (line break not allowed):"
-msgstr ""
-"Der Abschnitt beginnt mit `<Diagrams>`` und endet mit ``</Diagrams>``. Er "
-"beinhaltet die Diagramme mit ihren Kurven und Markierungen.\""
+"contains the diagrams with their graphs and their markers. The line format "
+"is as follows (line break not allowed):"
+msgstr "Der Abschnitt beginnt mit `<Diagrams>`` und endet mit ``</Diagrams>``. Er beinhaltet die Diagramme mit ihren Kurven und Markierungen.\""
 
+# fbcb0af6c8ab41bcb679007cb6d298d8
+#: ../../source/internal.rst:154
+msgid "The first two numbers are x and y coordinate of lower left corner."
+msgstr "Die ersten beiden Zahlen sind die x-und y-Koordinaten der linken unteren Ecke."
+
+# 9de7e1d0433a48eb834538f0485a91bb
+#: ../../source/internal.rst:155
+msgid "The next two numbers are width and height of diagram boundings."
+msgstr "Die nächsten beiden Zahlen sind die Breite und Höhe der Diagrammgrenzen."
+
+# da92f26a9be4445ebb00dc773d3afb4c
+#: ../../source/internal.rst:156
+msgid "The fifth number is 1 if grid is on and 0 if grid is off."
+msgstr "Die fünfte Zahl ist 1 falls das Gitternetz angezeigt werden soll und 0 falls nicht."
+
+# 9a1fde66fdf440b9a5e892e5d2f68bef
+#: ../../source/internal.rst:157
+msgid ""
+"The next is grid color in 24 bit hexadecimal RGB value, e.g. #FF0000 is red."
+msgstr "Das nächste ist die Farbe des Gitternetzes als hexadezimaler 24-Bit RGB-Wert, z.B. ist #FF0000 rot."
+
+# 0fde171fb1dc4d4f9b9ce331760316b9
+#: ../../source/internal.rst:159
+msgid "The next number determines the style of the grid."
+msgstr "Die nächste Zahl legt den Stil des Gitternetzes fest."
+
+# a685b27be17048148e74520b30466d56
+#: ../../source/internal.rst:160
+msgid "The next number determines which axes have logarithmical scale."
+msgstr "Die nächste Zahl legt fest, welche Achsen eine logarithmische Einteilung haben."
+
+# 65b96c100acf47c8959ea6e348a66402
+#: ../../source/internal.rst:166
+msgid "Paintings"
+msgstr "Zeichnungen"
+
+# e00a016de4dd4b80b0ce74dd80f9c528
 #: ../../source/internal.rst:169
 msgid ""
 "This section starts with ``<Paintings>`` and ends with ``</Paintings>``. It "
 "contains the paintings that are within the schematic."
-msgstr ""
-"Der Abschnitt beginnt mit ``<Paintings>`` und endet mit ``</Paintings>``. Er "
-"beinhaltet die Zeichnungselemente, die sich in dem Schaltplan befinden.\""
-
-#~ msgid ""
-#~ "This document describes the schematic file format of Qucs. This format is "
-#~ "used for schematics (usually with suffix \".sch\") and for data displays "
-#~ "(usually with suffix \".dpl\"). The following text shows a short example of "
-#~ "a schematic file."
-#~ msgstr ""
-#~ "Dieses Dokument beschreibt kurz das Dateiformat der Schaltpläne von Qucs. "
-#~ "Das Format wird für Schaltpläne (normalerweise mit der Dateiendung \".sch"
-#~ "\") und für Datenvisualisierungen (normalerweise mit der Dateiendung \".dpl"
-#~ "\") verwendet. Der folgende Text zeigt ein kurzes Beispiel für eine solche "
-#~ "Datei."
-
-#~ msgid ""
-#~ "The file contains several section. Each of it is explained below. Every "
-#~ "line consists of not more than one information block that starts with a "
-#~ "less-sign \"<\" and ends with a greater-sign \">\"."
-#~ msgstr ""
-#~ "Die Datei beinhaltet mehrere Abschnitte. Jeder dieser Abschnitte wird "
-#~ "nachfolgend erklärt. Jede Zeile besteht aus einem einzigen "
-#~ "Informationsblock, der mit dem Kleiner-Zeichen \"<\" beginnt und mit dem "
-#~ "Größer-Zeichen \">\" endet."
-
-#~ msgid ""
-#~ "The first section starts with \"<Properties>\" and ends with \"</Properties>"
-#~ "\". It contains the document properties of the file. Each line is optional. "
-#~ "The following properties are supported:"
-#~ msgstr ""
-#~ "Der erste Abschnitt beginnt mit \"<Properties>\" und endet mit \"</"
-#~ "Properties>\". Er beinhaltet die Dokumenteneigenschaften der Datei. Jede "
-#~ "dieser Zeilen ist optional. Die folgenden Eigenschaften werden unterstützt."
-
-#~ msgid ""
-#~ "*<View=x1,y1,x2,y2,scale,xpos,ypos>* contains pixel position of the "
-#~ "schematic window in the first four numbers, its current scale and the "
-#~ "current position of the upper left corner (last two numbers)."
-#~ msgstr ""
-#~ "*<View=x1,y1,x2,y2,scale,xpos,ypos>* beinhaltet die Pixelposition des "
-#~ "Schaltplanfensters in den ersten vier Zahlen, die aktuelle Skalierung und "
-#~ "die aktuelle Position der linken oberen Ecke (die letzten beiden Zahlen)."
-
-#~ msgid ""
-#~ "*<Grid=x,y,on>* contains the distance of the grid in pixel (first two "
-#~ "numbers) and whether grid is on (last number 1) or off (last number 0)."
-#~ msgstr ""
-#~ "*<Grid=x,y,on>* beinhaltet den Gitternetzabstand in Pixeln (die ersten "
-#~ "beiden Zahlen) und ob das Gitternetz sichtbar ist (letzte Zahl 1) oder "
-#~ "nicht (letzte Zahl 0)."
-
-#~ msgid ""
-#~ "*<DataSet=name.dat>* contains the file name of the data set associated with "
-#~ "this schematic."
-#~ msgstr ""
-#~ "*<DataSet=name.dat>* beinhaltet den Dateinamen des Datensatzes, der mit "
-#~ "diesem Schaltplan assoziiert wird."
-
-#~ msgid ""
-#~ "*<DataDisplay=name.dpl>* contains the file name of the data display page "
-#~ "associated with this schematic (or the file name of the schematic if this "
-#~ "document is a data display)."
-#~ msgstr ""
-#~ "*<DataDisplay=name.dpl>* beinhaltet den Dateinamen der Datenvisualisierung, "
-#~ "die mit diesem Schaltplan assoziiert wird (bzw. den Dateinamen des "
-#~ "Schaltplan, falls das Dokument eine Dateinvisualisierung ist)."
-
-#~ msgid ""
-#~ "*<OpenDisplay=yes>* contains 1 if the data display page opens automatically "
-#~ "after simulation, otherwise contains 0."
-#~ msgstr ""
-#~ "*<OpenDisplay=yes>* beinhaltet eine 1, falls die Datenvisualisierung "
-#~ "automatisch nach der Simulation angezeigt werden soll, anderenfalls eine 0."
-
-#~ msgid ""
-#~ "This section starts with \"<Symbol>\" and ends with \"</Symbol>\". It "
-#~ "contains painting elements creating a schematic symbol for the file. This "
-#~ "is usually only used for schematic files that meant to be a subcircuit."
-#~ msgstr ""
-#~ "Dieser Abschnitt beginnt mit \"<Symbol>\" und endet mit \"</Symbol>\". Er "
-#~ "beinhaltet die Zeichnungselemente, die das Schaltplansymbol dieser Datei "
-#~ "bilden. Das wird normalerweise nur bei Schaltplänen verwendet, die eine "
-#~ "Unterschaltung darstellen."
-
-#~ msgid ""
-#~ "This section starts with \"<Components>\" and ends with \"</Components>\". "
-#~ "It contains the circuit components of the schematic. The line format is as "
-#~ "follows:"
-#~ msgstr ""
-#~ "Dieser Abschnitt beginnt mit \"<Components>\" und endet mit \"</Components>"
-#~ "\". Er beinhaltet die Schaltkreiskomponenten des Schaltplans. Das "
-#~ "Zeilenformat ist wie folgt aufgebaut:"
-
-#~ msgid ""
-#~ "The type identifies the component, e.g. \"R\" for a resistor, \"C\" for a "
-#~ "capacitor."
-#~ msgstr ""
-#~ "Der type identifiziert die Komponente, z.B. steht \"R\" für einen "
-#~ "Widerstand und \"C\" für einen Kondensator."
-
-#~ msgid ""
-#~ "The name is the unique component identifier of the schematic, e.g. \"R1\" "
-#~ "for the first resistor."
-#~ msgstr ""
-#~ "Der *name* ist der Komponentenidentifizierer in dem Schaltplan, z.B. steht "
-#~ "\"R1\" für den ersten Widerstand."
-
-#~ msgid ""
-#~ "A \"1\" in the active field shows that the component is active, i.e it is "
-#~ "used in the simulation. A \"0\" shows it is inactive."
-#~ msgstr ""
-#~ "Eine \"1\" in dem active Feld zeigt an, dass die Komponenten aktiv ist, d."
-#~ "h. dass sie während der Simulation verwendet wird. Eine \"0\" zeigt an, "
-#~ "dass die Komponente nicht aktiv ist."
-
-#~ msgid ""
-#~ "The next two numbers indicate the mirroring about the x axis (\"1\" for "
-#~ "mirrored, \"0\" for not mirrored) and the counter-clockwise rotation "
-#~ "(multiple of 90 degree, i.e. 0...3)."
-#~ msgstr ""
-#~ "Die nächsten beiden Zahlen zeigen an, ob die Komponente an der x-Achse "
-#~ "gespiegelt ist (\"1\" für gespiegelt, \"0\" für nicht gespiegelt) ist und "
-#~ "ob die Komponente entgegen des Uhrzeigersinns gedreht ist (Vielfache von 90 "
-#~ "Grad, d.h. 0...3)."
-
-#~ msgid ""
-#~ "The next entries are the values of the component properties (in quotation "
-#~ "marks) followed by an 1 if the property is visible on the schematic "
-#~ "(otherwise 0)."
-#~ msgstr ""
-#~ "Die nächsten beiden Einträge sind die Werte der Komponenteneigenschaften "
-#~ "(in Anführungszeichen) gefolgt von einer 1, falls die Eigenschaft in dem "
-#~ "Schaltplan angezeigt wird (ansonsten eine 0)."
-
-#~ msgid ""
-#~ "This section starts with \"<Wires>\" and ends with \"</Wires>\". It "
-#~ "contains the wires (electrical connection between circuit components) and "
-#~ "their labels and node sets. The line format is as follows:"
-#~ msgstr ""
-#~ "Der Abschnitt beginnt mit \"<Wires>\" und endet mit \"</Wires>\". Er "
-#~ "beinhaltet die Drähte (elektrische Verbindungen zwischen den "
-#~ "Schlatkreiskomponenten) und ihre Bezeichnungen bzw. zusätzlichen "
-#~ "Eigenschaften. Das Zeilenformat sieht wie folgt aus:"
-
-#~ msgid ""
-#~ "This section starts with \"<Diagrams>\" and ends with \"</Diagrams>\". It "
-#~ "contains the diagrams with their graphs and their markers."
-#~ msgstr ""
-#~ "Der Abschnitt beginnt mit \"<Diagrams>\" und endet mit \"</Diagrams>\". Er "
-#~ "beinhaltet die Diagramme mit ihren Kurven und Markierungen."
-
-#~ msgid ""
-#~ "This section starts with \"<Paintings>\" and ends with \"</Paintings>\". It "
-#~ "contains the paintings that are within the schematic."
-#~ msgstr ""
-#~ "Der Abschnitt beginnt mit \"<Paintings>\" und endet mit \"</Paintings>\". "
-#~ "Er beinhaltet die Zeichnungselemente, die sich in dem Schaltplan befinden."
+msgstr "Der Abschnitt beginnt mit ``<Paintings>`` und endet mit ``</Paintings>``. Er beinhaltet die Zeichnungselemente, die sich in dem Schaltplan befinden.\""

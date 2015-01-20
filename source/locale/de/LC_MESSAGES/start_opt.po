@@ -1,191 +1,182 @@
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014, Qucs Team (2014)
+# This file is distributed under the same license as the Qucs Help package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+"Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 21:40+0100\n"
+"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"PO-Revision-Date: 2015-01-13 04:51+0000\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/qucs-help/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
-"X-Generator: Poedit 1.6.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+# 80ebf8bf9f0f4d6f89ecb7cff0182965
 #: ../../source/start_opt.rst:3
 msgid "Getting Started with Optimization"
 msgstr "Einführung in die Optimierung"
 
+# a070d7e646c44ee8a369a8b07789cb41
 #: ../../source/start_opt.rst:6
 msgid ""
-"For circuit optimization, Qucs uses the ASCO tool (`http://asco.sourceforge."
-"net/ <http://asco.sourceforge.net/>`__). A brief description on how to "
-"prepare your schematic, execute and interprete the results is given below. "
-"Before using this functionality, ASCO must be installed on the computer."
-msgstr ""
-"Für die Schaltkreisoptimierung verwendet Qucs ein Programm namens ASCO "
-"(http://asco.sourceforge.net/). Es folgt eine kurze Beschreibung, wie man "
-"ein Schaltplan dafür vorbereitet, die Optimierung ausführt und die "
-"Ergebnisse interpretieren kann. Bevor man diese Funktionalität benutzen "
-"kann, muss ASCO auf Ihrem Computer installiert sein."
+"For circuit optimization, Qucs uses the ASCO tool "
+"(`http://asco.sourceforge.net/ <http://asco.sourceforge.net/>`__). A brief "
+"description on how to prepare your schematic, execute and interprete the "
+"results is given below. Before using this functionality, ASCO must be "
+"installed on the computer."
+msgstr "Für die Schaltkreisoptimierung verwendet Qucs ein Programm namens ASCO (http://asco.sourceforge.net/). Es folgt eine kurze Beschreibung, wie man ein Schaltplan dafür vorbereitet, die Optimierung ausführt und die Ergebnisse interpretieren kann. Bevor man diese Funktionalität benutzen kann, muss ASCO auf Ihrem Computer installiert sein."
 
+# 3212753fa19a463986d6db7bc70fc1f4
 #: ../../source/start_opt.rst:12
 msgid ""
 "Optimization of a circuit is nothing more than the minimization of a cost "
 "function. It can either be the delay or the rise time of a digital circuit, "
 "or the power or gain of an analog circuit. Another possibility is defining "
-"the optimization problem as a composition of functions, leading in this case "
-"to the definition of a figure-of-merit."
-msgstr ""
-"Die Optimierung eines Schaltkreises ist nicht mehr als die Minimierung einer "
-"Kostenfunktion. Das kann entweder die Verzögerungszeit oder die Anstiegszeit "
-"in einer digitalen Schaltung, oder die Leistungsverstärkung einer analogen "
-"Schaltung sein. Eine andere Möglichkeit ist die Definition des "
-"Optimierungsproblems als eine Zusammensetzung von Funktionen, was in diesem "
-"Fall zu einem Gütefaktor führt."
+"the optimization problem as a composition of functions, leading in this case"
+" to the definition of a figure-of-merit."
+msgstr "Die Optimierung eines Schaltkreises ist nicht mehr als die Minimierung einer Kostenfunktion. Das kann entweder die Verzögerungszeit oder die Anstiegszeit in einer digitalen Schaltung, oder die Leistungsverstärkung einer analogen Schaltung sein. Eine andere Möglichkeit ist die Definition des Optimierungsproblems als eine Zusammensetzung von Funktionen, was in diesem Fall zu einem Gütefaktor führt."
 
+# e4ed1bbc33854b4a8a227dc8aca46506
 #: ../../source/start_opt.rst:18
 msgid ""
 "To setup a netlist for optimization two things must be added to the already "
 "existing netlist: insert equation(s) and the optimization component block. "
 "Take the schematic from Figure 1 and change it until you have the resulting "
 "schematic given in Figure 2."
-msgstr ""
-"Um einen Schaltplan für ein Optimierung vorzubereiten, müssen zwei Dinge "
-"hinzugefügt werden: Gleichungen und die Optimierungskomponente. Nehmen Sie "
-"den Schaltplan aus Abbildung 1 und verändern Sie es solange, bis Sie den "
-"Schaltplan in Abbildung 2 erhalten."
+msgstr "Um einen Schaltplan für ein Optimierung vorzubereiten, müssen zwei Dinge hinzugefügt werden: Gleichungen und die Optimierungskomponente. Nehmen Sie den Schaltplan aus Abbildung 1 und verändern Sie es solange, bis Sie den Schaltplan in Abbildung 2 erhalten."
 
+# 108bba8c2edf428dbb8b55bc68a26571
+#: ../../source/start_opt.rst:24
+msgid "|image0_EN|"
+msgstr "|image0_DE|"
+
+# f762df78b95e4260901354a9d7f34600
 #: ../../source/start_opt.rst:26
 msgid "Figure 1 - Initial schematic."
 msgstr "Abbildung 1 - Ursprünglicher Schaltplan."
 
+# 2dae0661e8f84508a375fdff72089e41
+#: ../../source/start_opt.rst:29
+msgid "|image1_EN|"
+msgstr "|image1_DE|"
+
+# 8164a61f52d94d06b59749bd7c071e55
 #: ../../source/start_opt.rst:31
 msgid "Figure 2 - Prepared schematic."
 msgstr "Abbildung 2 - Vorbereiteter Schaltplan."
 
+# 78b2623a473448ba90d643e6cf996506
 #: ../../source/start_opt.rst:34
 msgid ""
 "Now, open the optimization component and select the optimization tab. From "
-"the existing parameters, special attention should be paid to 'Maximum number "
-"of iterations', 'Constant F' and 'Crossing over factor'. Over- or "
+"the existing parameters, special attention should be paid to 'Maximum number"
+" of iterations', 'Constant F' and 'Crossing over factor'. Over- or "
 "underestimation can lead to a premature convergence of the optimizer to a "
 "local minimum or, a very long optimization time."
-msgstr ""
-"Jetzt öffnen Sie die Optimierungskomponente und wählen die "
-"Algorithmusschaltfläche an. Aus den existierenden Parametern sollte "
-"besonders auf 'Maximale Anzahl der Iterationen', 'Constant F' und 'Crossing "
-"over factor' geachtet werden. Über- oder Unterschätzung kann zur vorzeitigen "
-"Konvergenz des Optimierers in einem lokalen Optimum führen oder auch zu sehr "
-"langen Optimierungszeiten."
+msgstr "Jetzt öffnen Sie die Optimierungskomponente und wählen die Algorithmusschaltfläche an. Aus den existierenden Parametern sollte besonders auf 'Maximale Anzahl der Iterationen', 'Constant F' und 'Crossing over factor' geachtet werden. Über- oder Unterschätzung kann zur vorzeitigen Konvergenz des Optimierers in einem lokalen Optimum führen oder auch zu sehr langen Optimierungszeiten."
 
+# 28893d352c34438a90c5fd99f44ae157
+#: ../../source/start_opt.rst:41
+msgid "|image2_EN|"
+msgstr "|image2_DE|"
+
+# 87f4cc505d53429eaeec242431ea979a
 #: ../../source/start_opt.rst:43
 msgid "Figure 3 - Optimization dialog, algorithm options."
 msgstr "Abbildung 3 - Optimierungsdialog, Algorithmusoptionen."
 
+# 0e51754785b14d9b8ad96f7d80218f35
 #: ../../source/start_opt.rst:46
 msgid ""
 "In the Variables tab, defining which circuit elements will be chosen from "
 "the allowed range, as shown in Figure 4. The variable names correspond to "
 "the identifiers placed into properties of components and **not** the "
 "components' names."
-msgstr ""
-"Die Variablenschaltfläche, wo die Schaltkreiselemente definiert werden, die "
-"in einem bestimmten Interval optimiert werden können, ist in Abbildung 4 "
-"dargestellt. Die Variablennamen korrespondieren zu den Namen, die in die "
-"Komponenteneigenschaften platziert wurden und **nicht** zu den Namen der "
-"Komponenten."
+msgstr "Die Variablenschaltfläche, wo die Schaltkreiselemente definiert werden, die in einem bestimmten Interval optimiert werden können, ist in Abbildung 4 dargestellt. Die Variablennamen korrespondieren zu den Namen, die in die Komponenteneigenschaften platziert wurden und **nicht** zu den Namen der Komponenten."
 
+# 5f737976f55d4646aa799440906087af
+#: ../../source/start_opt.rst:52
+msgid "|image3_EN|"
+msgstr "|image3_DE|"
+
+# c36a956b534349c9aa6d5746fec5248b
 #: ../../source/start_opt.rst:54
 msgid "Figure 4 - Optimization dialog, variables options."
 msgstr "Abbildung 4 - Optimierungsdialog, Variablenoptionen."
 
+# 16a67ce5c92043e4ae99809cfaab500d
 #: ../../source/start_opt.rst:56
 msgid ""
 "Finally, go to Goals where the optimization objective (maximize, minimize) "
 "and constraints (less, greater, equal) are defined. ASCO then automatically "
 "combines them into a single cost function, that is then minimized."
-msgstr ""
-"Schließlich müssen noch die Ziele der Optimierung (maximieren, minimieren) "
-"und Optimierungsgrenzen (kleiner, größer, gleich) in der Zielschaltfläche "
-"eingegeben werden. ASCO kombiniert diese Ziele zu einer einzigen "
-"Kostenfunktion, die dann minimiert wird."
+msgstr "Schließlich müssen noch die Ziele der Optimierung (maximieren, minimieren) und Optimierungsgrenzen (kleiner, größer, gleich) in der Zielschaltfläche eingegeben werden. ASCO kombiniert diese Ziele zu einer einzigen Kostenfunktion, die dann minimiert wird."
 
+# a3fff78a9f234c0c9e70a1097af4e8d1
+#: ../../source/start_opt.rst:62
+msgid "|image4_EN|"
+msgstr "|image4_DE|"
+
+# 4f4d7e7a15ad41a5890bb459bc35e0e7
 #: ../../source/start_opt.rst:64
 msgid "Figure 5 - Optimization dialog, goals options."
 msgstr "Abbildung 5 - Optimierungsdialog, Zieloptionen."
 
+# fe4f7d181dda4834be6113614a233846
 #: ../../source/start_opt.rst:67
 msgid ""
 "The next step is to change the schematic, and define which circuit elements "
 "are to be optimized. The resulting schematic is show in Figure 6."
-msgstr ""
-"Der nächste Schritt ist die Veränderung des Schaltplans und die Definition "
-"der Schaltkreiselemente, die optimiert werden sollen. Der enstehende "
-"Schaltplan wird in Abbildung 6 dargestellt."
+msgstr "Der nächste Schritt ist die Veränderung des Schaltplans und die Definition der Schaltkreiselemente, die optimiert werden sollen. Der enstehende Schaltplan wird in Abbildung 6 dargestellt."
 
+# 7b05947786a44ee0a899dc50c53f327e
+#: ../../source/start_opt.rst:72
+msgid "|image5_EN|"
+msgstr "|image5_DE|"
+
+# 30678288c1214aa0b2a9e2cfd98ae249
 #: ../../source/start_opt.rst:74
 msgid "Figure 6 - New Qucs main window."
 msgstr "Abbildung 6 - Neues Qucs Hauptfenster."
 
+# ec40c5b72a1c4c5da99fca2ccb9f0bcc
 #: ../../source/start_opt.rst:76
 msgid ""
 "The last step is to run the optimization, i.e. the simulation by pressing "
 "F2. Once finished, which takes a few seconds on a modern computer, the best "
 "simulation results is shown in the graphical waveform viewer."
-msgstr ""
-"Der letzte Schritt ist die Ausführung der Optimierung, d.h. das Starten der "
-"Simulation durch Drücken von F2. Wenn die Optimierung beendet ist, was auf "
-"einem modernen Computer ein paar Sekunden dauert, werden die besten "
-"Simulationsergebnisse angezeigt."
+msgstr "Der letzte Schritt ist die Ausführung der Optimierung, d.h. das Starten der Simulation durch Drücken von F2. Wenn die Optimierung beendet ist, was auf einem modernen Computer ein paar Sekunden dauert, werden die besten Simulationsergebnisse angezeigt."
 
-#: ../../source/start_opt.rst:84
-msgid "Figure 7 - Qucs results window."
-msgstr "Abbildung 7 - Qucs Ergebnisfenster."
-
-#: ../../source/start_opt.rst:87
-msgid ""
-"The best found circuit sizes can be found in the optimization dialog, in the "
-"Variables tab. They are now the initial values for each one of introduced "
-"variables (Figure 8)."
-msgstr ""
-"Die besten Schaltkreisgrößen findet man im Optimierungsdialog auf der "
-"Variablenschaltfläche. Es sind jetzt die Anfangswerte für jede der "
-"eingeführten Variablen (siehe Abbildung 8)."
-
-#: ../../source/start_opt.rst:94
-msgid "Figure 8 - The best found circuit sizes."
-msgstr "Abbildung 8 - Die optimierten Schaltkreisgrößen."
-
-#: ../../source/start_opt.rst:24
-msgid "|image0_EN|"
-msgstr "|image0_DE|"
-
-#: ../../source/start_opt.rst:29
-msgid "|image1_EN|"
-msgstr "|image1_DE|"
-
-#: ../../source/start_opt.rst:41
-msgid "|image2_EN|"
-msgstr "|image2_DE|"
-
-#: ../../source/start_opt.rst:52
-msgid "|image3_EN|"
-msgstr "|image3_DE|"
-
-#: ../../source/start_opt.rst:62
-msgid "|image4_EN|"
-msgstr "|image4_DE|"
-
-#: ../../source/start_opt.rst:72
-msgid "|image5_EN|"
-msgstr "|image5_DE|"
-
+# 7e1abc91d85a4dd69b430181edb63c69
 #: ../../source/start_opt.rst:82
 msgid "|image6_EN|"
 msgstr "|image6_DE|"
 
+# b021e43d26224cc1b8d900b88337d5b4
+#: ../../source/start_opt.rst:84
+msgid "Figure 7 - Qucs results window."
+msgstr "Abbildung 7 - Qucs Ergebnisfenster."
+
+# 93fffcc9a47646299fe3b92449d11ce1
+#: ../../source/start_opt.rst:87
+msgid ""
+"The best found circuit sizes can be found in the optimization dialog, in the"
+" Variables tab. They are now the initial values for each one of introduced "
+"variables (Figure 8)."
+msgstr "Die besten Schaltkreisgrößen findet man im Optimierungsdialog auf der Variablenschaltfläche. Es sind jetzt die Anfangswerte für jede der eingeführten Variablen (siehe Abbildung 8)."
+
+# 2a4d6669f2774d0fa48da20a8f22fc1f
 #: ../../source/start_opt.rst:92
 msgid "|image7_EN|"
 msgstr "|image7_DE|"
+
+# eae72d4339dc42ca8a3086b5f4bd3d54
+#: ../../source/start_opt.rst:94
+msgid "Figure 8 - The best found circuit sizes."
+msgstr "Abbildung 8 - Die optimierten Schaltkreisgrößen."

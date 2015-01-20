@@ -1,145 +1,162 @@
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014, Qucs Team (2014)
+# This file is distributed under the same license as the Qucs Help package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+"Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 18:16+0100\n"
+"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"PO-Revision-Date: 2015-01-13 04:51+0000\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Ukrainian (http://www.transifex.com/projects/p/qucs-help/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
-"X-Generator: Poedit 1.6.7\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
+# 479a31719e7148c48238edfcfe084992
 #: ../../source/programs.rst:3
 msgid "Installed Files"
 msgstr "Встановлені файли"
 
+# 5696d0872f1a4565b9ca222e77da5e3f
 #: ../../source/programs.rst:5
 msgid ""
 "The Qucs system needs several programs. These are installed during the "
-"installation process. The path of Qucs is determined during the installation "
-"(``configure`` script). The following explanations assume the default path "
+"installation process. The path of Qucs is determined during the installation"
+" (``configure`` script). The following explanations assume the default path "
 "(``/usr/local/``)."
-msgstr ""
-"До складу Qucs входять кілька програм. Їх встановлюють під час процесу "
-"інсталяції. Шлях, куди встановлюється Qucs, визначається при встановленні "
-"(скриптом configure). У наступних поясненнях приймається шлях за "
-"замовчуванням (/usr/local/)."
+msgstr "До складу Qucs входять кілька програм. Їх встановлюють під час процесу інсталяції. Шлях, куди встановлюється Qucs, визначається при встановленні (скриптом configure). У наступних поясненнях приймається шлях за замовчуванням (/usr/local/)."
 
+# f4dd44c5c8444d43bd06bfdb825557f1
 #: ../../source/programs.rst:10
 msgid "``/usr/local/bin/qucs`` - the GUI"
 msgstr "/usr/local/bin/qucs - графічний інтерфейс"
 
+# 3a76b41d7f914da5862e2c61d1c46a11
 #: ../../source/programs.rst:12
 msgid "``/usr/local/bin/qucsator`` - the simulator (console application)"
 msgstr "/usr/local/bin/qucsator - симулятор (консольна програма)"
 
+# 23afd5457ced4e9a8b6c410e43fabeb0
 #: ../../source/programs.rst:14
 msgid "``/usr/local/bin/qucsedit`` - a simple text editor"
 msgstr "/usr/local/bin/qucsedit - простий текстовий редактор"
 
+# 6dcb2f4af73e4580b0af5c88b7fb1d5f
 #: ../../source/programs.rst:16
 msgid ""
 "``/usr/local/bin/qucshelp`` - a small program displaying the help system"
-msgstr ""
-"/usr/local/bin/qucshelp - невеличка програма для перегляду довідкової "
-"інформації"
+msgstr "/usr/local/bin/qucshelp - невеличка програма для перегляду довідкової інформації"
 
+# b089440b43a44fe5bd0025da1db42579
 #: ../../source/programs.rst:18
 msgid ""
 "``/usr/local/bin/qucstrans`` - a program for calculation transmission line "
 "parameters"
-msgstr ""
-"/usr/local/bin/qucstrans - програма для розрахунку параметрів ліній передач"
+msgstr "/usr/local/bin/qucstrans - програма для розрахунку параметрів ліній передач"
 
+# ec3ea9051897468784ce0dcb321ecb60
 #: ../../source/programs.rst:20
 msgid "``/usr/local/bin/qucsfilter`` - a program synthesizing filter circuits"
 msgstr "/usr/local/bin/qucsfilter - програма синтезу фільтрів"
 
+# 30b580d658534eff8480b7c927d1a09a
 #: ../../source/programs.rst:22
 msgid ""
 "``/usr/local/bin/qucsconv`` - a file format converter (console application)"
-msgstr ""
-"/usr/local/bin/qucsconv - перетворювач форматів файлів (консольна програма)"
+msgstr "/usr/local/bin/qucsconv - перетворювач форматів файлів (консольна програма)"
 
+# cf4c28b285fb4f04b10bd888e509c4c3
 #: ../../source/programs.rst:25
 msgid ""
 "All programs are stand-alone applications and can be started independently. "
 "The main program (GUI)"
-msgstr ""
-"Усі програми є самостійними додатками і можуть працювати незалежно один від "
-"одного. Головна програма (графічний інтерфейс)"
+msgstr "Усі програми є самостійними додатками і можуть працювати незалежно один від одного. Головна програма (графічний інтерфейс)"
 
+# 5d6599fb89934abcb0479f7a08ac95ad
 #: ../../source/programs.rst:28
 msgid "calls ``qucsator`` when performing a simulation,"
 msgstr "викликає qucsator при виконанні моделювання,"
 
+# adc6aecd83fe4e75a476ea3bc7c33eb9
 #: ../../source/programs.rst:30
 msgid "calls ``qucsedit`` when showing text files,"
 msgstr "викликає qucsedit, коли демонструються текстові файли,"
 
+# 9628e24c0d7842669a4d05a35e3ce5e1
 #: ../../source/programs.rst:32
 msgid "calls ``qucshelp`` when showing the help system,"
 msgstr "викликає qucshelp, коли показується довідкова система,"
 
+# 2d2ef86c403e4d7ebd28e82eba563fe1
 #: ../../source/programs.rst:34
 msgid "calls ``qucstrans`` when calling this program from menu \"Tools\","
 msgstr "викликає qucstrans при виклику цієї програми з меню \"Інструменти\","
 
+# 40545f62ad4e4e87995f255b475633a0
 #: ../../source/programs.rst:36
 msgid "calls ``qucsfilter`` when calling this program from menu \"Tools\","
 msgstr "викликає qucsfilter при виклику цієї програми з меню \"Інструменти\","
 
+# 46335b48eec34be18e2f6a55fd6b65d7
 #: ../../source/programs.rst:38
 msgid ""
 "calls ``qucsconv`` when placing the SPICE component and when performing a "
 "simulation with the SPICE component."
-msgstr ""
-"викликає qucsconv, коли вставляється компонент SPICE і коли виконується "
-"моделювання з допомогою компонента SPICE."
+msgstr "викликає qucsconv, коли вставляється компонент SPICE і коли виконується моделювання з допомогою компонента SPICE."
 
+# 59bd61aaf22c426496dd91eb34eb34df
 #: ../../source/programs.rst:40
-msgid "Furthermore, the following directories are created during installation:"
+msgid ""
+"Furthermore, the following directories are created during installation:"
 msgstr "Крім цього, за умови встановлення створюються такі папки:"
 
+# 036ba83849b84c24825c0a655eebcfaf
 #: ../../source/programs.rst:43
 msgid "``/usr/local/share/qucs/bitmaps`` - contains all bitmaps (icons etc.)"
-msgstr ""
-"/usr/local/share/qucs/bitmaps - містить всі растрові зображення (значки "
-"тощо.)"
+msgstr "/usr/local/share/qucs/bitmaps - містить всі растрові зображення (значки тощо.)"
 
+# 45a82c0b72624cb2ae845cab343b1d13
 #: ../../source/programs.rst:45
 msgid ""
 "``/usr/local/share/qucs/docs`` - contains HTML documents for the help system"
 msgstr "/usr/local/share/qucs/docs - містить HTML-документи довідкової системи"
 
+# 9632e0a581a14695bbad04438a51aab2
 #: ../../source/programs.rst:47
 msgid "``/usr/local/share/qucs/lang`` - contains the translation files"
 msgstr "/usr/local/share/qucs/lang - містить файли перекладів"
 
+# ec1019b1db394ab897f9037d33366143
 #: ../../source/programs.rst:50
 msgid "Command line arguments"
 msgstr "Аргументи командного рядку"
 
+# 0fd37c53edb24f508ff8fdfdb84f31a5
 #: ../../source/programs.rst:52
 msgid "``qucs [file1 [file2 ...]]``"
 msgstr "qucs [файл1 [файл2 ...]]"
 
+# fff3b18d687b4c7584488dfb5c6481ce
 #: ../../source/programs.rst:54
 msgid "``qucsator [-b] -i netlist -o dataset`` (b = progress bar)"
 msgstr "qucsator [-b] -і список_кіл -o набір_даних (b = смуга прогресу)"
 
+# 18440c739f414b66bc77939335580161
 #: ../../source/programs.rst:56
 msgid "``qucsedit [-r] [file]`` (r = read-only)"
 msgstr "qucsedit [-r] [файл] (r = лише читання)"
 
+# 72e1db7036374329a2f03aca4b28088f
 #: ../../source/programs.rst:58
 msgid "``qucshelp`` (no arguments)"
 msgstr "qucshelp (без аргументів)"
 
+# 9cc61dbeffb94fa5b99525a38e3157b0
 #: ../../source/programs.rst:60
 msgid "``qucsconv -if spice -of qucs -i netlist.inp -o netlist.net``"
 msgstr "qucsconv -if spice -of qucs -і netlist.inp -o netlist.net"

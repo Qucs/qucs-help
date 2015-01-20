@@ -1,61 +1,56 @@
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014, Qucs Team (2014)
+# This file is distributed under the same license as the Qucs Help package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+"Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 21:44+0100\n"
+"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"PO-Revision-Date: 2015-01-13 04:51+0000\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/qucs-help/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
-"X-Generator: Poedit 1.6.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+# 5bbbc06d849d43d0929a0d76c4a37134
 #: ../../source/start_digi.rst:3
 msgid "Getting Started with Digital Simulations"
 msgstr "Erste digitale Schritte"
 
+# 2fb644ebef5a40cd9ce7ffa1734f8639
 #: ../../source/start_digi.rst:6
 msgid ""
 "Qucs is also a graphical user interface for performing digital simulations. "
 "This document should give you a short description on how to use it."
-msgstr ""
-"Qucs ist auch eine grafische Benutzeroberfläche für die Durchführung von "
-"digitalen Simulationen. Dieses Dokument enthält einen kurze Beschreibung, "
-"wie dies vonstatten geht."
+msgstr "Qucs ist auch eine grafische Benutzeroberfläche für die Durchführung von digitalen Simulationen. Dieses Dokument enthält einen kurze Beschreibung, wie dies vonstatten geht."
 
+# 6036d1ca31d3409899026d6c131de042
 #: ../../source/start_digi.rst:10
 msgid ""
-"For digital simulations Qucs uses the FreeHDL program (`http://www.freehdl."
-"seul.org <http://www.freehdl.seul.org>`__). So the FreeHDL package as well "
-"as the GNU C++ compiler must be installed on the computer."
-msgstr ""
-"Qucs verwendet das Programm FreeHDL (http://www.freehdl.seul.org), um "
-"digitale Simulationen durchzuführen. Das bedeutet, dass sowohl das FreeHDL-"
-"Packet, als auch der GNU C++ Compiler auf dem Computer installiert sein "
-"müssen."
+"For digital simulations Qucs uses the FreeHDL program "
+"(`http://www.freehdl.seul.org <http://www.freehdl.seul.org>`__). So the "
+"FreeHDL package as well as the GNU C++ compiler must be installed on the "
+"computer."
+msgstr "Qucs verwendet das Programm FreeHDL (http://www.freehdl.seul.org), um digitale Simulationen durchzuführen. Das bedeutet, dass sowohl das FreeHDL-Packet, als auch der GNU C++ Compiler auf dem Computer installiert sein müssen."
 
+# bd0f8b3eb86f46e18afdb09656034253
 #: ../../source/start_digi.rst:15
 msgid ""
 "There is no big difference in running an analog or a digital simulation. So "
 "having read the `Getting Started for analog simulations <start.html>`__, it "
-"is now easy to get a digital simulation work. Let us compute the truth table "
-"of a simple logical AND cell. Select the digital components in the combobox "
-"of the components tab on the left-hand side and build the circuit shown in "
+"is now easy to get a digital simulation work. Let us compute the truth table"
+" of a simple logical AND cell. Select the digital components in the combobox"
+" of the components tab on the left-hand side and build the circuit shown in "
 "figure 1. The digital simulation block can be found among the other "
 "simulation blocks."
-msgstr ""
-"Der Unterschied zwischen analogen und digitalen Simulationen ist nicht sehr "
-"groß. Falls also Erste Schritte bereits gelesen wurde, ist es jetzt recht "
-"einfach, auch eine digitale Simulation zum Laufen zu bringen. Es soll "
-"beispielhaft die Lokigtabelle eines einfachen logischen UNDs berechnet "
-"werden. Mit Hilfe der digitalen Komponenten in der Kombobox des Komponenten-"
-"Reiters auf der linken Seite sollte es gelingen, den Schaltplan, der in "
-"Abbildung 1 zu sehen ist, nachzubauen. Der Digitalsimulations-Block kann "
-"unter den anderen Simulationen gefunden werden."
+msgstr "Der Unterschied zwischen analogen und digitalen Simulationen ist nicht sehr groß. Falls also Erste Schritte bereits gelesen wurde, ist es jetzt recht einfach, auch eine digitale Simulation zum Laufen zu bringen. Es soll beispielhaft die Lokigtabelle eines einfachen logischen UNDs berechnet werden. Mit Hilfe der digitalen Komponenten in der Kombobox des Komponenten-Reiters auf der linken Seite sollte es gelingen, den Schaltplan, der in Abbildung 1 zu sehen ist, nachzubauen. Der Digitalsimulations-Block kann unter den anderen Simulationen gefunden werden."
 
+# 39971f734bd64a36bdc7b3863efce19e
 #: ../../source/start_digi.rst:23
 msgid ""
 "The digital sources *S1* and *S2* are the inputs, the node labeled as "
@@ -63,18 +58,19 @@ msgid ""
 "page opens. Place the diagram *truth table* on it and insert the variable "
 "*Output*. Now the truth table of a two-port AND cell is shown. "
 "Congratulation, the first digital simulation is done!"
-msgstr ""
-"Die Digitalquellen S1 und S2 sind die Eingänge, der Knoten mit der "
-"Bezeichnung Ausgang ist der Augang. Nach dem Starten der Simulation öffnet "
-"sich die Seite für die Datenvisualisierung. Das Diagramm Logiktabelle wird "
-"darauf platziert und die Variable Ausgang anschließend eingefügt. Jetzt wird "
-"die Logiktabelle eines UNDs mit zwei Eingängen angezeigt. Gratulation, die "
-"erste Digitalsimulation ist fertig!"
+msgstr "Die Digitalquellen S1 und S2 sind die Eingänge, der Knoten mit der Bezeichnung Ausgang ist der Augang. Nach dem Starten der Simulation öffnet sich die Seite für die Datenvisualisierung. Das Diagramm Logiktabelle wird darauf platziert und die Variable Ausgang anschließend eingefügt. Jetzt wird die Logiktabelle eines UNDs mit zwei Eingängen angezeigt. Gratulation, die erste Digitalsimulation ist fertig!"
 
+# fa3177ad45254943a90db5214a9af409
+#: ../../source/start_digi.rst:30
+msgid "|image0_EN|"
+msgstr "|image0_DE|"
+
+# 26b317f5f9d74be5bebf4e1f208c0a6b
 #: ../../source/start_digi.rst:32
 msgid "Figure 1 - Qucs main window"
 msgstr "Abbildung 1 - Qucs Hauptfenster"
 
+# 8b1dd7a8b222449a8202c0c9edc0b21a
 #: ../../source/start_digi.rst:37
 msgid ""
 "A truth table is not the only digital simulation that Qucs can perform. It "
@@ -87,34 +83,22 @@ msgid ""
 "the next change of state. Note that this list repeats itself after its end. "
 "So, to create a 1GHz clock with pulse ratio 1:1, the list writes: 0.5ns; "
 "0.5ns"
-msgstr ""
-"Die Logiktabelle ist nicht die einzige Digitalsimulation, die Qucs "
-"durchführen kann. Es ist weiterhin möglich, ein beliebiges Signal in einen "
-"Schaltkreis einzuspeisen. Die Ausgangssignale können dann mit Hilfe eines "
-"Zeitdiagramms angezeigt werden. Um das zu erreichen, muss der Parameter Type "
-"des Simulations-Blocks auf TimeList gesetzt werden und die Zeitdauer der "
-"Simulation in den darauf folgenden Parameter eingetragen werden. Die "
-"Digitalquellen haben jetzt eine andere Bedeutung: Sie geben eine beliebige "
-"Bitsequenz aus, indem ein Ausgangszustand, das erste Bit, (low oder high) "
-"und eine Liste von Zeiten, an denen der Zustand gewechselt werden soll, "
-"definiert wird. Es ist zu beachten, dass diese Liste nach derem Ende "
-"wiederholt wird. Um ein 1GHz Taktsignal mit einem Tastverhältnis von 1:1 zu "
-"erzeugen, sieht die erwähnte Liste so aus: 0.5ns; 0.5ns"
+msgstr "Die Logiktabelle ist nicht die einzige Digitalsimulation, die Qucs durchführen kann. Es ist weiterhin möglich, ein beliebiges Signal in einen Schaltkreis einzuspeisen. Die Ausgangssignale können dann mit Hilfe eines Zeitdiagramms angezeigt werden. Um das zu erreichen, muss der Parameter Type des Simulations-Blocks auf TimeList gesetzt werden und die Zeitdauer der Simulation in den darauf folgenden Parameter eingetragen werden. Die Digitalquellen haben jetzt eine andere Bedeutung: Sie geben eine beliebige Bitsequenz aus, indem ein Ausgangszustand, das erste Bit, (low oder high) und eine Liste von Zeiten, an denen der Zustand gewechselt werden soll, definiert wird. Es ist zu beachten, dass diese Liste nach derem Ende wiederholt wird. Um ein 1GHz Taktsignal mit einem Tastverhältnis von 1:1 zu erzeugen, sieht die erwähnte Liste so aus: 0.5ns; 0.5ns"
 
+# f201211fc5df4850a3a616d1ad5d075f
 #: ../../source/start_digi.rst:48
 msgid ""
 "To display the result of this simulation type, there is the diagram *timing "
 "diagram*. Here, the result of all output nodes can be shown row by row in "
 "one diagram. So, let's have fun..."
-msgstr ""
-"Um sich die Ergebnisse dieser Simulationsart anzusehen, gibt es den "
-"Diagrammtyp Zeitverlaufsdiagramm. Darin können die Ergebnisse aller Knoten "
-"Zeile für Zeile angezeigt werden. Viel Spaß dabei..."
+msgstr "Um sich die Ergebnisse dieser Simulationsart anzusehen, gibt es den Diagrammtyp Zeitverlaufsdiagramm. Darin können die Ergebnisse aller Knoten Zeile für Zeile angezeigt werden. Viel Spaß dabei..."
 
+# 5cad465b46f54e8b8b3f801a0a60218b
 #: ../../source/start_digi.rst:55
 msgid "VHDL File Component"
 msgstr ""
 
+# 68edbaff7f4646f190cdd59c399c184f
 #: ../../source/start_digi.rst:58
 msgid ""
 "More complex and more universal simulations can be performed using the "
@@ -125,18 +109,15 @@ msgid ""
 "the schematic area, the VHDL component can be placed."
 msgstr ""
 
+# 0caa769a410f4404b0d2d6d680e56b16
 #: ../../source/start_digi.rst:66
 msgid ""
 "The last entity block in the VHDL file defines the interface, that is, all "
 "input and output ports must be declared here. These ports are also shown by "
-"the schematic symbol and can be connected to the rest of the circuit. During "
-"simulation the source code of the VHDL file is placed into the top-level "
+"the schematic symbol and can be connected to the rest of the circuit. During"
+" simulation the source code of the VHDL file is placed into the top-level "
 "VHDL file. This must be considered as it causes some limitations. For "
 "example, the entity names within the VHDL file must differ from names "
 "already given to subcircuits. (After a simulation, the complete source code "
 "can be seen by pressing F6. Use it to get a feeling for this procedure.)"
 msgstr ""
-
-#: ../../source/start_digi.rst:30
-msgid "|image0_EN|"
-msgstr "|image0_DE|"
