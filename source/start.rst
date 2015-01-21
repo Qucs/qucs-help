@@ -5,19 +5,19 @@ Getting Started with Qucs Analogue Circuit Simulation
 
 Qucs is a scientific/engineering software package for analogue and digital circuit simulation, including linear and non-linear DC analysis, small signal S parameter circuit analysis, time domain transient analysis and VHDL/Verilog digital circuit simulation. This section of the Qucs-Help document introduces readers to the basic steps involved in Qucs analogue circuit simulation. When Qucs is launched for the first time, it creates a directory called **.qucs** within the user's home directory. All files involved in Qucs simulations are saved in the **.qucs** directory or in one of it's  sub-directories. After Qucs has been launched, the software displays a Graphical User Interface window (GUI) similar, or the same, to the one shown in Figure 1. 
 
-|image0_EN|
+|image1_EN|
 
 Figure 1 - Qucs main window
 
 Before using Qucs it is advisable to set the program application settings. This is done from the **File** :math:`\rightarrow` **Application Settings** menu. Clicking on **Application Settings** causes the **EditQucsProperties** window to be displayed, see Figure 2. Complete, with appropriate entries for your Qucs installation, the **Settings**, **Source Code Editor**, **File Types** and **Locations** menus. 
 
-|image0_EN2|
+|image2_EN|
 
 Figure 2 - QucsEditProperties window
 
 On launching Qucs a working area labelled (6) appears at the centre of the GUI. This window is used for displaying schematics, numerical and algebraic model and circuit design data, numerical output data, and signal waveforms and numerial data visualised as graphs, see Figure 3. Clicking, with the left hand mouse button on any of the entries in the tabular bar labelled (5) allows users to quickly switch between the currently open documents. On the left hand side of the Qucs main window is a third area labelled (1) whose content depends on the status of **Projects** (2), **Content** (3), **Components** (4) or **Libraries**. After running Qucs, the **Projects** tab is activated. However note, when Qucs is launched for the first time the **Projects** list is empty.
  
-|image0_EN3|
+|image3_EN|
 
 Figure 3 - Qucs main window with working areas labelled
 
@@ -32,7 +32,7 @@ As a final step before DC simulation label the node, or nodes, who's DC voltage 
 
 To start DC simulation click on the **Simulate** toolbar button (or use menu: **Simulation** :math:`\rightarrow` **Simulate**). A simulation window opens and a sliding bar reports simulation progress. Normally, all this happens so fast that you only see a short flickering on the PC display (this depends on the speed of your PC). After finishing a simulation successfully Qucs opens a data display window. This replaces the schematic entry window labelled (6) in Figure 3. Next the **Components** :math:`\rightarrow` **diagrams** toolbar is opened.  This allows the simulation results to be listed.  Click on the **Tabular** item and move it to the display working area, placing it by clicking the left hand mouse button. A dialogue opens allowing selection of the named signals you wish to list, see Figure 4. On the left hand side of the **Tabular** dialogue (called Edit Diagram Properties) is listed the node name: **divide.V**. Double-click on it and it will be transferred to the right hand side of the dialogue. Leave the dialogue by clicking the **OK** button. The DC simulation voltage data for node **divide** should now be listed in a box on the data display window, with a value of 0.666667 volts.
  
-|image0_EN4|
+|image4_EN|
 
 Figure 4 - Qucs data display window showing a **Tabular** dialogue
 
@@ -40,24 +40,24 @@ Figure 4 - Qucs data display window showing a **Tabular** dialogue
 
    `back to the top <#top>`__
 
-.. |image0_EN| image:: _static/en/qucsmain0.png
+.. |image1_EN| image:: _static/en/start01_qucsmain.png
 
-.. |image0_EN2| image:: _static/en/EditQucsProperties.png
+.. |image2_EN| image:: _static/en/start02_EditQucsProperties.png
 
-.. |image0_EN3| image:: _static/en/qucsmain.png
+.. |image3_EN| image:: _static/en/start03_QucsAreas.png
 
-.. |image0_EN4| image:: _static/en/divideV.png
+.. |image4_EN| image:: _static/en/start04_divideV.png
 
-.. |image0_DE| image:: _static/de/qucshaupt.png
+.. |image1_DE| image:: _static/de/qucshaupt.png
 
-.. |image0_CS| image:: _static/cs/qucsmain.png
+.. |image1_CS| image:: _static/cs/qucsmain.png
 
-.. |image0_ES| image:: _static/es/qucsmain.png
+.. |image1_ES| image:: _static/es/qucsmain.png
 
-.. |image0_FR| image:: _static/fr/qucsmain.png
+.. |image1_FR| image:: _static/fr/qucsmain.png
 
-.. |image0_PT| image:: _static/pt/qucsmain.png
+.. |image1_PT_BR| image:: _static/pt_BR/qucsmain.png
 
-.. |image0_RU| image:: _static/ru/qucsmain.png
+.. |image1_RU| image:: _static/ru/qucsmain.png
 
-.. |image0_UK| image:: _static/uk/qucsmain.png
+.. |image1_UK| image:: _static/uk/qucsmain.png
