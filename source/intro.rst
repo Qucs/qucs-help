@@ -1,7 +1,6 @@
 Background
 ==========
 
-.. include:: <isonum.txt>
 
 The 'Quite universal circuit simulator' Qucs (pronounced: kju:ks) is an open source circuit simulator developed by a group of engineers, scientists and mathematicians under the GNU General Public License (GPL). Qucs was originally the brain-child of German Engineer Michael Margraf. Following its initial public release in 2003 around twenty contributors, from all regions of the world, have invested their expertise and time to support the development of the software. Both binary and source code releases take place at regular intervals. Qucs numbered releases and day-to-day development code snapshots can be downloaded from (`<http://qucs.sourceforge.net>`_). Versions are available for Linux (Ubuntu and other distributions), Mac OS X |copy| and the Windows |copy| 32 bit operating system.
 
