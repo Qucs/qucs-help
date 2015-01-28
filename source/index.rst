@@ -15,16 +15,17 @@ Contents:
 
    intro
    start
-   start_digi
    start_opt
    octave
    short
    subcircuit
+   start_digi
    mathfunc
    characters
    matching
    programs
    internal
+   RFres
 
 
 Technical description concerning the simulator
