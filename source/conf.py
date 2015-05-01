@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Spice4qucs Help'
-copyright = u'2015, Qucs Team (2015)'
+copyright = u'2015, Contributing Authors and Qucs Team (2015)'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
