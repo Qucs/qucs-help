@@ -1,0 +1,17 @@
+* Qucs 0.0.19  /home/vvk/qucs/examples/ngspice/RCL.sch
+V1 _net0 0 DC 0 SIN(0 0.6 7.5MEG 0 0) AC 0.6
+VPr1 _net0 vIn DC 0 AC 0
+L1 vIn _net1  10U 
+R1 0 vR  30
+C1 _net1 vR  40P 
+.control
+set filetype=ascii
+AC LIN 1000 1MEG 10MEG 
+write RCL_ac.txt VPr1#branch v(vIn) v(vR) 
+destroy all
+TRAN 4.97512e-09 1e-06 0 
+write RCL_tran.txt VPr1#branch v(vIn) v(vR) 
+destroy all
+exit
+.endc
+.END
