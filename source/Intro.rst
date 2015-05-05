@@ -1,8 +1,8 @@
+|imageQ_EN|
+
 ---------------------------------
 Chapter 1. Introduction                 
 ---------------------------------    
-
-|imageQ_EN|
  
 Following the release of Qucs-0.0.18 in August 2014 the Qucs Development Team have considered in detail a number of possible directions that future versions of the software could take. Spice4qucs is one of these routes. It addresses a number of problems observed with the current version of Qucs while attempting to combine some of the best features of other GPL circuit simulation packages with Qucs. The project also aims to add additional model development tools to those currently available. Qucs was originally written as an RF and microwave engineering design tool which provided features not found in SPICE, like S parameter simulation, two and multiport small signal AC circuit analysis and RF network synthesis.  Since it was first release under the General Public License (GPL) in 2003 Qucs has provided users with a stable, flexible and reasonably functional circuit simulation package which is particularly suited for high frequency circuit simulation. In the years following 2003 the Qucs Development team added a number of additional simulation facilities, including for example, transient simulation,  device parameter sweep capabilities and single tone Harmonic Balance simulation, making Qucs functionality comparable to SPICE at low frequencies and significantly extended at high frequencies.  Considerable effort has also been made to improve the device modelling tools distributed with Qucs. The recent version of the software includes code for algebraic equation manipulation, Equation-Defined Device (EDD) modelling, Radio Frequency Equation-Defined Device (RFEDD) simulation and Verilog-A synthesised model development plus a range of compact and behavioural device modelling and post simulation data analysis tools that have become central features in an open source software package of surprising power and utility. 
 

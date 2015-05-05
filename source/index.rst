@@ -3,6 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+|image0_EN|
+
 Welcome to spice4qucs Help documentation
 ========================================== 
 User Manual and Reference Material
@@ -18,7 +20,7 @@ User Manual and Reference Material
 | Documentation License". 
 |
 |
-| |image0_EN| 
+ 
 
 ****
 
@@ -40,8 +42,9 @@ Contents:
    Ref
   
 
-A "Technical Description" of the Qucs simulator and implemented device models are available online at http://qucs.sourceforge.net/tech/technical.html Example schematics can 
-also be found at http://qucs.sourceforge.net/download.html#example
+A "Technical Description" of the Qucs simulator and implemented device models are available online at http://qucs.sourceforge.net/tech/technical.html. 
+
+Example schematics can be found at http://qucs.sourceforge.net/download.html#example
 
 
 
