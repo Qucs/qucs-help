@@ -183,7 +183,7 @@ Figure 10. Xyce Transient simulation plotted waveforms for the RCL test example.
 
 ..  |imageQ_EN| image::   _static/en/Qucs.png
 
-..  |RCL_sch_EN| image::  _static/en/chapter2/RCL.png
+..  |RCL_sch_EN| image::  _static/en/chapter2/RCL.svg
 
 ..  |ExtSimDlg_EN| image::  _static/en/chapter2/Ext_sim_dlg.png
 
@@ -193,17 +193,17 @@ Figure 10. Xyce Transient simulation plotted waveforms for the RCL test example.
 
 ..  |diagr_dlg_EN| image::  _static/en/chapter2/Diagr_dlg.png
 
-..  |RCL_ac_EN| image::  _static/en/chapter2/RCL_ac.png
+..  |RCL_ac_EN| image::  _static/en/chapter2/RCL_ac.svg
 
-..  |RCL_tran_EN| image:: _static/en/chapter2/RCL_tran.png
+..  |RCL_tran_EN| image:: _static/en/chapter2/RCL_tran.svg
 
 ..  |diagr_dlg_xyce_EN| image:: _static/en/chapter2/Diagr_dlg_xyce.png
 
 ..  |xyce_EN|  image:: _static/en/chapter2/Xyce_exec.png
 
-..  |RCL_tran_xyce_EN| image:: _static/en/chapter2/RCL_tran_xyce.png
+..  |RCL_tran_xyce_EN| image:: _static/en/chapter2/RCL_tran_xyce.svg
 
-2.4 Varible names
+2.4 Variable names
 ~~~~~~~~~~~~~~~~~
 
 As part of the spice4qucs extensions ngspice and Xyce simulation variable names are converted from Qucs 
@@ -235,7 +235,7 @@ Table 2.1 Qucs and SPICE Variable equivalence
 Qucs does not define a separate analysis type which is equivalent to SPICE "DC sweep" simulation 
 Qucs "DC sweep" is just a specific case of the more general Qucs ``Parameter sweep`` capability.
 To emulate the SPICE `DC sweep`` use a combination of a Qucs DC simulation plus the
-``Parameter sweep`` of an independent DC voltage or DC current source.
+``Parameter sweep`` of an independent DC voltage or DC current source or of a resistor.
 When the spice4qucs Spice netlist builder finds these two connected types of simulation it 
 converts them into a ``DC`` SPICE netlist entry. 
 This procedure is demonstrated in Figure 11. where  the test circuit consists of a diode DC bias network
@@ -252,7 +252,7 @@ PLease note the following differences between SPICE and Qucs DC-sweep simulation
 * For SPICE DC-sweep: SPICE model parameters can be swept using the notation ``Device.Param``, for example  ``T1.Bf`` to sweep the ``Bf`` parameter of transistor ``T1``.
 
 
-..  |ngspice_DC|  image::  _static/en/chapter2/Diode_DC.png
+..  |ngspice_DC|  image::  _static/en/chapter2/Diode_DC.svg
 
 2.5 AC
 ~~~~~~~
