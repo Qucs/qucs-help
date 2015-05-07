@@ -1,0 +1,23 @@
+* Qucs 0.0.19  /home/vvk/qucs/examples/ngspice/quarz_test.sch
+* Qucs 0.0.19  /home/vvk/qucs/examples/ngspice/quarz.sch
+.SUBCKT quarz _net0 _net1 f=8863k Lq=0.01406 Cs=6.5p 
+.PARAM Cq={1/(4*3.1415926539^2*f^2*Lq)}
+R1 _net0 _net1  50MEG
+C2 _net0 _net1  {CS} 
+R2 _net2 _net1  2
+L1 _net3 _net2  {LQ} 
+C1 _net0 _net3  {CQ} 
+.ENDS
+R1 out 0  1
+V1 _net0 0 DC 0 SIN(0 1 1G 0 0) AC 1
+R2 _net0 in  50
+XSUB1  in out quarz f=8863K Lq=0.01406 Cs=6.5P
+.control
+set filetype=ascii
+AC LIN 400 8800K 9000K 
+let K=dB(V(out)/V(in))
+write quarz_test_ac.txt v(in) v(out)  K
+destroy all
+exit
+.endc
+.END
