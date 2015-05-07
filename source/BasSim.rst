@@ -30,9 +30,9 @@ The ngspice website also gives free access to all the distribution and developme
 Xyce is an open source, SPICE-compatible, high-performance analogue circuit  simulator, capable of solving extremely large circuit problems
 on large-scale parallel computing platforms.  
 It also supports serial execution on all common desktop platforms, and small-scale parallel execution on Unix-like systems. 
-Xyce for Linux, Windows, and MacOS can be downloaded from the official Xyce website at https://xyce.sandia.gov/Xyce.
+Xyce for Linux, Microsoft Windows , and MacOS can be downloaded from the official Xyce website at https://xyce.sandia.gov/Xyce.
 The Xyce parallel circuit simulator running on Linux requires installation of the openMPI libraries.  
-Spice4qucs supports both Xyce-Serial and Xyce-Parallel (not currently available for the Windows operating system). 
+Spice4qucs supports both Xyce-Serial and Xyce-Parallel (not currently available for the Microsoft Windows  operating system). 
 
 
 2.3 General simulation methods
@@ -78,9 +78,9 @@ If the directories where the ngspice or Xyce simulators are installed are not in
 location of their executable code must be entered, before any ngspice or Xyce simulations can take place, by Qucs users. 
 This step is necessary for Windows and the MacOS operating systems. 
 In such cases Qucs users need to execute the *Simulator settings* dialog, Figure 3, by pressing the button labelled (2) in Figure 2. 
-This allows the address of the ngspice or Xyce executable code to be entered from the keyboard. 
+This allows the address of the ngspice or Xyce executable code to be entered from the keyboard or by pressing the appropriate *Open File Select button*. 
 In the case of the Xyce Parallel simulator the number of processors installed in your computer system, 
-must also be entered from the keyboard.
+must also be entered from the keyboard or selected using the up-down arrow controls.
 
 |Simset_EN|
 
@@ -204,7 +204,7 @@ Figure 10. Xyce Transient simulation plotted waveforms for the RCL test example.
 ..  |RCL_tran_xyce_EN| image:: _static/en/chapter2/RCL_tran_xyce.svg
 
 2.4 Variable names
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 As part of the spice4qucs extensions ngspice and Xyce simulation variable names are converted from Qucs 
 notation to SPICE notation and reverse. Table 2.1 shows the correspondence between the two notations.

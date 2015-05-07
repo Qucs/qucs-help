@@ -1,0 +1,21 @@
+* Qucs 0.0.19  
+* Qucs 0.0.19  TD.sch
+.SUBCKT TD _net0 _net1 VT=0.025 Is=1e-12 Ip=1e-5 Iv=1e-6 Vp=0.1 Vv=0.4 K=5 C=0.01p 
+BD1I0 _net0 _net1 I=Is*(exp((V(_net0)-V(_net1))/VT)-1.0)
+GD1Q0 _net0 _net1 nD1Q0 _net1 1.0
+LD1Q0 nD1Q0 _net1 1.0
+BD1Q0 nD1Q0 _net1 I=-(C*(V(_net0)-V(_net1)))
+BD1I1 _net0 _net1 I=Iv*exp(K*((V(_net0)-V(_net1))-Vv))
+BD1I2 _net0 _net1 I=Ip*((V(_net0)-V(_net1))/Vp)*exp((Vp-(V(_net0)-V(_net1)))/Vp)
+.ENDS
+XTD2  _net0 0 TD VT=0.025 Is=1E-12 Ip=1E-5 Iv=1E-6 Vp=0.1 Vv=0.4 K=5 C=0.01P
+VI_TD1 _net1 _net0 DC 0 AC 0
+V1 _net1 0 DC 0.1
+.control
+set filetype=ascii
+DC V1 -0.05 0.4 0.000997783
+write _dc.txt VI_TD1#branch 
+destroy all
+exit
+.endc
+.END

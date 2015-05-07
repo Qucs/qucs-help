@@ -20,7 +20,7 @@ The spice4qucs initiative is an ongoing project which attempts to:
 
 2. Provide Qucs users with a choice of simulation engine selected from qucsator, ngspice and Xyce. By selecting ngspice or Xyce as the simulation engine for a particular circuit simulation users may capitalise on all the features offered by the extensive SPICE developments which have taken place over the last forty years.  Both ngspice and Xyce offer improved transient simulation convergence and speed, particularly for large non-linear circuits. Xyce brings an alternative implementation of single tone Harmonic Balance simulation to Qucs which offers much improved convergence properties for both linear and non-linear components and devices. Future versions of Xyce are also likely to offer multi-tone Harmonic Balance simulation.
 
-3. Extend Qucs subcircuit, EDD, RFEDD and Verilog-A device modelling capabilities. Future Qucs releases are planned which will offer much improved component and device modelling features that work as an interlinked structure, supporting model development as a continuous development flow from physical concepts to compiled C++ code.  This is an ambitious aim which the spice4qucs project is attempting to complete by adding the Berkeley "Model and Algorithm Prototyping Platform" (MAPP http://draco.eecs.berkeley.edu/dracotiki/tiki-index.php?page=MAPP ) to Qucs, adding synthesis of ngspice and Xyce SPICE code from Qucs EDD and RFEDD models and by adding the synthesis of Verilog-A models from Qucs EDD models.
+3. Extend Qucs subcircuit, Equation-Defined Device (EDD), Radio Frequency Equation-Defined Device (RFEDD) and Verilog-A device modelling capabilities. Future Qucs releases are planned which will offer much improved component and device modelling features that work as an interlinked structure, supporting model development as a continuous development flow from physical concepts to compiled C++ code.  This is an ambitious aim which the spice4qucs project is attempting to complete by adding the Berkeley "Model and Algorithm Prototyping Platform" (MAPP http://draco.eecs.berkeley.edu/dracotiki/tiki-index.php?page=MAPP ) to Qucs, adding synthesis of ngspice and Xyce SPICE code from Qucs EDD and RFEDD models and by adding the synthesis of Verilog-A models from Qucs EDD models.
 
 4. Offer Qucs users access to the additional simulation tools and extra component and device models provided by ngspice and Xyce. This includes much improved component library facilities which allow the use of device manufacturers SPICE models.
 
@@ -38,15 +38,65 @@ Readers who are not familiar with the basic operation and use of the Qucs GUI, c
 
 Figure 1.  A block diagram showing the analogue modelling and simulation facilities provided by Qucs-0.0.18.   
 
-1.3 Qucs Future Capabilities
+1.3 Qucs future capabilities
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Figure 2. presents an extended version of the Qucs-0.0.18 functional diagram where the added blocks indicate areas chosen for future Qucs development. Two major extension to Qucs functionality are obvious, 
-namely the addition of the ngspice and Xyce circuit simulators to Qucs and the increase in the Qucs device modelling capabilities through the addition of the MAPP software. In Figure 2. the same colour coding has been adopted as that in Figure 1. The MAPP modelling extension is colour coded cyan indicating it forms part of the Qucs software which is dependent on the Octave package for its function. Figure 2. only gives a rough picture of the proposed changes to Qucs being tackled in the spice4qucs project.  Much of the detail will become clearer later in the tutorial and reference sections that follow. At this point it does seem appropriate however, to introduce a short example which demonstrates how much Qucs has evolved since the release of version 0.0.18. This example has been deliberately chosen to present an overview of the major new Qucs features already developed by the spice4qucs project. To provide readers with adequate information to understand and make satisfactory use of the Qucs increased capabilities detailed instructions are described in the tutorial and reference sections found in later chapters of this document.
+namely the addition of the ngspice and Xyce circuit simulators to Qucs and the increase in the Qucs device modelling capabilities through the addition of the MAPP software. In Figure 2. the same colour coding has been adopted as that in Figure 1. The MAPP modelling extension is colour coded cyan indicating it forms part of the Qucs software which is dependent on the Octave package for its function. Figure 2. only gives a rough picture of the proposed changes to Qucs being tackled in the spice4qucs project.  Much of the detail will become clearer later in the tutorial and reference sections that follow. .
  
 |image1_EN|
 
-Figure 2. An extended block diagram outlining the extended form of Qucs simulation facilities and modelling tools under development by the spice4qucs initiative. 
+Figure 2. An extended block diagram outlining the extended Qucs simulation and modelling tools under development by the spice4qucs initiative. 
 
+1.4 A first view of the extended spice4qucs device modelling and simulation features
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+At this point it seems appropriate to introduce a short example which demonstrates how much Qucs has evolved since the release of version 0.0.18. This example has been deliberately chosen to present an overview of the major new Qucs features either already developed by the spice4qucs project or planned for future releases. To provide readers with adequate information on how to make the best use of the new spice4qucs features they are described in detail in later chapters of this document. 
+
+Qucs version 0.0.18 is a surprisingly sophisticated program with quite a number of hidden features which are not obvious to most Qucs users. Given in Figure 3 is a Qucs schematic which demonstrates a little known application of the circuit simulator. Qucs is ideal for developing high level behavioural models of new components or devices which are not implemented in the distributed software. The schematic in Figure 3. introduces the physical equations and device parameters for a semiconductor tunnel diode. By using the Qucs parameter sweep and DC simulation operations it is possible to scan the diode bias voltage *Vpn*, calculate the tunnel diode bias current *idn* at each bias point and plot the device *id = f(vd)* characteristics. 
+Note that in this introductory example the Qucs schematic does not include any electrical components. Moreover, the tunnel diode current is calculated directly from its physical **model_equations** and  **model_parameters**.
+
+|image2_EN|
+
+Figure 3. Mathematical representation of *Id = f(Vd)* for a semiconductor tunnel diode, including device model_parameters, model_equations and a Qucs DC scan test. 
+
+The Berkeley **Model and Algorithm Prototyping Platform** (MAPP) is a new GPL modelling and simulation tool. It is developed by the MAPP team at the Department of Elecrical Engineering and Computer Science, University of California, Berkeley using a MATLAB  subset common to the Octave numerical analysis software.  
+As part of the spice4qucs project the MAPP software has been interfaced with the Qucs GUI.  
+Figure 4 introduces a MAPP behavioural model for the tunnel diode in Figure 3. 
+Notice how similar the models in Figures 3 and 4 are. 
+MAPP circuit simulation results in the diode characteristic plotted in Figure 4.   
+
+|image3_EN|  
+
+Figure 4. MAPP tunnel diode model and simulated diode current as a function of applied bias voltage.
+
+
+
+The Qucs and MAPP modelling tools allow models represented by a set of mathematical equations based on the physical properties of a device to be tested and their correct operation confirmed
+prior to constructing a simulation model for inclusion in circuit schematics.  Illustrated in Figure 5 is a third model for the tunnel diode plus a test circuit for simulating the device
+DC current versus voltage characteristics.  This model will work with Qucs-0.0.18 and spice4qucs versions of the circuit simulator.  It shows how a Qucs EDD model represents the physical model of the tunnel
+diode and how this model can be represented with it's own symbol and tested by combining it with other components to form a DC characteristic test circuit. The Qucs EDD is not implemented in SPICE simulators.
+SPICE 3f5 and later simulators have instead other features like, for example, the B type sources.   
+
+|image4_EN|
+
+Figure 5. Qucs EDD behavioural model for the tunnel diode first introduced in Figure 3. 
+ 
+The Qucs EDD component has one feature which makes it particularly important for developing compact device simulation models, namely that its structure and modelling capabilities are similar to those available with the Verilog-A hardware description language.  Hence, once an MAPP/Qucs EDD model is operating satisfactorily it can be transcribed into a Verilog-A compact model by inspection or by computer synthesis.  Such a Verilog-A model and test circuit is shown in Figure 6.
+
+|image5_EN|
+
+Figure 6. A Verilog-A compact tunnel diode model and test circuit.
+
+One of the main aims of the spice4qucs initiative is both improve the Qucs compact device modelling capabilities and to streamline the flow of information between each part of the modelling and simulation sequence.In all Qucs releases prior to the spice4qucs project a number of modelling tools were implemented in the distribution software but users had to translate manually each type of model format to other formats if they wished to use a model with a different simulator or modelling tool. One exception was the rudimentary translation tool called **qucsconv** for translating SPICE netlists to Qucs netlist format. It was for example not possible to simulate Qucs models encoded in the Qucs netlist format directly with a SPICE simulator or to generate Verilog-A code model directly from a Qucs EDD model. This situation will change significantly as the spice4qucs project moves forward: in the medium to long term a number of synthesis-translation routines will be added to Qucs making the process of model translation transparent to the Qucs user.  The first to be developed is the link between the Qucs netlist format and the ngspice and Xyce simulator netlist formats. Figure 7 shows a Qucs tunnel diode EDD model, a DC swept parameter test circuit and a set of ngspice simulation results. This is followed by a SPICE 3 style netlist which lists the ngspice netlist generated automatically by spice4qucs.  Notice that this netlist is not simply a list of SPICE component statements but includes an embedded ngnutmeg script between the SPICE **.control .... and .... .endc** statements. More on this topic and all the others introduced earlier can be found in later sections of this document.
+
+|image6_EN|
+
+Figure 7. Qucs EDD tunnel diode model and ngspice simulation results.
+
+
+.. literalinclude:: _static/en/netlist.cir
+   :language: Bash
+   :linenos:
+   
 
 .. only:: html
 
@@ -55,3 +105,9 @@ Figure 2. An extended block diagram outlining the extended form of Qucs simulati
 .. |imageQ_EN| image::  _static/en/Qucs.png
 .. |image0_EN| image::  _static/en/Spice4qucsFig1.svg
 .. |image1_EN| image::  _static/en/Spice4qucsFig2.svg
+.. |image2_EN| image::  _static/en/Spice4qucsFig3.svg
+.. |image3_EN| image::  _static/en/Spice4qucsFig4.svg
+.. |image4_EN| image::  _static/en/Spice4qucsFig5.svg
+.. |image5_EN| image::  _static/en/Spice4qucsFig6.svg
+.. |image6_EN| image::  _static/en/Spice4qucsFig7.svg
+
