@@ -314,13 +314,16 @@ Xyce supports Harmonic balance simulation. It is introduced and described in the
 
 Ngspice also supports the following additional simulations:
 
-* Fourier analysis
+* Fourier analysis (Chapter 5.1)
 * Sensitivity analysis 
-* Distortion analysis
+* Distortion analysis (Chapter 5.2)
 * Sensitivity analysis
 * Noise analysis
 
-These types of circuit simulation are implemented with *spice4qucs* using the special *Custom simulation* technique presented in Chapter 9 of this document. 
+Fourier and Distortion analysis have special components that are located 
+in *Spice simulations* group. These types of circuit simulation are implemented 
+with *spice4qucs* using the special *Custom simulation* technique presented in 
+Chapter 9 of this document. 
 
    `back to the top <#top>`__
 
