@@ -307,7 +307,8 @@ employs 799 time points. This difference should be taken into account during sim
 2.7 Other forms of simulation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In contrast to SPICE 3f5 the parameter sweep feature found in Qucs is allowed in ngspice and xyce simulations when setup and controlled by *spice4qucs*. 
+In contrast to SPICE 3f5 the parameter sweep feature found in Qucs is has been implemented with the ngspice and Xyce simulators. 
+All parameter sweep controlled simulations are setup and controlled by *spice4qucs*. 
 The details of how the *spice4qucs* Parameter sweep feature works is the topic of Section 5.2.
 
 Xyce supports Harmonic balance simulation. It is introduced and described in the Section 8.5. 
@@ -317,13 +318,11 @@ Ngspice also supports the following additional simulations:
 * Fourier analysis (Chapter 5.1)
 * Sensitivity analysis 
 * Distortion analysis (Chapter 5.2)
-* Sensitivity analysis
 * Noise analysis
 
-Fourier and Distortion analysis have special components that are located 
-in *Spice simulations* group. These types of circuit simulation are implemented 
-with *spice4qucs* using the special *Custom simulation* technique presented in 
-Chapter 9 of this document. 
+Fourier and Distortion analysis require special components. These are located 
+in the Qucs *Spice simulations* group. Fourier, sensitivity and distortion circuit simulation are again controlled
+by *spice4qucs* using a special *Custom simulation* technique described in Chapter 9 of this document. 
 
    `back to the top <#top>`__
 
