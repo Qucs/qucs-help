@@ -20,7 +20,8 @@ Spice4qucs supports the following algebraic/numeric equations:
 
 1. The usual Qucs equations. These are converted automatically to SPICE ``.PARAM`` statements 
 and ngnutmeg scripts. Equations that don't include simulation variables (for example, node voltages 
-and device currents) are passed as``.PARAM`` statements in the generated SPICE netlist. 
+and device currents) are passed as ``.PARAM`` statements in the generated 
+SPICE netlist. 
 In contrast equations that include one or more simulation variables are placed 
 in the SPICE simulation file between the ngspice ``.control`` and ``.endc`` statements. 
 The  ``.control`` and ``.endc`` block is normally located following one or more SPICE simulation commands. 
@@ -29,7 +30,8 @@ is not equipped with a suitable post-processor for this purpose.
 
 2. ``.PARAM`` items. Such statements are passed directly as a ``.PARAM`` entry in a generated SPICE netlist.
 
-3. ``.GLOBAL_PARAM`` sections. This feature works in the same manner as a``.PARAM`` item.
+3. ``.GLOBAL_PARAM`` sections. This feature works in the same manner as a 
+``.PARAM`` item.
 
 4. ``.OPTIONS`` sections. This feature provides a way of changing the value of internal ngspice or Xyce 
 defined variables, such as, for example ``GMIN``.
@@ -117,7 +119,8 @@ You can see that simulation results for all three circuits are identical.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Post-processing of the simulation data is very important feature of a circuit 
-simulator.  There two general ways employ data postprocessing with ngspice and qucsator. 
+simulator.  There are two general ways employ data postprocessing with ngspice 
+and qucsator. 
 
 Firstly, a special component *Nutmeg Equation* has been implemented. It works in a similar fashion to the established Qucs 
 Equation component. It's properties dialog (Fig.4.4) is opened by double clicking on the *Nutmeg Equation* icon.
@@ -135,10 +138,11 @@ is be linked. The following simulation types are allowed:
 * DC
 * All simulations
 
-If type "All simulations" is selected, equations will be evaluated for all 
+If type *"All simulations"* is selected, equations will be evaluated for all 
 simulations. You should use the standard SPICE notation for node voltages and device current, for example; 
-node voltages are specified as ``v(node)`` or "V(n1, n2)". In a similar fashion probe currents are specified
-in SPICE terms as "VPr1#branch" which represents the current flowing in Qucs probe named Pr1.
+node voltages are specified as ``v(node)`` or ``V(n1, n2)``. In a similar 
+fashion probe currents are specified in SPICE terms as ``VPr1#branch`` which 
+represents the current flowing in Qucs probe named ``Pr1``.
 Spic4qucs allows the use of all of the ngnutmeg functions and operators without any limitations.  
 However, please take into account that variables in ngnutmeg equations are case independent!
 
@@ -160,8 +164,8 @@ The following example (Fig.4.5) illustrates how the two equation types are used.
 Figure 4.5 Distortion analysis with ngnutmeg simulation data postprocessing. 
 
 The second way of postprocessing simulation output data uses the normal Qucs *Equation* component. 
-However, please note thar souice4qucs allows the use of SPICE notation in Qucs equations. 
-The following example shows how this feature can be utilized.
+However, please note thar spice4qucs allows the use of SPICE notation in Qucs 
+equations. The following example shows how this feature can be utilized.
 
 |Mix_EN|
 
@@ -252,7 +256,8 @@ Figure 4.10 A voltage multiplier model with B-type sources.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Qucs RFEDD devices is not yet supported by spice4qucs. As a temporary work around behavioural R,C,L 
-models and B-type sources should be used instead instead. Moreover, the ngspice ``hertz`` variable is defined
+models and B-type sources should be used instead. Moreover, the ngspice 
+``hertz`` variable is defined
 to represent signal frequency, allowing models with the same function as the Qucs RFEDD model to be synthesised. 
 Refer to chapters 3.2.4, 3.2.8, 3.2.12, and 5.1 of the official ngspice manual for further information. 
 
