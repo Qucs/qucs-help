@@ -55,12 +55,33 @@ Figure 7.1. Qucs-0.0.18 models that work with ngspice and Xyce.
 7.2 Spice4qucs component specifications and technical reference
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ^^^^^^^^^^^^^^^^^^
+**Capacitor (C)**
+^^^^^^^^^^^^^^^^^^
+|image3_EN|
+**____________________________________________________________________________________________________________________________**
+
+
+^^^^^^^^^^^^^^^^^^
+**Inductor (L)**
+^^^^^^^^^^^^^^^^^^
+|image4_EN|
+**____________________________________________________________________________________________________________________________**
+
+
+^^^^^^^^^^^^^^^^^^
 **Resistor (R)**
 ^^^^^^^^^^^^^^^^^^
 |image2_EN|
 **____________________________________________________________________________________________________________________________**
 
-7.3 Example simulations demonstrating the use of spice4qucs models
+^^^^^^^^^^^^^^^^^^
+**Independent Voltage Source (V)**
+^^^^^^^^^^^^^^^^^^
+|image5_EN|
+**____________________________________________________________________________________________________________________________**
+
+
+7.3 Example simulations that demonstrate the use of spice4qucs models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -71,3 +92,6 @@ Figure 7.1. Qucs-0.0.18 models that work with ngspice and Xyce.
 .. |imageQ_EN|  image:: _static/en/Qucs.png
 .. |image1_EN|  image:: _static/en/chapter7/Fig71.png
 .. |image2_EN|  image:: _static/en/chapter7/Resistor.png
+.. |image3_EN|  image:: _static/en/chapter7/Capacitor.png
+.. |image4_EN|  image:: _static/en/chapter7/Inductor.png
+.. |image5_EN|  image:: _static/en/chapter7/DCVoltageSource.png
