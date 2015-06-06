@@ -97,6 +97,38 @@ Figure 5.3 Noise analysis of a single stage transistor amplifier.
 5.4 One and two parameter sweep controlled simulations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+You can use both one and two parameter (in nested loops) sweep with Ngspice and 
+Xyce. There is no warranty of proper results for Xyce and Parameter sweep with 
+Time-domain simulation, because Xyce uses adaptive time step for each step of 
+sweep variable. Parameter sweep for DC and frequency domain works properly. 
+
+There are the following differences between Qucs and Spice4qucs parameter sweep 
+definitions.
+
+#. You should use component name instead of variable to sweep component value. 
+   For example you should use ``C1``, ``R1``, etc. to sweep values of C1 and R1 
+   values.  
+#. You can sweep component model parameter value with Ngspice. You should use 
+   the following    notation ``Component_name.Parameter_name``. For example 
+   ``T1.Bf`` will sweep  the ``Bf`` parameter of the transistor ``T1``. 
+#. You cannot use ``.PARAM`` and ``.GLOBAL_PARAM`` names as sweep variables.
+
+
+|BJT_swp_EN|
+
+Figure 5.4 Parameter sweep example
+
+There is a small example of parameter sweep usage. Sweep variable is collector 
+resistor R2. It is specified in Parameter Sweep properties.
+
+|modswp_EN|
+
+Figure 5.5 Model parameter sweep example
+
+.. |modswp_EN| image:: _static/en/chapter5/BJT_modelpar_swp.png
+
+.. |BJT_swp_EN| image:: _static/en/chapter5/BJT_swp.png
+
 5.5 Qucs and SPICE simulation of device and circuit temperature properties
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
