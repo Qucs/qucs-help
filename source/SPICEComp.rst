@@ -12,7 +12,7 @@ integrated circuits and non-electrical devices when needed. By combining Qucs wi
 the number of available simulation models has increased significantly, making the spice4qucs version 
 of Qucs more flexible and powerful, when compared to earlier Qucs releases. 
 One of the primary motives behind the development of spice4qucs was to provide Qucs
-users with access to published SPICE component models while keeping all the existing Qucs models and simulation
+users with access to published SPICE component models while keeping all the existing Qucs models and simulation  
 capabilities unchanged.  With the first release of spice4qucs, as Qucs-0.0.19, this aim has largely
 been achieved.  However, there are still significant gaps in the Qucs-0.0.19 simulation capabilities 
 (for example no SPICE 3f5 .PZ simulation yet) and model coverage (for example the 
@@ -102,12 +102,29 @@ Figure 7.1. Qucs-0.0.18 models that work with ngspice and Xyce.
 |image7_EN|
 **____________________________________________________________________________________________________________________________**
 
+^^^^^^^^^^^^^
+**Probes**
+^^^^^^^^^^^^^
+|image10_EN|
+
+^^^^^^^^^^^^^^^^^
+**Qucs Netlist**
+^^^^^^^^^^^^^^^^^
+|image11_EN|
+
+^^^^^^^^^^^^^^^^^^^^^^
+**ngspice Netlist**
+^^^^^^^^^^^^^^^^^^^^^^
+|image12_EN|
+
+NOTE: To make the Qucs and ngspice netlists readable single lines of width greater than the one page width have been
+indented and continued on one or more lines after the initial entry. 
+**____________________________________________________________________________________________________________________________**
+
 7.3 Example simulations that demonstrate the use of spice4qucs models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    `back to the top <#top>`__
-
-
 
 .. |imageQ_EN|  image:: _static/en/Qucs.png
 .. |image1_EN|  image:: _static/en/chapter7/Fig71.png
@@ -119,4 +136,6 @@ Figure 7.1. Qucs-0.0.18 models that work with ngspice and Xyce.
 .. |image7_EN|  image:: _static/en/chapter7/VCVS.png
 .. |image8_EN|  image:: _static/en/chapter7/ICVS.png
 .. |image9_EN|  image:: _static/en/chapter7/ICIS.png
-
+.. |image10_EN| image:: _static/en/chapter7/Probes.png
+.. |image11_EN| image:: _static/en/chapter7/Probesb.png
+.. |image12_EN| image:: _static/en/chapter7/Probesc.png
