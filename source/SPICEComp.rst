@@ -19,7 +19,7 @@ been achieved.  However, there are still significant gaps in the Qucs-0.0.19 sim
 number of RF and digital models are limited). More work is planned on model development 
 for later releases of the software, including improvements to RF device models and the introduction of 
 XSPICE digital models for true mixed-mode analogue-digital simulation. Any improvements and additions 
-to the Qucs-0.0.19 model complement will be recorded in this document as they are introduced by the 
+to the Qucs-0.0.19 model complement will be recorded in this document as they are introduced by the  
 Qucs Development Team. 
 
 This chapter of the spice4qucs-help document consists of two parts; firstly a brief component specification and 
@@ -54,6 +54,7 @@ Figure 7.1. Qucs-0.0.18 models that work with ngspice and Xyce.
 
 7.2 Spice4qucs component specifications and technical reference
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ^^^^^^^^^^^^^^^^^^
 **Capacitor (C)**
 ^^^^^^^^^^^^^^^^^^
@@ -70,6 +71,25 @@ Figure 7.1. Qucs-0.0.18 models that work with ngspice and Xyce.
 **Resistor (R)**
 ^^^^^^^^^^^^^^^^^^
 |image2_EN|
+**____________________________________________________________________________________________________________________________**
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+** Independent AC Current Source (I)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+|image15_EN|
+**____________________________________________________________________________________________________________________________**
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+** Independent AC Voltage Source (V)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+|image13_EN|
+**____________________________________________________________________________________________________________________________**
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Independent DC Current Source (I)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+|image14_EN|
 **____________________________________________________________________________________________________________________________**
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -139,3 +159,6 @@ indented and continued on one or more lines after the initial entry.
 .. |image10_EN| image:: _static/en/chapter7/Probes.png
 .. |image11_EN| image:: _static/en/chapter7/Probesb.png
 .. |image12_EN| image:: _static/en/chapter7/Probesc.png
+.. |image13_EN| image:: _static/en/chapter7/ACVoltageSource.png
+.. |image14_EN| image:: _static/en/chapter7/DCCurrentSource.png
+.. |image15_EN| image:: _static/en/chapter7/ACCurrentSource.png
