@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg3582"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   width="413"
-   height="299"
-   viewBox="0 0 413 299"
+   width="488"
+   height="356"
+   version="1.2"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="RCL_ac.svg">
   <metadata
-     id="metadata3588">
+     id="metadata122">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <defs
-     id="defs3586" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -40,244 +33,393 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1031"
-     id="namedview3584"
+     inkscape:window-width="1280"
+     inkscape:window-height="1005"
+     id="namedview120"
      showgrid="false"
-     inkscape:zoom="2.8695652"
-     inkscape:cx="206.5"
-     inkscape:cy="149.5"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.53033661"
+     inkscape:cx="305.00079"
+     inkscape:cy="133.4998"
+     inkscape:window-x="-4"
+     inkscape:window-y="-6"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg3582" />
-  <image
-     width="413"
-     height="299"
-     preserveAspectRatio="none"
-     xlink:href="data:image/png;base64,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
-"
-     id="image3590"
-     x="0"
-     y="0" />
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">Qt Svg Document</title>
+  <desc
+     id="desc6">Generated with Qt</desc>
+  <defs
+     id="defs8" />
+  <g
+     id="g10"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+    <g
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g12"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Helvetica">
+      <path
+         vector-effect="non-scaling-stroke"
+         d="M 0,0 488,0 488,356 0,356 0,0"
+         id="path14"
+         inkscape:connector-curvature="0"
+         style="fill-rule:evenodd" />
+    </g>
+    <g
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g16"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#c0c0c0;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="90,37 414,37 "
+         id="polyline18"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="90,94 414,94 "
+         id="polyline20"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="90,150 414,150 "
+         id="polyline22"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="90,206 414,206 "
+         id="polyline24"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="90,262 414,262 "
+         id="polyline26"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="342,15 342,283 "
+         id="polyline28"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="270,15 270,283 "
+         id="polyline30"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="198,15 198,283 "
+         id="polyline32"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="126,15 126,283 "
+         id="polyline34"
+         style="fill:none" />
+    </g>
+    <g
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g36"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="126,278 126,288 "
+         id="polyline38"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="198,278 198,288 "
+         id="polyline40"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="270,278 270,288 "
+         id="polyline42"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="342,278 342,288 "
+         id="polyline44"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="414,278 414,288 "
+         id="polyline46"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="85,262 95,262 "
+         id="polyline48"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="85,206 95,206 "
+         id="polyline50"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="85,150 95,150 "
+         id="polyline52"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="85,94 95,94 "
+         id="polyline54"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="85,37 95,37 "
+         id="polyline56"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="90,15 414,15 "
+         id="polyline58"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="414,15 414,283 "
+         id="polyline60"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="90,283 414,283 "
+         id="polyline62"
+         style="fill:none" />
+      <polyline
+         vector-effect="non-scaling-stroke"
+         points="90,15 90,283 "
+         id="polyline64"
+         style="fill:none" />
+    </g>
+    <g
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g66"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <path
+         vector-effect="non-scaling-stroke"
+         d="m 90,260.667 0.3243,-0.016 0.3244,-0.016 0.3243,-0.017 0.3243,-0.016 0.3243,-0.016 0.3243,-0.016 0.3244,-0.016 0.3243,-0.016 0.3243,-0.016 0.3243,-0.016 0.3244,-0.017 0.3243,-0.016 0.3243,-0.016 0.3243,-0.016 0.3244,-0.016 0.3243,-0.017 0.3243,-0.016 0.3243,-0.016 0.3244,-0.017 0.3243,-0.016 0.3243,-0.016 0.3243,-0.017 0.3244,-0.016 0.3243,-0.016 0.3243,-0.017 0.3243,-0.016 0.3244,-0.017 0.3243,-0.016 0.3243,-0.017 0.3243,-0.016 0.3243,-0.017 0.324,-0.016 0.325,-0.017 0.324,-0.016 0.324,-0.017 0.325,-0.016 0.324,-0.017 0.324,-0.017 0.325,-0.016 0.324,-0.017 0.324,-0.017 0.325,-0.016 0.324,-0.017 0.324,-0.017 0.325,-0.017 0.324,-0.017 0.324,-0.016 0.325,-0.017 0.324,-0.017 0.324,-0.017 0.325,-0.017 0.324,-0.017 0.324,-0.017 0.325,-0.017 0.324,-0.017 0.324,-0.017 0.324,-0.017 0.325,-0.017 0.324,-0.017 0.324,-0.017 0.325,-0.017 0.324,-0.017 0.324,-0.017 0.325,-0.018 0.324,-0.017 0.324,-0.017 0.325,-0.017 0.324,-0.018 0.324,-0.017 0.325,-0.017 0.324,-0.018 0.324,-0.017 0.325,-0.018 0.324,-0.017 0.324,-0.017 0.325,-0.018 0.324,-0.017 0.324,-0.018 0.325,-0.018 0.324,-0.017 0.324,-0.018 0.325,-0.017 0.324,-0.018 0.324,-0.018 0.325,-0.018 0.324,-0.017 0.324,-0.018 0.325,-0.018 0.324,-0.018 0.324,-0.018 0.325,-0.017 0.324,-0.018 0.324,-0.018 0.324,-0.018 0.325,-0.018 0.324,-0.018 0.324,-0.018 0.325,-0.019 0.324,-0.018 0.324,-0.018 0.325,-0.018 0.324,-0.018 0.324,-0.018 0.325,-0.019 0.324,-0.018 0.324,-0.018 0.325,-0.019 0.324,-0.018 0.324,-0.019 0.325,-0.018 0.324,-0.019 0.324,-0.018 0.325,-0.019 0.324,-0.018 0.324,-0.019 0.325,-0.018 0.324,-0.019 0.324,-0.019 0.325,-0.019 0.324,-0.018 0.324,-0.019 0.325,-0.019 0.324,-0.019 0.324,-0.019 0.325,-0.019 0.324,-0.019 0.324,-0.019 0.325,-0.019 0.324,-0.019 0.324,-0.019 0.324,-0.02 0.325,-0.019 0.324,-0.019 0.324,-0.019 0.325,-0.02 0.324,-0.019 0.324,-0.019 0.325,-0.02 0.324,-0.019 0.324,-0.02 0.325,-0.019 0.324,-0.02 0.324,-0.02 0.325,-0.019 0.324,-0.02 0.324,-0.02 0.325,-0.02 0.324,-0.019 0.324,-0.02 0.325,-0.02 0.324,-0.02 0.324,-0.02 0.325,-0.02 0.324,-0.02 0.324,-0.021 0.325,-0.02 0.324,-0.02 0.324,-0.02 0.325,-0.02 0.324,-0.021 0.324,-0.02 0.325,-0.021 0.324,-0.02 0.324,-0.021 0.325,-0.02 0.324,-0.021 0.324,-0.021 0.324,-0.02 0.325,-0.021 0.324,-0.021 0.324,-0.021 0.325,-0.021 0.324,-0.021 0.324,-0.02 0.325,-0.022 0.324,-0.021 0.324,-0.021 0.325,-0.021 0.324,-0.021 0.324,-0.021 0.325,-0.022 0.324,-0.021 0.324,-0.022 0.325,-0.021 0.324,-0.022 0.324,-0.021 0.325,-0.022 0.324,-0.022 0.324,-0.021 0.325,-0.022 0.324,-0.022 0.324,-0.022 0.325,-0.022 0.324,-0.022 0.324,-0.022 0.325,-0.022 0.324,-0.022 0.324,-0.022 0.325,-0.023 0.324,-0.022 0.324,-0.022 0.325,-0.023 0.324,-0.022 0.324,-0.023 0.324,-0.023 0.325,-0.022 0.324,-0.023 0.324,-0.023 0.325,-0.023 0.324,-0.023 0.324,-0.023 0.325,-0.023 0.324,-0.023 0.324,-0.023 0.325,-0.023 0.324,-0.023 0.324,-0.024 0.325,-0.023 0.324,-0.024 0.324,-0.023 0.325,-0.024 0.324,-0.024 0.324,-0.023 0.325,-0.024 0.324,-0.024 0.324,-0.024 0.325,-0.024 0.324,-0.024 0.324,-0.024 0.325,-0.024 0.324,-0.025 0.324,-0.024 0.325,-0.024 0.324,-0.025 0.324,-0.024 0.325,-0.025 0.324,-0.025 0.324,-0.024 0.325,-0.025 0.324,-0.025 0.324,-0.025 0.324,-0.025 0.325,-0.025 0.324,-0.025 0.324,-0.026 0.325,-0.025 0.324,-0.025 0.324,-0.026 0.325,-0.025 0.324,-0.026 0.324,-0.026 0.325,-0.026 0.324,-0.025 0.324,-0.026 0.325,-0.026 0.324,-0.027 0.324,-0.026 0.325,-0.026 0.324,-0.026 0.324,-0.027 0.325,-0.026 0.324,-0.027 0.324,-0.027 0.325,-0.026 0.324,-0.027 0.324,-0.027 0.325,-0.027 0.324,-0.027 0.324,-0.028 0.325,-0.027 0.324,-0.027 0.324,-0.028 0.325,-0.027 0.324,-0.028 0.324,-0.028 0.325,-0.027 0.324,-0.028 0.324,-0.028 0.324,-0.028 0.325,-0.029 0.324,-0.028 0.324,-0.028 0.325,-0.029 0.324,-0.028 0.324,-0.029 0.325,-0.029 0.324,-0.029 0.324,-0.029 0.325,-0.029 0.324,-0.029 0.324,-0.029 0.325,-0.029 0.324,-0.03 0.324,-0.029 0.325,-0.03 0.324,-0.03 0.324,-0.03 0.325,-0.03 0.324,-0.03 0.324,-0.03 0.325,-0.03 0.324,-0.031 0.324,-0.03 0.325,-0.031 0.324,-0.03 0.324,-0.031 0.325,-0.031 0.324,-0.031 0.324,-0.031 0.325,-0.032 0.324,-0.031 0.324,-0.032 0.325,-0.031 0.324,-0.032 0.324,-0.032 0.324,-0.032 0.325,-0.032 0.324,-0.032 0.324,-0.033 0.325,-0.032 0.324,-0.033 0.324,-0.032 0.325,-0.033 0.324,-0.033 0.324,-0.033 0.325,-0.034 0.324,-0.033 0.324,-0.033 0.325,-0.034 0.324,-0.034 0.324,-0.034 0.325,-0.034 0.324,-0.034 0.324,-0.034 0.325,-0.034 0.324,-0.035 0.324,-0.035 0.325,-0.034 0.324,-0.035 0.324,-0.036 0.325,-0.035 0.324,-0.035 0.324,-0.036 0.325,-0.035 0.324,-0.036 0.324,-0.036 0.325,-0.036 0.324,-0.037 0.324,-0.036 0.325,-0.036 0.324,-0.037 0.324,-0.037 0.324,-0.037 0.325,-0.037 0.324,-0.038 0.324,-0.037 0.325,-0.038 0.324,-0.038 0.324,-0.038 0.325,-0.038 0.324,-0.038 0.324,-0.038 0.325,-0.039 0.324,-0.039 0.324,-0.039 0.325,-0.039 0.324,-0.039 0.324,-0.04 0.325,-0.039 0.324,-0.04 0.324,-0.04 0.325,-0.041 0.324,-0.04 0.324,-0.04 0.325,-0.041 0.324,-0.041 0.324,-0.041 0.325,-0.041 0.324,-0.042 0.324,-0.042 0.325,-0.042 0.324,-0.042 0.324,-0.042 0.325,-0.042 0.324,-0.043 0.324,-0.043 0.325,-0.043 0.324,-0.043 0.324,-0.043 0.324,-0.044 0.325,-0.044 0.324,-0.044 0.324,-0.044 0.325,-0.045 0.324,-0.044 0.324,-0.045 0.325,-0.046 0.324,-0.045 0.324,-0.045 0.325,-0.046 0.324,-0.046 0.324,-0.047 0.325,-0.046 0.324,-0.047 0.324,-0.047 0.325,-0.047 0.324,-0.047 0.324,-0.048 0.325,-0.048 0.324,-0.048 0.324,-0.048 0.325,-0.049 0.324,-0.049 0.324,-0.049 0.325,-0.049 0.324,-0.05 0.324,-0.05 0.325,-0.05 0.324,-0.05 0.324,-0.051 0.325,-0.051 0.324,-0.051 0.324,-0.051 0.325,-0.052 0.324,-0.052 0.324,-0.052 0.324,-0.053 0.325,-0.053 0.324,-0.053 0.324,-0.053 0.325,-0.054 0.324,-0.054 0.324,-0.054 0.325,-0.055 0.324,-0.055 0.324,-0.055 0.325,-0.056 0.324,-0.055 0.324,-0.057 0.325,-0.056 0.324,-0.057 0.324,-0.057 0.325,-0.057 0.324,-0.058 0.324,-0.058 0.325,-0.058 0.324,-0.059 0.324,-0.059 0.325,-0.059 0.324,-0.06 0.324,-0.06 0.325,-0.061 0.324,-0.06 0.324,-0.062 0.325,-0.061 0.324,-0.062 0.324,-0.062 0.325,-0.063 0.324,-0.063 0.324,-0.063 0.325,-0.064 0.324,-0.064 0.324,-0.065 0.324,-0.064 0.325,-0.066 0.324,-0.065 0.324,-0.067 0.325,-0.066 0.324,-0.067 0.324,-0.067 0.325,-0.068 0.324,-0.068 0.324,-0.069 0.325,-0.069 0.324,-0.069 0.324,-0.07 0.325,-0.071 0.324,-0.071 0.324,-0.071 0.325,-0.072 0.324,-0.072 0.324,-0.072 0.325,-0.074 0.324,-0.073 0.324,-0.074 0.325,-0.075 0.324,-0.075 0.324,-0.076 0.325,-0.076 0.324,-0.076 0.324,-0.078 0.325,-0.077 0.324,-0.078 0.324,-0.079 0.325,-0.079 0.324,-0.08 0.324,-0.08 0.325,-0.081 0.324,-0.082 0.324,-0.082 0.324,-0.083 0.325,-0.083 0.324,-0.083 0.324,-0.085 0.325,-0.085 0.324,-0.085 0.324,-0.087 0.325,-0.086 0.324,-0.088 0.324,-0.088 0.325,-0.089 0.324,-0.089 0.324,-0.09 0.325,-0.091 0.324,-0.091 0.324,-0.092 0.325,-0.093 0.324,-0.093 0.324,-0.094 0.325,-0.095 0.324,-0.096 0.324,-0.096 0.325,-0.097 0.324,-0.098 0.324,-0.098 0.325,-0.1 0.324,-0.1 0.324,-0.101 0.325,-0.101 0.324,-0.103 0.324,-0.103 0.325,-0.104 0.324,-0.105 0.324,-0.106 0.325,-0.106 0.324,-0.108 0.324,-0.108 0.324,-0.109 0.325,-0.11 0.324,-0.111 0.324,-0.112 0.325,-0.113 0.324,-0.114 0.324,-0.115 0.325,-0.115 0.324,-0.117 0.324,-0.118 0.325,-0.119 0.324,-0.119 0.324,-0.121 0.325,-0.122 0.324,-0.123 0.324,-0.124 0.325,-0.125 0.324,-0.126 0.324,-0.127 0.325,-0.128 0.324,-0.13 0.324,-0.131 0.325,-0.132 0.324,-0.133 0.324,-0.134 0.325,-0.135 0.324,-0.137 0.324,-0.138 0.325,-0.14 0.324,-0.14 0.324,-0.142 0.325,-0.143 0.324,-0.145 0.324,-0.146 0.325,-0.147 0.324,-0.149 0.324,-0.15 0.324,-0.152 0.325,-0.153 0.324,-0.155 0.324,-0.156 0.325,-0.158 0.324,-0.159 0.324,-0.161 0.325,-0.163 0.324,-0.164 0.324,-0.166 0.325,-0.168 0.324,-0.169 0.324,-0.171 0.325,-0.173 0.324,-0.175 0.324,-0.176 0.325,-0.178 0.324,-0.181 0.324,-0.182 0.325,-0.184 0.324,-0.186 0.324,-0.188 0.325,-0.19 0.324,-0.193 0.324,-0.194 0.325,-0.196 0.324,-0.199 0.324,-0.201 0.325,-0.203 0.324,-0.206 0.324,-0.208 0.325,-0.21 0.324,-0.213 0.324,-0.215 0.325,-0.217 0.324,-0.221 0.324,-0.223 0.324,-0.225 0.325,-0.228 0.324,-0.231 0.324,-0.234 0.325,-0.236 0.324,-0.24 0.324,-0.242 0.325,-0.246 0.324,-0.248 0.324,-0.252 0.325,-0.254 0.324,-0.258 0.324,-0.262 0.325,-0.264 0.324,-0.269 0.324,-0.271 0.325,-0.275 0.324,-0.279 0.324,-0.283 0.325,-0.286 0.324,-0.29 0.324,-0.294 0.325,-0.298 0.324,-0.302 0.324,-0.306 0.325,-0.311 0.324,-0.315 0.324,-0.319 0.325,-0.324 0.324,-0.329 0.324,-0.333 0.325,-0.338 0.324,-0.343 0.324,-0.348 0.325,-0.354 0.324,-0.358 0.324,-0.364 0.324,-0.369 0.325,-0.375 0.324,-0.381 0.324,-0.387 0.325,-0.393 0.324,-0.398 0.324,-0.405 0.325,-0.412 0.324,-0.418 0.324,-0.425 0.325,-0.432 0.324,-0.439 0.324,-0.446 0.325,-0.454 0.324,-0.461 0.324,-0.469 0.325,-0.477 0.324,-0.485 0.324,-0.494 0.325,-0.502 0.324,-0.511 0.324,-0.52 0.325,-0.53 0.324,-0.539 0.324,-0.549 0.325,-0.558 0.324,-0.57 0.324,-0.579 0.325,-0.591 0.324,-0.602 0.324,-0.613 0.325,-0.625 0.324,-0.638 0.324,-0.649 0.325,-0.663 0.324,-0.676 0.324,-0.689 0.324,-0.703 0.325,-0.718 0.324,-0.733 0.324,-0.747 0.325,-0.764 0.324,-0.779 0.324,-0.797 0.325,-0.813 0.324,-0.831 0.324,-0.849 0.325,-0.869 0.324,-0.887 0.324,-0.907 0.325,-0.928 0.324,-0.95 0.324,-0.971 0.325,-0.994 0.324,-1.017 0.324,-1.041 0.325,-1.067 0.324,-1.092 0.324,-1.118 0.325,-1.147 0.324,-1.174 0.324,-1.204 0.325,-1.234 0.324,-1.265 0.324,-1.298 0.325,-1.331 0.324,-1.366 0.324,-1.402 0.325,-1.438 0.324,-1.477 0.324,-1.516 0.325,-1.557 0.324,-1.599 0.324,-1.642 0.324,-1.688 0.325,-1.734 0.324,-1.781 0.324,-1.831 0.325,-1.882 0.324,-1.934 0.324,-1.988 0.325,-2.043 0.324,-2.101 0.324,-2.158 0.325,-2.219 0.324,-2.279 0.324,-2.343 0.325,-2.405 0.324,-2.471 0.324,-2.536 0.325,-2.602 0.324,-2.668 0.324,-2.735 0.325,-2.802 0.324,-2.867 0.324,-2.932 0.325,-2.994 0.324,-3.055 0.324,-3.112 0.325,-3.165 0.324,-3.2133 0.324,-3.2557 0.325,-3.2908 0.324,-3.3175 0.324,-3.3344 0.325,-3.34 0.324,-3.3329 0.324,-3.3114 0.325,-3.2738 0.324,-3.2186 0.324,-3.1443 0.324,-3.0495 0.325,-2.9328 0.324,-2.7936 0.324,-2.631 0.325,-2.4449 0.324,-2.2356 0.324,-2.004 0.325,-1.7513 0.324,-1.4795 0.324,-1.1912 0.325,-0.8895 0.324,-0.5776 0.324,-0.2595 0.325,0.0608 0.324,0.3793 0.324,0.6919 0.325,0.9948 0.324,1.2846 0.324,1.5581 0.325,1.8132 0.324,2.0474 0.324,2.2598 0.325,2.4491 0.324,2.6155 0.324,2.7588 0.325,2.8797 0.324,2.9791 0.324,3.0582 0.325,3.1183 0.324,3.1609 0.324,3.1876 0.325,3.2 0.324,3.1996 0.324,3.1878 0.325,3.1663 0.324,3.1363 0.324,3.0989 0.324,3.0556 0.325,3.0072 0.324,2.9549 0.324,2.898 0.325,2.841 0.324,2.78 0.324,2.718 0.325,2.655 0.324,2.593 0.324,2.53 0.325,2.467 0.324,2.404 0.324,2.343 0.325,2.282 0.324,2.223 0.324,2.164 0.325,2.106 0.324,2.051 0.324,1.995 0.325,1.943 0.324,1.89 0.324,1.841 0.325,1.791 0.324,1.743 0.324,1.698 0.325,1.652 0.324,1.609 0.324,1.567 0.325,1.526 0.324,1.487 0.324,1.449 0.325,1.411 0.324,1.375 0.324,1.341 0.325,1.307 0.324,1.275 0.324,1.243 0.324,1.213 0.325,1.183 0.324,1.155 0.324,1.127 0.325,1.1 0.324,1.074 0.324,1.05 0.325,1.024 0.324,1.002 0.324,0.978 0.325,0.957 0.324,0.934 0.324,0.915 0.325,0.894 0.324,0.874 0.324,0.856 0.325,0.837 0.324,0.819 0.324,0.802 0.325,0.785 0.324,0.769 0.324,0.753 0.325,0.738 0.324,0.722 0.324,0.708 0.325,0.695 0.324,0.68 0.324,0.667 0.325,0.654 0.324,0.642 0.324,0.629 0.325,0.617 0.324,0.606 0.324,0.594 0.325,0.584 0.324,0.573 0.324,0.562 0.324,0.552 0.325,0.542 0.324,0.533 0.324,0.523 0.325,0.514 0.324,0.506 0.324,0.496 0.325,0.488 0.324,0.48 0.324,0.471 0.325,0.464 0.324,0.456 0.324,0.449 0.325,0.441 0.324,0.434 0.324,0.427 0.325,0.421 0.324,0.413 0.324,0.408 0.325,0.4 0.324,0.395 0.324,0.388 0.325,0.383 0.324,0.377 0.324,0.371 0.325,0.365 0.324,0.36 0.324,0.355 0.325,0.35 0.324,0.344 0.324,0.34 0.325,0.334 0.324,0.33 0.324,0.326 0.325,0.32 0.324,0.316 0.324,0.312 0.324,0.307 0.325,0.304 0.324,0.299 0.324,0.295 0.325,0.291 0.324,0.287 0.324,0.284 0.325,0.279 0.324,0.276 0.324,0.273 0.325,0.268 0.324,0.266 0.324,0.262 0.325,0.259 0.324,0.255 0.324,0.252 0.325,0.249 0.324,0.246 0.324,0.243 0.325,0.24 0.324,0.237 0.324,0.234 0.325,0.232 0.324,0.228 0.324,0.226 0.325,0.223 0.324,0.221 0.324,0.218 0.325,0.215 0.324,0.213 0.324,0.211 0.325,0.208 0.324,0.206 0.324,0.203 0.325,0.201 0.324,0.199 0.324,0.197 0.324,0.194 0.325,0.193 0.324,0.19 0.324,0.188 0.325,0.186 0.324,0.184 0.324,0.183 0.325,0.18 0.324,0.178 0.324,0.177 0.325,0.174 0.324,0.173 0.324,0.171 0.325,0.169 0.324,0.168 0.324,0.165 0.325,0.164 0.324,0.163 0.324,0.161 0.325,0.159 0.324,0.157 0.324,0.156 0.325,0.155 0.324,0.153 0.324,0.151 0.325,0.15 0.324,0.149 0.324,0.147 0.325,0.146 0.324,0.144 0.324,0.143 0.325,0.141 0.324,0.141 0.324,0.139 0.325,0.137 0.324,0.137 0.324,0.135 0.324,0.134 0.325,0.132 0.324,0.132 0.324,0.13 0.325,0.129 0.324,0.128 0.324,0.127 0.325,0.125 0.324,0.125 0.324,0.123 0.325,0.123 0.324,0.121 0.324,0.12 0.325,0.119 0.324,0.118 0.324,0.117 0.325,0.117 0.324,0.115"
+         id="path68"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="translate(113,301)"
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g70"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <text
+         xml:space="preserve"
+         x="0"
+         y="0"
+         font-size="12"
+         font-weight="400"
+         font-style="normal"
+         id="text72"
+         style="font-size:12px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Helvetica">2e6</text>
+    </g>
+    <g
+       transform="translate(185,301)"
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g74"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <text
+         xml:space="preserve"
+         x="0"
+         y="0"
+         font-size="12"
+         font-weight="400"
+         font-style="normal"
+         id="text76"
+         style="font-size:12px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Helvetica">4e6</text>
+    </g>
+    <g
+       transform="translate(257,301)"
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g78"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <text
+         xml:space="preserve"
+         x="0"
+         y="0"
+         font-size="12"
+         font-weight="400"
+         font-style="normal"
+         id="text80"
+         style="font-size:12px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Helvetica">6e6</text>
+    </g>
+    <g
+       transform="translate(329,301)"
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g82"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <text
+         xml:space="preserve"
+         x="0"
+         y="0"
+         font-size="12"
+         font-weight="400"
+         font-style="normal"
+         id="text84"
+         style="font-size:12px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Helvetica">8e6</text>
+    </g>
+    <g
+       transform="translate(401,301)"
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g86"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <text
+         xml:space="preserve"
+         x="0"
+         y="0"
+         font-size="12"
+         font-weight="400"
+         font-style="normal"
+         id="text88"
+         style="font-size:12px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Helvetica">1e7</text>
+    </g>
+    <g
+       transform="translate(74,268)"
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g90"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <text
+         xml:space="preserve"
+         x="0"
+         y="0"
+         font-size="12"
+         font-weight="400"
+         font-style="normal"
+         id="text92"
+         style="font-size:12px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Helvetica">0</text>
+    </g>
+    <g
+       transform="translate(42,212)"
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g94"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <text
+         xml:space="preserve"
+         x="0"
+         y="0"
+         font-size="12"
+         font-weight="400"
+         font-style="normal"
+         id="text96"
+         style="font-size:12px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Helvetica">0.005</text>
+    </g>
+    <g
+       transform="translate(51,156)"
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g98"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <text
+         xml:space="preserve"
+         x="0"
+         y="0"
+         font-size="12"
+         font-weight="400"
+         font-style="normal"
+         id="text100"
+         style="font-size:12px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Helvetica">0.01</text>
+    </g>
+    <g
+       transform="translate(42,100)"
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g102"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <text
+         xml:space="preserve"
+         x="0"
+         y="0"
+         font-size="12"
+         font-weight="400"
+         font-style="normal"
+         id="text104"
+         style="font-size:12px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Helvetica">0.015</text>
+    </g>
+    <g
+       transform="translate(51,43)"
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g106"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <text
+         xml:space="preserve"
+         x="0"
+         y="0"
+         font-size="12"
+         font-weight="400"
+         font-style="normal"
+         id="text108"
+         style="font-size:12px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Helvetica">0.02</text>
+    </g>
+    <g
+       transform="translate(217,321)"
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g110"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <text
+         xml:space="preserve"
+         x="0"
+         y="0"
+         font-size="12"
+         font-weight="400"
+         font-style="normal"
+         id="text112"
+         style="font-size:12px;font-style:normal;font-weight:400;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Helvetica">frequency</text>
+    </g>
+    <g
+       transform="matrix(0,-1,1,0,35,209)"
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g114"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica">
+      <text
+         xml:space="preserve"
+         x="0"
+         y="0"
+         font-size="12"
+         font-weight="400"
+         font-style="normal"
+         id="text116"
+         style="font-size:12px;font-style:normal;font-weight:400;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Helvetica">ngspice/ac.i(pr1)</text>
+    </g>
+    <g
+       font-size="12"
+       font-weight="400"
+       font-style="normal"
+       id="g118"
+       style="font-size:12px;font-style:normal;font-weight:400;fill:none;stroke:#0000ff;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Helvetica" />
+  </g>
 </svg>

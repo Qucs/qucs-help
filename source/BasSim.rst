@@ -93,10 +93,15 @@ must also be entered from the keyboard or selected using the up-down arrow contr
 
 Figure 2.3. *Setup simulator executable locations* dialog. 
 
+You can also define directory where temporary simulator data and netlist will 
+be stored (simulator working directory).
+
 To simulate a Qucs schematic with the ngspice simulator, select simulator *ngspice* and press 
 the *Simulate* button shown in Figure 2.2. During simulation ngspice produces a 
 simulation log.
 This is displayed in the *External simulator* dialog window, see Figure 2.4.  
+Log is saved at system Qucs log location ``$HOME/.qucs/log.txt`` and could be 
+then viewed by *Simulation->Show last messages* (or ``F5`` shortcut).
 If the ngspice simulation fails, any errors reported by ngspice during simulation are listed in simulation log window.
 Similarly, successful completion of a Qucs/ngspice simulation is reported.
 
@@ -135,16 +140,18 @@ Qucs adds an appropriate suffix to each simulator dataset name in order to avoid
 In the RCL test example the Qucs schematic is named ``RCL.sch``. Qucs qucsator simulation, ngspice and Xyce simulations result in three different datasets:
 
 * ``RCL.dat`` --- for qucsator;
-* ``RCL_ngspice.dat`` --- for ngspice;
-* ``RCL_xyce.dat`` --- for Xyce;
+* ``RCL.dat.ngspice`` --- for ngspice;
+* ``RCL.dat.xyce`` --- for Xyce;
 
 All three datasets have an extension ``dat`` to signify that the data set contains Qucs data for post  simulation visualisation.
-The ngspice and Xyce datasets include an intermediate section to the file name which identifies th name of the external Qucs simulator. 
+The ngspice and Xyce datasets include second extension to the file name which 
+identifies the name of the external Qucs simulator. 
 
-The dataset selector button, (1) in Figure 2.5., allows each data set to be 
-chosen manually from the *Diagram properties* dialog.
-It is also possible to use the *simulator name selector* button labelled (2) in 
-Figure 2.5. to  select an appropriate dataset. 
+Dataset selector (1) (Figure 2.5) shows only base names of the dataset (for 
+exmaple ``RCL``). You need to select appropriate simulator using 
+*simulator name selector* drop-down list labelled (2). This drop-down list 
+shows only existing simulator datasets that prevents user from selecting 
+nonexistent  datasets by mistake.
 
 After a dataset has been selected users must select the variables that are to be plot. 
 Qucs preserves Spice notation for **node voltage** names and **current probe** names. 
@@ -155,6 +162,15 @@ SPICE names are assumed to be case insensitive with spic4qucs, for example
 
 The Qucs spice4qucs extension also adds a simulation-dependent prefix to each variable name in order to differentiate output variables from different SPICE simulations, 
 for example ``ac.`` for AC simulation, ``tran.`` for transient simulation, and  ``dc.`` for DC-sweep. 
+
+There are also individual prefixes for each simulator:
+
+* ``ngspice/`` ---  Ngspice simulator prefix;
+* ``xyce/`` --- Xyce simulator prefix;
+
+So, full name of variable from Ngspice simulator will be ``ngspice/v(out)``
+
+This name system allows to avoid dataset name conflicts. 
 
 Individual items for plotting are selected by double clicking on a name in the variable list. As an example when double clicking on ``ac.i(pr1)`` its 
 name is copied by Qucs into the right-hand plotting window. This action is 
@@ -251,6 +267,28 @@ Table 2.1 Qucs and SPICE Variable equivalence
 +--------------------+------------------+------------------+
 | TRAN probe current |   Pr1.It         |   tran.i(pr1)    |
 +--------------------+------------------+------------------+
+
+Also variable prefixes used to designate data from different simulators (Table 
+2.2)
+
+Table 2.2 Qucs and SPICE Variable name prefixes
+
++----------------------------------+-----------------------------------------+
+| Prefix                           |   Explanation                           |
++==================================+=========================================+
+| ``Node.Vt``                      |  Qucs simulation, default dataset       |
++----------------------------------+-----------------------------------------+
+| ``dataset:Node.Vt``              |  Qucs simulation, external dataset      |
++----------------------------------+-----------------------------------------+
+| ``ngspice/tran.v(node)``         |  Ngspice simulation, default dataset    |
++----------------------------------+-----------------------------------------+
+| ``ngspice/dataset:tran.v(node)`` |  Ngspice simulation, external dataset   |
++----------------------------------+-----------------------------------------+
+| ``xyce/tran.v(node)``            |  Xyce simulation, default dataset       |
++----------------------------------+-----------------------------------------+
+| ``xyce/dataset:tran.v(node)``    |  Xyce simulation, external dataset      |
++----------------------------------+-----------------------------------------+
+
 
 2.4 SPICE DC simulation
 ~~~~~~~~~~~~~~~~~~~~~~~~
