@@ -93,8 +93,25 @@ must also be entered from the keyboard or selected using the up-down arrow contr
 
 Figure 2.3. *Setup simulator executable locations* dialog. 
 
+
+It's need to note the method of Xyce Parallel executable definition. Xyce 
+parallel command line for binary Xyce-Parallel package has the following 
+format:
+
+``<Path_to_xyce_executable>/xmpirun -np %p``
+
+Where the number of processors will be substituted instead of ``%p`` wildcard.
+
+User builds of Xyce-Parallel have no ``xmpirun`` script. And you need to 
+construct command line by yourself. For example for ``opeMPI`` installed in 
+``/usr/bin`` and Xyce-Parallel installed in ``/usr/local/Xyce_Parallel`` command 
+line will be:
+
+``/usr/bin/mpirun -np %p /usr/local/Xyce_Parallel/bin/Xyce``
+
 You can also define directory where temporary simulator data and netlist will 
-be stored (simulator working directory).
+be stored (simulator working directory --- ``$HOME/.qucs/spice4qucs`` by 
+default).
 
 To simulate a Qucs schematic with the ngspice simulator, select simulator *ngspice* and press 
 the *Simulate* button shown in Figure 2.2. During simulation ngspice produces a 
