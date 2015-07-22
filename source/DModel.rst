@@ -115,6 +115,16 @@ You can see that simulation results for all three circuits are identical.
 ..  |RCL1_EN| image::  _static/en/chapter4/RCL_par.png
 
 
+**NOTE:**
+
+There is an important note on equations order. SPICE simulators are succeptible 
+to equations order, but equations order has not matter for Qucsator.  It 
+concerns both parametric equations and postprocessor equations. ``Spice4qucs`` 
+don't care on equations order. User should select proper equations order to 
+avoid ``Undefined variable...`` simulation errors. This concern also two or 
+more ``Equation`` components on schematic.
+
+
 4.3 Manipulating simulation data with algebraic measurement scripts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
