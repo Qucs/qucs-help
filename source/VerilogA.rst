@@ -8,7 +8,10 @@ Chapter 6. Verilog-A compact semiconductor device modelling
 6.2 The Qucs/ADMS Verilog-A "turn key" modelling system
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-6.3  Using Xyce for Verilog-A compact device modelling
+6.3 The Qucs Verilog-A module synthesizer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+6.4  Using Xyce for Verilog-A compact device modelling
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    `back to the top <#top>`__

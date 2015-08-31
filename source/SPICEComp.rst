@@ -141,6 +141,12 @@ NOTE: To make the Qucs and ngspice netlists readable single lines of width great
 indented and continued on one or more lines after the initial entry. 
 **____________________________________________________________________________________________________________________________**
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Relay (Voltage controlled switch) (S)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+|image16_EN|
+**____________________________________________________________________________________________________________________________**
+
 7.3 Example simulations that demonstrate the use of spice4qucs models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -162,3 +168,4 @@ indented and continued on one or more lines after the initial entry.
 .. |image13_EN| image:: _static/en/chapter7/ACVoltageSource.png
 .. |image14_EN| image:: _static/en/chapter7/DCCurrentSource.png
 .. |image15_EN| image:: _static/en/chapter7/ACCurrentSource.png
+.. |image16_EN| image:: _static/en/chapter7/Relay.png
