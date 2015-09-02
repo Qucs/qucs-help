@@ -13,19 +13,19 @@ the number of available simulation models has increased significantly, making th
 of Qucs more flexible and powerful, when compared to earlier Qucs releases. 
 One of the primary motives behind the development of spice4qucs was to provide Qucs
 users with access to published SPICE component models while keeping all the existing Qucs models and simulation  
-capabilities unchanged.  With the first release of spice4qucs, as Qucs-0.0.19, this aim has largely
-been achieved.  However, there are still significant gaps in the Qucs-0.0.19 simulation capabilities 
+capabilities unchanged.  With the first release of spice4qucs, as Qucs-0.0.19S, this aim has largely
+been achieved.  However, there are still significant gaps in the Qucs-0.0.19S simulation capabilities 
 (for example no SPICE 3f5 .PZ simulation yet) and model coverage (for example the 
-number of RF and digital models are limited). More work is planned on model development 
-for later releases of the software, including improvements to RF device models and the introduction of 
+number of power analogue and digital models are limited). More work is planned on model development 
+for later releases of the software, including improvements to power device models and the introduction of 
 XSPICE digital models for true mixed-mode analogue-digital simulation. Any improvements and additions 
-to the Qucs-0.0.19 model complement will be recorded in this document as they are introduced by the  
+to the Qucs-0.0.19S model complement will be recorded in this document as they are introduced by the  
 Qucs Development Team. 
 
 This chapter of the spice4qucs-help document consists of two parts; firstly a brief component specification and 
 a more detailed technical reference, and secondly a selection of typical simulation examples which illustrate the use of 
 the various component models.  Part two has been added as an aid to help Qucs users appreciate 
-the new style software and the differences between Qucs-0.0.19 and earlier releases of Qucs. 
+the new style software and the differences between Qucs-0.0.19S and earlier releases of Qucs. 
 
 No two circuit simulators are equipped with an identical number, and the same identical types, of circuit simulation models. 
 This is even true with the various implementations of SPICE developed from SPICE 3f5. Hence, by combining Qucs, ngspice and 
@@ -39,18 +39,17 @@ SPICE models which work with both ngspice and Xyce are coloured red, SPICE model
 that only work with ngspice are coloured cyan and SPICE models that only work with Xyce are coloured dark green.  This scheme
 is not perfect because a number of the original Qucs models also work with ngspice and Xyce.  However, for legacy reasons the
 Qucs Development Team has decided not to change the colours of these models at this time.  This decision will probably be 
-reviewed in 
-later releases of Qucs. 
+reviewed in later releases of Qucs. 
 
 The models shown in Figure 7.1 are the original Qucs-0.18 models which can be included in ngspice and Xyce simulations. Please
 NOTE that for those Qucs users who do not wish to simulate circuits with either ngspice or Xyce all the models distributed with 
-Qucs-0.0.18 work with Qucs-0.0.19 without any modification via the usual *Simulation* (key F2) command. So far no attempt 
+Qucs-0.0.18 work with Qucs-0.0.19S without any modification via the usual *Simulation* (key F2) command. So far no attempt 
 has been
-made to interface Qucs Verilog-A models with ngspice or Xyce. This task is reserved for a later spice4qucs development phase. 
+made to interface Qucs Verilog-A models with ngspice or Xyce. This task is scheduled for a later spice4qucs development phase. 
 
 |image1_EN| 
 
-Figure 7.1. Qucs-0.0.18 models that work with ngspice and Xyce.
+Figure 7.1. Qucs-0.0.18 models that work with ngspice and (sometimes) Xyce.
 
 7.2 Spice4qucs component specifications and technical reference
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -137,7 +136,7 @@ Figure 7.1. Qucs-0.0.18 models that work with ngspice and Xyce.
 ^^^^^^^^^^^^^^^^^^^^^^
 |image12_EN|
 
-NOTE: To make the Qucs and ngspice netlists readable single lines of width greater than the one page width have been
+NOTE: To make the Qucs and ngspice netlists readable single lines of width greater than a page width have been
 indented and continued on one or more lines after the initial entry. 
 **____________________________________________________________________________________________________________________________**
 
@@ -155,7 +154,7 @@ indented and continued on one or more lines after the initial entry.
 **____________________________________________________________________________________________________________________________**
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-**BJT npn (T)**
+**BJT npn (Qucs T, ngspice Q)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image18_EN|
 **____________________________________________________________________________________________________________________________**
@@ -165,6 +164,13 @@ indented and continued on one or more lines after the initial entry.
 **ngspice diode (D)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image19_EN|
+**____________________________________________________________________________________________________________________________**
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**ngspice resistor (R)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+|image20_EN|
 **____________________________________________________________________________________________________________________________**
 
 7.3 Example simulations that demonstrate the use of spice4qucs models
@@ -191,4 +197,5 @@ indented and continued on one or more lines after the initial entry.
 .. |image16_EN| image:: _static/en/chapter7/Relay.png
 .. |image17_EN| image:: _static/en/chapter7/Diode.png
 .. |image18_EN| image:: _static/en/chapter7/npn.png
-.. |image19_EN| image:: _static/en/chapter7/ngspiceDiode.png
+.. |image19_EN| image:: _static/en/chapter7/ngspiceD.png
+.. |image20_EN| image:: _static/en/chapter7/ngspiceR.png
