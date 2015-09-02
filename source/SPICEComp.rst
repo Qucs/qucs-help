@@ -173,6 +173,12 @@ indented and continued on one or more lines after the initial entry.
 |image20_EN|
 **____________________________________________________________________________________________________________________________**
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**ngspice capacitor (C)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+|image21_EN|
+**____________________________________________________________________________________________________________________________**
+
 7.3 Example simulations that demonstrate the use of spice4qucs models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -199,3 +205,4 @@ indented and continued on one or more lines after the initial entry.
 .. |image18_EN| image:: _static/en/chapter7/npn.png
 .. |image19_EN| image:: _static/en/chapter7/ngspiceD.png
 .. |image20_EN| image:: _static/en/chapter7/ngspiceR.png
+.. |image21_EN| image:: _static/en/chapter7/ngspiceC.png
