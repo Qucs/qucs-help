@@ -179,6 +179,12 @@ indented and continued on one or more lines after the initial entry.
 |image21_EN|
 **____________________________________________________________________________________________________________________________**
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**ngspice inductor (L)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+|image22_EN|
+**____________________________________________________________________________________________________________________________**
+
 7.3 Example simulations that demonstrate the use of spice4qucs models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -206,3 +212,4 @@ indented and continued on one or more lines after the initial entry.
 .. |image19_EN| image:: _static/en/chapter7/ngspiceD.png
 .. |image20_EN| image:: _static/en/chapter7/ngspiceR.png
 .. |image21_EN| image:: _static/en/chapter7/ngspiceC.png
+.. |image22_EN| image:: _static/en/chapter7/ngspiceL.png
