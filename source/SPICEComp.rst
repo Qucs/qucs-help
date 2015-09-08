@@ -196,6 +196,23 @@ indented and continued on one or more lines after the initial entry.
 |image23_EN|
 **____________________________________________________________________________________________________________________________**
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Ngspice non-linear dependent voltage and current sources (B)**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+|image25_EN|
+
+B source example 1: Simulation of the DC characteristics of a diode modelled with a B source pwl function; diode series resistor set at 1e-3 Ohm
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|image26_EN|
+**____________________________________________________________________________________________________________________________**
+
+B source example 2: Simulation of the properties of a high power half-wave rectifier circuit with 0.5 Ohm load
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+|image27_EN|
+|image28_EN|
+**____________________________________________________________________________________________________________________________**
+
 7.3 Example simulations that demonstrate the use of spice4qucs models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -226,3 +243,7 @@ indented and continued on one or more lines after the initial entry.
 .. |image22_EN| image:: _static/en/chapter7/ngspiceL.png
 .. |image23_EN| image:: _static/en/chapter7/ngspiceACVoltage.png
 .. |image24_EN| image:: _static/en/chapter7/ngspiceM_inductors.png
+.. |image25_EN| image:: _static/en/chapter7/ngspiceBSpec.png
+.. |image26_EN| image:: _static/en/chapter7/PdiodeDC.png
+.. |image27_EN| image:: _static/en/chapter7/PdiodeHWR.png
+.. |image28_EN| image:: _static/en/chapter7/PdiodeHWRSPICE.png
