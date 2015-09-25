@@ -57,6 +57,29 @@ harmonics you obtain 8 harmonics, 8 image harmonics and DC component (Figure
 
 .. |diode_HB_res_EN| image:: _static/en/chapter8/diode_HB_res.png
 
+8.6 Multitone HB simulation with Xyce and Qucs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Since 6.3 release Xyce supports multitone HB simulation. You can specify more 
+than one tone frequencies in ``HB simulation component`` properties. This will 
+not work with Xyce previous to 6.3 release.  Perform the following steps to 
+setup multitone HB simulation:
+
+* Sepcify space separated frequencies list in ``f`` parameter.
+* Specify comma separated number of frequencies for each harmonic in ``n`` 
+  parameter
+  
+You can see an example in the Figure 8.3. It contains modified schematic from 
+the previous section. 
+
+|diode_HB_3t_EN|
+
+Figure 8.3 An example of 3-tone HB simulation setup
+  
+.. |diode_HB_3t_EN| image:: _static/en/chapter8/diode_HB_3tone.png
+
+
+
 8.6 Example RF circuit simulations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
