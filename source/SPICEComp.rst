@@ -213,8 +213,42 @@ B source example 2: Simulation of the properties of a high power half-wave recti
 |image28_EN|
 **____________________________________________________________________________________________________________________________**
 
-7.3 Example simulations that demonstrate the use of spice4qucs models
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7.3 Linear and non-linear transformer models
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Qucs release 0.0.18, and earlier versions of the software, includes a number of transformer and coupled inductance models. These
+models are linear with none of the important non-linear effects found in real transformers, including for example, winding resistance,
+inductance fringing effects and core saturation. The transformer models introduced in this section present a range of models which
+correct a number of these limitations. The ideas introduced in their design also act as a set of 
+building blocks which can be used to construct more advanced models. The non-linear transformer models can be found in a library called 
+Transformers in the spice4qucs system libraries.
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Two winding transformer model with in phase primary and secondary voltages and winding resistance** 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|image29_EN|
+**____________________________________________________________________________________________________________________________**
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Two winding transformer model with out of phase primary and secondary voltages and winding resistance** 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|image30_EN|
+**____________________________________________________________________________________________________________________________**
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Two winding transformer model with in phase primary and secondary voltages, winding resistance and fringing inductance**  
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|image31_EN|
+**____________________________________________________________________________________________________________________________**
+
+
+7.4 More complex circuit simulations that demonstrate the use of spice4qucs models
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
    `back to the top <#top>`__
 
@@ -247,3 +281,7 @@ B source example 2: Simulation of the properties of a high power half-wave recti
 .. |image26_EN| image:: _static/en/chapter7/PdiodeDC.png
 .. |image27_EN| image:: _static/en/chapter7/PdiodeHWR.png
 .. |image28_EN| image:: _static/en/chapter7/PdiodeHWRSPICE.png
+.. |image29_EN| image:: _static/en/chapter7/TranFig1.png
+.. |image30_EN| image:: _static/en/chapter7/TranFig72.png
+.. |image31_EN| image:: _static/en/chapter7/TranFig73.png
+
