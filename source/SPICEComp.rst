@@ -58,49 +58,47 @@ Figure 7.1. Qucs-0.0.18 models that work with ngspice and (sometimes) Xyce.
 **Capacitor (C)**
 ^^^^^^^^^^^^^^^^^^
 |image3_EN|
-**____________________________________________________________________________________________________________________________**
+
 
 ^^^^^^^^^^^^^^^^^^
 **Inductor (L)**
 ^^^^^^^^^^^^^^^^^^
 |image4_EN|
-**____________________________________________________________________________________________________________________________**
+
 
 ^^^^^^^^^^^^^^^^^^
 **Resistor (R)**
 ^^^^^^^^^^^^^^^^^^
 |image2_EN|
-**____________________________________________________________________________________________________________________________**
+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Independent AC Current Source (I)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image15_EN|
-**____________________________________________________________________________________________________________________________**
+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Independent AC Voltage Source (V)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image13_EN|
-**____________________________________________________________________________________________________________________________**
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Independent DC Current Source (I)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image14_EN|
-**____________________________________________________________________________________________________________________________**
+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Independent DC Voltage Source (V)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image5_EN|
-**____________________________________________________________________________________________________________________________**
+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Linear Current Controlled Current Source (F)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image9_EN|
-**____________________________________________________________________________________________________________________________**
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Linear Current Controlled Voltage Source (H)**
@@ -118,7 +116,6 @@ Figure 7.1. Qucs-0.0.18 models that work with ngspice and (sometimes) Xyce.
 **Linear Voltage Controlled Voltage Source (E)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image7_EN|
-**____________________________________________________________________________________________________________________________**
 
 ^^^^^^^^^^^^^
 **Probes**
@@ -137,64 +134,57 @@ Figure 7.1. Qucs-0.0.18 models that work with ngspice and (sometimes) Xyce.
 
 NOTE: To make the Qucs and ngspice netlists readable single lines of width greater than a page width have been
 indented and continued on one or more lines after the initial entry. 
-**____________________________________________________________________________________________________________________________**
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Relay (Voltage controlled switch) (S)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image16_EN|
 
-**____________________________________________________________________________________________________________________________**
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Diode (D)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image17_EN|
-**____________________________________________________________________________________________________________________________**
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **BJT npn (Qucs T, ngspice Q)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image18_EN|
-**____________________________________________________________________________________________________________________________**
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Ngspice diode (D)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image19_EN|
-**____________________________________________________________________________________________________________________________**
+
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Ngspice resistor (R)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image20_EN|
-**____________________________________________________________________________________________________________________________**
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Ngspice capacitor (C)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image21_EN|
-**____________________________________________________________________________________________________________________________**
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Ngspice inductor (L)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image22_EN|
-**____________________________________________________________________________________________________________________________**
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Ngspice mutual inductor (K)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image24_EN|
-**____________________________________________________________________________________________________________________________**
+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Ngspice independent AC voltage source (V)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image23_EN|
-**____________________________________________________________________________________________________________________________**
+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Ngspice non-linear dependent voltage and current sources (B)**
@@ -205,29 +195,29 @@ B source example 1: Simulation of the DC characteristics of a diode modelled wit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image26_EN|
-**____________________________________________________________________________________________________________________________**
+
 
 B source example 2: Simulation of the properties of a high power half-wave rectifier circuit with 0.5 Ohm load
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image27_EN|
 |image28_EN|
-**____________________________________________________________________________________________________________________________**
+
 
 7.3 Linear and non-linear transformer models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Qucs release 0.0.18, and earlier versions of the software, includes a number of transformer and coupled inductance models. These
 models are linear with none of the important non-linear effects found in real transformers, including for example, winding resistance,
-inductance fringing effects and core saturation. The transformer models introduced in this section present a range of models which
-correct a number of these limitations. The ideas introduced in their design also act as a set of 
-building blocks which can be used to construct more advanced models. The non-linear transformer models can be found in a library called 
-Transformers in the spice4qucs system libraries.
+inductance fringing effects and core saturation. The transformer models introduced in this section inctroduce a number of physical effects which
+correct the linear transformer limitations. The ideas introduced in their design also act as a set of 
+building blocks which can be used to construct more complex models. The non-linear transformer and core models can be found in the 
+libraries called "Transformers" and "Cores" located in the spice4qucs system library.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Two winding transformer model with in phase primary and secondary voltages and winding resistance** 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image29_EN|
-**____________________________________________________________________________________________________________________________**
+*
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -235,7 +225,7 @@ Transformers in the spice4qucs system libraries.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image30_EN|
-**____________________________________________________________________________________________________________________________**
+
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -243,8 +233,36 @@ Transformers in the spice4qucs system libraries.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image31_EN|
-**____________________________________________________________________________________________________________________________**
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Two winding transformer model with in phase primary and secondary voltages, winding resistance and core saturation**  
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|image36_EN|
+|image37_EN|
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Spice4qucs magnetic core library: symbols and B/H specifications**  
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|image38_EN|
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Two winding transformer model with in phase primary and secondary voltages, winding resistance and core saturation (using XSPICE models)**  
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|image39_EN|
+|image40_EN|
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Three winding transformer model with winding resistance and core saturation effects (using XSPICE models): full-wave rectifier example**  
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+|image35_EN|
+|image32_EN|
+|image33_EN|
+|image34_EN|
 
 7.4 More complex circuit simulations that demonstrate the use of spice4qucs models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -257,7 +275,7 @@ Transformers in the spice4qucs system libraries.
 .. |image2_EN|  image:: _static/en/chapter7/Resistor.png
 .. |image3_EN|  image:: _static/en/chapter7/Capacitor.png
 .. |image4_EN|  image:: _static/en/chapter7/Inductor.png
-.. |image5_EN|  image:: _static/en/chapter7/DCVoltageSource.png
+.. |image5_EN|  image:: _static/en/chapter7/DCVoltageSource.png 
 .. |image6_EN|  image:: _static/en/chapter7/VCIS.png
 .. |image7_EN|  image:: _static/en/chapter7/VCVS.png
 .. |image8_EN|  image:: _static/en/chapter7/ICVS.png
@@ -284,4 +302,13 @@ Transformers in the spice4qucs system libraries.
 .. |image29_EN| image:: _static/en/chapter7/TranFig1.png
 .. |image30_EN| image:: _static/en/chapter7/TranFig72.png
 .. |image31_EN| image:: _static/en/chapter7/TranFig73.png
+.. |image36_EN| image:: _static/en/chapter7/TranFig74a.png
+.. |image37_EN| image:: _static/en/chapter7/TranFig74b.png
+.. |image39_EN| image:: _static/en/chapter7/TranFig76a.png
+.. |image40_EN| image:: _static/en/chapter7/TranFig76.png
+.. |image38_EN| image:: _static/en/chapter7/TranFig75.png
+.. |image32_EN| image:: _static/en/chapter7/TranFig78a.png
+.. |image33_EN| image:: _static/en/chapter7/TranFig78b.png
+.. |image34_EN| image:: _static/en/chapter7/TranFig78c.png
+.. |image35_EN| image:: _static/en/chapter7/TranFig78.png
 
