@@ -1,4 +1,4 @@
-[![Documentation Status](https://readthedocs.org/projects/qucs-help/badge/?version=latest)](https://readthedocs.org/projects/qucs-help/?badge=latest
+[![Documentation Status](https://readthedocs.org/projects/qucs-help/badge/?version=latest)](https://readthedocs.org/projects/qucs-help/?badge=latest)
 [![Documentation Status](https://readthedocs.org/projects/qucs-help/badge/?version=0.0.18)](https://readthedocs.org/projects/qucs-help/?badge=0.0.18)
 
 Qucs-Help documentation
