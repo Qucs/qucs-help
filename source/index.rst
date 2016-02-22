@@ -7,22 +7,25 @@
 Welcome to Qucs Help's documentation!
 =====================================
 
+
 Contents:
 
 .. toctree::
    :maxdepth: 1
 
+   intro
    start
-   start_digi
    start_opt
    octave
    short
    subcircuit
+   start_digi
    mathfunc
    characters
    matching
    programs
    internal
+   RFres
 
 
 Technical description concerning the simulator
@@ -36,9 +39,9 @@ Example schematics
 
 .. only:: html
 
-  Indices and tables
-  ==================
+ Indices and tables
+ ==================
 
-  * :ref:`genindex`
-  * :ref:`search`
+ * :ref:`genindex`
+ * :ref:`search`
 
