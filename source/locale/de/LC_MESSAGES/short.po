@@ -1,355 +1,380 @@
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014, Qucs Team (2014)
+# This file is distributed under the same license as the Qucs Help package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+"Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 21:44+0100\n"
+"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"PO-Revision-Date: 2015-01-13 04:51+0000\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/qucs-help/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
-"X-Generator: Poedit 1.6.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+# 9575a8ecdaee45899c4dfce88f71fb4e
 #: ../../source/short.rst:3
 msgid "Short Description of Actions"
 msgstr "Kurze Beschreibung der Funktionen"
 
+# 7abe6520bef24800be72a53b0b3748bd
 #: ../../source/short.rst:6
 msgid "General Actions"
 msgstr "Generelle Funktionen"
 
+# 06874ead5a7542c8a4bce36243df0377
 #: ../../source/short.rst:8
 msgid "(valid in all modes)"
 msgstr "(gültig in allen Betriebszuständen)"
 
+# 26e8a697cfac418eb0786af58a2a6b3f
 #: ../../source/short.rst:11
 msgid "mouse wheel"
 msgstr "Mausrad"
 
+# 8d062583ab1241328c6ab211c7304712
 #: ../../source/short.rst:11
 msgid ""
-"Scrolls vertically the drawing area. You can also scroll outside the current "
-"size."
-msgstr ""
-"Bewegt den Mauszeiger vertikal durch den Zeichenbereich. Kann auch zum "
-"Bewegen außerhalb der gegenwärtigen Größe genutzt werden."
+"Scrolls vertically the drawing area. You can also scroll outside the current"
+" size."
+msgstr "Bewegt den Mauszeiger vertikal durch den Zeichenbereich. Kann auch zum Bewegen außerhalb der gegenwärtigen Größe genutzt werden."
 
+# e6c5311952ec4f00ab53f653ce08bda8
 #: ../../source/short.rst:13
 msgid "mouse wheel + Shift Button"
 msgstr "Mausrad + Umstelltaste"
 
+# dfc72581264f45c1961f92712dbf1017
 #: ../../source/short.rst:13
 msgid ""
 "Scrolls horizontally the drawing area. You can also scroll outside the "
 "current size."
-msgstr ""
-"Bewegt den Mauszeiger horizontal durch den Zeichenbereich. Kann auch zum "
-"Bewegen außerhalb der gegenwärtigen Größe genutzt werden."
+msgstr "Bewegt den Mauszeiger horizontal durch den Zeichenbereich. Kann auch zum Bewegen außerhalb der gegenwärtigen Größe genutzt werden."
 
+# 4d916e1de277438796717f5842a014ad
 #: ../../source/short.rst:15
 msgid "mouse wheel + Ctrl Button"
 msgstr "Mausrad + Ctrl-Taste"
 
+# 910d5946cbb242b8862ef5ffc024a5d6
 #: ../../source/short.rst:15
 msgid "Zooms into or outof the drawing area."
 msgstr "Vergrößert oder verkleinert den betrachteten Zeichen-Bereich."
 
+# d0331824c37b48d6a6be53df1c32a1b0
 #: ../../source/short.rst:17
 msgid "drag'n'drop file into document area"
 msgstr ""
 
+# a69804217dfa4e30a9326635a584fb04
 #: ../../source/short.rst:17
 msgid "Tries to open file as Qucs schematic or data display."
 msgstr "(Menüeintrag: Bearbeiten->Auswählen (Esc))"
 
+# ef309f3a830c4f84bcbbe38e09c01dcf
 #: ../../source/short.rst:23
 msgid "\"Select\"-Mode"
 msgstr "linke Maustaste"
 
+# 3f1d5a35fb0948adb8b69dac77dc6844
+#: ../../source/short.rst:25
+msgid "|image0_EN|"
+msgstr "|image0_DE|"
+
+# 5477e1cfa0554ee490462eff1a4e20ca
 #: ../../source/short.rst:27
 msgid "(Menu: Edit->Select)"
 msgstr "(Menüeintrag: Bearbeiten->Auswählen (Esc))"
 
+# dfb3128110764a22a3ffd0c8292f2af0
+# ca3996abbf1c4a3b83df233fa7c10e51
+# ee01eea8b8f444bfb2fad1e989e09717
+# 236749fb783d43939014b2389ca68093
 #: ../../source/short.rst:30 ../../source/short.rst:51
 #: ../../source/short.rst:65 ../../source/short.rst:81
 msgid "left mouse button"
 msgstr "rechte Maustaste"
 
+# 357104f45b3345cfa154ff1075814d8a
 #: ../../source/short.rst:30
 msgid ""
-"Selects the element below the mouse cursor. If several components are placed "
-"there, you can clicking several times in order to select the wanted one. "
-"Keeping the mouse button pressed, you can move the component below the mouse "
-"cursor and all selected ones. If you want to fine position the components, "
-"press the CTRL key during moving and the grid is disabled. Keeping the mouse "
-"button pressed without any element below it opens a rectangle. After "
-"releasing the mouse button, all elements within this rectangle are selected. "
-"A selected diagram or painting can be resized by pressing the left mouse "
+"Selects the element below the mouse cursor. If several components are placed"
+" there, you can clicking several times in order to select the wanted one. "
+"Keeping the mouse button pressed, you can move the component below the mouse"
+" cursor and all selected ones. If you want to fine position the components, "
+"press the CTRL key during moving and the grid is disabled. Keeping the mouse"
+" button pressed without any element below it opens a rectangle. After "
+"releasing the mouse button, all elements within this rectangle are selected."
+" A selected diagram or painting can be resized by pressing the left mouse "
 "button over one of its corners and moving by keeping the button pressed. "
-"After clicking on a component text, it can be edited directly. The enter key "
-"jumps to the next property. If the property is a selection list, it can only "
-"be changed with the cursor up/down keys. Clicking on a circuit node enters "
-"the \"wire mode\"."
-msgstr ""
-"Wählt das Element aus, das sich unter dem Mauszeiger befindet. Wenn sich "
-"dort mehrere Komponenten befinden, so kann man einige Mal klicken, bis die "
-"gewünschte Komponente ausgewählt ist.Während man die Maustaste gedrückt "
-"hält, kann man die Maus bewegen und somit die selektierte Komponente "
-"bewegen. Sind mehrere Komponenten ausgewählt, so werden diese alle bewegt."
-"Wird die Maustaste gedrückt, während sich unter ihr kein Element befindet, "
-"so öffnet sich ein Rechteck. Durch das Bewegen der Maus bei gedrückter "
-"Maustaste wird ein Rechteck aufgezogen. Nach dem Loslassen der Maustaste "
-"sind alle Elemente ausgewählt, die sich vollständig innerhalb das Rechtecks "
-"befanden.Ein ausgewähltes Diagramm oder eine Zeichnung kann vergrößert oder "
-"verkleinert werden, indem man auf eine der Ecken des Diagramms mit dem "
-"Mauszeiger klickt und während dessen die Maus bewegt.Nach Drücken auf "
-"Komponententext kann dieser direkt editiert werden. Mit der Eingabetaste "
-"gelangt man zur nächsten Zeile. Wenn der momentane Komponententext eine "
-"Auswahlliste ist, so kann er nur mit den Cursor hoch/runter Tasten verändert "
-"werden."
+"After clicking on a component text, it can be edited directly. The enter key"
+" jumps to the next property. If the property is a selection list, it can "
+"only be changed with the cursor up/down keys. Clicking on a circuit node "
+"enters the \"wire mode\"."
+msgstr "Wählt das Element aus, das sich unter dem Mauszeiger befindet. Wenn sich dort mehrere Komponenten befinden, so kann man einige Mal klicken, bis die gewünschte Komponente ausgewählt ist.Während man die Maustaste gedrückt hält, kann man die Maus bewegen und somit die selektierte Komponente bewegen. Sind mehrere Komponenten ausgewählt, so werden diese alle bewegt.Wird die Maustaste gedrückt, während sich unter ihr kein Element befindet, so öffnet sich ein Rechteck. Durch das Bewegen der Maus bei gedrückter Maustaste wird ein Rechteck aufgezogen. Nach dem Loslassen der Maustaste sind alle Elemente ausgewählt, die sich vollständig innerhalb das Rechtecks befanden.Ein ausgewähltes Diagramm oder eine Zeichnung kann vergrößert oder verkleinert werden, indem man auf eine der Ecken des Diagramms mit dem Mauszeiger klickt und während dessen die Maus bewegt.Nach Drücken auf Komponententext kann dieser direkt editiert werden. Mit der Eingabetaste gelangt man zur nächsten Zeile. Wenn der momentane Komponententext eine Auswahlliste ist, so kann er nur mit den Cursor hoch/runter Tasten verändert werden."
 
+# 044c00f59383435b933990b0e25ba001
 #: ../../source/short.rst:37
 msgid "left mouse button + Ctrl Button"
 msgstr "linke Maustaste + Ctrl-Taste"
 
+# cd55a84df31d4044b83d722af4cc4b93
 #: ../../source/short.rst:37
 msgid ""
 "Allows more than one element to be selected, i.e. selecting an element does "
 "not deselect the others. Clicking on a selected element deselects it. This "
 "mode is also valid for selecting by opening a rectangle (see item before)."
-msgstr ""
-"Erlaubt es, mehr als ein einziges Element auszuwählen, z.B. das Auswählen "
-"eines Elementes hebt die Auswahl für ein anderes zuvor selektiertes Element "
-"nicht auf. Diese Funktion kann ebenfall erreicht werden durch das Aufziehen "
-"eines Rechtecks mit der Maus. Dazu wird die linke Maustaste gedrückt und "
-"während dessen die Maus bewegt. Alle vollständig in dem Rechteck "
-"befindlichen Elemente werden ausgewählt (Eintrag \"linke Maustaste\" vorher "
-"beachten)."
+msgstr "Erlaubt es, mehr als ein einziges Element auszuwählen, z.B. das Auswählen eines Elementes hebt die Auswahl für ein anderes zuvor selektiertes Element nicht auf. Diese Funktion kann ebenfall erreicht werden durch das Aufziehen eines Rechtecks mit der Maus. Dazu wird die linke Maustaste gedrückt und während dessen die Maus bewegt. Alle vollständig in dem Rechteck befindlichen Elemente werden ausgewählt (Eintrag \"linke Maustaste\" vorher beachten)."
 
+# 16cc63d9f0514460b338c22f3378a88d
+# 263d9174ad6641628de01833b89a9e51
+# 0fe781b9f0e147669d592fd72e176ba7
+# 02ac87531482460ab68c3111d93e022a
 #: ../../source/short.rst:39 ../../source/short.rst:53
 #: ../../source/short.rst:67 ../../source/short.rst:83
 msgid "right mouse button"
 msgstr "\"Draht\"-Modus"
 
+# 08c5c154436a47a7be1fec48a0aa34e2
 #: ../../source/short.rst:39
 msgid ""
 "Clicking on a wire selects a single straight line instead of the complete "
 "line."
-msgstr ""
-"Klick auf einen Draht selektiert einen einzigen geraden Draht anstatt eines "
-"kompletten Leitungszuges."
+msgstr "Klick auf einen Draht selektiert einen einzigen geraden Draht anstatt eines kompletten Leitungszuges."
 
+# 72c8a98246ef4d17b2a9c263e5fd806e
+# aeef48f0069a4fd093a75851819ff12b
 #: ../../source/short.rst:41 ../../source/short.rst:69
 msgid "double-click right mouse button"
 msgstr "\"Einfügen Komponente\"-Modus"
 
+# 141a8a553810442998e82e2482849d7e
 #: ../../source/short.rst:41
 msgid ""
 "Opens a dialog to edit the element properties (The labels of wires, the "
 "parameters of components, etc.)."
-msgstr ""
-"Öffnet einen Dialog zum Verändern der Elementeigenschaften (Die Beschriftung "
-"von Drähten, die Parameter von Komponenten, etc.)."
+msgstr "Öffnet einen Dialog zum Verändern der Elementeigenschaften (Die Beschriftung von Drähten, die Parameter von Komponenten, etc.)."
 
+# bbeb9c7a7ed34594a3da864cd09fc441
 #: ../../source/short.rst:46
 msgid "\"Insert Component\"-Mode"
 msgstr "\"Einfügen Komponente\"-Modus"
 
+# f7d9761da54d4c658a93bcfca9f60edd
 #: ../../source/short.rst:48
 msgid "(Click on a component/diagram in the left area)"
 msgstr "(Klick auf eine Komponente/Diagramm in der Hauptarbeitsfläche)"
 
+# 1739d8fb081041c280bd1e2979b56a00
 #: ../../source/short.rst:51
 msgid "Place a new instance of the component onto the schematic."
-msgstr ""
-"Plaziert eine neue Instanz einer Komponente in das Hauptarbeitsfenster."
+msgstr "Plaziert eine neue Instanz einer Komponente in das Hauptarbeitsfenster."
 
+# 4ef85d9d193649d08c459b3d336813ad
 #: ../../source/short.rst:53
 msgid "Rotate the component. (Has no effect on diagrams.)"
 msgstr "(Menüeintrag: Einfügen->Draht (STRG-E))"
 
+# b029dcfbee20444b83ff194209a5d0b3
 #: ../../source/short.rst:58
 msgid "\"Wire\"-Mode"
 msgstr "linke Maustaste"
 
+# 597d5233c74644d99a615414a3b7e341
+#: ../../source/short.rst:60
+msgid "|image1_EN|"
+msgstr "|image1_DE|"
+
+# e4ca8bf5e4444a9db67aaa6e92f80e5d
 #: ../../source/short.rst:62
 msgid "(Menu: Insert->Wire)"
 msgstr "(Menüeintrag: Einfügen->Draht (STRG-E))"
 
+# f1d40316f90942699056c2932d8df3b8
 #: ../../source/short.rst:65
 msgid "Sets the starting/ending point of the wire."
 msgstr "Setzt den Start-/Endpunkt eines Drahtes."
 
+# a7413ff8002d4605b91fc26da56da61d
 #: ../../source/short.rst:67
 msgid ""
-"Changes the direction of the wire corner (first left/right or first up/down)."
+"Changes the direction of the wire corner (first left/right or first "
+"up/down)."
 msgstr "Beendet einen Draht ohne an einem Draht oder Port zu sein."
 
+# d6153cdb092b4203809e628fc3829640
 #: ../../source/short.rst:69
 msgid "Ends a wire without being on a wire or a port."
 msgstr "(Menüeintrag: Bearbeiten->Einfügen (STRG-V))"
 
+# f2eeace0a87441dcaafc8d5d99cf7601
 #: ../../source/short.rst:74
 msgid "\"Paste\"-Mode"
 msgstr "linke Maustaste"
 
+# 03d2e740bd4b40bf91ad6ba89295bc43
+#: ../../source/short.rst:76
+msgid "|image2_EN|"
+msgstr "|image2_DE|"
+
+# 0417645baf574a459c0c7b09f03058cc
 #: ../../source/short.rst:78
 msgid "(Menu: Edit->Paste)"
 msgstr "(Menüeintrag: Bearbeiten->Einfügen (STRG-V))"
 
+# c948e29b5e2d40b893af903dfd84a8f4
 #: ../../source/short.rst:81
 msgid "Place the elements onto the schematic (from the clipboard)."
-msgstr ""
-"Plaziert eine Komponente in dem Hauptarbeitsfenster (aus der Zwischenablage)."
+msgstr "Plaziert eine Komponente in dem Hauptarbeitsfenster (aus der Zwischenablage)."
 
+# 87c424c538cb4f29bf951b11f7288dac
 #: ../../source/short.rst:83
 msgid "Rotate the elements."
 msgstr "Dreht das Element."
 
+# 3135f73144b8458b805eb165494c6335
 #: ../../source/short.rst:88
 msgid "Mouse in \"Content\" Tab"
 msgstr "Wählt eine Datei aus."
 
+# d96903a4aaa0423dbc1a23802352d74a
+#: ../../source/short.rst:90
+msgid "|image3_EN|"
+msgstr "|image3_DE|"
+
+# 53bef40ffa3545889a2834f92b92180b
 #: ../../source/short.rst:94
 msgid "left click"
 msgstr "doppel-Klick"
 
+# 8213fc5c0e374e9dabe3ae2124940efc
 #: ../../source/short.rst:94
 msgid "Selects file."
 msgstr "Wählt eine Datei aus."
 
+# fc2bfda716c84639903217228e2a31df
 #: ../../source/short.rst:96
 msgid "double-click"
 msgstr "rechts Klick"
 
+# bc75be7d8f5d421a9231effac904bf2c
 #: ../../source/short.rst:96
 msgid "Opens file."
 msgstr "Öffnet eine Datei."
 
+# a05268dea07c40d8817fd9ec25a2c91f
 #: ../../source/short.rst:98
 msgid "right click"
 msgstr "Tastatur"
 
+# 868ea7e668bc49acadbffae3d4c29f95
 #: ../../source/short.rst:98
 msgid "Displays menu with:"
 msgstr "Zeigt ein Menü mit:"
 
+# 6963479a40224ae48a951fdb97aced4e
 #: ../../source/short.rst:100
 msgid "\"open\""
 msgstr "\"Öffnen\""
 
+# 9b313c1dedfd43669f27fb03525fa342
 #: ../../source/short.rst:100
 msgid "open selected file"
 msgstr "Öffnet die ausgewählte Datei"
 
+# c8d21245803b4f4dacbfa4886d3b331d
 #: ../../source/short.rst:102
 msgid "\"rename\""
 msgstr "\"Umbenennen\""
 
+# 8da37c6b1792490a85fd76cf4bc7069c
 #: ../../source/short.rst:102
 msgid "change name of selected file"
 msgstr "Ändert den Namen der ausgewählten Datei"
 
+# 12544af9480f480686ddea44067e9fc4
 #: ../../source/short.rst:104
 msgid "\"delete\""
 msgstr "\"Löschen\""
 
+# 51fad89a5c1e41a6b0dd695e7bf7c624
 #: ../../source/short.rst:104
 msgid "delete selected file"
 msgstr "Löscht die ausgewählte Datei"
 
+# a0e7aad1dd7a4beb8d6991b589687055
 #: ../../source/short.rst:106
 msgid "\"delete group"
 msgstr "\"Gruppe löschen\""
 
+# a2b979c98e5e4ba98766b7173f3b9c69
 #: ../../source/short.rst:106
 msgid ""
 "delete selected file and its relatives (schematic, data display, dataset)"
-msgstr ""
-"Löscht die ausgewählte Datei und alle von ihr abgangigen Dateien (Schematic, "
-"Data-Diagramm, Simulationsdaten)"
+msgstr "Löscht die ausgewählte Datei und alle von ihr abgangigen Dateien (Schematic, Data-Diagramm, Simulationsdaten)"
 
+# d7ed527a7a09478ebcf14d3c96c2b282
 #: ../../source/short.rst:112
 msgid "Keyboard"
 msgstr "Tastatur"
 
+# 3dd22fe8c7e24a7aa82502d2073ef990
 #: ../../source/short.rst:114
 msgid ""
-"Many actions can be activated/done by the keyboard strokes. This can be seen "
-"in the main menu right beside the command. Some further key commands are "
+"Many actions can be activated/done by the keyboard strokes. This can be seen"
+" in the main menu right beside the command. Some further key commands are "
 "shown in the following list:"
-msgstr ""
-"Viele Aktionen können über Tastatureingaben aktivert/ausgeführt werden. Die "
-"zu den Befehlen gehörigen Tastatureingaben kann man immer rechts neben den "
-"Texten im Menü finden. Einige weitere Tastaturkommandos sind in der "
-"folgenden Liste dargestellt:"
+msgstr "Viele Aktionen können über Tastatureingaben aktivert/ausgeführt werden. Die zu den Befehlen gehörigen Tastatureingaben kann man immer rechts neben den Texten im Menü finden. Einige weitere Tastaturkommandos sind in der folgenden Liste dargestellt:"
 
+# 9cd6fe687cdb4587b95046fa55aea232
 #: ../../source/short.rst:119
 msgid "\"Delete\" or \"Backspace\""
 msgstr "Cursor links/rechts"
 
+# 85f779d9a6954e7cb967ca6c36ab12cd
 #: ../../source/short.rst:119
 msgid ""
 "Deletes the selected elements or enters the delete mode if no element is "
 "selected."
-msgstr ""
-"Löscht das gegenwärtig ausgewählte Element oder schaltet den \"Löschen\"-"
-"Modus ein, wenn kein Element ausgewählt wurde."
+msgstr "Löscht das gegenwärtig ausgewählte Element oder schaltet den \"Löschen\"-Modus ein, wenn kein Element ausgewählt wurde."
 
+# 07cef5698af748eca1c3d593690de0f4
 #: ../../source/short.rst:121
 msgid "Cursor left/right"
 msgstr "Cursor hoch/runter"
 
+# fd4d4b3bf4e04d6e9af67d785d5856c0
 #: ../../source/short.rst:121
 msgid ""
 "Changes the position of selected markers on their graphs. If no marker is "
-"selected, move selected elements. If no element is selected, scroll document "
-"area."
-msgstr ""
-"Ändert die Position des Markers innerhalb eines Graphen.Wenn kein Marker "
-"ausgewählt wurde, werden die selektierten Elemente bewegt.Wenn kein Element "
-"ausgewählt wurde, bewegt man sich durch das Dokument."
+"selected, move selected elements. If no element is selected, scroll document"
+" area."
+msgstr "Ändert die Position des Markers innerhalb eines Graphen.Wenn kein Marker ausgewählt wurde, werden die selektierten Elemente bewegt.Wenn kein Element ausgewählt wurde, bewegt man sich durch das Dokument."
 
+# f6018194cc1d4f0ea3cc2cc1f46e096d
 #: ../../source/short.rst:125
 msgid "Cursor up/down"
 msgstr "Tabulator-Taste"
 
+# 52dc27e36f28434a8c50054bacf892f1
 #: ../../source/short.rst:125
 msgid ""
 "Changes the position of selected markers on more-dimensional graphs. If no "
 "marker is selected, move selected elements. If no element is selected, "
 "scroll document area."
-msgstr ""
-"Ändert die Position des ausgewählten Markers in einem mehrdimensionalen "
-"Graphen.Wenn kein Marker ausgewählt wurde, werden die selektierten Elemente "
-"bewegt.Wenn kein Element ausgewählt wurde, bewegt man sich durch das "
-"Dokument."
+msgstr "Ändert die Position des ausgewählten Markers in einem mehrdimensionalen Graphen.Wenn kein Marker ausgewählt wurde, werden die selektierten Elemente bewegt.Wenn kein Element ausgewählt wurde, bewegt man sich durch das Dokument."
 
+# e3cac2b6438d463c934ff3d58703336e
 #: ../../source/short.rst:129
 msgid "Tabulator"
 msgstr "Tabulator-Taste"
 
+# ad20b7f8bdd34018b7bb75f45e7990ad
 #: ../../source/short.rst:129
 msgid "Changes to the next open document (according to the TabBar above)."
-msgstr ""
-"Geht zum nächsten geöffneten Dokument (bezogen auf die oben vorhandenen "
-"Tabulator-Reiter)."
-
-#: ../../source/short.rst:25
-msgid "|image0_EN|"
-msgstr "|image0_DE|"
-
-#: ../../source/short.rst:60
-msgid "|image1_EN|"
-msgstr "|image1_DE|"
-
-#: ../../source/short.rst:76
-msgid "|image2_EN|"
-msgstr "|image2_DE|"
-
-#: ../../source/short.rst:90
-msgid "|image3_EN|"
-msgstr "|image3_DE|"
+msgstr "Geht zum nächsten geöffneten Dokument (bezogen auf die oben vorhandenen Tabulator-Reiter)."

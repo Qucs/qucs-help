@@ -1,149 +1,162 @@
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014, Qucs Team (2014)
+# This file is distributed under the same license as the Qucs Help package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+"Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-17 22:45+0100\n"
+"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"PO-Revision-Date: 2015-01-13 04:51+0000\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/qucs-help/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
-"X-Generator: Poedit 1.6.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+# 479a31719e7148c48238edfcfe084992
 #: ../../source/programs.rst:3
 msgid "Installed Files"
 msgstr "Installierte Dateien"
 
+# 5696d0872f1a4565b9ca222e77da5e3f
 #: ../../source/programs.rst:5
 msgid ""
 "The Qucs system needs several programs. These are installed during the "
-"installation process. The path of Qucs is determined during the installation "
-"(``configure`` script). The following explanations assume the default path "
+"installation process. The path of Qucs is determined during the installation"
+" (``configure`` script). The following explanations assume the default path "
 "(``/usr/local/``)."
-msgstr ""
-"Das Qucs-System benötgt verschiedene Programme. Diese werden während des "
-"Installationsvorgangs mitinstalliert. Der Installationspfad von Qucs wird "
-"durch die Parameterübergabe beim Aufruf des Konfigurationsscripts bestimmt "
-"(z.B. configure --prefix=/pfad/zum/gewünschten/Verzeichnis). Die folgenden "
-"Ausführungen beziehen sich auf den angenommenen voreingestellten "
-"Installationpfad (/usr/local/)."
+msgstr "Das Qucs-System benötgt verschiedene Programme. Diese werden während des Installationsvorgangs mitinstalliert. Der Installationspfad von Qucs wird durch die Parameterübergabe beim Aufruf des Konfigurationsscripts bestimmt (z.B. configure --prefix=/pfad/zum/gewünschten/Verzeichnis). Die folgenden Ausführungen beziehen sich auf den angenommenen voreingestellten Installationpfad (/usr/local/)."
 
+# f4dd44c5c8444d43bd06bfdb825557f1
 #: ../../source/programs.rst:10
 msgid "``/usr/local/bin/qucs`` - the GUI"
 msgstr "/usr/local/bin/qucs     - die Benutzeroberfläche (GUI)"
 
+# 3a76b41d7f914da5862e2c61d1c46a11
 #: ../../source/programs.rst:12
 msgid "``/usr/local/bin/qucsator`` - the simulator (console application)"
 msgstr "/usr/local/bin/qucsator - Der Simulator (Konsolenprogramm)"
 
+# 23afd5457ced4e9a8b6c410e43fabeb0
 #: ../../source/programs.rst:14
 msgid "``/usr/local/bin/qucsedit`` - a simple text editor"
 msgstr "/usr/local/bin/qucsedit - Ein einfacher Texteditor"
 
+# 6dcb2f4af73e4580b0af5c88b7fb1d5f
 #: ../../source/programs.rst:16
 msgid ""
 "``/usr/local/bin/qucshelp`` - a small program displaying the help system"
-msgstr ""
-"/usr/local/bin/qucshelp - Ein kleines Programm zur Darstellung der Hilfe-"
-"Seiten"
+msgstr "/usr/local/bin/qucshelp - Ein kleines Programm zur Darstellung der Hilfe-Seiten"
 
+# b089440b43a44fe5bd0025da1db42579
 #: ../../source/programs.rst:18
 msgid ""
 "``/usr/local/bin/qucstrans`` - a program for calculation transmission line "
 "parameters"
 msgstr ""
 
+# ec3ea9051897468784ce0dcb321ecb60
 #: ../../source/programs.rst:20
 msgid "``/usr/local/bin/qucsfilter`` - a program synthesizing filter circuits"
 msgstr ""
 
+# 30b580d658534eff8480b7c927d1a09a
 #: ../../source/programs.rst:22
 msgid ""
 "``/usr/local/bin/qucsconv`` - a file format converter (console application)"
 msgstr "/usr/local/bin/qucsconv - Ein Dateiformat-Konverter (Konsolenprogramm)"
 
+# cf4c28b285fb4f04b10bd888e509c4c3
 #: ../../source/programs.rst:25
 msgid ""
 "All programs are stand-alone applications and can be started independently. "
 "The main program (GUI)"
-msgstr ""
-"Alle Programme sind einzelnen Anwendungen, die unabhängig voneinander "
-"gestartet werden können. Die Benutzeroberfläche (GUI)"
+msgstr "Alle Programme sind einzelnen Anwendungen, die unabhängig voneinander gestartet werden können. Die Benutzeroberfläche (GUI)"
 
+# 5d6599fb89934abcb0479f7a08ac95ad
 #: ../../source/programs.rst:28
 msgid "calls ``qucsator`` when performing a simulation,"
 msgstr "ruft qucsator auf, wenn eine Simulation durchgeführt werden soll,"
 
+# adc6aecd83fe4e75a476ea3bc7c33eb9
 #: ../../source/programs.rst:30
 msgid "calls ``qucsedit`` when showing text files,"
 msgstr "ruft qucsedit auf, wenn eine Textdatei angezeigt werden soll,"
 
+# 9628e24c0d7842669a4d05a35e3ce5e1
 #: ../../source/programs.rst:32
 msgid "calls ``qucshelp`` when showing the help system,"
 msgstr "ruft qucshelp auf, wenn die Hilfe-Seiten dargestellt werden sollen,"
 
+# 2d2ef86c403e4d7ebd28e82eba563fe1
 #: ../../source/programs.rst:34
 msgid "calls ``qucstrans`` when calling this program from menu \"Tools\","
 msgstr ""
 
+# 40545f62ad4e4e87995f255b475633a0
 #: ../../source/programs.rst:36
 msgid "calls ``qucsfilter`` when calling this program from menu \"Tools\","
 msgstr ""
 
+# 46335b48eec34be18e2f6a55fd6b65d7
 #: ../../source/programs.rst:38
 msgid ""
 "calls ``qucsconv`` when placing the SPICE component and when performing a "
 "simulation with the SPICE component."
-msgstr ""
-"ruft qucsconv auf, wenn eine SPICE-Komponente plaziert wird und wenn eine "
-"Simulation mit der SPICE-Komponente durchgeführt werden soll."
+msgstr "ruft qucsconv auf, wenn eine SPICE-Komponente plaziert wird und wenn eine Simulation mit der SPICE-Komponente durchgeführt werden soll."
 
+# 59bd61aaf22c426496dd91eb34eb34df
 #: ../../source/programs.rst:40
-msgid "Furthermore, the following directories are created during installation:"
-msgstr ""
-"Desweiteren werden die folgenden Verzeichnisse während der Installation "
-"erzeugt:"
+msgid ""
+"Furthermore, the following directories are created during installation:"
+msgstr "Desweiteren werden die folgenden Verzeichnisse während der Installation erzeugt:"
 
+# 036ba83849b84c24825c0a655eebcfaf
 #: ../../source/programs.rst:43
 msgid "``/usr/local/share/qucs/bitmaps`` - contains all bitmaps (icons etc.)"
-msgstr ""
-"/usr/local/share/qucs/bitmaps - Enthält alle Bitmap-Bilder (Icons, etc.)"
+msgstr "/usr/local/share/qucs/bitmaps - Enthält alle Bitmap-Bilder (Icons, etc.)"
 
+# 45a82c0b72624cb2ae845cab343b1d13
 #: ../../source/programs.rst:45
 msgid ""
 "``/usr/local/share/qucs/docs`` - contains HTML documents for the help system"
-msgstr ""
-"/usr/local/share/qucs/docs    - Enthält alle HTML-Dokumente für die Hilfe-"
-"Seiten"
+msgstr "/usr/local/share/qucs/docs    - Enthält alle HTML-Dokumente für die Hilfe-Seiten"
 
+# 9632e0a581a14695bbad04438a51aab2
 #: ../../source/programs.rst:47
 msgid "``/usr/local/share/qucs/lang`` - contains the translation files"
-msgstr ""
-"/usr/local/share/qucs/lang    - Enthält die Datien für die Sprachanpassung"
+msgstr "/usr/local/share/qucs/lang    - Enthält die Datien für die Sprachanpassung"
 
+# ec1019b1db394ab897f9037d33366143
 #: ../../source/programs.rst:50
 msgid "Command line arguments"
 msgstr "Kommandozeilen Argumente"
 
+# 0fd37c53edb24f508ff8fdfdb84f31a5
 #: ../../source/programs.rst:52
 msgid "``qucs [file1 [file2 ...]]``"
 msgstr "``qucs [Datei1 [Datei2 ...]]``"
 
+# fff3b18d687b4c7584488dfb5c6481ce
 #: ../../source/programs.rst:54
 msgid "``qucsator [-b] -i netlist -o dataset`` (b = progress bar)"
 msgstr "``qucsator [-b] -i Netzliste -o Datensatz`` (b = Fortschrittsanzeige)"
 
+# 18440c739f414b66bc77939335580161
 #: ../../source/programs.rst:56
 msgid "``qucsedit [-r] [file]`` (r = read-only)"
 msgstr "``qucsedit [-r] [Datei]`` (r = nur-lesen)"
 
+# 72e1db7036374329a2f03aca4b28088f
 #: ../../source/programs.rst:58
 msgid "``qucshelp`` (no arguments)"
 msgstr "``qucshelp (keine Argumente)``"
 
+# 9cc61dbeffb94fa5b99525a38e3157b0
 #: ../../source/programs.rst:60
 msgid "``qucsconv -if spice -of qucs -i netlist.inp -o netlist.net``"
 msgstr "``qucsconv -if spice -of qucs -i Netzliste.inp -o Netzliste.net``"

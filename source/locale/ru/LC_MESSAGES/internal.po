@@ -1,445 +1,274 @@
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014, Qucs Team (2014)
+# This file is distributed under the same license as the Qucs Help package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+"Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-19 19:35+0100\n"
+"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"PO-Revision-Date: 2015-01-13 04:51+0000\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/qucs-help/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
-"X-Generator: Poedit 1.7.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
+# 8330d967253e49188138e4bdeaaf22d3
 #: ../../source/internal.rst:3
 msgid "Schematic File Format"
 msgstr "Формат схемного файла"
 
+# 269c391fe12745a0a149366a4f7aea81
+#: ../../source/internal.rst:6
+msgid ""
+"This document describes the schematic file format of Qucs. This format is "
+"used for schematics (usually with suffix ``.sch``) and for data displays "
+"(usually with suffix ``.dpl``). The following text shows a short example of "
+"a schematic file."
+msgstr "В этом документе описывается формат схемного файла Qucs. Этот формат используется для схем (обычно с расширением ``.sch``) и для просмотров данных (обычно с расширением ``.dpl``). В следующем тексте приводится краткий пример схемного файла."
+
+# 1623f8b881eb4cd69829da093239fa54
+#: ../../source/internal.rst:38
+msgid ""
+"The file contains several section. Each of it is explained below. Every line"
+" consists of not more than one information block that starts with a less-"
+"sign ``<`` and ends with a greater-sign ``>``."
+msgstr "В файле несколько разделов. Все они объясняются ниже. Каждая линия состоит из не более чем одного информационного блока, начинающегося знаком ``меньше`` (``<``) и заканчивающегося знаком ``больше`` (``>``)."
+
+# 2eb65b1f0ce347c0a3ac230d5ef76cde
 #: ../../source/internal.rst:43
 msgid "Properties"
 msgstr "Properties"
 
-#: ../../source/internal.rst:68
-msgid "Symbol"
-msgstr "Symbol"
-
-#: ../../source/internal.rst:77
-msgid "Components"
-msgstr "Components"
-
-#: ../../source/internal.rst:94
-msgid "The next two numbers are the x and y coordinates of the component center."
-msgstr "Следующие два числа являются x и y координатами центра компонента."
-
-#: ../../source/internal.rst:96
-msgid ""
-"The next two numbers are the x and y coordinates of the upper left corner of "
-"the component text. They are relative to the component center."
-msgstr ""
-"Следующие два числа являются x и y координатами верхнего левого угла текста "
-"компонента. Они отсчитываются от центра компонента."
-
-#: ../../source/internal.rst:110
-msgid "Wires"
-msgstr "Wires"
-
-#: ../../source/internal.rst:121
-msgid ""
-"The first four numbers are the coordinates of the wire in pixels: x coordinate "
-"of starting point, y coordinate of starting point, x coordinate of end point "
-"and y coordinate of end point. All wires must be either horizontal (both x "
-"coordinates equal) or vertical (both y coordinates equal)."
-msgstr ""
-"Первые четыре числа являются координаиами проводника в пикселах: x-координата "
-"начальной точки, y-координата начальной точкиt, x-координата конечной точки и "
-"y-координата конечной точки. Все проводники должны быть либо горизонтальными "
-"(обе x-координаты равны), либо вертикальными (обе y-координаты равны)."
-
-#: ../../source/internal.rst:126
-msgid ""
-"The first string in quotation marks is the label name. It is empty if the user "
-"has not set a label on this wire."
-msgstr ""
-"Первая строка в кавычках - имя метки. Она пустая, если пользователь не "
-"установил метку на этот проводник."
-
-#: ../../source/internal.rst:128
-msgid ""
-"The next two numbers are the x and y coordinates of the label or zero if no "
-"label exists."
-msgstr ""
-"Следующие два числа - x- и y-координаты метки или ноль, если метки не "
-"существует."
-
-#: ../../source/internal.rst:130
-msgid ""
-"The next number is the distance between the wire starting point and and the "
-"point where the label is set on the wire."
-msgstr ""
-"Следующее число является расстоянием между начальной точкой проводника и "
-"точкой, где на проводнике установлена метка."
-
-#: ../../source/internal.rst:132
-msgid ""
-"The last string in quotation marks is the node set of the wire, i.e. the "
-"initial voltage at this node used by the simulation engine to find the "
-"solution. This is empty if the user has not set a node set for this wire."
-msgstr ""
-"Последняя строка в кавычках - параметры цепи проводника, то есть начальное "
-"напряжение узла, используемое ядром симулятора для поиска решения. Эта строка "
-"пустая, если пользователь не установил параметры узла цепи для этого "
-"проводника."
-
-#: ../../source/internal.rst:141
-msgid "Diagrams"
-msgstr "Diagrams"
-
-#: ../../source/internal.rst:154
-msgid "The first two numbers are x and y coordinate of lower left corner."
-msgstr "Первые два числа - это x- и y-координаты нижнего левого угла."
-
-#: ../../source/internal.rst:155
-msgid "The next two numbers are width and height of diagram boundings."
-msgstr "Следующие два числа - ширина и высота границ диаграммы."
-
-#: ../../source/internal.rst:156
-msgid "The fifth number is 1 if grid is on and 0 if grid is off."
-msgstr "Пятое число равно 1, если сетка включена, и 0, если сетка выключена."
-
-#: ../../source/internal.rst:157
-msgid ""
-"The next is grid color in 24 bit hexadecimal RGB value, e.g. #FF0000 is red."
-msgstr ""
-"Дальше идет цвет сетки в виде 24-битного шестнадцатиричного RGB значения, "
-"например, #FF0000 - красный."
-
-#: ../../source/internal.rst:159
-msgid "The next number determines the style of the grid."
-msgstr "Следующее число определяет стиль сетки."
-
-#: ../../source/internal.rst:160
-msgid "The next number determines which axes have logarithmical scale."
-msgstr "Следующее число определяет, какие оси имеют логарифмический масштаб."
-
-#: ../../source/internal.rst:166
-msgid "Paintings"
-msgstr "Paintings"
-
-#: ../../source/internal.rst:6
-msgid ""
-"This document describes the schematic file format of Qucs. This format is used "
-"for schematics (usually with suffix ``.sch``) and for data displays (usually "
-"with suffix ``.dpl``). The following text shows a short example of a schematic "
-"file."
-msgstr ""
-"В этом документе описывается формат схемного файла Qucs. Этот формат "
-"используется для схем (обычно с расширением ``.sch``) и для просмотров данных "
-"(обычно с расширением ``.dpl``). В следующем тексте приводится краткий пример "
-"схемного файла."
-
-#: ../../source/internal.rst:38
-msgid ""
-"The file contains several section. Each of it is explained below. Every line "
-"consists of not more than one information block that starts with a less-sign "
-"``<`` and ends with a greater-sign ``>``."
-msgstr ""
-"В файле несколько разделов. Все они объясняются ниже. Каждая линия состоит из "
-"не более чем одного информационного блока, начинающегося знаком ``меньше`` "
-"(``<``) и заканчивающегося знаком ``больше`` (``>``)."
-
+# d043347b8b13464cad8ec340585fd25a
 #: ../../source/internal.rst:46
 msgid ""
-"The first section starts with ``<Properties>`` and ends with ``</"
-"Properties>``. It contains the document properties of the file. Each line is "
-"optional. The following properties are supported:"
-msgstr ""
-"Первый раздел начинается с ``<Properties>`` и заканчивается ``</Properties>``. "
-"Он содержит свойства документа, находящегося в файле. Каждая строка "
-"необязательна. Поддерживаются следующие свойства:"
+"The first section starts with ``<Properties>`` and ends with "
+"``</Properties>``. It contains the document properties of the file. Each "
+"line is optional. The following properties are supported:"
+msgstr "Первый раздел начинается с ``<Properties>`` и заканчивается ``</Properties>``. Он содержит свойства документа, находящегося в файле. Каждая строка необязательна. Поддерживаются следующие свойства:"
 
+# 5eaeeea97fb74f4dbaa4f8161b52b4d3
 #: ../../source/internal.rst:50
 msgid ""
 "``<View=x1,y1,x2,y2,scale,xpos,ypos>`` contains pixel position of the "
-"schematic window in the first four numbers, its current scale and the current "
-"position of the upper left corner (last two numbers)."
-msgstr ""
-"``<View=x1,y1,x2,y2,scale,xpos,ypos>`` содержит положение в пикселах окна "
-"схемы (первые четыре числа), его текущий масштаб и текущее положение верхнего "
-"левого угла (два последних числа)."
+"schematic window in the first four numbers, its current scale and the "
+"current position of the upper left corner (last two numbers)."
+msgstr "``<View=x1,y1,x2,y2,scale,xpos,ypos>`` содержит положение в пикселах окна схемы (первые четыре числа), его текущий масштаб и текущее положение верхнего левого угла (два последних числа)."
 
+# 19b98af0199d458c96bb390ed625bdf8
 #: ../../source/internal.rst:53
 msgid ""
 "``<Grid=x,y,on>`` contains the distance of the grid in pixel (first two "
 "numbers) and whether grid is on (last number 1) or off (last number 0)."
-msgstr ""
-"``<Grid=x,y,on>`` содержит шаг сетки в пикселах (первые два числа) и включена "
-"сетка (последнее число = 1) или выключена (последнее число = 0)."
+msgstr "``<Grid=x,y,on>`` содержит шаг сетки в пикселах (первые два числа) и включена сетка (последнее число = 1) или выключена (последнее число = 0)."
 
+# 5d76449772f54611979a58006e922a1c
 #: ../../source/internal.rst:56
 msgid ""
-"``<DataSet=name.dat>`` contains the file name of the data set associated with "
-"this schematic."
-msgstr ""
-"``<DataSet=name.dat>`` содержит имя файла набора данных, связанного с этой "
-"схемой."
+"``<DataSet=name.dat>`` contains the file name of the data set associated "
+"with this schematic."
+msgstr "``<DataSet=name.dat>`` содержит имя файла набора данных, связанного с этой схемой."
 
+# 038275515f124e8b9638b432d8bee21b
 #: ../../source/internal.rst:58
 msgid ""
 "``<DataDisplay=name.dpl>`` contains the file name of the data display page "
 "associated with this schematic (or the file name of the schematic if this "
 "document is a data display)."
-msgstr ""
-"``<DataDisplay=name.dpl>`` содержит имя файла со страницей просмотра данных, "
-"связанной с этой схемой (или имя схемного файла, если этот документ является "
-"просмотром данных)."
+msgstr "``<DataDisplay=name.dpl>`` содержит имя файла со страницей просмотра данных, связанной с этой схемой (или имя схемного файла, если этот документ является просмотром данных)."
 
+# 7b49724dfbff44048aff62908f4d596c
 #: ../../source/internal.rst:61
 msgid ""
-"``<OpenDisplay=yes>`` contains 1 if the data display page opens automatically "
-"after simulation, otherwise contains 0."
-msgstr ""
-"``<OpenDisplay=yes>`` содержит 1, если страница показа данных открывается "
-"автоматически после моделирования, в противном случае - 0."
+"``<OpenDisplay=yes>`` contains 1 if the data display page opens "
+"automatically after simulation, otherwise contains 0."
+msgstr "``<OpenDisplay=yes>`` содержит 1, если страница показа данных открывается автоматически после моделирования, в противном случае - 0."
 
+# 12591e7a70a347a390226331121f8e0f
+#: ../../source/internal.rst:68
+msgid "Symbol"
+msgstr "Symbol"
+
+# 6f802ddfacc94be591d43b229e654ba9
 #: ../../source/internal.rst:71
 msgid ""
-"This section starts with ``<Symbol>`` and ends with ``</Symbol>``. It contains "
-"painting elements creating a schematic symbol for the file. This is usually "
-"only used for schematic files that meant to be a subcircuit."
-msgstr ""
-"Этот раздел начинается с ``<Symbol>`` и заканчивается ``</Symbol>``. Он "
-"содержит элементы рисования, составляющие схемное обозначение для файла. Это "
-"обычно используется только для схемных файлов, которые считаются подсхемой."
+"This section starts with ``<Symbol>`` and ends with ``</Symbol>``. It "
+"contains painting elements creating a schematic symbol for the file. This is"
+" usually only used for schematic files that meant to be a subcircuit."
+msgstr "Этот раздел начинается с ``<Symbol>`` и заканчивается ``</Symbol>``. Он содержит элементы рисования, составляющие схемное обозначение для файла. Это обычно используется только для схемных файлов, которые считаются подсхемой."
 
+# 80f8f0f361234eb89ff4ab355e24e2c1
+#: ../../source/internal.rst:77
+msgid "Components"
+msgstr "Components"
+
+# d2511240d47f450185154b0e8abf8bdc
 #: ../../source/internal.rst:80
 msgid ""
-"This section starts with ``<Components>`` and ends with ``</Components>``. It "
-"contains the circuit components of the schematic. The line format is as "
+"This section starts with ``<Components>`` and ends with ``</Components>``. "
+"It contains the circuit components of the schematic. The line format is as "
 "follows:"
-msgstr ""
-"Этот раздел начинается с ``<Components>`` и заканчивается ``</Components>``. "
-"Он содержит компоненты цепей схемы. Формат строки:"
+msgstr "Этот раздел начинается с ``<Components>`` и заканчивается ``</Components>``. Он содержит компоненты цепей схемы. Формат строки:"
 
+# f557648aedf94ddfb02588d605c203e1
 #: ../../source/internal.rst:88
 msgid ""
-"The ``type`` identifies the component, e.g. ``R`` for a resistor, ``C`` for a "
-"capacitor."
-msgstr ""
-"``type`` (\"тип\") означает компонент, например, ``R`` для резистора, ``C`` "
-"для конденсатора."
+"The ``type`` identifies the component, e.g. ``R`` for a resistor, ``C`` for "
+"a capacitor."
+msgstr "``type`` (\"тип\") означает компонент, например, ``R`` для резистора, ``C`` для конденсатора."
 
+# b19af49446af4af1988344a4ce1d3462
 #: ../../source/internal.rst:90
 msgid ""
-"The ``name`` is the unique component identifier of the schematic, e.g. ``R1`` "
-"for the first resistor."
-msgstr ""
-"``name`` (\"имя\") - уникальное обозначение компонента на схеме, например, "
-"``R1`` для первого резистора."
+"The ``name`` is the unique component identifier of the schematic, e.g. "
+"``R1`` for the first resistor."
+msgstr "``name`` (\"имя\") - уникальное обозначение компонента на схеме, например, ``R1`` для первого резистора."
 
+# 61fe0af94afb4e5289b3de65fbce0009
 #: ../../source/internal.rst:92
 msgid ""
-"A ``1`` in the ``active`` field shows that the component is active, i.e it is "
-"used in the simulation. A ``0`` shows it is inactive."
-msgstr ""
-"``1`` в поле ``active`` (\"активный\") показывает, что этот компонент "
-"активный, то есть используется в моделировании. ``0`` показывает, что он "
-"неактивный."
+"A ``1`` in the ``active`` field shows that the component is active, i.e it "
+"is used in the simulation. A ``0`` shows it is inactive."
+msgstr "``1`` в поле ``active`` (\"активный\") показывает, что этот компонент активный, то есть используется в моделировании. ``0`` показывает, что он неактивный."
 
+# 4ff97d16903f4daf97295ac8f153a518
+#: ../../source/internal.rst:94
+msgid ""
+"The next two numbers are the x and y coordinates of the component center."
+msgstr "Следующие два числа являются x и y координатами центра компонента."
+
+# 3be8179ee0aa4a2fb88dd2d53abdbe8d
+#: ../../source/internal.rst:96
+msgid ""
+"The next two numbers are the x and y coordinates of the upper left corner of"
+" the component text. They are relative to the component center."
+msgstr "Следующие два числа являются x и y координатами верхнего левого угла текста компонента. Они отсчитываются от центра компонента."
+
+# 7e9603cc296a4a94acedc4481ea81128
 #: ../../source/internal.rst:99
 msgid ""
 "The next two numbers indicate the mirroring about the x axis (``1`` for "
-"mirrored, ``0`` for not mirrored) and the counter-clockwise rotation (multiple "
-"of 90 degree, i.e. 0...3)."
-msgstr ""
-"Следующие два числа указывают на зеркальное отображение относительно оси x "
-"(``1`` - зеркальное отображение, ``0`` - нет зеркального отображения) и "
-"вращение против часовой стрелки (кратно 90 градусам, то есть 0...3)."
+"mirrored, ``0`` for not mirrored) and the counter-clockwise rotation "
+"(multiple of 90 degree, i.e. 0...3)."
+msgstr "Следующие два числа указывают на зеркальное отображение относительно оси x (``1`` - зеркальное отображение, ``0`` - нет зеркального отображения) и вращение против часовой стрелки (кратно 90 градусам, то есть 0...3)."
 
+# c7ef1fee074045e8b1db55e9d1867867
 #: ../../source/internal.rst:102
 msgid ""
 "The next entries are the values of the component properties (in quotation "
 "marks) followed by an ``1`` if the property is visible on the schematic "
 "(otherwise ``0``)."
-msgstr ""
-"Следующие параметры являются значениями свойств компонента (в кавычках), за "
-"которыми следует ``1``, если это свойство видимо на схеме (в противном случае "
-"``0``)."
+msgstr "Следующие параметры являются значениями свойств компонента (в кавычках), за которыми следует ``1``, если это свойство видимо на схеме (в противном случае ``0``)."
 
+# 3052cf7f63d3415d993e4418b1101bfb
+#: ../../source/internal.rst:110
+msgid "Wires"
+msgstr "Wires"
+
+# 798178e6875546a0ab0ab16d04a0982d
 #: ../../source/internal.rst:113
 msgid ""
-"This section starts with ``<Wires>`` and ends with ``</Wires>``. It contains "
-"the wires (electrical connection between circuit components) and their labels "
-"and node sets. The line format is as follows:"
-msgstr ""
-"Этот раздел начинается с ``<Wires>`` и заканчивается ``</Wires>``. Он содержит "
-"проводники (электрическое соединение между компонентами цепи), их метки и "
-"узлы. Формат строки:"
+"This section starts with ``<Wires>`` and ends with ``</Wires>``. It contains"
+" the wires (electrical connection between circuit components) and their "
+"labels and node sets. The line format is as follows:"
+msgstr "Этот раздел начинается с ``<Wires>`` и заканчивается ``</Wires>``. Он содержит проводники (электрическое соединение между компонентами цепи), их метки и узлы. Формат строки:"
 
+# 6786295d0d3a4baa95ac0c8d7545b37f
+#: ../../source/internal.rst:121
+msgid ""
+"The first four numbers are the coordinates of the wire in pixels: x "
+"coordinate of starting point, y coordinate of starting point, x coordinate "
+"of end point and y coordinate of end point. All wires must be either "
+"horizontal (both x coordinates equal) or vertical (both y coordinates "
+"equal)."
+msgstr "Первые четыре числа являются координаиами проводника в пикселах: x-координата начальной точки, y-координата начальной точкиt, x-координата конечной точки и y-координата конечной точки. Все проводники должны быть либо горизонтальными (обе x-координаты равны), либо вертикальными (обе y-координаты равны)."
+
+# 848e31b3580345e0b5cb2c8a8278f4b9
+#: ../../source/internal.rst:126
+msgid ""
+"The first string in quotation marks is the label name. It is empty if the "
+"user has not set a label on this wire."
+msgstr "Первая строка в кавычках - имя метки. Она пустая, если пользователь не установил метку на этот проводник."
+
+# 0ce266c8fc894a8ea450492329ffc1d2
+#: ../../source/internal.rst:128
+msgid ""
+"The next two numbers are the x and y coordinates of the label or zero if no "
+"label exists."
+msgstr "Следующие два числа - x- и y-координаты метки или ноль, если метки не существует."
+
+# 19c386202c1e42fe9db96665aec16314
+#: ../../source/internal.rst:130
+msgid ""
+"The next number is the distance between the wire starting point and and the "
+"point where the label is set on the wire."
+msgstr "Следующее число является расстоянием между начальной точкой проводника и точкой, где на проводнике установлена метка."
+
+# 8bf4cf7971ed433782491b36367eb514
+#: ../../source/internal.rst:132
+msgid ""
+"The last string in quotation marks is the node set of the wire, i.e. the "
+"initial voltage at this node used by the simulation engine to find the "
+"solution. This is empty if the user has not set a node set for this wire."
+msgstr "Последняя строка в кавычках - параметры цепи проводника, то есть начальное напряжение узла, используемое ядром симулятора для поиска решения. Эта строка пустая, если пользователь не установил параметры узла цепи для этого проводника."
+
+# f28dac16e22744cbb4ea99e86d4c69eb
+#: ../../source/internal.rst:141
+msgid "Diagrams"
+msgstr "Diagrams"
+
+# 658aa4f0a20249e1a74e5dfa96705b4e
 #: ../../source/internal.rst:144
 msgid ""
 "This section starts with ``<Diagrams>`` and ends with ``</Diagrams>``. It "
-"contains the diagrams with their graphs and their markers. The line format is "
-"as follows (line break not allowed):"
-msgstr ""
-"Этот раздел начинается с ``<Diagrams>`` и заканчивается ``</Diagrams>``. Он "
-"содержит диаграммы с их графиками и маркерами.\" The line format is as follows "
-"(line break not allowed):"
+"contains the diagrams with their graphs and their markers. The line format "
+"is as follows (line break not allowed):"
+msgstr "Этот раздел начинается с ``<Diagrams>`` и заканчивается ``</Diagrams>``. Он содержит диаграммы с их графиками и маркерами.\" The line format is as follows (line break not allowed):"
 
+# fbcb0af6c8ab41bcb679007cb6d298d8
+#: ../../source/internal.rst:154
+msgid "The first two numbers are x and y coordinate of lower left corner."
+msgstr "Первые два числа - это x- и y-координаты нижнего левого угла."
+
+# 9de7e1d0433a48eb834538f0485a91bb
+#: ../../source/internal.rst:155
+msgid "The next two numbers are width and height of diagram boundings."
+msgstr "Следующие два числа - ширина и высота границ диаграммы."
+
+# da92f26a9be4445ebb00dc773d3afb4c
+#: ../../source/internal.rst:156
+msgid "The fifth number is 1 if grid is on and 0 if grid is off."
+msgstr "Пятое число равно 1, если сетка включена, и 0, если сетка выключена."
+
+# 9a1fde66fdf440b9a5e892e5d2f68bef
+#: ../../source/internal.rst:157
+msgid ""
+"The next is grid color in 24 bit hexadecimal RGB value, e.g. #FF0000 is red."
+msgstr "Дальше идет цвет сетки в виде 24-битного шестнадцатиричного RGB значения, например, #FF0000 - красный."
+
+# 0fde171fb1dc4d4f9b9ce331760316b9
+#: ../../source/internal.rst:159
+msgid "The next number determines the style of the grid."
+msgstr "Следующее число определяет стиль сетки."
+
+# a685b27be17048148e74520b30466d56
+#: ../../source/internal.rst:160
+msgid "The next number determines which axes have logarithmical scale."
+msgstr "Следующее число определяет, какие оси имеют логарифмический масштаб."
+
+# 65b96c100acf47c8959ea6e348a66402
+#: ../../source/internal.rst:166
+msgid "Paintings"
+msgstr "Paintings"
+
+# e00a016de4dd4b80b0ce74dd80f9c528
 #: ../../source/internal.rst:169
 msgid ""
 "This section starts with ``<Paintings>`` and ends with ``</Paintings>``. It "
 "contains the paintings that are within the schematic."
-msgstr ""
-"Этот раздел начинается с ``<Paintings>`` и заканчивается ``</Paintings>``. Он "
-"содержит элементы рисования, которые используются в схеме. "
-
-#~ msgid ""
-#~ "This document describes the schematic file format of Qucs. This format is "
-#~ "used for schematics (usually with suffix \".sch\") and for data displays "
-#~ "(usually with suffix \".dpl\"). The following text shows a short example of "
-#~ "a schematic file."
-#~ msgstr ""
-#~ "В этом документе описывается формат схемного файла Qucs. Этот формат "
-#~ "используется для схем (обычно с расширением \".sch\") и для просмотров "
-#~ "данных (обычно с расширением \".dpl\"). В следующем тексте приводится "
-#~ "краткий пример схемного файла."
-
-#~ msgid ""
-#~ "The file contains several section. Each of it is explained below. Every "
-#~ "line consists of not more than one information block that starts with a "
-#~ "less-sign \"<\" and ends with a greater-sign \">\"."
-#~ msgstr ""
-#~ "В файле несколько разделов. Все они объясняются ниже. Каждая линия состоит "
-#~ "из не более чем одного информационного блока, начинающегося знаком \"меньше"
-#~ "\" (\"<\") и заканчивающегося знаком \"больше\" (\">\")."
-
-#~ msgid ""
-#~ "The first section starts with \"<Properties>\" and ends with \"</Properties>"
-#~ "\". It contains the document properties of the file. Each line is optional. "
-#~ "The following properties are supported:"
-#~ msgstr ""
-#~ "Первый раздел начинается с \"<Properties>\" и заканчивается \"</Properties>"
-#~ "\". Он содержит свойства документа, находящегося в файле. Каждая строка "
-#~ "необязательна. Поддерживаются следующие свойства:"
-
-#~ msgid ""
-#~ "*<View=x1,y1,x2,y2,scale,xpos,ypos>* contains pixel position of the "
-#~ "schematic window in the first four numbers, its current scale and the "
-#~ "current position of the upper left corner (last two numbers)."
-#~ msgstr ""
-#~ "*<View=x1,y1,x2,y2,scale,xpos,ypos>* содержит положение в пикселах окна "
-#~ "схемы (первые четыре числа), его текущий масштаб и текущее положение "
-#~ "верхнего левого угла (два последних числа)."
-
-#~ msgid ""
-#~ "*<Grid=x,y,on>* contains the distance of the grid in pixel (first two "
-#~ "numbers) and whether grid is on (last number 1) or off (last number 0)."
-#~ msgstr ""
-#~ "*<Grid=x,y,on>* содержит шаг сетки в пикселах (первые два числа) и включена "
-#~ "сетка (последнее число = 1) или выключена (последнее число = 0)."
-
-#~ msgid ""
-#~ "*<DataSet=name.dat>* contains the file name of the data set associated with "
-#~ "this schematic."
-#~ msgstr ""
-#~ "*<DataSet=name.dat>* содержит имя файла набора данных, связанного с этой "
-#~ "схемой."
-
-#~ msgid ""
-#~ "*<DataDisplay=name.dpl>* contains the file name of the data display page "
-#~ "associated with this schematic (or the file name of the schematic if this "
-#~ "document is a data display)."
-#~ msgstr ""
-#~ "*<DataDisplay=name.dpl>* содержит имя файла со страницей просмотра данных, "
-#~ "связанной с этой схемой (или имя схемного файла, если этот документ "
-#~ "является просмотром данных)."
-
-#~ msgid ""
-#~ "*<OpenDisplay=yes>* contains 1 if the data display page opens automatically "
-#~ "after simulation, otherwise contains 0."
-#~ msgstr ""
-#~ "*<OpenDisplay=yes>* содержит 1, если страница показа данных открывается "
-#~ "автоматически после моделирования, в противном случае - 0."
-
-#~ msgid ""
-#~ "This section starts with \"<Symbol>\" and ends with \"</Symbol>\". It "
-#~ "contains painting elements creating a schematic symbol for the file. This "
-#~ "is usually only used for schematic files that meant to be a subcircuit."
-#~ msgstr ""
-#~ "Этот раздел начинается с \"<Symbol>\" и заканчивается \"</Symbol>\". Он "
-#~ "содержит элементы рисования, составляющие схемное обозначение для файла. "
-#~ "Это обычно используется только для схемных файлов, которые считаются "
-#~ "подсхемой."
-
-#~ msgid ""
-#~ "This section starts with \"<Components>\" and ends with \"</Components>\". "
-#~ "It contains the circuit components of the schematic. The line format is as "
-#~ "follows:"
-#~ msgstr ""
-#~ "Этот раздел начинается с \"<Components>\" и заканчивается \"</Components>"
-#~ "\". Он содержит компоненты цепей схемы. Формат строки:"
-
-#~ msgid ""
-#~ "The type identifies the component, e.g. \"R\" for a resistor, \"C\" for a "
-#~ "capacitor."
-#~ msgstr ""
-#~ "\"type\" (\"тип\") означает компонент, например, \"R\" для резистора, \"C\" "
-#~ "для конденсатора."
-
-#~ msgid ""
-#~ "The name is the unique component identifier of the schematic, e.g. \"R1\" "
-#~ "for the first resistor."
-#~ msgstr ""
-#~ "\"name\" (\"имя\") - уникальное обозначение компонента на схеме, например, "
-#~ "\"R1\" для первого резистора."
-
-#~ msgid ""
-#~ "A \"1\" in the active field shows that the component is active, i.e it is "
-#~ "used in the simulation. A \"0\" shows it is inactive."
-#~ msgstr ""
-#~ "\"1\" в поле \"active\" (\"активный\") показывает, что этот компонент "
-#~ "активный, то есть используется в моделировании. \"0\" показывает, что он "
-#~ "неактивный."
-
-#~ msgid ""
-#~ "The next two numbers indicate the mirroring about the x axis (\"1\" for "
-#~ "mirrored, \"0\" for not mirrored) and the counter-clockwise rotation "
-#~ "(multiple of 90 degree, i.e. 0...3)."
-#~ msgstr ""
-#~ "Следующие два числа указывают на зеркальное отображение относительно оси x "
-#~ "(\"1\" - зеркальное отображение, \"0\" - нет зеркального отображения) и "
-#~ "вращение против часовой стрелки (кратно 90 градусам, то есть 0...3)."
-
-#~ msgid ""
-#~ "The next entries are the values of the component properties (in quotation "
-#~ "marks) followed by an 1 if the property is visible on the schematic "
-#~ "(otherwise 0)."
-#~ msgstr ""
-#~ "Следующие параметры являются значениями свойств компонента (в кавычках), за "
-#~ "которыми следует 1, если это свойство видимо на схеме (в противном случае "
-#~ "0)."
-
-#~ msgid ""
-#~ "This section starts with \"<Wires>\" and ends with \"</Wires>\". It "
-#~ "contains the wires (electrical connection between circuit components) and "
-#~ "their labels and node sets. The line format is as follows:"
-#~ msgstr ""
-#~ "Этот раздел начинается с \"<Wires>\" и заканчивается \"</Wires>\". Он "
-#~ "содержит проводники (электрическое соединение между компонентами цепи), их "
-#~ "метки и узлы. Формат строки:"
-
-#~ msgid ""
-#~ "This section starts with \"<Diagrams>\" and ends with \"</Diagrams>\". It "
-#~ "contains the diagrams with their graphs and their markers."
-#~ msgstr ""
-#~ "Этот раздел начинается с \"<Diagrams>\" и заканчивается \"</Diagrams>\". Он "
-#~ "содержит диаграммы с их графиками и маркерами."
-
-#~ msgid ""
-#~ "This section starts with \"<Paintings>\" and ends with \"</Paintings>\". It "
-#~ "contains the paintings that are within the schematic."
-#~ msgstr ""
-#~ "Этот раздел начинается с \"<Paintings>\" и заканчивается \"</Paintings>\". "
-#~ "Он содержит элементы рисования, которые используются в схеме."
+msgstr "Этот раздел начинается с ``<Paintings>`` и заканчивается ``</Paintings>``. Он содержит элементы рисования, которые используются в схеме. "

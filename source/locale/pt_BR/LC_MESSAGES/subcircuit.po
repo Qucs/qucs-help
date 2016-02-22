@@ -1,32 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014, Qucs Team (2014)
+# This file is distributed under the same license as the Qucs Help package.
 # 
+# Translators:
+# Guilherme Brondani Torri <guitorri@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+"Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-16 15:55+0100\n"
-"PO-Revision-Date: 2014-12-19 21:25+0100\n"
+"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"PO-Revision-Date: 2015-01-13 18:11+0000\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/qucs-help/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt\n"
-"X-Generator: Poedit 1.7.1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+# 184b5977c72545bf927f73d1b7bb4585
 #: ../../source/subcircuit.rst:3
 msgid "Working with Subcircuits"
 msgstr "Trabalhando com Subcircuitos"
 
+# 09933a3efbeb4366996974bd1475cbdf
 #: ../../source/subcircuit.rst:6
 msgid ""
 "Subcircuits are used to bring more clarity into a schematic. This is very "
 "useful in large circuits or in circuits, in which a component block appears "
 "several times."
-msgstr ""
-"Subcircuitos são utilizados para trazer maior clareza ao esquema elétrico. É"
-" muito proveitoso em grandes circuitos ou em circuitos em que um bloco de "
-"componentes aparece várias vezes."
+msgstr "Subcircuitos são utilizados para trazer maior clareza ao esquema elétrico. É muito proveitoso em grandes circuitos ou em circuitos em que um bloco de componentes aparece várias vezes."
 
+# fdbaac6706b54db29b057ea2787afdb2
 #: ../../source/subcircuit.rst:10
 msgid ""
 "In Qucs, each schematic containing a subcircuit port is a subcircuit. You "
@@ -42,39 +47,28 @@ msgid ""
 "the schematic. You can now perform a simulation. The result is the same as "
 "if all the components of the subcircuit are placed into the circuit "
 "directly."
-msgstr ""
-"No Qucs, cada esquema elétrico contendo uma conexão para um subcircuito é um"
-" subcircuito. Você pode conseguir uma conexão para um subcircuito usando a "
-"barra de ferramentas, a listagem de componentes (nos \"componentes soltos\")"
-" ou pelo Menu (Inserir->Inserir Conexão). Após colocar todos as conexões a "
-"subcircuitos (dois por exemplo) você precisará salvar o esquema elétrico "
-"(e.x. CTRL-S). Dando uma olhada no conteúdo da lista de visualização (figura"
-" 1), você agora verá um \"2-portas\" do lado direito do nome do esquema "
-"elétrico (coluna \"Nota\"). Esta Nota marca todos os documentos que são "
-"subcircuitos. Agora mude para o diagrama elétrico que você quer usar o "
-"subcircuito. Entao clique no nome do subcircuito (conteúdo da lista de "
-"visualização). Movendo o mouse para dentro da área do documento, você verá "
-"que agora é possível colocar o subcircuito dentro do circuito principal. "
-"Faça então e complete o esquema elétrico. Você agora pode executar uma "
-"simulação. O resultado é o mesmo que se todos os componentes do subcircuito "
-"fossem colocados diretamente no circuito."
+msgstr "No Qucs, cada esquema elétrico contendo uma conexão para um subcircuito é um subcircuito. Você pode conseguir uma conexão para um subcircuito usando a barra de ferramentas, a listagem de componentes (nos \"componentes soltos\") ou pelo Menu (Inserir->Inserir Conexão). Após colocar todos as conexões a subcircuitos (dois por exemplo) você precisará salvar o esquema elétrico (e.x. CTRL-S). Dando uma olhada no conteúdo da lista de visualização (figura 1), você agora verá um \"2-portas\" do lado direito do nome do esquema elétrico (coluna \"Nota\"). Esta Nota marca todos os documentos que são subcircuitos. Agora mude para o diagrama elétrico que você quer usar o subcircuito. Entao clique no nome do subcircuito (conteúdo da lista de visualização). Movendo o mouse para dentro da área do documento, você verá que agora é possível colocar o subcircuito dentro do circuito principal. Faça então e complete o esquema elétrico. Você agora pode executar uma simulação. O resultado é o mesmo que se todos os componentes do subcircuito fossem colocados diretamente no circuito."
 
+# 15bc90bb315e4d6cbff1c24ca4d06f83
+#: ../../source/subcircuit.rst:25
+msgid "|image0_EN|"
+msgstr "|image0_PT|"
+
+# c3b76213aa494091a690d40ff71facb8
 #: ../../source/subcircuit.rst:27
 msgid "Figure 1 - Accesing a subcircuit"
 msgstr "Figure 1 - Accesing a subcircuit"
 
+# bccb6c0624a142f083c522d6163281cd
 #: ../../source/subcircuit.rst:30
 msgid ""
 "If you select a subcircuit component (click on its symbol in the schematic) "
 "you can step into the subcircuit schematic by pressing CTRL-I (of course, "
 "this function is also reachable via toolbar and via menu). You can step back"
 " by pressing CTRL-H."
-msgstr ""
-"Se você selecionar um componente subcircuito (clique no seu símbolo no "
-"esquema elétrico) você poderá visualizar o esquema elétrico do seu "
-"subcircuito pressionando CTRL-I (claro, esta função pode ser alcançada pela "
-"barra de tarefas e via Menu). Você pode voltar pressionando CTRL-H."
+msgstr "Se você selecionar um componente subcircuito (clique no seu símbolo no esquema elétrico) você poderá visualizar o esquema elétrico do seu subcircuito pressionando CTRL-I (claro, esta função pode ser alcançada pela barra de tarefas e via Menu). Você pode voltar pressionando CTRL-H."
 
+# 8bf89d48a94e4d04bd98d1b6dd5a71fc
 #: ../../source/subcircuit.rst:35
 msgid ""
 "If you do not like the component symbol of a subcircuit, you can draw your "
@@ -84,15 +78,9 @@ msgid ""
 " is created automatically. You now can edit this symbol by painting lines "
 "and arcs. After finished, save it. Now place it on another schematic, and "
 "you have a new symbol."
-msgstr ""
-"Se você não gostar do simbolo de um componente subcircuito, você poderá "
-"desenhar seu próprio símbolo e colocar o texto do componente na posição "
-"favorita. Apenas abra seu esquema elétrico do subcircuito e vá no Menu: "
-"Arquivo->Editar Símbolo do Circuito. Se você nunca desenhou um símbolo para "
-"este componente, um símbolo simples é criado automaticamente. Você agora "
-"pode editar este símbolo desenhado linhas e arcos. Quando terminar, salve-o."
-" Agora coloque-o em outro esquema elétrico, e você terá um novo símbolo."
+msgstr "Se você não gostar do simbolo de um componente subcircuito, você poderá desenhar seu próprio símbolo e colocar o texto do componente na posição favorita. Apenas abra seu esquema elétrico do subcircuito e vá no Menu: Arquivo->Editar Símbolo do Circuito. Se você nunca desenhou um símbolo para este componente, um símbolo simples é criado automaticamente. Você agora pode editar este símbolo desenhado linhas e arcos. Quando terminar, salve-o. Agora coloque-o em outro esquema elétrico, e você terá um novo símbolo."
 
+# df248e3f38244d8881a7a8eaa804faf1
 #: ../../source/subcircuit.rst:43
 msgid ""
 "Just like all other components, subcircuits can have parameters. To create "
@@ -102,153 +90,168 @@ msgid ""
 "and descriptions. When you are ready, close the dialog and save the "
 "subcircuit. In every schematic where the subcircuit is placed, it owns the "
 "new parameters which can be edited as in all other components."
-msgstr ""
-"Como todos os outros componentes, subcircuitos podem ter parâmetros. Para "
-"criar seus próprios parâmetros, volte para o ediotr onde você editou o "
-"símbolo do circuito e dê um duplo clique nos parâmetros de texto do "
-"subcircuito. Uma janela aparecerá e você poderá preencher os parâmentros com"
-" valores padrões e descrições. Quando estiver pronto, feche a janela e salve"
-" o subcircuito. Em cada esquema elétrico que o subcircuito for colocado, ele"
-" possuirá novos parâmentros que poderão ser editados como em todos os outros"
-" componentes."
+msgstr "Como todos os outros componentes, subcircuitos podem ter parâmetros. Para criar seus próprios parâmetros, volte para o ediotr onde você editou o símbolo do circuito e dê um duplo clique nos parâmetros de texto do subcircuito. Uma janela aparecerá e você poderá preencher os parâmentros com valores padrões e descrições. Quando estiver pronto, feche a janela e salve o subcircuito. Em cada esquema elétrico que o subcircuito for colocado, ele possuirá novos parâmentros que poderão ser editados como em todos os outros componentes."
 
-#: ../../source/subcircuit.rst:25
-msgid "|image0_EN|"
-msgstr "|image0_PT|"
-
+# 38aa7255d92f4fedb19a9cdc41cf4811
 #: ../../source/subcircuit.rst:54
 msgid "Subcircuits with Parameters"
-msgstr ""
+msgstr "Subcircuitos com parâmetros"
 
+# 202623edff634ad8a0cfd263f84bfd19
 #: ../../source/subcircuit.rst:56
 msgid ""
 "A simple example using subcircuits with parameters and equations is provided"
 " here."
-msgstr ""
+msgstr "Um exemplo simples usando subcircuitos com parâmetros e equações é fornecido aqui."
 
+# 472fe979847d4d4fb8a5156ef4b486e4
 #: ../../source/subcircuit.rst:59
 msgid "Create a subcircuit:"
-msgstr ""
+msgstr "Criar um sub-circuito:"
 
+# 45f32c33a515480aa3abd18cb09416e2
 #: ../../source/subcircuit.rst:61
 msgid "Create a new project"
-msgstr ""
+msgstr "Crie um novo projeto"
 
+# 8cac5a72a96943c594fd673dff52b2dd
 #: ../../source/subcircuit.rst:62
 msgid "New schematic (for subcircuit)"
-msgstr ""
+msgstr "Nova esquema (para sub-circuito)"
 
+# 559d7fdc64b14515b6fd9d039737abc9
 #: ../../source/subcircuit.rst:63
 msgid ""
 "Add a resistor, inductor, and capacitor,  wire them in series, add two ports"
-msgstr ""
+msgstr "Adicionar um resistor, indutor e capacitor, conectá-los em série, adicionar duas portas"
 
+# ab25a66df1274f7ca037fdfbebc7452d
 #: ../../source/subcircuit.rst:64
 msgid "Save the subcircuit as RLC.sch"
-msgstr ""
+msgstr "Salve o sub-circuito como RLC.sch"
 
+# a331c21624a240f89d9abc881eb64431
 #: ../../source/subcircuit.rst:65
 msgid "Give value of resistor as 'R1'"
-msgstr ""
+msgstr "Dar valor de resistor como 'R1'"
 
+# 7dce37e207494f8e8fde4ad18446161b
 #: ../../source/subcircuit.rst:66
 msgid "Add equation 'ind = L1',"
-msgstr ""
+msgstr "Adicionar equação ' ind = L1',"
 
+# a51a5f34ba3c4b50b09572ecddd5bd4c
 #: ../../source/subcircuit.rst:67
 msgid "Give value of inductor as 'ind'"
-msgstr ""
+msgstr "Dar valor do indutor como 'ind'"
 
+# 126dab5bbd424727912f3a1ffdc90bb0
 #: ../../source/subcircuit.rst:68
 msgid "Give value of capacitor as 'C1'"
-msgstr ""
+msgstr "Dar o valor do capacitor como 'C1'"
 
+# dfa76632acba49f7802198880d6e85d6
 #: ../../source/subcircuit.rst:69
 msgid "Save"
-msgstr ""
+msgstr "Salvar"
 
+# 786bdeba7c704cf79d8516f37d83f0d1
 #: ../../source/subcircuit.rst:70
 msgid "File > Edit Circuit Symbol"
-msgstr ""
+msgstr "Arquivo > Editar Símbolo do Circuito"
 
+# 7dedefaca061445681603a03e2078986
 #: ../../source/subcircuit.rst:71
 msgid "Double click on the 'SUB File=name' tag under the rectangular box"
-msgstr ""
+msgstr "Duplo clique sobre o ' SUB arquivo = nome ' etiqueta sob a caixa retangular"
 
+# 0f3c0589399648dfbb5ad2d89c219934
 #: ../../source/subcircuit.rst:73
 msgid "Add name = R1, default value = 1"
-msgstr ""
+msgstr "Adicionar nome = R1, valor padrão = 1"
 
+# d6ce1b7ed496405da74c6096f2489277
 #: ../../source/subcircuit.rst:74
 msgid "Add name = L1, default value = 1"
-msgstr ""
+msgstr "Adicionar nome = L1, valor padrão = 1"
 
+# 475d9d822cb24aa2881fee11bc59766d
 #: ../../source/subcircuit.rst:75
 msgid "Add name = C1, default value = 1"
-msgstr ""
+msgstr "Adicionar nome = C1, valor padrão = 1"
 
+# fdc2727b7e724867be81f11438f5484c
 #: ../../source/subcircuit.rst:76
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
+# 749b0a07ff284334b2f9b800445135a8
 #: ../../source/subcircuit.rst:78
 msgid "Insert subcircuit and define parameters:"
-msgstr ""
+msgstr "Inserir subcircuito e definir os parâmetros:"
 
+# 9f1b3781ef0c4d2eb8e3af1f99c84e68
 #: ../../source/subcircuit.rst:80
 msgid "New schematic (for testbench)"
-msgstr ""
+msgstr "Nova esquema (para testbench)"
 
+# 2bba7b538177410aa7f7a983765def85
 #: ../../source/subcircuit.rst:81
 msgid "Save Test_RLC.sch"
-msgstr ""
+msgstr "Salve Test_RLC.sch"
 
+# 10cc05ee997d43128d221c670b99793a
 #: ../../source/subcircuit.rst:82
 msgid "Project Contents > pick and place the above RLC subcircuit"
-msgstr ""
+msgstr "Projeto conteúdo > escolher e colocar o sub-circuito RLC acima"
 
+# e19dd2976a3e4c21b132527f23dde48f
 #: ../../source/subcircuit.rst:83
 msgid "Add AC voltage source (V1) and ground"
-msgstr ""
+msgstr "Adicionar fonte de tensão CA (V1) e solo"
 
+# 8a7d74be5fe54fd8b0bfed0811ff0319
 #: ../../source/subcircuit.rst:84
 msgid "Add AC simulation, from 140Hz to 180Hz, 201 points"
-msgstr ""
+msgstr "Adicionar simulação de AC, de 140Hz a 180Hz, 201 pontos"
 
+# a16c16b117c84667a97cb2825fe69261
 #: ../../source/subcircuit.rst:85
 msgid "Set on the subcircuit symbol"
-msgstr ""
+msgstr "Defina no símbolo do sub-circuito"
 
+# 570c71c04c0c4a01a16e17901b4b3010
 #: ../../source/subcircuit.rst:87
 msgid "R1=1"
-msgstr ""
+msgstr "R1 = 1"
 
+# 1500ceff67014feca29547afc852d4e7
 #: ../../source/subcircuit.rst:88
 msgid "L1=100e-3"
-msgstr ""
+msgstr "L1 = 100e-3"
 
+# 18368f2d177346beb06024a1c0eb0e52
 #: ../../source/subcircuit.rst:89
 msgid "C1=10e-6"
-msgstr ""
+msgstr "C1 = 10e-6"
 
+# 9cb307763bfd46968006aa70c50fb9ef
 #: ../../source/subcircuit.rst:91
 msgid "Simulate"
-msgstr ""
+msgstr "Simular"
 
+# f1b71e3726334878ab302caad69a55f4
 #: ../../source/subcircuit.rst:92
 msgid "Add a Cartesian diagram, plot V1.i"
-msgstr ""
+msgstr "Adicionar um diagrama cartesiano, plote V1.i"
 
+# d27a304f5eac4a88aa3cf9707406b685
 #: ../../source/subcircuit.rst:93
 msgid "The result should be the resonance of the RLC circuit."
-msgstr ""
+msgstr "O resultado deve ser a ressonância do circuito RLC."
 
+# bfde19e59c1241b18dcc3f011080aee9
 #: ../../source/subcircuit.rst:94
 msgid ""
 "The parameters of the RLC subcircuit can be changed on the top schematic."
-msgstr ""
-
-#~ msgid ""
-#~ "A minimalistic example using subcircuits with parameters and equations would"
-#~ " be like this:"
-#~ msgstr ""
+msgstr "Os parâmetros do subcircuito RLC podem ser alterados na parte superior esquemática."
