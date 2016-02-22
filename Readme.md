@@ -1,5 +1,5 @@
-[![Documentation Status](https://readthedocs.org/projects/qucs-help/badge/?version=master)](https://readthedocs.org/projects/qucs-help/?badge=master)
-[![Documentation Status](https://readthedocs.org/projects/qucs-help/badge/?version=qucs-0.0.18)](https://readthedocs.org/projects/qucs-help/?badge=qucs-0.0.18)
+[![Documentation Status](https://readthedocs.org/projects/qucs-help/badge/?version=latest)](https://readthedocs.org/projects/qucs-help/?badge=latest
+[![Documentation Status](https://readthedocs.org/projects/qucs-help/badge/?version=0.0.18)](https://readthedocs.org/projects/qucs-help/?badge=0.0.18)
 
 Qucs-Help documentation
 =======================
@@ -18,40 +18,34 @@ managed by `gettext` and PO files.
 Details about the Sphinx Internationalization workflow can be found in: http://sphinx-doc.org/latest/intl.html
 
 
-Status
-------
-
-This is the first iteration Qucs-Help documentation based on Sphinx.
-
-It is a direct migration from the HTML documentation previously distributed alog with the Qucs-Help application.
-
-The branch `qucs-0.0.18` is in string "freeze" state. Translations are still accepted as a way to gracefully handle the transition to new documents.
-
-The `master` branch is expected to undergo major changes.
-
-
 Documentation and Translation Workflow
 --------------------------------------
 
 
-New documents and corrections:
+How to add new documents and make corrections:
 
+- The source language is English.
 
-- The latest documentation and corrections should go into the `master` branch. Pull Requests are prefered.
+- The latest documentation and corrections go into the `develop` branch.
 
-- The `master` branch (only English) is updated automatically in [Qucs-Help master](http://qucs-help.readthedocs.org/en/master/)
+  - See `develop`: <http://qucs-help.readthedocs.org/en/latest/>
+
+- The release tags in the `master` branch are published at every version.
+
+  - See `0.0.18` version <http://qucs-help.readthedocs.org/en/0.0.18/>
 
 
 Relese cycle (draft):
 
+- Use the [*git flow*](http://nvie.com/posts/a-successful-git-branching-model/) branching model.
 
-- Team agrees on a [release version](http://semver.org/) and date.
+- Team agrees on a [release version](http://semver.org/) and date. Synch with Qucs project release.
 
-- Release branch is created, ex. `qucs-0.0.19`
+- Start release branch from `develop`, bump version, ex. `0.0.19`
 
 - Final adjustments take place on release branch.
 
-- Define a deadline (prior to release) to set all documents in "string freeze". No more edits allowed.
+- Release branch enters "string freeze". No more edits allowed.
 
 - Translators are notified of "string freeze"
 
@@ -69,18 +63,17 @@ Relese cycle (draft):
 
   - translations are merged
 
-  - **it is important not to lose any translation**
+  - **it is important to check that translation are not being lost**
 
-  - MO files are generated and updated on the repository
+  - MO files are generated and updated on the repository (needed by ReadTheDocs)
 
+- Add Qucs-help (HTML or PDF) into Qucs for distribution
 
-- Update the visibility of the release branch on [ReadTheDocs Qucs-Help](http://qucs-help.readthedocs.org/en/qucs-0.0.18/)
+- Synchronize with Qucs release
 
-- Add Qucs-help (HTML or PDF) to Qucs for distribution
+- Switch merge release branch into `master`, tag, delete release branch.
 
-- Prodeed with Qucs package release
-
-- Switch back to `master` and start with new documentation and corrections.
+- Update the visibility of the release branch on [ReadTheDocs Qucs-Help](http://qucs-help.readthedocs.org/en/0.0.18/)
 
 
 Setup
