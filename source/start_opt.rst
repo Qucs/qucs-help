@@ -94,6 +94,25 @@ introduced variables (Figure 8).
 Figure 8 - The best found circuit sizes.
 
 
+By clicking the "Copy current values to equation" button, an equation component defining all the optimization variables with the values of the "initial" column will be copied to the clipboard and can be pasted to the schematic after closing the optimization dialog.
+The resulting schematic will be as shown in the next figure.
+
+
+|image8_EN|
+
+Figure 9 - Schematic with optimized values.
+
+
+in case you need to do further modifications to the schematic, the optimization component can now be disabled and the optimized values from the pasted equation will be used.
+
+You can change the number of figures shown for the optimized values in the optimization dialog by right-clicking on the "initial" table header and selecting the "Set precision" menu, as shown in the following figure.
+
+
+|image9_EN|
+
+Figure 10 - Changing the displayed variables precision.
+
+
 .. only:: html
 
    `back to the top <#top>`__
@@ -106,6 +125,8 @@ Figure 8 - The best found circuit sizes.
 .. |image5_EN| image:: _static/en/optimization6.png
 .. |image6_EN| image:: _static/en/optimization7.png
 .. |image7_EN| image:: _static/en/optimization8.png
+.. |image8_EN| image:: _static/en/optimization9.png
+.. |image9_EN| image:: _static/en/optimization10.png
 
 .. |image0_DE| image:: _static/de/optimization1.png
 .. |image1_DE| image:: _static/de/optimization2.png
