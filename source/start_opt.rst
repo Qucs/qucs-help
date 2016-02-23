@@ -128,6 +128,26 @@ Figure 10 - Changing the displayed variables precision.
 .. |image8_EN| image:: _static/en/optimization9.png
 .. |image9_EN| image:: _static/en/optimization10.png
 
+.. |image0_CS| image:: _static/cs/optimization1.png
+.. |image1_CS| image:: _static/cs/optimization2.png
+.. |image2_CS| image:: _static/cs/optimization3.png
+.. |image3_CS| image:: _static/cs/optimization4.png
+.. |image4_CS| image:: _static/cs/optimization5.png
+.. |image5_CS| image:: _static/cs/optimization6.png
+.. |image6_CS| image:: _static/cs/optimization7.png
+.. |image7_CS| image:: _static/cs/optimization8.png
+
+.. |image0_ES| image:: _static/en/optimization1.png
+.. |image1_ES| image:: _static/en/optimization2.png
+.. |image2_ES| image:: _static/en/optimization3.png
+.. |image3_ES| image:: _static/en/optimization4.png
+.. |image4_ES| image:: _static/en/optimization5.png
+.. |image5_ES| image:: _static/en/optimization6.png
+.. |image6_ES| image:: _static/en/optimization7.png
+.. |image7_ES| image:: _static/en/optimization8.png
+.. |image8_ES| image:: _static/en/optimization9.png
+.. |image9_ES| image:: _static/en/optimization10.png
+
 .. |image0_DE| image:: _static/de/optimization1.png
 .. |image1_DE| image:: _static/de/optimization2.png
 .. |image2_DE| image:: _static/de/optimization3.png
@@ -137,14 +157,16 @@ Figure 10 - Changing the displayed variables precision.
 .. |image6_DE| image:: _static/de/optimization7.png
 .. |image7_DE| image:: _static/de/optimization8.png
 
-.. |image0_CS| image:: _static/cs/optimization1.png
-.. |image1_CS| image:: _static/cs/optimization2.png
-.. |image2_CS| image:: _static/cs/optimization3.png
-.. |image3_CS| image:: _static/cs/optimization4.png
-.. |image4_CS| image:: _static/cs/optimization5.png
-.. |image5_CS| image:: _static/cs/optimization6.png
-.. |image6_CS| image:: _static/cs/optimization7.png
-.. |image7_CS| image:: _static/cs/optimization8.png
+.. |image0_FR| image:: _static/en/optimization1.png
+.. |image1_FR| image:: _static/en/optimization2.png
+.. |image2_FR| image:: _static/en/optimization3.png
+.. |image3_FR| image:: _static/en/optimization4.png
+.. |image4_FR| image:: _static/en/optimization5.png
+.. |image5_FR| image:: _static/en/optimization6.png
+.. |image6_FR| image:: _static/en/optimization7.png
+.. |image7_FR| image:: _static/en/optimization8.png
+.. |image8_FR| image:: _static/en/optimization9.png
+.. |image9_FR| image:: _static/en/optimization10.png
 
 .. |image0_PT| image:: _static/pt_BR/optimization1.png
 .. |image1_PT| image:: _static/pt_BR/optimization2.png
