@@ -22,7 +22,7 @@ General Actions
 "Select"-Mode
 ~~~~~~~~~~~~~
 
-|image0_EN|
+|image1_EN|
 
 (Menu: Edit->Select)
 
@@ -57,7 +57,7 @@ General Actions
 "Wire"-Mode
 ~~~~~~~~~~~
 
-|image1_EN|
+|image2_EN|
 
 (Menu: Insert->Wire)
 
@@ -73,7 +73,7 @@ General Actions
 "Paste"-Mode
 ~~~~~~~~~~~~
 
-|image2_EN|
+|image3_EN|
 
 (Menu: Edit->Paste)
 
@@ -87,7 +87,7 @@ General Actions
 Mouse in "Content" Tab
 ~~~~~~~~~~~~~~~~~~~~~~
 
-|image3_EN|
+|image4_EN|
 
 
 +--------------------+---------------------+----------------------------------------------+
@@ -133,42 +133,42 @@ commands are shown in the following list:
 
    `back to the top <#top>`__
 
-.. |image0_EN| image:: _static/en/select.png
-.. |image1_EN| image:: _static/en/wire.png
-.. |image2_EN| image:: _static/en/paste.png
-.. |image3_EN| image:: _static/en/contab.png
+.. |image1_EN| image:: _static/en/select.png
+.. |image2_EN| image:: _static/en/wire.png
+.. |image3_EN| image:: _static/en/paste.png
+.. |image4_EN| image:: _static/en/contab.png
 
-.. |image0_DE| image:: _static/de/select.png
-.. |image1_DE| image:: _static/de/wire.png
-.. |image2_DE| image:: _static/de/paste.png
-.. |image3_DE| image:: _static/de/inhalttab.png
+.. |image1_DE| image:: _static/de/select.png
+.. |image2_DE| image:: _static/de/wire.png
+.. |image3_DE| image:: _static/de/paste.png
+.. |image4_DE| image:: _static/de/inhalttab.png
 
-.. |image0_CS| image:: _static/cs/select.png
-.. |image1_CS| image:: _static/cs/wire.png
-.. |image2_CS| image:: _static/cs/paste.png
-.. |image3_CS| image:: _static/cs/contab.png
+.. |image1_CS| image:: _static/cs/select.png
+.. |image2_CS| image:: _static/cs/wire.png
+.. |image3_CS| image:: _static/cs/paste.png
+.. |image4_CS| image:: _static/cs/contab.png
 
-.. |image0_ES| image:: _static/es/select.png
-.. |image1_ES| image:: _static/es/wire.png
-.. |image2_ES| image:: _static/es/paste.png
-.. |image3_ES| image:: _static/es/contab.png
+.. |image1_ES| image:: _static/es/select.png
+.. |image2_ES| image:: _static/es/wire.png
+.. |image3_ES| image:: _static/es/paste.png
+.. |image4_ES| image:: _static/es/contab.png
 
-.. |image0_FR| image:: _static/fr/select.png
-.. |image1_FR| image:: _static/fr/wire.png
-.. |image2_FR| image:: _static/fr/paste.png
-.. |image3_FR| image:: _static/fr/contab.png
+.. |image1_FR| image:: _static/fr/select.png
+.. |image2_FR| image:: _static/fr/wire.png
+.. |image3_FR| image:: _static/fr/paste.png
+.. |image4_FR| image:: _static/fr/contab.png
 
-.. |image0_PT| image:: _static/pt_BR/select.png
-.. |image1_PT| image:: _static/pt_BR/wire.png
-.. |image2_PT| image:: _static/pt_BR/paste.png
-.. |image3_PT| image:: _static/pt_BR/contab.png
+.. |image1_PT| image:: _static/pt_BR/select.png
+.. |image2_PT| image:: _static/pt_BR/wire.png
+.. |image3_PT| image:: _static/pt_BR/paste.png
+.. |image4_PT| image:: _static/pt_BR/contab.png
 
-.. |image0_RU| image:: _static/ru/select.png
-.. |image1_RU| image:: _static/ru/wire.png
-.. |image2_RU| image:: _static/ru/paste.png
-.. |image3_RU| image:: _static/ru/contab.png
+.. |image1_RU| image:: _static/ru/select.png
+.. |image2_RU| image:: _static/ru/wire.png
+.. |image3_RU| image:: _static/ru/paste.png
+.. |image4_RU| image:: _static/ru/contab.png
 
-.. |image0_UK| image:: _static/uk/select.png
-.. |image1_UK| image:: _static/uk/wire.png
-.. |image2_UK| image:: _static/uk/paste.png
-.. |image3_UK| image:: _static/uk/contab.png
+.. |image1_UK| image:: _static/uk/select.png
+.. |image2_UK| image:: _static/uk/wire.png
+.. |image3_UK| image:: _static/uk/paste.png
+.. |image4_UK| image:: _static/uk/contab.png

@@ -22,7 +22,7 @@ can now perform a simulation. The result is the same as if all the
 components of the subcircuit are placed into the circuit directly.
 
 
-|image0_EN|
+|image1_EN|
 
 Figure 1 - Accesing a subcircuit
 
@@ -99,18 +99,18 @@ Insert subcircuit and define parameters:
 
    `back to the top <#top>`__
 
-.. |image0_EN| image:: _static/en/subcircuit.png
+.. |image1_EN| image:: _static/en/subcircuit.png
 
-.. |image0_DE| image:: _static/de/unterschaltung.png
+.. |image1_DE| image:: _static/de/unterschaltung.png
 
-.. |image0_CS| image:: _static/cs/subcircuit.png
+.. |image1_CS| image:: _static/cs/subcircuit.png
 
-.. |image0_ES| image:: _static/es/subcircuit.png
+.. |image1_ES| image:: _static/es/subcircuit.png
 
-.. |image0_FR| image:: _static/fr/subcircuit.png
+.. |image1_FR| image:: _static/fr/subcircuit.png
 
-.. |image0_PT| image:: _static/pt_BR/subcircuit.png
+.. |image1_PT| image:: _static/pt_BR/subcircuit.png
 
-.. |image0_RU| image:: _static/ru/subcircuit.png
+.. |image1_RU| image:: _static/ru/subcircuit.png
 
-.. |image0_UK| image:: _static/uk/subcircuit.png
+.. |image1_UK| image:: _static/uk/subcircuit.png

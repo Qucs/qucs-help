@@ -18,17 +18,17 @@ RF Resistor Models
 -----------------------------
 The schematic symbol,  I/V equation and parameters of the Qucs linear resistor model are shown in Figure 1.  In contrast to this model Figure 2 illustrates the structure of a printed circuit board (PCB) mounted metal film (MF) axial RF resistor (a),  its Qucs schematic symbol (b) and its equivalent circuit model (c).   A thin film surface mounted (SMD) resistor can also be represented by the model shown in Figure 2 (c).  
 
-|image0_EN|
+|image1_EN|
 Figure 1 - Qucs built-in resistor model.
 
 At signal frequencies where the largest dimension of an axial or SMD resistor is less than approximately 20 times the smallest signal wavelength a resistor can be modelled by a lumped passive circuit consisting of a resistor **Rs** in series with a small inductance **Ls** with the combination shunted by parasitic capacitor **Cp**. In Figure 2 **Rs** is the nominal value of resistor at its parameter extraction temperature **Tnom**, **Ls** represents the inductance associated with **Rs** where the value of **Ls** is largely determined by the trimming method employed during component manufacture to set the value of **Rs** to a specified tolerance. Similarly, capacitor **Cp** models a parasitic capacitance associated with **Rs** where the value of **Cp** is a function of the physical size of **Rs**.  At RF frequencies it is important, for accurate operation, to add lead parasitic elements to the intrinsic equivalent circuit model shown within the red box draw in Figure 2. In Figure 2 **Llead** and **Cshunt** represent resistor series lead inductance and shunt capacitance to ground respectively.
 
-|image1_EN|
+|image2_EN|
 Figure 2 - PCB mounted resistor: (a) axial component mounting, (b) Qucs symbol and (c) equivalent circuit model.
 
 A typical set of model parameters for a 51  :math:`\Omega` 5 % MF axial resistor are (1) **Ls  = 8nH**, **Cp = 1pF**, **Llead  = 1nH** and **Cshunt = 0.1pF**. Illustrated in Figure 3 is a basic S parameter test bench circuit for measuring the S parameters of an RF resistor over a frequency range 1 MHz to 1.3 GHz. This example also demonstrates how the real and imaginary parts of a resistor model impedance can be extracted from S parameter simulation data. The graphs in Figure 3 clearly demonstrate that the impedance of the typical MF RF resistor described in previous text and modelled by the equivalent circuit shown in Figure 2 is a strong function of frequency at higher frequencies in the band 1 MHz to 1.3 GHZ.
 
-|image2_EN|
+|image3_EN|
 Figure 3 - Qucs S parameter simulation test circuit and plotted output data for a MF axial resistor: *Rs*\ =51\ :math:`\Omega`, *Ls*\ =8nH, *Cp*\ =1pF, *Llead*\ =1nH and *Cshunt*\ =0.1pF.
 
 Analysis of the RF resistor model
@@ -47,19 +47,19 @@ A component level version of the proposed RF resistor model is shown in Figure 4
 
 .. math:: Z = j \cdot \omega \cdot Llead + Zb = ZR + j \cdot \omega \cdot ZI.
 
-|image3_EN|
+|image4_EN|
 Figure 4 - RF resistor model rotated through 90 degrees and connected with one terminal grounded, similar to the test circuit in Figure. Sections of the model are shown grouped for calculation of the model impedance Z.
 
 Figure 5 illustrates how a set of theoretical equations can be converted into Qucs equations for model simulation and post simulation data processing. In this example Qucs equation **Eqn1** holds values for RF resistor model parameters and Qucs equation **Eqn2** lists the model equations introduced at the start of this section. Figure 5 also gives a set of cartesian graphs of post simulation output data which illustrate how **ZR** and **ZI**, and other calculated items, vary with frequency over the range 1 MHz to 1.3 GHz. 
 
-|image4_EN|
+|image5_EN|
 Figure 5- Theoretical analysis of RF resistance impedance Z using Qucs post processing facilities: note a dummy simulation icon, in this example DC simulation, is required to force Qucs to complete the analysis calculations.
 
 Direct measurement of RF resistor impedance using a simulated impedance meter
 ----------------------------------------------------------------------------------------------------------------------
 A simple impedance meter for measuring the real and imaginary components of component and circuit impedance, using small signal AC simulation, is shown in Figure 6. The impedance measuring technique uses a 1 Amp AC constant current source applied to one terminal of a two port electrical network. The second terminal is grounded. A parallel high resistance resistor (1E9 :math:`\Omega` in Figure 6) shunts the network under measurement to ensure that there is always a direct current path to ground as required by the Qucs simulator during the calculation of simulation results. If required the 1 Amp AC source can be set at a lower value. In such cases the value of **VRes** must also be scaled to give the network impedance.
 
-|image5_EN|
+|image6_EN|
 Figure 6 -A simple Qucs test circuit for demonstrating the use of an AC constant current source to measure electrical network impedance.
 
 Extraction of RF resistance data  from measured S parameters
@@ -72,22 +72,22 @@ Presented in Figure 9 are the Qucs Optimization controls” which are used to se
 
 Notice in this example the SPICE optimizer ASCO is used to find the values of **L**, **C** and **LL** which minimize **CF1** and **CF2**. Also note that **Rs** and **Cshunt** are held at fixed values during optimization. In the case of *Rs* its nominal value can be found from DC or low frequency AC measurements. Similarly the value selected for *Cshunt* has been chosen to give a very small but representative value of the parasitic shunt capacitance.. After optimization finishes the minimized values of **L**, **C** and **LL** are given in the initial value column of the Qucs optimization Variables list, see Figure 9. For the 47 :math:`\Omega` resistor the post-minimization RF resistor model parameters are **Rs = 47.3** :math:`\Omega`, **Ls =   10.43 nH**, **Cp = 0.69 pF**, **Llead = 1.46 nH** and **Cshunt  = 0.08 pF**. The theoretical simulation data illustrated in Figure 10 shows good agreement with the measured and the optimized simulation data.
 
-|image6_EN|
+|image7_EN|
 Figure 7 - DGSAQ Vector Network Analyser S parameter measurements for a 47 :math:`\Omega` axial RF resistor.
 
-|image7_EN|
+|image8_EN|
 Figure 8 - Qucs device model parameter extraction system applied to a nominal 47 :math:`\Omega` resistor represented by the subcircuit model illustrated in Figure 2 (c). Fixed model parameter values: **Rs = Rm = 47.3** :math:`\Omega`, **CShunt = 0.08pF**; Optimised values: **Ls = L = 10.43nH**, **Llead =  LL  = 1.47nH**, **Cp = C  = 0.69pF**. To reduce simulation time the ASCO cost variance was set to 1e-3. The ASCO method was set to DE/best/1/exp.
 
-|image8_EN|
+|image9_EN|
 Figure 9 - Qucs Minimization Icon drop down menus: left ”Variables“ and right ”Goals\`\`.
 
-|image9_EN|
+|image10_EN|
 Figure 10 - Qucs simulation of nominal 47 :math:`\Omega` resistor based on theoretical analysis.| 
 
-|image10_EN|
+|image11_EN|
 Figure 11 - Qucs device model parameter extraction system applied to a nominal 1000 :math:`\Omega` resistor represented by the subcircuit model illustrated in Figure 2(c).
 
-|image11_EN|
+|image12_EN|
 Figure 12 - Qucs simulation of nominal 1000 :math:`\Omega` resistor based on theoretical analysis.
 
 Extraction of RF resistor parameters from measured S data for a nominal 1000 :math:`\Omega` axial resistor
@@ -98,7 +98,7 @@ One more example: extraction of RF resistor parameters fro measured S data for a
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Figure 13 is included in this Qucs note purely for comparison purposes. SMD resistors are in general physically very small when compared to axial resistors. This results in lower values for the inductive and capacative parasitics which in turn ensures that the high frequency performance of SMD resistors is much improved.
 
-|image12_EN|
+|image13_EN|
 Figure 13 - Qucs device model parameter extraction system applied to a nominal 100 :math:`\Omega` SMD resistor represented by the subcircuit model illustrated in Figure 2 (c).
 
 A Verilog-A RF resistor model
@@ -168,14 +168,14 @@ Listed below is an example Verilog-A code model for the RF resistor model introd
     end  // End of analog code
     endmodule
 
-|image13_EN|
+|image14_EN|
 Figure 14 - Details of the proposed RF resistor model: equations, variables and other data.
 
 Extraction of Verilog-A RF resistor model parameters from measured S data for a 100 :math:`\Omega` axial resistor
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 This example demonstrates the use of ASCO for extracting Verilog-A model parameters from measured S parameter data. ASCO optimization yields a figure of 4nH for **L** in the model shown in Figure 2 (c). Other model parameter values are given with the test circuit, see Figure 15.
 
-|image14_EN|
+|image15_EN|
 Figure 15 - Verilog-A models parameter data extraction for a 100 :math:`\Omega` axial thin film resistor. Fixed model parameter values: **Rs =  Rm  =101**  :math:`\Omega`, **CShunt = 1e-15 F**, **Llead = LL =  0.5nH**, **Cp = C = 0.43pF**; Optimised values: **Ls = L = 3.99nH**. To reduce simulation time the ASCO cost variance was set to 1e-3. The ASCO method was set to DE/best/1/exp.
 
 End Notes
@@ -202,32 +202,32 @@ This brief Qucs note outlines the fundamental properties of subicircuit and veri
 
    `back to the top <#top>`__
 
-.. |image0_EN| image:: _static/en/RFresFig0.png
+.. |image1_EN| image:: _static/en/RFresFig0.png
 
-.. |image1_EN| image:: _static/en/RFresFig1.png
+.. |image2_EN| image:: _static/en/RFresFig1.png
 
-.. |image2_EN| image:: _static/en/RFresFig2.png
+.. |image3_EN| image:: _static/en/RFresFig2.png
 
-.. |image3_EN| image:: _static/en/RFresFig3.png
+.. |image4_EN| image:: _static/en/RFresFig3.png
 
-.. |image4_EN| image:: _static/en/RFresFig4.png
+.. |image5_EN| image:: _static/en/RFresFig4.png
 
-.. |image5_EN| image:: _static/en/RFresFig5.png
+.. |image6_EN| image:: _static/en/RFresFig5.png
 
-.. |image6_EN| image:: _static/en/RFresFig6.png
+.. |image7_EN| image:: _static/en/RFresFig6.png
 
-.. |image7_EN| image:: _static/en/RFresFig7.png
+.. |image8_EN| image:: _static/en/RFresFig7.png
 
-.. |image8_EN| image:: _static/en/RFresFig8.png
+.. |image9_EN| image:: _static/en/RFresFig8.png
 
-.. |image9_EN| image:: _static/en/RFresFig9.png
+.. |image10_EN| image:: _static/en/RFresFig9.png
 
-.. |image10_EN| image:: _static/en/RFresFig10.png
+.. |image11_EN| image:: _static/en/RFresFig10.png
 
-.. |image11_EN| image:: _static/en/RFresFig11.png
+.. |image12_EN| image:: _static/en/RFresFig11.png
 
-.. |image12_EN| image:: _static/en/RFresFig12.png
+.. |image13_EN| image:: _static/en/RFresFig12.png
 
-.. |image13_EN| image:: _static/en/RFresFigSpec.png
+.. |image14_EN| image:: _static/en/RFresFigSpec.png
 
-.. |image14_EN| image:: _static/en/RFresFigVextract.png
+.. |image15_EN| image:: _static/en/RFresFigVextract.png
