@@ -82,11 +82,10 @@ Setup
 Tested with:
 
 - OS X 10.9.5
-- Python 2.7
-- Sphinx==1.2.3
+- Python 2.7.11
+- Sphinx==1.3.5
 - docutils==0.12
-- sphinx-intl==0.9.5 (patched, see
-[issue #9](https://bitbucket.org/shimizukawa/sphinx-intl/issue/9/supporting-fuzzy-flag))
+- sphinx-intl==0.9.9
 - sphinx-rtd-theme==0.1.6
 - others dependencies (?)
 
