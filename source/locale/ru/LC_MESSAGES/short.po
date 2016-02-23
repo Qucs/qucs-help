@@ -83,8 +83,8 @@ msgstr "Режим \"Выделения\""
 
 # 3f1d5a35fb0948adb8b69dac77dc6844
 #: ../../source/short.rst:25
-msgid "|image0_EN|"
-msgstr "|image0_RU|"
+msgid "|image1_EN|"
+msgstr "|image1_RU|"
 
 # 5477e1cfa0554ee490462eff1a4e20ca
 #: ../../source/short.rst:27
@@ -187,8 +187,8 @@ msgstr "Режим \"Проводник\""
 
 # 597d5233c74644d99a615414a3b7e341
 #: ../../source/short.rst:60
-msgid "|image1_EN|"
-msgstr "|image1_RU|"
+msgid "|image2_EN|"
+msgstr "|image2_RU|"
 
 # e4ca8bf5e4444a9db67aaa6e92f80e5d
 #: ../../source/short.rst:62
@@ -219,8 +219,8 @@ msgstr "Режим \"Вставка\""
 
 # 03d2e740bd4b40bf91ad6ba89295bc43
 #: ../../source/short.rst:76
-msgid "|image2_EN|"
-msgstr "|image2_RU|"
+msgid "|image3_EN|"
+msgstr "|image3_RU|"
 
 # 0417645baf574a459c0c7b09f03058cc
 #: ../../source/short.rst:78
@@ -244,8 +244,8 @@ msgstr "Мышь во вкладке \"Содержание\""
 
 # d96903a4aaa0423dbc1a23802352d74a
 #: ../../source/short.rst:90
-msgid "|image3_EN|"
-msgstr "|image3_RU|"
+msgid "|image4_EN|"
+msgstr "|image4_RU|"
 
 # 53bef40ffa3545889a2834f92b92180b
 #: ../../source/short.rst:94

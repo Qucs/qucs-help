@@ -51,8 +51,8 @@ msgstr "No Qucs, cada esquema elétrico contendo uma conexão para um subcircuit
 
 # 15bc90bb315e4d6cbff1c24ca4d06f83
 #: ../../source/subcircuit.rst:25
-msgid "|image0_EN|"
-msgstr "|image0_PT|"
+msgid "|image1_EN|"
+msgstr "|image1_PT|"
 
 # c3b76213aa494091a690d40ff71facb8
 #: ../../source/subcircuit.rst:27
