@@ -1,182 +1,201 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2014, Qucs Team (2014)
 # This file is distributed under the same license as the Qucs Help package.
-# 
-# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"POT-Creation-Date: 2016-02-23 22:57+0100\n"
 "PO-Revision-Date: 2015-01-13 04:45+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/qucs-help/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/qucs-"
+"help/language/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.2.0\n"
 
-# 80ebf8bf9f0f4d6f89ecb7cff0182965
 #: ../../source/start_opt.rst:3
 msgid "Getting Started with Optimization"
 msgstr ""
 
-# a070d7e646c44ee8a369a8b07789cb41
 #: ../../source/start_opt.rst:6
 msgid ""
 "For circuit optimization, Qucs uses the ASCO tool "
-"(`http://asco.sourceforge.net/ <http://asco.sourceforge.net/>`__). A brief "
-"description on how to prepare your schematic, execute and interprete the "
-"results is given below. Before using this functionality, ASCO must be "
-"installed on the computer."
+"(`http://asco.sourceforge.net/ <http://asco.sourceforge.net/>`__). A "
+"brief description on how to prepare your schematic, execute and "
+"interprete the results is given below. Before using this functionality, "
+"ASCO must be installed on the computer."
 msgstr ""
 
-# 3212753fa19a463986d6db7bc70fc1f4
 #: ../../source/start_opt.rst:12
 msgid ""
-"Optimization of a circuit is nothing more than the minimization of a cost "
-"function. It can either be the delay or the rise time of a digital circuit, "
-"or the power or gain of an analog circuit. Another possibility is defining "
-"the optimization problem as a composition of functions, leading in this case"
-" to the definition of a figure-of-merit."
+"Optimization of a circuit is nothing more than the minimization of a cost"
+" function. It can either be the delay or the rise time of a digital "
+"circuit, or the power or gain of an analog circuit. Another possibility "
+"is defining the optimization problem as a composition of functions, "
+"leading in this case to the definition of a figure-of-merit."
 msgstr ""
 
-# e4ed1bbc33854b4a8a227dc8aca46506
 #: ../../source/start_opt.rst:18
 msgid ""
-"To setup a netlist for optimization two things must be added to the already "
-"existing netlist: insert equation(s) and the optimization component block. "
-"Take the schematic from Figure 1 and change it until you have the resulting "
-"schematic given in Figure 2."
+"To setup a netlist for optimization two things must be added to the "
+"already existing netlist: insert equation(s) and the optimization "
+"component block. Take the schematic from Figure 1 and change it until you"
+" have the resulting schematic given in Figure 2."
 msgstr ""
 
-# 108bba8c2edf428dbb8b55bc68a26571
 #: ../../source/start_opt.rst:24
-msgid "|image0_EN|"
-msgstr "|image0_ES|"
+msgid "|image1_EN|"
+msgstr "|image1_ES|"
 
-# f762df78b95e4260901354a9d7f34600
 #: ../../source/start_opt.rst:26
 msgid "Figure 1 - Initial schematic."
 msgstr ""
 
-# 2dae0661e8f84508a375fdff72089e41
 #: ../../source/start_opt.rst:29
-msgid "|image1_EN|"
-msgstr "|image1_ES|"
+msgid "|image2_EN|"
+msgstr "|image2_ES|"
 
-# 8164a61f52d94d06b59749bd7c071e55
 #: ../../source/start_opt.rst:31
 msgid "Figure 2 - Prepared schematic."
 msgstr ""
 
-# 78b2623a473448ba90d643e6cf996506
 #: ../../source/start_opt.rst:34
 msgid ""
-"Now, open the optimization component and select the optimization tab. From "
-"the existing parameters, special attention should be paid to 'Maximum number"
-" of iterations', 'Constant F' and 'Crossing over factor'. Over- or "
-"underestimation can lead to a premature convergence of the optimizer to a "
-"local minimum or, a very long optimization time."
+"Now, open the optimization component and select the optimization tab. "
+"From the existing parameters, special attention should be paid to "
+"'Maximum number of iterations', 'Constant F' and 'Crossing over factor'. "
+"Over- or underestimation can lead to a premature convergence of the "
+"optimizer to a local minimum or, a very long optimization time."
 msgstr ""
 
-# 28893d352c34438a90c5fd99f44ae157
 #: ../../source/start_opt.rst:41
-msgid "|image2_EN|"
-msgstr "|image2_ES|"
+msgid "|image3_EN|"
+msgstr "|image3_ES|"
 
-# 87f4cc505d53429eaeec242431ea979a
 #: ../../source/start_opt.rst:43
 msgid "Figure 3 - Optimization dialog, algorithm options."
 msgstr ""
 
-# 0e51754785b14d9b8ad96f7d80218f35
 #: ../../source/start_opt.rst:46
 msgid ""
-"In the Variables tab, defining which circuit elements will be chosen from "
-"the allowed range, as shown in Figure 4. The variable names correspond to "
-"the identifiers placed into properties of components and **not** the "
+"In the Variables tab, defining which circuit elements will be chosen from"
+" the allowed range, as shown in Figure 4. The variable names correspond "
+"to the identifiers placed into properties of components and **not** the "
 "components' names."
 msgstr ""
 
-# 5f737976f55d4646aa799440906087af
 #: ../../source/start_opt.rst:52
-msgid "|image3_EN|"
-msgstr "|image3_ES|"
+msgid "|image4_EN|"
+msgstr "|image4_ES|"
 
-# c36a956b534349c9aa6d5746fec5248b
 #: ../../source/start_opt.rst:54
 msgid "Figure 4 - Optimization dialog, variables options."
 msgstr ""
 
-# 16a67ce5c92043e4ae99809cfaab500d
 #: ../../source/start_opt.rst:56
 msgid ""
-"Finally, go to Goals where the optimization objective (maximize, minimize) "
-"and constraints (less, greater, equal) are defined. ASCO then automatically "
-"combines them into a single cost function, that is then minimized."
+"Finally, go to Goals where the optimization objective (maximize, "
+"minimize) and constraints (less, greater, equal) are defined. ASCO then "
+"automatically combines them into a single cost function, that is then "
+"minimized."
 msgstr ""
 
-# a3fff78a9f234c0c9e70a1097af4e8d1
 #: ../../source/start_opt.rst:62
-msgid "|image4_EN|"
+msgid "|image5_EN|"
 msgstr ""
 
-# 4f4d7e7a15ad41a5890bb459bc35e0e7
 #: ../../source/start_opt.rst:64
 msgid "Figure 5 - Optimization dialog, goals options."
 msgstr ""
 
-# fe4f7d181dda4834be6113614a233846
 #: ../../source/start_opt.rst:67
 msgid ""
-"The next step is to change the schematic, and define which circuit elements "
-"are to be optimized. The resulting schematic is show in Figure 6."
+"The next step is to change the schematic, and define which circuit "
+"elements are to be optimized. The resulting schematic is show in Figure "
+"6."
 msgstr ""
 
-# 7b05947786a44ee0a899dc50c53f327e
 #: ../../source/start_opt.rst:72
-msgid "|image5_EN|"
+msgid "|image6_EN|"
 msgstr ""
 
-# 30678288c1214aa0b2a9e2cfd98ae249
 #: ../../source/start_opt.rst:74
 msgid "Figure 6 - New Qucs main window."
 msgstr ""
 
-# ec40c5b72a1c4c5da99fca2ccb9f0bcc
 #: ../../source/start_opt.rst:76
 msgid ""
-"The last step is to run the optimization, i.e. the simulation by pressing "
-"F2. Once finished, which takes a few seconds on a modern computer, the best "
-"simulation results is shown in the graphical waveform viewer."
+"The last step is to run the optimization, i.e. the simulation by pressing"
+" F2. Once finished, which takes a few seconds on a modern computer, the "
+"best simulation results is shown in the graphical waveform viewer."
 msgstr ""
 
-# 7e1abc91d85a4dd69b430181edb63c69
 #: ../../source/start_opt.rst:82
-msgid "|image6_EN|"
+msgid "|image7_EN|"
 msgstr ""
 
-# b021e43d26224cc1b8d900b88337d5b4
 #: ../../source/start_opt.rst:84
 msgid "Figure 7 - Qucs results window."
 msgstr ""
 
-# 93fffcc9a47646299fe3b92449d11ce1
 #: ../../source/start_opt.rst:87
 msgid ""
-"The best found circuit sizes can be found in the optimization dialog, in the"
-" Variables tab. They are now the initial values for each one of introduced "
-"variables (Figure 8)."
+"The best found circuit sizes can be found in the optimization dialog, in "
+"the Variables tab. They are now the initial values for each one of "
+"introduced variables (Figure 8)."
 msgstr ""
 
-# 2a4d6669f2774d0fa48da20a8f22fc1f
 #: ../../source/start_opt.rst:92
-msgid "|image7_EN|"
+msgid "|image8_EN|"
 msgstr ""
 
-# eae72d4339dc42ca8a3086b5f4bd3d54
 #: ../../source/start_opt.rst:94
 msgid "Figure 8 - The best found circuit sizes."
 msgstr ""
+
+#: ../../source/start_opt.rst:97
+msgid ""
+"By clicking the \"Copy current values to equation\" button, an equation "
+"component defining all the optimization variables with the values of the "
+"\"initial\" column will be copied to the clipboard and can be pasted to "
+"the schematic after closing the optimization dialog. The resulting "
+"schematic will be as shown in the next figure."
+msgstr ""
+
+#: ../../source/start_opt.rst:101
+#, fuzzy
+msgid "|image9_EN|"
+msgstr "|image4_ES|"
+
+#: ../../source/start_opt.rst:103
+msgid "Figure 9 - Schematic with optimized values."
+msgstr ""
+
+#: ../../source/start_opt.rst:106
+msgid ""
+"in case you need to do further modifications to the schematic, the "
+"optimization component can now be disabled and the optimized values from "
+"the pasted equation will be used."
+msgstr ""
+
+#: ../../source/start_opt.rst:108
+msgid ""
+"You can change the number of figures shown for the optimized values in "
+"the optimization dialog by right-clicking on the \"initial\" table header"
+" and selecting the \"Set precision\" menu, as shown in the following "
+"figure."
+msgstr ""
+
+#: ../../source/start_opt.rst:111
+#, fuzzy
+msgid "|image10_EN|"
+msgstr "|image4_ES|"
+
+#: ../../source/start_opt.rst:113
+msgid "Figure 10 - Changing the displayed variables precision."
+msgstr ""
+

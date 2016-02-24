@@ -154,5 +154,5 @@ msgstr ""
 "F6. Use-o para adquirir um sentimento por este tipo de procedimento.)"
 
 #: ../../source/start_digi.rst:30
-msgid "|image0_EN|"
-msgstr "|image0_PT|"
+msgid "|image1_EN|"
+msgstr "|image1_PT|"

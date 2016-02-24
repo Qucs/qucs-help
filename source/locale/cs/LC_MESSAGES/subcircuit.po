@@ -50,8 +50,8 @@ msgstr "Nejprve vytvoríme vnořený obvod samotný. Vytváří se stejně jako 
 
 # 15bc90bb315e4d6cbff1c24ca4d06f83
 #: ../../source/subcircuit.rst:25
-msgid "|image0_EN|"
-msgstr "|image0_CS|"
+msgid "|image1_EN|"
+msgstr "|image1_CS|"
 
 # c3b76213aa494091a690d40ff71facb8
 #: ../../source/subcircuit.rst:27

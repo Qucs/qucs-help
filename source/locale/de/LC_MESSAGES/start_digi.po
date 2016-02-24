@@ -62,8 +62,8 @@ msgstr "Die Digitalquellen S1 und S2 sind die Eingänge, der Knoten mit der Beze
 
 # fa3177ad45254943a90db5214a9af409
 #: ../../source/start_digi.rst:30
-msgid "|image0_EN|"
-msgstr "|image0_DE|"
+msgid "|image1_EN|"
+msgstr "|image1_DE|"
 
 # 26b317f5f9d74be5bebf4e1f208c0a6b
 #: ../../source/start_digi.rst:32
