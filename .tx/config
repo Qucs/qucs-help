@@ -62,3 +62,13 @@ file_filter = source/locale/<lang>/LC_MESSAGES/subcircuit.po
 source_file = build/locale/subcircuit.pot
 source_lang = en
 
+[qucs-help.intro]
+file_filter = source/locale/<lang>/LC_MESSAGES/intro.po
+source_file = build/locale/intro.pot
+source_lang = en
+
+[qucs-help.RFres]
+file_filter = source/locale/<lang>/LC_MESSAGES/RFres.po
+source_file = build/locale/RFres.pot
+source_lang = en
+
