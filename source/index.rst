@@ -12,7 +12,7 @@ User Manual and Reference Material
 
 | **Authors**          Mike Brinson (mbrin72043@yahoo.co.uk) and Vadim Kusnetsov (ra3xdh@gmail.com)
 |
-| **Copyright**   2015 
+| **Copyright**   2015, 2016 
 |
 | Permission is granted to copy, distribute and/or modify this document under the terms of the
 | GNU Free Documentation License, Version 1.1 or any later version published by the Free 
@@ -34,19 +34,22 @@ Contents:
    SubLib
    DModel
    ASim
-   VerilogA
    SPICEComp
-   RF
+   PostSim
    Custom
+   XSPICECL
+   XSPICEUM
    MMSim
+   VerilogA
+   RF
    Ref
   
 
 A "Technical Description" of the Qucs simulator and implemented device models are available online at http://qucs.sourceforge.net/tech/technical.html. 
 
-Example schematics can be found at http://qucs.sourceforge.net/download.html#example
+Spice4qucs example schematics can be found in the spice4qucs source code "examples" directory.
 
-
+Unofficial Qucs build with spice4qucs features enabled called release candidate 5 (rc5) can be downloaded from https://github.com/ra3xdh/qucs/releases/tag/0.0.19S-rc5.
 
 .. only:: html
 

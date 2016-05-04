@@ -1,9 +1,9 @@
------------------------------------------------------------------------
-Chapter 8. RF simulation with Qucs, ngspice and Xyce
------------------------------------------------------------------------
+------------------------------------------------------------------
+Chapter 13. RF simulation with Qucs, Ngspice, Xyce and SPICE OPUS
+------------------------------------------------------------------
 
-8.1 Introduction to capabilities
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+13.1 Introduction to capabilities
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spice4qucs could be used for analysis of RF circuits. It contains the following 
 features:
@@ -16,17 +16,17 @@ RFEDD passive components (RCL) and B-type sources could be represented using
 ``hertz`` variable in equations. See official Ngspice manual for additional 
 information.
 
-8.2 Two port networks
+13.2 Two port networks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-8.3 S parameter simulation
+13.3 S parameter simulation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-8.4 RF noise simulation
+13.4 RF noise simulation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-8.5 Harmonic Balance simulation with Qucs and Xyce
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+13.5 Harmonic Balance simulation with Qucs and Xyce
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spice4qucs subsystem supports Harmonic Balance (HB) simulation only for Xyce 
 Ngspice will not work. HB simulation component properties don't require any 
@@ -57,8 +57,8 @@ harmonics you obtain 8 harmonics, 8 image harmonics and DC component (Figure
 
 .. |diode_HB_res_EN| image:: _static/en/chapter8/diode_HB_res.png
 
-8.6 Multitone HB simulation with Xyce and Qucs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+13.6 Multitone HB simulation with Xyce and Qucs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Since 6.3 release Xyce supports multitone HB simulation. You can specify more 
 than one tone frequencies in ``HB simulation component`` properties. This will 
@@ -80,7 +80,7 @@ Figure 8.3 An example of 3-tone HB simulation setup
 
 
 
-8.6 Example RF circuit simulations
+13.6 Example RF circuit simulations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 

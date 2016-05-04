@@ -1,17 +1,17 @@
 |imageQ_EN|
 
-----------------------------------------------------
-Chapter 2. Basic Qucs, ngspice and Xyce simulation
-----------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Chapter 2. Basic Qucs, Ngspice, Xyce and SPICE OPUS  simulation
+-----------------------------------------------------------------------------------------------------------
 
 2.1 Introduction
 ~~~~~~~~~~~~~~~~
 
 This section describes a number of fundamental methods for launching circuit simulations from the Qucs GUI schematics using
-the ngspice and Xyce SPICE  compatible simulator engines. Spice4qucs includes built-in support for SPICE via a spice4qucs 
+the Ngspice and Xyce SPICE  compatible simulator engines. Spice4qucs includes built-in support for SPICE via a spice4qucs 
 subsystem specifically designed for this purpose. 
-The ngspice and Xyce simulators are not embedded in Qucs but operate as independent external simulators. 
-Before use with Qucs both ngspice and Xyce must be installed on the computer operating system that you are running Qucs. 
+The Ngspice and Xyce simulators are not embedded in Qucs but operate as independent external simulators. 
+Before use with Qucs both Ngspice and Xyce must be installed on the computer operating system that you are running Qucs. 
 
 2.2 Supported simulators
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -22,10 +22,10 @@ of the most widely used and stable current generation open source SPICE simulato
 It implements the original SPICE3f5 simulation capabilities, 
 including for example, DC, AC, and transient simulation, Fourier-analysis and sensitivity analysis,
 plus a significant number of extra simulation and device model extensions. 
-Distributed with ngspice is a data manipulation package called ngnutmeg.  This provides advanced  
-numerical analysis and visualisation routines for post processing ngspice simulation data. 
-Instructions for installing ngspice can be found on the ngspice website at http://ngspice.sourceforge.net/download.html,  
-The ngspice website also gives free access to all the distribution and development package code sources.
+Distributed with Ngspice is a data manipulation package called ngnutmeg.  This provides advanced  
+numerical analysis and visualisation routines for post processing Ngspice simulation data. 
+Instructions for installing Ngspice can be found on the Ngspice website at http://ngspice.sourceforge.net/download.html,  
+The Ngspice website also gives free access to all the distribution and development package code sources.
 
 Xyce is an open source, SPICE-compatible, high-performance analogue circuit  simulator, capable of solving extremely large circuit problems
 on large-scale parallel computing platforms.  
@@ -46,7 +46,7 @@ of Qucs here: ``examples\ngspice\RCL.sch`` .
 
 |RCL_sch_EN|
 
-Figure 2.1. A simple RCL test circuit for demonstrating a ngspice or Xyce 
+Figure 2.1. A simple RCL test circuit for demonstrating a Ngspice or Xyce 
 simulation controlled from Qucs.
 
 This schematic specifies two simulations:
@@ -66,7 +66,7 @@ After Qucs completes the simulation plot the output data listed below:
 Spice4qucs allows schematic component properties to be defined in the same way as Qucs. 
 Components values are converted automatically into SPICE compatible netlist format. 
 There is no need for manual adaptation by users. 
-However, please note that not all the predefined Qucs components are available for simulation with ngspice or Xyce.  
+However, please note that not all the predefined Qucs components are available for simulation with Ngspice or Xyce.  
 A number of tables provided in later sections of the text list which components can be used with which simulator.
 Following placement and wiring of components, plus the addition of one or more simulation icons, SPICE simulation is 
 launched using the Qucs menu sequence  *Simulation* -> *Simulate with Spice*.  
@@ -79,12 +79,12 @@ Figure 2.2. External simulator dialog: where (1) is the simulator selector
 button; (2) is the simulator settings button; 
 (3) is the Simulate button, and (4) is the Save netlist button.
 
-If the directories where the ngspice or Xyce simulators are installed are not included in the operating system shell ``$PATH`` statement the 
-location of their executable code must be entered, before any ngspice or Xyce simulations can take place, by Qucs users. 
+If the directories where the Ngspice or Xyce simulators are installed are not included in the operating system shell ``$PATH`` statement the 
+location of their executable code must be entered, before any Ngspice or Xyce simulations can take place, by Qucs users. 
 This step is necessary for Windows and the MacOS operating systems.
 In such cases Qucs users need to execute the *Simulator settings* dialog, Figure 
 2.3, by pressing the button labelled (2) in Figure 2.2. 
-This allows the address of the ngspice or Xyce executable code to be entered 
+This allows the address of the Ngspice or Xyce executable code to be entered 
 from the keyboard or by pressing the appropriate *Open File Select button*..
 In the case of the Xyce Parallel simulator the number of processors installed in your computer system, 
 must also be entered from the keyboard or selected using the up-down arrow controls.
@@ -113,18 +113,18 @@ You can also define directory where temporary simulator data and netlist will
 be stored (simulator working directory --- ``$HOME/.qucs/spice4qucs`` by 
 default).
 
-To simulate a Qucs schematic with the ngspice simulator, select simulator *ngspice* and press 
-the *Simulate* button shown in Figure 2.2. During simulation ngspice produces a 
+To simulate a Qucs schematic with the Ngspice simulator, select simulator *Ngspice* and press 
+the *Simulate* button shown in Figure 2.2. During simulation Ngspice produces a 
 simulation log.
 This is displayed in the *External simulator* dialog window, see Figure 2.4.  
 Log is saved at system Qucs log location ``$HOME/.qucs/log.txt`` and could be 
 then viewed by *Simulation->Show last messages* (or ``F5`` shortcut).
-If the ngspice simulation fails, any errors reported by ngspice during simulation are listed in simulation log window.
-Similarly, successful completion of a Qucs/ngspice simulation is reported.
+If the Ngspice simulation fails, any errors reported by Ngspice during simulation are listed in simulation log window.
+Similarly, successful completion of a Qucs/Ngspice simulation is reported.
 
 |ngsp_EN|
 
-Figure 2.4. A section of an ngspice execution log displayed in the *Simulate with an external simulator* dialog window.
+Figure 2.4. A section of an Ngspice execution log displayed in the *Simulate with an external simulator* dialog window.
 
 An novel feature introduced by spice4qucs is its ability to generate and save SPICE netlist files from the information
 contained in a Qucs schematic. To save the SPICE netlist file for the current 
@@ -137,7 +137,7 @@ Here is the generated netlist for the RCL test example:
    :linenos:
    
    
-After an ngspice or Xyce simulation has successfully completed close the *External simulation* dialog.
+After an Ngspice or Xyce simulation has successfully completed close the *External simulation* dialog.
 The simulation data generated is available for plotting by using the
 normal Qucs visualisation routines: either drag a diagram icon, or table icon, onto the current
 Qucs schematic  window or onto the associated Qucs display page.
@@ -154,14 +154,14 @@ Ngspice simulation data output is in raw-text SPICE 3f5 output format.
 Qucs converts the SPICE 3f5 style data into a Qucs dataset using routines provided in the ``spice4qucs`` Qucs subsystem. 
 Results from different types of simulation, for example SPICE AC and TRAN, are combined into a single Qucs dataset. 
 Qucs adds an appropriate suffix to each simulator dataset name in order to avoid name clashes and mixing up results from different types of simulation.
-In the RCL test example the Qucs schematic is named ``RCL.sch``. Qucs qucsator simulation, ngspice and Xyce simulations result in three different datasets:
+In the RCL test example the Qucs schematic is named ``RCL.sch``. Qucs qucsator simulation, Ngspice and Xyce simulations result in three different datasets:
 
 * ``RCL.dat`` --- for qucsator;
-* ``RCL.dat.ngspice`` --- for ngspice;
+* ``RCL.dat.ngspice`` --- for Ngspice;
 * ``RCL.dat.xyce`` --- for Xyce;
 
 All three datasets have an extension ``dat`` to signify that the data set contains Qucs data for post  simulation visualisation.
-The ngspice and Xyce datasets include second extension to the file name which 
+The Ngspice and Xyce datasets include second extension to the file name which 
 identifies the name of the external Qucs simulator. 
 
 Dataset selector (1) (Figure 2.5) shows only base names of the dataset (for 
@@ -196,7 +196,7 @@ variable
 items may be selected for plotting on the same 2D or 3D graph. 
 Finally pressing the *Apply* button shown at the bottom of Figure 2.5. causes 
 the selected variable items to be plotted. 
-The plotted simulation results for the external ngspice AC simulation of the RCL 
+The plotted simulation results for the external Ngspice AC simulation of the RCL 
 test circuit are shown in Figure 2.6.
 
 |RCL_ac_EN|
@@ -262,7 +262,7 @@ example.
 2.4 Variable names
 ~~~~~~~~~~~~~~~~~~~~~
 
-As part of the spice4qucs extensions ngspice and Xyce simulation variable names are converted from Qucs 
+As part of the spice4qucs extensions Ngspice and Xyce simulation variable names are converted from Qucs 
 notation to SPICE notation and vica versa. Table 2.1 shows the correspondence between the two notations.
 
 Table 2.1 Qucs and SPICE Variable equivalence
@@ -339,7 +339,7 @@ PLease note the following differences between SPICE and Qucs DC-sweep simulation
 
 Small signal AC simulation is fully supported by the *spice4qucs* subsystem. It doesn't require 
 any special adaptation. Just simple place the ``AC simulation`` component icon on a 
-schematic and execute an ngspice or Xyce simulation. Variable name conversions are 
+schematic and execute an Ngspice or Xyce simulation. Variable name conversions are 
 listed in Table 2.1. The Qucs *spice4qucs* dataset builder adds the ``ac.`` prefix to all variables generated by 
 an AC simulation. 
 
@@ -350,19 +350,19 @@ Ngspice and Xyce small signal frequency domain AC simulations use linear, decade
 
 Transient simulation is also fully supported by the *spice4qucs* subsystem. Just 
 place the ``Transient simulation`` component icon on a schematic and simulate it. 
-There is a difference between the way the qucsator, ngspice and Xyce simulators implement transient simulation time steps.
+There is a difference between the way the qucsator, Ngspice and Xyce simulators implement transient simulation time steps.
 
 Qucsator always uses fixed time steps. Ngspice and Xyce use adaptive time steps. 
 The number of simulation points output during a simulation will only be approximately equal to the number of simulation points 
 specified in a ``Transient simulation`` properties list.  For example, in the 
 test circuit illustrated in Figure 2.11 there are 200 time points specified on the schematic. However, due to 
-the fact that the SPICE simulators use adaptive time steps, ngspice employs 213 simulation points, and Xyce 
+the fact that the SPICE simulators use adaptive time steps, Ngspice employs 213 simulation points, and Xyce 
 employs 799 time points. This difference should be taken into account during simulation data post processing and when comparing simulation results. 
 
 2.7 Other forms of simulation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In contrast to SPICE 3f5 the parameter sweep feature found in Qucs is has been implemented with the ngspice and Xyce simulators. 
+In contrast to SPICE 3f5 the parameter sweep feature found in Qucs is has been implemented with the Ngspice and Xyce simulators. 
 All parameter sweep controlled simulations are setup and controlled by *spice4qucs*. 
 The details of how the *spice4qucs* Parameter sweep feature works is the topic of Section 5.2.
 

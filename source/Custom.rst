@@ -1,23 +1,23 @@
 ------------------------------------------------
-Chapter 9. Ngspice custom simulation technology
+Chapter 8. Ngspice custom simulation technology
 ------------------------------------------------
 
-9.1 Introduction
+8.1 Introduction
 ~~~~~~~~~~~~~~~~~~~
 
-9.2 Setting up single and multiple circuit simulations
+8.2 Setting up single and multiple circuit simulations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-9.3 Extracting circuit and device properties from ngspice simulations
+8.3 Extracting circuit and device properties from ngspice simulations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-9.4 Spectrum analysis
+8.4 Spectrum analysis
 ~~~~~~~~~~~~~~~~~~~~~~
 
-9.5 Statistical circuit simulation including Monte-Carlo analysis
+8.5 Statistical circuit simulation including Monte-Carlo analysis
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-9.6 Building ngnutmeg scripts for circuit simulation control and data analysis
+8.6 Building ngnutmeg scripts for circuit simulation control and data analysis
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
