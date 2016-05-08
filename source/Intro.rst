@@ -77,7 +77,7 @@ SPICE 3f5 and later simulators have instead other features like, for example, th
 
 |image4_EN|
 
-Figure 1.5. Qucs EDD behavioural model for the tunnel diode first introduced in Figure 3. 
+Figure 1.5. Qucs EDD behavioural model for the tunnel diode first introduced in Figure 1.3. 
  
 The Qucs EDD component has one feature which makes it particularly important for developing compact device simulation models, namely that its structure and modelling capabilities are similar to those available with the Verilog-A hardware description language.  Hence, once an MAPP/Qucs EDD model is operating satisfactorily it can be transcribed into a Verilog-A compact model by inspection or by computer synthesis.  Such a Verilog-A model and test circuit is shown in Figure 1.6.
 
@@ -111,11 +111,11 @@ Figure 1.8. XSPICE Code Model tunnel diode model, test circuit and Ngspice simul
    `back to the top <#top>`__
 
 .. |imageQ_EN| image::  _static/en/Qucs.png
-.. |image0_EN| image::  _static/en/Spice4qucsFig1.svg
+.. |image0_EN| image::  _static/en/Spice4qucsFig1.png
 .. |image1_EN| image::  _static/en/Spice4qucsFig2.png
-.. |image2_EN| image::  _static/en/Spice4qucsFig3.svg
-.. |image3_EN| image::  _static/en/Spice4qucsFig4.svg
-.. |image4_EN| image::  _static/en/Spice4qucsFig5.svg
-.. |image5_EN| image::  _static/en/Spice4qucsFig6.svg
-.. |image6_EN| image::  _static/en/Spice4qucsFig7.svg
+.. |image2_EN| image::  _static/en/Spice4qucsFig3.png
+.. |image3_EN| image::  _static/en/Spice4qucsFig4.png
+.. |image4_EN| image::  _static/en/Spice4qucsFig5.png
+.. |image5_EN| image::  _static/en/Spice4qucsFig6.png
+.. |image6_EN| image::  _static/en/Spice4qucsFig7.png
 .. |image7_EN| image::  _static/en/Spice4qucsFig9.png
