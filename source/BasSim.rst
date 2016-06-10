@@ -1,4 +1,3 @@
-|imageQ_EN|
 
 ----------------------------------------------------------------
 Chapter 2. Basic Qucs, Ngspice, Xyce and SPICE OPUS simulation
@@ -7,11 +6,11 @@ Chapter 2. Basic Qucs, Ngspice, Xyce and SPICE OPUS simulation
 2.1 Introduction
 ~~~~~~~~~~~~~~~~
 
-This section describes a number of fundamental methods for launching circuit simulations from the Qucs GUI schematics using
-the Ngspice, Xyce and SPICE OPUS compatible simulator engines. Spice4qucs includes built-in support for SPICE via a spice4qucs 
+This section describes a number of fundamental methods for launching circuit simulations from the Qucs GUI  using
+the Ngspice, Xyce and SPICE OPUS compatible simulator engines. Spice4qucs includes built-in support for SPICE via a  
 subsystem specifically designed for this purpose. 
-The Ngspice and Xyce simulators are not embedded in Qucs but operate as independent external simulators. 
-Before use with Qucs Ngspice, Xyce and SPICE OPUS must be installed on the computer operating system that you are running Qucs. 
+The Ngspice, Xyce and SPICE OPUS simulators are not embedded in Qucs but operate as independent external simulators. 
+Before use with they must be installed on the computer operating system that you are running Qucs. 
 
 2.2 Supported simulators
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -27,18 +26,18 @@ numerical analysis and visualisation routines for post processing Ngspice simula
 Instructions for installing Ngspice can be found on the Ngspice website at http://ngspice.sourceforge.net/download.html,  
 The Ngspice website also gives free access to all the distribution and development package code sources.
 
-Xyce is an open source, SPICE-compatible, high-performance analogue circuit  simulator, capable of solving extremely large circuit problems
-on large-scale parallel computing platforms.  
+Xyce is an open source, SPICE-compatible, high-performance analogue circuit simulator, capable of solving extremely large circuit problems
+when implemented on large-scale parallel computing platforms.  
 It also supports serial execution on all common desktop platforms, and small-scale parallel execution on Unix-like systems. 
-Xyce for Linux, Microsoft Windows , and MacOS can be downloaded from the official Xyce website at https://xyce.sandia.gov/Xyce.
+Xyce for Linux, Microsoft Windows, and MacOS can be downloaded from the official Xyce website at https://xyce.sandia.gov/Xyce.
 The Xyce parallel circuit simulator running on Linux requires installation of the openMPI libraries.  
-Spice4qucs supports both Xyce-Serial and Xyce-Parallel (not currently available for the Microsoft Windows  operating system). 
+Spice4qucs supports both Xyce-Serial and Xyce-Parallel (not currently available for the Microsoft Windows operating system). 
 
 SPICE OPUS is an improved version of SPICE based on the original SPICE 3f5 code with extensions for circuit and device performance
 optimization and transient simulation shooting methods for large signal steady state AC analysis.  SPICE OPUS can be downloaded from
 its official website at http://www.spiceopus.si/.
 
-Although Ngspice, Xyce and SPICE OPUS are all compatible SPICE simulators they include extensions to the original SPICE 3f5 netlist syntax
+Although Ngspice, Xyce and SPICE OPUS are all compatible SPICE simulators they also include extensions to the original SPICE 3f5 netlist syntax
 which are often incompatible and may not simulate without causing errors.  The Qucs Team is aware of this limitation and is attempting
 to correct such problems as quickly as possible.  Please note this may take some time.  However, if you do identify a compatibility bug please 
 inform us by sending in a bug report to the Qucs web site (with an example test schematic if possible) describing the problem you have identified.  
@@ -60,18 +59,18 @@ This schematic specifies two simulations:
 * AC simulation from 4 MHz to 12 MHz. 
 * Transient simulation from 0 to 5 us;
 
-Make sure the schematic in Figure 2.1 is drawn correctly then simulate it with qucsator using the sequence *Simulation->Simulate*.
-After Qucs completes the simulation plot the output data listed below:
+Make sure the schematic in Figure 2.1 is drawn correctly then simulate it with qucsator using the sequence *Simulation->Simulate*, or by
+pressing key F2. After Qucs finishes the the AC and transient simulations, plot the output data listed below:
 
-* Voltage across R1 resistor in the frequency domain (``vr`` node );
-* Input and output voltage waveforms ( ``vin`` and ``vr`` nodes ) - your plots should be similar to those shown in Figure 2.1;
-* Current in the frequency domain (``Pr1`` current probe );
-* Current waveform (``Pr1``);
+* The voltage across R1 resistor in the frequency domain (given by the voltage at the ``Vr`` node ),
+* The input and output voltage waveforms (the voltages given by the ``Vin`` and ``Vr`` nodes ) - your plots should be similar to those shown in Figure 2.1,
+* The current in the frequency domain (``Pr1`` current probe ),
+* The transient current waveform sensed by the current probe ``Pr1``.
 
 Spice4qucs allows schematic component properties to be defined in the same way as Qucs. 
 Component values and other icon properties are converted automatically into SPICE compatible netlist format. 
 There is no need for manual adaptation by users. 
-However, please note that not all the predefined Qucs components are available for simulation with Ngspice, Xyce or SPICE OPUS.  
+However, please note that not all the predefined Qucs components are available for simulation with Ngspice, Xyce or SPICE OPUS.   
 A number of tables provided in later sections of the text list which components can be used with which simulator.
 Following placement and wiring of components, plus the addition of one or more simulation icons, SPICE simulation is 
 launched using the Qucs menu sequence  *Simulation* -> *Simulate* or by pressing key F2.  
@@ -133,7 +132,7 @@ Here is the generated netlist for the RCL test example:
    :linenos:
    
 The simulation sequence introduced in the previous sections of the spice4qucs-help text also applies to the Xyce and SPICE OPUS simulators.
-However, the information displayed in the simulation Log is likely to be different for different simulators and indeed operating systems.
+However, the information displayed in the simulation log is likely to be different for different simulators and indeed operating systems.
   
 After an Ngspice, Xyce or SPICE OPUS simulation has successfully completed close the *External simulation* dialogue by pressing the "Exit" button.
 The simulation data generated by a spice4qucs simulation is available for plotting using the normal Qucs visualisation routines: either drag a diagram icon, or table icon, onto the current
@@ -146,12 +145,12 @@ On selecting the dataset for the current simulation the simulation output quanti
 Figure 2.5. *Diagram properties* dialogue, listing the selected simulator and the available simulation data names.
 
 Ngspice, Xyce and SPICE OPUS simulation data output is in raw-binary SPICE 3f5 output format. 
-Qucs converts the SPICE 3f5 style data into a Qucs dataset using routines provided in the ``spice4qucs`` Qucs subsystem. 
+Qucs converts the SPICE 3f5 style data into a Qucs dataset using routines provided in the spice4qucs Qucs subsystem. 
 Results from different types of simulation, for example SPICE AC and TRAN, are combined into a single Qucs dataset. 
 Qucs adds an appropriate suffix to each simulator dataset name in order to avoid name clashes and mixing up results from different types of simulation.
 In the RCL test example the Qucs schematic is named ``RCL.sch``. Qucs qucsator simulation, Ngspice, Xyce and SPICE OPUS simulations result in three different datasets:
 
-* ``RCL.dat``         --- for qucsator;
+* ``RCL.dat``         --- for Qucsator;
 * ``RCL.dat.ngspice`` --- for Ngspice;
 * ``RCL.dat.xyce``    --- for Xyce;
 * ``RCL.dat.spopus``  --- for SPICE OPUS;
@@ -288,10 +287,12 @@ and currents in the *Simulate with an external Simulator" dialogue window. A DC 
 a transient simulation icon, see Figure 2.9.
 
 |DC_list|
+
 Figure 2.8 A simple linear resistive electrical network driven by single DC voltage and current sources: DC node voltages (V) and voltage
 probe values (V) are illustrated in blue and current probe values (A) in green.
 
 |tran_DC_list|
+
 Figure 2.9 A screen dump showing transient simulation initial DC simulation voltage and current values in (V) and (A) respectively
 for the resistive circuit given in Figure 2.8: NOTE that the voltage and current variable names are output in SPICE style syntax.
  
@@ -365,11 +366,11 @@ by *spice4qucs* using the special *Custom simulation* technique.
 
 Qucs is released with an extensive selection of passive and active component models.  This selection includes both fundamental circuit components, like R, C and L and
 collections of specific components for a given circuit design sector, like the RF microstrip component models.  All the original Qucs component and device models were written
-to work with Qucs and there is **NO Guarantee** that they will be work with Ngspice, Xyce and SPICE OPUS. For circuit simulation packages which take advantage of simulation multi-engines
-this can be a serious problem, particularly for the less experienced user of circuit simulation.  To help reduce problems to a minimum spice4qucs uses a policy of "blacklisting" those
+to work with Qucs and there is **NO Guarantee** that they will be work with Ngspice, Xyce or SPICE OPUS. For circuit simulation packages which take advantage of simulation multi-engines
+this can be a serious problem, particularly for the less experienced user.  To help reduce problems to a minimum spice4qucs uses a policy of "blacklisting" those
 models which do not work with each of the four circuit simulation engines. This policy works in the following way:- when a specific simulator is chosen by a Qucs spice4qucs user on running
-the simulator **ONLY** those models which work with the chosen simulator become available for drawing circuit schematics and simulation.  The same approach applies to the components held in
-the spice4qucs system libraries.
+the simulator, **ONLY** those models which work with the chosen simulator are available for drawing circuit schematics and simulation.  The same approach applies to the components held in
+the spice4qucs libraries.
 
    `back to the top <#top>`__
 
