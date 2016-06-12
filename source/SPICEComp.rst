@@ -4,7 +4,7 @@
 Chapter 6. Qucs and SPICE simulation models that work with ngspice, Xyce and SPICE OPUS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-7.1 Introduction
+6.1 Introduction
 ~~~~~~~~~~~~~~~~~~
 For a circuit simulator to be a useful circuit design aid it must be able to simulate
 a range of analogue and digital circuits which include passive components, semiconductor devices, 
@@ -51,7 +51,7 @@ made to interface Qucs Verilog-A models with ngspice or Xyce. This task is sched
 
 Figure 7.1. Qucs-0.0.18 models that work with ngspice and (sometimes) Xyce.
 
-7.2 Spice4qucs component specifications and technical reference
+6.2 Spice4qucs component specifications and technical reference
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ^^^^^^^^^^^^^^^^^^
@@ -203,7 +203,7 @@ B source example 2: Simulation of the properties of a high power half-wave recti
 |image28_EN|
 
 
-7.3 Linear and non-linear transformer models
+6.3 Linear and non-linear transformer models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Qucs release 0.0.18, and earlier versions of the software, includes a number of transformer and coupled inductance models. These
 models are linear with none of the important non-linear effects found in real transformers, including for example, winding resistance,
@@ -264,7 +264,7 @@ libraries called "Transformers" and "Cores" located in the spice4qucs system lib
 |image33_EN|
 |image34_EN|
 
-7.4 More complex circuit simulations that demonstrate the use of spice4qucs models
+6.4 More complex circuit simulations that demonstrate the use of spice4qucs models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 

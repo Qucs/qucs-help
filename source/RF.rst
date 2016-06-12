@@ -78,9 +78,12 @@ Figure 8.3 An example of 3-tone HB simulation setup
   
 .. |diode_HB_3t_EN| image:: _static/en/chapter8/diode_HB_3tone.png
 
+13.7 SPICE OPUS large signal steady state transient shooting method
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-13.6 Example RF circuit simulations
+
+13.8 Example RF circuit simulations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
