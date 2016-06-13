@@ -1,13 +1,12 @@
-
 ----------------------------------------------------------------
-Chapter 2. Basic Qucs, Ngspice, Xyce and SPICE OPUS simulation
+Chapter 2. Basic Ngspice, Xyce and SPICE OPUS simulation
 ----------------------------------------------------------------
 
 2.1 Introduction
 ~~~~~~~~~~~~~~~~
 
 This section describes a number of fundamental methods for launching circuit simulations from the Qucs GUI  using
-the Ngspice, Xyce and SPICE OPUS compatible simulator engines. Spice4qucs includes built-in support for SPICE via a  
+the Ngspice, Xyce and SPICE OPUS compatible simulator engines. ``Spice4qucs`` includes built-in support for SPICE via a  
 subsystem specifically designed for this purpose. 
 The Ngspice, Xyce and SPICE OPUS simulators are not embedded in Qucs but operate as independent external simulators. 
 Before use with they must be installed on the computer operating system that you are running Qucs. 
@@ -31,7 +30,7 @@ when implemented on large-scale parallel computing platforms.
 It also supports serial execution on all common desktop platforms, and small-scale parallel execution on Unix-like systems. 
 Xyce for Linux, Microsoft Windows, and MacOS can be downloaded from the official Xyce website at https://xyce.sandia.gov/Xyce.
 The Xyce parallel circuit simulator running on Linux requires installation of the openMPI libraries.  
-Spice4qucs supports both Xyce-Serial and Xyce-Parallel (not currently available for the Microsoft Windows operating system). 
+``Spice4qucs`` supports both Xyce-Serial and Xyce-Parallel (not currently available for the Microsoft Windows operating system). 
 
 SPICE OPUS is an improved version of SPICE based on the original SPICE 3f5 code with extensions for circuit and device performance
 optimization and transient simulation shooting methods for large signal steady state AC analysis.  SPICE OPUS can be downloaded from
@@ -46,7 +45,7 @@ inform us by sending in a bug report to the Qucs web site (with an example test 
 2.3 General simulation methods
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The starting point for understanding how the spice4qucs extensions are built into the Qucs GUI is to study the basic operations 
+The starting point for understanding how the ``spice4qucs`` extensions are built into the Qucs GUI is to study the basic operations 
 needed to simulate Qucs circuit schematics with external simulators. 
 For this purpose consider the simple RCL circuit shown in Figure 2.1.
 
@@ -67,7 +66,7 @@ pressing key F2. After Qucs finishes the the AC and transient simulations, plot 
 * The current in the frequency domain (``Pr1`` current probe ),
 * The transient current waveform sensed by the current probe ``Pr1``.
 
-Spice4qucs allows schematic component properties to be defined in the same way as Qucs. 
+``Spice4qucs`` allows schematic component properties to be defined in the same way as Qucs. 
 Component values and other icon properties are converted automatically into SPICE compatible netlist format. 
 There is no need for manual adaptation by users. 
 However, please note that not all the predefined Qucs components are available for simulation with Ngspice, Xyce or SPICE OPUS.   
@@ -82,9 +81,9 @@ Figure 2.2. External simulator dialogue: where button *Simulate* launches a circ
 *Save netlist* generates, and stores, the netlist of the circuit being simulated and button *Exit* closes the external simulator dialogue.
 
 If the Ngspice, Xyce or SPICE OPUS installation directories are not included in the operating system shell ``$PATH`` statement the 
-location of their executable code must be registered with spice4qucs before Ngspice Xyce or SPICE OPUS simulations will work. 
-This step is necessary for all the operating systems used to run spice4qucs.
-To register external circuit simulator installation directories spice4qucs users need to launch the *Select default simulator*, from the *Simulate* dialogue.
+location of their executable code must be registered with ``spice4qucs`` before Ngspice Xyce or SPICE OPUS simulations will work. 
+This step is necessary for all the operating systems used to run ``spice4qucs``.
+To register external circuit simulator installation directories ``spice4qucs`` users need to launch the *Select default simulator*, from the *Simulate* dialogue.
 The resulting *Setup simulators executable simulator location* dialogue is illustrated in Figure 2.3. Using this dialogue enter the absolute address of the Ngspice, Xyce or SPICE OPUS executable program code 
 from the keyboard or by pressing the appropriate *Open File Select button*..
 In the case of the Xyce Parallel simulator the number of processors installed in your computer system, 
@@ -100,7 +99,7 @@ format:
 
 ``<Path_to_xyce_executable>/xmpirun -np %p``
 
-Where spice4qucs substitutes the number of processors for the ``%p`` wildcard entry.
+Where ``spice4qucs`` substitutes the number of processors for the ``%p`` wildcard entry.
 
 Also please note that "user builds" of Xyce-Parallel have no ``xmpirun`` script, implying that the full script must be 
 completed by users during the external simulators set up process, for example if ``opeMPI`` is installed in directory 
@@ -122,7 +121,7 @@ Similarly, a successful completion of a Qucs/Ngspice simulation is reported.
 
 Figure 2.4. A section of an Ngspice execution Log displayed in the *Simulate with an external simulator* dialogue window.
 
-An novel feature introduced by spice4qucs is its ability to generate and save SPICE netlist files from the information
+An novel feature introduced by ``spice4qucs`` is its ability to generate and save SPICE netlist files from the information
 contained in a Qucs schematic. To save the SPICE netlist file for the current simulation press the *Save netlist* button shown in Figure 2.2.
 This process causes a SPICE netlist to be saved as file "netlist.cir" in the ~/.qucs/spice4qucs directory.
 Here is the generated netlist for the RCL test example:
@@ -135,7 +134,7 @@ The simulation sequence introduced in the previous sections of the spice4qucs-he
 However, the information displayed in the simulation log is likely to be different for different simulators and indeed operating systems.
   
 After an Ngspice, Xyce or SPICE OPUS simulation has successfully completed close the *External simulation* dialogue by pressing the "Exit" button.
-The simulation data generated by a spice4qucs simulation is available for plotting using the normal Qucs visualisation routines: either drag a diagram icon, or table icon, onto the current
+The simulation data generated by a ``spice4qucs`` simulation is available for plotting using the normal Qucs visualisation routines: either drag a diagram icon, or table icon, onto the current
 Qucs schematic window or onto the associated Qucs display page.
 After a diagram or table is placed a *Diagram properties* dialog appears. 
 On selecting the dataset for the current simulation the simulation output quantities become available for plotting or tabulating in a similar fashion to standard Qucs.
@@ -145,7 +144,7 @@ On selecting the dataset for the current simulation the simulation output quanti
 Figure 2.5. *Diagram properties* dialogue, listing the selected simulator and the available simulation data names.
 
 Ngspice, Xyce and SPICE OPUS simulation data output is in raw-binary SPICE 3f5 output format. 
-Qucs converts the SPICE 3f5 style data into a Qucs dataset using routines provided in the spice4qucs Qucs subsystem. 
+Qucs converts the SPICE 3f5 style data into a Qucs dataset using routines provided in the ``spice4qucs`` Qucs subsystem. 
 Results from different types of simulation, for example SPICE AC and TRAN, are combined into a single Qucs dataset. 
 Qucs adds an appropriate suffix to each simulator dataset name in order to avoid name clashes and mixing up results from different types of simulation.
 In the RCL test example the Qucs schematic is named ``RCL.sch``. Qucs qucsator simulation, Ngspice, Xyce and SPICE OPUS simulations result in three different datasets:
@@ -163,13 +162,13 @@ Users must also select the appropriate simulator from the *simulator name select
 This drop-down only gives existing simulator datasets which prevents users from selecting non-existent datasets by mistake.
 
 Following the selection of a specific data set users must select the variables that are to be plotted. 
-Spice4qucs preserves SPICE notation for **node voltage** names and **current probe** names. 
-SPICE names are assumed to be case insensitive by spice4qucs, for example
+``Spice4qucs`` preserves SPICE notation for **node voltage** names and **current probe** names. 
+SPICE names are assumed to be case insensitive by ``spice4qucs``, for example
 
 * ``v(out)`` --- Voltage at node ``out``;
 * ``i(Pr1)`` --- Current recorded by current probe ``Pr1``;
 
-The Qucs spice4qucs extension also adds a simulation-dependent prefix to each variable name in order to differentiate output variables from different SPICE simulations, 
+The Qucs ``spice4qucs`` extension also adds a simulation-dependent prefix to each variable name in order to differentiate output variables from different SPICE simulations, 
 for example ``ac.`` for AC simulation, ``tran.`` for transient simulation, and  ``dc.`` for DC-sweep. 
 
 There are also individual prefixes for each simulator:
@@ -222,10 +221,10 @@ techniques for post processing, plotting and undertaking a range of different vi
 2.4 Variable names
 ~~~~~~~~~~~~~~~~~~~~~
 
-As part of the spice4qucs extensions Ngspice and Xyce simulation variable names are converted from Qucs 
+As part of the ``spice4qucs`` extensions Ngspice and Xyce simulation variable names are converted from Qucs 
 notation to SPICE notation and vica versa. Table 2.1 shows the correspondence between the two notations.
 
-Table 2.1 Qucs and SPICE Variable equivalence
+Table 2.1 Qucs and SPICE  variable equivalences
 
 +--------------------+------------------+------------------+
 |  Variable type     |    Qucs notation |  Spice notation  |
@@ -248,7 +247,7 @@ Table 2.1 Qucs and SPICE Variable equivalence
 Also variable prefixes used to designate data from different simulators (Table 
 2.2)
 
-Table 2.2 Qucs and SPICE Variable name prefixes
+Table 2.2 Qucs and SPICE variable name prefixes
 
 +----------------------------------+-----------------------------------------+
 | Prefix                           |   Explanation                           |
@@ -275,14 +274,14 @@ Table 2.2 Qucs and SPICE Variable name prefixes
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Conventional SPICE 3f5 simulation commands OP and DC are not implemented by Qucs or indeed by spice4qucs.
+Conventional SPICE 3f5 simulation commands OP and DC are not implemented by Qucs or indeed by ``spice4qucs``.
 Instead more convenient versions of these simulation commands are implemented.  These alternative forms
 of non-linear steady state DC circuit analysis are linked directly to circuit schematic capture, making them
-easy to use.  Moreover, they provide spice4qucs users with a power full diagnostic and analysis tools for investigating
+easy to use.  Moreover, they provide ``spice4qucs`` users with a power full diagnostic and analysis tools for investigating
 basic circuit operation. The circuit shown in Figure 2.8 represents a simple resistive network with single voltage and current
 1 V and 1 A sources respectively. Pressing key "F8" instigates a DC analysis and adds the DC node voltages, probe voltages and probe
 currents to the current schematic. This feature provides a practical method for scanning a circuit to see if the DC bias values
-are of the correct order of magnitude. Schematics which include the spice4qucs DC icon do not however, list a similar set of voltage
+are of the correct order of magnitude. Schematics which include the ``spice4qucs`` DC icon do not however, list a similar set of voltage
 and currents in the *Simulate with an external Simulator" dialogue window. A DC voltage and current list is output when a schematic includes
 a transient simulation icon, see Figure 2.9.
 
@@ -299,9 +298,9 @@ for the resistive circuit given in Figure 2.8: NOTE that the voltage and current
 Qucs does not define a separate analysis type which is equivalent to the original SPICE 2g6 "DC sweep" simulation or the extended
 SPICE 3f5 version which allows current and voltage source scans plus resistor value scans.  In contrast to SPICE the  
 Qucs equivalent "DC sweep" is just a specific case of the more general Qucs ``Parameter sweep`` capability.
-To emulate the original SPICE `DC sweep`` spice4qucs use a combination of  Qucs DC simulation plus the
+To emulate the original SPICE `DC sweep`` ``spice4qucs`` use a combination of  Qucs DC simulation plus the
 ``Parameter sweep`` of an independent DC voltage or DC current source or of a resistor numerical value;
-when the spice4qucs Spice netlist builder finds these two linked types of simulation it synthesises them into a ``DC`` SPICE netlist entry. 
+when the ``spice4qucs`` Spice netlist builder finds these two linked types of simulation it synthesises them into a ``DC`` SPICE netlist entry. 
 This procedure is demonstrated in Figure 2.10. where  the test circuit consists of a diode DC bias network connected as a test bench for 
 simulating the non-linear DC current-voltage characteristic of a 1N4148 diode. This example can be found in the Qucs examples directory tree 
 listed as ``examples\ngspice\diode.sch`` .
@@ -318,13 +317,15 @@ PLease note the following differences between SPICE and Qucs DC-sweep simulation
 
 ..  |DC_list|  image::  _static/en/chapter2/DC_list.png
 ..  |tran_DC_list|  image::  _static/en/chapter2/tran_DC_list.png
-..  |ngspice_DC|  image::  _static/en/chapter2/Diode_DC.svg
+..  |ngspice_DC|  image::  _static/en/chapter2/Diode_DC.png
+..  |DC_EX1_EN| image:: _static/en/chapter2/DC_EX1.png
+..  |DC_EX2_EN| image:: _static/en/chapter2/DC_EX2.png
 
 2.6 AC simulation
 ~~~~~~~~~~~~~~~~~~~
 
-Small signal AC simulation is fully supported by the *spice4qucs* subsystem. It doesn't require any special adaptation. Just simple place the ``AC simulation`` component icon on a 
-schematic and execute an Ngspice, Xyce or SPICE OPUS simulation. Variable name conversions are listed in Table 2.1. The Qucs *spice4qucs* dataset builder adds the ``ac.`` prefix to all variables generated by 
+Small signal AC simulation is fully supported by the ``spice4qucs`` subsystem. It doesn't require any special adaptation. Just simple place the ``AC simulation`` component icon on a 
+schematic and execute an Ngspice, Xyce or SPICE OPUS simulation. Variable name conversions are listed in Table 2.1. The Qucs ``spice4qucs`` dataset builder adds the ``ac.`` prefix to all variables generated by 
 an AC simulation. 
 
 Ngspice, Xyce and SPICE OPUS small signal frequency domain AC simulations use linear, decade or octave frequency scales. Adaptive frequency steps are not implemented. 
@@ -332,7 +333,7 @@ Ngspice, Xyce and SPICE OPUS small signal frequency domain AC simulations use li
 2.7 TRANsient simulation
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Transient simulation is also fully supported by the *spice4qucs* subsystem. Just place the ``Transient simulation`` component icon on a schematic and simulate it. 
+Transient simulation is also fully supported by the ``spice4qucs`` subsystem. Just place the ``Transient simulation`` component icon on a schematic and simulate it. 
 There is a difference between the way the qucsator, Ngspice, Xyce and SPICE OPUS simulators implement transient simulation time steps.
 
 Qucsator always uses a fixed time step. Ngspice, Xyce and SPICE OPUS use adaptive time steps. 
@@ -344,11 +345,11 @@ and Xyce employs 799 time points. This difference should be taken into account d
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In contrast to SPICE 3f5, the parameter sweep facility found in Qucs has also been implemented with Ngspice, Xyce and SPICE OPUS where the parameter sweep setup and control
-is organized by spice4qucs. The details of how the spice4qucs Parameter sweep feature works is the topic of section 5.8.
+is organized by ``spice4qucs``.  The details of how this Parameter sweep feature works is the topic of section 5.8.
 
 As well as the fundamental DC, AC and transient simulation types, Ngspice, Xyce and SPICE OPUS also support the additional forms of simulation listed in Table 2.3.
 
-Table 2.3  Spice4qucs simulation types additional to DC, AC and TRAN
+Table 2.3  ``Spice4qucs`` simulation types additional to DC, AC and TRAN
   
 +-------------------------+----------+--------+--------------+---------------+
 | Simulation   Type       |  Ngspice |  Xyce  |  SPICE OPUS  |  See section  |
@@ -372,21 +373,56 @@ Table 2.3  Spice4qucs simulation types additional to DC, AC and TRAN
 
 
 Fourier, distortion pole-zero circuit simulation require special GUI icons. These can be found in the Qucs *Spice simulations* group. 
-In contrast sensitivity, the SPICE OPUS tran shooting method is accessed by spice4qucs via the Custom simulation technique, see section 8.0. 
+In contrast sensitivity, the SPICE OPUS tran shooting method is accessed by ``spice4qucs`` via the Custom simulation technique, see section 8.0. 
 
-2.9 Spice4qucs circuit simulation components
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.9 ``Spice4qucs`` circuit simulation components
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Qucs is released with a good selection of passive and active component models.  This selection includes both fundamental circuit components, like R, C and L and
 collections of specific components for a given circuit design sector, like the RF microstrip component models.  All the original Qucs component and device models were written
 to work with Qucs and there is **NO Guarantee** that they will be work with Ngspice, Xyce or SPICE OPUS. For circuit simulation packages which take advantage of simulation multi-engines
-this can be a serious problem, particularly for the less experienced user.  To help reduce problems to a minimum, spice4qucs uses a policy of "blacklisting" those
-models which do not work with the chosen circuit simulation engine. This policy works in the following way:- when a specific simulator is chosen by a Qucs spice4qucs user, on running
+this can be a serious problem, particularly for the less experienced user.  To help reduce problems to a minimum, ``spice4qucs`` uses a policy of "blacklisting" those
+models which do not work with the chosen circuit simulation engine. This policy works in the following way:- when a specific simulator is chosen by a Qucs ``spice4qucs`` user, on running
 the chosen simulator, **ONLY** those models which work with the selected simulator become available for drawing circuit schematics and simulation.  
-The same approach applies to the components held in the spice4qucs libraries.
+The same approach applies to the components held in the ``spice4qucs`` libraries.
 
 2.10 More basic simulation examples
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+2.10.1 DC Example 1: Calculating circuit input resistance and power dissipation in a resistor.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+|DC_EX1_EN|
+
+Figure 2.11 DC resistive test network.
+
+*	Draw the circuit diagram shown in Figure 2.11,
+*	Select simulator Ngspice,
+*	Press key F8
+*	Determine DC Rin = V(Pr3)/I(Pr1) = 10/1.66667 = 6 Ohm,
+*	Determine the power dissipated in R4 = V(Pr4)*I(Pr2) = 1.66667*0.277778 = 0.463 W.
+
+2.10.2 DC Example 2: Variation of power dissipation with varying DC input voltage.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+|DC_EX2_EN|
+
+Figure 2.12 DC example 1 with varying DC input voltage: demonstrating the use of a DC sweep simulation.
+
+*	Draw the circuit diagram shown in Figure 2.11,
+*	Select simulator Ngspice,
+*       Add the dc simulation, Parameter sweep and Nutmeg component icons to the drawn schematic,
+*	Complete the Parameter sweep and Nutmeg component data entries so that they are the same as given in Figure 2.11,
+*	Press the F2 to simulate the circuit,
+*	Plot the graphs illustrated in Figure 2.11,
+*	Check that your results are the same - if not or the simulation fails check your schematic for errors and re-simulate.
+
+Notes:
+
+*	Current probe values are represented by the SPICE 3f5 notation: vpr1#branch and vpr2#branch.
+*	There is a discontinuity in Rin when the vpr1#branch current is zero Amperes; hence the need for the dummy 1pA in the Nutmeg equation for Rin.
+
 
 
 

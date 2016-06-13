@@ -12,7 +12,7 @@ User Manual and Reference Material
 
 | **Authors**          Mike Brinson (mbrin72043@yahoo.co.uk) and Vadim Kusnetsov (ra3xdh@gmail.com)
 |
-| **Copyright**   2015, 2016 
+| **Copyright**  2015, 2016 
 |
 | Permission is granted to copy, distribute and/or modify this document under the terms of the
 | GNU Free Documentation License, Version 1.1 or any later version published by the Free 
