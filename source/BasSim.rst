@@ -9,7 +9,7 @@ This section describes a number of fundamental methods for launching circuit sim
 the Ngspice, Xyce and SPICE OPUS compatible simulator engines. ``Spice4qucs`` includes built-in support for SPICE via a  
 subsystem specifically designed for this purpose. 
 The Ngspice, Xyce and SPICE OPUS simulators are not embedded in Qucs but operate as independent external simulators. 
-Before use with they must be installed on the computer operating system that you are running Qucs. 
+Before use they must be installed on the computer operating system that you are running Qucs. 
 
 2.2 Supported simulators
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -20,24 +20,24 @@ of the most widely used and stable current generation open source SPICE simulato
 It implements the original SPICE3f5 simulation capabilities, 
 including for example, DC, AC, and transient simulation, Fourier-analysis and sensitivity analysis,
 plus a significant number of extra simulation and device model extensions. 
-Distributed with Ngspice is a data manipulation package called Ngnutmeg.  This provides advanced  
+Distributed with Ngspice is a data manipulation package called Ngnutmeg.  This provides 
 numerical analysis and visualisation routines for post processing Ngspice simulation data. 
 Instructions for installing Ngspice can be found on the Ngspice website at http://ngspice.sourceforge.net/download.html,  
 The Ngspice website also gives free access to all the distribution and development package code sources.
 
 Xyce is an open source, SPICE-compatible, high-performance analogue circuit simulator, capable of solving extremely large circuit problems
-when implemented on large-scale parallel computing platforms.  
+when installed on large-scale parallel computing platforms.  
 It also supports serial execution on all common desktop platforms, and small-scale parallel execution on Unix-like systems. 
 Xyce for Linux, Microsoft Windows, and MacOS can be downloaded from the official Xyce website at https://xyce.sandia.gov/Xyce.
 The Xyce parallel circuit simulator running on Linux requires installation of the openMPI libraries.  
 ``Spice4qucs`` supports both Xyce-Serial and Xyce-Parallel (not currently available for the Microsoft Windows operating system). 
 
 SPICE OPUS is an improved version of SPICE based on the original SPICE 3f5 code with extensions for circuit and device performance
-optimization and transient simulation shooting methods for large signal steady state AC analysis.  SPICE OPUS can be downloaded from
+optimization and a transient simulation shooting method for large signal steady state AC analysis.  SPICE OPUS can be downloaded from
 its official website at http://www.spiceopus.si/.
 
 Although Ngspice, Xyce and SPICE OPUS are all compatible SPICE simulators they also include extensions to the original SPICE 3f5 netlist syntax
-which are often incompatible and may not simulate without causing errors.  The Qucs Team is aware of this limitation and is attempting
+which are often incompatible and may not simulate but generate errors.  The Qucs Team is aware of this limitation and are attempting
 to correct such problems as quickly as possible.  Please note this may take some time.  However, if you do identify a compatibility bug please 
 inform us by sending in a bug report to the Qucs web site (with an example test schematic if possible) describing the problem you have identified.  
 
@@ -51,14 +51,14 @@ For this purpose consider the simple RCL circuit shown in Figure 2.1.
 
 |RCL_sch_EN|
 
-Figure 2.1. A simple RCL test circuit for demonstrating a Ngspice, Xyce and SPICE OPUS simulation controlled from Qucs.
+Figure 2.1. A simple RCL test circuit for demonstrating  Ngspice, Xyce and SPICE OPUS simulation controlled from Qucs.
 
 This schematic specifies two simulations:
 
 * AC simulation from 4 MHz to 12 MHz. 
 * Transient simulation from 0 to 5 us;
 
-Make sure the schematic in Figure 2.1 is drawn correctly then simulate it with qucsator using the sequence *Simulation->Simulate*, or by
+Make sure the schematic in Figure 2.1 is drawn correctly then simulate it with Qucsator using the sequence *Simulation->Simulate*, or by
 pressing key F2. After Qucs finishes the the AC and transient simulations, plot the output data listed below:
 
 * The voltage across R1 resistor in the frequency domain (given by the voltage at the ``Vr`` node ),
@@ -226,23 +226,23 @@ notation to SPICE notation and vica versa. Table 2.1 shows the correspondence be
 
 Table 2.1 Qucs and SPICE  variable equivalences
 
-+--------------------+------------------+------------------+
-|  Variable type     |    Qucs notation |  Spice notation  |
-+====================+==================+==================+
-| DC node voltage    |   Node.V         |   V(node)        |
-+--------------------+------------------+------------------+
-| AC node voltage    |   Node.v         |   ac.v(node)     |
-+--------------------+------------------+------------------+
-| TRAN node voltage  |   Node.Vt        |   tran.v(node)   |
-+--------------------+------------------+------------------+
-| HB node voltage    |   Node.Vb        |   hb.v(node)     |
-+--------------------+------------------+------------------+
-| DC probe current   |   Pr1.I          |   i(pr1)         |
-+--------------------+------------------+------------------+
-| AC probe current   |   Pr1.i          |   ac.i(pr1)      |
-+--------------------+------------------+------------------+
-| TRAN probe current |   Pr1.It         |   tran.i(pr1)    |
-+--------------------+------------------+------------------+
++--------------------+--------------------------+-------------------------+
+|  Variable type     |    Qucs display notation |  Spice display notation |
++====================+==========================+=========================+
+| DC node voltage    |   Node.V                 |   V(node)               |
++--------------------+--------------------------+-------------------------+
+| AC node voltage    |   Node.v                 |   ac.v(node)            |
++--------------------+--------------------------+-------------------------+
+| TRAN node voltage  |   Node.Vt                |   tran.v(node)          |
++--------------------+--------------------------+-------------------------+
+| HB node voltage    |   Node.Vb                |   hb.v(node)            |
++--------------------+--------------------------+-------------------------+
+| DC probe current   |   Pr1.I                  |   i(pr1)                |
++--------------------+--------------------------+-------------------------+
+| AC probe current   |   Pr1.i                  |   ac.i(pr1)             |
++--------------------+--------------------------+-------------------------+
+| TRAN probe current |   Pr1.It                 |   tran.i(pr1)           |
++--------------------+--------------------------+-------------------------+
 
 Also variable prefixes used to designate data from different simulators (Table 
 2.2)

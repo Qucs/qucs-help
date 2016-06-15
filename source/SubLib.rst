@@ -1,13 +1,69 @@
----------------------------------------------
-Chapter 3. Subcircuits and device libraries
----------------------------------------------
+--------------------------------------------------------------------------
+Chapter 3. ``Spice4qucs`` subcircuits, macromodels and device libraries
+--------------------------------------------------------------------------
 
-3.1 Subcircuits and macromodels
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.1 `Spice4qucs`` Subcircuits: with and without parameters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Spice simulations support all features of Qucs subcircuits. You can use 
-parameterized subcircuits with both Ngspice and Xyce. Qucs equations embedded 
-in subcircuit are converted into ``.PARAM`` sections of SPICE-netlist. 
+``Spice4qucs`` supports all the features available with Qucs subcircuits. 
+In a similar fashion to Qucs, the Ngspice, Xyce and SPICE OPUS circuit simulators allow subcircuits with or without parameters. 
+However, an optional part of the Ngspice, Xyce and SPICE OPUS subcircuit netlist syntax that signifies that a parameter 
+extension is present is not allowed (see section xxxxxxx). 
+As a starting point ``spice4qucs`` subcircuits without parameters are considered first. This introduction is
+followed by a detailed description of the structure, and netlist syntax, of subcircuits with one or more parameters. 
+
+3.1.1 ``Spice4qucs`` subcircuits without parameters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Figure 3.1 shows a Qucs subcircuit model for a 15MHz centre frequency band pass passive filter. Note that the three
+distinct parts of a subcircuit model without parameters are: (1) a circuit representing the model body with one or more input (Pin) and output (Pout) pins plus
+connected components selected from Qucs pre-defined components and user designed subcircuits ( there are no user defined subcircuits present in Figure 3.1),
+(2) a subcircuit symbol, and (3) a Qucs netlist giving a list of the internal components, their connection nodes and  a wrapper which
+defines the subcircuit.  The syntax of the subcircuit netlist listed in Figure 3.1 is only understood by Qucs and cannot be read without error by external SPICE simulators. 
+
+|BPFCh3Fig1_EN|
+
+Figure 3.1 Qucs 15MHz centre frequency band pass passive filter subcircuit without parameters
+
+A test bench circuit for simulating the band pass filter circuit shown in Figure 3.1 is given in Figure 3.2.  This figure includes a plot of the small signal AC
+output voltage for a filter with 50 Ohm input and output matching resistors.  Note the use of a node voltage probe and the signal name allocated by
+Qucs. Also note that the individual
+capacitor voltage and inductor current initial conditions are not set as they are not needed due to fact that the filter subcircuit is not DC biased. As a consequence 
+the DC simulation icon shown in Figure 3.2 is not strictly necessary.  However, its a good idea to add it automatically to AC simulations because circuits with 
+semiconductor devices or other non-linear components must have their small signal AC properties calculated, at their DC bias conditions, prior to small signal AC simulation. 
+
+|BPFCh3Fig2_EN|
+
+Figure 3.2 Qucs 15MHz centre frequency band pass passive filter test bench with 50 Ohm source and load matching
+
+Figure 3.3 to Figure 3.5 present AC simulation results for the band pass filter generated with the Ngspice, Xyce and SPICEOPUS circuit simulators.
+
+|BPFCh3Fig3_EN| 
+
+Figure 3.3 Band pass filter Ngspice test results and SPICE netlist for test bench circuit
+
+|BPFCh3Fig4_EN|
+
+Figure 3.4 Band pass filter Xyce test results and SPICE netlist for test bench circuit
+
+|BPFCh3Fig5_EN| 
+
+Figure 3.5 Band pass filter SPICEOPUS test results and SPICE netlist for test bench circuit
+
+Most readers will probably have noticed that the SPICE netlists for the Ngspice and SPICEOPUS band pass filter test benches are identical except for file names.  
+This is because Ngspice and SPICEOPUS both include implementations of the SPICE 3f5 **Nutmeg** post simulation data processing package that is distributed with the SPICE engines.  
+These are not the same however, mainly because the SPICE OPUS development team has modified the original SPICE 3f5 Nutmeg package to firstly remove errors/bugs 
+and secondly to improve its syntax.  The extent to how this will affect the operation of spice4qucs is at this time unclear.  If problems/bugs, due to implementation 
+differences, surface in the future the spice4qucs  Development Team will attempt to correct them as quickly as possible.  
+The Xyce circuit simulator does not include a version of Nutmeg in its distribution package.
+This implies that Nutmeg style post simulation data processing is not possible with Xyce.  However, to minimise this omission an extended form of the SPICE .PRINT statement has been 
+implemented in Xyce, allowing algebraic expressions for data processing to be embedded in .PRINT statements.  This topic and other aspects of Xyce post simulation data processing
+are covered in later sections of this help manual.
+
+3.1.2 ``Spice4qucs`` subcircuits with parameters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Qucs equations embedded in subcircuit are converted into ``.PARAM`` sections of SPICE-netlist. 
 Equations restrictions are considered in the Chapter 4. You cannot embed 
 simulations in subcircuits.
 
@@ -20,13 +76,13 @@ of two schematics:
 
 This example could be found at ``examples\ngspice\`` subdirectory. 
 
-Figure 3.1 shows subcircuit of Crystal resonator. A short theory of operation 
+Figure 3.5 shows subcircuit of Crystal resonator. A short theory of operation 
 of crystal resonators could be found here 
 https://en.wikipedia.org/wiki/Crystal_oscillator
 
 |Quarz_SUBCKT_EN|
 
-Figure 3.1 Equivalent circuit of Quartz crystal resonator.
+Figure 3.5 Equivalent circuit of Quartz crystal resonator.
 
 Crystal is represented as RCL-circuit that has two resonant frequencies:
 
@@ -43,16 +99,16 @@ From this equation we can obtain series capacitance :math:`C_q`
 This equation is placed in subcircuit.
 
 Now let's simulate magnitude response of Crystal resonator. We need to perform 
-*AC simulation* for this purpose. Figure 3.2 shows the test circuit for 
+*AC simulation* for this purpose. Figure 3.6 shows the test circuit for 
 magnitude response measurements. 
 
 
 |Quarz_EN|
 
-Figure 3.2 Test circuit for Crystal resonator.
+Figure 3.6 Test circuit for Crystal resonator.
 
 After simulation you can plot output voltage (``ac.v(out)`` variable) or 
-transfer coefficient ``K`` (variable ``ac.k``). Figure 3.3 shows simulation 
+transfer coefficient ``K`` (variable ``ac.k``). Figure 3.7 shows simulation 
 results for both Ngspice and Xyce. As you can see these results are identical. 
 The only difference is that simulation results postprocessing is not 
 implemented in Xyce. So you can only plot output voltage for Xyce. You should 
@@ -61,16 +117,25 @@ can see two resonant frequencies :math:`f_s` and :math:`f_p` on these plots.
 
 |Quarz_Sim_EN|
 
-Figure 3.3 Magnitude response of HC-49/U Quartz crystal.
+Figure 3.7 Magnitude response of HC-49/U Quartz crystal.
 
 
 Subcircuits are converted into ``.SUBCKT`` routine. You can see example of 
-Spice netlist for our test schematic (Figure 3.2):
+Spice netlist for our test schematic (Figure 3.5):
 
 .. literalinclude:: _static/en/chapter3/quarz.cir
    :language: Bash
    :linenos:
 
+..  |BPFCh3Fig5_EN| image::  _static/en/chapter3/SPICEOPUSBPF.png
+
+..  |BPFCh3Fig4_EN| image::  _static/en/chapter3/XyceBPF.png
+
+..  |BPFCh3Fig3_EN| image::  _static/en/chapter3/NgspiceBPF.png
+
+..  |BPFCh3Fig2_EN| image::  _static/en/chapter3/QucsBPF.png
+
+..  |BPFCh3Fig1_EN| image::  _static/en/chapter3/Ch3Fig1.png
 
 ..  |Quarz_SUBCKT_EN| image::  _static/en/chapter3/quarz.png
 
@@ -116,7 +181,7 @@ The example of spice model usage (LM358 opamp) is shown in the Figure 3.4
 
 |LM358_EN|
 
-Figure 3.4 AC Simulation of LM358 opamp with Ngspice. 
+Figure 3.8 AC Simulation of LM358 opamp with Ngspice. 
 
 Here is the netlist of LM358 spice-model. Model can be found in LM358 
 datasheet. 
