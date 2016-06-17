@@ -281,7 +281,9 @@ easy to use.  Moreover, they provide ``spice4qucs`` users with a power full diag
 basic circuit operation. The circuit shown in Figure 2.8 represents a simple resistive network with single voltage and current
 1 V and 1 A sources respectively. Pressing key "F8" instigates a DC analysis and adds the DC node voltages, probe voltages and probe
 currents to the current schematic. This feature provides a practical method for scanning a circuit to see if the DC bias values
-are of the correct order of magnitude. Schematics which include the ``spice4qucs`` DC icon do not however, list a similar set of voltage
+are of the correct order of magnitude. The calculation of DC bias values via the F8 key applies to all the circuit simulators controlled
+by ``spice4qucs``.  
+Schematics which include the ``spice4qucs`` DC icon do not however, list a similar set of voltage
 and currents in the *Simulate with an external Simulator" dialogue window. A DC voltage and current list is output when a schematic includes
 a transient simulation icon, see Figure 2.9.
 
