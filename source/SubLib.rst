@@ -99,68 +99,76 @@ The simulated signal waveform obtained with SPICE OPUS was found to be similar t
 
 Figure 3.8 Xyce subcircuit sinusoidal harmonic signal generator.
  
-3.1.3 A second more complex example of `Spice4qucs` subcircuits with parameters
+3.1.3 A second more complex example of ``Spice4qucs`` subcircuits with parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Qucs equations embedded in a subcircuit are converted into ``.PARAM`` sections of a SPICE-netlist. 
-Equations restrictions are considered in the Chapter 4. You cannot embed 
-simulations in subcircuits.
+Variable assignment equations, defined in Qucs *Equation Eqn* 
+blocks and embedded in a subcircuit, are converted by ``Spice4qucs`` 
+into SPICE ``.PARAM`` statements. These are listed in the initial section of the SPICE-netlist of the circuit being simulated, or in the first section of a subcircuit netlist, allowing their values to be determined before the start of a simulation.
+With Qucs *Equation Eqn* blocks it is important to remember that the variables defined cannot be functions of circuit voltage or current or any other voltage/current dependent properties. 
+Restrictions placed by ``Spice4qucs`` on the use of Qucs *Equation Eqn* blocks are considered in detail in Chapter 4. However, one fundamental rule that must be followed at all 
+times is that Qucs simulation icons must not  be placed inside a subcircuit.
 
-Let's consider an example project with subcircuits. It is HC-49/U 8.86 
-MHz crystal resonator model. Crystal resonator is represented as RCL-circuit. 
-This project consists 
-of two schematics:
-* ``quarz.sch`` --- Subcircuit. Crystal resonator. 
-* ``quarz_test.sch`` --- test circuit. 
 
-This example could be found at ``examples\ngspice\`` subdirectory. 
+The electrical equivalent circuit of a  HC-49/U 8.86 MHz Quartz crystal resonator is shown in Figure 3.9. 
+In this model the crystal resonator is represented as the RCL parallel electric network illustrated in
+the following two schematics:
 
-Figure 3.9 shows subcircuit of Crystal resonator. A short theory of operation 
-of crystal resonators could be found here 
-https://en.wikipedia.org/wiki/Crystal_oscillator
+* ``quarz.sch`` ---  Quartz crystal resonator subcircuit;  Figure 3.9. 
+* ``quarz_test.sch`` --- ``Spice4qucs`` test circuit; Figure 3.10. 
+
+These files can be found in the Qucs-S subdirectory ``examples\ngspice\``. 
+
+Figure 3.9 shows the crystal resonator subcircuit. A brief introduction to the theory of crystal resonators can be found at https://en.wikipedia.org/wiki/Crystal_oscillator.
+
 
 |Quarz_SUBCKT_EN|
 
 Figure 3.9 Equivalent circuit of Quartz crystal resonator.
 
-Crystal is represented as RCL-circuit that has two resonant frequencies:
+
+In the HC-49/U Quartz crystal resonator model the :math:`RCL` network has two resonant frequencies:
+
+a series resonance frequency  :math:`f`, where
 
 .. math::
-    f_s=\frac{1}{2\pi\sqrt{L_{q}C_{q}}}
-    
+    f=\frac{1}{2\pi\sqrt{L_{q}C_{q}}}
+
+and a parallel resonance frequency :math:`f_{p}`, where
+
+
+.. math::     
     f_p=\frac{1}{2\pi\sqrt{L_{q}C_{q}}}\sqrt{1+\frac{C_{q}}{C_s}}
     
-From this equation we can obtain series capacitance :math:`C_q`  
+Transposing equation :math:`f`  yields an expression for the series capacitance :math:`C_q`, where  
     
 .. math::
-    C_q=\frac{1}{4\pi^2f_s^2L_q^2}
+    C_q=\frac{1}{4\pi^2f^2L_q^2}
     
-This equation is placed in subcircuit.
+This equation is placed in Qucs *Equation Eqn1* block inside the Quartz crystal resonator subcircuit.
 
-Now let's simulate magnitude response of Crystal resonator. We need to perform 
-*AC simulation* for this purpose. Figure 3.10 shows the test circuit for 
-magnitude response measurements. 
+Performing an *AC simulation* with Ngspice and Xyce, using the test circuit given in Figure 3.10, yields the amplitude response data plotted in Figure 3.11, 
+Ngspice transfer coefficient ``K``  (``ac.k``) and Xyce voltage ``ac.V(OUT)``.  
 
 
 |Quarz_EN|
 
-Figure 3.10 Test circuit for Crystal resonator.
+Figure 3.10 Test circuit for Quartz crystal resonator.
 
-After simulation you can plot output voltage (``ac.v(out)`` variable) or 
-transfer coefficient ``K`` (variable ``ac.k``). Figure 3.11 shows simulation 
-results for both Ngspice and Xyce. As you can see these results are identical. 
-The only difference is that simulation results postprocessing is not 
-implemented in Xyce. So you can only plot output voltage for Xyce. You should 
-use logarithmic scale on the Y-axis of the plot to obtain decibel output. You 
-can see two resonant frequencies :math:`f_s` and :math:`f_p` on these plots.
+Figure 3.11 indicates that the Ngspice and Xyce plotted results are identical. 
+The only difference being that Xyce simulation result postprocessing is not implemented. 
+Hence, only the Xyce output voltage can be plotted; this is done by choosing a logarithmic Y scale, then the Xyce plot 
+effectively displays a scaled decibel output. The two resonant frequencies :math:`f` and :math:`f_p` are clearly visible on these plots.
 
 |Quarz_Sim_EN|
 
 Figure 3.11 Magnitude response of HC-49/U Quartz crystal.
 
 
-Subcircuits are converted into ``.SUBCKT`` routine. You can see example of 
-Spice netlist for our test schematic (Figure 3.9):
+Subcircuits are converted by ``Spice4qucs`` into  SPICE ``.SUBCKT`` routines. The SPICE netlist for the Quartz crystal resonator test 
+circuit, Figure 3.10, shown below illustrates how the ``Spice4qucs``  handles SPICE ``.PARAM``, ``.SUBCIRCUIT`` and subcircuit ``X`` call statements, 
+placing them in the correct position within the SPICE netlist of the circuit being simulated.
+
 
 .. literalinclude:: _static/en/chapter3/quarz.cir
    :language: Bash
