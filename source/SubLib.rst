@@ -99,68 +99,76 @@ The simulated signal waveform obtained with SPICE OPUS was found to be similar t
 
 Figure 3.8 Xyce subcircuit sinusoidal harmonic signal generator.
  
-3.1.3 A second more complex example of `Spice4qucs` subcircuits with parameters
+3.1.3 A second more complex example of ``Spice4qucs`` subcircuits with parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Qucs equations embedded in a subcircuit are converted into ``.PARAM`` sections of a SPICE-netlist. 
-Equations restrictions are considered in the Chapter 4. You cannot embed 
-simulations in subcircuits.
+Variable assignment equations, defined in Qucs *Equation Eqn* 
+blocks and embedded in a subcircuit, are converted by ``Spice4qucs`` 
+into SPICE ``.PARAM`` statements. These are listed in the initial section of the SPICE-netlist of the circuit being simulated, or in the first section of a subcircuit netlist, allowing their values to be determined before the start of a simulation.
+With Qucs *Equation Eqn* blocks it is important to remember that the variables defined cannot be functions of circuit voltage or current or any other voltage/current dependent properties. 
+Restrictions placed by ``Spice4qucs`` on the use of Qucs *Equation Eqn* blocks are considered in detail in Chapter 4. However, one fundamental rule that must be followed at all 
+times is that Qucs simulation icons must not  be placed inside a subcircuit.
 
-Let's consider an example project with subcircuits. It is HC-49/U 8.86 
-MHz crystal resonator model. Crystal resonator is represented as RCL-circuit. 
-This project consists 
-of two schematics:
-* ``quarz.sch`` --- Subcircuit. Crystal resonator. 
-* ``quarz_test.sch`` --- test circuit. 
 
-This example could be found at ``examples\ngspice\`` subdirectory. 
+The electrical equivalent circuit of a  HC-49/U 8.86 MHz Quartz crystal resonator is shown in Figure 3.9. 
+In this model the crystal resonator is represented as the RCL parallel electric network illustrated in
+the following two schematics:
 
-Figure 3.9 shows subcircuit of Crystal resonator. A short theory of operation 
-of crystal resonators could be found here 
-https://en.wikipedia.org/wiki/Crystal_oscillator
+* ``quarz.sch`` ---  Quartz crystal resonator subcircuit;  Figure 3.9. 
+* ``quarz_test.sch`` --- ``Spice4qucs`` test circuit; Figure 3.10. 
+
+These files can be found in the Qucs-S subdirectory ``examples\ngspice\``. 
+
+Figure 3.9 shows the crystal resonator subcircuit. A brief introduction to the theory of crystal resonators can be found at https://en.wikipedia.org/wiki/Crystal_oscillator.
+
 
 |Quarz_SUBCKT_EN|
 
 Figure 3.9 Equivalent circuit of Quartz crystal resonator.
 
-Crystal is represented as RCL-circuit that has two resonant frequencies:
+
+In the HC-49/U Quartz crystal resonator model the :math:`RCL` network has two resonant frequencies:
+
+a series resonance frequency  :math:`f`, where
 
 .. math::
-    f_s=\frac{1}{2\pi\sqrt{L_{q}C_{q}}}
-    
+    f=\frac{1}{2\pi\sqrt{L_{q}C_{q}}}
+
+and a parallel resonance frequency :math:`f_{p}`, where
+
+
+.. math::     
     f_p=\frac{1}{2\pi\sqrt{L_{q}C_{q}}}\sqrt{1+\frac{C_{q}}{C_s}}
     
-From this equation we can obtain series capacitance :math:`C_q`  
+Transposing equation :math:`f`  yields an expression for the series capacitance :math:`C_q`, where  
     
 .. math::
-    C_q=\frac{1}{4\pi^2f_s^2L_q^2}
+    C_q=\frac{1}{4\pi^2f^2L_q^2}
     
-This equation is placed in subcircuit.
+This equation is placed in Qucs *Equation Eqn1* block inside the Quartz crystal resonator subcircuit.
 
-Now let's simulate magnitude response of Crystal resonator. We need to perform 
-*AC simulation* for this purpose. Figure 3.10 shows the test circuit for 
-magnitude response measurements. 
+Performing an *AC simulation* with Ngspice and Xyce, using the test circuit given in Figure 3.10, yields the amplitude response data plotted in Figure 3.11, 
+Ngspice transfer coefficient ``K``  (``ac.k``) and Xyce voltage ``ac.V(OUT)``.  
 
 
 |Quarz_EN|
 
-Figure 3.10 Test circuit for Crystal resonator.
+Figure 3.10 Test circuit for Quartz crystal resonator.
 
-After simulation you can plot output voltage (``ac.v(out)`` variable) or 
-transfer coefficient ``K`` (variable ``ac.k``). Figure 3.11 shows simulation 
-results for both Ngspice and Xyce. As you can see these results are identical. 
-The only difference is that simulation results postprocessing is not 
-implemented in Xyce. So you can only plot output voltage for Xyce. You should 
-use logarithmic scale on the Y-axis of the plot to obtain decibel output. You 
-can see two resonant frequencies :math:`f_s` and :math:`f_p` on these plots.
+Figure 3.11 indicates that the Ngspice and Xyce plotted results are identical. 
+The only difference being that Xyce simulation result postprocessing is not implemented. 
+Hence, only the Xyce output voltage can be plotted; this is done by choosing a logarithmic Y scale, then the Xyce plot 
+effectively displays a scaled decibel output. The two resonant frequencies :math:`f` and :math:`f_p` are clearly visible on these plots.
 
 |Quarz_Sim_EN|
 
 Figure 3.11 Magnitude response of HC-49/U Quartz crystal.
 
 
-Subcircuits are converted into ``.SUBCKT`` routine. You can see example of 
-Spice netlist for our test schematic (Figure 3.9):
+Subcircuits are converted by ``Spice4qucs`` into  SPICE ``.SUBCKT`` routines. The SPICE netlist for the Quartz crystal resonator test 
+circuit, Figure 3.10, shown below illustrates how the ``Spice4qucs``  handles SPICE ``.PARAM``, ``.SUBCIRCUIT`` and subcircuit ``X`` call statements, 
+placing them in the correct position within the SPICE netlist of the circuit being simulated.
+
 
 .. literalinclude:: _static/en/chapter3/quarz.cir
    :language: Bash
@@ -190,13 +198,14 @@ Spice netlist for our test schematic (Figure 3.9):
 
 ..  |LM358_EN| image::  _static/en/chapter3/lm358.png
 
+..  |AD822_lib_EN| image::  _static/en/chapter3/ad822_lib.png
 
 3.2 Component and circuit libraries
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Library components are supported in ``spice4qucs`` subsystem. You can use all 
 library components. Some libraries have embedded original SPICE code of 
-components. You should prefer to use these librairies to achive the best result 
+components. You should prefer to use these libraries to archive the best result 
 with Spice simulation of Qucs schematics. The example of library component 
 (IRFZ44 MOSFET from *MOSFETS* library) usage is 
 ``examples/ngspice/irfz44_switch.sch``
@@ -234,8 +243,120 @@ datasheet.
 .. literalinclude:: _static/en/chapter3/LM358.sp
    :language: Bash
    :linenos:
-   
-   
+
+3.4 Usage of unmodified SPICE Libraries
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3.4.1 ``SpiceLibComp`` device
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can use an unmodified SPICE libraries with new ``SpiceLibComp`` device. This
+component could be found at the *File components* group. This component have
+three properties:
+
+* ``File`` is full SPICE library file (usually ``*.lib``, ``*.cir``, or ``*.sp`` files) 
+  path. You can use unmodified library here. 
+* ``Device`` is SUBCKT entry name that represents desired device. Every
+  component is defined as subcircuit and identified by ``.SUBCKT`` entry name.
+  This property holds device name. You need to fill this property manually.  
+* ``SymPattern`` is symbol pattern for device. You can select one of predefined
+  symbol patterns or use automatic pattern. Automatic pattern is simple
+  rectangular symbol with pins.  
+
+Let's consider SPICE library structure. There exists a SPICE library file
+``ad822.cir`` that contains AD822 model. Here is library source code:
+
+.. literalinclude:: _static/en/chapter3/ad822.cir
+   :language: Bash
+   :linenos:
+
+This library example contains only one model defined by one subcircuit entry,
+but you can use any library containing any amount of device models.
+
+Let's use AD822 opamp model. Create new schematic and place ``SpiceLibComp``
+device on schematic (Figure 3.13). Select ``ad822.cir`` file in the first property. 
+Then fill ``ad822`` (device name) in the second property. 
+
+You can either create an automatic component symbol, either use one of the 
+predefined patterns. At current state only ``opamp3t`` and ``opamp5t`` patterns 
+are available. These patterns represents three- and five-terminal opamps
+respectively. Symbol patterns are Qucs XML files. They are placed in the
+``share/qucs/symbols`` subdirectory of the Qucs installation root. These files 
+have ``*.sym`` extension. Symbol pattern format will be considered further. 
+
+
+SPICE netlist builder performs automatic port assignment for subcircuit pins. 
+If automatic symbol is used symbol pin names will be automatically filled from
+the ``.SUBCKT`` entry definition. See Figure 3.13 for example of the automatic 
+pin assignment.
+
+If symbol pattern is used, the first ``.SUBCKT`` entry port will be
+automatically mapped to the first symbol port, etc. Symbol port sequence is
+defined in the symbol pattern file (``*.sym``) in Port description lines. 
+
+|AD822_lib_EN|
+
+Figure 3.13 LM358 opamp library model usage with ``SpiceLibComp`` device
+
+3.4.2 Symbol pattern files format description
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Let's consider symbol files format. Symbols have ``*.sym`` extension and are
+placed in ``share/qucs/symbols`` subdirectory of the Qucs installation tree.
+Qucs automatically scans content of this subdirectory and displays all found
+valid symbols in drop-down list in the third property (``SymPattern``) of the
+*SpiceLibComp* device. User can select any symbol for new SPICE library device.
+It's need to create a new symbol file and place it into symbols directory to add
+new symbols to the existing Qucs installation. 
+
+Let's consider symbol file format. Symbols have Qucs XML schematic format
+without header. An example of symbol file (five-terminal opamp) is shown in the 
+listing below:
+
+.. literalinclude:: _static/en/chapter3/opamp5t.sym
+   :language: XML
+   :linenos:
+
+Automatic symbol files preparation is not yet implemented, but you can use Qucs
+schematic editor to create new symbol files. You may use the following sequence
+to create new symbol:
+
+* Create Qucs subcircuit. Subcircuit may be empty. Place desired ports on it;
+* Attach symbol to it using switching to symbol mode by ``F9`` keystroke. Wire
+  subcircuit ports to symbol and paint symbol outline. 
+* Save subcircuit, open it with any test editor and copy-paste symbol code form it
+  into the symbol file.
+
+Please pay attention to the proper port mapping. Let's consider port definition
+line format:
+
+.. code-block:: XML
+
+ <.PortSym 10 -40 3 0>
+
+This port definition consists of five space separated fields. The fourth field
+(``3``) contains port number. This port number should match SPICE ``.SUBCKT``
+port number (not port name!) to proper component wiring. You may need to edit
+this field manually.
+
+For example AD822 has the following definition in our library:
+
+.. code-block:: Bash
+
+ .SUBCKT AD822 1 2 99 50 25
+
+Subcircuit node list follows after the subcircuit name ( ``AD822`` ). Subcircuit 
+nodes will be mapped to component port in the following sequence:
+
+* Node ``1`` --- to Port ``1``
+* Node ``2`` --- to Port ``2``
+* Node ``99`` --- to Port ``3``
+* Node ``50`` --- to Port ``4``
+* Node ``25`` --- to Port ``5``
+
+
+
+
 `back to the top <#top>`__
 
 
