@@ -1,90 +1,150 @@
 ------------------------------------------------------------------
-Chapter 13. RF simulation with Qucs, Ngspice, Xyce and SPICE OPUS
+Chapter 13. RF simulation with Ngspice, Xyce and SPICE OPUS
 ------------------------------------------------------------------
 
 13.1 Introduction to capabilities
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Spice4qucs could be used for analysis of RF circuits. It contains the following 
-features:
 
-* Harmonic balance simulation (Xyce only)
-* S-parameter probes (Ngspice and Xyce)
-* RFEDD components (Ngspice, limited support)
 
+The original motivation behind the development of Qucs was the need for an open source
+RF circuit simulator which was freely available to all interested in RF and microwave
+circuit and system design. Today, Qucs has become a relatively stable simulation
+package with good high frequency analysis capabilities like small signal AC two port and multi-port S parameter
+analysis, noise analysis and rudimentary single tone Harmonic Balance (HB) circuit simulation.  For anyone
+interested in RF circuit design Qucs is distributed with a selection of built-in RF component models, including
+microstrip and coplanar technology components, making the package a good choice for investigation
+the performance of high frequency circuits.  At RF, Qucs implements models and analysis features not included in the traditional SPICE 2g6
+and 3f5 circuit simulators. In contrast to SPICE 3f5 the Ngspice, Xyce and SPICE OPUS GPL simulators have been extended
+with features which are designed specifically for RF circuit simulation. These include single tone and multi-tone HB
+simulation (Xyce) and a transient simulation shooting method (SPICE OPUS) for large signal AC steady state simulation. 
+These RF simulation techniques, when coupled with the fact that Ngspice, Xyce and SPICE OPUS support small signal AC two port network analysis 
+via the spice4qucs extension, makes the Qucs-S version of Qucs a useful addition to the GPL RF circuit simulation scene.  
+
+HB is a circuit simulation method that solves for the steady state solution of nonlinear circuits in the frequency domain. 
+In HB simulation, the voltages and currents in a nonlinear circuit are represented by truncated Fourier series. HB computes the frequency spectrum
+of circuit voltages and currents when signals reaches a steady state, following excitation with an external signal source. 
+This can be a large signal AC signal. In practice the HB simulation technique is often more efficient than transient analysis, particularly in situations where 
+transient analysis can take a long time to reach a steady state solution due to widely differing frequency signals present in a circuit, for example amplitude 
+or frequency modulated communications signals. 
+HB is particularly suited to the simulation of analogue RF and microwave circuits.
+
+In this chapter the Qucs-S RF capabilities are introduced and described.  To demonstrate these new features 
+a number of example RF circuit simulations are presented together with a new **Template** element which allows libraries of analysis
+and post-simulation data processing **Nutmeg** scripts to be stored and embedded in Qucs schematics. The idea  of a predefined **Test Bench** is
+also outlined and applied to RF circuit simulation case studies. 
+
+The Qucs-S version of Qucs includes spice4qucs extensions which allow the package to be used for analysis of RF circuits. 
+The central features of the spice4qucs RF elements are:
+
+* Small signal AC two port S-parameter simulation (Ngspice, XYCE and SPICE OPUS)
+* Small signal AC two port Y,Z etc. network simulation/analysis (Ngspice, Xyce and SPICE OPUS)
+* Single and multi-tone large signal AC Harmonic Balance simulation (Xyce only)
+* Large signal AC transient simulation with steady state shooting methods (SPICE OPUS only) 
+* Emulation of Qucs RFEDD components (limited support at this time)
+
+Where needed each of the above can make use of Octave scripts and functions in the analysis of simulation data.
+
+Readers will have probably noticed from the list presented above that multi-port S-parameter modelling and RF simulation features
+are not implemented in Qucs-S. Currently, there are no plans to add this extension to the existing Qucs-S simulation
+and modelling features. Anyone interested in multi-port S-parameter RF circuit analysis is advised to use the standard Qucs package. 
+
+
+
+
+13.2 Small signal AC S-parameter simulation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+13.3 Small signal AC two port network simulation/analysis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+13.4 Single tone large signal AC Harmonic Balance simulation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Spice4qucs subsystem supports Xyce single tone and multi-tone Harmonic Balance (HB). 
+Unlike the rudimentary version of HB simulation implemented in Qucs the Xyce version can simulate circuits
+with a full range of SPICE components, it is also faster and much more stable. In general no changes to the SPICE
+semiconductor device or component models are required. To invoke single tone HB just place 
+the Qucs-S ``HB simulation`` icon on a circuit schematic, define the number of harmonics and 
+simulate the circuit with Xyce. The spice4qucs output data parser automatically converts output variable names to Qucs notation.
+
+For example, for node voltage ``out`` plot ``out.Vb``. 
+Figure 13.1 shows the schematic and Figure 13.2 the simulation output plots for a basic diode circuit similar to the original Qucs HB example found
+on the Qucs web site. For comparison Figure 13.2 presents the output voltage spectrum plots generated by Qucs and Qucs-S/Xyce.
+
+|diode_HB_EN|
+
+Figure 13.1 Diode clipper harmonic balance simulation
+
+Th HB simulation results for the diode clipper circuit are shown in the Figure 13.2
+
+|diode_HB_res_EN|
+
+Figure 13.2 output voltage spectrum at Node2 for Qucs (left plot), and measured with voltage probe Pr1 for Xyce (right plot)
+
+Comparing these two plots highlights an obvious difference in the plot frequency scales.
+The Qucs-S/Xyce output plot is represented as a function of negative and positive frequency components.
+In this example there are eight harmonics (``n=8``) arranged as 8 positive frequencies and eight
+negative frequencies plus a DC component. 
+ 
+.. |diode_HB_EN| image:: _static/en/chapter13/diode_HB.png
+
+.. |diode_HB_res_EN| image:: _static/en/chapter13/diode_HB_res.png
+
+
+Qucs HB simulation data are output as a plot of frequency domain spectral amplitude components :math:`|H|`, where   
+
+
+.. math::     
+    |H| = U(0),|U(f1)|, |U(f2)|, |U(f3)|, ......
+
+and :math:`|U(fn)|` is the magnitude of a harmonic component at frequency :math:`fn` and :math:`n=1, 2, 3, 4,...`.
+In contrast to the Qucs circuit simulator Xyce outputs HB simulation data as a plot of complex conjugate spectral components :math:`H`
+in the negative :math:`(-f)` and positive :math:`(f)` frequency domains, where
+
+.. math::     
+    |H| = U(0), 2 \cdot sqrt(U(-f1) \cdot \overline{U(f1)} ), 2 \cdot sqrt(U(-f2) \cdot \overline{U(f2)} ),.....   
+    
+Yielding, eight very similar harmonic spectra magnitude values to Qucs :math:`|H|`.
+
+
+13.5 Multi-tone Large signal AC HB simulation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Since Xyce release 6.3 the package has supported multi-tone HB simulation. You can specify more 
+than one tone frequency in the ``HB simulation component`` properties box.  
+Perform the following steps to setup multi-tone Xyce HB simulation:
+
+
+* Specify a list of space separated frequencies in the ``f`` parameter box.
+* Specify a comma separated list of the number of harmonic frequencies for each of the source signals in the ``n`` parameter box.
+* Construct an input signal generator using two or more series AC voltage sources, with the required frequencies and amplitudes,
+or two or more parallel AC current sources driving a one Ohm resistor.
+
+Normally, multi-tone HB simulation signal sources consist of two or three AC sources with different frequencies and similar amplitudes. 
+With two AC signal sources with nearly equal frequencies, that are not integer related, circuit modulation components can be extracted from circuit output spectra.
+A multi-tone HB example illustrating this feature is given in Figure 13.3, where two AC signals of 0.8 V peak and frequencies 0.95 MHz and 1.05 MHz  are applied to a simple diode circuit.
+The frequencies of individual spectral components are show as combinations of signal frequencies :math:`f1` and :math:`f2` and marked in red on Figure 13.3.
+|diode_HB_2t_EN|
+
+Figure 13.3 An example diode 2-tone HB simulation circuit plus voltage and current simulation spectra
+  
+.. |diode_HB_2t_EN| image:: _static/en/chapter13/diode_HB_2tone.png
+
+13.6 The SPICE OPUS large signal AC steady state transient shooting method
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+13.7 Emulation of Qucs RFEDD components
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 RFEDD passive components (RCL) and B-type sources could be represented using 
 ``hertz`` variable in equations. See official Ngspice manual for additional 
 information.
 
-13.2 Two port networks
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-13.3 S parameter simulation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-13.4 RF noise simulation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-13.5 Harmonic Balance simulation with Qucs and Xyce
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Spice4qucs subsystem supports Harmonic Balance (HB) simulation only for Xyce 
-Ngspice will not work. HB simulation component properties don't require any 
-special adaptation for simulation with Xyce. You need just place 
-``HB simulation`` component on schematic, define number of harmonics and 
-simulate circuit with Xyce. Spice4qucs output data parser automatically 
-converts output variable names to Qucs notation. For example for node voltage 
-``out`` you need to plot ``out.Vb``. Let's consider a small example (diode 
-clipper, Figure 8.1). 
-
-|diode_HB_EN|
-
-Figure 8.1 Diode clipper harmonic balance simulation
-
-Simulation results are shown in the Figure 8.2
-
-|diode_HB_res_EN|
-
-Figure 8.2 Output spectrum form Qucs (left) and Xyce (right)
-
-There are the following important difference between Qucs and Xyce. Xyce output 
-contains image components (negative frequencies). So, for given ``n=17`` 
-harmonics you obtain 8 harmonics, 8 image harmonics and DC component (Figure 
-8.2).
-
-
-.. |diode_HB_EN| image:: _static/en/chapter8/diode_HB.png
-
-.. |diode_HB_res_EN| image:: _static/en/chapter8/diode_HB_res.png
-
-13.6 Multitone HB simulation with Xyce and Qucs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Since 6.3 release Xyce supports multitone HB simulation. You can specify more 
-than one tone frequencies in ``HB simulation component`` properties. This will 
-not work with Xyce previous to 6.3 release.  Perform the following steps to 
-setup multitone HB simulation:
-
-* Sepcify space separated frequencies list in ``f`` parameter.
-* Specify comma separated number of frequencies for each harmonic in ``n`` 
-  parameter
-  
-You can see an example in the Figure 8.3. It contains modified schematic from 
-the previous section. 
-
-|diode_HB_3t_EN|
-
-Figure 8.3 An example of 3-tone HB simulation setup
-  
-.. |diode_HB_3t_EN| image:: _static/en/chapter8/diode_HB_3tone.png
-
-13.7 SPICE OPUS large signal steady state transient shooting method
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-13.8 Example RF circuit simulations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+13.8 More example RF circuit simulations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
