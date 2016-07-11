@@ -3,7 +3,7 @@ Chapter 13. RF simulation with Ngspice, Xyce and SPICE OPUS
 ------------------------------------------------------------------
 
 13.1 Introduction to capabilities
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
@@ -53,6 +53,9 @@ The S-parameter probes, templates and examples introduced in this chapter can be
 spice4qucs-helpChapter13_prj.
 
 
+ 
+
+
 
 
 13.2 Small signal AC S-parameter simulation
@@ -66,7 +69,9 @@ impedances and the S-parameter measurement probes.  Notice that two copies of th
 secondly :math:`S22` and :math:`S21`.  The test bench also includes a detailed set of instructions on how to use it to measure simulated two-port S-parameters.
 The two-port S-parameter test bench illustrated in Figure 13.1 will work with the Ngspice, Xyce and SPICE OPUS circuit simulators.     
 
-|small_signal_S_EN|
+
+.. figure:: _static/en/chapter13/Fig13p1.png 
+
 
 Figure 13.1 A small signal AC S-parameter test bench with S-parameter probes.
 
@@ -163,7 +168,8 @@ The Qucs-S/Xyce output plot is represented as a function of negative and positiv
 In this example there are eight harmonics (``n=8``) arranged as 8 positive frequencies and eight
 negative frequencies plus a DC component. 
 
-.. |small_signal_S_EN| image:: _static/en/chapter13/Fig13p1.png 
+
+
 .. |small_signal_S2_EN| image:: _static/en/chapter13/Fig13p2.png
 .. |small_signal_S3_EN| image:: _static/en/chapter13/Fig13p3.png
 .. |small_signal_S4_EN| image:: _static/en/chapter13/Fig13p4.png
@@ -284,7 +290,7 @@ data output.  A typical set of plots is illustrated in Figure 13.23. Notice that
 
  |ssseFig1_EN|
 
-Figure 13.20   SPICE OPUS shooting method test circuit for a semiconductor diode.
+Figure 13.20   SPICE OPUS shooting method test circuit for a semiconductor diode. 
 
  |ssseFig2_EN|
 
