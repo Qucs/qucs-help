@@ -34,8 +34,8 @@ Contents:
    SubLib
    DModel
    ASim
-   SPICEComp
    PostSim
+   SPICEComp
    Custom
    XSPICECL
    XSPICEUM
@@ -50,7 +50,7 @@ A "Technical Description" of the Qucs simulator and implemented device models ar
 
 Spice4qucs example schematics can be found in the spice4qucs source code "examples" directory.
 
-Unofficial Qucs build with spice4qucs features enabled called release candidate 5 (rc5) can be downloaded from https://github.com/ra3xdh/qucs/releases/tag/0.0.19S-rc5.
+Unofficial Qucs build with spice4qucs features enabled called release candidate 5 (rc5) can be downloaded from https://github.com/ra3xdh/qucs/releases/tag/0.0.19S-rc6.
 
 .. only:: html
 

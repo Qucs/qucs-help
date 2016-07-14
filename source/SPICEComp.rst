@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Chapter 6. Qucs and SPICE simulation models that work with ngspice, Xyce and SPICE OPUS
+Chapter 7. Qucs and SPICE simulation models that work with ngspice, Xyce and SPICE OPUS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-6.1 Introduction
+7.1 Introduction
 ~~~~~~~~~~~~~~~~~~
 For a circuit simulator to be a useful circuit design aid it must be able to simulate
 a range of analogue and digital circuits which include passive components, semiconductor devices, 
@@ -49,7 +49,7 @@ made to interface Qucs Verilog-A models with ngspice or Xyce. This task is sched
 
 Figure 7.1. Qucs-0.0.18 models that work with ngspice and (sometimes) Xyce.
 
-6.2 Spice4qucs component specifications and technical reference
+7.2 Spice4qucs component specifications and technical reference
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ^^^^^^^^^^^^^^^^^^
@@ -102,13 +102,13 @@ Figure 7.1. Qucs-0.0.18 models that work with ngspice and (sometimes) Xyce.
 **Linear Current Controlled Voltage Source (H)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image8_EN|
-**____________________________________________________________________________________________________________________________**
+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Linear Voltage Controlled Current Source (G)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 |image6_EN|
-**____________________________________________________________________________________________________________________________**
+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Linear Voltage Controlled Voltage Source (E)**
@@ -262,7 +262,7 @@ libraries called "Transformers" and "Cores" located in the spice4qucs system lib
 |image33_EN|
 |image34_EN|
 
-6.4 More complex circuit simulations that demonstrate the use of spice4qucs models
+7.4 More complex circuit simulations that demonstrate the use of spice4qucs models
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
