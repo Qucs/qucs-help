@@ -64,9 +64,9 @@ S-parameter two port RF and microwave circuit simulation is not implemented in t
 This is a serious omission because at RF frequencies  S-parameter and other two-port network parameters are widely used in circuit analysis and design.
 To overcome this limitation four small signal AC analysis probes have been added to the spice4qucs RF extensions.  When combined with signal sources
 they form a **Two-port S-parameter circuit test bench**.  This test bench is shown in Figure 13.1. Its main features are space on the test bench 
-schematic to place the device under test (DUT) circuit diagram, input AC signal sources with :math:`Z0` characteristic impedance, :math:`Z0` load
-impedances and the S-parameter measurement probes.  Notice that two copies of the DUT are require; firstly to measure :math:`S11` and :math:`S12` and
-secondly :math:`S22` and :math:`S21`.  The test bench also includes a detailed set of instructions on how to use it to measure simulated two-port S-parameters.
+schematic to place the device under test (DUT) circuit diagram, input AC signal sources with :math:`Z_0` characteristic impedance, :math:`Z_0` load
+impedances and the S-parameter measurement probes.  Notice that two copies of the DUT are require; firstly to measure :math:`S_{11}` and :math:`S_{12}` and
+secondly :math:`S_{22}` and :math:`S_{21}`.  The test bench also includes a detailed set of instructions on how to use it to measure simulated two-port S-parameters.
 The two-port S-parameter test bench illustrated in Figure 13.1 will work with the Ngspice, Xyce and SPICE OPUS circuit simulators.     
 
 
@@ -76,11 +76,11 @@ The two-port S-parameter test bench illustrated in Figure 13.1 will work with th
 Figure 13.1 A small signal AC S-parameter test bench with S-parameter probes.
 
 The schematic shown in Figure 13.2 demonstrates the use of the S-parameter test bench.  In this example two identical copies of a Butterworth passive low pass filter
-circuit with :math:`fc` = 100 kHZ and :math:`Z0` = 50 Ohms are connected between the pairs of DUT terminals labelled **IN** and **OUT**. Notice that the orientation of both DUT is the same.
-The outputs from the S-parameter probes are called :math:`nS11, nS12, nS21` and :math:`S22` being represented as voltages specified by complex numbers.  Figure 13.2 
+circuit with :math:`f_c` = 100 kHZ and :math:`Z_0` = 50 Ohms are connected between the pairs of DUT terminals labelled **IN** and **OUT**. Notice that the orientation of both DUT is the same.
+The outputs from the S-parameter probes are called ``nS11``, ``nS12``, ``nS21`` and ``S22`` being represented as voltages specified by complex numbers.  Figure 13.2 
 also shows typical plots of the magnitudes of the simulated S-parameters. For convenience the test-bench instructions have been deleted from Figure 13.3.  Also, if
-required the size of the area allocated to each DUT can be changed, provided the test-bench signal and load circuit connections are not changed. Similarly, the value of :math:`Z0` 
-and the source and load resistors (:math:`R1`, :math:`R2`, :math:`R3` and :math:`R4` in Figure 13.2) can be changed from 50 Ohms. 
+required the size of the area allocated to each DUT can be changed, provided the test-bench signal and load circuit connections are not changed. Similarly, the value of :math:`Z_0` 
+and the source and load resistors (:math:`R_1`, :math:`R_2`, :math:`R_3` and :math:`R_4` in Figure 13.2) can be changed from 50 Ohms. 
 
 |small_signal_S2_EN|
 
@@ -137,7 +137,7 @@ simulations, for example ac ......, and do not have the same named variable defi
 
 |small_signal_S5_EN|
 
-Figure 13.5 Qucs-S **Nutmeg** equation block templates for S to :math:`Y` and :math:`Z` parameter conversion.
+Figure 13.5 Qucs-S **Nutmeg** equation block templates for :math:`S` to :math:`Y` and :math:`Z` parameter conversion.
 
 13.4 Single tone large signal AC Harmonic Balance simulation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -188,13 +188,13 @@ Qucs HB simulation data are output as a plot of frequency domain spectral amplit
 
 
 .. math::     
-    |H| = U(0),U(f1), U(f2), U(f3), ......
+    |H| = U(0),U(f_1), U(f_2), U(f_3), ......
 
-:math:`U(0)` is the DC spectral component, :math:`U(fn)` is the magnitude of a harmonic component at frequency :math:`fn` and :math:`n=1, 2, 3, 4,...`.
+:math:`U(0)` is the DC spectral component, :math:`U(f_n)` is the magnitude of a harmonic component at frequency :math:`f_n` and :math:`n=1, 2, 3, 4,...`.
 In contrast to Qucs,  Xyce outputs HB voltage and current simulation data as plots of complex conjugate spectral components, where
 
 .. math::     
-    |H| = U(0), 2 \cdot sqrt(U(-f1) \cdot \overline{U(f1)} ), 2 \cdot sqrt(U(-f2) \cdot \overline{U(f2)} ),.....   
+    |H| = U(0), 2 \cdot \sqrt {U(-f_1) \cdot \overline{U(f_1)} }, 2 \cdot \sqrt{U(-f_2) \cdot \overline{U(f_2)} },.....   
     
 yielding, eight very similar magnitude harmonic spectra values to Qucs :math:`|H|`. If required the phase at each harmonic frequency can be extracted
 from the Xyce HB simulation data.
@@ -218,7 +218,7 @@ Perform the following steps to setup a multi-tone Xyce HB simulation:
 Normally, multi-tone HB simulation signal sources consist of two or three AC sources with different frequencies and similar amplitudes. 
 With two AC signal sources with nearly equal frequencies, that are not integer related, circuit modulation components can be extracted from circuit output spectra.
 A multi-tone HB example illustrating this feature is given in Figure 13.8, where two AC signals of 0.8 V peak and frequencies 0.95 MHz and 1.05 MHz  are applied to a simple diode circuit.
-The frequencies of individual diode curreny spectral components are show as combinations of signal frequencies :math:`f1` and :math:`f2` and marked in red on Figure 13.9.
+The frequencies of individual diode curreny spectral components are show as combinations of signal frequencies :math:`f_1` and :math:`f_2` and marked in red on Figure 13.9.
 
 |diode_HB_2t_EN|
 
@@ -261,9 +261,9 @@ Nutmeg command **ssse** runs a time domain shooting method with extrapolation vi
 
 
 
-.. math::
+.. code-block:: Bash
 
-ssse v([,]) [level] [step] [skip] [period] [history]
+ ssse v([,]) [level] [step] [skip] [period] [history]
 
 
 
@@ -273,8 +273,8 @@ step is the time step for transient simulation (same meaning as the nutmeg tran 
 skip is the time skipped before the shooting method starts sampling response v([,]), default=0;
 period is the number of periods taken into account for sampling, default=2;
 history is a flag which if set causes nutmeg to record data from all transient iterations. If history is NOT set then only the final steady state solution is recorded.
-In the above SPICE OPUS nutmeg **ssse** statement the brackets :math:`[ ]` indicate optional quantities.  
-Also note that SPICE OPUS option :math:`sssetol` can be changed, if required, to improve simulation convergence.
+In the above SPICE OPUS nutmeg ``ssse`` statement the brackets ``[ ]`` indicate optional quantities.  
+Also note that SPICE OPUS option ``sssetol`` can be changed, if required, to improve simulation convergence.
 
 Figure 13.20 introduces a simple test circuit designed to test the performance of a DC forward biassed semiconductor diode subjected to an AC input voltage signal.  The SPICE OPUS nutmeg
 script is shown in Figure 13.20 attached tp a Qucs-S **Nutmeg script** icon.  This script follows the statement rules required by the SPICE OPUS extended form of SPICE 
@@ -285,7 +285,7 @@ Variables for post-simulation visualization can be found in a similar way by pre
 More details of the use of Qucs-S Custom simulation can be found in Chapter 8.
 Pressing key "F2" causes Qucs-S to simulate the current circuit schematic; firstly generating a Qucs circuit netlist, secondly synthesizing a SPICE style netlist from the Qucs netlist
 (Figure 13.22  shows the SPICE OPUS netlist generated by Qucs-S for the diode test circuit Custom simulation), and finally simulates the circuit netlist using the nutmeg statements 
-located between the SPICE **.control** and **.endc** statements. Following successful simulation Qucs-S visualization features can be used to plot the transient and frequency domain
+located between the SPICE ``.control`` and ``.endc`` statements. Following successful simulation Qucs-S visualization features can be used to plot the transient and frequency domain
 data output.  A typical set of plots is illustrated in Figure 13.23. Notice that the Fourier and **ssse** spectral data for the diode current are identical.  
 
  |ssseFig1_EN|
