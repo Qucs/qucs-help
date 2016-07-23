@@ -191,9 +191,6 @@ Figure 6.4 Plots of the single stage common emitter amplifier, *Rin* (in OHM), *
 6.4 Xyce simulation output data post processing with the **Xyce script** component and SPICE .PRINT statements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
-
 Xyce simulation output data post processing uses an entirely different approach to that adopted by Ngspice and SPICE OPUS.
 Xyce is a circuit simulator developed from scratch some time after the release of SPICE 3f5.  
 This route has allowed the Xyce Development Team to make software decisions which are not constrained except that the
@@ -237,11 +234,11 @@ The Qucs-S processing of the AC version of the Xyce .PRINT statement allows the 
 
 *  **vr(nx)** or **vr(n1,n2)**
 
-   + Node voltage real component with respect to ground or node voltage difference real part ; real number, plotted by Qucs-S
+   + Node voltage real component with respect to ground or node voltage difference real part; real number, plotted by Qucs-S
 
 *  **vi(nx)** or **vi(n1,n2)**
 
-   + Node voltage imaginary component with respect to ground or node voltage difference imaginary part ; real number, plotted by Qucs-S
+   + Node voltage imaginary component with respect to ground or node voltage difference imaginary part; real number, plotted by Qucs-S
 
 *  **Vm(nx)** or **vm(n1,n2)**
 
@@ -257,11 +254,11 @@ The Qucs-S processing of the AC version of the Xyce .PRINT statement allows the 
 
 *  **im(vx)**
 
-   + Magnitude of current flowing in voltage source vx (it may be an independent voltage source or Qucs-S current probe): real number, plotted by Qucs-S
+   + Magnitude of current flowing in voltage source vx (it may be an independent voltage source or Qucs-S current probe); real number, plotted by Qucs-S
 
 *  **ip(vx)**
 
-   + Phase of current flowing in voltage source vx (it may may be an independent voltage source or Qucs-S current probe): real number in radians, plotted by Qucs-S
+   + Phase of current flowing in voltage source vx (it may may be an independent voltage source or Qucs-S current probe); real number in radians, plotted by Qucs-S
 
 *  **idb(vx)**
 
@@ -271,9 +268,35 @@ Examples of these output data types are given in Figure 6.7.
 Figure 6.7 also shows readers how Xyce ABM equations can used to convert phase data from radians to degrees.
 When using Xyce equations in .PRINT statements it is important to remember that ABM mathematical operators and functions ONLY work correctly with real numbers.
 
+Post processing of Xyce HB simulation data is similar to AC data post processing in that the information outline above also applies to Xyce HB data.
+Figures 6.7 presents a typical HB simulation example. 
+In this figure a single stage BJT amplifier, with feedback via an RC network, is driven by an AC signal of 50mV peak and 100kHZ frequency. 
+The HB simulation output data to be stored in an output file, hb.txt in Figure 6.7, is set by the .PRINT statement entered as part of the **Xyce script** icon.  
+Figure 6.8 gives a selection of the resulting HB output data plots. 
+Notice these are all represented by a complex conjugate style of graph.  
+More details of this format and other aspects of Xyce HB simulation can be found in Chapter 13 section 4.
+All Xyce HB .PRINT statement variables must be of the same format to those introduced in the earlier paragraphs referencing Xyce AC simulation.  
+Although multiple **Xyce script** icons are allowed this can result in problems during the post processing of AC and HB simulation data due to uncertainties 
+in determining which frequency scale applies to each type of simulation.
+Hence, it is suggested that Xyce AC and HB **Xyce script** controlled simulations are not requested at the same time.  
+Similarly, multiple .PRINT statements attached to a single **Xyce script** icon can result in simulation failure.  
+A better approach is to use a single .PRINT statement and multiple SPICE continuation lines, see Figure 6.7.
+
+   
 
 
 
+
+.. image:: _static/en/chapter6/Chap6Fig8.png
+   :align: center
+
+Figure 6.7 Xyce HB simulation of a single stage BJT amplifier with collector to base RC feedback network.
+
+
+.. image:: _static/en/chapter6/Chap6Fig9.png
+   :align: center
+
+Figure 6.8  Plotted Xyce voltage and current output data for the BJT amplifier introduced in Figure 6.7.
 
 
 
