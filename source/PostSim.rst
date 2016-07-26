@@ -230,48 +230,48 @@ The Qucs-S processing of the AC version of the Xyce .PRINT statement allows the 
 
 *  **v(nx)** or **v(n1,n2)**
 
-   + Node voltage with respect to ground or node voltage difference; complex number, tabulated by Qucs-S
+   + Node voltage with respect to ground or node voltage difference; complex number, tabulated by Qucs-S,
 
 *  **vr(nx)** or **vr(n1,n2)**
 
-   + Node voltage real component with respect to ground or node voltage difference real part; real number, plotted by Qucs-S
+   + Node voltage real component with respect to ground or node voltage difference real part; real number, plotted by Qucs-S,
 
 *  **vi(nx)** or **vi(n1,n2)**
 
-   + Node voltage imaginary component with respect to ground or node voltage difference imaginary part; real number, plotted by Qucs-S
+   + Node voltage imaginary component with respect to ground or node voltage difference imaginary part; real number, plotted by Qucs-S,
 
 *  **Vm(nx)** or **vm(n1,n2)**
 
-   + Magnitude of a node voltage with respect to ground or magnitude of node voltage differences; real number, plotted by Qucs-S 
+   + Magnitude of a node voltage with respect to ground or magnitude of node voltage differences; real number, plotted by Qucs-S, 
 
 *  **vp(nx)** or **vp(n1,n2)**
 
-   + Phase of a node voltage with respect to ground or phase of node voltage differences; real number in radians, plotted by Qucs-S 
+   + Phase of a node voltage with respect to ground or phase of node voltage differences; real number in radians, plotted by Qucs-S, 
 
 *  **vdb(nx)** or **vdb(n1,n2**
 
-   + Magnitude of a node voltage with respect to ground or magnitude of node voltage differences; real number in dB, plotted by Qucs-S 
+   + Magnitude of a node voltage with respect to ground or magnitude of node voltage differences; real number in dB, plotted by Qucs-S, 
 
 *  **im(vx)**
 
-   + Magnitude of current flowing in voltage source vx (it may be an independent voltage source or Qucs-S current probe); real number, plotted by Qucs-S
+   + Magnitude of current flowing in voltage source vx (it may be an independent voltage source or Qucs-S current probe); real number, plotted by Qucs-S,
 
 *  **ip(vx)**
 
-   + Phase of current flowing in voltage source vx (it may may be an independent voltage source or Qucs-S current probe); real number in radians, plotted by Qucs-S
+   + Phase of current flowing in voltage source vx (it may may be an independent voltage source or Qucs-S current probe); real number in radians, plotted by Qucs-S,
 
 *  **idb(vx)**
 
-   + Magnitude of current flowing in voltage source vx (it may be an independent voltage source or Qucs-S current probe): real number in dB, plotted by Qucs-S
+   + Magnitude of current flowing in voltage source vx (it may be an independent voltage source or Qucs-S current probe): real number in dB, plotted by Qucs-S.
 
 Examples of these output data types are given in Figure 6.7.  
 Figure 6.7 also shows readers how Xyce ABM equations can used to convert phase data from radians to degrees.
 When using Xyce equations in .PRINT statements it is important to remember that ABM mathematical operators and functions ONLY work correctly with real numbers.
 
 Post processing of Xyce HB simulation data is similar to AC data post processing in that the information outline above also applies to Xyce HB data.
-Figures 6.7 presents a typical HB simulation example. 
+Figures 6.8 presents a typical HB simulation example. 
 In this figure a single stage BJT amplifier, with feedback via an RC network, is driven by an AC signal of 50mV peak and 100kHZ frequency. 
-The HB simulation output data to be stored in an output file, hb.txt in Figure 6.7, is set by the .PRINT statement entered as part of the **Xyce script** icon.  
+The HB simulation output data to be stored in an output file, hb.txt in Figure 6.8, is set by the .PRINT statement entered as part of the **Xyce script** icon.  
 Figure 6.8 gives a selection of the resulting HB output data plots. 
 Notice these are all represented by a complex conjugate style of graph.  
 More details of this format and other aspects of Xyce HB simulation can be found in Chapter 13 section 4.
@@ -280,25 +280,66 @@ Although multiple **Xyce script** icons are allowed this can result in problems 
 in determining which frequency scale applies to each type of simulation.
 Hence, it is suggested that Xyce AC and HB **Xyce script** controlled simulations are not requested at the same time.  
 Similarly, multiple .PRINT statements attached to a single **Xyce script** icon can result in simulation failure.  
-A better approach is to use a single .PRINT statement and multiple SPICE continuation lines, see Figure 6.7.
-
-   
-
-
+A better approach is to use a single .PRINT statement and multiple SPICE continuation lines, see Figure 6.8.
 
 
 .. image:: _static/en/chapter6/Chap6Fig8.png
    :align: center
 
-Figure 6.7 Xyce HB simulation of a single stage BJT amplifier with collector to base RC feedback network.
+Figure 6.8 Xyce HB simulation of a single stage BJT amplifier with collector to base RC feedback network.
 
 
 .. image:: _static/en/chapter6/Chap6Fig9.png
    :align: center
 
-Figure 6.8  Plotted Xyce voltage and current output data for the BJT amplifier introduced in Figure 6.7.
+Figure 6.9  Plotted Xyce voltage and current output data for the BJT amplifier introduced in Figure 6.8.
+
+In contrast to AC simulation the Xyce tran .PRINT statement allows the full range of built-in ABM mathematical functions to be employed when computing
+expressions that include node voltage and component current simulation data, see section 6.3. 
+These functions only work correctly with real arguments; any variables represented by complex numbers with real and imaginary parts will cause an error. 
+Bracketed, {.....} expressions can be functions of constants, predefined variables, mathematical operators, implemented functions, node voltages, Qucs-S style probe currents, 
+and the current flowing in SPICE style independent voltage sources.  
+Xyce also allows B style non-linear dependent voltage and current sources to be used to compute transient simulation output data, like for example behavioural multiplication where the
+inputs are node voltages or component currents.
+Although this is a valid use of Xyce B sources the practice does have a number of disadvantages, namely that Xyce B sources do NOT work correctly with AC simulation, and 
+secondly that the circuitry used to generate additional functions often adds nodes to the circuit under test, which as a consequence can slow down simulation.  
+Hence, it is suggested that Xyce B sources should only be used when no other solution can be found. 
+
+The Qucs-S version of the Xyce transient .PRINT statement has the following syntax:
+
+*  **.PRINT tran format=raw file=tran.txt V(n1)  {------} V(d1) .... vpr1#branch   .........**
+
+where **tran.txt** is the name of the output data file generated by a **.PRNT** statement, and
+
+*	**V(nx), V(n1,n2)** are functions of circuit node voltages, 
+
+*       **vprx#branch** or **vx#branch** are probe currents,
+
+*       **{------}** represents an equation for computing an output quantity; Qucs-S identifies different quantities by their bracketed equation names at the top of the columns of data in file **tran.txt**,
 
 
+*       **I(two-terminal device)** where the two-terminal device can be one of V, I, B, E, G, H, D, R, L,C, and YMEMRESISTOR,
+
+*       **Ik(three-or-more-termnal-device)**, see Xyce Reference Guide,
+
+*       **P(two-terminal-device)** or **W(two-terminal-device)** is the power dissipated in a two-terminal device,
+
+*       A full list of the allowed tran .PRINT output variables can be found in the Xyce User and Reference Guides.
+
+
+The Xyce transient simulation shown in Figures 6.10 and 6.11 illustrate how the .PRINT statement syntax is used to 
+store and plot circuit voltages, currents and equations.  Notice that the test circuit in Figure 6.10 also demonstrates
+how the SPICE non-linear B style current source can be used to generate a function of circuit data.
+ 
+.. image:: _static/en/chapter6/Chap6Fig10.png
+   :align: center
+
+Figure 6.10 An ideal OPAMP adder test circuit which demonstrates the Xyce transient .PRINT statement syntax. 
+ 
+.. image:: _static/en/chapter6/Chap6Fig11.png
+   :align: center
+
+Figure 6.11 Typical Xyce transient simulation plotted output data.
 
 6.5 Ngspice and Xyce H SPICE style **.measurement** output data processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
