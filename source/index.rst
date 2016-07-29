@@ -5,7 +5,7 @@
 
 |image0_EN|
 
-Welcome to spice4qucs Help documentation
+Welcome Qucs-S Help documentation
 ========================================== 
 User Manual and Reference Material
 ==========================================
@@ -50,7 +50,7 @@ A "Technical Description" of the Qucs simulator and implemented device models ar
 
 Spice4qucs example schematics can be found in the spice4qucs source code "examples" directory.
 
-Unofficial Qucs build with spice4qucs features enabled called release candidate 5 (rc5) can be downloaded from https://github.com/ra3xdh/qucs/releases/tag/0.0.19S-rc6.
+Unofficial Qucs build with spice4qucs features enabled called release candidate 6 (rc6) can be downloaded from https://github.com/ra3xdh/qucs/releases/tag/0.0.19S-rc6.
 
 .. only:: html
 

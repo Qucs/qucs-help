@@ -339,13 +339,24 @@ Figure 6.10 An ideal OPAMP adder test circuit which demonstrates the Xyce transi
 .. image:: _static/en/chapter6/Chap6Fig11.png
    :align: center
 
-Figure 6.11 Typical Xyce transient simulation plotted output data.
+Figure 6.11 Qucs-S/Xyce plotted data illustrating different types of .PRINT argument.
+
+The **Xyce script** component is designed to allow users to embed a Xyce SPICE netlist on a Qucs-S circuit schematic.
+The main purpose of this feature is to allow users to construct Xyce simulation netlists which contain the fundamental
+simulation commands, like .ac, .tran and .hb, and less common simulation statements, like .four, and .sens,
+plus other SPICE netlist statements, including data write statements.  Anyone interested in exploring this topic further should 
+read the Xyce user and reference documentation then experiment with a few trial simulations.  
+In the future it is possible that the Qucs-S developers will add to this document a series of example simulations which demonstrate additional 
+uses of the **Xyce script**.  
+
 
 6.5 Ngspice and Xyce H SPICE style **.measurement** output data processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 6.6 Qucs-S emulation of the Qucs **PlotVs()** function
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 6.7 Qucs-S output data processing with the Octave numerical analysis and visualization package
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
