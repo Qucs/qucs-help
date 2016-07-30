@@ -356,7 +356,38 @@ uses of the **Xyce script**.
 6.6 Qucs-S emulation of the Qucs **PlotVs()** function
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+The Qucs PlotVs() function allows users to select a specific output data vector as a plot X variable
+and to plot a different output data vector as the Y variable, for example  
+in AC simulation users may require a plot where the X axis is in angular
+form :math:`\omega` in radians, where :math:`\omega = 2 \cdot \pi \cdot f` rather than frequency :math:`f` in Hz.
+Figure 6.12 gives a simple RC low pass filter circuit with different output data visualization plots.  
+In this example graph (a) shows a Qucs **locus** plot of node voltage *V(nout)*, graph (b) shows a Qucs **polar** plot of
+node voltage *V(nout)*, graph (c) shows a Qucs-S  simulated **PlotVs()** plot of the imaginary part of voltage *V(nout)*
+plotted against the real part of voltage *V(nout)*, and finally graph (d) presents the voltage transfer function :math:`V(nout)/V(nin)`
+plotted against frequency. 
+Notice that graphs (a) and (c) are identical.
+Figure 6.12 also illustrates how Qucs **Equation** blocks and Qucs-S **Nutmeg** blocks can be used to set different properties on a single
+circuit schematic: remember **Equation** blocks are actioned before simulation and **Nutmeg** blocks after simulation.
+Unfortunately, the Qucs PlotVs() function is not implemented by Ngspice, SPICE OPUS or Xyce. 
+To eliminate this deficiency the Qucs-S Development Team have added program code which simulates **PlotVs()** allowing users to select which Y axis output vector is plotted
+against a chosen X axis data vector. 
+Figure 6.13 shows the Qucs-S drop-down menu which allows users to select both the X and Y data vector variables. 
+On Qucs-S plots the simulated Qucs style PlotVs() graphs are indicated by an *@* sign leading the X axis variable name.
+Notice that the key tab *New Graph* adds the user specified *Y@X* item to the plot list on clicking it with the left-hand
+mouse button.
+     
 
+
+.. image:: _static/en/chapter6/Chap6Fig12.png
+   :align: center
+
+Figure 6.12 A simple RC low pass filter illustrating a number of different output data visualization plot styles.
+
+.. image:: _static/en/chapter6/Chap6Fig13.png
+   :align: center 
+
+Figure 6.13 The Qucs-S drop-down menu showing The **Edit Diagram Properties** output data list and key tabs for generating a list of *Y* variables,
+for plotting against the default *X* variable, and composite *Y@X* plot variables.
 
 6.7 Qucs-S output data processing with the Octave numerical analysis and visualization package
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
