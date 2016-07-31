@@ -86,7 +86,7 @@ an extension of the SPICE .PRINT statement to generate tables of output values f
 At a first reading of the Xyce manuals the lack of nutmeg would appear to be a serious omission.  
 However, by adding equations composed of numerical values, output variables, mathematical operators and "Analogue behavioural modelling" functions as arguments to 
 SPICE .PRINT statements it becomes possible to manipulate output data in a fashion similar to SPICE nutmeg. 
-The Xyce extended form of .PRINT statement allows "Analogue behavioural modelling (ABM)" equations embedded in *{ .... }*. 
+The Xyce extended form of .PRINT statement allows "Analogue behavioural modelling (ABM)" equations embedded in ``{ .... }``. 
 Such equations ONLY operate on real quantities and hence some restrictions apply to AC and HB simulataion, see later notes. 
 
 The following list presents a summary of the operators and functions implemented by the Ngspice, SPICE OPUS and Xyce circuit simulators. 
@@ -97,24 +97,23 @@ of spice4qucs-help document.
 * **Ngspice**
 
 
-  - **Operators**
+  - **Operators**::
 
     +  -,+,*,/, ^, %,  ,
-
     +  gt, lt, ge, le, ne, and, or, not, eq
- 
     +  >,  <,  >=, <=, <>,  &,  |,   !,  =
 
-  - **Functions**
+  - **Functions**::
 
-    + mag(), ph(), cph(), unwrap(),j(), real(), imag(), db(), log(), ln(), exp(), abs() sqrt(), sin(). cos(), tan(), atan(), sinh(), cosh(), tanh(),
+    + mag(), ph(), cph(), unwrap(), j(), real(), imag(), db(), log(), ln(), 
+    + exp(), abs() sqrt(), sin(). cos(), tan(), atan(), sinh(), cosh(), tanh(),
+    + floor(), ceil(), name(), mean(), arg(), group-delay(), vector(), initvec(), 
+    + length(), interpolate(), deriv(), vecd(), vecmin(), minimum(),
+    + vecmax(), maximum(), fft(), ifft(), sortorder(), rnd, 
+    + sgauss(), sunif(), poisson(), exponential()
 
-    + floor(), ceil(), name(), mean(), arg(), group-delay(), vector(), initvec(), length(), interpolate(), deriv(), vecd(), vecmin(), minimum(),
 
-    + vecmax(), maximum(), fft(), ifft(), sortorder(), rnd, sgauss(), sunif(), poisson(), exponential()
-
-
-  - **Constants**
+  - **Constants**::
 
     + pi, e, c, i, kelvin, echarge, boltz, planck, yes, no, TRUE, FALSE
 
@@ -123,47 +122,45 @@ of spice4qucs-help document.
 * **SPICE OPUS**
 
 
-  - **Operators**
+  - **Operators**::
 
     + -,+,  *,/, ^, %, , 
-
     +  gt, lt, ge, le, ne, and, or, not, eq. ;, [], [%]
 
-  - **Functions** 
+  - **Functions**::
 
-    + abs(), mag(), magnitude(), db(), ph(), phase(), unwrap(), real(), re(), imag(), im(), j(), ln(), log(), log10(), exp(), sqrt(), sin(),
-
-    + cos(), tan(), atan(), floor(), ceil(), round(), length(), mean(), sum(), min(), max(), vector(), unitvec(), rnd(), rndunif(), rndgauss(),
-
+    + abs(), mag(), magnitude(), db(), ph(), phase(), unwrap(), real(), re(), 
+    + imag(), im(), j(), ln(), log(), log10(), exp(), sqrt(), sin(),
+    + cos(), tan(), atan(), floor(), ceil(), round(), length(), mean(), sum(), 
+    + min(), max(), vector(), unitvec(), rnd(), rndunif(), rndgauss(),
     + interpolate(), deriv(), integrate(), timer, clock(), area()
 
-  - **Constants**
+  - **Constants**::
 
     + pi, e, c, i, kelvin, echarge, boltz, planck, yes, no, true, false
 
 * **Xyce**
 
-  - **Operators**
+  - **Operators**::
 
     + -,+ , *, /, **
-
     + ==, !=, >, >=, <, <=
  
-  - **Functions** 
+  - **Functions**::
 
-    + abs(), agauss(), gauss(), ddt(), ddx(), if(), int(), limit(), m(), min(), max(), pwr(), pow(), pwrs(), rand(), sgn(), stp(),sqrt(),
-
-    + table(), uramp(), acos(), acosh(), arctan(), asin(), asinh(), atan(), atanh(), atan2(), cos(), cosh(), exp(), ln(), log(), log10(),
-
+    + abs(), agauss(), gauss(), ddt(), ddx(), if(), int(), limit(), m(), min(), max(), 
+    + pwr(), pow(), pwrs(), rand(), sgn(), stp(),sqrt(),
+    + table(), uramp(), acos(), acosh(), arctan(), asin(), asinh(), atan(), atanh(), 
+    + atan2(), cos(), cosh(), exp(), ln(), log(), log10(),
     + sin(), sinh(), tan(), tanh()
 
-  - **Constants**
+  - **Constants**::
 
     + PI, EXP
 
 
 Comparing the above lists with the Qucs list of post processing functions readers will observe that many of the Qucs RF data manipulation functions and
-electronic data analysis and plotting functions, like for example function PlotVs(), are NOT supported by Ngspice, SPICE OPUS and Xyce.  
+electronic data analysis and plotting functions, like for example function ``PlotVs()``, are NOT supported by Ngspice, SPICE OPUS and Xyce.  
 Normally, this is not a particular problem because other means for generating these missing functions have been implemented by Xyce and Qucs-S Development Teams.  
 This topic is expanded further in sections 6.5 and 6.6. 
 One additional point to note concerning the above list is that all the operator, function and constant names are reserved words and must NOT be used for other purposes, like for example, naming circuit nodes.  If they are used out of context the SPICE engines often fail when passing circuit netlists. 
@@ -172,7 +169,7 @@ In the case of misuse in "naming circuit nodes" Qucs-S will report an error and 
 
 Figures 6.3 and 6.4 introduce a single stage BJT common emitter amplifier circuit set up for AC small signal simulation with Ngspice.  
 The **Nutmeg equation block** demonstrates the basic use of  post simulation scripts for extracting circuit properties from output data. 
-Results obtained with SPICE OPUS are identical to those shown in Figure 6.5 when Ngspice function :math:`cph()` is replaced by SPICE OPUS function :math:`phase()`.  
+Results obtained with SPICE OPUS are identical to those shown in Figure 6.5 when Ngspice function ``cph()`` is replaced by SPICE OPUS function ``phase()``.  
 Please note only one **Nutmeg equation block** of each simulation type, for example *ac*, is allowed per schematic. 
 
 .. image:: _static/en/chapter6/Chap6Fig3.png
@@ -307,22 +304,22 @@ Hence, it is suggested that Xyce B sources should only be used when no other sol
 
 The Qucs-S version of the Xyce transient .PRINT statement has the following syntax:
 
-*  **.PRINT tran format=raw file=tran.txt V(n1)  {------} V(d1) .... vpr1#branch   .........**
+*  ``.PRINT tran format=raw file=tran.txt V(n1)  {------} V(d1) .... vpr1#branch   .........``
 
-where **tran.txt** is the name of the output data file generated by a **.PRNT** statement, and
+where ``tran.txt`` is the name of the output data file generated by a ``.PRNT`` statement, and
 
-*	**V(nx), V(n1,n2)** are functions of circuit node voltages, 
+*	``V(nx), V(n1,n2)`` are functions of circuit node voltages, 
 
-*       **vprx#branch** or **vx#branch** are probe currents,
+*       ``vprx#branch`` or ``vx#branch`` are probe currents,
 
-*       **{------}** represents an equation for computing an output quantity; Qucs-S identifies different quantities by their bracketed equation names at the top of the columns of data in file **tran.txt**,
+*       ``{------}`` represents an equation for computing an output quantity; Qucs-S identifies different quantities by their bracketed equation names at the top of the columns of data in file ``tran.txt``,
 
 
-*       **I(two-terminal device)** where the two-terminal device can be one of V, I, B, E, G, H, D, R, L,C, and YMEMRESISTOR,
+*       ``I(two-terminal device)`` where the two-terminal device can be one of V, I, B, E, G, H, D, R, L,C, and YMEMRESISTOR,
 
-*       **Ik(three-or-more-termnal-device)**, see Xyce Reference Guide,
+*       ``Ik(three-or-more-termnal-device)``, see Xyce Reference Guide,
 
-*       **P(two-terminal-device)** or **W(two-terminal-device)** is the power dissipated in a two-terminal device,
+*       ``P(two-terminal-device)`` or ``W(two-terminal-device)`` is the power dissipated in a two-terminal device,
 
 *       A full list of the allowed tran .PRINT output variables can be found in the Xyce User and Reference Guides.
 
