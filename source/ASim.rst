@@ -132,6 +132,96 @@ Figure 5.5 Model parameter sweep example
 5.5 Qucs and SPICE simulation of device and circuit temperature properties
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+5.6 Spectrum analysis with Ngspice and Nutmeg scripting
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Qucs-S have no unified simulation type **"Spectrum analysis"** for all simulation
+backends. But you may use Nutmeg scripting to implement Spectrum analysis if
+Ngspice or SpiceOpus is selected as the default simulation kernel. 
+
+Let's consider double balanced passive diode mixer circuit.
+
+.. image:: _static/en/chapter5/mixer.png
+
+Figure 5.6 Diode double balanced mixer simulation
+
+Balanced mixer circuit has two inputs: local oscillator
+:math:`f_{LO}=15\mathrm{MHz}` and RF signal :math:`f_{RF}=7\mathrm{MHz}` 
+and gives a set of signals at the outputs. Transformer models are taken from the
+**Transformer** library form the Qucs-S distribution.  Output signal
+contains components with the following frequencies:
+
+.. math::
+ f_{out}= \pm m f_{RF} \pm n f_{LO}\qquad \mathrm{where}\quad m,n \neq 0
+
+The following two components are the strongest (upper IF and lower IF
+respectively):
+
+.. math::
+ f_{IF2} = f_{LO} + f_{RF}
+
+.. math::
+ f_{IF1} = f_{LO} - f_{RF}
+
+We should these signals as peaks at the spectrum.
+
+It's need to use Nutmeg scripting to obtain the spectrum. **Nutmeg script**
+component serves for this purpose at the presented circuit. Let's consider
+Nutmeg script structure. Such structure is need to be used for every spectrum
+analysis. Nutmeg script source code is presented here:
+
+
+.. code-block:: Bash
+ :linenos:
+
+ tran 1n 10u 0
+ linearize v(out)
+ fft V(out)
+ let S = db(v(out))
+
+Spectrum calculation is performed by the ``fft()`` operator at the line #3.
+The argument of this function is transient simulation result vector (voltage or
+current). And it's need to perform a transient simulation before.
+Transient simulation is performed at the line #1. Simulation step is :math:`t_s=1\mathrm{ns}`
+and duration is :math:`T_d=10\mathrm{\mu s}`. This gives 
+
+.. math::
+ N = \frac{T_d}{2t_s} = \frac{10\,\mathrm{\mu s}}{2 \cdot 1\,\mathrm{ns}} =5000
+
+spectrum points.
+
+Frequency step will be:
+
+.. math::
+ F = \frac{1}{2 N t_s} = 100 \mathrm{kHz}
+
+We can summarize that the smallest timestep and the longest duration gives the
+most precise frequency step and spectrum analysis precision. But it increases
+the simulation time.
+
+Ngspice uses dynamic timestep calculation at simulation time. And real timestep
+may differ from the specified in the ``tran`` statement. It's need to perform
+simulation analysis linearization. Line#2 linearizes simulation result (output
+voltage ``V(out)``). Vector ``V(out)`` contains now linearized transient simulation
+result and could be passed to the ``fft()`` input (line #3).
+
+
+After FFT we can plot ``V(out)`` vector and see spectrum. But we can apply any
+postprocessing to it. For example we can express spectrum in decibels (dB) with
+``dB()`` nutmeg function (line #4, ``S`` variable). You need to specify these
+two variables in the Nutmeg script properties (Figure 5.7)
+
+.. image:: _static/en/chapter5/spectr-setup.png
+
+Figure 5.7 Nutmeg script properties setup
+
+Simulation results are shown in the Figure 5.8. Both spectrum and logarithmic
+spectrum (dB) are shown. 
+
+.. image:: _static/en/chapter5/spec.png
+
+Figure 5.8 Spectrum simulation result. 
+
 `back to the top <#top>`__
 
 
