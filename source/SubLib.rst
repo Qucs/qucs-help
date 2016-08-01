@@ -354,7 +354,40 @@ nodes will be mapped to component port in the following sequence:
 * Node ``50`` --- to Port ``4``
 * Node ``25`` --- to Port ``5``
 
+3.5 Libraries blacklisting
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Every library may consist of simulator-incompatible components. For example
+XSPICE devices will not work with Xyce backend. And Qucsatror microwave devices 
+will not work with any of SPICE.
+
+Library blacklisting serves to hide simulator incompatible libraries in Qucs-S 
+library manager view. User will not see such libraries. This prevents simulator
+compatibility issue.
+
+There are three ``*.balcklist`` files in the system Qucs-S library directory
+(for example ``$QUCSDIR/share/qucs-s/library/``). All files have plain text
+format and contain a list of simulator-incompatible library files with extension
+in the current directory. File entries are newline-separated. These libraries
+will be blacklisted and will be not shown in the library manager if appropriate
+simulator is selected as default.
+
+Here is blacklist files list:
+
+* ``ngspice.blacklist`` --- The list of Ngspice-incompatible libraries;
+* ``xyce.blacklist`` --- The list of XYCE-incompatible libraries;
+* ``qucs.blacklist`` --- The list of Qucsator-incompatible libraries;
+
+For example, let's consider contents of the ``qucs.blacklist`` file: ::
+
+  AnalogueCM.lib
+  Cores.lib
+  Transformers.lib
+  Xanalogue.lib
+
+
+All of these libraries contain SPICE-only components (XSPICE analogue blocks)
+and will not work with Qucsator. 
 
 
 `back to the top <#top>`__
