@@ -146,10 +146,11 @@ Let's consider double balanced passive diode mixer circuit.
 Figure 5.6 Diode double balanced mixer simulation
 
 Balanced mixer circuit has two inputs: local oscillator
-:math:`f_{LO}=15\mathrm{MHz}` and RF signal :math:`f_{RF}=7\mathrm{MHz}` 
-and gives a set of signals at the outputs. Transformer models are taken from the
-**Transformer** library form the Qucs-S distribution.  Output signal
-contains components with the following frequencies:
+:math:`f_{LO}=15\mathrm{MHz}` (``LO`` node) and RF signal :math:`f_{RF}=7\mathrm{MHz}`
+(``RF`` node on schematic) and gives a set of signals at the outputs. Transformer
+models are taken from the **Transformer** library form the Qucs-S distribution.  
+Output signal is taken from the ``out`` node. It contains components with the 
+following frequencies:
 
 .. math::
  f_{out}= \pm m f_{RF} \pm n f_{LO}\qquad \mathrm{where}\quad m,n \neq 0
@@ -163,12 +164,13 @@ respectively):
 .. math::
  f_{IF1} = f_{LO} - f_{RF}
 
-We should these signals as peaks at the spectrum.
+We should see these signals as peaks at the spectrum plot.
 
-It's need to use Nutmeg scripting to obtain the spectrum. **Nutmeg script**
-component serves for this purpose at the presented circuit. Let's consider
-Nutmeg script structure. Such structure is need to be used for every spectrum
-analysis. Nutmeg script source code is presented here:
+We want to obtain mixer output voltage plot ``V(out)``. It's need to use Nutmeg
+scripting to obtain the spectrum. **Nutmeg script** component serves for this 
+purpose at the presented circuit. Let's consider Nutmeg script structure. Such 
+structure is need to be used for every spectrum analysis. Nutmeg script source 
+code is presented here:
 
 
 .. code-block:: Bash
@@ -220,7 +222,10 @@ spectrum (dB) are shown.
 
 .. image:: _static/en/chapter5/spec.png
 
-Figure 5.8 Spectrum simulation result. 
+Figure 5.8 Spectrum simulation result.
+
+We can see two main peak on spectrum (:math:`f_{IF1}=22 \mathrm{MHz}` and :math:`f_{IF2}=8\mathrm{MHz}` 
+respectively). RF and LO signals are rejected.
 
 `back to the top <#top>`__
 
