@@ -245,7 +245,7 @@ The Qucs-S processing of the AC version of the Xyce .PRINT statement allows the 
 
    + Phase of a node voltage with respect to ground or phase of node voltage differences; real number in radians, plotted by Qucs-S, 
 
-*  **vdb(nx)** or **vdb(n1,n2**
+*  **vdb(nx)** or **vdb(n1,n2)**
 
    + Magnitude of a node voltage with respect to ground or magnitude of node voltage differences; real number in dB, plotted by Qucs-S, 
 
@@ -389,7 +389,128 @@ for plotting against the default *X* variable, and composite *Y@X* plot variable
 6.7 Qucs-S output data processing with the Octave numerical analysis and visualization package
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+6.7.1 Introduction
+~~~~~~~~~~~~~~~~~~~~
+
+The Qucs output data post-processing package provides a sophisticated, and very practical, computer aided tool for analysing, and reporting, simulated performance of electronic systems 
+and circuit designs.
+The fact that it allows schematics, data tables, two and three dimensional graphics plus blocks of user input text to be displayed simultaneously on an interactive graphical interface window,
+makes the tool suitable for generating "eye catching" slides, reports, theses ,books and indeed any other equivalent media.  
+Qucs output data post-processing uses a structure and features which are similar to that available with the well known GPL Octave program.  
+Octave is a numerical analysis and visualization package with an extensive range of optional **Tool Boxes**.
+However, the Qucs data post-processing tool was never intended to be a replacement for packages like Octave.
+Today, Qucs post-processing has evolved into a facility which allows simple every day data analysis and visualization tasks to be done with ease.
+Moreover, the post-processing capabilities can be easily learned and applied to most simulation data, making
+the Qucs data post-processing routines ideal for both beginners and more knowledgeable users. 
+Qucs-S also makes use of a high percentage of the Qucs post-processing capabilities.
+Throughout this document readers will find numerous examples of Qucs-S output data processing.
+In most circuit simulations the Qucs style output data processing is more than adequate for analysing and presenting simulation data.
+For those cases where a more sophisticated, and often more complex, form of simulation data analysis and visualization is required the Qucs/Qucs-S Development
+Teams have provided a link between output simulation data and the Octave package.
+This section introduces this link and describes how it is set up and employed.
+In order to use Octave with Qucs-S the Octave package must be installed on the computer running Qucs-S.
+Users are advised to install the Octave 4 series package (at time of writing the current release is Octave 4.0.3) because this includes a Qt based plotting system which
+interfaces well with Qucs-S.
+Once Octave is installed and working correctly Qucs-S must be informed by registering the location of the Octave binary on a Qucs-S menu.
+Firstly, click on the Qucs-S "File" tab (top right hand of GUI window). 
+Secondly, click on menu item **Application Settings** or press keys ctrl+,.
+This action should result in the display of the menu window shown in Figure 6.14.
+Thirdly, click on the **Locations** menu tab.
+This action causes the display of the menu window shown in Figure 6.15.
+Enter the absolute directory location of the installed Octave program in the box labelled **Octave Path:**, for example */usr/bin*.
+If the above sequence is followed correctly Qucs-S and Octave should be linked and ready for post-processing of Qucs-S output data by Octave.
+
+  
+
+ .. image:: _static/en/chapter6/Chap6Fig14.png
+   :align: center
+
+Figure 6.14 File :math:`->`  Edit Qucs Properties :math:`->` **Application Settings** menu.
+
+.. image:: _static/en/chapter6/Chap6Fig15.png
+   :align: center  
+    
+Figure 6.15  :math:`->` **Locations** menu.  
+
+6.7.1 Using Octave for numerical analysis and visualization of Qucs-S simulation output data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+By combining Qucs-S schematics with Octave script files (*name.m* style files) the post-simulation data processing
+provided by Qucs-S is extended to include significant extra facilities.  
+Octave not only adds full numerical analysis and programming capabilities but also makes available all the features provided by the optional Octave **Tool Boxes**.
+To use Octave with Qucs-S for output data processing two Qucs-S files are required; firstly a Qucs-S schematic file called *xxxxxx.sch*, and
+secondly an Octave script file called *xxxxxx.m*, where name "xxxxxx" must be identical for both files. By using the same name
+Qucs-S assumes that script file *xxxxxx.m* is to be used to control the post-simulation processing of the output data generated by the
+simulation of file *xxxxxx.sch*.
+Figures 6.16 and 6.17 show examples of the *xxxxxx.sch* and *xxxxxx.m* files.
+Figure 6.16 presents a Qucs-S schematic which represents a basic RC low pass filter driven from a one Ohm AC voltage signal generated by a series of
+independent AC current generators of one ampere magnitude and different frequencies.  
+This circuit generates an filters a composite time domain signal with differing input (node nin) and output (node nout) voltage spectra.
+Figure 6.17 illustrates how *xxxxxx.m* files can be entered and edited using the Qucs-text editor. 
+In this example the Octave file is called *S4Q_FFT2V_Test.m* and the Qucs-S schematic file *S4Q_FFT2V_Test.sch*.
+Figure 6.17 also shows the location of the (1) the Qucs-S window where Octave displays output data and messages and
+(2) the Qucs-S window (bottom **Octave Dock** window) where Octave commands/statements can be entered by users. 
+Note that saved *xxxxxx.m* files are listed under the Octave subsection of the **Content** tab in the **Main Dock** window on
+the left-hand side of the Qucs-S GUI. 
    
+
+.. image:: _static/en/chapter6/Chap6Fig16.png
+   :align: center  
+    
+Figure 6.16  Qucs-S circuit schematic *S4Q_FFT2V_Test.sch*.
+ 
+.. image:: _static/en/chapter6/Chap6Fig17.png
+   :align: center  
+    
+Figure 6.17 Octave post processing script *S4Q_FFT2V_Test.m*.  
+
+Once the *xxxxxx.sch* and *xxxxxx.m* files are entered they can be run by Qucs-S to generate circuit simulation output and
+undertake output processing with Octave.
+Qucs-S allows this to be done in two ways; firstly *manually* controlled by users and secondly *automatically* controlled by Qucs-S.
+Both methods require users to load the *xxxxxx.sch* file into the main Qucs-S GUI window before undertaking circuit simulation and
+output data post-processing:
+
+*   **Manual method**
+
+    + Load *xxxxxx.sch** into Qucs-GUI window
+    + Simulate circuit (press key F2)
+    + Type the name of the *xxxxxx.m* file without the *.m* extension in the **Octave Dock** command window
+    + If both the *xxxxxxx.sch* and *xxxxxx.n* files are error free Qucs-S simulates the loaded circuit and undertakes the requested output data post-processing with Octave.
+    + Any requested visualization plots are displayed using Qt in new windows superimposed on the Qucs-S GUI
+
+
+*   **Automatic method**
+
+    + Load *xxxxxx.sch** into Qucs-GUI window
+    + Simulate circuit (press key F2)
+    + If both the *xxxxxxx.sch* and *xxxxxx.n* files are error free Qucs-S simulates the loaded circuit and undertakes the requested output data post-processing with Octave.
+    + Any requested visualization plots are displayed using Qt in new windows superimposed on the Qucs-S GUI
+
+Please note only one of the two Qucs-S/Octave simulation data post-processing methods can be active at any one time.
+To select which *tick* the correct boxes in the **Edit File Properties** window located under **File -> Document Settings**, see Figure 6.18.   
+For example when box **open data display after simulation** is *ticked* and box **run script after simulation** is NOT ticked then the **Manual method** is selected.
+Reversing which box is ticked results in selection of the **Automatic method** of Octave post-simulation data processing. 
+ 
+.. image:: _static/en/chapter6/Chap6Fig18.png
+   :align: center  
+    
+Figure 6.18  The **Edit File Properties** window.
+
+Before introducing the structure and function of the Octave *xxxxxx.m* file the simulation post-processing results for the *S4Q_FFT2V_Test* example are introduced and briefly explained.
+This allows a number of the basic features required for an Octave *m* file to successfully process Qucs-S simulation output data to be listed before presenting the more complex features of
+individual Octave numerical analysis and plotting functions, and hopefully help all Qucs-S users understand the background and requirements to writing Octave post-processing *m* scripts.
+Figure 6.16 shows a selection of the tabulated and graphical results for the RC filter circuit represented by schematic *S4Q_FFT2_Test.sch*.
+Octave simulation data post-processing scripts are required to undertake a number of basic tasks if they are to successfully extract useful data from simulation performance results: firstly they
+must be able to read the numerical output data generated by Qucs-S and convert this information into a numerical format which Octave can read and process, secondly they must instruct Octave as to the
+data processing tasks that it is required to undertake and thirdly they must be able to tabulate, and plot the transformed data in a format that can be easily understood by Qucs-S
+users.  How this is done forms the central topic of the next part of this document.
+ 
+.. image:: _static/en/chapter6/Chap6Fig19.png
+   :align: center  
+ 
+   
+Figure 6.19 Qucs-S/Octave output data results for example circuit illustrated in Figure 6.16.
+
+
 
    `back to the top <#top>`__
 
