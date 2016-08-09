@@ -5,7 +5,7 @@
 
 |image0_EN|
 
-Welcome Qucs-S Help documentation
+Qucs-S Help documentation
 ========================================== 
 User Manual and Reference Material
 ==========================================
