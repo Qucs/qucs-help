@@ -41,7 +41,7 @@ Figure 5.1 Fourier and small signal AC analysis of a single stage transistor amp
 .. |four_EN| image:: _static/en/chapter5/Fourier.svg
 
 5.1.1 Additional Ngspice, SPICE OPUS and Xyce *Fourier simulation* examples
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: _static/en/chapter5/FourierSP.png
 
@@ -118,37 +118,82 @@ Figure 5.3 Noise analysis of a single stage transistor amplifier.
 5.4 One and two parameter sweep controlled simulations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can use both one and two parameter (in nested loops) sweep with Ngspice and 
-Xyce. There is no warranty of proper results for Xyce and Parameter sweep with 
-Time-domain simulation, because Xyce uses adaptive time step for each step of 
-sweep variable. Parameter sweep for DC and frequency domain works properly. 
+Both one and two **Parameter sweep** simulations (in nested loops) are implemented with Ngspice, SPICE OPUS and Xyce. 
+However, there is no warranty that proper results will be obtained with the Xyce time domain simulation 
+linked to **Parameter sweep** changes, mainly because Xyce uses an adaptive time step for each step of a sweep variable. 
+**Parameter sweep** simulations operating with DC and frequency domain circuit simulation do not suffer from this problem and normally
+report accurate output data. 
 
-There are the following differences between Qucs and Spice4qucs parameter sweep 
-definitions.
+The differences between the Qucs-S and Qucs **Parameter sweep** definitions are listed below
 
-#. You should use component name instead of variable to sweep component value. 
-   For example you should use ``C1``, ``R1``, etc. to sweep values of C1 and R1 
-   values.  
-#. You can sweep component model parameter value with Ngspice. You should use 
-   the following    notation ``Component_name.Parameter_name``. For example 
-   ``T1.Bf`` will sweep  the ``Bf`` parameter of the transistor ``T1``. 
-#. You cannot use ``.PARAM`` and ``.GLOBAL_PARAM`` names as sweep variables.
+#. Qucs-S uses a component name instead of a variable name to set a sweep component instance value; 
+   for example use ``C1``, ``R1``, etc. to sweep capacitance and resistance values of components ``C1`` and ``R1``.  
+
+#. Ngspice and Xyce allow model parameter values to be swept using the following notation:  
+   Ngspice uses ``@dev[param]`` and Xyce uses ``dev:param``. 
+   This notation is selected by setting the **Parameter sweep** variable *SweepModel* to true.
+   Note also that the Ngspice nutmeg command *altermod* can also be used to change the
+   value of a component or model parameter value. Qucs legacy devices use notation ``Component_name.Parameter_name``.
+   This notation is selected by setting the **Parameter sweep** variable *SweepModel* to false.  
+   Table 5.1 shows the allowed combinations of *SweepModel* and parameter values.
+   All other combinations are illegal and will give incorrect output data or cause Qucs-S to crash and should no be used. 
 
 
-|BJT_swp_EN|
+#. Qucs-S does not allow the use of ``.PARAM`` and ``.GLOBAL_PARAM`` names as sweep variables.
 
-Figure 5.4 Parameter sweep example
+Table 5.1 Allowed combinations of Component/Model identifiers and *SweepMpdel* access codes
 
-There is a small example of parameter sweep usage. Sweep variable is collector 
-resistor R2. It is specified in Parameter Sweep properties.
++--------------------+--------------------------+-------------------------+------------------------------+
+| Simulator          |    *SweepModel*          |  Component access       |  Model access                |
++====================+==========================+=========================+==============================+
+| Qucsator           |       FALSE              |   Value                 |                              |
++--------------------+--------------------------+-------------------------+------------------------------+
+|                    |       FALSE              |                         | Device.parameter_value       |
++--------------------+--------------------------+-------------------------+------------------------------+
+| Ngspice            |       FALSE              |   Name                  |                              |
++--------------------+--------------------------+-------------------------+------------------------------+
+|                    |       TRUE               |                         | @Device_name[parameter_name] |
++--------------------+--------------------------+-------------------------+------------------------------+
+| Xyce               |       FALSE              |   Name                  |                              |
++--------------------+--------------------------+-------------------------+------------------------------+
+|                    |       TRUE               |                         |  Device_name:parameter_name  |
++--------------------+--------------------------+-------------------------+------------------------------+
+
+
+Figure 5.4 shows how changing the values of collector resistance effects the mid-band gain of a single stage BJT
+amplifier.  Theoretically, the ideal gain is given by ``R2/R4``, suggesting good agreement between the simulated
+output data and theory. The schematic illustrated in Figure 5.4 also presents a technique for scanning a component
+value in different simulation domains. In this example the same component value ( ``R2``) is changed by a **Parameter sweep**
+icon linked to individual simulation icons (``SW3+TR1`` and ``SW2+AC1``).   
 
 |modswp_EN|
 
-Figure 5.5 Model parameter sweep example
+Figure 5.4 Ngspice component sweep example.
 
-.. |modswp_EN| image:: _static/en/chapter5/BJT_modelpar_swp.png
+The next example, given in Figure 5.5, demonstrates the effect of changing capacitor C1  on the low frequency response of
+the simgle stage BJT amplifier introduced in Figure 5.4.  
 
-.. |BJT_swp_EN| image:: _static/en/chapter5/BJT_swp.png
+|BJT_swp_EN|
+
+Figure 5.5 Xyce component sweep example two.
+
+.. |modswp_EN| image:: _static/en/chapter5/NgspiceR2sweep.png
+
+.. |BJT_swp_EN| image:: _static/en/chapter5/XyceC1sweep.png
+
+|Vx2_swp_EN|
+
+Figure 5.6 Two variable nested loop parameter scan: Ngspice and Xyce BJT output characteristics.
+
+.. |Vx2_swp_EN| image:: _static/en/chapter5/Sweep2Variables.png
+
+|BF_swp_EN|
+
+Figure 5.f Effects of BJT BF parameter scan on DC collector current: Xyce simualtion.
+
+.. |BF_swp_EN| image:: _static/en/chapter5/SweepBF.png
+
+
 
 5.5 Qucs and SPICE simulation of device and circuit temperature properties
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
