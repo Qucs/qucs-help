@@ -200,6 +200,8 @@ placing them in the correct position within the SPICE netlist of the circuit bei
 
 ..  |AD822_lib_EN| image::  _static/en/chapter3/ad822_lib.png
 
+..  |SPICELIB_EN| image::  _static/en/chapter3/spicelib.png
+
 3.2 Component and circuit libraries
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -354,11 +356,73 @@ nodes will be mapped to component port in the following sequence:
 * Node ``50`` --- to Port ``4``
 * Node ``25`` --- to Port ``5``
 
-3.5 Libraries blacklisting
+3.5 Usage of the whole SPICE library
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Qucs-S supports usage of the whole SPICE libraries. Such libraries will be 
+visible in the **QucsLib** tool and left-side **Library** dock. Library 
+modification will be not required, but user may need to attach components 
+symbols as resource files. 
+
+
+Let's consider how to use it. SPICE library again will be treated as a set of 
+``.SUBCKT`` entries. You should give ``*.lib`` extension an existing  SPICE 
+library and put in into ``$HOME/.qucs/user_lib`` or system Qucs library 
+directory (for example ``/usr/share/qucs-s/library`` for Unix). Then you can 
+get access to this newly added SPICE library via QucsLib tool or from the 
+left-side dock. You will see its name and component list (Figure 3.14). 
+
+|SPICELIB_EN|
+
+Figure 3.14 An example of a SPICE library view in the Qucs library manager.
+
+Every ``.SUBCKT`` found is considered as a single component. It will be shown 
+in the library manager and it will be available for drag'n'drop. Subcircuits 
+are available via an existing ``SpiceLibComp`` component.
+
+
+Default symbol will be created, if there is no symbol attached to component. But 
+you can attach user symbol to every component. Symbol file (Qucs XML) should be 
+placed at the ``library_name`` subdirectory. For example, you should create 
+``opamps`` subdirectory for ``opamps.lib`` file and put all necessary 
+symbol files int it. This location is used also for other resources such as 
+XSPICE CodeModel sources (``*.mod`` and ``*.ifs`` files). Symbol file ``*.sym`` 
+format is considered in the previous section. Two symbol types are implemented:
+
+1. Default symbol for all components in library. It should be placed at 
+``library_name.sym`` file. For example ``opamps.sym`` will be treated as the 
+default symbol for ``opamps.lib`` library.
+2. Symbol for every component (``component_name.sym`` file). For example,
+``LM358.sym`` will be mapped to ``LM358`` component.
+
+Default symbol will be substituted, if component symbol file is not found.
+
+Please keep in mind that SPICE subcircuit names are case-insensitive, but 
+symbol file names may be case-sensitive for some specific platforms. In other 
+words ``ad822.sym`` may not work for ``AD822`` component. But ``AD822.sym`` 
+will be attached properly.
+
+You can look at SPICE library example with attached symbols here: 
+https://github.com/ra3xdh/qucs_spicelib Clone this repository and copy 
+``ad822.lib`` file and ``ad822`` subdirectory into ``$HOME/.qucs/user_lib`` 
+directory. This library contains one component (AD822 opamp).
+
+Let's consider library and resource files tree: ::
+
+   qucs_spicelib/            
+   ├── ad822                                                                     
+   │      └── ad822.sym
+   └── ad822.lib 
+   
+   
+As you can see, resources are placed into ``ad822`` subdirectory. It contains 
+one default symbol file ``ad822.sym`` that is placed in resource subdirectory. 
+
+3.6 Libraries blacklisting
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Every library may consist of simulator-incompatible components. For example
-XSPICE devices will not work with Xyce backend. And Qucsatror microwave devices 
+XSPICE devices will not work with Xyce backend. And Qucsator microwave devices 
 will not work with any of SPICE.
 
 Library blacklisting serves to hide simulator incompatible libraries in Qucs-S 
