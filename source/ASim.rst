@@ -170,8 +170,13 @@ icon linked to individual simulation icons (``SW3+TR1`` and ``SW2+AC1``).
 
 Figure 5.4 Ngspice component sweep example.
 
-The next example, given in Figure 5.5, demonstrates the effect of changing capacitor C1  on the low frequency response of
-the simgle stage BJT amplifier introduced in Figure 5.4.  
+The example shown in Figure 5.5 demonstrates the effect of changing capacitor C1  on the low frequency response of
+the single stage BJT amplifier introduced in Figure 5.4. Figures 5.6 and 5.7 introduce further extensions of the Qucs-S
+swept parameter capabilities. Notice that Xyce allows semiconductor, and indeed other component models with parameters specified
+by the ``.MODEL`` statement, to be swept in DC simulations.  However, this is not the case with Ngspice and SPICE OPUS DC simulations where 
+only independent voltage and current source values and resistor values can be swept. This limitation follows directly from the original
+SPICE 3f5 simulator C code. In contrast to Ngspice and SPICE OPUS, Xyce includes a .STEP statement which supports an extended range 
+of swept component parameter features, making it similar to the original Qucs swept parameter simulation. 
 
 |BJT_swp_EN|
 
@@ -189,7 +194,7 @@ Figure 5.6 Two variable nested loop parameter scan: Ngspice and Xyce BJT output 
 
 |BF_swp_EN|
 
-Figure 5.f Effects of BJT BF parameter scan on DC collector current: Xyce simualtion.
+Figure 5.7 Effects of BJT BF parameter scan on DC collector current: Xyce simualtion.
 
 .. |BF_swp_EN| image:: _static/en/chapter5/SweepBF.png
 
@@ -209,7 +214,7 @@ Let's consider double balanced passive diode mixer circuit.
 
 .. image:: _static/en/chapter5/mixer.png
 
-Figure 5.6 Diode double balanced mixer simulation
+Figure 5.8 Diode double balanced mixer simulation
 
 Balanced mixer circuit has two inputs: local oscillator
 :math:`f_{LO}=15\mathrm{MHz}` (``LO`` node) and RF signal :math:`f_{RF}=7\mathrm{MHz}`
@@ -277,18 +282,18 @@ result and could be passed to the ``fft()`` input (line #3).
 After FFT we can plot ``V(out)`` vector and see spectrum. But we can apply any
 postprocessing to it. For example we can express spectrum in decibels (dB) with
 ``dB()`` nutmeg function (line #4, ``S`` variable). You need to specify these
-two variables in the Nutmeg script properties (Figure 5.7)
+two variables in the Nutmeg script properties (Figure 5.9)
 
 .. image:: _static/en/chapter5/spectr-setup.png
 
-Figure 5.7 Nutmeg script properties setup
+Figure 5.9 Nutmeg script properties setup
 
-Simulation results are shown in the Figure 5.8. Both spectrum and logarithmic
+Simulation results are shown in the Figure 5.10. Both spectrum and logarithmic
 spectrum (dB) are shown. 
 
 .. image:: _static/en/chapter5/spec.png
 
-Figure 5.8 Spectrum simulation result.
+Figure 5.10 Spectrum simulation result.
 
 We can see two main peak on spectrum (:math:`f_{IF1}=22 \mathrm{MHz}` and :math:`f_{IF2}=8\mathrm{MHz}` 
 respectively). RF and LO signals are rejected.
