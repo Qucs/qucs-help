@@ -27,7 +27,7 @@ variable *Output*. Now the truth table of a two-port AND cell is shown.
 Congratulation, the first digital simulation is done!
 
 
-|image0_EN|
+|image1_EN|
 
 Figure 1 - Qucs main window
 
@@ -77,14 +77,18 @@ to get a feeling for this procedure.)
 
    `back to the top <#top>`__
 
-.. |image0_EN| image:: _static/en/qucsdigi.png
+.. |image1_EN| image:: _static/en/qucsdigi.png
 
-.. |image0_DE| image:: _static/de/qucsdigi.png
+.. |image1_ES| image:: _static/en/qucsdigi.png
 
-.. |image0_CS| image:: _static/cs/qucsdigi.png
+.. |image1_DE| image:: _static/de/qucsdigi.png
 
-.. |image0_PT| image:: _static/pt_BR/qucsdigi.png
+.. |image1_CS| image:: _static/cs/qucsdigi.png
 
-.. |image0_RU| image:: _static/ru/qucsdigi.png
+.. |image1_FR| image:: _static/en/qucsdigi.png
 
-.. |image0_UK| image:: _static/uk/qucsdigi.png
+.. |image1_PT| image:: _static/pt_BR/qucsdigi.png
+
+.. |image1_RU| image:: _static/ru/qucsdigi.png
+
+.. |image1_UK| image:: _static/uk/qucsdigi.png

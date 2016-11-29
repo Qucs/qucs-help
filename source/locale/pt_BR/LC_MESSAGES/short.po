@@ -336,17 +336,17 @@ msgstr ""
 "acima)."
 
 #: ../../source/short.rst:25
-msgid "|image0_EN|"
-msgstr "|image0_PT|"
-
-#: ../../source/short.rst:60
 msgid "|image1_EN|"
 msgstr "|image1_PT|"
 
-#: ../../source/short.rst:76
+#: ../../source/short.rst:60
 msgid "|image2_EN|"
 msgstr "|image2_PT|"
 
-#: ../../source/short.rst:90
+#: ../../source/short.rst:76
 msgid "|image3_EN|"
 msgstr "|image3_PT|"
+
+#: ../../source/short.rst:90
+msgid "|image4_EN|"
+msgstr "|image4_PT|"

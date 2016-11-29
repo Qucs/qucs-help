@@ -62,8 +62,8 @@ msgstr ""
 
 # fa3177ad45254943a90db5214a9af409
 #: ../../source/start_digi.rst:30
-msgid "|image0_EN|"
-msgstr "|image0_ES|"
+msgid "|image1_EN|"
+msgstr "|image1_ES|"
 
 # 26b317f5f9d74be5bebf4e1f208c0a6b
 #: ../../source/start_digi.rst:32
