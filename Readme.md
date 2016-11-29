@@ -1,5 +1,5 @@
 [![Documentation Status](https://readthedocs.org/projects/qucs-help/badge/?version=latest)](https://readthedocs.org/projects/qucs-help/?badge=latest)
-[![Documentation Status](https://readthedocs.org/projects/qucs-help/badge/?version=0.0.18)](https://readthedocs.org/projects/qucs-help/?badge=0.0.18)
+[![Documentation Status](https://readthedocs.org/projects/qucs-help/badge/?version=0.0.19)](https://readthedocs.org/projects/qucs-help/?badge=0.0.19)
 
 Qucs-Help documentation
 =======================
@@ -32,7 +32,7 @@ How to add new documents and make corrections:
 
 - The release tags in the `master` branch are published at every version.
 
-  - See `0.0.18` version <http://qucs-help.readthedocs.org/en/0.0.18/>
+  - See `0.0.19` version <http://qucs-help.readthedocs.org/en/0.0.19/>
 
 
 Relese cycle (draft):
@@ -41,7 +41,7 @@ Relese cycle (draft):
 
 - Team agrees on a [release version](http://semver.org/) and date. Synch with Qucs project release.
 
-- Start release branch from `develop`, bump version, ex. `0.0.19`
+- Start release branch from `develop`, bump version, ex. `0.0.20`
 
 - Final adjustments take place on release branch.
 
