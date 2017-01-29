@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Qucs Help'
-copyright = u'2014, Qucs Team (2014)'
+copyright = u'2014-2017, Qucs Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -238,7 +238,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'qucshelp', u'Qucs Help Documentation',
-     [u'Qucs Team (2016)'], 1)
+     [u'Qucs Team'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -252,7 +252,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'QucsHelp', u'Qucs Help Documentation',
-   u'Qucs Team (2016)', 'QucsHelp', 'One line description of project.',
+   u'Qucs Team', 'QucsHelp', 'Online documentatio for the Qucs project.',
    'Miscellaneous'),
 ]
 
