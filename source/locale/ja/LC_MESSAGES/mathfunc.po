@@ -246,7 +246,7 @@ msgstr "``adjoint(x)``"
 
 #: ../../source/mathfunc.rst:83
 msgid "Adjoint matrix of ``x`` (transposed and conjugate complex)"
-msgstr "``x``の随伴行列 (転置して複素共役) "
+msgstr "``x`` の随伴行列 (転置して複素共役) "
 
 #: ../../source/mathfunc.rst:85
 msgid "``det(x)``"

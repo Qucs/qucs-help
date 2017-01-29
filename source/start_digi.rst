@@ -8,13 +8,13 @@ simulations. This document should give you a short description on how to
 use it.
 
 For digital simulations Qucs uses the FreeHDL program
-(`http://www.freehdl.seul.org <http://www.freehdl.seul.org>`__). So the
+(`http://www.freehdl.seul.org <http://www.freehdl.seul.org>`_). So the
 FreeHDL package as well as the GNU C++ compiler must be installed on the
 computer.
 
 There is no big difference in running an analog or a digital
 simulation. So having read the `Getting Started for analog
-simulations <start.html>`__, it is now easy to get a digital simulation
+simulations <start.html>`_, it is now easy to get a digital simulation
 work. Let us compute the truth table of a simple logical AND cell.
 Select the digital components in the combobox of the components tab on
 the left-hand side and build the circuit shown in figure 1. The digital
