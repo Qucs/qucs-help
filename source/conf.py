@@ -200,7 +200,18 @@ latex_elements = {
 #'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
-#'preamble': '',
+'preamble': '''
+% Workaround for czech language, conditional to avoid issues with other languages:
+% http://tex.stackexchange.com/questions/111999/slovak-and-czech-babel-gives-problems-with-cmidrule-and-cline
+\\makeatletter
+\\@ifclasswith{sphinxmanual}{czech}
+{%
+  \\usepackage{etoolbox}
+  \\preto\\tabular{\\shorthandoff{-}}
+}{% else nothing...
+}
+\\makeatother
+''',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
