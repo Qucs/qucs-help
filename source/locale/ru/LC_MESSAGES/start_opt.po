@@ -1,21 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2014, Qucs Team (2014)
 # This file is distributed under the same license as the Qucs Help package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
+# Translators:
+# AlexL <loginov.alex.valer@gmail.com>, 2016
+# Vyacheslav <arhiv6@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-23 22:57+0100\n"
-"PO-Revision-Date: 2015-01-19 05:10+0000\n"
-"Last-Translator: Vyacheslav <arhiv6@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/qucs-"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
+"PO-Revision-Date: 2016-11-17 12:41+0000\n"
+"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/qucs/qucs-"
 "help/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../source/start_opt.rst:3
 msgid "Getting Started with Optimization"
@@ -188,7 +190,7 @@ msgstr ""
 
 #: ../../source/start_opt.rst:92
 msgid "|image8_EN|"
-msgstr "|image8_RU|"
+msgstr "|image8_EN|"
 
 #: ../../source/start_opt.rst:94
 msgid "Figure 8 - The best found circuit sizes."
@@ -204,13 +206,12 @@ msgid ""
 msgstr ""
 
 #: ../../source/start_opt.rst:101
-#, fuzzy
 msgid "|image9_EN|"
-msgstr "|image8_RU|"
+msgstr "|image9_EN|"
 
 #: ../../source/start_opt.rst:103
 msgid "Figure 9 - Schematic with optimized values."
-msgstr ""
+msgstr "Рис. 9 - Схема с оптимизированными значениями."
 
 #: ../../source/start_opt.rst:106
 msgid ""
@@ -218,6 +219,9 @@ msgid ""
 "optimization component can now be disabled and the optimized values from "
 "the pasted equation will be used."
 msgstr ""
+"в случае, если вам нужно сделать дополнительные изменения в схеме, "
+"компонент оптимизации теперь может быть отключен и будут использоваться "
+"оптимизированные значения из вставленного уравнения."
 
 #: ../../source/start_opt.rst:108
 msgid ""
@@ -226,13 +230,20 @@ msgid ""
 " and selecting the \"Set precision\" menu, as shown in the following "
 "figure."
 msgstr ""
+"Вы можете изменить количество фигур, показанных для оптимизированных "
+"значений в диалоге оптимизации, щёлкнув правой кнопкой мыши на "
+"\"начальном\" заголовке таблицы и выбрав меню \"Установить точность\", "
+"как показано на следующем рисунке."
 
 #: ../../source/start_opt.rst:111
-#, fuzzy
 msgid "|image10_EN|"
-msgstr "|image8_RU|"
+msgstr "|image10_EN|"
 
 #: ../../source/start_opt.rst:113
 msgid "Figure 10 - Changing the displayed variables precision."
+msgstr "Рис. 10 - Изменение точности отображаемых переменных."
+
+#: ../../source/start_opt.rst:118
+msgid "`back to the top <#top>`__"
 msgstr ""
 

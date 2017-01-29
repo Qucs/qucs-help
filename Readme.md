@@ -35,7 +35,7 @@ How to add new documents and make corrections:
   - See `0.0.19` version <http://qucs-help.readthedocs.org/en/0.0.19/>
 
 
-Relese cycle (draft):
+Release cycle (draft):
 
 - Use the [*git flow*](http://nvie.com/posts/a-successful-git-branching-model/) branching model.
 
@@ -79,6 +79,18 @@ Relese cycle (draft):
 Setup
 -----
 
+Python dependencies:
+
+```
+pip install sphinx
+pip install sphinx-intl
+
+pip install sphinx-rdt-theme # in case this no longer works
+pip install git+git://github.com/snide/sphinx_rtd_theme.git#egg=sphinx_rdt_theme
+
+pip install transifex-client # to push and pull translations
+```
+
 Tested with:
 
 - OS X 10.9.5
@@ -93,7 +105,7 @@ Tested with:
 Basics
 ------
 
-The basic commands to update a are Below the basic commands The basics are done with the commands below.
+The basic commands to are exemplified below.
 
 - Check statistics of translated, untranslated and fuzzy strings
 
@@ -170,15 +182,16 @@ Each language is in a different stage of completion.
 - German - `de`
 - Spanish - `es`
 - French - `fr`
+- Japanese - `ja`
 - Portuguese (Brazilian)- `pt_BR`
 - Russian - `ru`
 - Ukrainian - `uk`
 
 To contribute new translation strings is quite simple.
 
-You can log in to [Qucs-Help on Transifex](https://www.transifex.com/projects/p/qucs-help/) and request to joing the team of translators.
+You can log in to [Qucs-Help on Transifex](https://www.transifex.com/projects/p/qucs-help/) and request to join the team of translators.
 
-You can also translate the PO files direclty on your compouter.
+You can also translate the PO files directly on your computer.
 Please notify the maintainers/translators do avoid work duplication
 
 - download the ``.po`` files that need attention

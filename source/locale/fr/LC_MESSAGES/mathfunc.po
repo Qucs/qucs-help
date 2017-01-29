@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-23 22:57+0100\n"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
 "PO-Revision-Date: 2015-01-13 04:51+0000\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/qucs-"
@@ -15,7 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../source/mathfunc.rst:3
 msgid "Short Description of Mathematical Functions"
@@ -1626,151 +1626,16 @@ msgstr "``q``"
 msgid "Elementary charge = 1.6021765e-19 C"
 msgstr ""
 
-# 571222d4b2d84ba09fc848dbebfac2e1
+#: ../../source/mathfunc.rst:524
+msgid "`back to the top <#top>`__"
+msgstr ""
+
+# f0b3b6976fd54199ab183e4ee6af7232
 #~ msgid ""
-#~ "Abbreviation for conditional expression \"if"
-#~ " ``x`` then ``y`` else ``z``"
 #~ msgstr ""
 
 # 30c43bc40f754b28bd8e04bd08a43049
 #~ msgid "Returns the length of the given vector"
-#~ msgstr ""
-
-# 0b95aec32b324ab98514869e6a4aada0
-#~ msgid ""
-#~ "Creates a real vector with ``n`` "
-#~ "linearly spaced components between ``from``"
-#~ " and ``to``, both inclusively"
-#~ msgstr ""
-
-# 17416879d08e4488b7aa444dcb754d5c
-#~ msgid ""
-#~ "Creates a real vector with ``n`` "
-#~ "logarithmically spaced components between "
-#~ "``from`` and ``to``, both inclusively"
-#~ msgstr ""
-
-# 3faee1fcaf6f4634984f58032a65aaf0
-#~ msgid ""
-#~ "Transform from polar coordinates (magnitude"
-#~ " ``m``, phase ``p``) into complex "
-#~ "number"
-#~ msgstr ""
-
-# 08e17d3069c740b6b837752dc72fa7c6
-#~ msgid ""
-#~ "Unwraps the angle ``p`` (in radians "
-#~ "-- default ``step`` is 2\\*pi) using "
-#~ "the optional tolerance value ``tol`` "
-#~ "(default is pi)"
-#~ msgstr ""
-
-# 56b3fd37ec26413d843e043cbbb7eb21
-#~ msgid ""
-#~ "Arithmetic average of vector elements; "
-#~ "if a range is given then ``x`` "
-#~ "must have a single data dependency"
-#~ msgstr ""
-
-# 9cfad1f74c1c4e24a43ce8c0d75a21ee
-#~ msgid ""
-#~ "Maximum value in vector; if a "
-#~ "range is given then ``x`` must "
-#~ "have a single data dependency"
-#~ msgstr ""
-
-# a8c006ce2c684182854daa5bb1c44b59
-#~ msgid ""
-#~ "Minimum value in vector; if a "
-#~ "range is given then ``x`` must "
-#~ "have a single data dependency"
-#~ msgstr ""
-
-# c9cbb545902b4d3fb264f9dda9692cad
-#~ msgid ""
-#~ "Equidistant spline interpolation of real "
-#~ "function vector ``f(x)`` using ``n`` "
-#~ "equidistant datapoints; the latter can "
-#~ "be omitted and defaults to a "
-#~ "reasonable value"
-#~ msgstr ""
-
-# 381b1c6789e941b38715364ced1613cd
-#~ msgid ""
-#~ "Returns the x-value which is associated"
-#~ " with the y-value nearest to a "
-#~ "specified y-value ``yval`` in a given"
-#~ " vector ``f``; therefore the vector "
-#~ "``f`` must have a single data "
-#~ "dependency"
-#~ msgstr ""
-
-# 2b7d20023b69463eaed7b1fa5171f8ed
-#~ msgid ""
-#~ "Returns the y-value of the given "
-#~ "vector ``f`` which is located nearest"
-#~ " to the x-value ``xval``; therefore "
-#~ "the vector ``f`` must have a "
-#~ "single data dependency"
-#~ msgstr ""
-
-# fe1a39d4977645f6b1cd19b83003cb97
-#~ msgid ""
-#~ "Differentiate vector ``y`` with respect "
-#~ "to vector ``x`` ``n`` times. If "
-#~ "``n`` is omitted it defaults to "
-#~ "``n`` = 1"
-#~ msgstr ""
-
-# d427a347b78c49e2afdc077096c39729
-#~ msgid ""
-#~ "Shuffles the FFT values of vector "
-#~ "``x`` in order to move the "
-#~ "frequency 0 to the center of the"
-#~ " vector"
-#~ msgstr ""
-
-# f118205d4b7b4268bf0afef891936802
-#~ msgid ""
-#~ "Converts reflection coefficient to admittance;"
-#~ " by default reference ``zref`` is 50"
-#~ " ohms"
-#~ msgstr ""
-
-# 5278d85e0dcf42f8b017e5f99d69f6c2
-#~ msgid ""
-#~ "Converts reflection coefficient to impedance;"
-#~ " by default reference ``zref`` is 50"
-#~ " ohms"
-#~ msgstr ""
-
-# ba9135e439704682aa4a5fd0077e9d2a
-#~ msgid ""
-#~ "Converts admittance to reflection coefficient;"
-#~ " by default reference ``zref`` is 50"
-#~ " ohms"
-#~ msgstr ""
-
-# 9af9fdb1c73942329d4dfe92fdf00b9d
-#~ msgid ""
-#~ "Converts impedance to reflection coefficient;"
-#~ " by default reference ``zref`` is 50"
-#~ " ohms"
-#~ msgstr ""
-
-# 502f0698aa6e45b78e11f093a97f5cf5
-#~ msgid ""
-#~ "Converts S-parameter matrix to S-parameter "
-#~ "matrix with different reference impedance(s)"
-#~ msgstr ""
-
-# 0fb9866801d942b0a7cb3ca014f0bff5
-#~ msgid ""
-#~ "Converts a two-port matrix from "
-#~ "one representation into another, possible "
-#~ "values for ``from`` and ``to`` are "
-#~ "'Y', 'Z', 'H', 'G', 'A', 'S' and"
-#~ " 'T'."
 #~ msgstr ""
 
 # c0f59a0404674e62864e54f7bbe4de1b
@@ -1779,31 +1644,5 @@ msgstr ""
 
 # 26c5109c3ed24684bcc225488d11d5ee
 #~ msgid "Circle(s) with constant operating power gain ``Gp`` in the load plane"
-#~ msgstr ""
-
-# 00b29c796bd74ab4a95fcdaf3e2a18ec
-#~ msgid ""
-#~ "Generates circle(s) with constant Noise "
-#~ "Figure(s) ``F``. ``Arcs`` specifies the "
-#~ "angles in degrees created by e.g. "
-#~ "``linspace(0,360,100)``. If Arcs is a "
-#~ "number it specifies the number of "
-#~ "equally spaced circle segments, if it"
-#~ " is omitted this number defaults to"
-#~ " a reasonable value"
-#~ msgstr ""
-
-# e9bb8809cd754cc187c059476e70c487
-#~ msgid ""
-#~ "Returns a data item based upon "
-#~ "vector or matrix vector ``data`` with"
-#~ " dependency on a given vector "
-#~ "``dep``, e.g. ``PlotVs(Gain,frequency/1e9)``"
-#~ msgstr ""
-
-# f0b3b6976fd54199ab183e4ee6af7232
-#~ msgid ""
-#~ "Stability factor of a two-port "
-#~ "S-parameter matrix. Synonym for ``Rollet()``"
 #~ msgstr ""
 

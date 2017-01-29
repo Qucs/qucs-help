@@ -1,21 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2014, Qucs Team (2014)
 # This file is distributed under the same license as the Qucs Help package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
+# Translators:
+# AlexL <loginov.alex.valer@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Qucs Help 0.0.18\n"
+"Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-23 23:33+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
+"PO-Revision-Date: 2016-11-17 12:26+0000\n"
+"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/qucs/qucs-"
+"help/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../source/RFres.rst:2
 msgid ""
@@ -25,7 +26,7 @@ msgstr ""
 
 #: ../../source/RFres.rst:3
 msgid "**Mike Brinson**"
-msgstr ""
+msgstr "**Mike Brinson**"
 
 #: ../../source/RFres.rst:6
 msgid ""
@@ -33,6 +34,9 @@ msgid ""
 "London Metropolitan University, London, UK.   "
 "(`<mbrin72043@yahoo.co.uk>`_)"
 msgstr ""
+"Copyright 2014, 2015 Mike Brinson, Центр Коммуникационных технологий, "
+"Лондонский Университет Metropolitan, Лондон, Соединённое Королевство.   "
+"(`<mbrin72043@yahoo.co.uk>`_)"
 
 #: ../../source/RFres.rst:8
 msgid ""
@@ -40,10 +44,13 @@ msgid ""
 "under the terms of the GNU Free Documentation License, Version 1.1 or any"
 " later version published by the Free Software Foundation."
 msgstr ""
+"Разрешается копировать, распространять и/или изменять этот документ в "
+"соответствии с условиями GNU Free Documentation License версии 1.1 или "
+"более поздней версии, опубликованной Free Software Foundation."
 
 #: ../../source/RFres.rst:14
 msgid "Introduction"
-msgstr ""
+msgstr "Введение"
 
 #: ../../source/RFres.rst:15
 msgid ""
@@ -67,7 +74,7 @@ msgstr ""
 
 #: ../../source/RFres.rst:18
 msgid "RF Resistor Models"
-msgstr ""
+msgstr "Модели радиочастотных резисторов"
 
 #: ../../source/RFres.rst:19
 msgid ""
@@ -134,7 +141,7 @@ msgstr ""
 
 #: ../../source/RFres.rst:35
 msgid "Analysis of the RF resistor model"
-msgstr ""
+msgstr "Анализ модели радиочастотного резистора"
 
 #: ../../source/RFres.rst:36
 msgid ""
@@ -351,7 +358,7 @@ msgstr ""
 
 #: ../../source/RFres.rst:105
 msgid "A Verilog-A RF resistor model"
-msgstr ""
+msgstr "Verilog - Модель радиочастотного резистора"
 
 #: ../../source/RFres.rst:106
 msgid ""
@@ -395,7 +402,7 @@ msgstr ""
 
 #: ../../source/RFres.rst:182
 msgid "End Notes"
-msgstr ""
+msgstr "Конец примечаний"
 
 #: ../../source/RFres.rst:183
 msgid ""
@@ -422,13 +429,17 @@ msgstr ""
 
 #: ../../source/RFres.rst:193
 msgid "(`<http://www.vhdl.org/ibis/connector/touchstone_spec11.pdf>`_)."
-msgstr ""
+msgstr "(`<http://www.vhdl.org/ibis/connector/touchstone_spec11.pdf>`_)."
 
 #: ../../source/RFres.rst:196
 msgid "(`<http://sourceforge.net/projects/mot-adms/>`_)."
-msgstr ""
+msgstr "(`<http://sourceforge.net/projects/mot-adms/>`_)."
 
 #: ../../source/RFres.rst:199
 msgid "Qucs release 0.0.18, or greater."
+msgstr "Релиз Qucs 0.0.18 или выше."
+
+#: ../../source/RFres.rst:203
+msgid "`back to the top <#top>`__"
 msgstr ""
 

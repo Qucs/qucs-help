@@ -1,20 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2014, Qucs Team (2014)
 # This file is distributed under the same license as the Qucs Help package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
+# Translators:
+# Guilherme Brondani Torri <guitorri@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Qucs Help 0.0.19\n"
+"Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-23 22:57+0100\n"
-"PO-Revision-Date: 2014-12-19 21:26+0100\n"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
+"PO-Revision-Date: 2017-01-29 22:06+0000\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/qucs/qucs-"
+"help/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../source/start_opt.rst:3
 msgid "Getting Started with Optimization"
@@ -189,7 +191,7 @@ msgstr ""
 
 #: ../../source/start_opt.rst:92
 msgid "|image8_EN|"
-msgstr "|image8_PT|"
+msgstr "|image8_EN|"
 
 #: ../../source/start_opt.rst:94
 msgid "Figure 8 - The best found circuit sizes."
@@ -203,15 +205,19 @@ msgid ""
 "the schematic after closing the optimization dialog. The resulting "
 "schematic will be as shown in the next figure."
 msgstr ""
+"Clicando no botão \"Copiar valores atuais a equação\", um componente de "
+"equação definindo todas as variáveis de otimização com os valores da "
+"coluna \"inicial\" será copiado para a área de transferência e pode ser "
+"colado no esquemático depois de fechar a caixa de diálogo otimização. O "
+"esquema resultante será conforme mostrado na figura a seguir."
 
 #: ../../source/start_opt.rst:101
-#, fuzzy
 msgid "|image9_EN|"
-msgstr "|image8_PT|"
+msgstr "|image9_EN|"
 
 #: ../../source/start_opt.rst:103
 msgid "Figure 9 - Schematic with optimized values."
-msgstr ""
+msgstr "Figura 9 - diagrama esquemático com valores otimizados."
 
 #: ../../source/start_opt.rst:106
 msgid ""
@@ -219,6 +225,9 @@ msgid ""
 "optimization component can now be disabled and the optimized values from "
 "the pasted equation will be used."
 msgstr ""
+"no caso que você precisa fazer mais modificações de esquema, o componente"
+" de otimização agora podem ser desabilitadas e os valores otimizados da "
+"equação colado serão usados."
 
 #: ../../source/start_opt.rst:108
 msgid ""
@@ -227,13 +236,20 @@ msgid ""
 " and selecting the \"Set precision\" menu, as shown in the following "
 "figure."
 msgstr ""
+"Você pode alterar o número de figuras mostradas para os valores "
+"otimizados na caixa de diálogo otimização clicando sobre o cabeçalho da "
+"tabela \"inicial\" e selecionando o menu \"Definir precisão\", conforme "
+"mostrado na figura a seguir."
 
 #: ../../source/start_opt.rst:111
-#, fuzzy
 msgid "|image10_EN|"
-msgstr "|image8_PT|"
+msgstr "|image10_EN|"
 
 #: ../../source/start_opt.rst:113
 msgid "Figure 10 - Changing the displayed variables precision."
+msgstr "Figura 10 - Alterando a precisão exibida."
+
+#: ../../source/start_opt.rst:118
+msgid "`back to the top <#top>`__"
 msgstr ""
 

@@ -1,110 +1,134 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2014, Qucs Team (2014)
 # This file is distributed under the same license as the Qucs Help package.
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
 "PO-Revision-Date: 2015-01-13 04:51+0000\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/qucs-help/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/qucs-"
+"help/language/ru/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.3.4\n"
 
-# 031e5313fe474b4f8a044346a87b8ff7
 #: ../../source/matching.rst:3
 msgid "Matching Circuits"
 msgstr "Согласование цепей"
 
-# 5e05467a65114af8ade985608c991847
 #: ../../source/matching.rst:6
 msgid ""
-"Creating matching circuits is an often needed task in microwave technology. "
-"Qucs can do this automatically. These are the neccessary steps:"
-msgstr "Создание согласованных цепей часто требуется в микроволновой технологии. Qucs может делать это автоматически. Необходимые шаги для этого:"
+"Creating matching circuits is an often needed task in microwave "
+"technology. Qucs can do this automatically. These are the neccessary "
+"steps:"
+msgstr ""
+"Создание согласованных цепей часто требуется в микроволновой технологии. "
+"Qucs может делать это автоматически. Необходимые шаги для этого:"
 
-# 6bf7c5d4905d40cea0dbc1b03d1c7e98
 #: ../../source/matching.rst:10
 msgid ""
 "Perform an S-parameter simulation in order to calculate the reflexion "
 "coefficient."
-msgstr "Выполнить моделирование S-параметров, чтобы рассчитать коэффициент отражения."
+msgstr ""
+"Выполнить моделирование S-параметров, чтобы рассчитать коэффициент "
+"отражения."
 
-# ecfd4fc2dfd04ba5839edea3b31648ff
 #: ../../source/matching.rst:13
 msgid ""
-"Place a diagram and display the reflexion coefficient (i.e. S[1,1] for port "
-"1, S[2,2] for port 2 etc.)"
-msgstr "Вставить диаграмму, чтобы показать коэффициент отражения (то есть, S[1,1] для порта 1, S[2,2] для порта 2 и т.д.)"
+"Place a diagram and display the reflexion coefficient (i.e. S[1,1] for "
+"port 1, S[2,2] for port 2 etc.)"
+msgstr ""
+"Вставить диаграмму, чтобы показать коэффициент отражения (то есть, S[1,1]"
+" для порта 1, S[2,2] для порта 2 и т.д.)"
 
-# 72f9caadeb2a4214ab8cf8953c466908
 #: ../../source/matching.rst:16
 msgid "Set a marker on the graph and step to the desired frequency."
 msgstr "Поместить на график маркер и двигаться шагами к требуемой частоте."
 
-# c19b8ed91a66498485b44f359a80a6ce
 #: ../../source/matching.rst:18
 msgid ""
 "Click with the right mouse button on the marker and select \"power "
 "matching\" in the appearing menu."
-msgstr "Нажать правую кнопку мыши на маркере и выбрать \"согласование мощности\" в появившемся меню."
+msgstr ""
+"Нажать правую кнопку мыши на маркере и выбрать \"согласование мощности\" "
+"в появившемся меню."
 
-# d634e20343bc4854aae031e5a7afaa01
 #: ../../source/matching.rst:21
 msgid ""
-"A dialog appears where the values can be adjusted, for example the reference"
-" impedance can be chosen different from 50 ohms."
-msgstr "Появляется диалоговое окно, в котором можно настроить значения, например, опорное полное сопротивление может быть выбрано отличающимся от 50 Ом."
+"A dialog appears where the values can be adjusted, for example the "
+"reference impedance can be chosen different from 50 ohms."
+msgstr ""
+"Появляется диалоговое окно, в котором можно настроить значения, например,"
+" опорное полное сопротивление может быть выбрано отличающимся от 50 Ом."
 
-# f776f08928aa42c39e813f12e2ee424f
 #: ../../source/matching.rst:24
 msgid ""
 "After clicking \"create\" the page switches back to the schematic and by "
 "moving the mouse cursor the matching circuit can be placed."
-msgstr "После нажатия на кнопку \"создать\" происходит возврат к схеме, и с помощью курсора мыши может быть выбрано место для вставки согласованной цепи."
+msgstr ""
+"После нажатия на кнопку \"создать\" происходит возврат к схеме, и с "
+"помощью курсора мыши может быть выбрано место для вставки согласованной "
+"цепи."
 
-# 415251db26e340b49a88e732bf474c19
 #: ../../source/matching.rst:30
 msgid ""
-"The left-hand side of the matching circuit is the input and the right-hand "
-"side must be connected to the circuit."
-msgstr "Левая сторона согласованной цепи является входом, а правая сторона должна быть подсоединена к схеме."
+"The left-hand side of the matching circuit is the input and the right-"
+"hand side must be connected to the circuit."
+msgstr ""
+"Левая сторона согласованной цепи является входом, а правая сторона должна"
+" быть подсоединена к схеме."
 
-# 868dbdc342754ae89509a80d0708ead0
 #: ../../source/matching.rst:33
 msgid ""
 "If the marker points to a variable called \"Sopt\", the menu shows the "
 "option \"noise matching\". Note that the only different to \"power "
-"matching\" is the fact that the conjugate complex reflexion coefficient is "
-"taken. So if the variable has another name, noise matching can be chosen by "
-"re-adjusting the values in the dialog."
-msgstr "Если маркер указывает на переменную под названием \"Sopt\", в меню появляется опция \"согласование шума\". Обратите внимание, что единственным отличием от \"согласования мощности\" является то, что берется сопряженный комплексный коэффициент отражения. Поэтому, если у переменной другое имя, согласование шума может быть выбрано путем перенастройки значений в диалоговом окне."
+"matching\" is the fact that the conjugate complex reflexion coefficient "
+"is taken. So if the variable has another name, noise matching can be "
+"chosen by re-adjusting the values in the dialog."
+msgstr ""
+"Если маркер указывает на переменную под названием \"Sopt\", в меню "
+"появляется опция \"согласование шума\". Обратите внимание, что "
+"единственным отличием от \"согласования мощности\" является то, что "
+"берется сопряженный комплексный коэффициент отражения. Поэтому, если у "
+"переменной другое имя, согласование шума может быть выбрано путем "
+"перенастройки значений в диалоговом окне."
 
-# bf4917b229744da49edd19457f5678a0
 #: ../../source/matching.rst:39
 msgid ""
-"The matching dialog can also be called by menu (Tools->matching circuit) or "
-"by short-cut (<CTRL-5>). But then all values has to be entered manually."
-msgstr "Диалог создания согласования может быть также вызван с помощью меню (Инструменты->согласование цепи) или с помощью комбинации клавиш (<CTRL-5>). Но тогда все значения должны вводиться вручную."
+"The matching dialog can also be called by menu (Tools->matching circuit) "
+"or by short-cut (<CTRL-5>). But then all values has to be entered "
+"manually."
+msgstr ""
+"Диалог создания согласования может быть также вызван с помощью меню "
+"(Инструменты->согласование цепи) или с помощью комбинации клавиш "
+"(<CTRL-5>). Но тогда все значения должны вводиться вручную."
 
-# 86494a74b337475fb67bbad59f667d5e
 #: ../../source/matching.rst:44
 msgid "2-Port Matching Circuits"
 msgstr "Согласование четырехполюсников"
 
-# d5f95468ea134379948916057e1237ed
 #: ../../source/matching.rst:47
 msgid ""
-"If the variable name in the marker text is an S-parameter, then an option "
-"exists for concurrently matching input and output of a two-port circuit. "
-"This works quite alike the above-mentioned steps. It results in two "
-"L-circuits: The very left node is for connecting port 1, the very right node"
-" is for connectiong port 2 and the two node in the middle are for connecting"
-" the two-port circuit."
-msgstr "Если имя переменной в тексте маркера является S-параметром, то существует возможность одновременного согласования входа и выхода четырехполюсной цепи. Это работает очень похоже на вышеописанные шаги. Результатом являются две согласованные цепи: самый левый узел должен соединяться с портом 1, самый правый узел - с портом 2, а два узла в середине должны соединяться с четырехполюсником."
+"If the variable name in the marker text is an S-parameter, then an option"
+" exists for concurrently matching input and output of a two-port circuit."
+" This works quite alike the above-mentioned steps. It results in two "
+"L-circuits: The very left node is for connecting port 1, the very right "
+"node is for connectiong port 2 and the two node in the middle are for "
+"connecting the two-port circuit."
+msgstr ""
+"Если имя переменной в тексте маркера является S-параметром, то существует"
+" возможность одновременного согласования входа и выхода четырехполюсной "
+"цепи. Это работает очень похоже на вышеописанные шаги. Результатом "
+"являются две согласованные цепи: самый левый узел должен соединяться с "
+"портом 1, самый правый узел - с портом 2, а два узла в середине должны "
+"соединяться с четырехполюсником."
+
+#: ../../source/matching.rst:57
+msgid "`back to the top <#top>`__"
+msgstr ""
+

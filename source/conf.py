@@ -29,7 +29,7 @@ import os
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.pngmath',
+    'sphinx.ext.imgmath',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Qucs Help'
-copyright = u'2014, Qucs Team (2014)'
+copyright = u'2014-2017, Qucs Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -200,7 +200,18 @@ latex_elements = {
 #'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
-#'preamble': '',
+'preamble': '''
+% Workaround for czech language, conditional to avoid issues with other languages:
+% http://tex.stackexchange.com/questions/111999/slovak-and-czech-babel-gives-problems-with-cmidrule-and-cline
+\\makeatletter
+\\@ifclasswith{sphinxmanual}{czech}
+{%
+  \\usepackage{etoolbox}
+  \\preto\\tabular{\\shorthandoff{-}}
+}{% else nothing...
+}
+\\makeatother
+''',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
@@ -208,7 +219,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', 'QucsHelp.tex', u'Qucs Help Documentation',
-   u'Qucs Team (2014)', 'manual'),
+   u'Qucs Team', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -238,7 +249,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'qucshelp', u'Qucs Help Documentation',
-     [u'Qucs Team (2016)'], 1)
+     [u'Qucs Team'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -252,7 +263,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'QucsHelp', u'Qucs Help Documentation',
-   u'Qucs Team (2016)', 'QucsHelp', 'One line description of project.',
+   u'Qucs Team', 'QucsHelp', 'Online documentatio for the Qucs project.',
    'Miscellaneous'),
 ]
 

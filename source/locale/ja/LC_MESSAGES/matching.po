@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014, Qucs Team (2014)
+# This file is distributed under the same license as the Qucs Help package.
+#
+# Translators:
+# seijirom <seijiro.moriyama@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Qucs Help\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
+"PO-Revision-Date: 2016-03-18 06:24+0000\n"
+"Last-Translator: seijirom <seijiro.moriyama@gmail.com>\n"
+"Language-Team: Japanese (http://www.transifex.com/qucs/qucs-"
+"help/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../source/matching.rst:3
+msgid "Matching Circuits"
+msgstr "マッチング回路"
+
+#: ../../source/matching.rst:6
+msgid ""
+"Creating matching circuits is an often needed task in microwave "
+"technology. Qucs can do this automatically. These are the neccessary "
+"steps:"
+msgstr "マイクロウェーブ技術では、マッチング回路を作成する必要がしばしばあります。Qucsはこれを自動的に行います。これらは必要なステップです："
+
+#: ../../source/matching.rst:10
+msgid ""
+"Perform an S-parameter simulation in order to calculate the reflexion "
+"coefficient."
+msgstr "反射係数を計算するためにS−パラメータシミュレーションを実行する。"
+
+#: ../../source/matching.rst:13
+msgid ""
+"Place a diagram and display the reflexion coefficient (i.e. S[1,1] for "
+"port 1, S[2,2] for port 2 etc.)"
+msgstr "グラフを配置して、反射係数(すなわち、port 1ならS[1,1]、port 2ならS[2,2]など）を表示する。"
+
+#: ../../source/matching.rst:16
+msgid "Set a marker on the graph and step to the desired frequency."
+msgstr "グラフにマーカーをセットし、所望の周波数に合わせる。"
+
+#: ../../source/matching.rst:18
+msgid ""
+"Click with the right mouse button on the marker and select \"power "
+"matching\" in the appearing menu."
+msgstr "マーカの上をマウスの右ボタンでクリックし、現れるメニューで\"power matching\"を選択する。"
+
+#: ../../source/matching.rst:21
+msgid ""
+"A dialog appears where the values can be adjusted, for example the "
+"reference impedance can be chosen different from 50 ohms."
+msgstr "ダイアログ画面が現れるので値を調整、例えば基準インピーダンスを50オーム以外にすることができます。"
+
+#: ../../source/matching.rst:24
+msgid ""
+"After clicking \"create\" the page switches back to the schematic and by "
+"moving the mouse cursor the matching circuit can be placed."
+msgstr "\"create\"をクリックすると、回路図のページに戻るので、マウスのカーソルを動かすことでマッチング回路を配置することができます。"
+
+#: ../../source/matching.rst:30
+msgid ""
+"The left-hand side of the matching circuit is the input and the right-"
+"hand side must be connected to the circuit."
+msgstr "マッチング回路の左側は入力で、右側は回路に接続されなくてはなりません。"
+
+#: ../../source/matching.rst:33
+msgid ""
+"If the marker points to a variable called \"Sopt\", the menu shows the "
+"option \"noise matching\". Note that the only different to \"power "
+"matching\" is the fact that the conjugate complex reflexion coefficient "
+"is taken. So if the variable has another name, noise matching can be "
+"chosen by re-adjusting the values in the dialog."
+msgstr ""
+"もしマーカーが\"Sopt\"という変数を指せば、メニューは\"noise matching\"というオプションを表示します。\"power "
+"matching\"との違いは、複素共役の反射係数が取られるという事実です。それで、もしも変数が別の名前なら、ダイアログ画面で値を再度調整してノイズマッチングを選ぶこともできます。"
+
+#: ../../source/matching.rst:39
+msgid ""
+"The matching dialog can also be called by menu (Tools->matching circuit) "
+"or by short-cut (<CTRL-5>). But then all values has to be entered "
+"manually."
+msgstr ""
+"マッチングのダイアログ画面は、メニュー（Tools->matching "
+"circuit）やショートカット（<CTRL-5>）から呼び出すことができます。しかし、そこではすべての値を手で入れ直さなくてはなりません。"
+
+#: ../../source/matching.rst:44
+msgid "2-Port Matching Circuits"
+msgstr "２ポートのマッチング回路"
+
+#: ../../source/matching.rst:47
+msgid ""
+"If the variable name in the marker text is an S-parameter, then an option"
+" exists for concurrently matching input and output of a two-port circuit."
+" This works quite alike the above-mentioned steps. It results in two "
+"L-circuits: The very left node is for connecting port 1, the very right "
+"node is for connectiong port 2 and the two node in the middle are for "
+"connecting the two-port circuit."
+msgstr ""
+"もしもマーカのテキストの変数名がS-parameterなら、２ポート回路の入力と出力を同時にマッチングするオプションもあります。これは、上記のステップと全く同じように動作します。その結果は２つのL回路になります：一番左のノードは、port"
+" 1に接続し、一番右のノードはport 2に接続するためのものであり、真ん中の２つのノードは、２ポート回路を接続するものです。"
+
+#: ../../source/matching.rst:57
+msgid "`back to the top <#top>`__"
+msgstr ""
+
