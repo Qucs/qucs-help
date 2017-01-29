@@ -56,7 +56,7 @@ Figure 4 - Qucs data display window showing a **Tabular** dialogue
 
 .. |image2_FR| image:: _static/fr/qucsmain.png
 
-.. |image2_PT_BR| image:: _static/pt_BR/qucsmain.png
+.. |image2_PT| image:: _static/pt_BR/qucsmain.png
 
 .. |image2_RU| image:: _static/ru/qucsmain.png
 

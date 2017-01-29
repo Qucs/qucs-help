@@ -53,11 +53,11 @@ msgid ""
 "**EditQucsProperties** window to be displayed, see Figure 2. Complete, with "
 "appropriate entries for your Qucs installation, the **Settings**, **Source "
 "Code Editor**, **File Types** and **Locations** menus."
-msgstr "Antes de utilizar Qucs é aconselhável definir o programa de configurações do aplicativo. Isso é feito a partir do **Arquivo**  :math:`\\rightarrow` **Menu de configurações do aplicativo**. Clique em **Aplicativo Configurações** faz com que a janela **EditQucsProperties** seja exibida, consulte a Figura 2. Completo, com as entradas apropriadas para a sua instalação Qucs, as **Configurações**, **Editor de código fonte**, **Typos de arquivos** e **Locais ** menus."
+msgstr "Antes de utilizar Qucs é aconselhável definir o programa de configurações do aplicativo. Isso é feito a partir do **Arquivo**  :math:`\\rightarrow` **Menu de configurações do aplicativo**. Clique em **Aplicativo Configurações** faz com que a janela **EditQucsProperties** seja exibida, consulte a Figura 2. Completo, com as entradas apropriadas para a sua instalação Qucs, as **Configurações**, **Editor de código fonte**, **Typos de arquivos** e **Locais** menus."
 
 #: ../../source/start.rst:14
 msgid "|image3_EN|"
-msgstr "|image3_PT|"
+msgstr "|image3_EN|"
 
 #: ../../source/start.rst:16
 msgid "Figure 2 - QucsEditProperties window"
@@ -80,7 +80,7 @@ msgstr "No lançamento Qucs uma área de trabalho rotulados (6) aparece no centr
 
 #: ../../source/start.rst:20
 msgid "|image4_EN|"
-msgstr "|image4_PT|"
+msgstr "|image4_EN|"
 
 #: ../../source/start.rst:22
 msgid "Figure 3 - Qucs main window with working areas labelled"
@@ -177,7 +177,7 @@ msgstr "Para iniciar a simulação DC clique sobre o  botão  **Simular** na bar
 
 #: ../../source/start.rst:35
 msgid "|image5_EN|"
-msgstr "|image5_PT|"
+msgstr "|image5_EN|"
 
 #: ../../source/start.rst:37
 msgid "Figure 4 - Qucs data display window showing a **Tabular** dialogue"

@@ -411,7 +411,7 @@ msgstr "``unwrap(p[,tol[,step]])``"
 #: ../../source/mathfunc.rst:128
 msgid ""
 "Unwrap angle ``p`` (radians) -- defaults ``step`` =  2\\pi, ``tol`` =  pi"
-msgstr "Descobrir o ângulo ``p`` (radianos) -- padrão ``step` é 2\\pi,  ``tol``=pi"
+msgstr "Descobrir o ângulo ``p`` (radianos) -- padrão ``step`` = 2\\pi,  ``tol`` =pi"
 
 #: ../../source/mathfunc.rst:132
 msgid ""
@@ -1117,7 +1117,7 @@ msgstr "``rtoy(x[,zref])``"
 #: ../../source/mathfunc.rst:354
 msgid ""
 "Converts reflection coefficient to admittance;  default  ``zref`` = 50 ohms"
-msgstr "Converte coeficiente de reflexão para admitância; a referência padrão ``zref``= 50 ohms"
+msgstr "Converte coeficiente de reflexão para admitância; a referência padrão ``zref`` = 50 ohms"
 
 #: ../../source/mathfunc.rst:356
 msgid "``rtoz(x[,zref])``"
@@ -1126,7 +1126,7 @@ msgstr "``rtoz(x[,zref])``"
 #: ../../source/mathfunc.rst:356
 msgid ""
 "Converts reflection coefficient to impedance;  default ``zref`` = 50 ohms"
-msgstr "Converte coeficiente de reflexão para impedância; a referência padrão ``zref``= 50 ohms"
+msgstr "Converte coeficiente de reflexão para impedância; a referência padrão ``zref`` = 50 ohms"
 
 #: ../../source/mathfunc.rst:358
 msgid "``ytor(x[,zref])``"
@@ -1135,7 +1135,7 @@ msgstr "``ytor(x[,zref])``"
 #: ../../source/mathfunc.rst:358
 msgid ""
 "Converts admittance to reflection coefficient;  default ``zref`` = 50 ohms"
-msgstr "Converte admitância para coeficiente de reflexão; a referência padrão ``zref``= 50 ohms"
+msgstr "Converte admitância para coeficiente de reflexão; a referência padrão ``zref`` = 50 ohms"
 
 #: ../../source/mathfunc.rst:360
 msgid "``ztor(x[,zref])``"

@@ -150,7 +150,7 @@ msgstr "Os melhores valores para o circuito encontrados podem ser encontrados na
 
 #: ../../source/start_opt.rst:92
 msgid "|image8_EN|"
-msgstr "|image8_PT|"
+msgstr "|image8_EN|"
 
 #: ../../source/start_opt.rst:94
 msgid "Figure 8 - The best found circuit sizes."
@@ -167,7 +167,7 @@ msgstr "Clicando no botão \"Copiar valores atuais a equação\", um componente 
 
 #: ../../source/start_opt.rst:101
 msgid "|image9_EN|"
-msgstr "|image9_PT|"
+msgstr "|image9_EN|"
 
 #: ../../source/start_opt.rst:103
 msgid "Figure 9 - Schematic with optimized values."
@@ -189,7 +189,7 @@ msgstr "Você pode alterar o número de figuras mostradas para os valores otimiz
 
 #: ../../source/start_opt.rst:111
 msgid "|image10_EN|"
-msgstr "|image10_PT|"
+msgstr "|image10_EN|"
 
 #: ../../source/start_opt.rst:113
 msgid "Figure 10 - Changing the displayed variables precision."
