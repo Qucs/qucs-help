@@ -79,6 +79,16 @@ Relese cycle (draft):
 Setup
 -----
 
+Python dependencies:
+
+```
+pip install sphinx
+pip install sphinx-intl
+
+pip install sphinx-rdt-theme # in case this no longer works
+pip install git+git://github.com/snide/sphinx_rtd_theme.git#egg=sphinx_rdt_theme
+```
+
 Tested with:
 
 - OS X 10.9.5
