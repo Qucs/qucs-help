@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014, Qucs Team (2014)
+# This file is distributed under the same license as the Qucs Help package.
+# 
+# Translators:
+# seijirom <seijiro.moriyama@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Qucs Help\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-07 21:37+0100\n"
+"PO-Revision-Date: 2016-03-18 03:35+0000\n"
+"Last-Translator: seijirom <seijiro.moriyama@gmail.com>\n"
+"Language-Team: Japanese (http://www.transifex.com/qucs/qucs-help/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/start.rst:3
+msgid "Getting Started with Qucs Analogue Circuit Simulation"
+msgstr "アナログシミュレーション入門"
+
+#: ../../source/start.rst:6
+msgid ""
+"Qucs is a scientific/engineering software package for analogue and digital "
+"circuit simulation, including linear and non-linear DC analysis, small "
+"signal S parameter circuit analysis, time domain transient analysis and "
+"VHDL/Verilog digital circuit simulation. This section of the Qucs-Help "
+"document introduces readers to the basic steps involved in Qucs analogue "
+"circuit simulation. When Qucs is launched for the first time, it creates a "
+"directory called ``.qucs`` within the user's home directory. All files "
+"involved in Qucs simulations are saved in the ``.qucs`` directory or in one "
+"of it's  sub-directories. After Qucs has been launched, the software "
+"displays a Graphical User Interface window (GUI) similar, or the same, to "
+"the one shown in Figure 1."
+msgstr "Qucsは、アナログ回路とデジタル回路のシミュレーションのための科学/工学用ソフトウェアパッケージであり、線形と非線形のDC解析、小信号Sパラメータ回路解析、時間領域のトランジェント解析、それとVHDL/Verilogデジタル回路シミュレーションを含んでいます。Qucs-Help文書のこのセクションでは、読者にQucsのアナログ回路シミュレーションにつての基本的なステップを紹介します。Qucsを初めて起動すると、あなたのホームディレクトリに\".qucs\"というディレクトリが作成されます。すべてのファイルは、このディレクトリか、その下のサブディレクトリに保存されます。Qucsが開始した後、図1と同じかそれに似たグラフィックユーザインタフェースウィンドウ(GUI)が表示されます。"
+
+#: ../../source/start.rst:8
+msgid "|image2_EN|"
+msgstr "|image2_EN|"
+
+#: ../../source/start.rst:10
+msgid "Figure 1 - Qucs main window"
+msgstr "図1 - Qucsのメインウィンドウ"
+
+#: ../../source/start.rst:12
+msgid ""
+"Before using Qucs it is advisable to set the program application settings. "
+"This is done from the **File** :math:`\\rightarrow` **Application Settings**"
+" menu. Clicking on **Application Settings** causes the "
+"**EditQucsProperties** window to be displayed, see Figure 2. Complete, with "
+"appropriate entries for your Qucs installation, the **Settings**, **Source "
+"Code Editor**, **File Types** and **Locations** menus."
+msgstr "Qucsを使い始める前に、プログラムのアプリ設定を行うことをお勧めします。これは、**File** :math:`\\rightarrow` **Application Settings**  メニューから実行できます。 **Application Settings**  をクリックすると、図2に示すような **EditQucsProperties**  ウィンドウが表示されます。あなたのQucsインストールについて、 **Settings**, **Source Code Editor**, **File Types** と  **Locations** の各メニュの項目に適切な設定を終えてください。"
+
+#: ../../source/start.rst:14
+msgid "|image3_EN|"
+msgstr "|image3_EN|"
+
+#: ../../source/start.rst:16
+msgid "Figure 2 - QucsEditProperties window"
+msgstr "図2 - QucsEditPropertiesウィンドウ"
+
+#: ../../source/start.rst:18
+msgid ""
+"On launching Qucs a working area labelled (6) appears at the centre of the "
+"GUI. This window is used for displaying schematics, numerical and algebraic "
+"model and circuit design data, numerical output data, and signal waveforms "
+"and numerial data visualised as graphs, see Figure 3. Clicking, with the "
+"left hand mouse button on any of the entries in the tabular bar labelled (5)"
+" allows users to quickly switch between the currently open documents. On the"
+" left hand side of the Qucs main window is a third area labelled (1) whose "
+"content depends on the status of **Projects** (2), **Content** (3), "
+"**Components** (4) or **Libraries**. After running Qucs, the **Projects** "
+"tab is activated. However note, when Qucs is launched for the first time the"
+" **Projects** list is empty."
+msgstr "Qucsを開始すると、(6)とラベルしたワークエリアがGUIの中央に現れます。このウィンドウは、図3を参照して欲しいのですが、回路図、数値と代数のモデル、回路設計データ、数値出力データ、それから信号波形とグラフとしてビジュアル化した数値データを表示します。(5)とラベルしたテーブル状のバーのどの項目を左マウスボタンでクリックすると、現在開いている文書をすばやく切り替えることができます。Qucsのメインウィンドウの左側は、(1)とラベルした３番目のエリアで、その内容は、 **Projects** (2), **Content** (3), **Components** (4) や **Libraries** の状態に依存します。Qucsを起動すると、  **Projects** タブが有効になります。しかし、Qucsを始めて開始した時は、 **Projects**  リストは空であることに注意してください。"
+
+#: ../../source/start.rst:20
+msgid "|image4_EN|"
+msgstr "|image4_EN|"
+
+#: ../../source/start.rst:22
+msgid "Figure 3 - Qucs main window with working areas labelled"
+msgstr "図3 - Qucsのメインウィンドウとラベルをつけた作業エリア"
+
+#: ../../source/start.rst:25
+msgid ""
+"To enter a new project left click on  the **New** button located on the "
+"right above window (1). This action causes a Qucs GUI dialogue to open. "
+"Enter the name of a Qucs project in the box provided, for example enter "
+"*QucsHelpFig* and click on the **OK** button. Qucs then creates a project "
+"directory in the ``~/.qucs`` directory. In the example shown in Figure 3 "
+"this is called **QucsHelpFig_prj**. Every file belonging to this new project"
+" is saved within the **QucsHelpFig_prj** directory. On creation a new "
+"project is immediately opened and it's name displayed on the Qucs window "
+"title bar. The left tabular bar is then switched to **Content**, and the "
+"content of the currently opened project displayed. To save an open document "
+"click on the **save** button (or use the main menu: **File** "
+":math:`\\longrightarrow` **Save**). This step initiates a sequence which "
+"saves the document displayed in area (6). To complete the save sequence the "
+"program will request the name of your new document. Enter *firstSchematic*, "
+"or some other suitable name, and click on the **OK** button to complete the "
+"save sequence."
+msgstr "新しいプロジェクトを入力するにはエリア(1)のすぐ上にある”New\"ボタンを押します。そうすると、QucsのGUIダイアログが開きます。Qucsプロジェクトの名前、例えば  *QucsHelpFig* を入力し、 **OK** ボタンを押してください。Qucsは、~/.qucsディレクトリにプロジェクトのディレクトリを作成します。図3の例だと **QucsHelpFig_prj** を作成します。この新しいプロジェクトに属するすべてのファイルは、 **QucsHelpFig_prj**  の中に保存されます。作成と同時に新しいプロジェクトはすぐに開かれ、その名前がウィンドウのタイトルバーに表示されます。左側のタブバーは **Content** に切り替わり、現在開いているプロジェクトの内容が表示されます。開いたドキュメントを保存するには、 **save** ボタンをクリックします（またはメインメニュの **File** :math:`\\longrightarrow` **Save** を使います）。この操作により、(6)のエリアに表示されたドキュメントの保存処理が始まります。保存処理の最後に、プログラムはあなたの新しいドキュメントの名前を聞いてきます。 *firstSchematic* あるいは適当な名前を入力し、**OK**  をクリックして保存処理を完了しましょう。"
+
+#: ../../source/start.rst:27
+msgid ""
+"As a first example to help you get started with Qucs enter and run the "
+"simple DC circuit shown in Figure 3. The circuit illustrated is a two "
+"resistor voltage divider network connected to a fixed value DC voltage "
+"source. Start by clicking on the **Components** tab. This action causes a "
+"combo box to be displayed from which a component group may be choosen and "
+"the required components selected. Choose components group **lumped "
+"components** and click on the first symbol: **Resistor**. Next move the "
+"mouse cursor into area (6). Pressing the right mouse button rotates the "
+"**Resistor** symbol. Similarly, pressing the left mouse button places the "
+"component onto the schematic at the place the mouse cursor is pointing at. "
+"Repeat this process for all components shown in Figure 3. The independent DC"
+" voltage source is located in the **sources** group. The ground symbol can "
+"be found in the **lumped components** group or selected from the Qucs "
+"toolbar. The icon requesting DC simulation is listed in the **simulations** "
+"group.  To edit the parameters of the second resistor, double-click on it. A"
+" dialogue opens which allows the resistor value to be changed; enter *100 "
+"Ohm* in the edit field on the right hand side and click enter."
+msgstr "Qucsを始めるのを助ける最初の例として、図3に示す単純なDC回路のシミュレーションを実行します。図示した回路は、固定値のDC電圧源に接続された２つの抵抗からなる分圧回路です。はじめに、**Components**  タブをクリックします。そうすると複合ボックスが表示され、部品グループ名とその下に選択されたグループの部品を選ぶことができます。 **lumped components** というグループを選んで、最初のシンボルである **Resistor** をクリックしてください。次に、マウスカーソルをワークエリア（６）に移動します。右のマウスボタンを押すと **Resistor** シンボルは回転します。左マウスボタンを押すと回路図上のマウスカーソルの位置にその部品を配置します。このプロセスを図3に示すすべての部品について繰り返してください。独立電圧源は、 **sources** のグループにあります。グランドシンボルは、 **lumped components** グループかまたはQucsツールバーからとってくることができます。DC解析を実行するアイコンは、 **simulations** グループのリストの中にあります。２つ目の抵抗のパラメータを編集するには、その上でダブルクリックします。ダイアログが開くので抵抗値を変更できます。右側の編集欄に\"100 Ohm\"と入力し、Enterを押してください。"
+
+#: ../../source/start.rst:29
+msgid ""
+"To connect the circuit components shown in Figure 3, click on the wire "
+"toolbar button (or use the main menu: **Insert** :math:`\\longrightarrow` "
+"**Wire**). Move the cursor onto an open component port (indicated by a small"
+" red circle at the end of a blue wire). Clicking on it starts the wire "
+"drawing sequence. Now move the drawing cursor to the end point of a wire "
+"(normally this is a second red circle attached to a placed component) and "
+"click again. Two components are now connected. Repeat the drawing sequence "
+"as many times as required to wire up the example circuit. If you want to "
+"change the corner direction of a wire, click on the right mouse button "
+"before moving to an end point. You can also end a wire without clicking on "
+"an open port or on a wire; just double-click the left mouse button."
+msgstr "図3に示すように回路部品を接続するには、ワイヤーのツールバーボタンを押します（またはメインメニュで、 **Insert** :math:`\\longrightarrow` **Wire** を使います）。カーソルを接続されてないポート（青色のワイヤーの端に小さな赤丸で示される）の上に移動します。そのうえでクリックすると配線がスタートします。そこで描画カーソルを最後の点まで移動し（通常そこは配置した部品の２番目の赤丸です）、再度クリックします。こうして２つの部品は接続されます。図の回路の配線のようになるまで、配線処理を必要なだけ繰り返します。\n配線の角の向きを変えたい時は、最後の点を決める前に右のマウスボタンをクリックしてください。配線を終えるのは、未配線のポートや配線のうえでクリックしなくてもできます：左のマウスボタンをダブルクリックするだけです。"
+
+#: ../../source/start.rst:31
+msgid ""
+"As a final step before DC simulation label the node, or nodes, who's DC "
+"voltage is required, for example the wire connecting resistors **R1** and "
+"**R2**. Click on the label toolbar button (or use the menu: **Insert** "
+":math:`\\longrightarrow` **Wire Label**). Now click on the chosen wire. A "
+"dialogue opens allowing a node name to be entered. Type *divide* and click "
+"the **OK** button. If you have drawn the test schematic correctly the "
+"entered schematic should look the same, or be similar to, the one shown in "
+"Figure 3."
+msgstr "DCシミュレーションの前の最後のステップとして、例えば２つの抵抗 **R1** と **R2** を結ぶ配線のようなDC電圧を見たいノードや複数のノードにラベルを付けます。ラベルツールバーのボタンをクリックします（または **Insert** :math:`\\longrightarrow` **Wire Label** メニューを使う）。選んだ配線の上でクリックしてください。ダイアログが開いて、ノード名を入力できるようになります。テスト回路を正しく描画できていれば、入力した回路図は図3と全く同じか似たものになっているはずです。"
+
+#: ../../source/start.rst:33
+msgid ""
+"To start DC simulation click on the **Simulate** toolbar button (or use "
+"menu: **Simulation** :math:`\\rightarrow` **Simulate**). A simulation window"
+" opens and a sliding bar reports simulation progress. Normally, all this "
+"happens so fast that you only see a short flickering on the PC display (this"
+" depends on the speed of your PC). After finishing a simulation successfully"
+" Qucs opens a data display window. This replaces the schematic entry window "
+"labelled (6) in Figure 3. Next the **Components** :math:`\\longrightarrow` "
+"**diagrams** toolbar is opened.  This allows the simulation results to be "
+"listed.  Click on the **Tabular** item and move it to the display working "
+"area, placing it by clicking the left hand mouse button. A dialogue opens "
+"allowing selection of the named signals you wish to list, see Figure 4. On "
+"the left hand side of the **Tabular** dialogue (called Edit Diagram "
+"Properties) is listed the node name: **divide.V**. Double-click on it and it"
+" will be transferred to the right hand side of the dialogue. Leave the "
+"dialogue by clicking the **OK** button. The DC simulation voltage data for "
+"node **divide** should now be listed in a box on the data display window, "
+"with a value of 0.666667 volts."
+msgstr "シミュレーションを開始するには、 **Simulate** のツールバーボタンを押します（またはメニュから **Simulation** :math:`\\rightarrow` **Simulate** を使う）。シミュレーションウィンドウが開き、シミュレーションの進行状況を知らせるスライドバーが表示されます。通常、これはすべて非常に高速に起きるので、あなたにはPCディスプレイがちょっとの時間ちらついたとしか見えません（もっとも、これはあなたのPCの処理速度に依存しますが）。シミュレーションが成功した後、データディスプレイが開きます。図3で、(6)とラベルされた回路図ウィンドウのかわりに表示されます。続いて、 **Components** :math:`\\longrightarrow` **diagrams** ツールバーが開きます。これを使って、シミュレーション結果のリストを表示させることができます。 **Tabular**  という項目の上でクリックして、ワークエリアに移動し、左のマウスボタンをクリックしてそれを配置します。ダイアログが開いて、図4に示すように、名前のついた信号をリストから選択できます。左側の **Tabular** 領域（Edit Diagram Propertiesと呼ばれる）に、あなたが定義したノード名 **divide.V** がありますね。その上でダブルクリックするとそれが、右側の領域に送られます。\"Ok\"ボタンをクリックして、ダイアログを仕舞ってください。すると、シミュレーション結果である0.6666667ボルトがデータ表示ウィンドウのボックスにリスト表示されます。"
+
+#: ../../source/start.rst:35
+msgid "|image5_EN|"
+msgstr "|image5_EN|"
+
+#: ../../source/start.rst:37
+msgid "Figure 4 - Qucs data display window showing a **Tabular** dialogue"
+msgstr "図4 - Qucsデータ表示ウィンドウに **Tabular** ダイアログが表示される"
