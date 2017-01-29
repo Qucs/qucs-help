@@ -1,21 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2014, Qucs Team (2014)
 # This file is distributed under the same license as the Qucs Help package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
-#
+# 
+# Translators:
+# AlexL <loginov.alex.valer@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-23 22:57+0100\n"
-"PO-Revision-Date: 2015-01-13 04:51+0000\n"
-"Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/qucs-"
-"help/language/ru/)\n"
+"POT-Creation-Date: 2016-03-07 21:37+0100\n"
+"PO-Revision-Date: 2016-11-17 13:09+0000\n"
+"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/qucs/qucs-help/language/ru/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: ../../source/mathfunc.rst:3
 msgid "Short Description of Mathematical Functions"
@@ -23,13 +24,10 @@ msgstr "Краткое описание математических функц�
 
 #: ../../source/mathfunc.rst:6
 msgid ""
-"The following operations and functions can be applied in Qucs equations. "
-"For detailed description please refer to the \"Measurement Expressions "
+"The following operations and functions can be applied in Qucs equations. For"
+" detailed description please refer to the \"Measurement Expressions "
 "Reference Manual\". Parameters in brackets \"[]\" are optional."
-msgstr ""
-"В уравнениях Qucs могут применяться следующие операции и функции. "
-"Подробное описание смотрите в \"Справочном руководстве по выражениям\". "
-"Параметры в квадратных скобках \"[]\" необязательны."
+msgstr "В уравнениях Qucs могут применяться следующие операции и функции. Подробное описание смотрите в \"Справочном руководстве по выражениям\". Параметры в квадратных скобках \"[]\" необязательны."
 
 #: ../../source/mathfunc.rst:11
 msgid "Operators"
@@ -144,9 +142,9 @@ msgid "``x?y:z``"
 msgstr "``x?y:z``"
 
 #: ../../source/mathfunc.rst:46
-#, fuzzy
-msgid "Abbreviation for conditional expression - if ``x`` then ``y`` else ``z``"
-msgstr "Сокращение для условного выражения  ``if x then y else z``"
+msgid ""
+"Abbreviation for conditional expression - if ``x`` then ``y`` else ``z``"
+msgstr "Сокращение для условного выражения - if ``x`` then ``y`` else ``z``"
 
 #: ../../source/mathfunc.rst:48
 msgid "``x==y``"
@@ -217,31 +215,26 @@ msgid "``length(y)``"
 msgstr "``length(y)``"
 
 #: ../../source/mathfunc.rst:72
-#, fuzzy
 msgid "Returns the length of the ``y`` vector"
-msgstr "Возвращает длину данного вектора"
+msgstr "Возвращает длину вектора ``y``"
 
 #: ../../source/mathfunc.rst:74
 msgid "``linspace(from,to,n)``"
 msgstr "``linspace(from,to,n)``"
 
 #: ../../source/mathfunc.rst:74
-#, fuzzy
-msgid "Real vector with ``n`` lin spaced components between ``from`` and ``to``"
-msgstr ""
-"Создает вещественный вектор с n линейно расставленными компонентами между"
-" from и to, оба включительно"
+msgid ""
+"Real vector with ``n`` lin spaced components between ``from`` and ``to``"
+msgstr "Вещественный вектор с ``n`` линейно расставленными компонентами между ``from`` и ``to``"
 
 #: ../../source/mathfunc.rst:76
 msgid "``logspace(from,to,n)``"
 msgstr "``logspace(from,to,n)``"
 
 #: ../../source/mathfunc.rst:76
-#, fuzzy
-msgid "Real vector with ``n`` log spaced components between ``from`` and ``to``"
-msgstr ""
-"Создает вещественный вектор с n линейно расставленными компонентами между"
-" from и to, оба включительно"
+msgid ""
+"Real vector with ``n`` log spaced components between ``from`` and ``to``"
+msgstr "Вещественный вектор с ``n`` логарифмически расставленными компонентами между ``from`` и ``to``"
 
 #: ../../source/mathfunc.rst:80
 msgid "Vectors and Matrices: Basic Matrix Functions"
@@ -281,9 +274,7 @@ msgstr "Транспонированная матрица для x (столбц
 
 #: ../../source/mathfunc.rst:93
 msgid "Elementary Mathematical Functions: Basic Real and Complex Functions"
-msgstr ""
-"Элементарные математические функции: основные вещественные и комплексные "
-"функции"
+msgstr "Элементарные математические функции: основные вещественные и комплексные функции"
 
 #: ../../source/mathfunc.rst:96
 msgid "``abs(x)``"
@@ -370,11 +361,8 @@ msgid "``polar(m,p)``"
 msgstr "``polar(m,p)``"
 
 #: ../../source/mathfunc.rst:116
-#, fuzzy
 msgid "Transform polar coordinates ``m`` and  ``p`` into a complex number"
-msgstr ""
-"Преобразование из полярных координат (модуль m, фаза p) в комплексное "
-"число"
+msgstr "Преобразование полярных координат ``m`` и ``p`` в комплексное число"
 
 #: ../../source/mathfunc.rst:118
 msgid "``rad2deg(x)``"
@@ -421,17 +409,14 @@ msgid "``unwrap(p[,tol[,step]])``"
 msgstr "``unwrap(p[,tol[,step]])``"
 
 #: ../../source/mathfunc.rst:128
-#, fuzzy
-msgid "Unwrap angle ``p`` (radians) -- defaults ``step`` =  2\\pi, ``tol`` =  pi"
-msgstr ""
-"Разворачивает угол p (в радианах -- по умолчанию step равен 2*pi), "
-"используя необязательный допуск tol (по умолчанию равен pi)"
+msgid ""
+"Unwrap angle ``p`` (radians) -- defaults ``step`` =  2\\pi, ``tol`` =  pi"
+msgstr "Разворачивает угол ``p`` (радианы)  -- по умолчанию ``step`` = 2\\pi, ``tol`` = pi"
 
 #: ../../source/mathfunc.rst:132
-msgid "Elementary Mathematical Functions: Exponential and Logarithmic Functions"
-msgstr ""
-"Элементарные математические функции: экспоненциальные и логарифмические "
-"функции"
+msgid ""
+"Elementary Mathematical Functions: Exponential and Logarithmic Functions"
+msgstr "Элементарные математические функции: экспоненциальные и логарифмические функции"
 
 #: ../../source/mathfunc.rst:135
 msgid "``exp(x)``"
@@ -802,13 +787,10 @@ msgid "``avg(x[,range])``"
 msgstr "``avg(x[,range])``"
 
 #: ../../source/mathfunc.rst:254
-#, fuzzy
 msgid ""
 "Average of vector ``x``. If range given ``x`` must have a single data "
 "dependency"
-msgstr ""
-"Арифметическое среднее вектора элементов; если задан диапазон range, "
-"тогда в x должна быть однозначная зависимость данных"
+msgstr "Среднее значение вектора ``x``. Если задан диапазон, то в ``x`` должна быть однозначная зависимость данных"
 
 #: ../../source/mathfunc.rst:256
 msgid "``cumavg(x)``"
@@ -831,13 +813,10 @@ msgid "``max(x[,range])``"
 msgstr "``max(x[,range])``"
 
 #: ../../source/mathfunc.rst:260
-#, fuzzy
 msgid ""
 "Maximum of vector ``x``. If range given ``x`` must have a single data "
 "dependency"
-msgstr ""
-"Максимальное значение в векторе; если задан диапазон range, тогда в x "
-"должна быть однозначная зависимость данных"
+msgstr "Максимум вектора ``x``. Если задан диапазон, то в ``x`` должна быть однозначная зависимость данных"
 
 #: ../../source/mathfunc.rst:262
 msgid "``min(x,y)``"
@@ -852,13 +831,10 @@ msgid "``min(x[,range])``"
 msgstr "``min(x[,range])``"
 
 #: ../../source/mathfunc.rst:264
-#, fuzzy
 msgid ""
 "Minimum of vector ``x``. If range is given ``x`` must have a single data "
 "dependency"
-msgstr ""
-"Минимальное значение в векторе; если задан диапазон range, тогда в x "
-"должна быть однозначная зависимость данных"
+msgstr "Минимум вектора ``x``. Если задан диапазон, то в ``x`` должна быть однозначная зависимость данных"
 
 #: ../../source/mathfunc.rst:266
 msgid "``rms(x)``"
@@ -934,8 +910,7 @@ msgstr "``interpolate(f,x[,n])``"
 
 #: ../../source/mathfunc.rst:287
 msgid ""
-"Spline interpolation of vector ``f`` using ``n`` equidistant points of "
-"``x``"
+"Spline interpolation of vector ``f`` using ``n`` equidistant points of ``x``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:289
@@ -989,13 +964,10 @@ msgid "``diff(y,x[,n])``"
 msgstr "``diff(y,x[,n])``"
 
 #: ../../source/mathfunc.rst:304
-#, fuzzy
 msgid ""
 "Differentiate vector ``y`` with respect to vector ``x`` ``n`` times.  "
 "Defaults to ``n`` = 1"
-msgstr ""
-"Дифференцировать вектор y по вектору x n раз. Если n опущено, то берется "
-"значение n = 1"
+msgstr "Дифференцировать вектор ``y`` по вектору ``x`` ``n`` раз. По умолчанию ``n`` = 1"
 
 #: ../../source/mathfunc.rst:306
 msgid "``integrate(x,h)``"
@@ -1030,13 +1002,10 @@ msgid "``fftshift(x)``"
 msgstr "``fftshift(x)``"
 
 #: ../../source/mathfunc.rst:317
-#, fuzzy
 msgid ""
 "Shuffles the FFT values of vector ``x`` to move DC to the center of the "
 "vector"
 msgstr ""
-"Переставляет БПФ-значения вектора x для того, чтобы переместить частоту 0"
-" в центр вектора"
 
 #: ../../source/mathfunc.rst:319
 msgid "``Freq2Time(V,f)``"
@@ -1046,9 +1015,7 @@ msgstr "``Freq2Time(V,f)``"
 msgid ""
 "Inverse Discrete Fourier Transform of function ``V(f)`` interpreting it "
 "physically"
-msgstr ""
-"Обратное дискретное преобразование Фурье функции V(f) с физической "
-"интерпретацией"
+msgstr "Обратное дискретное преобразование Фурье функции V(f) с физической интерпретацией"
 
 #: ../../source/mathfunc.rst:321
 msgid "``idft(x)``"
@@ -1079,7 +1046,8 @@ msgid "``Time2Freq(v,t)``"
 msgstr "``Time2Freq(v,t)``"
 
 #: ../../source/mathfunc.rst:327
-msgid "Discrete Fourier Transform of function ``v(t)`` interpreting it physically"
+msgid ""
+"Discrete Fourier Transform of function ``v(t)`` interpreting it physically"
 msgstr "Дискретное преобразование Фурье функции v(t) с физической интерпретацией"
 
 #: ../../source/mathfunc.rst:331
@@ -1140,55 +1108,43 @@ msgstr "``rtoswr(x)``"
 
 #: ../../source/mathfunc.rst:352
 msgid "Converts reflection coefficient to voltage standing wave ratio (VSWR)"
-msgstr ""
-"Преобразует коэффициент отражения в коэффициент стоячей волны по "
-"напряжению (КСВН)"
+msgstr "Преобразует коэффициент отражения в коэффициент стоячей волны по напряжению (КСВН)"
 
 #: ../../source/mathfunc.rst:354
 msgid "``rtoy(x[,zref])``"
 msgstr "``rtoy(x[,zref])``"
 
 #: ../../source/mathfunc.rst:354
-#, fuzzy
 msgid ""
-"Converts reflection coefficient to admittance;  default  ``zref`` = 50 "
-"ohms"
-msgstr ""
-"Преобразует коэффициент отражения в полную проводимость; по умолчанию "
-"zref равно 50 Ом"
+"Converts reflection coefficient to admittance;  default  ``zref`` = 50 ohms"
+msgstr "Преобразует коэффициент отражения в полную проводимость; по умолчанию ``zref`` равно 50 Ом"
 
 #: ../../source/mathfunc.rst:356
 msgid "``rtoz(x[,zref])``"
 msgstr "``rtoz(x[,zref])``"
 
 #: ../../source/mathfunc.rst:356
-#, fuzzy
-msgid "Converts reflection coefficient to impedance;  default ``zref`` = 50 ohms"
-msgstr ""
-"Преобразует коэффициент отражения в полное сопротивление; по умолчанию "
-"zref равно 50 Ом"
+msgid ""
+"Converts reflection coefficient to impedance;  default ``zref`` = 50 ohms"
+msgstr "Преобразует коэффициент отражения в полное сопротивление; по умолчанию ``zref`` равно 50 Ом"
 
 #: ../../source/mathfunc.rst:358
 msgid "``ytor(x[,zref])``"
 msgstr "``ytor(x[,zref])``"
 
 #: ../../source/mathfunc.rst:358
-#, fuzzy
-msgid "Converts admittance to reflection coefficient;  default ``zref`` = 50 ohms"
-msgstr ""
-"Преобразует полную проводимость в коэффициент отражения; по умолчанию "
-"zref равно 50 Ом"
+msgid ""
+"Converts admittance to reflection coefficient;  default ``zref`` = 50 ohms"
+msgstr "Преобразует полную проводимость в коэффициент отражения; по умолчанию ``zref`` равно 50 Ом"
 
 #: ../../source/mathfunc.rst:360
 msgid "``ztor(x[,zref])``"
 msgstr "``ztor(x[,zref])``"
 
 #: ../../source/mathfunc.rst:360
-#, fuzzy
-msgid "Converts impedance to reflection coefficient;  default  ``zref`` = 50 ohms"
-msgstr ""
-"Преобразует полное сопротивление в коэффициент отражения; по умолчанию "
-"zref равно 50 Ом"
+msgid ""
+"Converts impedance to reflection coefficient;  default  ``zref`` = 50 ohms"
+msgstr "Преобразует полное сопротивление в коэффициент отражения; по умолчанию ``zref`` равно 50 Ом"
 
 #: ../../source/mathfunc.rst:364
 msgid "N-Port Matrix Conversions"
@@ -1199,11 +1155,8 @@ msgid "``stos(s,zref[,z0])``"
 msgstr "``stos(s,zref[,z0])``"
 
 #: ../../source/mathfunc.rst:367
-#, fuzzy
 msgid "Converts S-parameter matrix to S-parameter matrix with a different Z0"
-msgstr ""
-"Преобразует матрицу S-параметров в матрицу S-параметров с другим "
-"эталонным полным сопротивлением(ями)"
+msgstr "Преобразует матрицу S-параметров в матрицу S-параметров с другим Z0"
 
 #: ../../source/mathfunc.rst:369
 msgid "``stoy(s[,zref])``"
@@ -1226,14 +1179,10 @@ msgid "``twoport(m,from,to)``"
 msgstr "``twoport(m,from,to)``"
 
 #: ../../source/mathfunc.rst:373
-#, fuzzy
 msgid ""
 "Converts a two-port matrix:  ``from`` and ``to`` are 'Y', 'Z', 'H', 'G', "
 "'A', 'S' and 'T'."
-msgstr ""
-"Преобразует двух-портовую матрицу из одного представления в другое, "
-"возможные значения для from и to равны 'Y', 'Z', 'H', 'G', 'A', 'S' и "
-"'T'."
+msgstr "Преобразует двух-портовую матрицу: ``from`` и ``to`` - это 'Y', 'Z', 'H', 'G', 'A', 'S' и 'T'."
 
 #: ../../source/mathfunc.rst:375
 msgid "``ytos(y[,z0])``"
@@ -1276,22 +1225,16 @@ msgid "``GaCircle(s,Ga[,arcs])``"
 msgstr "``GaCircle(s,Ga[,arcs])``"
 
 #: ../../source/mathfunc.rst:388
-#, fuzzy
 msgid "Available power gain ``Ga`` circles (source plane )"
-msgstr ""
-"Окружность(и) с постоянным усилением располагаемой мощности Ga в "
-"плоскости источника"
+msgstr "Доступный коэффициент усиления мощности ``Ga`` окружностей (плоскость источника)"
 
 #: ../../source/mathfunc.rst:390
 msgid "``GpCircle(s,Gp[,arcs])``"
 msgstr "``GpCircle(s,Gp[,arcs])``"
 
 #: ../../source/mathfunc.rst:390
-#, fuzzy
 msgid "Operating power gain ``Gp`` circles (load plane)"
-msgstr ""
-"Окружность(и) с постоянным усилением рабочей мощности Gp в плоскости "
-"нагрузки"
+msgstr "Операционный коэффициент усиления мощности ``Gp`` окружностей (плоскость нагрузки)"
 
 #: ../../source/mathfunc.rst:392
 msgid "``Mu(s)``"
@@ -1315,7 +1258,7 @@ msgstr "``NoiseCircle(Sopt,Fmin,Rn,F[,Arcs])``"
 
 #: ../../source/mathfunc.rst:396
 msgid "Noise Figure(s) ``F`` circles"
-msgstr ""
+msgstr "Окружности диаграммы шума(ов) ``F``"
 
 #: ../../source/mathfunc.rst:398
 msgid "``PlotVs(data,dep)``"
@@ -1323,7 +1266,7 @@ msgstr "``PlotVs(data,dep)``"
 
 #: ../../source/mathfunc.rst:398
 msgid "Returns data selected from ``data``: dependency ``dep``"
-msgstr ""
+msgstr "Возвращает данные, выбранные из ``data``: зависимость ``dep``"
 
 #: ../../source/mathfunc.rst:400
 msgid "``Rollet(s)``"
@@ -1354,9 +1297,8 @@ msgid "``StabFactor(s)``"
 msgstr "``StabFactor(s)``"
 
 #: ../../source/mathfunc.rst:406
-#, fuzzy
 msgid "Stability factor of a two-port S-parameter matrix"
-msgstr "Mu - фактор устойчивости двухпортовой матрицы S-параметров"
+msgstr "Фактор устойчивости двухпортовой матрицы S-параметров"
 
 #: ../../source/mathfunc.rst:408
 msgid "``StabMeasure(s)``"
@@ -1644,11 +1586,9 @@ msgstr "Переходной ток через компонент name"
 
 #: ../../source/mathfunc.rst:503
 msgid ""
-"Note: All voltages and currents are peak values. Note: Noise voltages are"
-" RMS values at 1 Hz bandwidth."
-msgstr ""
-"Примечание: Все напряжения и токи - пиковые значения.Примечание: Шумовые "
-"напряжения - СКЗ значения в полосе частот 1 Hz."
+"Note: All voltages and currents are peak values. Note: Noise voltages are "
+"RMS values at 1 Hz bandwidth."
+msgstr "Примечание: Все напряжения и токи - пиковые значения.Примечание: Шумовые напряжения - СКЗ значения в полосе частот 1 Hz."
 
 #: ../../source/mathfunc.rst:507
 msgid "Constants"
@@ -1693,93 +1633,3 @@ msgstr "``q``"
 #: ../../source/mathfunc.rst:518
 msgid "Elementary charge = 1.6021765e-19 C"
 msgstr "Элементарный заряд = 1.6021765e-19 Кл"
-
-# 17416879d08e4488b7aa444dcb754d5c
-#~ msgid ""
-#~ "Creates a real vector with ``n`` "
-#~ "logarithmically spaced components between "
-#~ "``from`` and ``to``, both inclusively"
-#~ msgstr ""
-#~ "Создает вещественный вектор с n "
-#~ "логарифмически расставленными компонентами между "
-#~ "from и to, оба включительно"
-
-# c9cbb545902b4d3fb264f9dda9692cad
-#~ msgid ""
-#~ "Equidistant spline interpolation of real "
-#~ "function vector ``f(x)`` using ``n`` "
-#~ "equidistant datapoints; the latter can "
-#~ "be omitted and defaults to a "
-#~ "reasonable value"
-#~ msgstr ""
-#~ "Эквидистантная сплайн-интерполяция вектора "
-#~ "вещественных функций f(x) с использованием "
-#~ "n равноудаленных отсчетов данных; последние"
-#~ " можно опустить и использовать значения "
-#~ "по умолчанию"
-
-# 381b1c6789e941b38715364ced1613cd
-#~ msgid ""
-#~ "Returns the x-value which is associated"
-#~ " with the y-value nearest to a "
-#~ "specified y-value ``yval`` in a given"
-#~ " vector ``f``; therefore the vector "
-#~ "``f`` must have a single data "
-#~ "dependency"
-#~ msgstr ""
-#~ "Возвращает x-значение, которое асоциировано с"
-#~ " y-значением, ближайшим к заданному "
-#~ "y-значению yval данного вектора f; "
-#~ "следовательно, в векторе f должна быть"
-#~ " однозначная зависимость данных"
-
-# 2b7d20023b69463eaed7b1fa5171f8ed
-#~ msgid ""
-#~ "Returns the y-value of the given "
-#~ "vector ``f`` which is located nearest"
-#~ " to the x-value ``xval``; therefore "
-#~ "the vector ``f`` must have a "
-#~ "single data dependency"
-#~ msgstr ""
-#~ "Возвращает y-значение данного вектора f, "
-#~ "которое ближе всего соответствует x-значению"
-#~ " xval; следовательно, в векторе f "
-#~ "должна быть однозначная зависимость данных"
-
-# 00b29c796bd74ab4a95fcdaf3e2a18ec
-#~ msgid ""
-#~ "Generates circle(s) with constant Noise "
-#~ "Figure(s) ``F``. ``Arcs`` specifies the "
-#~ "angles in degrees created by e.g. "
-#~ "``linspace(0,360,100)``. If Arcs is a "
-#~ "number it specifies the number of "
-#~ "equally spaced circle segments, if it"
-#~ " is omitted this number defaults to"
-#~ " a reasonable value"
-#~ msgstr ""
-#~ "Создает окружность(и) с постоянным(и) "
-#~ "образом(ами) шума F. Arcs задает углы"
-#~ " в градусах, созданные, например, "
-#~ "linspace(0,360,100). Если Arcs - число, "
-#~ "то оно задает число равноудаленных "
-#~ "круговых сегментов, если оно опущено, то"
-#~ " берется значение по умолчанию"
-
-# e9bb8809cd754cc187c059476e70c487
-#~ msgid ""
-#~ "Returns a data item based upon "
-#~ "vector or matrix vector ``data`` with"
-#~ " dependency on a given vector "
-#~ "``dep``, e.g. ``PlotVs(Gain,frequency/1e9)``"
-#~ msgstr ""
-#~ "Возвращает элемент данных из вектора или"
-#~ " вектора матрицы data, зависящий от "
-#~ "данного вектора dep, например, "
-#~ "PlotVs(Gain,frequency/1e9)"
-
-# f0b3b6976fd54199ab183e4ee6af7232
-#~ msgid ""
-#~ "Stability factor of a two-port "
-#~ "S-parameter matrix. Synonym for ``Rollet()``"
-#~ msgstr "Фактор устойчивости двухпортовой матрицы S-параметров. Синоним Rollet()"
-
