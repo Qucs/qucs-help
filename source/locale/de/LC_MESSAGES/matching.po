@@ -1,110 +1,139 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2014, Qucs Team (2014)
 # This file is distributed under the same license as the Qucs Help package.
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
 "PO-Revision-Date: 2015-01-13 04:51+0000\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/qucs-help/language/de/)\n"
+"Language-Team: German (http://www.transifex.com/projects/p/qucs-"
+"help/language/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.3.4\n"
 
-# 031e5313fe474b4f8a044346a87b8ff7
 #: ../../source/matching.rst:3
 msgid "Matching Circuits"
 msgstr "Anpassungsnetzwerke"
 
-# 5e05467a65114af8ade985608c991847
 #: ../../source/matching.rst:6
 msgid ""
-"Creating matching circuits is an often needed task in microwave technology. "
-"Qucs can do this automatically. These are the neccessary steps:"
-msgstr "Das Erstellen von Anpassschaltungen ist eine häufig anzutreffende Aufgabe in der Mikrowellentechnik. Qucs kann das automatisch. Dies sind die dazu notwendigen Schritte:"
+"Creating matching circuits is an often needed task in microwave "
+"technology. Qucs can do this automatically. These are the neccessary "
+"steps:"
+msgstr ""
+"Das Erstellen von Anpassschaltungen ist eine häufig anzutreffende Aufgabe"
+" in der Mikrowellentechnik. Qucs kann das automatisch. Dies sind die dazu"
+" notwendigen Schritte:"
 
-# 6bf7c5d4905d40cea0dbc1b03d1c7e98
 #: ../../source/matching.rst:10
 msgid ""
 "Perform an S-parameter simulation in order to calculate the reflexion "
 "coefficient."
-msgstr "Durchführen einer S-Parameter-Simulation zur Berechnung der Reflektionsfaktoren."
+msgstr ""
+"Durchführen einer S-Parameter-Simulation zur Berechnung der "
+"Reflektionsfaktoren."
 
-# ecfd4fc2dfd04ba5839edea3b31648ff
 #: ../../source/matching.rst:13
 msgid ""
-"Place a diagram and display the reflexion coefficient (i.e. S[1,1] for port "
-"1, S[2,2] for port 2 etc.)"
-msgstr "Einfügen eines Diagramms zur Darstellung eines Reflektionsfaktors (z.B. S[1,1] für Tor 1, S[2,2] für Tor 2 usw.)"
+"Place a diagram and display the reflexion coefficient (i.e. S[1,1] for "
+"port 1, S[2,2] for port 2 etc.)"
+msgstr ""
+"Einfügen eines Diagramms zur Darstellung eines Reflektionsfaktors (z.B. "
+"S[1,1] für Tor 1, S[2,2] für Tor 2 usw.)"
 
-# 72f9caadeb2a4214ab8cf8953c466908
 #: ../../source/matching.rst:16
 msgid "Set a marker on the graph and step to the desired frequency."
-msgstr "Setzen eines Markers auf die Kurve des Reflektionsfaktors und schrittweise zur gewünschten Frequenz gehen."
+msgstr ""
+"Setzen eines Markers auf die Kurve des Reflektionsfaktors und "
+"schrittweise zur gewünschten Frequenz gehen."
 
-# c19b8ed91a66498485b44f359a80a6ce
 #: ../../source/matching.rst:18
 msgid ""
 "Click with the right mouse button on the marker and select \"power "
 "matching\" in the appearing menu."
-msgstr "Mit der rechten Maustaste auf den Marker klicken und \"Leistungsanpassung\" in dem erscheinenden Menü auswählen."
+msgstr ""
+"Mit der rechten Maustaste auf den Marker klicken und "
+"\"Leistungsanpassung\" in dem erscheinenden Menü auswählen."
 
-# d634e20343bc4854aae031e5a7afaa01
 #: ../../source/matching.rst:21
 msgid ""
-"A dialog appears where the values can be adjusted, for example the reference"
-" impedance can be chosen different from 50 ohms."
-msgstr "Es öffnet sich ein Dialogfenster, in dem die Werte auch von Hand angepasst werden können. Die Referenzimpedanz kann beispielsweise von 50 Ohm abweichend gewählt werden."
+"A dialog appears where the values can be adjusted, for example the "
+"reference impedance can be chosen different from 50 ohms."
+msgstr ""
+"Es öffnet sich ein Dialogfenster, in dem die Werte auch von Hand "
+"angepasst werden können. Die Referenzimpedanz kann beispielsweise von 50 "
+"Ohm abweichend gewählt werden."
 
-# f776f08928aa42c39e813f12e2ee424f
 #: ../../source/matching.rst:24
 msgid ""
 "After clicking \"create\" the page switches back to the schematic and by "
 "moving the mouse cursor the matching circuit can be placed."
-msgstr "Nach dem Bestätigen mit dem \"Erstellen\"-Knopf wird auf den Schaltplan zurückgeschaltet und durch Bewegen der Maus kann die fertige Anpassschaltung eingefügt werden."
+msgstr ""
+"Nach dem Bestätigen mit dem \"Erstellen\"-Knopf wird auf den Schaltplan "
+"zurückgeschaltet und durch Bewegen der Maus kann die fertige "
+"Anpassschaltung eingefügt werden."
 
-# 415251db26e340b49a88e732bf474c19
 #: ../../source/matching.rst:30
 msgid ""
-"The left-hand side of the matching circuit is the input and the right-hand "
-"side must be connected to the circuit."
-msgstr "Die linke Seite der Anpassschaltung ist der Eingang und die rechte Seite muss mit dem Schaltkreis verbunden werden."
+"The left-hand side of the matching circuit is the input and the right-"
+"hand side must be connected to the circuit."
+msgstr ""
+"Die linke Seite der Anpassschaltung ist der Eingang und die rechte Seite "
+"muss mit dem Schaltkreis verbunden werden."
 
-# 868dbdc342754ae89509a80d0708ead0
 #: ../../source/matching.rst:33
 msgid ""
 "If the marker points to a variable called \"Sopt\", the menu shows the "
 "option \"noise matching\". Note that the only different to \"power "
-"matching\" is the fact that the conjugate complex reflexion coefficient is "
-"taken. So if the variable has another name, noise matching can be chosen by "
-"re-adjusting the values in the dialog."
-msgstr "Falls der Marker auf eine Variable namens \"Sopt\" zeigt, beinhaltet das Menü die Option \"Rauschanpassung\". Beachte, dass der einzige Unterschied zur \"Leistungsanpassung\" die Verwendung des konjugiert komplexen Reflektionsfaktors ist. Wenn die Variable also einen anderen Namen hat, kann Rauschanpassung durch eine kleine Änderung der Werte in dem Dialog erreicht werden."
+"matching\" is the fact that the conjugate complex reflexion coefficient "
+"is taken. So if the variable has another name, noise matching can be "
+"chosen by re-adjusting the values in the dialog."
+msgstr ""
+"Falls der Marker auf eine Variable namens \"Sopt\" zeigt, beinhaltet das "
+"Menü die Option \"Rauschanpassung\". Beachte, dass der einzige "
+"Unterschied zur \"Leistungsanpassung\" die Verwendung des konjugiert "
+"komplexen Reflektionsfaktors ist. Wenn die Variable also einen anderen "
+"Namen hat, kann Rauschanpassung durch eine kleine Änderung der Werte in "
+"dem Dialog erreicht werden."
 
-# bf4917b229744da49edd19457f5678a0
 #: ../../source/matching.rst:39
 msgid ""
-"The matching dialog can also be called by menu (Tools->matching circuit) or "
-"by short-cut (<CTRL-5>). But then all values has to be entered manually."
-msgstr "Der Anpassungsdialog kann auch über das Menü aufgerufen werden (Werkzeuge->Anpassnetzwerk) oder durch das Tastenkürzel (<CTRL-5>). Dann müssen aber alle Werte von Hand eingetragen werden."
+"The matching dialog can also be called by menu (Tools->matching circuit) "
+"or by short-cut (<CTRL-5>). But then all values has to be entered "
+"manually."
+msgstr ""
+"Der Anpassungsdialog kann auch über das Menü aufgerufen werden "
+"(Werkzeuge->Anpassnetzwerk) oder durch das Tastenkürzel (<CTRL-5>). Dann "
+"müssen aber alle Werte von Hand eingetragen werden."
 
-# 86494a74b337475fb67bbad59f667d5e
 #: ../../source/matching.rst:44
 msgid "2-Port Matching Circuits"
 msgstr "Zweitor-Anpassungsnetzwerke"
 
-# d5f95468ea134379948916057e1237ed
 #: ../../source/matching.rst:47
 msgid ""
-"If the variable name in the marker text is an S-parameter, then an option "
-"exists for concurrently matching input and output of a two-port circuit. "
-"This works quite alike the above-mentioned steps. It results in two "
-"L-circuits: The very left node is for connecting port 1, the very right node"
-" is for connectiong port 2 and the two node in the middle are for connecting"
-" the two-port circuit."
-msgstr "Falls der Variablenname in dem Marker ein S-Parameter ist, dann existiert ein weiterer Menüpunkt für die gleichzeitige Anpassung am Ein- und Ausgang des Zweitors. Das funktioniert sehr ähnlich wie mit den oben beschriebenen Schritten. Das Ergebnis sind zwei Anpassnetzwerke: Der ganz linke Knoten muss an Tor 1 angeschlossen werden und der ganz rechte Knoten an Tor 2. Die zwei Knoten in der Mitte müssen mit dem Zweitor verbunden werden."
+"If the variable name in the marker text is an S-parameter, then an option"
+" exists for concurrently matching input and output of a two-port circuit."
+" This works quite alike the above-mentioned steps. It results in two "
+"L-circuits: The very left node is for connecting port 1, the very right "
+"node is for connectiong port 2 and the two node in the middle are for "
+"connecting the two-port circuit."
+msgstr ""
+"Falls der Variablenname in dem Marker ein S-Parameter ist, dann existiert"
+" ein weiterer Menüpunkt für die gleichzeitige Anpassung am Ein- und "
+"Ausgang des Zweitors. Das funktioniert sehr ähnlich wie mit den oben "
+"beschriebenen Schritten. Das Ergebnis sind zwei Anpassnetzwerke: Der ganz"
+" linke Knoten muss an Tor 1 angeschlossen werden und der ganz rechte "
+"Knoten an Tor 2. Die zwei Knoten in der Mitte müssen mit dem Zweitor "
+"verbunden werden."
+
+#: ../../source/matching.rst:57
+msgid "`back to the top <#top>`__"
+msgstr ""
+

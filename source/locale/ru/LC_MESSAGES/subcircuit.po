@@ -1,257 +1,261 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2014, Qucs Team (2014)
 # This file is distributed under the same license as the Qucs Help package.
-# 
+#
 # Translators:
 # Vyacheslav <arhiv6@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
 "PO-Revision-Date: 2015-01-20 18:15+0000\n"
 "Last-Translator: Vyacheslav <arhiv6@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/qucs-help/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/qucs-"
+"help/language/ru/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.3.4\n"
 
-# 184b5977c72545bf927f73d1b7bb4585
 #: ../../source/subcircuit.rst:3
 msgid "Working with Subcircuits"
 msgstr "Работа с подсхемами"
 
-# 09933a3efbeb4366996974bd1475cbdf
 #: ../../source/subcircuit.rst:6
 msgid ""
-"Subcircuits are used to bring more clarity into a schematic. This is very "
-"useful in large circuits or in circuits, in which a component block appears "
-"several times."
-msgstr "Подсхемы используются, чтобы внести большую ясность в схему. Это очень полезно в больших схемах или в схемах, в которых какой-либо блок компонентов появляется несколько раз."
+"Subcircuits are used to bring more clarity into a schematic. This is very"
+" useful in large circuits or in circuits, in which a component block "
+"appears several times."
+msgstr ""
+"Подсхемы используются, чтобы внести большую ясность в схему. Это очень "
+"полезно в больших схемах или в схемах, в которых какой-либо блок "
+"компонентов появляется несколько раз."
 
-# fdbaac6706b54db29b057ea2787afdb2
 #: ../../source/subcircuit.rst:10
 msgid ""
-"In Qucs, each schematic containing a subcircuit port is a subcircuit. You "
-"can get a subcircuit port by using the toolbar, the components listview (in "
-"lumped components) or the menu (Insert->Insert port). After placing all "
-"subcircuit ports (two for example) you need to save the schematic (e.g. "
-"CTRL-S). By taking a look into the content listview (figure 1) you see that "
-"now there is a \"2-port\" right beside the schematic name (column \"Note\")."
-" This note marks all documents which are subcircuits. Now change to a "
-"schematic where you want to use the subcircuit. Then press on the subcircuit"
-" name (content listview). By entering the document area again, you see that "
-"you now can place the subcirciut into the main circuit. Do so and complete "
-"the schematic. You can now perform a simulation. The result is the same as "
-"if all the components of the subcircuit are placed into the circuit "
-"directly."
-msgstr "В Qucs каждая схема, содержащая вывод подсхемы, является подсхемой. Вывод подсхемы можно получить с помощью панели инструментов, списка компонентов (в дискретных компонентах) или меню (Вставка->Вставить вывод). После того, как вставлены все выводы подсхемы (например, два), нужно сохранить подсхему (например, нажав CTRL-S). Если посмотреть в просмотр содержимого проекта (рис. 1), можно увидеть, что теперь справа от имени схемы стоит \"2-портовый\" (столбец \"Примечание\"). Эта пометка есть у всех документов, которые являются подсхемами. Теперь перейдите в схему, где Вы хотите использовать эту подсхему. Затем нажмите на имя подсхемы (в просмотре содержимого). Снова войдя в область документов, Вы видите, что теперь можно поместить подсхему в главную схему. Сделайте так и закончите схему. Теперь можно выполнить моделирование. Результат будет такой же, как если бы все компоненты подсхемы были помещены непосредственно на схему."
+"In Qucs, each schematic containing a subcircuit port is a subcircuit. You"
+" can get a subcircuit port by using the toolbar, the components listview "
+"(in lumped components) or the menu (Insert->Insert port). After placing "
+"all subcircuit ports (two for example) you need to save the schematic "
+"(e.g. CTRL-S). By taking a look into the content listview (figure 1) you "
+"see that now there is a \"2-port\" right beside the schematic name "
+"(column \"Note\"). This note marks all documents which are subcircuits. "
+"Now change to a schematic where you want to use the subcircuit. Then "
+"press on the subcircuit name (content listview). By entering the document"
+" area again, you see that you now can place the subcirciut into the main "
+"circuit. Do so and complete the schematic. You can now perform a "
+"simulation. The result is the same as if all the components of the "
+"subcircuit are placed into the circuit directly."
+msgstr ""
+"В Qucs каждая схема, содержащая вывод подсхемы, является подсхемой. Вывод"
+" подсхемы можно получить с помощью панели инструментов, списка "
+"компонентов (в дискретных компонентах) или меню (Вставка->Вставить "
+"вывод). После того, как вставлены все выводы подсхемы (например, два), "
+"нужно сохранить подсхему (например, нажав CTRL-S). Если посмотреть в "
+"просмотр содержимого проекта (рис. 1), можно увидеть, что теперь справа "
+"от имени схемы стоит \"2-портовый\" (столбец \"Примечание\"). Эта пометка"
+" есть у всех документов, которые являются подсхемами. Теперь перейдите в "
+"схему, где Вы хотите использовать эту подсхему. Затем нажмите на имя "
+"подсхемы (в просмотре содержимого). Снова войдя в область документов, Вы "
+"видите, что теперь можно поместить подсхему в главную схему. Сделайте так"
+" и закончите схему. Теперь можно выполнить моделирование. Результат будет"
+" такой же, как если бы все компоненты подсхемы были помещены "
+"непосредственно на схему."
 
-# 15bc90bb315e4d6cbff1c24ca4d06f83
 #: ../../source/subcircuit.rst:25
 msgid "|image1_EN|"
 msgstr "|image1_RU|"
 
-# c3b76213aa494091a690d40ff71facb8
 #: ../../source/subcircuit.rst:27
 msgid "Figure 1 - Accesing a subcircuit"
 msgstr "Рис. 1 - Получение доступа к подсхеме"
 
-# bccb6c0624a142f083c522d6163281cd
 #: ../../source/subcircuit.rst:30
 msgid ""
-"If you select a subcircuit component (click on its symbol in the schematic) "
-"you can step into the subcircuit schematic by pressing CTRL-I (of course, "
-"this function is also reachable via toolbar and via menu). You can step back"
-" by pressing CTRL-H."
-msgstr "Если выбрать компонент-подсхему (нажав на ее обозначение в схеме), то можно войти в подсхему, нажав CTRL-I (конечно, эта функция доступна через панель инструментов и через меню). Можно вернуться, нажав CTRL-H."
+"If you select a subcircuit component (click on its symbol in the "
+"schematic) you can step into the subcircuit schematic by pressing CTRL-I "
+"(of course, this function is also reachable via toolbar and via menu). "
+"You can step back by pressing CTRL-H."
+msgstr ""
+"Если выбрать компонент-подсхему (нажав на ее обозначение в схеме), то "
+"можно войти в подсхему, нажав CTRL-I (конечно, эта функция доступна через"
+" панель инструментов и через меню). Можно вернуться, нажав CTRL-H."
 
-# 8bf89d48a94e4d04bd98d1b6dd5a71fc
 #: ../../source/subcircuit.rst:35
 msgid ""
-"If you do not like the component symbol of a subcircuit, you can draw your "
-"own symbol and put the component text at your favourite position. Just make "
-"the subcircuit schematic the current and go to the menu: File->Edit Circuit "
-"Symbol. If you have not yet drawn a symbol for this circuit. A simple symbol"
-" is created automatically. You now can edit this symbol by painting lines "
-"and arcs. After finished, save it. Now place it on another schematic, and "
-"you have a new symbol."
-msgstr "Если Вам не нравится обозначение компонента подсхемы, то Вы можете нарисовать свое собственное и поместить текст компонента туда, где Вам нравится. Просто сделайте схему подсхемы текущим документом и перейдите к меню: Файл->Изменить обозначение схемы. Если Вы уже не нарисовали обозначение для этой схемы, то автоматически будет создано простое обозначение. Это обозначение можно редактировать, рисуя линии и дуги. После завершения, сохраните его. Теперь поместите его на другую схему, и вот у Вас новое обозначение."
+"If you do not like the component symbol of a subcircuit, you can draw "
+"your own symbol and put the component text at your favourite position. "
+"Just make the subcircuit schematic the current and go to the menu: "
+"File->Edit Circuit Symbol. If you have not yet drawn a symbol for this "
+"circuit. A simple symbol is created automatically. You now can edit this "
+"symbol by painting lines and arcs. After finished, save it. Now place it "
+"on another schematic, and you have a new symbol."
+msgstr ""
+"Если Вам не нравится обозначение компонента подсхемы, то Вы можете "
+"нарисовать свое собственное и поместить текст компонента туда, где Вам "
+"нравится. Просто сделайте схему подсхемы текущим документом и перейдите к"
+" меню: Файл->Изменить обозначение схемы. Если Вы уже не нарисовали "
+"обозначение для этой схемы, то автоматически будет создано простое "
+"обозначение. Это обозначение можно редактировать, рисуя линии и дуги. "
+"После завершения, сохраните его. Теперь поместите его на другую схему, и "
+"вот у Вас новое обозначение."
 
-# df248e3f38244d8881a7a8eaa804faf1
 #: ../../source/subcircuit.rst:43
 msgid ""
-"Just like all other components, subcircuits can have parameters. To create "
-"your own parameters, go back to the editor where you edited the subcircuit "
-"symbol and double-click on the subcircuit parameter text (SUB1 in the Figure"
-" 1). A dialog apperas and you now can fill in parameterswith default values "
-"and descriptions. When you are ready, close the dialog and save the "
-"subcircuit. In every schematic where the subcircuit is placed, it owns the "
-"new parameters which can be edited as in all other components."
-msgstr "Как и у всех других компонентов, у подсхем могут быть параметры. Для создания своих собственных параметров, вернитесь в редактор, где вы редактировали обозначение подсхемы, и дважды нажмите левую кнопку на тексте параметра подсхемы. Появится диалоговое окно, в котором Вы можете заполнить параметры начальными значениями и описаниями. Когда Вы это закончите, закройте диалоговое окно и сохраните подсхему. Везде, где вставляется подсхема, у нее есть эти новые параметры, и их можно редактировать так же, как и во всех других компонентах."
+"Just like all other components, subcircuits can have parameters. To "
+"create your own parameters, go back to the editor where you edited the "
+"subcircuit symbol and double-click on the subcircuit parameter text (SUB1"
+" in the Figure 1). A dialog apperas and you now can fill in "
+"parameterswith default values and descriptions. When you are ready, close"
+" the dialog and save the subcircuit. In every schematic where the "
+"subcircuit is placed, it owns the new parameters which can be edited as "
+"in all other components."
+msgstr ""
+"Как и у всех других компонентов, у подсхем могут быть параметры. Для "
+"создания своих собственных параметров, вернитесь в редактор, где вы "
+"редактировали обозначение подсхемы, и дважды нажмите левую кнопку на "
+"тексте параметра подсхемы. Появится диалоговое окно, в котором Вы можете "
+"заполнить параметры начальными значениями и описаниями. Когда Вы это "
+"закончите, закройте диалоговое окно и сохраните подсхему. Везде, где "
+"вставляется подсхема, у нее есть эти новые параметры, и их можно "
+"редактировать так же, как и во всех других компонентах."
 
-# 38aa7255d92f4fedb19a9cdc41cf4811
 #: ../../source/subcircuit.rst:54
 msgid "Subcircuits with Parameters"
 msgstr ""
 
-# 202623edff634ad8a0cfd263f84bfd19
 #: ../../source/subcircuit.rst:56
 msgid ""
-"A simple example using subcircuits with parameters and equations is provided"
-" here."
+"A simple example using subcircuits with parameters and equations is "
+"provided here."
 msgstr ""
 
-# 472fe979847d4d4fb8a5156ef4b486e4
 #: ../../source/subcircuit.rst:59
 msgid "Create a subcircuit:"
 msgstr ""
 
-# 45f32c33a515480aa3abd18cb09416e2
 #: ../../source/subcircuit.rst:61
 msgid "Create a new project"
 msgstr "Создайте новый проект"
 
-# 8cac5a72a96943c594fd673dff52b2dd
 #: ../../source/subcircuit.rst:62
 msgid "New schematic (for subcircuit)"
 msgstr ""
 
-# 559d7fdc64b14515b6fd9d039737abc9
 #: ../../source/subcircuit.rst:63
 msgid ""
-"Add a resistor, inductor, and capacitor,  wire them in series, add two ports"
-msgstr "Добавить резистор, катушку индуктивности, конденсатор, соедините их последовательно, добавьте два порта"
+"Add a resistor, inductor, and capacitor,  wire them in series, add two "
+"ports"
+msgstr ""
+"Добавить резистор, катушку индуктивности, конденсатор, соедините их "
+"последовательно, добавьте два порта"
 
-# ab25a66df1274f7ca037fdfbebc7452d
 #: ../../source/subcircuit.rst:64
 msgid "Save the subcircuit as RLC.sch"
 msgstr "Сохраните подсхему как RLC.sch"
 
-# a331c21624a240f89d9abc881eb64431
 #: ../../source/subcircuit.rst:65
 msgid "Give value of resistor as 'R1'"
 msgstr ""
 
-# 7dce37e207494f8e8fde4ad18446161b
 #: ../../source/subcircuit.rst:66
 msgid "Add equation 'ind = L1',"
 msgstr "Добавьте уравнение 'ind = L1',"
 
-# a51a5f34ba3c4b50b09572ecddd5bd4c
 #: ../../source/subcircuit.rst:67
 msgid "Give value of inductor as 'ind'"
 msgstr ""
 
-# 126dab5bbd424727912f3a1ffdc90bb0
 #: ../../source/subcircuit.rst:68
 msgid "Give value of capacitor as 'C1'"
 msgstr ""
 
-# dfa76632acba49f7802198880d6e85d6
 #: ../../source/subcircuit.rst:69
 msgid "Save"
 msgstr "Сохранить"
 
-# 786bdeba7c704cf79d8516f37d83f0d1
 #: ../../source/subcircuit.rst:70
 msgid "File > Edit Circuit Symbol"
 msgstr ""
 
-# 7dedefaca061445681603a03e2078986
 #: ../../source/subcircuit.rst:71
 msgid "Double click on the 'SUB File=name' tag under the rectangular box"
 msgstr ""
 
-# 0f3c0589399648dfbb5ad2d89c219934
 #: ../../source/subcircuit.rst:73
 msgid "Add name = R1, default value = 1"
 msgstr ""
 
-# d6ce1b7ed496405da74c6096f2489277
 #: ../../source/subcircuit.rst:74
 msgid "Add name = L1, default value = 1"
 msgstr ""
 
-# 475d9d822cb24aa2881fee11bc59766d
 #: ../../source/subcircuit.rst:75
 msgid "Add name = C1, default value = 1"
 msgstr ""
 
-# fdc2727b7e724867be81f11438f5484c
 #: ../../source/subcircuit.rst:76
 msgid "OK"
 msgstr "OK"
 
-# 749b0a07ff284334b2f9b800445135a8
 #: ../../source/subcircuit.rst:78
 msgid "Insert subcircuit and define parameters:"
 msgstr ""
 
-# 9f1b3781ef0c4d2eb8e3af1f99c84e68
 #: ../../source/subcircuit.rst:80
 msgid "New schematic (for testbench)"
 msgstr ""
 
-# 2bba7b538177410aa7f7a983765def85
 #: ../../source/subcircuit.rst:81
 msgid "Save Test_RLC.sch"
 msgstr "Сохраните Test_RLC.sch"
 
-# 10cc05ee997d43128d221c670b99793a
 #: ../../source/subcircuit.rst:82
 msgid "Project Contents > pick and place the above RLC subcircuit"
 msgstr ""
 
-# e19dd2976a3e4c21b132527f23dde48f
 #: ../../source/subcircuit.rst:83
 msgid "Add AC voltage source (V1) and ground"
 msgstr ""
 
-# 8a7d74be5fe54fd8b0bfed0811ff0319
 #: ../../source/subcircuit.rst:84
 msgid "Add AC simulation, from 140Hz to 180Hz, 201 points"
 msgstr ""
 
-# a16c16b117c84667a97cb2825fe69261
 #: ../../source/subcircuit.rst:85
 msgid "Set on the subcircuit symbol"
 msgstr ""
 
-# 570c71c04c0c4a01a16e17901b4b3010
 #: ../../source/subcircuit.rst:87
 msgid "R1=1"
 msgstr "R1=1"
 
-# 1500ceff67014feca29547afc852d4e7
 #: ../../source/subcircuit.rst:88
 msgid "L1=100e-3"
 msgstr "L1=100e-3"
 
-# 18368f2d177346beb06024a1c0eb0e52
 #: ../../source/subcircuit.rst:89
 msgid "C1=10e-6"
 msgstr "C1=10e-6"
 
-# 9cb307763bfd46968006aa70c50fb9ef
 #: ../../source/subcircuit.rst:91
 msgid "Simulate"
 msgstr "Моделировать"
 
-# f1b71e3726334878ab302caad69a55f4
 #: ../../source/subcircuit.rst:92
 msgid "Add a Cartesian diagram, plot V1.i"
 msgstr ""
 
-# d27a304f5eac4a88aa3cf9707406b685
 #: ../../source/subcircuit.rst:93
 msgid "The result should be the resonance of the RLC circuit."
 msgstr ""
 
-# bfde19e59c1241b18dcc3f011080aee9
 #: ../../source/subcircuit.rst:94
-msgid ""
-"The parameters of the RLC subcircuit can be changed on the top schematic."
+msgid "The parameters of the RLC subcircuit can be changed on the top schematic."
 msgstr ""
+
+#: ../../source/subcircuit.rst:100
+msgid "`back to the top <#top>`__"
+msgstr ""
+

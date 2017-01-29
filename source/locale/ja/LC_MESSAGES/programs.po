@@ -1,22 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2014, Qucs Team (2014)
 # This file is distributed under the same license as the Qucs Help package.
-# 
+#
 # Translators:
 # seijirom <seijiro.moriyama@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-07 21:37+0100\n"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
 "PO-Revision-Date: 2016-03-19 01:15+0000\n"
 "Last-Translator: seijirom <seijiro.moriyama@gmail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/qucs/qucs-help/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/qucs/qucs-"
+"help/language/ja/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../source/programs.rst:3
 msgid "Installed Files"
@@ -25,10 +25,12 @@ msgstr "インストールされたファイル"
 #: ../../source/programs.rst:5
 msgid ""
 "The Qucs system needs several programs. These are installed during the "
-"installation process. The path of Qucs is determined during the installation"
-" (``configure`` script). The following explanations assume the default path "
-"(``/usr/local/``)."
-msgstr "Qucsシステムはいくつかのプログラムを必要とします。それらは、インストールプロセスの間にインストールされます。Qucsのパスは、インストール中に決定されます（ ``configure`` スクリプト）。以下の説明では、デフォルトのパス（ ``/usr/local/`` ）を想定しています。"
+"installation process. The path of Qucs is determined during the "
+"installation (``configure`` script). The following explanations assume "
+"the default path (``/usr/local/``)."
+msgstr ""
+"Qucsシステムはいくつかのプログラムを必要とします。それらは、インストールプロセスの間にインストールされます。Qucsのパスは、インストール中に決定されます（"
+" ``configure`` スクリプト）。以下の説明では、デフォルトのパス（ ``/usr/local/`` ）を想定しています。"
 
 #: ../../source/programs.rst:10
 msgid "``/usr/local/bin/qucs`` - the GUI"
@@ -43,14 +45,13 @@ msgid "``/usr/local/bin/qucsedit`` - a simple text editor"
 msgstr "``/usr/local/bin/qucsedit`` - シンプルなテキストエディタ"
 
 #: ../../source/programs.rst:16
-msgid ""
-"``/usr/local/bin/qucshelp`` - a small program displaying the help system"
+msgid "``/usr/local/bin/qucshelp`` - a small program displaying the help system"
 msgstr "``/usr/local/bin/qucshelp`` - ヘルプシステムを表示する小さなプログラム"
 
 #: ../../source/programs.rst:18
 msgid ""
-"``/usr/local/bin/qucstrans`` - a program for calculation transmission line "
-"parameters"
+"``/usr/local/bin/qucstrans`` - a program for calculation transmission "
+"line parameters"
 msgstr "``/usr/local/bin/qucstrans`` - 伝送線路のパラメータを計算するプログラム"
 
 #: ../../source/programs.rst:20
@@ -59,13 +60,14 @@ msgstr "``/usr/local/bin/qucsfilter`` - フィルタ回路を合成するプロ�
 
 #: ../../source/programs.rst:22
 msgid ""
-"``/usr/local/bin/qucsconv`` - a file format converter (console application)"
+"``/usr/local/bin/qucsconv`` - a file format converter (console "
+"application)"
 msgstr "``/usr/local/bin/qucsconv`` - ファイル形式のコンバータ（コンソールアプリケーション）"
 
 #: ../../source/programs.rst:25
 msgid ""
-"All programs are stand-alone applications and can be started independently. "
-"The main program (GUI)"
+"All programs are stand-alone applications and can be started "
+"independently. The main program (GUI)"
 msgstr "プログラムはすべてスタンドアローンのアプリケーションですので、別々に開始できます。メインプログラム（GUI）は"
 
 #: ../../source/programs.rst:28
@@ -90,13 +92,12 @@ msgstr "\"Tools\"メニューから``qucsfilter`` が選択された時は、こ
 
 #: ../../source/programs.rst:38
 msgid ""
-"calls ``qucsconv`` when placing the SPICE component and when performing a "
-"simulation with the SPICE component."
+"calls ``qucsconv`` when placing the SPICE component and when performing a"
+" simulation with the SPICE component."
 msgstr "SPICE用の部品が配置され、そのSPICE部品でシミュレーションを実行する時は、``qucsconv`` が呼び出されます。"
 
 #: ../../source/programs.rst:40
-msgid ""
-"Furthermore, the following directories are created during installation:"
+msgid "Furthermore, the following directories are created during installation:"
 msgstr "さらに、インストールの間には、以下のようなディレクトリが作られます："
 
 #: ../../source/programs.rst:43
@@ -105,7 +106,8 @@ msgstr "``/usr/local/share/qucs/bitmaps`` - すべてのビットマップ（ア
 
 #: ../../source/programs.rst:45
 msgid ""
-"``/usr/local/share/qucs/docs`` - contains HTML documents for the help system"
+"``/usr/local/share/qucs/docs`` - contains HTML documents for the help "
+"system"
 msgstr "``/usr/local/share/qucs/docs`` - ヘルプシステムのHTML文書を含みます"
 
 #: ../../source/programs.rst:47
@@ -135,3 +137,8 @@ msgstr "'qucshelp' (引数なし)"
 #: ../../source/programs.rst:60
 msgid "``qucsconv -if spice -of qucs -i netlist.inp -o netlist.net``"
 msgstr "``qucsconv -if spice -of qucs -i netlist.inp -o netlist.net``"
+
+#: ../../source/programs.rst:65
+msgid "`back to the top <#top>`__"
+msgstr ""
+

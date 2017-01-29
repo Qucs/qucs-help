@@ -1,22 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2014, Qucs Team (2014)
 # This file is distributed under the same license as the Qucs Help package.
-# 
+#
 # Translators:
 # seijirom <seijiro.moriyama@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-07 21:37+0100\n"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
 "PO-Revision-Date: 2016-03-19 04:21+0000\n"
 "Last-Translator: seijirom <seijiro.moriyama@gmail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/qucs/qucs-help/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/qucs/qucs-"
+"help/language/ja/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../source/internal.rst:3
 msgid "Schematic File Format"
@@ -24,18 +24,22 @@ msgstr " 回路図ファイルの形式 "
 
 #: ../../source/internal.rst:6
 msgid ""
-"This document describes the schematic file format of Qucs. This format is "
-"used for schematics (usually with suffix ``.sch``) and for data displays "
-"(usually with suffix ``.dpl``). The following text shows a short example of "
-"a schematic file."
-msgstr "この文書は、Qucsの回路図ファイルの形式について記述します。この形式は、回路図（通常修飾子は  ``.sch`` ）とデータ表示（通常修飾子は ``.dpl`` ）に使われます。以下のテキストは、回路図ファイルの短い例です。"
+"This document describes the schematic file format of Qucs. This format is"
+" used for schematics (usually with suffix ``.sch``) and for data displays"
+" (usually with suffix ``.dpl``). The following text shows a short example"
+" of a schematic file."
+msgstr ""
+"この文書は、Qucsの回路図ファイルの形式について記述します。この形式は、回路図（通常修飾子は  ``.sch`` ）とデータ表示（通常修飾子は "
+"``.dpl`` ）に使われます。以下のテキストは、回路図ファイルの短い例です。"
 
 #: ../../source/internal.rst:38
 msgid ""
-"The file contains several section. Each of it is explained below. Every line"
-" consists of not more than one information block that starts with a less-"
-"sign ``<`` and ends with a greater-sign ``>``."
-msgstr "このファイルにはいくつかのセクションが入っています。以下でそれぞれを説明します。すべての行は、小なり記号（＜）で始まり大なり記号（＞）で終わる１つを 超えることのない情報ブロックから構成されます。"
+"The file contains several section. Each of it is explained below. Every "
+"line consists of not more than one information block that starts with a "
+"less-sign ``<`` and ends with a greater-sign ``>``."
+msgstr ""
+"このファイルにはいくつかのセクションが入っています。以下でそれぞれを説明します。すべての行は、小なり記号（＜）で始まり大なり記号（＞）で終わる１つを"
+" 超えることのない情報ブロックから構成されます。"
 
 #: ../../source/internal.rst:43
 msgid "Properties"
@@ -46,20 +50,26 @@ msgid ""
 "The first section starts with ``<Properties>`` and ends with "
 "``</Properties>``. It contains the document properties of the file. Each "
 "line is optional. The following properties are supported:"
-msgstr "この最初のセクションは  ``<Properties>`` で始まり、  ``</Properties>``  で終わります。 これには、ファイルの文書としてのプロパティが含まれます。以下のようなプロパティがサポートされています："
+msgstr ""
+"この最初のセクションは  ``<Properties>`` で始まり、  ``</Properties>``  で終わります。 "
+"これには、ファイルの文書としてのプロパティが含まれます。以下のようなプロパティがサポートされています："
 
 #: ../../source/internal.rst:50
 msgid ""
 "``<View=x1,y1,x2,y2,scale,xpos,ypos>`` contains pixel position of the "
 "schematic window in the first four numbers, its current scale and the "
 "current position of the upper left corner (last two numbers)."
-msgstr "``<View=x1,y1,x2,y2,scale,xpos,ypos>`` には、最初の４つの数字で、回路図ウィンドウのピクセルの位置、（最後の２つの数で）現在のスケール、それから現在の左上のコーナの位置が入っています。"
+msgstr ""
+"``<View=x1,y1,x2,y2,scale,xpos,ypos>`` "
+"には、最初の４つの数字で、回路図ウィンドウのピクセルの位置、（最後の２つの数で）現在のスケール、それから現在の左上のコーナの位置が入っています。"
 
 #: ../../source/internal.rst:53
 msgid ""
 "``<Grid=x,y,on>`` contains the distance of the grid in pixel (first two "
 "numbers) and whether grid is on (last number 1) or off (last number 0)."
-msgstr "<Grid=x,y,on> には、グリッドの距離をピクセルで（最初の２つの数字）、それからグリッドがオン（最後の数字が１）かオフ（最後の数字が０）かを含んでいます。"
+msgstr ""
+"<Grid=x,y,on> "
+"には、グリッドの距離をピクセルで（最初の２つの数字）、それからグリッドがオン（最後の数字が１）かオフ（最後の数字が０）かを含んでいます。"
 
 #: ../../source/internal.rst:56
 msgid ""
@@ -69,10 +79,12 @@ msgstr "<DataSet=name.dat> は、この回路図に関係したデータセッ�
 
 #: ../../source/internal.rst:58
 msgid ""
-"``<DataDisplay=name.dpl>`` contains the file name of the data display page "
-"associated with this schematic (or the file name of the schematic if this "
-"document is a data display)."
-msgstr "``<DataDisplay=name.dpl>`` には、この回路図に関係したデータ表示のページのファイル名（または、文書がデータ表示であるなら、回路図の名前）が含まれます。"
+"``<DataDisplay=name.dpl>`` contains the file name of the data display "
+"page associated with this schematic (or the file name of the schematic if"
+" this document is a data display)."
+msgstr ""
+"``<DataDisplay=name.dpl>`` "
+"には、この回路図に関係したデータ表示のページのファイル名（または、文書がデータ表示であるなら、回路図の名前）が含まれます。"
 
 #: ../../source/internal.rst:61
 msgid ""
@@ -87,9 +99,11 @@ msgstr "Symbol"
 #: ../../source/internal.rst:71
 msgid ""
 "This section starts with ``<Symbol>`` and ends with ``</Symbol>``. It "
-"contains painting elements creating a schematic symbol for the file. This is"
-" usually only used for schematic files that meant to be a subcircuit."
-msgstr "このセクションは ``<Symbol>`` ではじまり </Symbol> で終わります。これには、ファイルに対する回路図シンボルを生成する作図要素が含まれます。これは、通常サブサーキットのための回路図ファイルのためだけに使われます。"
+"contains painting elements creating a schematic symbol for the file. This"
+" is usually only used for schematic files that meant to be a subcircuit."
+msgstr ""
+"このセクションは ``<Symbol>`` ではじまり </Symbol> "
+"で終わります。これには、ファイルに対する回路図シンボルを生成する作図要素が含まれます。これは、通常サブサーキットのための回路図ファイルのためだけに使われます。"
 
 #: ../../source/internal.rst:77
 msgid "Components"
@@ -97,15 +111,17 @@ msgstr "部品"
 
 #: ../../source/internal.rst:80
 msgid ""
-"This section starts with ``<Components>`` and ends with ``</Components>``. "
-"It contains the circuit components of the schematic. The line format is as "
-"follows:"
-msgstr "このセクションは``<Components>`` で始まり </Components> で終わります。 これには、回路図の回路部品を含みます。各行のフォーマットは以下の通りです："
+"This section starts with ``<Components>`` and ends with "
+"``</Components>``. It contains the circuit components of the schematic. "
+"The line format is as follows:"
+msgstr ""
+"このセクションは``<Components>`` で始まり </Components> で終わります。 "
+"これには、回路図の回路部品を含みます。各行のフォーマットは以下の通りです："
 
 #: ../../source/internal.rst:88
 msgid ""
-"The ``type`` identifies the component, e.g. ``R`` for a resistor, ``C`` for "
-"a capacitor."
+"The ``type`` identifies the component, e.g. ``R`` for a resistor, ``C`` "
+"for a capacitor."
 msgstr "``type`` は、部品の識別するもので、例えば抵抗なら ``R`` 、キャパシタなら C です。"
 
 #: ../../source/internal.rst:90
@@ -116,19 +132,20 @@ msgstr "``name`` は、回路図中の部品のユニークな識別子、例え
 
 #: ../../source/internal.rst:92
 msgid ""
-"A ``1`` in the ``active`` field shows that the component is active, i.e it "
-"is used in the simulation. A ``0`` shows it is inactive."
-msgstr "``active`` 欄の ``1`` は、その部品がアクティブであること、すなわち回路図で使われることを示します。 ``0`` は、アクティブでないという意味です。"
+"A ``1`` in the ``active`` field shows that the component is active, i.e "
+"it is used in the simulation. A ``0`` shows it is inactive."
+msgstr ""
+"``active`` 欄の ``1`` は、その部品がアクティブであること、すなわち回路図で使われることを示します。 ``0`` "
+"は、アクティブでないという意味です。"
 
 #: ../../source/internal.rst:94
-msgid ""
-"The next two numbers are the x and y coordinates of the component center."
+msgid "The next two numbers are the x and y coordinates of the component center."
 msgstr "次の２つの数字は、部品の中心のx座標とy座標です。"
 
 #: ../../source/internal.rst:96
 msgid ""
-"The next two numbers are the x and y coordinates of the upper left corner of"
-" the component text. They are relative to the component center."
+"The next two numbers are the x and y coordinates of the upper left corner"
+" of the component text. They are relative to the component center."
 msgstr "その次の２つの数字は、部品についてのテキストの左上のコーナのx座標とy座標です。それらは、部品の中心に対する相対位置です。"
 
 #: ../../source/internal.rst:99
@@ -136,14 +153,18 @@ msgid ""
 "The next two numbers indicate the mirroring about the x axis (``1`` for "
 "mirrored, ``0`` for not mirrored) and the counter-clockwise rotation "
 "(multiple of 90 degree, i.e. 0...3)."
-msgstr "その次の２つの数字は、x軸についてのミラーの有無（``1``  ならミラーあり、０はなし）と逆時計回りの回転（90度の倍数、つまり0...3）を示します。"
+msgstr ""
+"その次の２つの数字は、x軸についてのミラーの有無（``1``  "
+"ならミラーあり、０はなし）と逆時計回りの回転（90度の倍数、つまり0...3）を示します。"
 
 #: ../../source/internal.rst:102
 msgid ""
-"The next entries are the values of the component properties (in quotation "
-"marks) followed by an ``1`` if the property is visible on the schematic "
+"The next entries are the values of the component properties (in quotation"
+" marks) followed by an ``1`` if the property is visible on the schematic "
 "(otherwise ``0``)."
-msgstr "その後は、部品のプロパティの値（引用符の中）とそれに続いて、プロパティが回路図上に表示されるなら ``1`` （そうでなければ ``0`` ）という項目が続きます。"
+msgstr ""
+"その後は、部品のプロパティの値（引用符の中）とそれに続いて、プロパティが回路図上に表示されるなら ``1`` （そうでなければ ``0`` "
+"）という項目が続きます。"
 
 #: ../../source/internal.rst:110
 msgid "Wires"
@@ -151,36 +172,38 @@ msgstr "Wires"
 
 #: ../../source/internal.rst:113
 msgid ""
-"This section starts with ``<Wires>`` and ends with ``</Wires>``. It contains"
-" the wires (electrical connection between circuit components) and their "
-"labels and node sets. The line format is as follows:"
-msgstr "このセクションは、 ``<Wires>`` で始まり、 ``</Wires>`` で終わります。これには、配線（回路部品の間の電気的な結線）とそれらのラベルとノードセット情報が含まれます。行の形式は以下のようになります："
+"This section starts with ``<Wires>`` and ends with ``</Wires>``. It "
+"contains the wires (electrical connection between circuit components) and"
+" their labels and node sets. The line format is as follows:"
+msgstr ""
+"このセクションは、 ``<Wires>`` で始まり、 ``</Wires>`` "
+"で終わります。これには、配線（回路部品の間の電気的な結線）とそれらのラベルとノードセット情報が含まれます。行の形式は以下のようになります："
 
 #: ../../source/internal.rst:121
 msgid ""
 "The first four numbers are the coordinates of the wire in pixels: x "
-"coordinate of starting point, y coordinate of starting point, x coordinate "
-"of end point and y coordinate of end point. All wires must be either "
-"horizontal (both x coordinates equal) or vertical (both y coordinates "
-"equal)."
+"coordinate of starting point, y coordinate of starting point, x "
+"coordinate of end point and y coordinate of end point. All wires must be "
+"either horizontal (both x coordinates equal) or vertical (both y "
+"coordinates equal)."
 msgstr "最初の４つの数字は、配線のピクセル座標：開始点のx座標、開始点のy座標、終止点のx座標と終止点のy座標、です。すべての配線は、水平方向（両方のx座標が同じ）または垂直方向（y座標が同じ）でなくてはなりません。"
 
 #: ../../source/internal.rst:126
 msgid ""
-"The first string in quotation marks is the label name. It is empty if the "
-"user has not set a label on this wire."
+"The first string in quotation marks is the label name. It is empty if the"
+" user has not set a label on this wire."
 msgstr "引用符に囲まれた最初の文字列はラベルの名前です。それは配線にラベルが 付けられていなければ 空白です。"
 
 #: ../../source/internal.rst:128
 msgid ""
-"The next two numbers are the x and y coordinates of the label or zero if no "
-"label exists."
+"The next two numbers are the x and y coordinates of the label or zero if "
+"no label exists."
 msgstr "次の２つの数字は、ラベルのx座標とy座標であり、ラベルが 無ければ０です。"
 
 #: ../../source/internal.rst:130
 msgid ""
-"The next number is the distance between the wire starting point and and the "
-"point where the label is set on the wire."
+"The next number is the distance between the wire starting point and and "
+"the point where the label is set on the wire."
 msgstr "その次の数字は、配線の開始点と配線に付けられたラベルの位置の間の距離です。"
 
 #: ../../source/internal.rst:132
@@ -196,10 +219,12 @@ msgstr "Diagrams"
 
 #: ../../source/internal.rst:144
 msgid ""
-"This section starts with ``<Diagrams>`` and ends with ``</Diagrams>``. It "
-"contains the diagrams with their graphs and their markers. The line format "
-"is as follows (line break not allowed):"
-msgstr "このセクションは ``<Diagrams>`` で始まり ``</Diagrams>`` で終わります。これは、グラフとマーカの図を含みます。行の形式は以下の通りです（改行は禁止されてます）："
+"This section starts with ``<Diagrams>`` and ends with ``</Diagrams>``. It"
+" contains the diagrams with their graphs and their markers. The line "
+"format is as follows (line break not allowed):"
+msgstr ""
+"このセクションは ``<Diagrams>`` で始まり ``</Diagrams>`` "
+"で終わります。これは、グラフとマーカの図を含みます。行の形式は以下の通りです（改行は禁止されてます）："
 
 #: ../../source/internal.rst:154
 msgid "The first two numbers are x and y coordinate of lower left corner."
@@ -215,7 +240,8 @@ msgstr "５番目の数字は、グリッドがオンなら１、オフなら０
 
 #: ../../source/internal.rst:157
 msgid ""
-"The next is grid color in 24 bit hexadecimal RGB value, e.g. #FF0000 is red."
+"The next is grid color in 24 bit hexadecimal RGB value, e.g. #FF0000 is "
+"red."
 msgstr "その次は、グリッドの色を24ビットの16進数のRGB値（例えば、#FF0000は赤をあらわす）です。"
 
 #: ../../source/internal.rst:159
@@ -232,6 +258,13 @@ msgstr "Paintings"
 
 #: ../../source/internal.rst:169
 msgid ""
-"This section starts with ``<Paintings>`` and ends with ``</Paintings>``. It "
-"contains the paintings that are within the schematic."
-msgstr "このセクションは ``<Paintings>`` で始まり、 ``</Paintings>`` で終わります。これには、回路図に含まれる絵柄が入っています。"
+"This section starts with ``<Paintings>`` and ends with ``</Paintings>``. "
+"It contains the paintings that are within the schematic."
+msgstr ""
+"このセクションは ``<Paintings>`` で始まり、 ``</Paintings>`` "
+"で終わります。これには、回路図に含まれる絵柄が入っています。"
+
+#: ../../source/internal.rst:174
+msgid "`back to the top <#top>`__"
+msgstr ""
+

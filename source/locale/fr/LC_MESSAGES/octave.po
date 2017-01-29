@@ -1,68 +1,67 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2014, Qucs Team (2014)
 # This file is distributed under the same license as the Qucs Help package.
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
 "PO-Revision-Date: 2015-01-13 04:44+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/qucs-help/language/fr/)\n"
+"Language-Team: French (http://www.transifex.com/projects/p/qucs-"
+"help/language/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.3.4\n"
 
-# e44988226f6f428395ae4307e1d1a2a4
 #: ../../source/octave.rst:3
 msgid "Getting Started with Octave Scripts"
 msgstr ""
 
-# 693bd63dd6e04ccba2a857729b86dbc9
 #: ../../source/octave.rst:6
 msgid ""
-"Qucs can also be used to develop Octave scripts (see `http://www.octave.org "
-"<http://www.octave.org>`__). This document should give you a short "
-"description on how to do this."
+"Qucs can also be used to develop Octave scripts (see "
+"`http://www.octave.org <http://www.octave.org>`__). This document should "
+"give you a short description on how to do this."
 msgstr ""
 
-# fc5ecf19b4794f17938b9b8a4c6c73c4
 #: ../../source/octave.rst:10
 msgid ""
 "If the user creates a new text document and saves it with the Octave "
-"extension, e.g. 'name.m' then the file will be listed at the Octave files of"
-" the active project. The script can be executed with F2 key or by pressing "
-"the simulate button in the toolbar. The output can bee seen in the Octave "
-"window that opens automatically (per default on the right-hand side). At the"
-" bottom of the Octave window there is a command line where the user can "
-"enter single commands. It has a history function that can be used with the "
-"cursor up/down keys."
+"extension, e.g. 'name.m' then the file will be listed at the Octave files"
+" of the active project. The script can be executed with F2 key or by "
+"pressing the simulate button in the toolbar. The output can bee seen in "
+"the Octave window that opens automatically (per default on the right-hand"
+" side). At the bottom of the Octave window there is a command line where "
+"the user can enter single commands. It has a history function that can be"
+" used with the cursor up/down keys."
 msgstr ""
 
-# 9c792856c4384e6e98cabd4a678bd44a
 #: ../../source/octave.rst:19
 msgid ""
 "There are two Octave functions that load Qucs simulation results from a "
-"dataset file: loadQucsVariable() and loadQucsDataset(). Please use the help "
-"function in the Octave command line to learn more about them (i.e. type help"
-" loadQucsVariable and help loadQucsDataset)."
+"dataset file: loadQucsVariable() and loadQucsDataset(). Please use the "
+"help function in the Octave command line to learn more about them (i.e. "
+"type help loadQucsVariable and help loadQucsDataset)."
 msgstr ""
 
-# 6a1d165ff62743019e21bab68d1ceeb7
 #: ../../source/octave.rst:25
 msgid "Postprocessing"
 msgstr ""
 
-# dcbf456799294f91ad352b8ec425957d
 #: ../../source/octave.rst:28
 msgid ""
-"Octave can also be used for automatic postprocessing of a Qucs simulation "
-"result. This is done by editing the data display file of a schematic "
+"Octave can also be used for automatic postprocessing of a Qucs simulation"
+" result. This is done by editing the data display file of a schematic "
 "(Document Settings... in File menu). If the filename of an Octave script "
-"(filename extension m) from the same project is entered, this script will be"
-" executed after the simulation is finished."
+"(filename extension m) from the same project is entered, this script will"
+" be executed after the simulation is finished."
 msgstr ""
+
+#: ../../source/octave.rst:37
+msgid "`back to the top <#top>`__"
+msgstr ""
+

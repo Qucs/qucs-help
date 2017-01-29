@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2014, Qucs Team (2014)
 # This file is distributed under the same license as the Qucs Help package.
-# 
+#
 # Translators:
 # AlexL <loginov.alex.valer@gmail.com>, 2016
 # Vyacheslav <arhiv6@gmail.com>, 2015
@@ -9,15 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-07 21:37+0100\n"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
 "PO-Revision-Date: 2016-11-17 12:41+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/qucs/qucs-help/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/qucs/qucs-"
+"help/language/ru/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../source/start_opt.rst:3
 msgid "Getting Started with Optimization"
@@ -26,28 +26,41 @@ msgstr "Быстрый старт в оптимизации"
 #: ../../source/start_opt.rst:6
 msgid ""
 "For circuit optimization, Qucs uses the ASCO tool "
-"(`http://asco.sourceforge.net/ <http://asco.sourceforge.net/>`__). A brief "
-"description on how to prepare your schematic, execute and interprete the "
-"results is given below. Before using this functionality, ASCO must be "
-"installed on the computer."
-msgstr "Для оптимизации цепей в Qucs используется утилита ASCO (http://asco.sourceforge.net/). Ниже дается краткое описание того, как подготовить схему, выполнить утилиту и интерпретировать результат. Перед этим в системе должна быть установлена ASCO."
+"(`http://asco.sourceforge.net/ <http://asco.sourceforge.net/>`__). A "
+"brief description on how to prepare your schematic, execute and "
+"interprete the results is given below. Before using this functionality, "
+"ASCO must be installed on the computer."
+msgstr ""
+"Для оптимизации цепей в Qucs используется утилита ASCO "
+"(http://asco.sourceforge.net/). Ниже дается краткое описание того, как "
+"подготовить схему, выполнить утилиту и интерпретировать результат. Перед "
+"этим в системе должна быть установлена ASCO."
 
 #: ../../source/start_opt.rst:12
 msgid ""
-"Optimization of a circuit is nothing more than the minimization of a cost "
-"function. It can either be the delay or the rise time of a digital circuit, "
-"or the power or gain of an analog circuit. Another possibility is defining "
-"the optimization problem as a composition of functions, leading in this case"
-" to the definition of a figure-of-merit."
-msgstr "Оптимизация цепи - это ничто иное, как минимизация функции стоимости. Это может быть время задержки или нарастания цифровой цепи, либо мощность или усиление аналоговой цепи. Еще одна возможность - определить задачу оптимизации как сочетание функций, что в этом случае ведет к определению показателя добротности."
+"Optimization of a circuit is nothing more than the minimization of a cost"
+" function. It can either be the delay or the rise time of a digital "
+"circuit, or the power or gain of an analog circuit. Another possibility "
+"is defining the optimization problem as a composition of functions, "
+"leading in this case to the definition of a figure-of-merit."
+msgstr ""
+"Оптимизация цепи - это ничто иное, как минимизация функции стоимости. Это"
+" может быть время задержки или нарастания цифровой цепи, либо мощность "
+"или усиление аналоговой цепи. Еще одна возможность - определить задачу "
+"оптимизации как сочетание функций, что в этом случае ведет к определению "
+"показателя добротности."
 
 #: ../../source/start_opt.rst:18
 msgid ""
-"To setup a netlist for optimization two things must be added to the already "
-"existing netlist: insert equation(s) and the optimization component block. "
-"Take the schematic from Figure 1 and change it until you have the resulting "
-"schematic given in Figure 2."
-msgstr "Для подготовки списка связей к оптимизации две вещи должны быть добавлены к уже существующей схеме: нужно вставить уравнение(я) и блок компонента оптимизации. Возьмите схему из рис. 1 и внесите в нее изменения так, чтобы получить в результате схему на рис. 2."
+"To setup a netlist for optimization two things must be added to the "
+"already existing netlist: insert equation(s) and the optimization "
+"component block. Take the schematic from Figure 1 and change it until you"
+" have the resulting schematic given in Figure 2."
+msgstr ""
+"Для подготовки списка связей к оптимизации две вещи должны быть добавлены"
+" к уже существующей схеме: нужно вставить уравнение(я) и блок компонента "
+"оптимизации. Возьмите схему из рис. 1 и внесите в нее изменения так, "
+"чтобы получить в результате схему на рис. 2."
 
 #: ../../source/start_opt.rst:24
 msgid "|image1_EN|"
@@ -67,12 +80,18 @@ msgstr "Рис. 2 - Подготовленная схема."
 
 #: ../../source/start_opt.rst:34
 msgid ""
-"Now, open the optimization component and select the optimization tab. From "
-"the existing parameters, special attention should be paid to 'Maximum number"
-" of iterations', 'Constant F' and 'Crossing over factor'. Over- or "
-"underestimation can lead to a premature convergence of the optimizer to a "
-"local minimum or, a very long optimization time."
-msgstr "Теперь откройте компонент оптимизации и выберите вкладку 'Алгоритм'. Из имеющихся тут параметров особое внимание должно быть уделено параметрам 'Максимальное число итераций', 'Постоянная F' и 'Фактор пересечения'. Завышение или занижение этих параметров может привести к преждевременной сходимости оптимизатора, к локальному минимуму или к очень долгой оптимизации."
+"Now, open the optimization component and select the optimization tab. "
+"From the existing parameters, special attention should be paid to "
+"'Maximum number of iterations', 'Constant F' and 'Crossing over factor'. "
+"Over- or underestimation can lead to a premature convergence of the "
+"optimizer to a local minimum or, a very long optimization time."
+msgstr ""
+"Теперь откройте компонент оптимизации и выберите вкладку 'Алгоритм'. Из "
+"имеющихся тут параметров особое внимание должно быть уделено параметрам "
+"'Максимальное число итераций', 'Постоянная F' и 'Фактор пересечения'. "
+"Завышение или занижение этих параметров может привести к преждевременной "
+"сходимости оптимизатора, к локальному минимуму или к очень долгой "
+"оптимизации."
 
 #: ../../source/start_opt.rst:41
 msgid "|image3_EN|"
@@ -84,11 +103,15 @@ msgstr "Рис. 3 - Диалог оптимизации, параметры ал
 
 #: ../../source/start_opt.rst:46
 msgid ""
-"In the Variables tab, defining which circuit elements will be chosen from "
-"the allowed range, as shown in Figure 4. The variable names correspond to "
-"the identifiers placed into properties of components and **not** the "
+"In the Variables tab, defining which circuit elements will be chosen from"
+" the allowed range, as shown in Figure 4. The variable names correspond "
+"to the identifiers placed into properties of components and **not** the "
 "components' names."
-msgstr "На вкладке \"Переменные\" определяется, какие элементы цепи будут выбраны и диапазоны их допустимых значений (рис. 4). Имена переменных соответствуют идентификаторам, помещенным в свойствах компонентов, а не именам компонентов."
+msgstr ""
+"На вкладке \"Переменные\" определяется, какие элементы цепи будут выбраны"
+" и диапазоны их допустимых значений (рис. 4). Имена переменных "
+"соответствуют идентификаторам, помещенным в свойствах компонентов, а не "
+"именам компонентов."
 
 #: ../../source/start_opt.rst:52
 msgid "|image4_EN|"
@@ -100,10 +123,15 @@ msgstr "Рис. 4 - Диалог оптимизации, параметры пе
 
 #: ../../source/start_opt.rst:56
 msgid ""
-"Finally, go to Goals where the optimization objective (maximize, minimize) "
-"and constraints (less, greater, equal) are defined. ASCO then automatically "
-"combines them into a single cost function, that is then minimized."
-msgstr "Наконец, переходите к \"Целям\", где задаются цели оптимизации (сделать максимальным, сделать минимальным) и ограничения (меньше, больше, равно). Затем ASCO автоматически объединяет их в одну функцию стоимости, которая делается минимальной."
+"Finally, go to Goals where the optimization objective (maximize, "
+"minimize) and constraints (less, greater, equal) are defined. ASCO then "
+"automatically combines them into a single cost function, that is then "
+"minimized."
+msgstr ""
+"Наконец, переходите к \"Целям\", где задаются цели оптимизации (сделать "
+"максимальным, сделать минимальным) и ограничения (меньше, больше, равно)."
+" Затем ASCO автоматически объединяет их в одну функцию стоимости, которая"
+" делается минимальной."
 
 #: ../../source/start_opt.rst:62
 msgid "|image5_EN|"
@@ -115,9 +143,13 @@ msgstr "Рис. 5 - Диалог оптимизации, параметры це
 
 #: ../../source/start_opt.rst:67
 msgid ""
-"The next step is to change the schematic, and define which circuit elements "
-"are to be optimized. The resulting schematic is show in Figure 6."
-msgstr "Следующий шаг состоит в изменении схемы и определении, какие элементы требуется оптимизировать. Полученная в результате схема изображена на рис. 6."
+"The next step is to change the schematic, and define which circuit "
+"elements are to be optimized. The resulting schematic is show in Figure "
+"6."
+msgstr ""
+"Следующий шаг состоит в изменении схемы и определении, какие элементы "
+"требуется оптимизировать. Полученная в результате схема изображена на "
+"рис. 6."
 
 #: ../../source/start_opt.rst:72
 msgid "|image6_EN|"
@@ -129,10 +161,14 @@ msgstr "Рис. 6 - Новое главное окно Qucs."
 
 #: ../../source/start_opt.rst:76
 msgid ""
-"The last step is to run the optimization, i.e. the simulation by pressing "
-"F2. Once finished, which takes a few seconds on a modern computer, the best "
-"simulation results is shown in the graphical waveform viewer."
-msgstr "Последний шаг - запуск оптимизации, то есть моделирования, нажатием клавиши F2. По кончании работы, на которую на современном компьютере уйдет всего несколько секунд, наилучшие результаты моделирования будут показаны в графическом виде."
+"The last step is to run the optimization, i.e. the simulation by pressing"
+" F2. Once finished, which takes a few seconds on a modern computer, the "
+"best simulation results is shown in the graphical waveform viewer."
+msgstr ""
+"Последний шаг - запуск оптимизации, то есть моделирования, нажатием "
+"клавиши F2. По кончании работы, на которую на современном компьютере "
+"уйдет всего несколько секунд, наилучшие результаты моделирования будут "
+"показаны в графическом виде."
 
 #: ../../source/start_opt.rst:82
 msgid "|image7_EN|"
@@ -144,10 +180,13 @@ msgstr "Рис. 7 - Окно Qucs с результатами."
 
 #: ../../source/start_opt.rst:87
 msgid ""
-"The best found circuit sizes can be found in the optimization dialog, in the"
-" Variables tab. They are now the initial values for each one of introduced "
-"variables (Figure 8)."
-msgstr "Оптимальные параметры цепи могут быть найдены в диалоге оптимизации, на вкладке \"Переменные\". Теперь они являются начальными значениями каждой из представленных переменных (рис. 8)."
+"The best found circuit sizes can be found in the optimization dialog, in "
+"the Variables tab. They are now the initial values for each one of "
+"introduced variables (Figure 8)."
+msgstr ""
+"Оптимальные параметры цепи могут быть найдены в диалоге оптимизации, на "
+"вкладке \"Переменные\". Теперь они являются начальными значениями каждой "
+"из представленных переменных (рис. 8)."
 
 #: ../../source/start_opt.rst:92
 msgid "|image8_EN|"
@@ -161,9 +200,9 @@ msgstr "Рис. 8 - Лучшие найденные параметры цепи.
 msgid ""
 "By clicking the \"Copy current values to equation\" button, an equation "
 "component defining all the optimization variables with the values of the "
-"\"initial\" column will be copied to the clipboard and can be pasted to the "
-"schematic after closing the optimization dialog. The resulting schematic "
-"will be as shown in the next figure."
+"\"initial\" column will be copied to the clipboard and can be pasted to "
+"the schematic after closing the optimization dialog. The resulting "
+"schematic will be as shown in the next figure."
 msgstr ""
 
 #: ../../source/start_opt.rst:101
@@ -177,16 +216,24 @@ msgstr "Рис. 9 - Схема с оптимизированными значе�
 #: ../../source/start_opt.rst:106
 msgid ""
 "in case you need to do further modifications to the schematic, the "
-"optimization component can now be disabled and the optimized values from the"
-" pasted equation will be used."
-msgstr "в случае, если вам нужно сделать дополнительные изменения в схеме, компонент оптимизации теперь может быть отключен и будут использоваться оптимизированные значения из вставленного уравнения."
+"optimization component can now be disabled and the optimized values from "
+"the pasted equation will be used."
+msgstr ""
+"в случае, если вам нужно сделать дополнительные изменения в схеме, "
+"компонент оптимизации теперь может быть отключен и будут использоваться "
+"оптимизированные значения из вставленного уравнения."
 
 #: ../../source/start_opt.rst:108
 msgid ""
-"You can change the number of figures shown for the optimized values in the "
-"optimization dialog by right-clicking on the \"initial\" table header and "
-"selecting the \"Set precision\" menu, as shown in the following figure."
-msgstr "Вы можете изменить количество фигур, показанных для оптимизированных значений в диалоге оптимизации, щёлкнув правой кнопкой мыши на \"начальном\" заголовке таблицы и выбрав меню \"Установить точность\", как показано на следующем рисунке."
+"You can change the number of figures shown for the optimized values in "
+"the optimization dialog by right-clicking on the \"initial\" table header"
+" and selecting the \"Set precision\" menu, as shown in the following "
+"figure."
+msgstr ""
+"Вы можете изменить количество фигур, показанных для оптимизированных "
+"значений в диалоге оптимизации, щёлкнув правой кнопкой мыши на "
+"\"начальном\" заголовке таблицы и выбрав меню \"Установить точность\", "
+"как показано на следующем рисунке."
 
 #: ../../source/start_opt.rst:111
 msgid "|image10_EN|"
@@ -195,3 +242,8 @@ msgstr "|image10_EN|"
 #: ../../source/start_opt.rst:113
 msgid "Figure 10 - Changing the displayed variables precision."
 msgstr "Рис. 10 - Изменение точности отображаемых переменных."
+
+#: ../../source/start_opt.rst:118
+msgid "`back to the top <#top>`__"
+msgstr ""
+

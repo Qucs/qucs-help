@@ -1,123 +1,166 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2014, Qucs Team (2014)
 # This file is distributed under the same license as the Qucs Help package.
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-13 05:08+0100\n"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
 "PO-Revision-Date: 2015-01-13 04:51+0000\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/projects/p/qucs-help/language/uk/)\n"
+"Language-Team: Ukrainian (http://www.transifex.com/projects/p/qucs-"
+"help/language/uk/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.3.4\n"
 
-# 5bbbc06d849d43d0929a0d76c4a37134
 #: ../../source/start_digi.rst:3
 msgid "Getting Started with Digital Simulations"
 msgstr "Швидкий старт в цифровому моделюванні"
 
-# 2fb644ebef5a40cd9ce7ffa1734f8639
 #: ../../source/start_digi.rst:6
 msgid ""
-"Qucs is also a graphical user interface for performing digital simulations. "
-"This document should give you a short description on how to use it."
-msgstr "Qucs - надає також графічний інтерфейс користувачу для виконання цифрового моделювання. Даний документ коротенько описує, як для цього користовуватись Qucs."
+"Qucs is also a graphical user interface for performing digital "
+"simulations. This document should give you a short description on how to "
+"use it."
+msgstr ""
+"Qucs - надає також графічний інтерфейс користувачу для виконання "
+"цифрового моделювання. Даний документ коротенько описує, як для цього "
+"користовуватись Qucs."
 
-# 6036d1ca31d3409899026d6c131de042
 #: ../../source/start_digi.rst:10
+#, fuzzy
 msgid ""
 "For digital simulations Qucs uses the FreeHDL program "
-"(`http://www.freehdl.seul.org <http://www.freehdl.seul.org>`__). So the "
+"(`http://www.freehdl.seul.org <http://www.freehdl.seul.org>`_). So the "
 "FreeHDL package as well as the GNU C++ compiler must be installed on the "
 "computer."
-msgstr "Для цифрового моделювання Qucs використовує програму FreeHDL (http://www.freehdl.seul.org). Тому пакет FreeHDL, разом з компілятором GNU С++ необхідно встановити на комп'ютері."
+msgstr ""
+"Для цифрового моделювання Qucs використовує програму FreeHDL "
+"(http://www.freehdl.seul.org). Тому пакет FreeHDL, разом з компілятором "
+"GNU С++ необхідно встановити на комп'ютері."
 
-# bd0f8b3eb86f46e18afdb09656034253
 #: ../../source/start_digi.rst:15
+#, fuzzy
 msgid ""
-"There is no big difference in running an analog or a digital simulation. So "
-"having read the `Getting Started for analog simulations <start.html>`__, it "
-"is now easy to get a digital simulation work. Let us compute the truth table"
-" of a simple logical AND cell. Select the digital components in the combobox"
-" of the components tab on the left-hand side and build the circuit shown in "
-"figure 1. The digital simulation block can be found among the other "
-"simulation blocks."
-msgstr "Немає великої різниці у виконанні аналогового чи цифрового моделювання. Тому після прочитання `Швидкий старт в аналоговому моделюванні <start.html>`__ можна легко домогтися, щоб працювало цифрове моделювання. Давайте розрахуємо таблицю істинності простого логічного елемента І. Виберіть цифрові компоненти що в списку вкладки компонентів зліва і побудуйте схему, зображену на мал. 1. Блок цифрового моделювання можна знайти серед інших блоків моделювання."
+"There is no big difference in running an analog or a digital simulation. "
+"So having read the `Getting Started for analog simulations "
+"<start.html>`_, it is now easy to get a digital simulation work. Let us "
+"compute the truth table of a simple logical AND cell. Select the digital "
+"components in the combobox of the components tab on the left-hand side "
+"and build the circuit shown in figure 1. The digital simulation block can"
+" be found among the other simulation blocks."
+msgstr ""
+"Немає великої різниці у виконанні аналогового чи цифрового моделювання. "
+"Тому після прочитання `Швидкий старт в аналоговому моделюванні "
+"<start.html>`__ можна легко домогтися, щоб працювало цифрове моделювання."
+" Давайте розрахуємо таблицю істинності простого логічного елемента І. "
+"Виберіть цифрові компоненти що в списку вкладки компонентів зліва і "
+"побудуйте схему, зображену на мал. 1. Блок цифрового моделювання можна "
+"знайти серед інших блоків моделювання."
 
-# 39971f734bd64a36bdc7b3863efce19e
 #: ../../source/start_digi.rst:23
 msgid ""
 "The digital sources *S1* and *S2* are the inputs, the node labeled as "
-"*Output* is the output. After performing the simulation, the data display "
-"page opens. Place the diagram *truth table* on it and insert the variable "
-"*Output*. Now the truth table of a two-port AND cell is shown. "
+"*Output* is the output. After performing the simulation, the data display"
+" page opens. Place the diagram *truth table* on it and insert the "
+"variable *Output*. Now the truth table of a two-port AND cell is shown. "
 "Congratulation, the first digital simulation is done!"
-msgstr "Цифрові джерела S1 і S2 підключені до входів, вузол з міткою Output є виходом. Після виконання моделювання відкривається сторінка показу даних. Помістіть на неї діаграму Таблиця істинності і вставте зміну Output. Тепер показується таблиця істинності дво-вхідного елемента І. Поздоровлення, перше цифрове моделювання зроблено!"
+msgstr ""
+"Цифрові джерела S1 і S2 підключені до входів, вузол з міткою Output є "
+"виходом. Після виконання моделювання відкривається сторінка показу даних."
+" Помістіть на неї діаграму Таблиця істинності і вставте зміну Output. "
+"Тепер показується таблиця істинності дво-вхідного елемента І. "
+"Поздоровлення, перше цифрове моделювання зроблено!"
 
-# fa3177ad45254943a90db5214a9af409
 #: ../../source/start_digi.rst:30
 msgid "|image1_EN|"
 msgstr "|image1_UK|"
 
-# 26b317f5f9d74be5bebf4e1f208c0a6b
 #: ../../source/start_digi.rst:32
 msgid "Figure 1 - Qucs main window"
 msgstr "Мал. 1 - Головне вікно Qucs"
 
-# 8b1dd7a8b222449a8202c0c9edc0b21a
 #: ../../source/start_digi.rst:37
 msgid ""
-"A truth table is not the only digital simulation that Qucs can perform. It "
-"is also possible to apply an arbitrary signal to a circuit and see the "
-"output signal in a timing diagram. To do so, the parameter *Type* of the "
-"simulation block must be changed to *TimeList* and the duration of the "
-"simulation must be entered in the next parameter. The digital sources have "
-"now a different meaning: They can output an arbitrary bit sequence by "
-"defining the first bit (low or high) and a list that sets the times until "
-"the next change of state. Note that this list repeats itself after its end. "
-"So, to create a 1GHz clock with pulse ratio 1:1, the list writes: 0.5ns; "
-"0.5ns"
-msgstr "Таблиця істинності - далеко не єдиний вид моделювання, котрий можна виконати в Qucs. Можливо також подати на вхід випадковий сигнал і подивитися вихідний сигнал в часовій діаграмі. Для цього, треба поміняти параметр Type блоку моделювання на TimeList і у наступному параметрі слід ввести тривалість моделювання. Тепер в цифрових джерел інший зміст: вони можуть видавати випадкову послідовність бітів, для цього їм потрібно вказати перший біт (низький чи високий) і список моментів часу наступної зміни стану. Зверніть увагу, що цей перелік повторюється після кінця. Тому, щоб отримати тактові імпульси з частотою 1 ГГц і скважністью 1:1, у списку має бути записано: 0.5ns; 0.5ns."
+"A truth table is not the only digital simulation that Qucs can perform. "
+"It is also possible to apply an arbitrary signal to a circuit and see the"
+" output signal in a timing diagram. To do so, the parameter *Type* of the"
+" simulation block must be changed to *TimeList* and the duration of the "
+"simulation must be entered in the next parameter. The digital sources "
+"have now a different meaning: They can output an arbitrary bit sequence "
+"by defining the first bit (low or high) and a list that sets the times "
+"until the next change of state. Note that this list repeats itself after "
+"its end. So, to create a 1GHz clock with pulse ratio 1:1, the list "
+"writes: 0.5ns; 0.5ns"
+msgstr ""
+"Таблиця істинності - далеко не єдиний вид моделювання, котрий можна "
+"виконати в Qucs. Можливо також подати на вхід випадковий сигнал і "
+"подивитися вихідний сигнал в часовій діаграмі. Для цього, треба поміняти "
+"параметр Type блоку моделювання на TimeList і у наступному параметрі слід"
+" ввести тривалість моделювання. Тепер в цифрових джерел інший зміст: вони"
+" можуть видавати випадкову послідовність бітів, для цього їм потрібно "
+"вказати перший біт (низький чи високий) і список моментів часу наступної "
+"зміни стану. Зверніть увагу, що цей перелік повторюється після кінця. "
+"Тому, щоб отримати тактові імпульси з частотою 1 ГГц і скважністью 1:1, у"
+" списку має бути записано: 0.5ns; 0.5ns."
 
-# f201211fc5df4850a3a616d1ad5d075f
 #: ../../source/start_digi.rst:48
 msgid ""
-"To display the result of this simulation type, there is the diagram *timing "
-"diagram*. Here, the result of all output nodes can be shown row by row in "
-"one diagram. So, let's have fun..."
-msgstr "Для відображення результатів цього моделювання є часова діаграма. У ній результати всіх вихідних сигналів можуть бути зображені пострічково в одній діаграмі. Отож успіхів у цій справі..."
+"To display the result of this simulation type, there is the diagram "
+"*timing diagram*. Here, the result of all output nodes can be shown row "
+"by row in one diagram. So, let's have fun..."
+msgstr ""
+"Для відображення результатів цього моделювання є часова діаграма. У ній "
+"результати всіх вихідних сигналів можуть бути зображені пострічково в "
+"одній діаграмі. Отож успіхів у цій справі..."
 
-# 5cad465b46f54e8b8b3f801a0a60218b
 #: ../../source/start_digi.rst:55
 msgid "VHDL File Component"
 msgstr "Файловий компонент VHDL"
 
-# 68edbaff7f4646f190cdd59c399c184f
 #: ../../source/start_digi.rst:58
 msgid ""
 "More complex and more universal simulations can be performed using the "
-"component \"VHDL file\". This component can be picked up from the component "
-"list view (section \"digital components\"). Nevertheless the recommended "
-"usage is the following: The VHDL file should be a member of the project. "
-"Then go to the content list view and click on the file name. After entering "
-"the schematic area, the VHDL component can be placed."
-msgstr "Більш складні і більш універсальні види моделювання можуть бути виконані з допомогою компонента \"файл VHDL\". Цей компонент можна взятий з списку компонентів (розділ \"цифрові компоненти\"). Проте, рекомендується наступний спосіб: файл VHDL повинен бути в складі проекту. Потім перейдіть в перегляд вмісту проекту й натисніть ім'я файла. Зайшовши у область побудови схем, помістіть компонент VHDL."
+"component \"VHDL file\". This component can be picked up from the "
+"component list view (section \"digital components\"). Nevertheless the "
+"recommended usage is the following: The VHDL file should be a member of "
+"the project. Then go to the content list view and click on the file name."
+" After entering the schematic area, the VHDL component can be placed."
+msgstr ""
+"Більш складні і більш універсальні види моделювання можуть бути виконані "
+"з допомогою компонента \"файл VHDL\". Цей компонент можна взятий з списку"
+" компонентів (розділ \"цифрові компоненти\"). Проте, рекомендується "
+"наступний спосіб: файл VHDL повинен бути в складі проекту. Потім "
+"перейдіть в перегляд вмісту проекту й натисніть ім'я файла. Зайшовши у "
+"область побудови схем, помістіть компонент VHDL."
 
-# 0caa769a410f4404b0d2d6d680e56b16
 #: ../../source/start_digi.rst:66
 msgid ""
-"The last entity block in the VHDL file defines the interface, that is, all "
-"input and output ports must be declared here. These ports are also shown by "
-"the schematic symbol and can be connected to the rest of the circuit. During"
-" simulation the source code of the VHDL file is placed into the top-level "
-"VHDL file. This must be considered as it causes some limitations. For "
-"example, the entity names within the VHDL file must differ from names "
-"already given to subcircuits. (After a simulation, the complete source code "
-"can be seen by pressing F6. Use it to get a feeling for this procedure.)"
-msgstr "Останній об'єктний блок в файлі VHDL визначає інтерфейс, тобто тут повинні бути оголошені всі вхідні і вихідні виводи. Такі виводи показуються також на схемному позначенні і можуть бути з'єднані з іншою схемою. Під час моделювання вихідний код файла VHDL поміститься у VHDL-файл верхнього рівня. Це треба враховувати, оскільки це веде до деяких обмежень. Наприклад, імена об'єктів у VHDL-файлі мають відрізнятись від іменам, вже даних підсхемам. (Після моделювання повний вихідний код можна переглянути, натиснувши F6. Користуйтеся цим, щоб відчути процес.)"
+"The last entity block in the VHDL file defines the interface, that is, "
+"all input and output ports must be declared here. These ports are also "
+"shown by the schematic symbol and can be connected to the rest of the "
+"circuit. During simulation the source code of the VHDL file is placed "
+"into the top-level VHDL file. This must be considered as it causes some "
+"limitations. For example, the entity names within the VHDL file must "
+"differ from names already given to subcircuits. (After a simulation, the "
+"complete source code can be seen by pressing F6. Use it to get a feeling "
+"for this procedure.)"
+msgstr ""
+"Останній об'єктний блок в файлі VHDL визначає інтерфейс, тобто тут "
+"повинні бути оголошені всі вхідні і вихідні виводи. Такі виводи "
+"показуються також на схемному позначенні і можуть бути з'єднані з іншою "
+"схемою. Під час моделювання вихідний код файла VHDL поміститься у "
+"VHDL-файл верхнього рівня. Це треба враховувати, оскільки це веде до "
+"деяких обмежень. Наприклад, імена об'єктів у VHDL-файлі мають "
+"відрізнятись від іменам, вже даних підсхемам. (Після моделювання повний "
+"вихідний код можна переглянути, натиснувши F6. Користуйтеся цим, щоб "
+"відчути процес.)"
+
+#: ../../source/start_digi.rst:78
+msgid "`back to the top <#top>`__"
+msgstr ""
+

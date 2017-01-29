@@ -3,15 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help 0.0.19\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-16 15:55+0100\n"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
 "PO-Revision-Date: 2014-12-18 18:09+0100\n"
 "Last-Translator: Guilherme Brondani Torri <guitorri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt\n"
-"X-Generator: Poedit 1.7.1\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../source/characters.rst:3
 msgid "List of Special Characters"
@@ -23,17 +22,17 @@ msgid ""
 "text of the diagram axis labels. This is done by using LaTeX tags. The "
 "following table contains a list of currently available characters."
 msgstr ""
-"É possível utilizar caracteres especiais em textos desenhados e nos rótulos "
-"dos eixos dos diagramas. Isso é feito usando as tags LaTeX. A tabela "
-"seguinte contém uma lista dos caracteres atualmente disponíveis."
+"É possível utilizar caracteres especiais em textos desenhados e nos "
+"rótulos dos eixos dos diagramas. Isso é feito usando as tags LaTeX. A "
+"tabela seguinte contém uma lista dos caracteres atualmente disponíveis."
 
 #: ../../source/characters.rst:10
 msgid ""
-"**Note:** Which of those characters are correctly displayed depends on the "
-"font used by Qucs!"
+"**Note:** Which of those characters are correctly displayed depends on "
+"the font used by Qucs!"
 msgstr ""
-"Nota: Os caracteres destes que serão corretamente exibidos dependem da fonte "
-"utilizada pelo Qucs!"
+"Nota: Os caracteres destes que serão corretamente exibidos dependem da "
+"fonte utilizada pelo Qucs!"
 
 #: ../../source/characters.rst:13
 msgid "**Small Greek letters**"
@@ -741,3 +740,8 @@ msgstr "``\\ohm``"
 #: ../../source/characters.rst:146
 msgid "unit for resistance (capital Greek omega)"
 msgstr "unidade de resistência (omega Maiúscula Grega)"
+
+#: ../../source/characters.rst:151
+msgid "`back to the top <#top>`__"
+msgstr ""
+

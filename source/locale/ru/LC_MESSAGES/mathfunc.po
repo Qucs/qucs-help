@@ -1,22 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2014, Qucs Team (2014)
 # This file is distributed under the same license as the Qucs Help package.
-# 
+#
 # Translators:
 # AlexL <loginov.alex.valer@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Qucs Help\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-07 21:37+0100\n"
+"POT-Creation-Date: 2017-01-30 00:03+0100\n"
 "PO-Revision-Date: 2016-11-17 13:09+0000\n"
 "Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/qucs/qucs-help/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/qucs/qucs-"
+"help/language/ru/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../source/mathfunc.rst:3
 msgid "Short Description of Mathematical Functions"
@@ -24,10 +24,13 @@ msgstr "Краткое описание математических функц�
 
 #: ../../source/mathfunc.rst:6
 msgid ""
-"The following operations and functions can be applied in Qucs equations. For"
-" detailed description please refer to the \"Measurement Expressions "
+"The following operations and functions can be applied in Qucs equations. "
+"For detailed description please refer to the \"Measurement Expressions "
 "Reference Manual\". Parameters in brackets \"[]\" are optional."
-msgstr "В уравнениях Qucs могут применяться следующие операции и функции. Подробное описание смотрите в \"Справочном руководстве по выражениям\". Параметры в квадратных скобках \"[]\" необязательны."
+msgstr ""
+"В уравнениях Qucs могут применяться следующие операции и функции. "
+"Подробное описание смотрите в \"Справочном руководстве по выражениям\". "
+"Параметры в квадратных скобках \"[]\" необязательны."
 
 #: ../../source/mathfunc.rst:11
 msgid "Operators"
@@ -142,8 +145,7 @@ msgid "``x?y:z``"
 msgstr "``x?y:z``"
 
 #: ../../source/mathfunc.rst:46
-msgid ""
-"Abbreviation for conditional expression - if ``x`` then ``y`` else ``z``"
+msgid "Abbreviation for conditional expression - if ``x`` then ``y`` else ``z``"
 msgstr "Сокращение для условного выражения - if ``x`` then ``y`` else ``z``"
 
 #: ../../source/mathfunc.rst:48
@@ -223,18 +225,20 @@ msgid "``linspace(from,to,n)``"
 msgstr "``linspace(from,to,n)``"
 
 #: ../../source/mathfunc.rst:74
-msgid ""
-"Real vector with ``n`` lin spaced components between ``from`` and ``to``"
-msgstr "Вещественный вектор с ``n`` линейно расставленными компонентами между ``from`` и ``to``"
+msgid "Real vector with ``n`` lin spaced components between ``from`` and ``to``"
+msgstr ""
+"Вещественный вектор с ``n`` линейно расставленными компонентами между "
+"``from`` и ``to``"
 
 #: ../../source/mathfunc.rst:76
 msgid "``logspace(from,to,n)``"
 msgstr "``logspace(from,to,n)``"
 
 #: ../../source/mathfunc.rst:76
-msgid ""
-"Real vector with ``n`` log spaced components between ``from`` and ``to``"
-msgstr "Вещественный вектор с ``n`` логарифмически расставленными компонентами между ``from`` и ``to``"
+msgid "Real vector with ``n`` log spaced components between ``from`` and ``to``"
+msgstr ""
+"Вещественный вектор с ``n`` логарифмически расставленными компонентами "
+"между ``from`` и ``to``"
 
 #: ../../source/mathfunc.rst:80
 msgid "Vectors and Matrices: Basic Matrix Functions"
@@ -274,7 +278,9 @@ msgstr "Транспонированная матрица для x (столбц
 
 #: ../../source/mathfunc.rst:93
 msgid "Elementary Mathematical Functions: Basic Real and Complex Functions"
-msgstr "Элементарные математические функции: основные вещественные и комплексные функции"
+msgstr ""
+"Элементарные математические функции: основные вещественные и комплексные "
+"функции"
 
 #: ../../source/mathfunc.rst:96
 msgid "``abs(x)``"
@@ -409,14 +415,16 @@ msgid "``unwrap(p[,tol[,step]])``"
 msgstr "``unwrap(p[,tol[,step]])``"
 
 #: ../../source/mathfunc.rst:128
-msgid ""
-"Unwrap angle ``p`` (radians) -- defaults ``step`` =  2\\pi, ``tol`` =  pi"
-msgstr "Разворачивает угол ``p`` (радианы)  -- по умолчанию ``step`` = 2\\pi, ``tol`` = pi"
+msgid "Unwrap angle ``p`` (radians) -- defaults ``step`` =  2\\pi, ``tol`` =  pi"
+msgstr ""
+"Разворачивает угол ``p`` (радианы)  -- по умолчанию ``step`` = 2\\pi, "
+"``tol`` = pi"
 
 #: ../../source/mathfunc.rst:132
-msgid ""
-"Elementary Mathematical Functions: Exponential and Logarithmic Functions"
-msgstr "Элементарные математические функции: экспоненциальные и логарифмические функции"
+msgid "Elementary Mathematical Functions: Exponential and Logarithmic Functions"
+msgstr ""
+"Элементарные математические функции: экспоненциальные и логарифмические "
+"функции"
 
 #: ../../source/mathfunc.rst:135
 msgid "``exp(x)``"
@@ -790,7 +798,9 @@ msgstr "``avg(x[,range])``"
 msgid ""
 "Average of vector ``x``. If range given ``x`` must have a single data "
 "dependency"
-msgstr "Среднее значение вектора ``x``. Если задан диапазон, то в ``x`` должна быть однозначная зависимость данных"
+msgstr ""
+"Среднее значение вектора ``x``. Если задан диапазон, то в ``x`` должна "
+"быть однозначная зависимость данных"
 
 #: ../../source/mathfunc.rst:256
 msgid "``cumavg(x)``"
@@ -816,7 +826,9 @@ msgstr "``max(x[,range])``"
 msgid ""
 "Maximum of vector ``x``. If range given ``x`` must have a single data "
 "dependency"
-msgstr "Максимум вектора ``x``. Если задан диапазон, то в ``x`` должна быть однозначная зависимость данных"
+msgstr ""
+"Максимум вектора ``x``. Если задан диапазон, то в ``x`` должна быть "
+"однозначная зависимость данных"
 
 #: ../../source/mathfunc.rst:262
 msgid "``min(x,y)``"
@@ -834,7 +846,9 @@ msgstr "``min(x[,range])``"
 msgid ""
 "Minimum of vector ``x``. If range is given ``x`` must have a single data "
 "dependency"
-msgstr "Минимум вектора ``x``. Если задан диапазон, то в ``x`` должна быть однозначная зависимость данных"
+msgstr ""
+"Минимум вектора ``x``. Если задан диапазон, то в ``x`` должна быть "
+"однозначная зависимость данных"
 
 #: ../../source/mathfunc.rst:266
 msgid "``rms(x)``"
@@ -910,7 +924,8 @@ msgstr "``interpolate(f,x[,n])``"
 
 #: ../../source/mathfunc.rst:287
 msgid ""
-"Spline interpolation of vector ``f`` using ``n`` equidistant points of ``x``"
+"Spline interpolation of vector ``f`` using ``n`` equidistant points of "
+"``x``"
 msgstr ""
 
 #: ../../source/mathfunc.rst:289
@@ -967,7 +982,9 @@ msgstr "``diff(y,x[,n])``"
 msgid ""
 "Differentiate vector ``y`` with respect to vector ``x`` ``n`` times.  "
 "Defaults to ``n`` = 1"
-msgstr "Дифференцировать вектор ``y`` по вектору ``x`` ``n`` раз. По умолчанию ``n`` = 1"
+msgstr ""
+"Дифференцировать вектор ``y`` по вектору ``x`` ``n`` раз. По умолчанию "
+"``n`` = 1"
 
 #: ../../source/mathfunc.rst:306
 msgid "``integrate(x,h)``"
@@ -1015,7 +1032,9 @@ msgstr "``Freq2Time(V,f)``"
 msgid ""
 "Inverse Discrete Fourier Transform of function ``V(f)`` interpreting it "
 "physically"
-msgstr "Обратное дискретное преобразование Фурье функции V(f) с физической интерпретацией"
+msgstr ""
+"Обратное дискретное преобразование Фурье функции V(f) с физической "
+"интерпретацией"
 
 #: ../../source/mathfunc.rst:321
 msgid "``idft(x)``"
@@ -1046,8 +1065,7 @@ msgid "``Time2Freq(v,t)``"
 msgstr "``Time2Freq(v,t)``"
 
 #: ../../source/mathfunc.rst:327
-msgid ""
-"Discrete Fourier Transform of function ``v(t)`` interpreting it physically"
+msgid "Discrete Fourier Transform of function ``v(t)`` interpreting it physically"
 msgstr "Дискретное преобразование Фурье функции v(t) с физической интерпретацией"
 
 #: ../../source/mathfunc.rst:331
@@ -1108,7 +1126,9 @@ msgstr "``rtoswr(x)``"
 
 #: ../../source/mathfunc.rst:352
 msgid "Converts reflection coefficient to voltage standing wave ratio (VSWR)"
-msgstr "Преобразует коэффициент отражения в коэффициент стоячей волны по напряжению (КСВН)"
+msgstr ""
+"Преобразует коэффициент отражения в коэффициент стоячей волны по "
+"напряжению (КСВН)"
 
 #: ../../source/mathfunc.rst:354
 msgid "``rtoy(x[,zref])``"
@@ -1116,35 +1136,41 @@ msgstr "``rtoy(x[,zref])``"
 
 #: ../../source/mathfunc.rst:354
 msgid ""
-"Converts reflection coefficient to admittance;  default  ``zref`` = 50 ohms"
-msgstr "Преобразует коэффициент отражения в полную проводимость; по умолчанию ``zref`` равно 50 Ом"
+"Converts reflection coefficient to admittance;  default  ``zref`` = 50 "
+"ohms"
+msgstr ""
+"Преобразует коэффициент отражения в полную проводимость; по умолчанию "
+"``zref`` равно 50 Ом"
 
 #: ../../source/mathfunc.rst:356
 msgid "``rtoz(x[,zref])``"
 msgstr "``rtoz(x[,zref])``"
 
 #: ../../source/mathfunc.rst:356
-msgid ""
-"Converts reflection coefficient to impedance;  default ``zref`` = 50 ohms"
-msgstr "Преобразует коэффициент отражения в полное сопротивление; по умолчанию ``zref`` равно 50 Ом"
+msgid "Converts reflection coefficient to impedance;  default ``zref`` = 50 ohms"
+msgstr ""
+"Преобразует коэффициент отражения в полное сопротивление; по умолчанию "
+"``zref`` равно 50 Ом"
 
 #: ../../source/mathfunc.rst:358
 msgid "``ytor(x[,zref])``"
 msgstr "``ytor(x[,zref])``"
 
 #: ../../source/mathfunc.rst:358
-msgid ""
-"Converts admittance to reflection coefficient;  default ``zref`` = 50 ohms"
-msgstr "Преобразует полную проводимость в коэффициент отражения; по умолчанию ``zref`` равно 50 Ом"
+msgid "Converts admittance to reflection coefficient;  default ``zref`` = 50 ohms"
+msgstr ""
+"Преобразует полную проводимость в коэффициент отражения; по умолчанию "
+"``zref`` равно 50 Ом"
 
 #: ../../source/mathfunc.rst:360
 msgid "``ztor(x[,zref])``"
 msgstr "``ztor(x[,zref])``"
 
 #: ../../source/mathfunc.rst:360
-msgid ""
-"Converts impedance to reflection coefficient;  default  ``zref`` = 50 ohms"
-msgstr "Преобразует полное сопротивление в коэффициент отражения; по умолчанию ``zref`` равно 50 Ом"
+msgid "Converts impedance to reflection coefficient;  default  ``zref`` = 50 ohms"
+msgstr ""
+"Преобразует полное сопротивление в коэффициент отражения; по умолчанию "
+"``zref`` равно 50 Ом"
 
 #: ../../source/mathfunc.rst:364
 msgid "N-Port Matrix Conversions"
@@ -1182,7 +1208,9 @@ msgstr "``twoport(m,from,to)``"
 msgid ""
 "Converts a two-port matrix:  ``from`` and ``to`` are 'Y', 'Z', 'H', 'G', "
 "'A', 'S' and 'T'."
-msgstr "Преобразует двух-портовую матрицу: ``from`` и ``to`` - это 'Y', 'Z', 'H', 'G', 'A', 'S' и 'T'."
+msgstr ""
+"Преобразует двух-портовую матрицу: ``from`` и ``to`` - это 'Y', 'Z', 'H',"
+" 'G', 'A', 'S' и 'T'."
 
 #: ../../source/mathfunc.rst:375
 msgid "``ytos(y[,z0])``"
@@ -1226,7 +1254,9 @@ msgstr "``GaCircle(s,Ga[,arcs])``"
 
 #: ../../source/mathfunc.rst:388
 msgid "Available power gain ``Ga`` circles (source plane )"
-msgstr "Доступный коэффициент усиления мощности ``Ga`` окружностей (плоскость источника)"
+msgstr ""
+"Доступный коэффициент усиления мощности ``Ga`` окружностей (плоскость "
+"источника)"
 
 #: ../../source/mathfunc.rst:390
 msgid "``GpCircle(s,Gp[,arcs])``"
@@ -1234,7 +1264,9 @@ msgstr "``GpCircle(s,Gp[,arcs])``"
 
 #: ../../source/mathfunc.rst:390
 msgid "Operating power gain ``Gp`` circles (load plane)"
-msgstr "Операционный коэффициент усиления мощности ``Gp`` окружностей (плоскость нагрузки)"
+msgstr ""
+"Операционный коэффициент усиления мощности ``Gp`` окружностей (плоскость "
+"нагрузки)"
 
 #: ../../source/mathfunc.rst:392
 msgid "``Mu(s)``"
@@ -1586,9 +1618,11 @@ msgstr "Переходной ток через компонент name"
 
 #: ../../source/mathfunc.rst:503
 msgid ""
-"Note: All voltages and currents are peak values. Note: Noise voltages are "
-"RMS values at 1 Hz bandwidth."
-msgstr "Примечание: Все напряжения и токи - пиковые значения.Примечание: Шумовые напряжения - СКЗ значения в полосе частот 1 Hz."
+"Note: All voltages and currents are peak values. Note: Noise voltages are"
+" RMS values at 1 Hz bandwidth."
+msgstr ""
+"Примечание: Все напряжения и токи - пиковые значения.Примечание: Шумовые "
+"напряжения - СКЗ значения в полосе частот 1 Hz."
 
 #: ../../source/mathfunc.rst:507
 msgid "Constants"
@@ -1633,3 +1667,8 @@ msgstr "``q``"
 #: ../../source/mathfunc.rst:518
 msgid "Elementary charge = 1.6021765e-19 C"
 msgstr "Элементарный заряд = 1.6021765e-19 Кл"
+
+#: ../../source/mathfunc.rst:524
+msgid "`back to the top <#top>`__"
+msgstr ""
+
