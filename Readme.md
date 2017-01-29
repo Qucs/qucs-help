@@ -103,7 +103,7 @@ Tested with:
 Basics
 ------
 
-The basic commands to update a are Below the basic commands The basics are done with the commands below.
+The basic commands to are exemplified below.
 
 - Check statistics of translated, untranslated and fuzzy strings
 
