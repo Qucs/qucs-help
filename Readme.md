@@ -35,7 +35,7 @@ How to add new documents and make corrections:
   - See `0.0.19` version <http://qucs-help.readthedocs.org/en/0.0.19/>
 
 
-Relese cycle (draft):
+Release cycle (draft):
 
 - Use the [*git flow*](http://nvie.com/posts/a-successful-git-branching-model/) branching model.
 
@@ -186,9 +186,9 @@ Each language is in a different stage of completion.
 
 To contribute new translation strings is quite simple.
 
-You can log in to [Qucs-Help on Transifex](https://www.transifex.com/projects/p/qucs-help/) and request to joing the team of translators.
+You can log in to [Qucs-Help on Transifex](https://www.transifex.com/projects/p/qucs-help/) and request to join the team of translators.
 
-You can also translate the PO files direclty on your compouter.
+You can also translate the PO files directly on your computer.
 Please notify the maintainers/translators do avoid work duplication
 
 - download the ``.po`` files that need attention
