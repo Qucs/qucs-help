@@ -3,7 +3,7 @@
 # Helper script to generate HTML documentation
 
 # generate localized html documentation
-languages=(cs de en es fr pt_BR ru uk)
+languages=(cs de en es fr ja pt_BR ru uk)
 
 # compile
 sphinx-intl -c source/conf.py build -d source/locale

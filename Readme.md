@@ -182,6 +182,7 @@ Each language is in a different stage of completion.
 - German - `de`
 - Spanish - `es`
 - French - `fr`
+- Japanese - `ja`
 - Portuguese (Brazilian)- `pt_BR`
 - Russian - `ru`
 - Ukrainian - `uk`
