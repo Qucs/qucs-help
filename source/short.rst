@@ -103,8 +103,9 @@ Mouse in "Content" Tab
 |                    +---------------------+----------------------------------------------+
 |                    |   "delete"          | - delete selected file                       |
 |                    +---------------------+----------------------------------------------+
-|                    |   "delete group     | - delete selected file and its relatives     |
-|                    |                     |   (schematic, data display, dataset)         |
+|                    |   "copy file"       | - copy schematic file. Only file operations  |
+|                    |                     |   are performed. Dataset and dispaly settings|
+|                    |                     |   in schematic properties are kept untouched.|
 +--------------------+---------------------+----------------------------------------------+
 
 
