@@ -436,7 +436,7 @@ Figure 13.18.3  A basic test bench for simulating the small signal AC performanc
 
 In Figure 13.18.3 the Qucs-S schematic symbol for a thin-film resistor shows a resistor colour code on a blue background. 
 Please note that the drawn colour code is just indicative of a typical axial resistor value and is identical for all resistor symbols placed on a schematic. 
-However, also note that the :math:`R0` parameter must be set to a specific value as required by the circuit under simulation test.
+However, also note that the :math:`R0` parameter must be set to a specific value as required by the circuit under simulation test. 
 
 .. image:: _static/en/chapter13/ResFig1384.png
 
