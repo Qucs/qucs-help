@@ -164,7 +164,7 @@ The line format is as follows (line break not allowed):
 
   <diatype x y width height grid gridcolor gridstyle log xAutoscale xmin
    xstep xmax yAutoscale ymin ystep ymax zAutoscale zmin zstep zmax
-   xrotate yrotate zrotate "xlabel" "ylabel" "zlabel">
+   xrotate yrotate zrotate "xlabel" "ylabel" "zlabel" "[freq Hz;]*">
       <"graphvar" color thickness precision numberformat style axisside>
       <Mkr x y precision numberformat transparent>
   </diatype>
@@ -179,6 +179,7 @@ Diagram line format:
    is red.
 -  The next number determines the style of the grid.
 -  The next number determines which axes have logarithmical scale.
+-  The list of frequencies ``"[freq Hz;]*"`` is used by ``Phasor`` and ``Waveac``.
 
 Here is a list of known diagram types:
 
@@ -193,6 +194,8 @@ Here is a list of known diagram types:
 -  ``Tab`` for a tabular diagram.
 -  ``Time`` for a timing diagram.
 -  ``Truth`` for a truth-table diagram.
+-  ``Phasor`` for a complex phasor diagram.
+-  ``Waveac`` for a wave as temporal diagram.
 
 Graph line format:
 
