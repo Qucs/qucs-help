@@ -172,14 +172,23 @@ The line format is as follows (line break not allowed):
 Diagram line format:
 
 -  The ``diatype`` token specifies the type of diagram.
--  The first two numbers are x and y coordinate of lower left corner.
--  The next two numbers are width and height of diagram boundings.
--  The fifth number is 1 if grid is on and 0 if grid is off.
--  The next is grid color in 24 bit hexadecimal RGB value, e.g. #FF0000
+-  The ``x`` and ``y`` numbers are the coordinate of lower left corner.
+-  The ``width`` and ``height`` numbers of diagram boundings.
+-  The ``grid`` flags with 1 if grid is on and 0 if grid is off.
+-  The ``gridColor`` in 24 bit hexadecimal RGB value, e.g. #FF0000
    is red.
--  The next number determines the style of the grid.
--  The next number determines which axes have logarithmical scale.
--  The list of frequencies ``"[freq Hz;]*"`` is used by ``Phasor`` and ``Waveac``.
+-  The ``gridstyle`` is the line style sued of the grid.
+-  The ``log`` has two field to flag which axes have logarithmical scale.
+-  The ``xAutoscale``, ``xmin``, ``xstep``, ``xmax``
+   configure the x-axis scaling, limits.
+-  The ``yAutoscale``, ``ymin``, ``ystep``, ``ymax``
+   configure the y-axis scaling, limits.
+-  The ``zAutoscale``, ``zmin``, ``zstep``, ``zmax``
+   configure the z-axis scaling, limits.
+-  The ``xrotate``, ``yrotate``, ``zrotate`` numbers set the 3D rotation.
+-  The ``xlabel``, ``ylabel``, ``zlabel`` hold the labels used on each axis.
+-  The list of frequencies ``"[freq Hz;]*"`` is used by ``Phasor``
+   and ``Waveac``.
 
 Here is a list of known diagram types:
 
